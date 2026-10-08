@@ -1,0 +1,72 @@
+[
+  {
+    "id": 13,
+    "image": "john-013-v2.jpg",
+    "prompt": "Edit the existing first input image. Keep the 16:9 cinematic natural-light photographic style, exposure, first-century limestone and linen materials, and all unaffected composition. No letters, text, logo, watermark, halo or magical glow. Change ONLY the stone purification jar count. There are currently five visible stone jars, three in front and two behind. Add a sixth matching large limestone purification jar in the rear center, replacing the wicker basket between the two rear stone jars. Make all SIX large stone jar mouths visibly countable: three in front, three behind. Fill the new jar with water like the others. Preserve every existing jar and all four servants, their pouring water, the wedding setting, lighting and camera framing. No seventh stone jar.",
+    "referenced_image_paths": [
+      "assets/john-013.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "image": "john-028-v2.jpg",
+    "prompt": "Edit the existing first input image. Keep the 16:9 cinematic natural-light photographic style, exposure, first-century limestone and linen materials, and all unaffected composition. No letters, text, logo, watermark, halo or magical glow. The SECOND input is a CHARACTER IDENTITY reference only. Make the Samaritan woman on the LEFT of the FIRST image the same original adult woman as the woman on the LEFT of the second image: same facial proportions, eyes, nose, dark hair, age and skin tone. Keep her exact original body pose, hand action, thoughtful or conversational expression, head covering, garment colors and placement. Change only her face and visible hair to match the reference identity. Do not copy the reference composition, jar, pose or expression. Preserve Jesus seen from behind, every other person, the well, architecture and landscape.",
+    "referenced_image_paths": [
+      "assets/john-028.jpg",
+      "assets/john-032.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "image": "john-029-v2.jpg",
+    "prompt": "Edit the existing first input image. Keep the 16:9 cinematic natural-light photographic style, exposure, first-century limestone and linen materials, and all unaffected composition. No letters, text, logo, watermark, halo or magical glow. Reframe this living-water illustration into an intimate close-up of the Samaritan woman’s hands holding the earthen cup with clear flowing water, against the same weathered limestone well rim and plain linen sleeve. Show the ripples, water, clay and fingertips as the key subject. No head, no face, no upper body; everyone’s face must be outside the frame. Preserve the warm daylight and earthy palette. It is an illustration of the living-water teaching, not a new literal event. No glittering or glowing water.",
+    "referenced_image_paths": [
+      "assets/john-029.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "image": "john-030-v2.jpg",
+    "prompt": "Edit the existing first input image. Keep the 16:9 cinematic natural-light photographic style, exposure, first-century limestone and linen materials, and all unaffected composition. No letters, text, logo, watermark, halo or magical glow. The SECOND input is a CHARACTER IDENTITY reference only. Make the Samaritan woman on the LEFT of the FIRST image the same original adult woman as the woman on the LEFT of the second image: same facial proportions, eyes, nose, dark hair, age and skin tone. Keep her exact original body pose, hand action, thoughtful or conversational expression, head covering, garment colors and placement. Change only her face and visible hair to match the reference identity. Do not copy the reference composition, jar, pose or expression. Preserve Jesus seen from behind, every other person, the well, architecture and landscape.",
+    "referenced_image_paths": [
+      "assets/john-030.jpg",
+      "assets/john-032.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "image": "john-031-v2.jpg",
+    "prompt": "Edit the existing first input image. Keep the 16:9 cinematic natural-light photographic style, exposure, first-century limestone and linen materials, and all unaffected composition. No letters, text, logo, watermark, halo or magical glow. The SECOND input is a CHARACTER IDENTITY reference only. Make the Samaritan woman on the LEFT of the FIRST image the same original adult woman as the woman on the LEFT of the second image: same facial proportions, eyes, nose, dark hair, age and skin tone. Keep her exact original body pose, hand action, thoughtful or conversational expression, head covering, garment colors and placement. Change only her face and visible hair to match the reference identity. Do not copy the reference composition, jar, pose or expression. Preserve Jesus seen from behind, every other person, the well, architecture and landscape.",
+    "referenced_image_paths": [
+      "assets/john-031.jpg",
+      "assets/john-032.jpg"
+    ]
+  },
+  {
+    "id": 85,
+    "image": "john-085-v2.jpg",
+    "prompt": "Edit the existing first input image. Keep the 16:9 cinematic natural-light photographic style, exposure, first-century limestone and linen materials, and all unaffected composition. No letters, text, logo, watermark, halo or magical glow. The SECOND input is a CHARACTER IDENTITY reference only: the middle-aged man washing his eyes in Siloam. In the FIRST input, change only the seated blind man at the LEFT to be the same adult man as this reference, with consistent age around forty, dark curly hair, short slightly salt-and-pepper beard, skin tone, brows and facial proportions. Preserve his original body position, clothing, gesture and scene-appropriate expression. His eyes should remain gently relaxed or closed, indicating the before-healing scene with dignity; no white cloudy eyes or disfigurement. Preserve every other person’s face, Jesus seen from behind when present, architecture, props, lighting and camera framing. Do not copy the reference washing pose or pool.",
+    "referenced_image_paths": [
+      "assets/john-085.jpg",
+      "assets/john-086.jpg"
+    ]
+  },
+  {
+    "id": 87,
+    "image": "john-087-v2.jpg",
+    "prompt": "Edit the existing first input image. Keep the 16:9 cinematic natural-light photographic style, exposure, first-century limestone and linen materials, and all unaffected composition. No letters, text, logo, watermark, halo or magical glow. The SECOND input is a CHARACTER IDENTITY reference only: the middle-aged man washing his eyes in Siloam. In the FIRST input, change only the central healed man explaining to his neighbors to be the same adult man as this reference, with consistent age around forty, dark curly hair, short slightly salt-and-pepper beard, skin tone, brows and facial proportions. Preserve his original body position, clothing, gesture and scene-appropriate expression. His eyes are healed and naturally open. Preserve every other person’s face, Jesus seen from behind when present, architecture, props, lighting and camera framing. Do not copy the reference washing pose or pool.",
+    "referenced_image_paths": [
+      "assets/john-087.jpg",
+      "assets/john-086.jpg"
+    ]
+  },
+  {
+    "id": 90,
+    "image": "john-090-v2.jpg",
+    "prompt": "Edit the existing first input image. Keep the 16:9 cinematic natural-light photographic style, exposure, first-century limestone and linen materials, and all unaffected composition. No letters, text, logo, watermark, halo or magical glow. The SECOND input is a CHARACTER IDENTITY reference only: the middle-aged man washing his eyes in Siloam. In the FIRST input, change only the central healed man standing at the synagogue doorway to be the same adult man as this reference, with consistent age around forty, dark curly hair, short slightly salt-and-pepper beard, skin tone, brows and facial proportions. Preserve his original body position, clothing, gesture and scene-appropriate expression. His eyes are healed and naturally open. Preserve every other person’s face, Jesus seen from behind when present, architecture, props, lighting and camera framing. Do not copy the reference washing pose or pool.",
+    "referenced_image_paths": [
+      "assets/john-090.jpg",
+      "assets/john-086.jpg"
+    ]
+  }
+]

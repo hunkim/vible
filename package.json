@@ -1,0 +1,13 @@
+{
+  "name": "vible",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A visual reading journey through the Gospel of John",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node serve.mjs",
+    "start": "node serve.mjs",
+    "check": "node --check app.js && node build.mjs"
+  }
+}
