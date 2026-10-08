@@ -12,3 +12,21 @@
 .immersive #visual-stage{flex:1;aspect-ratio:auto;height:100%}.immersive #visual{object-fit:contain;background:#17211c}
 
 #visual{object-fit:contain}
+
+/* Scripture becomes part of the cinematic scene. */
+.reading-workspace{display:block;padding:0 3% 18px;height:calc(100dvh - 196px);min-height:520px}
+.visual-column{height:100%;position:relative;align-self:auto}
+#visual-stage{flex:1;aspect-ratio:auto;height:100%;min-height:0;border-radius:12px;background:#17211c}
+#visual{object-fit:cover;object-position:center top}
+.text-column{position:absolute;inset:0 0 0 auto;width:43%;border:0;border-radius:0;background:linear-gradient(90deg,transparent,rgba(15,25,22,.68) 22%,rgba(15,25,22,.85));color:#fff9ed;padding:25px 30px 66px 65px;max-height:none;text-shadow:0 2px 12px #0008}
+.text-heading{border:0;padding:0 0 12px;font-size:10px;color:#e6d8bb;letter-spacing:.12em}
+#reader{padding:0 12px 24px 0;scrollbar-color:#fff5 transparent;mask-image:linear-gradient(to bottom,#000 92%,transparent)}
+.passage{border:0;padding:12px 0 25px}.passage h3{display:none}.passage p{line-height:1.95;margin-bottom:17px;font-size:var(--body-size);color:#fff9ed}.verse-number{color:#e6d8bb;opacity:.7}.passage.active{border:0}
+.text-footer{border:0;padding:6px 0;color:#e6d8bb}.text-footer button{opacity:.7;font-size:9px}
+.visual-caption{position:absolute;left:28px;bottom:72px;z-index:2;padding:0;color:#fff9ed;max-width:48%;text-shadow:0 2px 12px #0009}.visual-caption span{color:#eee0c5}.visual-caption h2{font-size:21px}#explain{color:#fff9ed}
+.scene-controls{position:absolute;bottom:0;left:0;right:0;z-index:2;padding:0 28px;min-height:58px;border:0;background:linear-gradient(transparent,#101b17cc);color:#fff9ed}#scene-position{color:#eee0c5}.progress-track{background:#fff3}#progress{background:#e5cf9f}
+#explanation{position:absolute;z-index:4;left:28px;bottom:130px;width:min(400px,80%);background:#17211ced;color:#fff9ed;border:1px solid #fff3;padding:16px;border-radius:8px}
+.next-chapter{background:#f5eadb22;border:1px solid #f5eadb55;color:#fff9ed}
+.immersive .reading-workspace{padding:0;height:100dvh;min-height:0}.immersive #visual{object-fit:contain}
+@media(max-width:1000px) and (min-width:701px){.text-column{width:48%;padding-left:50px;padding-right:22px}.passage p{font-size:calc(var(--body-size) - 1px)}}
+@media(max-width:700px){.reading-workspace{height:calc(100dvh - 139px);min-height:440px;padding:0 0 0}.visual-column{height:100%;min-height:0}#visual-stage{border-radius:0}#visual{object-position:35% center}.text-column{inset:32% 0 0;width:100%;padding:55px 25px 58px;background:linear-gradient(transparent,rgba(15,25,22,.78) 18%,rgba(15,25,22,.92));border:0}.text-heading{padding:0 0 10px;font-size:9px}.passage p{font-size:calc(var(--body-size) - 1px);line-height:1.9}.visual-caption{left:25px;top:24px;bottom:auto;max-width:75%;padding:0}.visual-caption h2{font-size:18px}.visual-caption span{font-size:9px}.scene-controls{padding:0 25px;min-height:50px}.scene-controls button{padding:13px 0}.text-footer{padding:4px 0}#explanation{top:90px;bottom:auto;left:25px;right:25px;width:auto}.immersive .visual-column{height:100%}}
