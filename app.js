@@ -10,6 +10,7 @@ function remember(){if(preview)return;try{localStorage.setItem('visual-bible-joh
 function updateScene(index){
  if(index<0||index>=data.scenes.length)return;
  current=index;const s=data.scenes[index];
+ $('chapter').value=String(s.chapter);$('chapter-title').textContent=`요한복음 ${s.chapter}장`;
  $('current-reference').textContent=reference(s);$('current-title').textContent=s.title;
  $('scene-position').textContent=`${pad(index+1)} / ${data.sceneCount}`;
  $('progress').style.width=`${(index+1)/data.sceneCount*100}%`;
@@ -24,19 +25,21 @@ function updateScene(index){
  // Warm only neighboring assets, rather than downloading the whole book.
  for(const neighbor of [index-1,index+1])if(data.scenes[neighbor]){const pre=new Image();pre.src=image(data.scenes[neighbor]);}
 }
-function renderChapter(chapter){
- $('chapter').value=String(chapter);$('chapter-title').textContent=`요한복음 ${chapter}장`;
- const scenes=data.scenes.filter(s=>s.chapter===chapter);
- const fragment=document.createDocumentFragment();
- for(const s of scenes){const section=document.createElement('section');section.className='passage';section.dataset.id=s.id;const heading=document.createElement('h3');heading.textContent=`${s.first}–${s.last}절 · ${s.title}`;section.append(heading);for(const v of s.verses){const p=document.createElement('p');const num=document.createElement('span');num.className='verse-number';num.textContent=v.verse;p.append(num,document.createTextNode(v.text));section.append(p);}fragment.append(section);}
- const button=document.createElement('button');button.className='next-chapter';button.textContent=chapter<21?`${chapter+1}장으로 이어 읽기 →`:'요한복음의 전체 흐름 보기 →';button.addEventListener('click',()=>chapter<21?goTo(data.scenes.findIndex(s=>s.chapter===chapter+1)):showView('story'));fragment.append(button);
- $('reader').replaceChildren(fragment);$('reader').dataset.chapter=String(chapter);$('reader').scrollTop=0;
+function renderBook(){
+ const fragment=document.createDocumentFragment();let chapter=0;
+ for(const s of data.scenes){
+  const section=document.createElement('section');section.className='passage';section.dataset.id=s.id;
+  if(s.chapter!==chapter){chapter=s.chapter;const marker=document.createElement('h2');marker.className='chapter-marker';marker.textContent=`요한복음 ${chapter}장`;section.append(marker);}
+  const heading=document.createElement('h3');heading.textContent=`${s.first}–${s.last}절 · ${s.title}`;section.append(heading);
+  for(const v of s.verses){const p=document.createElement('p');const num=document.createElement('span');num.className='verse-number';num.textContent=v.verse;p.append(num,document.createTextNode(v.text));section.append(p);}
+  fragment.append(section);
+ }
+ const end=document.createElement('p');end.className='book-end';end.textContent='요한복음의 마지막 말씀까지 읽었습니다.';fragment.append(end);
+ $('reader').replaceChildren(fragment);
 }
 function goTo(index){
  if(index<0||index>=data.scenes.length)return;
  showView('read');manual=true;
- const chapter=data.scenes[index].chapter;
- if(Number($('reader').dataset.chapter)!==chapter)renderChapter(chapter);
  updateScene(index);
  const section=$('reader').querySelector(`[data-id="${data.scenes[index].id}"]`);
  $('reader').scrollTo({top:section.offsetTop-$('reader').offsetTop-12,behavior:'instant'});
@@ -71,6 +74,6 @@ async function init(){
  $('font').addEventListener('click',()=>{fontStep=(fontStep+1)%3;document.documentElement.style.setProperty('--body-size',`${[19,22,25][fontStep]}px`);goTo(current);});
  $('focus').addEventListener('click',()=>document.body.classList.toggle('immersive'));
  document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)||$('source-dialog').open)return;if(e.key==='Escape')document.body.classList.remove('immersive');if(view==='read'&&e.key==='ArrowRight'){e.preventDefault();goTo(current+1);}if(view==='read'&&e.key==='ArrowLeft'){e.preventDefault();goTo(current-1);}});
- renderStory();let saved=0;try{if(!preview)saved=Number(localStorage.getItem('visual-bible-john'))-1;}catch{}goTo(Number.isInteger(saved)&&saved>=0&&saved<data.scenes.length?saved:0);
+ renderBook();renderStory();let saved=0;try{if(!preview)saved=Number(localStorage.getItem('visual-bible-john'))-1;}catch{}goTo(Number.isInteger(saved)&&saved>=0&&saved<data.scenes.length?saved:0);
 }
 init().catch(e=>{$('error').hidden=false;$('error').textContent=e.message;});
