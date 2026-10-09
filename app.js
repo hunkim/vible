@@ -128,15 +128,13 @@ async function init(){
   const offset=anchor?anchor.getBoundingClientRect().top-top:0;
   document.documentElement.style.setProperty('--body-size',`${fontSize}px`);
   if(anchor)reader.scrollTop+=anchor.getBoundingClientRect().top-top-offset;
-  $('font-range').value=fontSize;$('font-size').textContent=fontSize;
+  $('font-size').textContent=`글자 크기 ${fontSize}`;
   $('font-smaller').disabled=fontSize===16;$('font-larger').disabled=fontSize===31;
   try{localStorage.setItem('vible-font-size',String(fontSize));}catch{}
  }
  let storedFont;try{storedFont=Number(localStorage.getItem('vible-font-size'));}catch{}
  setFont(storedFont>=16&&storedFont<=31?storedFont:19);
- $('font').onclick=()=>$('font-dialog').showModal();$('close-font').onclick=()=>$('font-dialog').close();
  $('font-smaller').onclick=()=>setFont(fontSize-1);$('font-larger').onclick=()=>setFont(fontSize+1);
- $('font-range').oninput=()=>setFont($('font-range').value);$('font-reset').onclick=()=>setFont(19);
  $('focus').addEventListener('click',()=>{$('navigation-dialog').close();document.body.classList.toggle('immersive');});
  $('exit-focus').onclick=()=>document.body.classList.remove('immersive');
  document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)||document.querySelector('dialog[open]'))return;if(e.key==='Escape')document.body.classList.remove('immersive');if(view==='read'&&e.key==='ArrowRight'){e.preventDefault();goTo(current+1);}if(view==='read'&&e.key==='ArrowLeft'){e.preventDefault();goTo(current-1);}});
