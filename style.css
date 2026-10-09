@@ -272,3 +272,5 @@ body.touch-selection #reader p.is-selected .verse-text{background:#dfc78445;box-
 .reader-progress #progress:focus-visible{outline-color:#e5cf9f;border-radius:4px}
 
 #image-pending{position:absolute;right:5%;top:42%;max-width:42%;color:#e7d5ac;font-size:14px;line-height:1.8;text-align:center;pointer-events:none}
+
+.next-book-hint{display:block;margin-top:8px;font-size:12px;opacity:.75}

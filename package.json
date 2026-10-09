@@ -8,7 +8,7 @@
     "build": "node build.mjs",
     "dev": "node serve.mjs",
     "start": "node serve.mjs",
-    "check": "node --check app.js && node --check annotations.js && node --check install.js && node --check sw.js && node check-sharing.mjs && node check-mobile.mjs && node check-install.mjs && node check-languages.mjs && node check-share-page.mjs && node check-jesus-words.mjs && node check-partial-release.mjs && node check-release-refresh.mjs && node build.mjs",
+    "check": "node --check app.js && node --check annotations.js && node --check install.js && node --check sw.js && node check-sharing.mjs && node check-mobile.mjs && node check-book-continuation.mjs && node check-install.mjs && node check-languages.mjs && node check-share-page.mjs && node check-jesus-words.mjs && node check-partial-release.mjs && node check-release-refresh.mjs && node build.mjs",
     "import-translation": "node import-translation.mjs"
   },
   "dependencies": {

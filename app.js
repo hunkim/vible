@@ -53,7 +53,7 @@ function renderBook(){
   for(const v of s.verses){if(v.omitted)continue;const p=document.createElement('p');p.dataset.chapter=s.chapter;p.dataset.verse=v.verse;if(v.endVerse)p.dataset.endVerse=v.endVerse;const num=document.createElement('button');num.className='verse-number';num.textContent=v.endVerse?`${v.verse}–${v.endVerse}`:v.verse;num.setAttribute('aria-label',ui().selectVerse(s.chapter,v.verse));const text=document.createElement('span');text.className='verse-text';renderScripture(text,bookId,s.chapter,v.verse,language,v.text);p.append(num,text);section.append(p);}
   fragment.append(section);
  }
- const end=document.createElement('p');end.className='book-end';end.textContent=`${data.book} · ${ui().end}`;fragment.append(end);
+ const end=document.createElement('p');end.className='book-end';end.textContent=`${data.book} · ${ui().end}`;const next=nextBookId();if(next){const hint=document.createElement('span');hint.className='next-book-hint';hint.textContent=({ko:`한 번 더 아래로 스크롤하면 ${bookNames[language][next]||books[next].name}로 이어집니다.`,en:`Scroll down once more to continue to ${bookNames[language][next]||books[next].name}.`,ja:`もう一度下にスクロールすると${bookNames[language][next]||books[next].name}へ進みます。`,zh:`再向下滚动一次，继续阅读${bookNames[language][next]||books[next].name}。`})[language];end.append(hint);}fragment.append(end);
  $('reader').replaceChildren(fragment);
 }
 function goTo(index){
@@ -75,6 +75,40 @@ function setupSceneProgress(range,navigate,getIndex){
   const now=performance.now();if(now-lastWheel<160)return;lastWheel=now;
   navigate(Math.max(Number(range.min),Math.min(Number(range.max),getIndex()+Math.sign(delta))));
  },{passive:false});
+}
+function nextBookId(){
+ const ids=Array.from($('book').options,option=>option.value);
+ return ids[ids.indexOf(bookId)+1];
+}
+async function continueToNextBook(){
+ const id=nextBookId();if(!id||$('book').disabled)return;
+ const nextLanguage=catalog[preferredLanguage]?.books.includes(id)?preferredLanguage:catalog[language]?.books.includes(id)?language:'ko';
+ await loadBook(id,nextLanguage,true);
+ if(bookId!==id)return;
+ const url=new URL(location.href);url.searchParams.set('book',id);url.searchParams.set('chapter','1');url.searchParams.set('verse','1');url.searchParams.set('lang',language);history.replaceState(null,'',url);
+}
+function setupBookContinuation(reader,canContinue,navigate){
+ let lastWheel=-Infinity,wheelReady=false,wheelDistance=0,touchStart=null;
+ const atEnd=()=>{const end=reader.querySelector('.book-end');return end?end.getBoundingClientRect().bottom<=reader.getBoundingClientRect().bottom:reader.scrollTop+reader.clientHeight>=reader.scrollHeight-2;};
+ reader.addEventListener('wheel',event=>{
+  const now=performance.now(),fresh=now-lastWheel>300;lastWheel=now;
+  if(fresh){wheelReady=atEnd()&&canContinue();wheelDistance=0;}
+  if(event.ctrlKey||event.deltaY<=0||Math.abs(event.deltaX)>Math.abs(event.deltaY)){wheelReady=false;return;}
+  if(!wheelReady||!atEnd()||!canContinue())return;
+  wheelDistance+=event.deltaY*(event.deltaMode===1?16:event.deltaMode===2?reader.clientHeight:1);if(wheelDistance<40)return;
+  wheelReady=false;event.preventDefault();navigate();
+ },{passive:false});
+ reader.addEventListener('touchstart',event=>{
+  touchStart=event.touches.length===1&&atEnd()&&canContinue()?{x:event.touches[0].clientX,y:event.touches[0].clientY}:null;
+ },{passive:true});
+ reader.addEventListener('touchmove',event=>{if(event.touches.length!==1)touchStart=null;},{passive:true});
+ reader.addEventListener('touchend',event=>{
+  const start=touchStart;touchStart=null;const touch=event.changedTouches[0];
+  if(!start||!touch||!atEnd()||!canContinue())return;
+  const distance=start.y-touch.clientY;
+  if(distance>=48&&distance>Math.abs(start.x-touch.clientX))navigate();
+ },{passive:true});
+ reader.addEventListener('touchcancel',()=>{touchStart=null;},{passive:true});
 }
 function scrollScene(){
  if(manual||view!=='read')return;
@@ -310,7 +344,7 @@ const books={
  arcs:[{chapters:'1–7장',title:'예루살렘의 증인들',copy:'성령의 약속과 오순절, 나누는 공동체와 박해 속의 증언.',chapter:1,imageChapter:2},{chapters:'8–12장',title:'경계를 넘어선 복음',copy:'사마리아, 에디오피아 관원, 사울과 고넬료, 안디옥의 공동체.',chapter:8},{chapters:'13–20장',title:'여러 민족을 향한 여정',copy:'바울과 동역자들의 항해, 도시마다 열린 만남과 말씀.',chapter:13,imageChapter:16},{chapters:'21–28장',title:'결박 너머로 열린 길',copy:'예루살렘과 가이사랴의 재판, 풍랑과 멜리데, 로마의 열린 집.',chapter:21,imageChapter:27}]}
 };
 Object.assign(books,epistleBooks);
-async function loadBook(id,nextLanguage=language){
+async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  if(!books[id])id='john';
  const version=++loadVersion;
  $('book').disabled=true;$('language').disabled=true;$('open-language').disabled=true;remember();cancelAnimationFrame(scrollFrame);
@@ -346,7 +380,7 @@ async function loadBook(id,nextLanguage=language){
   $('search').placeholder=data.book;$('source-notes').textContent='';$('explanation').textContent='';
  }
  let saved=0;try{if(!preview){saved=Number(localStorage.getItem(`visual-bible-${id}`))-1;const position=JSON.parse(localStorage.getItem(`vible-position-${id}`)||'null');if(position)saved=data.scenes.findIndex(s=>s.chapter===position.chapter&&s.first<=position.verse&&s.last>=position.verse);localStorage.setItem('visual-bible-book',id);}}catch{}
- const params=new URLSearchParams(location.search);const linked=params.get('book')===id?data.scenes.findIndex(s=>s.chapter===Number(params.get('chapter'))&&s.first<=Number(params.get('verse'))&&s.last>=Number(params.get('verse'))):-1;goTo(linked>=0?linked:Number.isInteger(saved)&&saved>=0&&saved<data.scenes.length?saved:0);
+ const params=new URLSearchParams(location.search);const linked=params.get('book')===id?data.scenes.findIndex(s=>s.chapter===Number(params.get('chapter'))&&s.first<=Number(params.get('verse'))&&s.last>=Number(params.get('verse'))):-1;goTo(startAtBeginning?0:linked>=0?linked:Number.isInteger(saved)&&saved>=0&&saved<data.scenes.length?saved:0);
  }finally{if(version===loadVersion){$('book').disabled=false;$('language').disabled=false;$('open-language').disabled=false;}}
 }
 function popoverOpen(element){return typeof element.showPopover==='function'&&!element.dataset.fallback?element.matches(':popover-open'):element.dataset.fallbackOpen==='true';}
@@ -400,6 +434,7 @@ async function init(){
  $('close-saved-notes').onclick=()=>$('saved-notes-dialog').close();
  $('gallery-chapter').addEventListener('change',renderGallery);$('search').addEventListener('input',renderGallery);
  setupSceneProgress($('progress'),goTo,()=>current);
+ setupBookContinuation($('reader'),()=>!!data&&view==='read'&&!manual&&!$('book').disabled&&!!nextBookId()&&!document.body.classList.contains('image-only')&&!document.querySelector('dialog[open]')&&getSelection()?.isCollapsed!==false,()=>continueToNextBook().catch(showError));
  $('reader').addEventListener('scroll',scrollScene,{passive:true});$('previous').addEventListener('click',()=>goTo(current-1));$('next').addEventListener('click',()=>goTo(current+1));
  $('reader-previous-chapter').onclick=()=>goTo(data.scenes.findIndex(s=>s.chapter===data.scenes[current].chapter-1));
  $('reader-next-chapter').onclick=()=>goTo(data.scenes.findIndex(s=>s.chapter===data.scenes[current].chapter+1));
