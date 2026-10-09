@@ -1,9 +1,21 @@
 <!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4f1e9"><title>Vible — 비주얼 바이블</title><link rel="canonical" href="https://vible.now/"><meta property="og:title" content="Vible — 비주얼 바이블"><meta property="og:url" content="https://vible.now/"><meta property="og:image" content="https://vible.now/icons/icon-512.png"><meta name="description" content="그림 속에서 말씀을 만나는 비주얼 바이블. 요한복음과 사도행전을 맥락마다 이어 읽으세요."><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Vible"><link rel="stylesheet" href="style.css"></head>
 <body>
-<header class="topbar"><a class="brand" href="./index.html"><img class="brand-icon" src="icons/icon-192.png" alt="" width="32" height="32"><span><span class="brand-name">Vible <span class="brand-subtitle">· 비주얼 바이블</span></span><small>말씀을 읽다, 장면을 만나다</small></span></a><label class="book-picker"><span class="sr-only">성경 선택</span><select id="book" aria-label="성경 선택"><option value="john">요한복음</option><option value="acts">사도행전</option></select></label><nav aria-label="보기 방식"><button id="read-tab" aria-current="page">읽기</button><button id="story-tab">전체 흐름</button><button id="gallery-tab">장면 지도</button></nav><button id="install" class="install-button" aria-label="Vible 앱 설치">설치</button><button id="focus" class="focus-button" aria-label="그림 몰입 모드">⛶</button></header>
+<header class="topbar">
+ <a class="brand" href="./index.html" aria-label="Vible 홈"><img class="brand-icon" src="icons/icon-192.png" alt="" width="32" height="32"><span class="brand-name">Vible</span></a>
+ <label class="book-picker"><span class="sr-only">성경 선택</span><select id="book" aria-label="성경 선택"><option value="john">요한복음</option><option value="acts">사도행전</option></select></label>
+ <div class="chapter-navigation"><button id="previous-chapter" aria-label="이전 장">«</button><select id="chapter" aria-label="요한복음 장 선택"></select><button id="next-chapter" aria-label="다음 장">»</button></div>
+ <button id="open-menu" class="menu-toggle" aria-label="메뉴 열기" aria-haspopup="dialog" aria-controls="navigation-dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+</header>
+<dialog id="navigation-dialog" aria-labelledby="menu-title"><button id="close-menu" class="dialog-close" aria-label="메뉴 닫기">×</button><h2 id="menu-title">Vible</h2>
+ <nav class="menu-navigation" aria-label="보기 방식"><button id="read-tab" aria-current="page">읽기</button><button id="story-tab">전체 흐름</button><button id="gallery-tab">장면 지도</button><button id="notes-tab">나의 노트 · 하이라이트</button></nav>
+ <p class="menu-help">말씀을 선택하거나 절 번호를 누르면 하이라이트, 노트, URL·카드 공유 도구가 나타납니다.</p>
+ <div class="menu-settings"><button id="font" aria-label="본문 글자 크기 변경">글자 크기 <span>가 ↗</span></button><button id="focus" aria-label="그림 몰입 모드">그림 몰입 ⛶</button><button id="install" class="install-button" aria-label="Vible 앱 설치">Vible 앱 설치</button></div>
+</dialog>
+<dialog id="saved-notes-dialog" aria-labelledby="saved-notes-title"><button id="close-saved-notes" class="dialog-close" aria-label="내 노트 닫기">×</button><h2 id="saved-notes-title">나의 노트 · 하이라이트</h2><p id="saved-notes-book"></p><div id="saved-notes-list"></div><p class="menu-help">노트와 하이라이트는 이 기기에 저장됩니다. 말씀을 열어 묵상을 수정하거나 공유할 수 있습니다.</p></dialog>
+<button id="exit-focus" aria-label="그림 몰입 모드 닫기">×</button>
 <main id="reading-view">
- <div class="reading-heading"><div><span id="reading-book-label" class="book-label">THE GOSPEL OF JOHN</span><h1 id="reading-book-title">요한복음</h1></div><div class="heading-actions"><label class="chapter-select">장 <select id="chapter" aria-label="요한복음 장 선택"></select></label><button id="font" aria-label="본문 글자 크기 변경">가<span>↗</span></button></div></div>
+ <div class="reading-heading" hidden><span id="reading-book-label"></span><h1 id="reading-book-title"></h1></div>
  <div class="reading-workspace">
   <section class="visual-column" aria-label="현재 본문의 그림"><div id="visual-stage"><img id="visual" alt="" fetchpriority="high"><section class="text-column" aria-label="성경 읽기"><div class="text-heading"><span id="chapter-title"></span></div><div id="reader" tabindex="0" aria-label="본문을 읽어 내려가면 그림이 바뀝니다"></div><footer class="text-footer"><span></span><button id="source-button">본문 출처</button></footer></section><div id="image-loading" hidden>장면을 불러오는 중입니다</div></div><div class="visual-caption"><div><span id="current-reference"></span><h2 id="current-title"></h2></div><button id="explain" aria-label="장면 설명 보기">ⓘ</button></div><div id="explanation" hidden></div><div class="scene-controls"><button id="previous" aria-label="이전 맥락">← <span>이전</span></button><div><span id="scene-position"></span><span class="progress-track"><span id="progress"></span></span></div><button id="next" aria-label="다음 맥락"><span>다음</span> →</button></div></section>
 
@@ -19,7 +31,18 @@
 <button id="share-selection" aria-label="카드 공유" title="카드 공유"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1"/><path d="m3 17 5-5 4 4 4-6 5 7"/></svg></button>
 <button id="dismiss-selection" aria-label="말씀 선택 닫기" title="닫기"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12 M18 6 6 18"/></svg></button></div>
 <dialog id="note-dialog" class="note-dialog"><button id="close-note" class="dialog-close" aria-label="노트 닫기">×</button><div class="note-layout"><div><span class="book-label">말씀을 마음에 담다</span><h2 id="selected-reference"></h2><p id="selected-scripture"></p><label for="personal-note">나의 묵상</label><textarea id="personal-note" rows="5" placeholder="이 말씀을 통해 마음에 남은 것을 적어 보세요."></textarea><button id="save-note">노트 저장</button><p id="note-status" role="status"></p><div class="card-actions"><button id="share-card" disabled>이미지 공유</button><button id="share-link">링크 공유</button><button id="download-card" disabled>이미지 저장</button><button id="copy-link">URL 복사</button></div><p class="share-help">공유 창에서 메신저나 SNS를 선택하세요. 이미지에는 말씀과 묵상이, 링크에는 선택한 말씀의 위치가 담깁니다.</p><label class="sr-only" for="share-url">선택한 말씀 URL</label><input id="share-url" class="share-url" type="url" readonly></div><img id="card-preview" alt="선택한 말씀과 묵상을 담은 공유 카드" hidden></div></dialog>
-<dialog id="install-dialog"><button id="close-install" class="dialog-close" aria-label="설치 안내 닫기">×</button><h2>Vible을 홈 화면에</h2><p id="install-help"></p><p>설치하면 앱처럼 열립니다. 읽은 말씀과 최근 본 그림은 오프라인에서도 이어 볼 수 있습니다.</p></dialog>
+<dialog id="install-dialog" aria-labelledby="install-title" aria-describedby="install-description">
+ <button id="close-install" class="dialog-close" aria-label="설치 안내 닫기">×</button>
+ <div class="install-layout">
+  <div class="install-art"><img src="icons/icon-512.png" width="512" height="512" alt="빛나는 성경에서 걸어 나오는 예수님"><span>Vible</span><small>비주얼 바이블 · vible.now</small></div>
+  <div class="install-copy"><span class="book-label">말씀을 더 가까이</span><h2 id="install-title">그림 속 말씀을,<br>매일 내 손안에.</h2><p id="install-description">Vible을 설치하고<br>말씀 속 장면을 만나 보세요.</p>
+   <ul class="install-benefits"><li>홈 화면에서 한 번에 열기</li><li>읽던 말씀과 나의 묵상 이어가기</li><li>최근 본 말씀과 그림은 오프라인에서도</li></ul>
+   <button id="install-now" class="install-primary">설치 방법 보기</button><p id="install-status" role="status"></p>
+   <div id="install-instructions" tabindex="-1" hidden><h3>이렇게 설치하세요</h3><ol id="install-steps"></ol></div>
+   <button id="install-later" class="install-later">먼저 말씀 읽기</button>
+  </div>
+ </div>
+</dialog>
 <div id="error" hidden role="alert"></div>
 <script type="module" src="app.js"></script>
 </body></html>

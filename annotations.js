@@ -43,5 +43,5 @@ export function annotations(context){
  $('share-link').onclick=async()=>{try{if(navigator.share){await navigator.share({title:`${ref()} · Vible`,url:link()});}else{await copyLink();}}catch(e){if(e.name!=='AbortError'){if(!$('note-dialog').open)open();status('링크 공유 창을 열지 못했습니다. URL 복사 버튼을 이용해 주세요.');}}};
  $('share-url-selection').onclick=()=>{if(!navigator.share)open();return $('share-link').onclick();};
  document.addEventListener('pointerdown',e=>{if(!e.target.closest('#reader, #selection-tools, #note-dialog')){selected=[];selectedRange=null;$('selection-tools').hidden=true;}});
- return {refresh(){selected=[];selectedRange=null;$('selection-tools').hidden=true;$('note-dialog').close();revision++;paint();}};
+ return {editVerse(chapter,verse){const p=$('reader').querySelector(`[data-chapter="${chapter}"][data-verse="${verse}"]`);if(p){pick([p]);open();}},refresh(){selected=[];selectedRange=null;$('selection-tools').hidden=true;$('note-dialog').close();revision++;paint();}};
 }

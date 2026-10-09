@@ -14,6 +14,7 @@ function updateScene(index){
  if(index<0||index>=data.scenes.length)return;
  current=index;const s=data.scenes[index];
  $('chapter').value=String(s.chapter);$('chapter-title').textContent=`${data.book} ${s.chapter}장`;
+ $('previous-chapter').disabled=s.chapter===1;$('next-chapter').disabled=s.chapter===data.chapters;
  $('current-reference').textContent=reference(s);$('current-title').textContent=s.title;
  $('scene-position').textContent=`${pad(index+1)} / ${data.sceneCount}`;
  $('progress').style.width=`${(index+1)/data.sceneCount*100}%`;
@@ -102,14 +103,27 @@ async function loadBook(id){
 }
 async function init(){
  $('book').addEventListener('change',()=>loadBook($('book').value).catch(showError));
- for(const key of ['read','story','gallery'])$(`${key}-tab`).addEventListener('click',()=>{showView(key);if(key==='gallery')renderGallery();});
+ for(const key of ['read','story','gallery'])$(`${key}-tab`).addEventListener('click',()=>{$('navigation-dialog').close();showView(key);if(key==='gallery')renderGallery();});
+ $('open-menu').onclick=()=>$('navigation-dialog').showModal();$('close-menu').onclick=()=>$('navigation-dialog').close();
+ for(const [id,step] of [['previous-chapter',-1],['next-chapter',1]])$(id).onclick=()=>{if(data&&!$('book').disabled){const chapter=Number($('chapter').value)+step;const index=data.scenes.findIndex(s=>s.chapter===chapter);if(index>=0)goTo(index);}};
+ $('notes-tab').onclick=()=>{
+  $('navigation-dialog').close();$('saved-notes-book').textContent=data.book;
+  let saved={};try{saved=JSON.parse(localStorage.getItem(`vible-notes-${bookId}`)||'{}')||{};}catch{}
+  const entries=data.scenes.flatMap(s=>s.verses.map(v=>({scene:s,verse:v,record:saved[`${s.chapter}:${v.verse}`]}))).filter(e=>e.record?.highlight||e.record?.note);
+  const cards=entries.map(({scene,verse,record})=>{const b=document.createElement('button');b.className='saved-note';const ref=document.createElement('strong');ref.textContent=`${data.book} ${scene.chapter}:${verse.verse}${record.highlight?' · 하이라이트':''}`;const text=document.createElement('span');text.textContent=verse.text;b.append(ref,text);if(record.note){const note=document.createElement('p');note.textContent=record.note;b.append(note);}b.onclick=()=>{$('saved-notes-dialog').close();goTo(scene.id-1);notes.editVerse(scene.chapter,verse.verse);};return b;});
+  if(!cards.length){const empty=document.createElement('p');empty.textContent='아직 저장한 말씀이 없습니다. 말씀을 선택해 하이라이트나 묵상을 남겨 보세요.';cards.push(empty);}
+  $('saved-notes-list').replaceChildren(...cards);$('saved-notes-dialog').showModal();
+ };
+ $('close-saved-notes').onclick=()=>$('saved-notes-dialog').close();
+ $('install').addEventListener('click',()=>$('navigation-dialog').close());
  $('chapter').addEventListener('change',()=>goTo(data.scenes.findIndex(s=>s.chapter===Number($('chapter').value))));
  $('gallery-chapter').addEventListener('change',renderGallery);$('search').addEventListener('input',renderGallery);
  $('reader').addEventListener('scroll',scrollScene,{passive:true});$('previous').addEventListener('click',()=>goTo(current-1));$('next').addEventListener('click',()=>goTo(current+1));
  $('explain').addEventListener('click',()=>{$('explanation').hidden=!$('explanation').hidden;});
  $('source-button').addEventListener('click',()=>$('source-dialog').showModal());$('close-source').addEventListener('click',()=>$('source-dialog').close());
  $('font').addEventListener('click',()=>{fontStep=(fontStep+1)%3;document.documentElement.style.setProperty('--body-size',`${[19,22,25][fontStep]}px`);goTo(current);});
- $('focus').addEventListener('click',()=>document.body.classList.toggle('immersive'));
+ $('focus').addEventListener('click',()=>{$('navigation-dialog').close();document.body.classList.toggle('immersive');});
+ $('exit-focus').onclick=()=>document.body.classList.remove('immersive');
  document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)||document.querySelector('dialog[open]'))return;if(e.key==='Escape')document.body.classList.remove('immersive');if(view==='read'&&e.key==='ArrowRight'){e.preventDefault();goTo(current+1);}if(view==='read'&&e.key==='ArrowLeft'){e.preventDefault();goTo(current-1);}});
  let initial=new URLSearchParams(location.search).get('book');try{if(!initial&&!preview)initial=localStorage.getItem('visual-bible-book');}catch{}await loadBook(initial||'john');
 }
