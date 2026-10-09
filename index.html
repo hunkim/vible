@@ -7,6 +7,7 @@
  <div class="header-actions">
  <div class="font-buttons" role="group" aria-label="글자 크기"><button id="font-smaller" aria-label="글자 작게" title="글자 작게">가−</button><button id="font-larger" aria-label="글자 크게" title="글자 크게">가+</button><output id="font-size" class="sr-only" aria-live="polite"></output></div>
  <div class="language-picker"><button id="open-language" class="language-toggle" popovertarget="language-menu" aria-label="언어 선택: 한국어" title="언어 선택" aria-haspopup="menu"><span id="language-flag" aria-hidden="true">🇰🇷</span><svg viewBox="0 0 12 12" aria-hidden="true"><path d="m3 4.5 3 3 3-3"/></svg></button><select id="language" hidden aria-hidden="true"><option value="ko">한국어</option><option value="en">English</option><option value="ja">日本語</option><option value="zh">中文</option></select><div id="language-menu" popover role="menu" aria-label="언어 선택"><button type="button" role="menuitemradio" aria-checked="true" data-language="ko"><span aria-hidden="true">🇰🇷</span><span>한국어</span><small></small></button><button type="button" role="menuitemradio" aria-checked="false" data-language="en"><span aria-hidden="true">🇺🇸</span><span>English</span><small></small></button><button type="button" role="menuitemradio" aria-checked="false" data-language="ja"><span aria-hidden="true">🇯🇵</span><span>日本語</span><small></small></button><button type="button" role="menuitemradio" aria-checked="false" data-language="zh"><span aria-hidden="true">🇨🇳</span><span>中文</span><small></small></button></div></div>
+ <button id="open-search" class="search-toggle" aria-label="말씀 검색" title="말씀 검색 · ⌘ K / Ctrl K"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>
  <button id="open-menu" class="menu-toggle" aria-label="메뉴 열기" popovertarget="navigation-dialog" aria-expanded="false" aria-controls="navigation-dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
  </div>
 </header>
@@ -17,6 +18,12 @@
  <p class="menu-help">말씀을 선택하거나 절 번호를 누르면 하이라이트, 노트, URL·카드 공유 도구가 나타납니다.</p>
 </div>
 <dialog id="saved-notes-dialog" aria-labelledby="saved-notes-title"><button id="close-saved-notes" class="dialog-close" aria-label="내 노트 닫기">×</button><h2 id="saved-notes-title">나의 노트 · 하이라이트</h2><p id="saved-notes-book"></p><div id="saved-notes-list"></div><p class="menu-help">노트와 하이라이트는 이 기기에 저장됩니다. 말씀을 열어 묵상을 수정하거나 공유할 수 있습니다.</p></dialog>
+<dialog id="scripture-search" aria-labelledby="scripture-search-title">
+ <div class="scripture-search-heading"><div><span class="search-eyebrow">VIBLE</span><h2 id="scripture-search-title">말씀 찾기</h2></div><button id="close-scripture-search" aria-label="검색 닫기"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+ <div class="scripture-search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="scripture-query" type="search" autocomplete="off" enterkeyhint="search" placeholder="단어, 문구 또는 요 3:16" aria-label="말씀 검색" aria-controls="scripture-results"><button id="clear-scripture-query" aria-label="검색어 지우기" hidden>×</button></div>
+ <div class="scripture-search-filters" role="group" aria-label="검색 범위"><button id="search-all" aria-pressed="true">전체 성경</button><button id="search-current" aria-pressed="false">현재 책</button><span id="scripture-status" role="status" aria-live="polite"></span></div>
+ <div id="scripture-results" aria-label="검색 결과" aria-busy="false"></div><button id="search-more" hidden>더 보기</button>
+</dialog>
 <main id="reading-view">
  <div class="reading-heading" hidden><span id="reading-book-label"></span><h1 id="reading-book-title"></h1></div>
  <div class="reading-workspace">

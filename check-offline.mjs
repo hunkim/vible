@@ -24,3 +24,5 @@ assert.equal(await (await event('fetch',new Request(scope+'data/revelation.json'
 assert.equal(await (await event('fetch',new Request(scope+'data/genesis.json'))).text(),'./data/genesis.json');
 for(const book of ['matthew','mark','luke'])assert.equal(await (await event('fetch',new Request(scope+`data/${book}.json`))).text(),`./data/${book}.json`);
 console.log('Offline navigation, all 28 scripture books, viewed-image fallback and 60-image cache bound verified.');
+
+const searchURL=new Request(scope+'data/search/ko.json');offline=false;const indexed=await event('fetch',searchURL);assert(indexed);offline=true;assert.equal(await (await event('fetch',searchURL)).text(),await indexed.text());console.log('Search index is cached on first use and remains available offline.');

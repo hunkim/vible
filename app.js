@@ -3,6 +3,7 @@ import {epistleBooks} from './epistles-catalog.js';
 import {renderScripture} from './jesus-words.js';
 import {annotations} from './annotations.js';
 import './install.js';
+import {scriptureSearch} from './search-ui.js';
 const $=id=>document.getElementById(id);
 const pad=n=>String(n).padStart(2,'0');
 const preview=new URLSearchParams(location.search).has('preview');
@@ -10,6 +11,15 @@ let data,bookId='john',loadVersion=0,current=0,view='read',scrollFrame=0,fontSiz
 let language='ko',catalog={ko:{books:[]}},preferredLanguage='ko';
 const ui=()=>messages[language];
 const notes=annotations(()=>({data,bookId,language}));
+const search=scriptureSearch(()=>({bookId,language,name:data?.book||bookNames[language][bookId]}),async verse=>{
+ if(bookId!==verse.book||language!==verse.language)await loadBook(verse.book,verse.language,true);
+ const index=data.scenes.findIndex(s=>s.chapter===verse.chapter&&s.first<=verse.verse&&s.last>=verse.verse);
+ if(index<0)throw Error('Verse unavailable');goTo(index);
+ const paragraph=$('reader').querySelector(`p[data-chapter="${verse.chapter}"][data-verse="${verse.verse}"]`);
+ $('reader').querySelectorAll('.search-target').forEach(p=>p.classList.remove('search-target'));if(paragraph)paragraph.classList.add('search-target');
+ if(paragraph)$('reader').scrollTo({top:$('reader').scrollTop+paragraph.getBoundingClientRect().top-$('reader').getBoundingClientRect().top-24,behavior:'instant'});
+ const url=new URL(location.href);url.searchParams.set('book',bookId);url.searchParams.set('chapter',verse.chapter);url.searchParams.set('verse',verse.verse);url.searchParams.set('lang',language);url.searchParams.set('read','1');history.replaceState(null,'',url);
+});
 const johnChapterNames=['말씀과 첫 만남','가나의 표적과 성전','거듭남과 하나님의 사랑','사마리아의 우물, 생수','베데스다와 생명의 권세','오병이어와 생명의 떡','초막절과 생수의 약속','빛과 자유, 예수님의 증언','보게 된 사람의 증언','선한 목자와 양의 음성','나사로, 부활과 생명','예루살렘에 오시는 왕','끝까지 사랑하신 마지막 식탁','길과 진리, 보혜사와 평안','포도나무와 가지, 사랑','근심에서 기쁨으로','하나 됨을 위한 기도','동산의 체포와 관정의 질문','십자가와 새 무덤','부활의 아침과 믿음','바닷가의 식탁, 다시 따르라'];
 const reference=s=>`${data.book} ${s.chapter}:${s.first}${s.last===s.first?'':`–${s.last}`}`;
 const image=s=>`assets/${s.image}`;
@@ -471,6 +481,7 @@ async function init(){
  await loadBook(firstBook,ready?preferredLanguage:'ko');
 }
 function localizeHeader(){
+ search.localize();
  document.documentElement.lang=language;
  const copy=interfaceCopy[language];
  for(const [id,key] of [['notes-tab','notes'],['save-note','saveNote'],['share-card','imageShare'],['share-link','linkShare'],['download-card','saveImage'],['copy-link','copyLink']])$(id).textContent=copy[key];

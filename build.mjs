@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import {createSearchIndex} from './scripture-search.js';
 import {releaseData} from './release-data.mjs';
 import {applyTranslation,languages} from './languages.js';
 const root=path.dirname(new URL(import.meta.url).pathname);
@@ -39,7 +40,7 @@ for(const {id,data} of books){
 const output=path.join(root,'dist');
 await fs.rm(output,{recursive:true,force:true});
 await fs.mkdir(path.join(output,'assets'),{recursive:true});await fs.mkdir(path.join(output,'data'),{recursive:true});
-for(const file of ['index.html','app.js','annotations.js','install.js','sw.js','manifest.webmanifest','style.css','share.css','share.js','languages.js','epistles-catalog.js','jesus-words.js','jesus-words-data.js',...books.flatMap(b=>[b.plan,`data/${b.id}.json`])])await fs.copyFile(path.join(root,file),path.join(output,file));
+for(const file of ['index.html','app.js','annotations.js','install.js','sw.js','manifest.webmanifest','style.css','share.css','share.js','languages.js','epistles-catalog.js','scripture-search.js','search-ui.js','jesus-words.js','jesus-words-data.js',...books.flatMap(b=>[b.plan,`data/${b.id}.json`])])await fs.copyFile(path.join(root,file),path.join(output,file));
 await fs.cp(path.join(root,'icons'),path.join(output,'icons'),{recursive:true});
 await fs.cp(path.join(root,'data/translations'),path.join(output,'data/translations'),{recursive:true});
 await fs.writeFile(path.join(root,'data/translations/catalog.json'),JSON.stringify(catalog,null,2));
@@ -48,3 +49,13 @@ await fs.cp(path.join(root,'fonts'),path.join(output,'fonts'),{recursive:true});
 for(const {id,data} of books)await fs.writeFile(path.join(output,`data/${id}.json`),JSON.stringify(data));
 for(const {data} of books)for(const scene of data.scenes)await fs.copyFile(path.join(root,'assets',scene.image),path.join(output,'assets',scene.image));
 for(const {data} of books)console.log(`Built ${data.book}: ${data.chapters} chapters, ${data.verseCount} unchanged verses, ${data.partialRelease?`${data.partialRelease.availableImages}/${data.sceneCount} images available`:data.sceneCount+' images'}.`);
+
+await fs.mkdir(path.join(output,'data/search'),{recursive:true});
+for(const lang of languages){
+ const translated=[];
+ for(const {id,data} of books){
+  if(!catalog[lang].books.includes(id))continue;
+  translated.push({id,data:catalog[lang].licensedBooks.includes(id)?applyTranslation(data,await read(`data/translations/${lang}/${id}.json`),lang):data});
+ }
+ await fs.writeFile(path.join(output,`data/search/${lang}.json`),JSON.stringify(createSearchIndex(translated,lang)));
+}
