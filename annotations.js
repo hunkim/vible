@@ -15,7 +15,7 @@ export function annotations(context){
  $('dismiss-selection').onclick=()=>{$('selection-tools').hidden=true;window.getSelection()?.removeAllRanges();selected=[];};
  function ref(){const {data}=context();const first=selected[0],last=selected.at(-1);return `${data.book} ${key(first)}${first===last?'':`–${first.dataset.chapter===last.dataset.chapter?last.dataset.verse:key(last)}`}`;}
  function link(){const p=selected[0];return `https://vible.now/?book=${context().bookId}&chapter=${p.dataset.chapter}&verse=${p.dataset.verse}`;}
- function open(){if(!selected.length)return;$('selected-reference').textContent=ref();$('selected-scripture').textContent=selectionText;$('personal-note').value=records()[key(selected[0])]?.note||'';status('노트는 이 기기에 저장됩니다. 공유 버튼을 누를 때만 공유됩니다.');$('note-dialog').showModal();renderCard();}
+ function open(){if(!selected.length)return;$('selected-reference').textContent=ref();$('selected-scripture').textContent=selectionText;$('personal-note').value=records()[key(selected[0])]?.note||'';$('share-url').value=link();status('노트는 이 기기에 저장됩니다. 공유 버튼을 누를 때만 공유됩니다.');$('note-dialog').showModal();renderCard();}
  $('note-selection').onclick=open;$('share-selection').onclick=open;
  $('close-note').onclick=()=>$('note-dialog').close();$('save-note').onclick=()=>{if(save({note:$('personal-note').value,highlight:true}))status('말씀과 노트를 이 기기에 저장했습니다.');};
  $('personal-note').oninput=()=>{cardFile=null;$('share-card').disabled=true;$('download-card').disabled=true;clearTimeout(noteTimer);noteTimer=setTimeout(renderCard,250);};
@@ -31,9 +31,11 @@ export function annotations(context){
  c.fillStyle='#eeddb5';c.font='34px sans-serif';c.fillText('Vible',88,1280);c.font='27px sans-serif';c.textAlign='right';c.fillText('vible.now',992,1280);
  const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(ticket!==revision)return;if(!blob)throw Error('카드를 만들지 못했습니다.');if(cardURL)URL.revokeObjectURL(cardURL);cardURL=URL.createObjectURL(blob);$('card-preview').src=cardURL;$('card-preview').hidden=false;cardFile=new File([blob],`vible-${context().bookId}-${key(selected[0]).replace(':','-')}.png`,{type:'image/png'});$('download-card').disabled=false;$('share-card').disabled=false;
  }catch(e){if(ticket===revision){$('card-preview').hidden=true;status(e.message);}}}
- function download(){if(!cardFile)return;const a=document.createElement('a');a.href=cardURL;a.download=cardFile.name;a.click();status('카드 이미지를 저장했습니다. 원하는 SNS에 올려 주세요.');}
+ function download(){if(!cardFile)return;const a=document.createElement('a');a.href=cardURL;a.download=cardFile.name;a.click();status('카드 이미지를 저장했습니다. 메신저나 SNS에서 사진으로 첨부해 주세요.');}
  $('download-card').onclick=download;
- $('share-card').onclick=async()=>{if(!cardFile)return;try{if(navigator.canShare?.({files:[cardFile]})){await navigator.share({files:[cardFile],title:ref(),text:`${ref()} · Vible`,url:link()});}else{download();status('이 브라우저에서는 카드 다운로드 후 SNS에 올릴 수 있습니다.');}}catch(e){if(e.name!=='AbortError')status('공유 창을 열지 못했습니다. 카드 다운로드를 이용해 주세요.');}};
- $('copy-link').onclick=async()=>{try{await navigator.clipboard.writeText(link());status('선택한 말씀의 링크를 복사했습니다.');}catch{status(link());}};
+ $('share-card').onclick=async()=>{if(!cardFile)return;try{const payload={files:[cardFile]};if(navigator.share&&navigator.canShare?.(payload)){await navigator.share(payload);}else{download();status('이미지를 저장했습니다. 메신저나 SNS에서 사진으로 첨부해 주세요.');}}catch(e){if(e.name!=='AbortError')status('이미지 공유 창을 열지 못했습니다. 이미지 저장 후 사진으로 첨부해 주세요.');}};
+ async function copyLink(){try{await navigator.clipboard.writeText(link());status('말씀 URL을 복사했습니다. 메신저나 SNS에 붙여 넣어 주세요.');}catch{$('share-url').focus();$('share-url').select();status('아래 URL을 길게 누르거나 복사해서 메신저에 붙여 넣어 주세요.');}}
+ $('copy-link').onclick=copyLink;
+ $('share-link').onclick=async()=>{try{if(navigator.share){await navigator.share({title:`${ref()} · Vible`,url:link()});}else{await copyLink();}}catch(e){if(e.name!=='AbortError')status('링크 공유 창을 열지 못했습니다. URL 복사 버튼을 이용해 주세요.');}};
  return {refresh(){selected=[];$('selection-tools').hidden=true;$('note-dialog').close();revision++;paint();}};
 }
