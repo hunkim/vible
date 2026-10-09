@@ -224,7 +224,7 @@ body.immersive:has(.install-banner:not([hidden])) .reading-workspace{height:100d
 }
 
 /* Keep vision captions legible against crystal and gold radiance. */
-body[data-book="revelation"] .visual-caption,body[data-book="genesis"] .visual-caption,body[data-book="matthew"] .visual-caption,body[data-book="mark"] .visual-caption,body[data-book="luke"] .visual-caption{background:#0f191aa6;padding:8px 12px;border-radius:6px;text-shadow:0 1px 3px #0009}
+body[data-book="revelation"] .visual-caption,body[data-book="genesis"] .visual-caption,body[data-book="matthew"] .visual-caption,body[data-book="mark"] .visual-caption,body[data-book="luke"] .visual-caption,body[data-letter="true"] .visual-caption{background:#0f191aa6;padding:8px 12px;border-radius:6px;text-shadow:0 1px 3px #0009}
 /* A compact flag opens a menu with explicit language names. */
 .language-toggle{display:flex;align-items:center;justify-content:center;gap:5px;width:48px;height:38px;padding:0;border:1px solid #a5b2a5;border-radius:9px;background:transparent;color:inherit;cursor:pointer;font:22px/1 system-ui,sans-serif}
 .language-toggle svg{width:10px;height:10px;fill:none;stroke:currentColor;stroke-width:1.5}

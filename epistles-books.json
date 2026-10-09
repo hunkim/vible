@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1corinthians",
+    "name": "고린도전서",
+    "english": "1 Corinthians",
+    "code": "1CO",
+    "chapters": 16,
+    "verseCount": 437
+  },
+  {
+    "id": "2corinthians",
+    "name": "고린도후서",
+    "english": "2 Corinthians",
+    "code": "2CO",
+    "chapters": 13,
+    "verseCount": 256
+  },
+  {
+    "id": "galatians",
+    "name": "갈라디아서",
+    "english": "Galatians",
+    "code": "GAL",
+    "chapters": 6,
+    "verseCount": 149
+  },
+  {
+    "id": "ephesians",
+    "name": "에베소서",
+    "english": "Ephesians",
+    "code": "EPH",
+    "chapters": 6,
+    "verseCount": 155
+  },
+  {
+    "id": "philippians",
+    "name": "빌립보서",
+    "english": "Philippians",
+    "code": "PHP",
+    "chapters": 4,
+    "verseCount": 104
+  },
+  {
+    "id": "colossians",
+    "name": "골로새서",
+    "english": "Colossians",
+    "code": "COL",
+    "chapters": 4,
+    "verseCount": 95
+  },
+  {
+    "id": "1thessalonians",
+    "name": "데살로니가전서",
+    "english": "1 Thessalonians",
+    "code": "1TH",
+    "chapters": 5,
+    "verseCount": 89
+  },
+  {
+    "id": "2thessalonians",
+    "name": "데살로니가후서",
+    "english": "2 Thessalonians",
+    "code": "2TH",
+    "chapters": 3,
+    "verseCount": 47
+  },
+  {
+    "id": "1timothy",
+    "name": "디모데전서",
+    "english": "1 Timothy",
+    "code": "1TI",
+    "chapters": 6,
+    "verseCount": 113
+  },
+  {
+    "id": "2timothy",
+    "name": "디모데후서",
+    "english": "2 Timothy",
+    "code": "2TI",
+    "chapters": 4,
+    "verseCount": 83
+  },
+  {
+    "id": "titus",
+    "name": "디도서",
+    "english": "Titus",
+    "code": "TIT",
+    "chapters": 3,
+    "verseCount": 46
+  },
+  {
+    "id": "philemon",
+    "name": "빌레몬서",
+    "english": "Philemon",
+    "code": "PHM",
+    "chapters": 1,
+    "verseCount": 25
+  },
+  {
+    "id": "hebrews",
+    "name": "히브리서",
+    "english": "Hebrews",
+    "code": "HEB",
+    "chapters": 13,
+    "verseCount": 303
+  },
+  {
+    "id": "james",
+    "name": "야고보서",
+    "english": "James",
+    "code": "JAS",
+    "chapters": 5,
+    "verseCount": 108
+  },
+  {
+    "id": "1peter",
+    "name": "베드로전서",
+    "english": "1 Peter",
+    "code": "1PE",
+    "chapters": 5,
+    "verseCount": 105
+  },
+  {
+    "id": "2peter",
+    "name": "베드로후서",
+    "english": "2 Peter",
+    "code": "2PE",
+    "chapters": 3,
+    "verseCount": 61
+  },
+  {
+    "id": "1john",
+    "name": "요한일서",
+    "english": "1 John",
+    "code": "1JN",
+    "chapters": 5,
+    "verseCount": 105
+  },
+  {
+    "id": "2john",
+    "name": "요한이서",
+    "english": "2 John",
+    "code": "2JN",
+    "chapters": 1,
+    "verseCount": 13
+  },
+  {
+    "id": "3john",
+    "name": "요한삼서",
+    "english": "3 John",
+    "code": "3JN",
+    "chapters": 1,
+    "verseCount": 15
+  },
+  {
+    "id": "jude",
+    "name": "유다서",
+    "english": "Jude",
+    "code": "JUD",
+    "chapters": 1,
+    "verseCount": 25
+  }
+]

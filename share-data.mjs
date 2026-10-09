@@ -1,9 +1,10 @@
 import fs from 'node:fs';
-import {releaseData} from './release-data.mjs';
+import {releaseData,releaseVersion} from './release-data.mjs';
 import {normalizeLanguage,passageURL,applyTranslation} from './languages.js';
 
 const books=new Map();
-const allowed=['john','acts','romans','revelation','genesis','matthew','mark','luke','1corinthians'];
+let cachedReleaseVersion='';
+const allowed=['john','acts','romans','revelation','genesis','matthew','mark','luke',...JSON.parse(fs.readFileSync(new URL('./epistles-books.json',import.meta.url),'utf8')).map(book=>book.id)];
 export const sharePath=passageURL;
 export function shareParams(url){
  const match=url.pathname.match(/^\/share\/([a-z0-9]+)\/(\d+)\/(\d+)(?:\/(\d+)\/(\d+))?\/?$/);
@@ -11,6 +12,7 @@ export function shareParams(url){
  return new URLSearchParams({book:match[1],chapter:match[2],verse:match[3],endChapter:match[4]||match[2],endVerse:match[5]||match[3],lang:url.searchParams.get('lang')||'ko'});
 }
 export function selection(params){
+ const version=releaseVersion();if(version!==cachedReleaseVersion){books.clear();cachedReleaseVersion=version;}
  const requested=params.get('lang')||'ko',lang=normalizeLanguage(requested);
  if(!lang)throw Error('Unsupported language');
  const book=params.get('book');let chapter=Number(params.get('chapter')),verse=Number(params.get('verse'));

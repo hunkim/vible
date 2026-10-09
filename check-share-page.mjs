@@ -56,7 +56,7 @@ assert(cardLayout(range).height>675);
 console.log('Crawler image dimensions, secure URLs and fresh preview identities verified.');
 
 const partial=pick('/share/1corinthians/16/24');
-assert.equal(partial.book,'1corinthians');assert.equal(partial.image,'image-pending.svg');
+assert.equal(partial.book,'1corinthians');assert.equal(partial.image,'1corinthians-124-right-v1.jpg');
 assert.equal(pick('/share/1corinthians/1/1').image,'1corinthians-001-right-v1.jpg');
 assert(partial.text.trim());assert(shareHTML(partial).includes('og:image'));
-console.log('Partial Corinthians: numeric book links, available images and full-text pending-scene sharing verified.');
+console.log('Complete Corinthians: numeric book links, first and final images, and full-text sharing verified.');

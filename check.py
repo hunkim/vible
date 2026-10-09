@@ -2,7 +2,7 @@ from pathlib import Path
 import json,hashlib,sys
 from PIL import Image,ImageOps,ImageDraw
 root=Path(__file__).resolve().parent
-book=next((x for x in sys.argv[1:] if x in ['john','acts','romans','revelation','genesis','matthew','mark','luke']),'john')
+book=next((x for x in sys.argv[1:] if x in ['john','acts','romans','revelation','genesis','matthew','mark','luke']+[b['id'] for b in json.loads((root/'epistles-books.json').read_text())]),'john')
 data=json.loads((root/f'data/{book}.json').read_text())
 source=json.loads((root/f'data/{book}-source.json').read_text())
 scenes=data['scenes']

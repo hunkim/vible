@@ -1,0 +1,356 @@
+{
+  "book": "유다서",
+  "translation": "개역한글",
+  "attribution": "성경전서 개역한글판 © 대한성서공회 1961.",
+  "source": "https://github.com/yuhwan/Bible-krv",
+  "verification": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+  "copyrightSource": "https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5",
+  "chapters": 1,
+  "verseCount": 25,
+  "sceneCount": 15,
+  "scenes": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "first": 1,
+      "last": 2,
+      "title": "사랑받고 지키심을 입은 이들에게",
+      "kind": "editorial",
+      "visual": "Original adult Jude preparing a warm community greeting at a humble desk, carefully distinct from Judas Iscariot, broad dawn landscape.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "예수 그리스도의 종이요 야고보의 형제인 유다는 부르심을 입은 자 곧 하나님 아버지 안에서 사랑을 얻고 예수 그리스도를 위하여 지키심을 입은 자들에게 편지하노라"
+        },
+        {
+          "verse": 2,
+          "text": "긍휼과 평강과 사랑이 너희에게 더욱 많을지어다"
+        }
+      ],
+      "image": "jude-001-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:1–2. Kind: editorial.\nPRIMARY SCENE: Original adult Jude preparing a warm community greeting at a humble desk, carefully distinct from Judas Iscariot, broad dawn landscape."
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "first": 3,
+      "last": 4,
+      "title": "받은 믿음을 지키고 은혜를 왜곡하지 말라",
+      "kind": "metaphor",
+      "visual": "A secure plain entrusted scroll beside a misleading ornate empty gift case, community discerning without sexual imagery or celebrity vice casting.",
+      "verses": [
+        {
+          "verse": 3,
+          "text": "사랑하는 자들아 내가 우리의 일반으로 얻은 구원을 들어 너희에게 편지하려는 뜻이 간절하던 차에 성도에게 단번에 주신 믿음의 도를 위하여 힘써 싸우라는 편지로 너희를 권하여야 할 필요를 느꼈노니"
+        },
+        {
+          "verse": 4,
+          "text": "이는 가만히 들어온 사람 몇이 있음이라 저희는 옛적부터 이 판결을 받기로 미리 기록된 자니 경건치 아니하여 우리 하나님의 은혜를 도리어 색욕거리로 바꾸고 홀로 하나이신 주재 곧 우리 주 예수 그리스도를 부인하는 자니라"
+        }
+      ],
+      "image": "jude-002-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:3–4. Kind: metaphor.\nPRIMARY SCENE: A secure plain entrusted scroll beside a misleading ornate empty gift case, community discerning without sexual imagery or celebrity vice casting."
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "first": 5,
+      "last": 5,
+      "title": "구원 뒤에도 믿음의 경계를 기억",
+      "kind": "recollection",
+      "visual": "Ancient clothed Israelite travelers in a vast desert looking back toward a departed settlement, sober accountability without corpses.",
+      "verses": [
+        {
+          "verse": 5,
+          "text": "너희가 본래 범사를 알았으나 내가 너희로 다시 생각나게 하고자 하노라 주께서 백성을 애굽에서 구원하여 내시고 후에 믿지 아니하는 자들을 멸하셨으며"
+        }
+      ],
+      "image": "jude-003-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:5–5. Kind: recollection.\nPRIMARY SCENE: Ancient clothed Israelite travelers in a vast desert looking back toward a departed settlement, sober accountability without corpses."
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "first": 6,
+      "last": 6,
+      "title": "자기 자리를 떠난 사역의 경계",
+      "kind": "metaphor",
+      "visual": "Abandoned messenger token beside a closed dark empty enclosure, selective warning without a torture pit or invented angel anatomy.",
+      "verses": [
+        {
+          "verse": 6,
+          "text": "또 자기 지위를 지키지 아니하고 자기 처소를 떠난 천사들을 큰 날의 심판까지 영원한 결박으로 흑암에 가두셨으며"
+        }
+      ],
+      "image": "jude-004-right-v3.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:6–6. Kind: metaphor.\nPRIMARY SCENE: Abandoned messenger token beside a closed dark empty enclosure, selective warning without a torture pit or invented angel anatomy."
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "first": 7,
+      "last": 7,
+      "title": "소돔의 폐허가 남기는 경계",
+      "kind": "recollection",
+      "visual": "Distant empty ancient city ruins beneath sober unsettled sky, safe clothed observers far away, no sexual violence or burning victims.",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "소돔과 고모라와 그 이웃 도시들도 저희와 같은 모양으로 간음을 행하며 다른 색을 따라 가다가 영원한 불의 형벌을 받음으로 거울이 되었느니라"
+        }
+      ],
+      "image": "jude-005-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:7–7. Kind: recollection.\nPRIMARY SCENE: Distant empty ancient city ruins beneath sober unsettled sky, safe clothed observers far away, no sexual violence or burning victims."
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "first": 8,
+      "last": 10,
+      "title": "알지 못하는 것을 함부로 비방하지 말라",
+      "kind": "recollection",
+      "visual": "Selective remembered scene: one distant dignified angel Michael strictly from behind near a fully covered simple memorial bier, a coherent pair of wings rooted in UPPER BACK behind shoulder blades, arms separate and mostly concealed, no God's face, exposed corpse or Satan biological body. Restraint rather than fantasy duel, readable soft light.",
+      "verses": [
+        {
+          "verse": 8,
+          "text": "그러한데 꿈꾸는 이 사람들도 그와 같이 육체를 더럽히며 권위를 업신여기며 영광을 훼방하는도다"
+        },
+        {
+          "verse": 9,
+          "text": "천사장 미가엘이 모세의 시체에 대하여 마귀와 다투어 변론할 때에 감히 훼방하는 판결을 쓰지 못하고 다만 말하되 주께서 너를 꾸짖으시기를 원하노라 하였거늘"
+        },
+        {
+          "verse": 10,
+          "text": "이 사람들은 무엇이든지 그 알지 못하는 것을 훼방하는도다 또 저희는 이성 없는 짐승 같이 본능으로 아는 그것으로 멸망하느니라"
+        }
+      ],
+      "image": "jude-006-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:8–10. Kind: recollection.\nPRIMARY SCENE: Selective remembered scene: one distant dignified angel Michael strictly from behind near a fully covered simple memorial bier, a coherent pair of wings rooted in UPPER BACK behind shoulder blades, arms separate and mostly concealed, no God's face, exposed corpse or Satan biological body. Restraint rather than fantasy duel, readable soft light."
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "first": 11,
+      "last": 11,
+      "title": "가인 발람 고라의 길을 돌아보다",
+      "kind": "metaphor",
+      "visual": "Unused stone tool, abandoned bribe pouch and overturned leadership staff on one sober ancient table, selective recalled warnings without combining them as one historical event.",
+      "verses": [
+        {
+          "verse": 11,
+          "text": "화 있을진저 이 사람들이여, 가인의 길에 행하였으며 삯을 위하여 발람의 어그러진 길로 몰려갔으며 고라의 패역을 좇아 멸망을 받았도다"
+        }
+      ],
+      "image": "jude-007-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:11–11. Kind: metaphor.\nPRIMARY SCENE: Unused stone tool, abandoned bribe pouch and overturned leadership staff on one sober ancient table, selective recalled warnings without combining them as one historical event."
+    },
+    {
+      "id": 8,
+      "chapter": 1,
+      "first": 12,
+      "last": 12,
+      "title": "애찬의 암초와 열매 없는 나무",
+      "kind": "metaphor",
+      "visual": "A hidden rocky reef beside a dry uprooted tree on a vast coastal edge, ordinary abandoned feast bowl close by, no victims or dehumanized faces.",
+      "verses": [
+        {
+          "verse": 12,
+          "text": "저희는 기탄 없이 너희와 함께 먹으니 너희 애찬의 암초요 자기 몸만 기르는 목자요 바람에 불려가는 물 없는 구름이요 죽고 또 죽어 뿌리까지 뽑힌 열매 없는 가을 나무요"
+        }
+      ],
+      "image": "jude-008-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:12–12. Kind: metaphor.\nPRIMARY SCENE: A hidden rocky reef beside a dry uprooted tree on a vast coastal edge, ordinary abandoned feast bowl close by, no victims or dehumanized faces."
+    },
+    {
+      "id": 9,
+      "chapter": 1,
+      "first": 13,
+      "last": 13,
+      "title": "거친 물결과 길 잃는 빛",
+      "kind": "metaphor",
+      "visual": "Vast natural turbulent coast at readable twilight with foam and sparse distant stars, warning symbols not an astronomy diagram or literal doomed people.",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "자기의 수치의 거품을 뿜는 바다의 거친 물결이요 영원히 예비된 캄캄한 흑암에 돌아갈 유리하는 별들이라"
+        }
+      ],
+      "image": "jude-009-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:13–13. Kind: metaphor.\nPRIMARY SCENE: Vast natural turbulent coast at readable twilight with foam and sparse distant stars, warning symbols not an astronomy diagram or literal doomed people."
+    },
+    {
+      "id": 10,
+      "chapter": 1,
+      "first": 14,
+      "last": 15,
+      "title": "에녹의 경고와 공의의 경외",
+      "kind": "recollection",
+      "visual": "Original ancient Enoch thoughtfully addressing a small clothed pastoral community under immense sober sky, no exact end-time army or visible God body.",
+      "verses": [
+        {
+          "verse": 14,
+          "text": "아담의 칠세 손 에녹이 사람들에게 대하여도 예언하여 이르되 보라 주께서 그 수만의 거룩한 자와 함께 임하셨나니"
+        },
+        {
+          "verse": 15,
+          "text": "이는 뭇사람을 심판하사 모든 경건치 않은 자의 경건치 않게 행한 모든 경건치 않은 일과 또 경건치 않은 죄인의 주께 거스려 한 모든 강퍅한 말을 인하여 저희를 정죄하려 하심이라 하였느니라"
+        }
+      ],
+      "image": "jude-010-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:14–15. Kind: recollection.\nPRIMARY SCENE: Original ancient Enoch thoughtfully addressing a small clothed pastoral community under immense sober sky, no exact end-time army or visible God body."
+    },
+    {
+      "id": 11,
+      "chapter": 1,
+      "first": 16,
+      "last": 19,
+      "title": "불평과 아첨의 분열을 경계",
+      "kind": "metaphor",
+      "visual": "A community calmly setting a divisive whisperer's raised chair aside and returning to a trusted shared table, no supplied face as schemer.",
+      "verses": [
+        {
+          "verse": 16,
+          "text": "이 사람들은 원망하는 자며 불만을 토하는 자며 그 정욕대로 행하는 자라 그 입으로 자랑하는 말을 내며 이를 위하여 아첨하느니라"
+        },
+        {
+          "verse": 17,
+          "text": "사랑하는 자들아 너희는 우리 주 예수 그리스도의 사도들의 미리 한 말을 기억하라"
+        },
+        {
+          "verse": 18,
+          "text": "그들이 너희에게 말하기를 마지막 때에 자기의 경건치 않은 정욕대로 행하며 기롱하는 자들이 있으리라 하였나니"
+        },
+        {
+          "verse": 19,
+          "text": "이 사람들은 당을 짓는 자며 육에 속한 자며 성령은 없는 자니라"
+        }
+      ],
+      "image": "jude-011-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:16–19. Kind: metaphor.\nPRIMARY SCENE: A community calmly setting a divisive whisperer's raised chair aside and returning to a trusted shared table, no supplied face as schemer."
+    },
+    {
+      "id": 12,
+      "chapter": 1,
+      "first": 20,
+      "last": 21,
+      "title": "믿음 위에 세우고 사랑 안에서",
+      "kind": "metaphor",
+      "visual": "Sung male and Yeonkyung completing a sound household terrace together then pausing for grateful prayer, love and patiently awaited mercy.",
+      "verses": [
+        {
+          "verse": 20,
+          "text": "사랑하는 자들아 너희는 너희의 지극히 거룩한 믿음 위에 자기를 건축하며 성령으로 기도하며"
+        },
+        {
+          "verse": 21,
+          "text": "하나님의 사랑 안에서 자기를 지키며 영생에 이르도록 우리 주 예수 그리스도의 긍휼을 기다리라"
+        }
+      ],
+      "image": "jude-012-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:20–21. Kind: metaphor.\nPRIMARY SCENE: Sung male and Yeonkyung completing a sound household terrace together then pausing for grateful prayer, love and patiently awaited mercy.\nCAST sung, input image(s) 1–1: Preserve supplied Sung Kim's adult East Asian face, eye spacing, nose, tousled black hair, moustache and short beard. Identity only; period linen, no T-shirt or blue wall.\nCAST yeonkyung, input image(s) 2–3: Preserve Yeonkyung from the original user-supplied photos: authentic adult age, natural facial proportions, recognizable eye-smile and lovely authentic smile when appropriate. No added age, facial heaviness, exaggerated skin, slimming or generic younger actress. Remove sunglasses and all modern clothes/accessories; muted pale-blue linen tunic and ivory shawl, period hair. First image is primary facial authority; second original smiling photo supports her expression. Do not copy modern setting or use the rejected Take Heart first portrait.\nAssign each referenced identity ONLY to the named role in the primary scene, never Jesus, God or the crowd. Others have distinct original faces. Fictional biblical performance, no claims about real biographies or health.",
+      "cast": [
+        "sung",
+        "yeonkyung"
+      ],
+      "referenceImages": [
+        "references/gospels/sung-authorized.png",
+        "references/epistles/yeonkyung-authorized.png",
+        "references/epistles/yeonkyung-smile-original.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "chapter": 1,
+      "first": 22,
+      "last": 22,
+      "title": "의심하는 이에게 긍휼을",
+      "kind": "metaphor",
+      "visual": "Yeonkyung gently listening to an uncertain original-faced neighbor at a simple bench, authentic warm eyes and no forced conversion.",
+      "verses": [
+        {
+          "verse": 22,
+          "text": "어떤 의심하는 자들을 긍휼히 여기라"
+        }
+      ],
+      "image": "jude-013-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:22–22. Kind: metaphor.\nPRIMARY SCENE: Yeonkyung gently listening to an uncertain original-faced neighbor at a simple bench, authentic warm eyes and no forced conversion.\nCAST yeonkyung, input image(s) 1–2: Preserve Yeonkyung from the original user-supplied photos: authentic adult age, natural facial proportions, recognizable eye-smile and lovely authentic smile when appropriate. No added age, facial heaviness, exaggerated skin, slimming or generic younger actress. Remove sunglasses and all modern clothes/accessories; muted pale-blue linen tunic and ivory shawl, period hair. First image is primary facial authority; second original smiling photo supports her expression. Do not copy modern setting or use the rejected Take Heart first portrait.\nAssign each referenced identity ONLY to the named role in the primary scene, never Jesus, God or the crowd. Others have distinct original faces. Fictional biblical performance, no claims about real biographies or health.",
+      "cast": [
+        "yeonkyung"
+      ],
+      "referenceImages": [
+        "references/epistles/yeonkyung-authorized.png",
+        "references/epistles/yeonkyung-smile-original.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "chapter": 1,
+      "first": 23,
+      "last": 23,
+      "title": "위험에서 돕되 자신도 조심하다",
+      "kind": "metaphor",
+      "visual": "Sung feminine guiding a distressed adult along a clearly safe path away from a small contained brush fire, steady grip, no burning person or contaminated flesh.",
+      "verses": [
+        {
+          "verse": 23,
+          "text": "또 어떤 자를 불에서 끌어내어 구원하라 또 어떤 자를 그 육체로 더럽힌 옷이라도 싫어하여 두려움으로 긍휼히 여기라"
+        }
+      ],
+      "image": "jude-014-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:23–23. Kind: metaphor.\nPRIMARY SCENE: Sung feminine guiding a distressed adult along a clearly safe path away from a small contained brush fire, steady grip, no burning person or contaminated flesh.\nCAST woman, input image(s) 1–1: Preserve the user-approved fictional feminine Sung: adult East Asian oval face, eyes, nose, mouth, long black hair, absolutely no beard. Sage shawl and muted terracotta tunic. Face only; no well or Samaritan story imported.\nAssign each referenced identity ONLY to the named role in the primary scene, never Jesus, God or the crowd. Others have distinct original faces. Fictional biblical performance, no claims about real biographies or health.",
+      "cast": [
+        "woman"
+      ],
+      "referenceImages": [
+        "references/gospels/sung-woman-approved.png"
+      ]
+    },
+    {
+      "id": 15,
+      "chapter": 1,
+      "first": 24,
+      "last": 25,
+      "title": "넘어지지 않게 지키시는 영광과 기쁨",
+      "kind": "metaphor",
+      "visual": "Sung male, feminine Sung and Yeonkyung with a diverse hopeful community firmly on an immense radiant coastal terrace, natural faces and scale, no divine body or heavenly court blueprint.",
+      "verses": [
+        {
+          "verse": 24,
+          "text": "능히 너희를 보호하사 거침이 없게 하시고 너희로 그 영광 앞에 흠이 없이 즐거움으로 서게 하실 자"
+        },
+        {
+          "verse": 25,
+          "text": "곧 우리 구주 홀로 하나이신 하나님께 우리 주 예수 그리스도로 말미암아 영광과 위엄과 권력과 권세가 만고 전부터 이제와 세세에 있을지어다 아멘"
+        }
+      ],
+      "image": "jude-015-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/JUD.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: Jude 1:24–25. Kind: metaphor.\nPRIMARY SCENE: Sung male, feminine Sung and Yeonkyung with a diverse hopeful community firmly on an immense radiant coastal terrace, natural faces and scale, no divine body or heavenly court blueprint.\nCAST sung, input image(s) 1–1: Preserve supplied Sung Kim's adult East Asian face, eye spacing, nose, tousled black hair, moustache and short beard. Identity only; period linen, no T-shirt or blue wall.\nCAST woman, input image(s) 2–2: Preserve the user-approved fictional feminine Sung: adult East Asian oval face, eyes, nose, mouth, long black hair, absolutely no beard. Sage shawl and muted terracotta tunic. Face only; no well or Samaritan story imported.\nCAST yeonkyung, input image(s) 3–4: Preserve Yeonkyung from the original user-supplied photos: authentic adult age, natural facial proportions, recognizable eye-smile and lovely authentic smile when appropriate. No added age, facial heaviness, exaggerated skin, slimming or generic younger actress. Remove sunglasses and all modern clothes/accessories; muted pale-blue linen tunic and ivory shawl, period hair. First image is primary facial authority; second original smiling photo supports her expression. Do not copy modern setting or use the rejected Take Heart first portrait.\nAssign each referenced identity ONLY to the named role in the primary scene, never Jesus, God or the crowd. Others have distinct original faces. Fictional biblical performance, no claims about real biographies or health.",
+      "cast": [
+        "sung",
+        "woman",
+        "yeonkyung"
+      ],
+      "referenceImages": [
+        "references/gospels/sung-authorized.png",
+        "references/gospels/sung-woman-approved.png",
+        "references/epistles/yeonkyung-authorized.png",
+        "references/epistles/yeonkyung-smile-original.jpg"
+      ]
+    }
+  ]
+}

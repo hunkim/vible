@@ -1,4 +1,5 @@
 import {initialLanguage,normalizeLanguage,languageNames,bookNames,messages,applyTranslation,interfaceCopy} from './languages.js';
+import {epistleBooks} from './epistles-catalog.js';
 import {renderScripture} from './jesus-words.js';
 import {annotations} from './annotations.js';
 import './install.js';
@@ -308,6 +309,7 @@ const books={
  chapterNames:['승천과 증인의 부르심','오순절과 함께 나누는 교회','미문에서 일어난 사람','담대한 증언과 한마음의 기도','사람보다 하나님께 순종','일곱 섬김의 사람과 스데반','스데반의 증언과 마지막 기도','사마리아와 광야 길의 만남','사울의 회심과 다비다의 회복','고넬료의 집, 이방인에게 열린 문','안디옥의 그리스도인들','옥문을 여신 하나님','안디옥에서 시작한 첫 여정','루스드라의 표적과 환난','예루살렘의 의논과 은혜','루디아, 감옥의 찬송과 간수','베뢰아의 말씀, 아덴의 질문','고린도와 브리스길라·아굴라','에베소에서 일어난 변화와 소동','밀레도의 눈물과 맡겨진 양 떼','예루살렘으로 돌아온 바울','계단 위의 증언과 로마 시민권','로마를 향한 약속과 밤의 호송','벨릭스 앞의 부활의 소망','가이사에게 호소한 바울','아그립바 앞의 증언','풍랑 속에서도 잃지 않은 소망','멜리데와 로마, 금하지 못한 말씀'],
  arcs:[{chapters:'1–7장',title:'예루살렘의 증인들',copy:'성령의 약속과 오순절, 나누는 공동체와 박해 속의 증언.',chapter:1,imageChapter:2},{chapters:'8–12장',title:'경계를 넘어선 복음',copy:'사마리아, 에디오피아 관원, 사울과 고넬료, 안디옥의 공동체.',chapter:8},{chapters:'13–20장',title:'여러 민족을 향한 여정',copy:'바울과 동역자들의 항해, 도시마다 열린 만남과 말씀.',chapter:13,imageChapter:16},{chapters:'21–28장',title:'결박 너머로 열린 길',copy:'예루살렘과 가이사랴의 재판, 풍랑과 멜리데, 로마의 열린 집.',chapter:21,imageChapter:27}]}
 };
+Object.assign(books,epistleBooks);
 async function loadBook(id,nextLanguage=language){
  if(!books[id])id='john';
  const version=++loadVersion;
@@ -321,7 +323,7 @@ async function loadBook(id,nextLanguage=language){
  }
  next.language=nextLanguage;
  if(version!==loadVersion)return;
- data=next;bookId=id;language=nextLanguage;localizeHeader();current=0;document.body.dataset.book=id;const config=books[id];
+ data=next;bookId=id;language=nextLanguage;localizeHeader();current=0;document.body.dataset.book=id;document.body.dataset.letter=epistleBooks[id]?'true':'false';const config=books[id];
  $('book').value=id;document.title=`Vible — 비주얼 바이블 · ${data.book}`;
  $('reading-book-label').textContent=config.english;$('reading-book-title').textContent=data.book;
  $('gallery-chapter').replaceChildren(new Option(ui().all,'0'));
@@ -332,7 +334,7 @@ async function loadBook(id,nextLanguage=language){
  $('chapter-map-title').textContent=`${data.chapters}장의 흐름`;
  $('search').value='';$('search').placeholder=config.search;
  $('prompt-source').href=config.plan;$('prompt-source').textContent=`${data.sceneCount}장 제작 프롬프트 ↗`;
- $('source-notes').textContent=id==='1corinthians'?'고린도전서는 그림 51장을 먼저 공개합니다. 16장 전체 본문은 원문 그대로 읽을 수 있으며, 나머지 장면의 그림은 제작 중입니다.':['matthew','mark','luke'].includes(id)?'각 복음서의 서술 순서와 인물 수, 만남의 장소를 따라 구성했습니다. 비유와 꿈, 족보를 그린 장면은 설명에서 구분합니다. 본문의 괄호와 (없음) 표기도 원본대로 보존했습니다.':id==='genesis'?'창조의 장면은 본문의 의미를 돕는 시각화이며 과학적 시간표나 확정된 지리 복원이 아닙니다. 족보는 세대의 이어짐을 구성한 편집 장면으로, 꿈과 시적 축복은 실제 현장과 구분합니다. 의복·건물·인물의 모습도 시각적 해석입니다.':id==='revelation'?'요한계시록의 환상과 상징은 맥락을 이해하도록 시각화했습니다. 특정 현대 인물·국가·기술이나 종말의 시간표로 단정하지 않으며, 핵심 이미지를 선택한 편집 해석입니다.':id==='romans'?'로마서는 편지의 논증을 시각적 비유와 편집 장면으로 표현합니다. 아브라함 등의 과거 회상은 구분하며, 16:24의 (없음) 표기를 원본대로 보존했습니다.':id==='john'?'비유와 가르침을 그린 장면은 설명에서 구분합니다. 요한복음 5:3–4와 7:53–8:11의 본문 괄호도 원본대로 유지했습니다.':'환상과 설교 속 과거 이야기는 장면 설명에서 구분합니다. 사도행전의 (없음) 및 [25절과 같음] 표기도 전자 본문 원본대로 유지했습니다.';
+ $('source-notes').textContent=epistleBooks[id]?`${data.book}의 가르침과 관계를 시각적 비유와 편집 장면으로 표현했습니다. 과거 회상은 설명에서 구분하며, 본문은 개역한글 원본 그대로 보존했습니다.${id==='hebrews'?' 히브리서의 저자는 본문에서 이름을 밝히지 않습니다.':''}${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:['matthew','mark','luke'].includes(id)?'각 복음서의 서술 순서와 인물 수, 만남의 장소를 따라 구성했습니다. 비유와 꿈, 족보를 그린 장면은 설명에서 구분합니다. 본문의 괄호와 (없음) 표기도 원본대로 보존했습니다.':id==='genesis'?'창조의 장면은 본문의 의미를 돕는 시각화이며 과학적 시간표나 확정된 지리 복원이 아닙니다. 족보는 세대의 이어짐을 구성한 편집 장면으로, 꿈과 시적 축복은 실제 현장과 구분합니다. 의복·건물·인물의 모습도 시각적 해석입니다.':id==='revelation'?'요한계시록의 환상과 상징은 맥락을 이해하도록 시각화했습니다. 특정 현대 인물·국가·기술이나 종말의 시간표로 단정하지 않으며, 핵심 이미지를 선택한 편집 해석입니다.':id==='romans'?'로마서는 편지의 논증을 시각적 비유와 편집 장면으로 표현합니다. 아브라함 등의 과거 회상은 구분하며, 16:24의 (없음) 표기를 원본대로 보존했습니다.':id==='john'?'비유와 가르침을 그린 장면은 설명에서 구분합니다. 요한복음 5:3–4와 7:53–8:11의 본문 괄호도 원본대로 유지했습니다.':'환상과 설교 속 과거 이야기는 장면 설명에서 구분합니다. 사도행전의 (없음) 및 [25절과 같음] 표기도 전자 본문 원본대로 유지했습니다.';
  $('explanation').hidden=true;$('error').hidden=true;
  renderBook();notes.refresh();renderStory();renderGallery();
  $('translation-attribution').textContent=data.attribution||'성경전서 개역한글판 © 대한성서공회 1961.';

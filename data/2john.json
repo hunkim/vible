@@ -1,0 +1,179 @@
+{
+  "book": "요한이서",
+  "translation": "개역한글",
+  "attribution": "성경전서 개역한글판 © 대한성서공회 1961.",
+  "source": "https://github.com/yuhwan/Bible-krv",
+  "verification": "https://www.bible.com/ko/bible/88/2JN.1.KRV",
+  "copyrightSource": "https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5",
+  "chapters": 1,
+  "verseCount": 13,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "first": 1,
+      "last": 3,
+      "title": "진리와 사랑 가운데 은혜와 평강",
+      "kind": "editorial",
+      "visual": "An original elderly letter writer preparing a warm household/community greeting, recipient deliberately not claimed literal identified woman, modest table and unlettered scroll.",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "장로는 택하심을 입은 부녀와 그의 자녀에게 편지하노니 내가 참으로 사랑하는 자요 나뿐 아니라 진리를 아는 모든 자도 그리하는 것은"
+        },
+        {
+          "verse": 2,
+          "text": "우리 안에 거하여 영원히 우리와 함께 할 진리를 인함이로다"
+        },
+        {
+          "verse": 3,
+          "text": "은혜와 긍휼과 평강이 하나님 아버지와 아버지의 아들 예수 그리스도께로부터 진리와 사랑 가운데서 우리와 함께 있으리라"
+        }
+      ],
+      "image": "2john-001-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/2JN.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: 2 John 1:1–3. Kind: editorial.\nPRIMARY SCENE: An original elderly letter writer preparing a warm household/community greeting, recipient deliberately not claimed literal identified woman, modest table and unlettered scroll."
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "first": 4,
+      "last": 4,
+      "title": "진리대로 걷는 이들의 기쁨",
+      "kind": "metaphor",
+      "visual": "Yeonkyung grateful as younger adult neighbors faithfully care for an elder, genuine lovely eye-smile and ordinary dignity.",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "너의 자녀 중에 우리가 아버지께 받은 계명대로 진리에 행하는 자를 내가 보니 심히 기쁘도다"
+        }
+      ],
+      "image": "2john-002-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/2JN.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: 2 John 1:4–4. Kind: metaphor.\nPRIMARY SCENE: Yeonkyung grateful as younger adult neighbors faithfully care for an elder, genuine lovely eye-smile and ordinary dignity.\nCAST yeonkyung, input image(s) 1–2: Preserve Yeonkyung from the original user-supplied photos: authentic adult age, natural facial proportions, recognizable eye-smile and lovely authentic smile when appropriate. No added age, facial heaviness, exaggerated skin, slimming or generic younger actress. Remove sunglasses and all modern clothes/accessories; muted pale-blue linen tunic and ivory shawl, period hair. First image is primary facial authority; second original smiling photo supports her expression. Do not copy modern setting or use the rejected Take Heart first portrait.\nAssign each referenced identity ONLY to the named role in the primary scene, never Jesus, God or the crowd. Others have distinct original faces. Fictional biblical performance, no claims about real biographies or health.",
+      "cast": [
+        "yeonkyung"
+      ],
+      "referenceImages": [
+        "references/epistles/yeonkyung-authorized.png",
+        "references/epistles/yeonkyung-smile-original.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "first": 5,
+      "last": 6,
+      "title": "처음부터 받은 계명, 서로 사랑하자",
+      "kind": "metaphor",
+      "visual": "Sung feminine and Yeonkyung preparing and sharing bread together in a luminous modest home, concrete warm companionship.",
+      "verses": [
+        {
+          "verse": 5,
+          "text": "부녀여, 내가 이제 네게 구하노니 서로 사랑하자 이는 새 계명 같이 네게 쓰는 것이 아니요 오직 처음부터 우리가 가진 것이라"
+        },
+        {
+          "verse": 6,
+          "text": "또 사랑은 이것이니 우리가 그 계명을 좇아 행하는 것이요 계명은 이것이니 너희가 처음부터 들은 바와 같이 그 가운데서 행하라 하심이라"
+        }
+      ],
+      "image": "2john-003-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/2JN.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: 2 John 1:5–6. Kind: metaphor.\nPRIMARY SCENE: Sung feminine and Yeonkyung preparing and sharing bread together in a luminous modest home, concrete warm companionship.\nCAST woman, input image(s) 1–1: Preserve the user-approved fictional feminine Sung: adult East Asian oval face, eyes, nose, mouth, long black hair, absolutely no beard. Sage shawl and muted terracotta tunic. Face only; no well or Samaritan story imported.\nCAST yeonkyung, input image(s) 2–3: Preserve Yeonkyung from the original user-supplied photos: authentic adult age, natural facial proportions, recognizable eye-smile and lovely authentic smile when appropriate. No added age, facial heaviness, exaggerated skin, slimming or generic younger actress. Remove sunglasses and all modern clothes/accessories; muted pale-blue linen tunic and ivory shawl, period hair. First image is primary facial authority; second original smiling photo supports her expression. Do not copy modern setting or use the rejected Take Heart first portrait.\nAssign each referenced identity ONLY to the named role in the primary scene, never Jesus, God or the crowd. Others have distinct original faces. Fictional biblical performance, no claims about real biographies or health.",
+      "cast": [
+        "woman",
+        "yeonkyung"
+      ],
+      "referenceImages": [
+        "references/gospels/sung-woman-approved.png",
+        "references/epistles/yeonkyung-authorized.png",
+        "references/epistles/yeonkyung-smile-original.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "first": 7,
+      "last": 9,
+      "title": "속임을 경계하고 가르침 안에 머물다",
+      "kind": "metaphor",
+      "visual": "A trusted plain letter beside a false ornate message case at a household table, readers carefully discern without modern anti-Christ identification.",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "미혹하는 자가 많이 세상에 나왔나니 이는 예수 그리스도께서 육체로 임하심을 부인하는 자라 이것이 미혹하는 자요 적그리스도니"
+        },
+        {
+          "verse": 8,
+          "text": "너희는 너희를 삼가 우리의 일한 것을 잃지 말고 오직 온전한 상을 얻으라"
+        },
+        {
+          "verse": 9,
+          "text": "지내쳐 그리스도 교훈 안에 거하지 아니하는 자마다 하나님을 모시지 못하되 교훈 안에 거하는 이 사람이 아버지와 아들을 모시느니라"
+        }
+      ],
+      "image": "2john-004-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/2JN.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: 2 John 1:7–9. Kind: metaphor.\nPRIMARY SCENE: A trusted plain letter beside a false ornate message case at a household table, readers carefully discern without modern anti-Christ identification."
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "first": 10,
+      "last": 11,
+      "title": "해로운 가르침을 후원하지 말라",
+      "kind": "metaphor",
+      "visual": "A household calmly declining an untrusted messenger's proposed teaching platform at the threshold, no hatred of every outsider or coercive expulsion.",
+      "verses": [
+        {
+          "verse": 10,
+          "text": "누구든지 이 교훈을 가지지 않고 너희에게 나아가거든 그를 집에 들이지도 말고 인사도 말라"
+        },
+        {
+          "verse": 11,
+          "text": "그에게 인사하는 자는 그 악한 일에 참예하는 자임이니라"
+        }
+      ],
+      "image": "2john-005-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/2JN.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: 2 John 1:10–11. Kind: metaphor.\nPRIMARY SCENE: A household calmly declining an untrusted messenger's proposed teaching platform at the threshold, no hatred of every outsider or coercive expulsion."
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "first": 12,
+      "last": 12,
+      "title": "종이와 먹을 넘어 얼굴을 맞대기를",
+      "kind": "editorial",
+      "visual": "A warmly prepared empty guest seat beside a loving letter and ordinary inkpot, hoped-for personal visit not shown already completed.",
+      "verses": [
+        {
+          "verse": 12,
+          "text": "내가 너희에게 쓸 것이 많으나 종이와 먹으로 쓰기를 원치 아니하고 오히려 너희에게 가서 면대하여 말하려 하니 이는 너희 기쁨을 충만케 하려 함이라"
+        }
+      ],
+      "image": "2john-006-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/2JN.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: 2 John 1:12–12. Kind: editorial.\nPRIMARY SCENE: A warmly prepared empty guest seat beside a loving letter and ordinary inkpot, hoped-for personal visit not shown already completed."
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "first": 13,
+      "last": 13,
+      "title": "서로 이어지는 공동체의 문안",
+      "kind": "metaphor",
+      "visual": "Distinct adult neighbors exchanging a warm greeting letter across one sunlit courtyard, community affection rather than exact family portrait.",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "택하심을 입은 네 자매의 자녀가 네게 문안하느니라"
+        }
+      ],
+      "image": "2john-007-right-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/2JN.1.KRV",
+      "prompt": "Use case: historical-scene. Asset: Vible cinematic visual Bible. Create ONE original high-quality wide 16:9 landscape photograph-like film frame, never a collage. Emotionally absorbing large-format historical cinema: monumental real-world spatial depth with tactile limestone, coarse linen, olive timber, believable skin and ordinary water; alternate story-motivated immense landscapes and intimate human recognition. Preserve the established Vible and Take Heart tone: luminous ivory, muted sage, pale blue, terracotta and restrained gold, practical natural light, subtle film grain, readable shadows, no muddy painting, cartoon, videogame poster, glossy fantasy or artificial halos. First-century eastern Roman Mediterranean appropriate to this letter, plausible small homes, port cities and provincial Roman setting; earlier recollections use their own biblical era, no medieval cathedrals, modern technology or imperial fantasy palaces. LEFT 42% calm low-detail background for scripture; essential faces and actions RIGHT CENTER x=55-88%; lower 18% without essential faces or gestures. Dignified distinct adult faces, emotionally precise eyes and posture rather than generic tears; anatomically coherent hands trace to their own wrists, elbows and shoulders, realistic supported grips, feet, loads, boat hulls and seated bodies. Jesus NEVER has a visible face, head profile or reflection, including infancy and childhood: prefer entirely offscreen, strictly rear view with face fully hidden, or one coherent cream-sleeved forearm at frame edge when this action needs it. A swaddled baby Jesus faces inward with head completely concealed; do not use supplied Sung references as Jesus. God and Holy Spirit never human bodies, faces or disembodied hands. Angels only where the passage calls for them; if winged, one coherent pair rooted in the UPPER BACK behind shoulder blades, separate from arms and chest, with correct perspective and occlusion. Adults only for marriage; children safely fully clothed, infants swaddled and supported. No nudity, sexual imagery, gore, graphic disease, self-harm method, mutilation, abuse or torture; convey difficult passages with objects, aftermath and sober reactions. No demons as biological monsters, ethnic villain caricatures or modern prophecy identifications. Parables, dreams, recollections and future teaching stay selective interpretive imagery, not added historical events. Do not add events, people, props or outcomes from a parallel Gospel if absent here. No readable writing, labels, numerals, logos, watermarks, borders or captions in the image. These books are LETTERS: editorial reconstructions and concrete teaching metaphors are not claimed recorded events. Match the specific argument, relationship and emotional transition, not generic repeated preachers. Paul, when specified: original lean middle-aged Jewish man, receding dark curls, short beard, cream linen and muted indigo mantle; never use a supplied face as Paul unless explicitly specified. Peter and John are distinct original actors. Do not invent diagnoses for Paul's thorn, a literal geography of heaven, modern prophecy dates, guaranteed wealth or guaranteed healing. Vast real spatial depth and magnificent natural light should serve the passage, with intimate recognizable faces when care matters. Output a large detailed 16:9 landscape frame, ideally 2048x1152 or larger.\nPassage: 2 John 1:13–13. Kind: metaphor.\nPRIMARY SCENE: Distinct adult neighbors exchanging a warm greeting letter across one sunlit courtyard, community affection rather than exact family portrait."
+    }
+  ]
+}

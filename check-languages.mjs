@@ -18,7 +18,7 @@ assert.throws(()=>applyTranslation(base,fixture('ja'),'en'),/language mismatch/)
 const root=await fs.mkdtemp(path.join(os.tmpdir(),'vible-language-tests-'));
 try{
  await fs.mkdir(path.join(root,'data'),{recursive:true});await fs.writeFile(path.join(root,'data/john.json'),JSON.stringify(base));
- for(const name of ['languages.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
+ for(const name of ['languages.js','epistles-catalog.js','epistles-books.json','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
  await fs.writeFile(path.join(root,'package.json'),JSON.stringify({type:'module'}));
  const {selection,shareParams}=await import(pathToFileURL(path.join(root,'share-data.mjs')));
  assert.throws(()=>selection(shareParams(new URL('https://vible.now/share/john/1/1?lang=en'))),/not available/);

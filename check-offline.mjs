@@ -11,7 +11,8 @@ vm.runInNewContext(worker,{self:{location:{origin:'https://vible.now'},registrat
 async function event(name,request){const pending=[];let result;handlers[name]({request,waitUntil:p=>pending.push(p),respondWith:p=>result=p});const response=await result;await Promise.all(pending);return response;}
 await event('install');await event('activate');
 const shell=await caches.open(version+'-shell');assert(await shell.match(scope+'data/1corinthians.json'));assert(await shell.match(scope+'assets/image-pending.svg')); assert(await shell.match(scope+'data/john.json'));assert(await shell.match(scope+'data/acts.json'));assert(await shell.match(scope+'data/romans.json'));assert(await shell.match(scope+'data/revelation.json'));assert(await shell.match(scope+'data/genesis.json'));
-for(const book of ['matthew','mark','luke'])assert(await shell.match(scope+`data/${book}.json`));
+for(const book of ['matthew','mark','luke',...JSON.parse(await fs.readFile(new URL('./epistles-books.json',import.meta.url),'utf8')).map(book=>book.id)])assert(await shell.match(scope+`data/${book}.json`));
+assert(await shell.match(scope+'epistles-catalog.js'));
 for(let n=0;n<70;n++)await event('fetch',new Request(scope+`assets/test-${n}.jpg`));
 assert.equal((await (await caches.open(version+'-images')).keys()).length,60);
 for(const lang of ['en','ja','zh'])for(const book of ['john','acts','romans','revelation'])assert(await shell.match(scope+`data/translations/${lang}/${book}.json`));
@@ -22,4 +23,4 @@ assert.equal(await (await event('fetch',new Request(scope+'data/romans.json'))).
 assert.equal(await (await event('fetch',new Request(scope+'data/revelation.json'))).text(),'./data/revelation.json');
 assert.equal(await (await event('fetch',new Request(scope+'data/genesis.json'))).text(),'./data/genesis.json');
 for(const book of ['matthew','mark','luke'])assert.equal(await (await event('fetch',new Request(scope+`data/${book}.json`))).text(),`./data/${book}.json`);
-console.log('Offline navigation, all nine scripture books, viewed-image fallback and 60-image cache bound verified.');
+console.log('Offline navigation, all 28 scripture books, viewed-image fallback and 60-image cache bound verified.');

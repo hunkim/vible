@@ -13,7 +13,7 @@ http.createServer(async(req,res) => {
   const url=new URL(req.url,'http://localhost'),pathname=decodeURIComponent(url.pathname);
   if(pathname.startsWith('/share/')||pathname==='/api/share'||(pathname==='/'&&url.searchParams.has('chapter')&&url.searchParams.has('verse')&&!url.searchParams.has('read')))return share(req,res);
   if(pathname==='/api/share-card')return await shareCard(req,res);
-  if(pathname==='/data/1corinthians.json'){const data=releaseData('1corinthians',JSON.parse(fs.readFileSync(path.join(root,'data/1corinthians.json'),'utf8')));res.writeHead(200,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-cache'});return res.end(req.method==='HEAD'?'':JSON.stringify(data));}
+  if(/^\/data\/[a-z0-9]+\.json$/.test(pathname)){const id=path.basename(pathname,'.json');const file=path.join(root,'data',id+'.json');if(!fs.existsSync(file)){res.writeHead(404);return res.end('Not found');}const data=releaseData(id,JSON.parse(fs.readFileSync(file,'utf8')));res.writeHead(200,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-cache'});return res.end(req.method==='HEAD'?'':JSON.stringify(data));}
   const file = path.resolve(root, '.' + (pathname === '/' ? '/index.html' : pathname));
   if (!file.startsWith(root + path.sep)) { res.writeHead(403); return res.end(); }
   const stat = fs.statSync(file); if (!stat.isFile()) { res.writeHead(404); return res.end(); }
