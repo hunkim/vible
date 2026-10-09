@@ -1,22 +1,26 @@
 const $=id=>document.getElementById(id);
 export function annotations(context){
- let selected=[],selectionText='',cardFile=null,cardURL='',revision=0,selectionTimer,noteTimer;
+ let selected=[],selectionText='',cardFile=null,cardURL='',revision=0,selectionTimer,noteTimer,selectedRange=null,positionFrame;
  const storageKey=()=>`vible-notes-${context().bookId}`;
  const records=()=>{try{return JSON.parse(localStorage.getItem(storageKey())||'{}');}catch{return {};}};
  const key=p=>`${p.dataset.chapter}:${p.dataset.verse}`;
  const status=t=>$('note-status').textContent=t;
  function paint(){const notes=records();for(const p of $('reader').querySelectorAll('[data-verse]')){p.classList.toggle('highlighted',!!notes[key(p)]?.highlight);p.classList.toggle('has-note',!!notes[key(p)]?.note);}}
- function pick(nodes,text=''){selected=nodes;selectionText=text||nodes.map(p=>p.querySelector('.verse-text').textContent).join('\n');$('selection-tools').hidden=!nodes.length;}
- function capture(){if($('note-dialog').open)return;const sel=window.getSelection();if(!sel?.rangeCount||sel.isCollapsed)return;const range=sel.getRangeAt(0);if(!$('reader').contains(range.startContainer)||!$('reader').contains(range.endContainer))return;const nodes=[...$('reader').querySelectorAll('[data-verse]')].filter(p=>range.intersectsNode(p.querySelector('.verse-text')));if(nodes.length)pick(nodes);}
+ function positionTools(){const tools=$('selection-tools');if(!selected.length||$('note-dialog').open){tools.hidden=true;return;}const reader=$('reader').getBoundingClientRect(),top=Math.max(12,reader.top),bottom=Math.min(window.innerHeight-12,reader.bottom);const rects=selectedRange?[...selectedRange.getClientRects()]:selected.map(p=>p.querySelector('.verse-text').getBoundingClientRect());const visible=rects.filter(r=>r.width&&r.bottom>top&&r.top<bottom);if(!visible.length){tools.hidden=true;return;}tools.hidden=false;const first=visible[0],last=visible.at(-1),box=tools.getBoundingClientRect();let y=first.top-box.height-10;if(y<top)y=last.bottom+10;y=Math.max(top,Math.min(y,bottom-box.height));const x=Math.max(12,Math.min((first.left+first.right-box.width)/2,window.innerWidth-box.width-12));tools.style.left=`${x}px`;tools.style.top=`${y}px`;}
+ function schedulePosition(){cancelAnimationFrame(positionFrame);positionFrame=requestAnimationFrame(positionTools);}
+ $('reader').addEventListener('scroll',schedulePosition,{passive:true});window.addEventListener('resize',schedulePosition);window.addEventListener('scroll',schedulePosition,{passive:true});window.visualViewport?.addEventListener('resize',schedulePosition);window.visualViewport?.addEventListener('scroll',schedulePosition);
+ $('selection-tools').addEventListener('pointerdown',e=>{if(e.pointerType==='mouse')e.preventDefault();});
+ function pick(nodes,text='',range=null){selected=nodes;selectedRange=range;selectionText=text||nodes.map(p=>p.querySelector('.verse-text').textContent).join('\n');$('highlight-selection').setAttribute('aria-pressed',String(nodes.length>0&&nodes.every(p=>records()[key(p)]?.highlight)));positionTools();}
+ function capture(){if($('note-dialog').open)return;const sel=window.getSelection();if(!sel?.rangeCount||sel.isCollapsed)return;const range=sel.getRangeAt(0);if(!$('reader').contains(range.startContainer)||!$('reader').contains(range.endContainer))return;const nodes=[...$('reader').querySelectorAll('[data-verse]')].filter(p=>range.intersectsNode(p.querySelector('.verse-text')));if(nodes.length)pick(nodes,'',range.cloneRange());}
  document.addEventListener('selectionchange',()=>{if($('note-dialog').open)return;clearTimeout(selectionTimer);selectionTimer=setTimeout(capture,120);});
  $('reader').addEventListener('click',e=>{const b=e.target.closest('.verse-number');if(b)pick([b.closest('[data-verse]')]);});
  function save(change){const notes=records();for(const p of selected)notes[key(p)]={...notes[key(p)],...change};try{localStorage.setItem(storageKey(),JSON.stringify(notes));paint();return true;}catch{status('저장 공간을 사용할 수 없습니다. 카드 다운로드는 가능합니다.');return false;}}
- $('highlight-selection').onclick=()=>{const notes=records();const highlighted=selected.every(p=>notes[key(p)]?.highlight);save({highlight:!highlighted});};
- $('dismiss-selection').onclick=()=>{$('selection-tools').hidden=true;window.getSelection()?.removeAllRanges();selected=[];};
+ $('highlight-selection').onclick=()=>{const notes=records();const highlighted=selected.every(p=>notes[key(p)]?.highlight);if(save({highlight:!highlighted}))$('highlight-selection').setAttribute('aria-pressed',String(!highlighted));};
+ $('dismiss-selection').onclick=()=>{$('selection-tools').hidden=true;window.getSelection()?.removeAllRanges();selected=[];selectedRange=null;};
  function ref(){const {data}=context();const first=selected[0],last=selected.at(-1);return `${data.book} ${key(first)}${first===last?'':`–${first.dataset.chapter===last.dataset.chapter?last.dataset.verse:key(last)}`}`;}
  function link(){const p=selected[0];return `https://vible.now/?book=${context().bookId}&chapter=${p.dataset.chapter}&verse=${p.dataset.verse}`;}
- function open(){if(!selected.length)return;$('selected-reference').textContent=ref();$('selected-scripture').textContent=selectionText;$('personal-note').value=records()[key(selected[0])]?.note||'';$('share-url').value=link();status('노트는 이 기기에 저장됩니다. 공유 버튼을 누를 때만 공유됩니다.');$('note-dialog').showModal();renderCard();}
- $('note-selection').onclick=open;$('share-selection').onclick=open;
+ function open(){if(!selected.length)return;$('selected-reference').textContent=ref();$('selected-scripture').textContent=selectionText;$('personal-note').value=records()[key(selected[0])]?.note||'';$('share-url').value=link();status('노트는 이 기기에 저장됩니다. 공유 버튼을 누를 때만 공유됩니다.');$('selection-tools').hidden=true;$('note-dialog').showModal();renderCard();}
+ $('note-selection').onclick=open;$('share-selection').onclick=open;$('note-dialog').addEventListener('close',schedulePosition);
  $('close-note').onclick=()=>$('note-dialog').close();$('save-note').onclick=()=>{if(save({note:$('personal-note').value,highlight:true}))status('말씀과 노트를 이 기기에 저장했습니다.');};
  $('personal-note').oninput=()=>{cardFile=null;$('share-card').disabled=true;$('download-card').disabled=true;clearTimeout(noteTimer);noteTimer=setTimeout(renderCard,250);};
  function wrap(ctx,text,width){const lines=[];for(const paragraph of text.split('\n')){let line='';for(const ch of paragraph){if(line&&ctx.measureText(line+ch).width>width){lines.push(line);line=ch;}else line+=ch;}lines.push(line);}return lines;}
@@ -36,6 +40,8 @@ export function annotations(context){
  $('share-card').onclick=async()=>{if(!cardFile)return;try{const payload={files:[cardFile]};if(navigator.share&&navigator.canShare?.(payload)){await navigator.share(payload);}else{download();status('이미지를 저장했습니다. 메신저나 SNS에서 사진으로 첨부해 주세요.');}}catch(e){if(e.name!=='AbortError')status('이미지 공유 창을 열지 못했습니다. 이미지 저장 후 사진으로 첨부해 주세요.');}};
  async function copyLink(){try{await navigator.clipboard.writeText(link());status('말씀 URL을 복사했습니다. 메신저나 SNS에 붙여 넣어 주세요.');}catch{$('share-url').focus();$('share-url').select();status('아래 URL을 길게 누르거나 복사해서 메신저에 붙여 넣어 주세요.');}}
  $('copy-link').onclick=copyLink;
- $('share-link').onclick=async()=>{try{if(navigator.share){await navigator.share({title:`${ref()} · Vible`,url:link()});}else{await copyLink();}}catch(e){if(e.name!=='AbortError')status('링크 공유 창을 열지 못했습니다. URL 복사 버튼을 이용해 주세요.');}};
- return {refresh(){selected=[];$('selection-tools').hidden=true;$('note-dialog').close();revision++;paint();}};
+ $('share-link').onclick=async()=>{try{if(navigator.share){await navigator.share({title:`${ref()} · Vible`,url:link()});}else{await copyLink();}}catch(e){if(e.name!=='AbortError'){if(!$('note-dialog').open)open();status('링크 공유 창을 열지 못했습니다. URL 복사 버튼을 이용해 주세요.');}}};
+ $('share-url-selection').onclick=()=>{if(!navigator.share)open();return $('share-link').onclick();};
+ document.addEventListener('pointerdown',e=>{if(!e.target.closest('#reader, #selection-tools, #note-dialog')){selected=[];selectedRange=null;$('selection-tools').hidden=true;}});
+ return {refresh(){selected=[];selectedRange=null;$('selection-tools').hidden=true;$('note-dialog').close();revision++;paint();}};
 }
