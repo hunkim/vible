@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A visual reading journey through the Gospel of John",
+  "description": "A cinematic visual Bible with scripture notes, sharing and installation",
   "scripts": {
     "build": "node build.mjs",
     "dev": "node serve.mjs",
     "start": "node serve.mjs",
-    "check": "node --check app.js && node build.mjs"
+    "check": "node --check app.js && node --check annotations.js && node --check install.js && node --check sw.js && node build.mjs"
   }
 }
