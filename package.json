@@ -8,6 +8,6 @@
     "build": "node build.mjs",
     "dev": "node serve.mjs",
     "start": "node serve.mjs",
-    "check": "node --check app.js && node --check annotations.js && node --check install.js && node --check sw.js && node build.mjs"
+    "check": "node --check app.js && node --check annotations.js && node --check install.js && node --check sw.js && node check-sharing.mjs && node build.mjs"
   }
 }
