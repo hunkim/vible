@@ -11,7 +11,7 @@ let data,bookId='john',loadVersion=0,current=0,view='read',scrollFrame=0,fontSiz
 let language='ko',catalog={ko:{books:[]}},preferredLanguage='ko';
 const ui=()=>messages[language];
 const notes=annotations(()=>({data,bookId,language}));
-const search=scriptureSearch(()=>({bookId,language,name:data?.book||bookNames[language][bookId]}),async verse=>{
+const search=scriptureSearch(()=>({ready:Boolean(data),bookId,language,name:data?.book||bookNames[language][bookId]}),async verse=>{
  if(bookId!==verse.book||language!==verse.language)await loadBook(verse.book,verse.language,true);
  const index=data.scenes.findIndex(s=>s.chapter===verse.chapter&&s.first<=verse.verse&&s.last>=verse.verse);
  if(index<0)throw Error('Verse unavailable');goTo(index);

@@ -7,7 +7,7 @@ const copy={
 };
 export function scriptureSearch(getContext,openVerse){
  const $=id=>document.getElementById(id),dialog=$('scripture-search'),input=$('scripture-query'),results=$('scripture-results'),status=$('scripture-status'),cache=new Map();
- let index=null,scope='',limit=30,generation=0,timer,composing=false,lang='ko',returnToReader=false,navigating=false;
+ let index=null,scope='',limit=30,generation=0,timer,composing=false,lang='ko',returnToReader=false,navigating=false,headerComposing=false;
  const c=()=>copy[lang];
  function message(title,detail='',retry=false){results.replaceChildren();const box=document.createElement('div');box.className='search-message';const heading=document.createElement('strong');heading.textContent=title;const p=document.createElement('p');p.textContent=detail;box.append(heading,p);if(retry){const b=document.createElement('button');b.textContent=c().retry;b.onclick=()=>{cache.delete(lang);load();};box.append(b);}results.append(box);}
  function render(){
@@ -37,16 +37,19 @@ export function scriptureSearch(getContext,openVerse){
   finally{if(ticket===generation)results.setAttribute('aria-busy','false');}
  }
  function open(){
+  if(getContext().ready===false)return;
   if(dialog.open){input.focus();return;}
-  const context=getContext();lang=context.language;scope='';limit=30;returnToReader=false;
+  const context=getContext();lang=context.language;scope='';limit=30;returnToReader=false;input.value=$('header-query').value;
   $('scripture-search-title').textContent=c().title;input.placeholder=c().placeholder;input.setAttribute('aria-label',c().open);$('close-scripture-search').setAttribute('aria-label',c().close);$('clear-scripture-query').setAttribute('aria-label',c().clear);$('search-all').textContent=c().all;$('search-current').textContent=context.name;$('search-more').textContent=c().more;
   $('search-all').setAttribute('aria-pressed','true');$('search-current').setAttribute('aria-pressed','false');dialog.showModal();fitViewport();input.focus();load();
  }
- function fitViewport(){if(dialog.open&&innerWidth<=700)dialog.style.setProperty('--search-height',`${window.visualViewport?.height||innerHeight}px`);}
- window.visualViewport?.addEventListener('resize',fitViewport);
+ function fitViewport(){if(!dialog.open)return;if(innerWidth<=700)dialog.style.setProperty('--search-height',`${window.visualViewport?.height||innerHeight}px`);else{const field=$('toolbar-search').getBoundingClientRect();dialog.style.setProperty('--search-left',`${Math.max(24,Math.min(field.left,innerWidth-dialog.offsetWidth-24))}px`);dialog.style.setProperty('--search-top',`${field.bottom+10}px`);}}
+ window.visualViewport?.addEventListener('resize',fitViewport);window.addEventListener('resize',fitViewport);
  dialog.addEventListener('keydown',e=>{if(e.key==='Escape'&&!e.isComposing){e.preventDefault();e.stopPropagation();dialog.close();}});
- $('open-search').onclick=open;$('close-scripture-search').onclick=()=>dialog.close();
- dialog.addEventListener('close',()=>{generation++;clearTimeout(timer);$(returnToReader?'reader':'open-search').focus({preventScroll:true});});
+ $('header-query').addEventListener('compositionstart',()=>{headerComposing=true;});$('header-query').addEventListener('compositionend',()=>{headerComposing=false;});
+ $('header-query').addEventListener('keydown',e=>{if(e.key==='Escape'&&!e.isComposing){e.preventDefault();$('reader').focus({preventScroll:true});}});
+ $('toolbar-search').addEventListener('submit',e=>{e.preventDefault();if(!headerComposing)open();});$('close-scripture-search').onclick=()=>dialog.close();
+ dialog.addEventListener('close',()=>{generation++;clearTimeout(timer);$('header-query').value=input.value;$(returnToReader?'reader':'header-query').focus({preventScroll:true});});
  dialog.addEventListener('click',e=>{const r=dialog.getBoundingClientRect();if(e.target===dialog&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))dialog.close();});
  $('clear-scripture-query').onclick=()=>{input.value='';limit=30;render();input.focus();};
  input.addEventListener('input',()=>{clearTimeout(timer);if(!composing)timer=setTimeout(()=>{limit=30;render();},120);});
@@ -56,5 +59,5 @@ export function scriptureSearch(getContext,openVerse){
  input.addEventListener('keydown',e=>{if(e.isComposing||composing)return;if(e.key==='ArrowDown'){const first=results.querySelector('.scripture-result');if(first){e.preventDefault();first.focus();}}if(e.key==='Enter'){e.preventDefault();clearTimeout(timer);limit=30;render();const matches=results.querySelectorAll('.scripture-result');if(matches.length===1)matches[0].click();else matches[0]?.focus();}});
  results.addEventListener('keydown',e=>{if(!['ArrowDown','ArrowUp'].includes(e.key)||e.isComposing)return;const buttons=Array.from(results.querySelectorAll('.scripture-result')),position=buttons.indexOf(document.activeElement);if(position<0)return;e.preventDefault();if(e.key==='ArrowUp'&&position===0)input.focus();else buttons[position+(e.key==='ArrowDown'?1:-1)]?.focus();});
  document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'&&!e.isComposing){e.preventDefault();open();}});
- return {localize(){const language=getContext().language;const label=copy[language].open;$('open-search').setAttribute('aria-label',label);$('open-search').title=`${label} · ${copy[language].shortcut}`;}};
+ return {localize(){$('header-query').disabled=false;$('open-search').disabled=false;const language=getContext().language;const label=copy[language].open;const example=copy[language].examples.at(-1);$('header-query').placeholder=`${label} · ${example}`;$('header-query').setAttribute('aria-label',label);document.querySelector('.search-shortcut').textContent=/Mac|iPhone|iPad/.test(navigator.platform)?'⌘ K':'Ctrl K';$('open-search').setAttribute('aria-label',label);$('open-search').title=`${label} · ${copy[language].shortcut}`;}};
 }
