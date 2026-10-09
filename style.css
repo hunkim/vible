@@ -66,6 +66,9 @@
 .share-help{font-size:12px;line-height:1.7;color:#596758}.share-url{box-sizing:border-box;width:100%;padding:10px 12px;border:1px solid #bac2b5;border-radius:8px;background:#fffaf0;color:#283c34;font:12px sans-serif}
 
 .selection-tools button{display:grid;place-items:center;width:40px;height:40px;padding:8px;border-radius:50%;background:transparent}.selection-tools button:hover{background:#e5e6dc}.selection-tools button:focus-visible{outline:2px solid #826936;outline-offset:1px}.selection-tools svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+
+@media(max-width:700px){#visual-stage[data-layout="right"]{background:#13211b}#visual[data-layout="right"]{height:50%;object-position:right top;mask-image:linear-gradient(to bottom,#000 72%,transparent)}#visual-stage[data-layout="right"]~.visual-caption{top:12px}.immersive #visual[data-layout="right"]{height:100%;object-position:center;mask-image:none}}
+
 /* A spacious welcome makes installation easy to find on phones and computers. */
 #install-dialog{width:min(880px,calc(100% - 48px));max-width:880px;max-height:92dvh;padding:0;border:0;border-radius:24px;overflow:auto}
 #install-dialog .dialog-close{z-index:1;top:12px;right:14px;width:40px;height:40px;border-radius:50%;background:#f4f1e9;color:#283c34}
@@ -100,20 +103,172 @@
  .install-benefits{margin:16px 0;font-size:12px}
 }
 
-/* Compact reader navigation. */
-.topbar{height:64px;padding:0 3%;justify-content:flex-start;gap:14px}
-.topbar .brand{gap:9px;font-size:19px}.topbar .book-picker{margin:0}.topbar .book-picker select{font-size:14px;padding:9px 25px 9px 12px}
-.chapter-navigation{display:flex;align-items:center;gap:8px;margin-left:auto}.chapter-navigation button{min-width:40px;height:40px;font-size:27px;padding:0}.chapter-navigation select{height:40px;font-size:14px}
-.menu-toggle{display:grid;place-items:center;width:40px;height:40px;padding:8px;border-radius:8px}.menu-toggle svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}.menu-toggle:hover{background:#e5e6dc}
+/* Reader header: book on the left, reading tools on the right. */
+.topbar{height:64px;padding:0 3%;justify-content:flex-start;gap:18px;background:#f4f1e9;border-bottom:1px solid #283c3410}
+.topbar .brand{gap:9px;font-size:21px;letter-spacing:-.03em;flex-shrink:0}
+.topbar .brand-icon{width:34px;height:34px;border-radius:10px}
+.topbar .book-picker{margin:0;padding-left:18px;border-left:1px solid #283c3420}
+.topbar .book-picker select{height:40px;font-size:14px;padding:0 30px 0 12px;border:1px solid #283c3415;border-radius:10px;background:#eaece4}
+.header-actions{display:flex;align-items:center;gap:12px;margin-left:auto}
+.menu-toggle{display:grid;place-items:center;width:40px;height:40px;padding:9px;border-radius:10px;flex-shrink:0}
+.menu-toggle svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}
+.menu-toggle:hover{background:#e5e6dc}
 .reading-workspace{height:calc(100dvh - 64px)}
-#navigation-dialog{max-width:420px;padding:30px 24px}#navigation-dialog h2{margin-bottom:20px}
+/* Navigation stays attached to its header button without obscuring the reader. */
+#navigation-dialog{position:fixed;inset:auto;margin:0;max-width:320px;padding:16px 12px 12px;overflow:visible;border:1px solid var(--line);border-radius:14px;background:var(--paper);color:var(--ink);box-shadow:0 12px 36px #10251d26}
+#navigation-dialog::backdrop{background:transparent;backdrop-filter:none}
+#navigation-dialog::before{content:'';position:absolute;top:-6px;left:calc(var(--menu-pointer, 290px) - 6px);width:10px;height:10px;background:var(--paper);border-top:1px solid var(--line);border-left:1px solid var(--line);transform:rotate(45deg)}
+#navigation-dialog h2{font:600 15px 'Noto Sans KR',sans-serif;margin:0 36px 12px 12px}
+#navigation-dialog .dialog-close{top:8px;right:9px;width:30px;height:30px;display:grid;place-items:center;font-size:22px;border-radius:7px}
+#navigation-dialog .dialog-close:hover{background:#283c3410}
+#navigation-dialog .menu-help{font-size:11px;line-height:1.8;color:#657266;margin:12px;padding:0}
+#navigation-dialog .menu-settings{margin-top:12px;padding-top:8px}
+.menu-toggle[aria-expanded="true"]{background:#283c3418}
 .menu-navigation,.menu-settings{display:flex;flex-direction:column;gap:5px}.menu-navigation button,.menu-settings button{text-align:left;padding:13px 15px;border-radius:8px;font-size:14px;min-height:46px}.menu-navigation button[aria-current]{background:#e5e6dc;color:#283c34;font-weight:600}.menu-navigation button:hover,.menu-settings button:hover{background:#e5e6dc}
-.menu-settings{border-top:1px solid var(--line);padding-top:16px;margin-top:16px}.menu-settings #font,.menu-settings #focus{font:14px 'Noto Sans KR',sans-serif;width:auto}.menu-settings #install{margin:6px 0 0;text-align:center;font-size:15px;background:#283c34;color:#fff6df}
+.menu-settings{border-top:1px solid var(--line);padding-top:16px;margin-top:16px}.menu-settings #font,.menu-settings #focus{font:14px 'Noto Sans KR',sans-serif;width:auto}
 dialog .menu-help{font-size:11px;line-height:1.9;color:#657266;margin:16px 0 0}#saved-notes-dialog{max-width:620px}.saved-note{display:block;width:100%;text-align:left;padding:18px 0;border-top:1px solid var(--line)}.saved-note strong{display:block;font-size:12px;color:var(--gold);margin-bottom:9px}.saved-note span{font-family:'Noto Serif KR',serif;font-size:15px;line-height:1.9}.saved-note p{margin:10px 0 0;white-space:pre-wrap;color:#657266}
 #exit-focus{display:none}.immersive #exit-focus{display:block;position:fixed;top:16px;right:16px;z-index:10;width:44px;height:44px;border-radius:50%;background:#17291e99;color:white;font-size:26px}
-@media(max-width:700px){.topbar{height:56px;padding:0 12px;gap:8px}.topbar .brand{gap:6px;font-size:16px;flex-shrink:0}.topbar .brand-icon{width:28px;height:28px}.topbar .book-picker select{font-size:12px;padding:8px 6px;width:84px}.chapter-navigation{gap:2px}.chapter-navigation button{min-width:28px;width:28px;font-size:24px}.chapter-navigation select{width:64px;padding:8px 2px;font-size:12px}.menu-toggle{width:36px;flex-shrink:0}.reading-workspace{height:calc(100dvh - 56px)}}
-@media(max-width:360px){.topbar .brand-name{display:none}.topbar{gap:6px}}
+/* Text size is adjusted in place, without a settings dialog. */
+.font-buttons{display:flex;flex-shrink:0;gap:0;border:1px solid #283c3420;border-radius:10px;overflow:hidden}
+.font-buttons button{width:38px;height:38px;padding:0;border:0;border-radius:0;font:16px 'Noto Serif KR',serif}
+.font-buttons button+button{border-left:1px solid #283c3415}
+.font-buttons button:hover{background:#e5e6dc}
+@media(max-width:700px){
+ .topbar{height:56px;padding:0 12px;gap:10px}
+ .topbar .brand{gap:6px;font-size:17px}
+ .topbar .brand-icon{width:30px;height:30px;border-radius:9px}
+ .topbar .book-picker{padding-left:0;border-left:0}
+ .topbar .book-picker select{height:36px;width:84px;font-size:12px;padding:0 5px 0 9px;border-radius:9px}
+ .header-actions{gap:7px}
+ .font-buttons{border-radius:9px}
+ .font-buttons button{width:30px;height:34px;font-size:14px}
+ .menu-toggle{width:32px;height:36px;padding:5px}
+ .reading-workspace{height:calc(100dvh - 56px)}
+}
+@media(max-width:390px){.topbar{padding:0 8px;gap:7px}.header-actions{gap:5px}}
 
-/* Change text size directly without interrupting reading. */
-.font-buttons{display:flex;flex-shrink:0;gap:2px}.font-buttons button{width:36px;height:40px;padding:0;border-radius:7px;border:1px solid var(--line);font:16px 'Noto Serif KR',serif}.font-buttons button:hover{background:#e5e6dc}
-@media(max-width:700px){.topbar{padding:0 6px;gap:4px}.topbar .book-picker select{width:76px}.chapter-navigation{gap:0}.chapter-navigation button{min-width:20px;width:20px}.chapter-navigation select{width:52px}.menu-toggle{width:28px;padding:2px}.font-buttons{gap:0}.font-buttons button{width:30px;font-size:14px}.font-buttons button:first-child{border-radius:7px 0 0 7px}.font-buttons button:nth-child(2){border-left:0;border-radius:0 7px 7px 0}}
+/* Outer arrows jump chapters; inner arrows follow the scene sequence. */
+.scene-controls{gap:24px;min-height:70px;padding:8px 24px;background:linear-gradient(transparent,#101b17ed 35%)}
+.scene-controls>.reader-nav-group{flex:none;max-width:none;display:flex;gap:14px}
+.scene-controls button{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 12px;border-radius:9px}
+.scene-controls button:not(:disabled):hover{background:#fff1}
+.scene-controls button:disabled{opacity:.32;cursor:default}
+.scene-controls .chapter-jump{color:#e5cf9f;background:#fff06;border:1px solid #e5cf9f30}
+.scene-controls .chapter-jump span{font-size:13px;margin:0}
+.chapter-jump svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.scene-controls .step-arrow{font-size:25px;margin:0;line-height:1}
+.scene-controls .step-label{font-size:13px;margin:0}
+.scene-controls>.reader-progress{flex:1;max-width:260px;min-width:80px;display:flex;flex-direction:column;gap:9px}
+.reader-progress-label{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%}
+#reader-chapter{font-size:13px;font-weight:500;color:#fff9ed}
+.reader-progress #scene-position{font-size:10px;color:#d2c8b6}
+.reader-progress .progress-track{width:100%;flex:none;height:2px}
+@media(max-width:700px){
+ .scene-controls{gap:10px;padding:6px 10px;min-height:64px}
+ .scene-controls>.reader-nav-group{gap:3px}
+ .scene-controls button{min-width:44px;padding:0 7px;gap:3px}
+ .scene-controls .chapter-jump span{font-size:11px}
+ .chapter-jump svg{width:16px;height:16px}
+ .scene-controls .step-label{display:none}
+ .reader-progress-label{flex-direction:column;gap:2px}
+ .scene-controls>.reader-progress{min-width:64px;gap:6px}
+ .reader-progress #scene-position{font-size:9px}
+ .text-column{padding-bottom:72px}
+}
+
+/* Installation has its own full-width row; installed mode frees the space. */
+.install-banner{display:flex;align-items:center;justify-content:center;gap:14px;width:100%;min-height:60px;padding:9px 3%;background:#283c34;color:#fff6df;text-align:left}
+.install-banner:hover{background:#344a3e}
+.install-banner>svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.install-banner>span{display:flex;align-items:center;gap:18px}
+.install-banner strong{font-size:16px;font-weight:600}
+.install-banner small{font-size:12px;color:#d6ddce}
+.install-banner .install-arrow{width:20px;height:20px;margin-left:18px}
+body:has(.install-banner:not([hidden])) .reading-workspace{height:calc(100dvh - 124px)}
+.immersive .install-banner{display:none}
+body.immersive:has(.install-banner:not([hidden])) .reading-workspace{height:100dvh}
+@media(max-width:700px){
+ .install-banner{min-height:56px;padding:8px 16px;gap:12px}
+ .install-banner>span{flex-direction:column;align-items:flex-start;gap:2px}
+ .install-banner strong{font-size:14px}
+ .install-banner small{font-size:10px}
+ .install-banner .install-arrow{margin-left:12px}
+ body:has(.install-banner:not([hidden])) .reading-workspace{height:calc(100dvh - 112px)}
+}
+
+/* Installed desktop apps share their header with the native window chrome. */
+@media(min-width:701px) and (display-mode:standalone), (display-mode:window-controls-overlay){
+ :root{--app-header-height:56px}
+ .topbar{height:var(--app-header-height);padding:0 20px;gap:16px;background:#283c34;color:#fff6df;border-bottom:1px solid #ffffff14}
+ .topbar .brand{font-size:18px;gap:8px}
+ .topbar .brand-icon{width:28px;height:28px;border-radius:8px}
+ .topbar .book-picker{padding-left:16px;border-left-color:#ffffff26}
+ .topbar .book-picker select{height:34px;background:#ffffff0d;color:#fff6df;border-color:#ffffff26;font-size:13px}
+ .topbar .book-picker option{background:#283c34;color:#fff6df}
+ .topbar .font-buttons{border-color:#ffffff26;border-radius:8px}
+ .topbar .font-buttons button{height:32px;width:34px;color:#fff6df;font-size:15px}
+ .topbar .font-buttons button+button{border-left-color:#ffffff26}
+ .topbar .font-buttons button:hover,.topbar .menu-toggle:hover{background:#ffffff14}
+ .topbar .menu-toggle{height:34px;width:34px;color:#fff6df}
+ .reading-workspace{height:calc(100dvh - var(--app-header-height));padding:0}
+ #visual-stage{border-radius:0}
+ .immersive .reading-workspace{height:100dvh}
+}
+@media(display-mode:window-controls-overlay){
+ :root{--app-header-height:max(48px,env(titlebar-area-height,48px))}
+ .topbar{padding-left:calc(env(titlebar-area-x,0px) + 12px);padding-right:calc(100vw - env(titlebar-area-x,0px) - env(titlebar-area-width,100vw) + 12px);-webkit-app-region:drag;app-region:drag;user-select:none}
+ .topbar a,.topbar button,.topbar select,.topbar label,.topbar .header-actions{-webkit-app-region:no-drag;app-region:no-drag}
+ .topbar .brand-icon{width:24px;height:24px;border-radius:7px}
+ .topbar .book-picker{padding-left:12px}
+ .immersive .topbar{display:none}
+}
+
+/* Keep vision captions legible against crystal and gold radiance. */
+body[data-book="revelation"] .visual-caption,body[data-book="genesis"] .visual-caption,body[data-book="matthew"] .visual-caption,body[data-book="mark"] .visual-caption,body[data-book="luke"] .visual-caption{background:#0f191aa6;padding:8px 12px;border-radius:6px;text-shadow:0 1px 3px #0009}
+/* A compact flag opens a menu with explicit language names. */
+.language-toggle{display:flex;align-items:center;justify-content:center;gap:5px;width:48px;height:38px;padding:0;border:1px solid #a5b2a5;border-radius:9px;background:transparent;color:inherit;cursor:pointer;font:22px/1 system-ui,sans-serif}
+.language-toggle svg{width:10px;height:10px;fill:none;stroke:currentColor;stroke-width:1.5}
+.language-toggle:focus-visible{outline:2px solid #92784c;outline-offset:3px}
+#language-menu{position:fixed;inset:auto;margin:0;width:220px;padding:6px;border:1px solid #d8ded1;border-radius:12px;background:#f4f1e9;color:#283c34;box-shadow:0 12px 32px #172a2226}
+#language-menu button{display:flex;width:100%;align-items:center;gap:10px;min-height:44px;border:0;border-radius:7px;padding:8px 10px;background:transparent;color:inherit;text-align:left;font:14px system-ui,sans-serif;cursor:pointer}
+#language-menu button>span:first-child{font-size:22px}
+#language-menu button[aria-checked="true"],#language-menu button:hover{background:#283c3410}
+#language-menu small{margin-left:auto;color:#788077;font-size:10px}
+.language-status:empty{display:none}
+.language-status{margin:0;padding:10px 20px;font-size:13px;line-height:1.6;background:#eee8d9;color:#283c34}
+html:lang(en) #reader{word-break:normal}
+html:lang(ja) #reader,html:lang(zh) #reader{word-break:normal;line-break:strict}
+@media(max-width:700px){.header-actions{gap:6px}.language-toggle{width:42px;height:34px;font-size:20px}}
+@media(min-width:701px) and (display-mode:standalone), (display-mode:window-controls-overlay){.language-toggle{height:34px;border-color:#ffffff26;background:#ffffff0d}}
+
+/* One in-image toggle only removes the reading overlays. */
+.image-focus{position:absolute;top:14px;right:14px;z-index:5;display:grid;place-items:center;width:40px;height:40px;padding:10px;border-radius:10px;background:#17291e66;color:#fff9ed;transition:background .15s}
+.image-focus:hover,.image-focus[aria-pressed="true"]{background:#17291eb3}
+.image-focus svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.image-only .text-column,.image-only .visual-caption,.image-only .scene-controls,.image-only #explanation,.image-only .selection-tools{display:none!important}
+.image-only #visual{height:100%;mask-image:none;object-position:center top}
+@media(max-width:700px){.image-focus{top:12px;right:12px}}
+
+#translation-edition{font:9px/1.5 system-ui,sans-serif;color:#e6d8bb;max-width:65%;text-align:right;margin-left:12px;opacity:.85}
+html[lang=en] .passage p{font-family:Georgia,serif;word-break:normal}
+html[lang=ja] .passage p,html[lang=zh] .passage p{font-family:'Hiragino Mincho ProN','Songti SC','Noto Serif CJK JP',serif;word-break:normal;line-height:1.9}
+
+@media(pointer:coarse){#reader .verse-text{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}#reader p.is-selected .verse-text{background:#dfc78445;box-shadow:0 2px 0 #dfc784b3;border-radius:3px}}
+
+body.touch-selection #reader .verse-text{user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+body.touch-selection #reader p.is-selected .verse-text{background:#dfc78445;box-shadow:0 2px 0 #dfc784b3;border-radius:3px}
+[popover][hidden]{display:none!important}[popover][data-fallback-open]{z-index:100}
+
+/* Warm red letters remain legible over the dark reading surface. */
+#reader .jesus-words{color:#f3c0a5;font-weight:600}
+
+/* Native slider keeps mouse, touch and keyboard seeking consistent. */
+.reader-progress #progress{appearance:none;-webkit-appearance:none;width:100%;height:24px;margin:-8px 0;display:block;background:transparent;cursor:pointer;touch-action:pan-y;--scene-progress:0%}
+.reader-progress #progress::-webkit-slider-runnable-track{height:3px;border-radius:2px;background:linear-gradient(to right,#e5cf9f var(--scene-progress),#ffffff40 var(--scene-progress))}
+.reader-progress #progress::-moz-range-track{height:3px;border-radius:2px;background:#ffffff40}
+.reader-progress #progress::-moz-range-progress{height:3px;background:#e5cf9f}
+.reader-progress #progress::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:12px;height:12px;margin-top:-4.5px;border-radius:50%;background:#e5cf9f;box-shadow:0 0 0 3px #172a2255}
+.reader-progress #progress::-moz-range-thumb{width:12px;height:12px;border:0;border-radius:50%;background:#e5cf9f;box-shadow:0 0 0 3px #172a2255}
+.reader-progress #progress:focus-visible{outline-color:#e5cf9f;border-radius:4px}
+
+#image-pending{position:absolute;right:5%;top:42%;max-width:42%;color:#e7d5ac;font-size:14px;line-height:1.8;text-align:center;pointer-events:none}

@@ -1,5 +1,5 @@
-const VERSION='vible-v1',SHELL=VERSION+'-shell',IMAGES=VERSION+'-images';
-const FILES=['./','./index.html','./style.css','./app.js','./annotations.js','./install.js','./manifest.webmanifest','./data/john.json','./data/acts.json','./icons/icon-192.png','./icons/icon-512.png','./icons/apple-touch-icon.png','./icons/maskable-512.png'];
+const VERSION='vible-corinthians-partial-20261009',SHELL=VERSION+'-shell',IMAGES=VERSION+'-images';
+const FILES=['./','./index.html','./style.css','./app.js','./languages.js','./jesus-words.js','./jesus-words-data.js','./data/translations/catalog.json',...['en','ja','zh'].flatMap(lang=>['john','acts','romans','revelation'].map(book=>`./data/translations/${lang}/${book}.json`)),'./annotations.js','./install.js','./manifest.webmanifest','./data/john.json','./data/acts.json','./data/romans.json','./data/revelation.json','./data/genesis.json','./data/matthew.json','./data/mark.json','./data/luke.json','./data/1corinthians.json','./assets/image-pending.svg','./icons/icon-192.png','./icons/icon-512.png','./icons/apple-touch-icon.png','./icons/maskable-512.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(SHELL).then(c=>c.addAll(FILES))));
 self.addEventListener('activate',e=>e.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith('vible-')&&![SHELL,IMAGES].includes(k))await caches.delete(k);await self.clients.claim();})()));
 let imageQueue=Promise.resolve();

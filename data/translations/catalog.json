@@ -1,0 +1,58 @@
+{
+  "ko": {
+    "books": [
+      "john",
+      "acts",
+      "romans",
+      "revelation",
+      "genesis",
+      "matthew",
+      "mark",
+      "luke",
+      "1corinthians"
+    ],
+    "licensedBooks": []
+  },
+  "en": {
+    "books": [
+      "john",
+      "acts",
+      "romans",
+      "revelation"
+    ],
+    "licensedBooks": [
+      "john",
+      "acts",
+      "romans",
+      "revelation"
+    ]
+  },
+  "ja": {
+    "books": [
+      "john",
+      "acts",
+      "romans",
+      "revelation"
+    ],
+    "licensedBooks": [
+      "john",
+      "acts",
+      "romans",
+      "revelation"
+    ]
+  },
+  "zh": {
+    "books": [
+      "john",
+      "acts",
+      "romans",
+      "revelation"
+    ],
+    "licensedBooks": [
+      "john",
+      "acts",
+      "romans",
+      "revelation"
+    ]
+  }
+}

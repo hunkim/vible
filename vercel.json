@@ -3,6 +3,22 @@
   "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
+  "functions": {
+    "api/*.mjs": {
+      "includeFiles": "{data/**/*.json,fonts/*,partial-release.json}",
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/share/:book/:chapter/:verse/:endChapter/:endVerse",
+      "destination": "/api/share?book=:book&chapter=:chapter&verse=:verse&endChapter=:endChapter&endVerse=:endVerse"
+    },
+    {
+      "source": "/share/:book/:chapter/:verse",
+      "destination": "/api/share?book=:book&chapter=:chapter&verse=:verse"
+    }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -34,6 +50,36 @@
           "value": "application/manifest+json"
         }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "book",
+          "value": "(?<sharedBook>genesis|matthew|mark|luke|john|acts|romans|1corinthians|revelation)"
+        },
+        {
+          "type": "query",
+          "key": "chapter",
+          "value": "(?<sharedChapter>\\d+)"
+        },
+        {
+          "type": "query",
+          "key": "verse",
+          "value": "(?<sharedVerse>\\d+)"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "read"
+        }
+      ],
+      "destination": "/share/:sharedBook/:sharedChapter/:sharedVerse",
+      "permanent": false
     }
   ]
 }

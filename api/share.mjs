@@ -1,0 +1,19 @@
+import {scriptureParts} from '../jesus-words.js';
+import {cardLayout} from '../share-card-layout.mjs';
+import {messages} from '../languages.js';
+import {selection,shareParams,escapeHTML as esc} from '../share-data.mjs';
+
+export function shareHTML(s){
+ const t=messages[s.lang||'ko'];
+ const {width,height}=cardLayout(s);
+ const url=`https://vible.now${s.path}`,card=`https://vible.now/api/share-card?${new URLSearchParams({book:s.book,chapter:s.chapter,verse:s.verse,endChapter:s.endChapter,endVerse:s.endVerse,lang:s.lang||'ko'})}`;
+ const read=`/?book=${s.book}&chapter=${s.chapter}&verse=${s.verse}&read=1&lang=${s.lang||'ko'}`;
+ return `<!doctype html><html lang="${s.lang||'ko'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(s.reference)} · Vible</title><link rel="canonical" href="${url}"><meta name="description" content="${esc(s.text)}"><meta property="og:locale" content="${({ko:'ko_KR',en:'en_US',ja:'ja_JP',zh:'zh_CN'})[s.lang||'ko']}"><meta property="og:type" content="article"><meta property="og:site_name" content="Vible"><meta property="og:title" content="${esc(s.reference)}"><meta property="og:description" content="${esc(s.text)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${esc(card)}"><meta property="og:image:secure_url" content="${esc(card)}"><meta property="og:image:width" content="${width}"><meta property="og:image:height" content="${height}"><meta property="og:image:type" content="image/png"><meta property="og:image:alt" content="${esc(s.reference+' · '+s.text)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(s.reference)}"><meta name="twitter:description" content="${esc(s.text)}"><meta name="twitter:image" content="${esc(card)}"><link rel="icon" href="/icons/icon-192.png"><link rel="stylesheet" href="/share.css"><script type="module" src="/share.js"></script></head><body><header><a class="brand" href="/?lang=${s.lang||'ko'}"><img src="/icons/icon-192.png" width="32" height="32" alt="">Vible</a><span>${esc(t.shareHeading)}</span></header><main><section class="scripture"><span class="eyebrow">${esc(t.received)}</span><h1>${esc(s.reference)}</h1><blockquote>${s.verses.map(v=>`<p>${scriptureParts(s.book,v.chapter,v.verse,s.lang||'ko',v.text).map(part=>part.jesus?`<strong class="jesus-words">${esc(part.text)}</strong>`:esc(part.text)).join('')}</p>`).join('')}</blockquote><a class="continue" href="${read}">${esc(t.continue)} <span aria-hidden="true">→</span></a></section><figure><img id="shared-card" src="${esc(card.replace('https://vible.now',''))}" alt="${esc(s.reference)} ${esc(t.cardAlt)}"><figcaption>${esc(t.invitation)}</figcaption><div class="card-actions"><a id="save-card" href="${esc(card.replace('https://vible.now',''))}" download="vible-${s.book}-${s.chapter}-${s.verse}.png">${esc(t.saveCard)}</a><button id="share-passage" data-url="${url}" data-title="${esc(s.reference)}">${esc(t.share)}</button></div><p id="share-status" role="status"></p></figure></main><footer>${esc(s.attribution||'성경전서 개역한글판')} · <a href="${esc(s.licenseSource||'https://vible.now/')}">${s.lang==='zh'?'CC BY-SA 4.0 · 经文与卡片':esc(s.translation||'개역한글')}</a> · vible.now</footer></body></html>`;
+}
+export default function handler(req,res){
+ try{
+  const s=selection(shareParams(new URL(req.url,'https://vible.now')));
+  res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','Cache-Control':'public, max-age=0, s-maxage=86400','X-Content-Type-Options':'nosniff'});
+  res.end(shareHTML(s));
+ }catch(e){res.writeHead(404,{'Content-Type':'text/html; charset=utf-8'});res.end(`<html lang="ko"><meta charset="utf-8"><title>말씀을 찾을 수 없습니다 · Vible</title><p>${esc(e.message)}</p><a href="/">Vible에서 말씀 읽기</a></html>`);}
+}

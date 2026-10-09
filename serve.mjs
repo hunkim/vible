@@ -2,12 +2,18 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {releaseData} from './release-data.mjs';
+import share from './api/share.mjs';
+import shareCard from './api/share-card.mjs';
 const root = path.dirname(fileURLToPath(import.meta.url));
 const port = Number(process.env.PORT || 4174);
-const types = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.mp3':'audio/mpeg','.json':'application/json; charset=utf-8','.webmanifest':'application/manifest+json'};
-http.createServer((req,res) => {
+const types = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml','.mp3':'audio/mpeg','.json':'application/json; charset=utf-8','.webmanifest':'application/manifest+json'};
+http.createServer(async(req,res) => {
  try {
-  const pathname = decodeURIComponent(new URL(req.url,'http://localhost').pathname);
+  const url=new URL(req.url,'http://localhost'),pathname=decodeURIComponent(url.pathname);
+  if(pathname.startsWith('/share/')||pathname==='/api/share'||(pathname==='/'&&url.searchParams.has('chapter')&&url.searchParams.has('verse')&&!url.searchParams.has('read')))return share(req,res);
+  if(pathname==='/api/share-card')return await shareCard(req,res);
+  if(pathname==='/data/1corinthians.json'){const data=releaseData('1corinthians',JSON.parse(fs.readFileSync(path.join(root,'data/1corinthians.json'),'utf8')));res.writeHead(200,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-cache'});return res.end(req.method==='HEAD'?'':JSON.stringify(data));}
   const file = path.resolve(root, '.' + (pathname === '/' ? '/index.html' : pathname));
   if (!file.startsWith(root + path.sep)) { res.writeHead(403); return res.end(); }
   const stat = fs.statSync(file); if (!stat.isFile()) { res.writeHead(404); return res.end(); }
