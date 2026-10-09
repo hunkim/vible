@@ -3,7 +3,7 @@ import './install.js';
 const $=id=>document.getElementById(id);
 const pad=n=>String(n).padStart(2,'0');
 const preview=new URLSearchParams(location.search).has('preview');
-let data,bookId='john',loadVersion=0,current=0,view='read',scrollFrame=0,fontStep=0,manual=false;
+let data,bookId='john',loadVersion=0,current=0,view='read',scrollFrame=0,fontSize=19,manual=false;
 const notes=annotations(()=>({data,bookId}));
 const johnChapterNames=['말씀과 첫 만남','가나의 표적과 성전','거듭남과 하나님의 사랑','사마리아의 우물, 생수','베데스다와 생명의 권세','오병이어와 생명의 떡','초막절과 생수의 약속','빛과 자유, 예수님의 증언','보게 된 사람의 증언','선한 목자와 양의 음성','나사로, 부활과 생명','예루살렘에 오시는 왕','끝까지 사랑하신 마지막 식탁','길과 진리, 보혜사와 평안','포도나무와 가지, 사랑','근심에서 기쁨으로','하나 됨을 위한 기도','동산의 체포와 관정의 질문','십자가와 새 무덤','부활의 아침과 믿음','바닷가의 식탁, 다시 따르라'];
 const reference=s=>`${data.book} ${s.chapter}:${s.first}${s.last===s.first?'':`–${s.last}`}`;
@@ -121,7 +121,22 @@ async function init(){
  $('reader').addEventListener('scroll',scrollScene,{passive:true});$('previous').addEventListener('click',()=>goTo(current-1));$('next').addEventListener('click',()=>goTo(current+1));
  $('explain').addEventListener('click',()=>{$('explanation').hidden=!$('explanation').hidden;});
  $('source-button').addEventListener('click',()=>$('source-dialog').showModal());$('close-source').addEventListener('click',()=>$('source-dialog').close());
- $('font').addEventListener('click',()=>{fontStep=(fontStep+1)%3;document.documentElement.style.setProperty('--body-size',`${[19,22,25][fontStep]}px`);goTo(current);});
+ function setFont(size){
+  fontSize=Math.max(16,Math.min(31,Number(size)||19));
+  const reader=$('reader'),top=reader.getBoundingClientRect().top;
+  const anchor=[...reader.querySelectorAll('[data-verse]')].find(p=>p.getBoundingClientRect().bottom>top);
+  const offset=anchor?anchor.getBoundingClientRect().top-top:0;
+  document.documentElement.style.setProperty('--body-size',`${fontSize}px`);
+  if(anchor)reader.scrollTop+=anchor.getBoundingClientRect().top-top-offset;
+  $('font-range').value=fontSize;$('font-size').textContent=fontSize;
+  $('font-smaller').disabled=fontSize===16;$('font-larger').disabled=fontSize===31;
+  try{localStorage.setItem('vible-font-size',String(fontSize));}catch{}
+ }
+ let storedFont;try{storedFont=Number(localStorage.getItem('vible-font-size'));}catch{}
+ setFont(storedFont>=16&&storedFont<=31?storedFont:19);
+ $('font').onclick=()=>$('font-dialog').showModal();$('close-font').onclick=()=>$('font-dialog').close();
+ $('font-smaller').onclick=()=>setFont(fontSize-1);$('font-larger').onclick=()=>setFont(fontSize+1);
+ $('font-range').oninput=()=>setFont($('font-range').value);$('font-reset').onclick=()=>setFont(19);
  $('focus').addEventListener('click',()=>{$('navigation-dialog').close();document.body.classList.toggle('immersive');});
  $('exit-focus').onclick=()=>document.body.classList.remove('immersive');
  document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)||document.querySelector('dialog[open]'))return;if(e.key==='Escape')document.body.classList.remove('immersive');if(view==='read'&&e.key==='ArrowRight'){e.preventDefault();goTo(current+1);}if(view==='read'&&e.key==='ArrowLeft'){e.preventDefault();goTo(current-1);}});

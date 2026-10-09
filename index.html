@@ -5,14 +5,16 @@
  <a class="brand" href="./index.html" aria-label="Vible 홈"><img class="brand-icon" src="icons/icon-192.png" alt="" width="32" height="32"><span class="brand-name">Vible</span></a>
  <label class="book-picker"><span class="sr-only">성경 선택</span><select id="book" aria-label="성경 선택"><option value="john">요한복음</option><option value="acts">사도행전</option></select></label>
  <div class="chapter-navigation"><button id="previous-chapter" aria-label="이전 장">«</button><select id="chapter" aria-label="요한복음 장 선택"></select><button id="next-chapter" aria-label="다음 장">»</button></div>
+ <button id="font" class="font-toggle" aria-label="글자 크기 조절" aria-haspopup="dialog" aria-controls="font-dialog">가<span>↕</span></button>
  <button id="open-menu" class="menu-toggle" aria-label="메뉴 열기" aria-haspopup="dialog" aria-controls="navigation-dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
 </header>
 <dialog id="navigation-dialog" aria-labelledby="menu-title"><button id="close-menu" class="dialog-close" aria-label="메뉴 닫기">×</button><h2 id="menu-title">Vible</h2>
  <nav class="menu-navigation" aria-label="보기 방식"><button id="read-tab" aria-current="page">읽기</button><button id="story-tab">전체 흐름</button><button id="gallery-tab">장면 지도</button><button id="notes-tab">나의 노트 · 하이라이트</button></nav>
  <p class="menu-help">말씀을 선택하거나 절 번호를 누르면 하이라이트, 노트, URL·카드 공유 도구가 나타납니다.</p>
- <div class="menu-settings"><button id="font" aria-label="본문 글자 크기 변경">글자 크기 <span>가 ↗</span></button><button id="focus" aria-label="그림 몰입 모드">그림 몰입 ⛶</button><button id="install" class="install-button" aria-label="Vible 앱 설치">Vible 앱 설치</button></div>
+ <div class="menu-settings"><button id="focus" aria-label="그림 몰입 모드">그림 몰입 ⛶</button><button id="install" class="install-button" aria-label="Vible 앱 설치">Vible 앱 설치</button></div>
 </dialog>
 <dialog id="saved-notes-dialog" aria-labelledby="saved-notes-title"><button id="close-saved-notes" class="dialog-close" aria-label="내 노트 닫기">×</button><h2 id="saved-notes-title">나의 노트 · 하이라이트</h2><p id="saved-notes-book"></p><div id="saved-notes-list"></div><p class="menu-help">노트와 하이라이트는 이 기기에 저장됩니다. 말씀을 열어 묵상을 수정하거나 공유할 수 있습니다.</p></dialog>
+<dialog id="font-dialog" aria-labelledby="font-title"><button id="close-font" class="dialog-close" aria-label="글자 크기 조절 닫기">×</button><h2 id="font-title">글자 크기</h2><div class="font-controls"><button id="font-smaller" aria-label="글자 작게">가−</button><output id="font-size" for="font-range" aria-live="polite">19</output><button id="font-larger" aria-label="글자 크게">가+</button></div><label class="sr-only" for="font-range">본문 글자 크기</label><input id="font-range" type="range" min="16" max="31" value="19"><p class="font-sample">말씀을 읽다, 장면을 만나다.</p><button id="font-reset">기본 크기로</button></dialog>
 <button id="exit-focus" aria-label="그림 몰입 모드 닫기">×</button>
 <main id="reading-view">
  <div class="reading-heading" hidden><span id="reading-book-label"></span><h1 id="reading-book-title"></h1></div>
