@@ -2,9 +2,9 @@
 
 The language selector, browser-locale detection, saved preference, reading text, share URL, server-rendered share page, and PNG card use `ko`, `en`, `ja`, and `zh`. A shared URL's `lang` is authoritative, regardless of the recipient's browser locale. Chinese regional locales currently map to simplified Chinese (`zh`).
 
-**Content status (2026-10-10):** all 33 current books have Korean, English, Japanese and simplified Chinese Scripture. English uses Berean Standard Bible (Public Domain), Chinese uses Biblica® Open Chinese Contemporary Bible™ (2022, CC BY-SA 4.0). Japanese New Testament uses 新改訳新約聖書（1965年版） and the six current Old Testament books use 口語訳聖書（1955年版）, whose copyright term has expired according to Japan Bible Society. Japanese editions are explicitly dated and are not presented as the newest translations. Image availability is independent of text: ongoing books still show placeholders where art is unfinished.
+**Content status (2026-10-10):** all 34 current books have Korean, English, Japanese and simplified Chinese Scripture. English uses Berean Standard Bible (Public Domain), Chinese uses Biblica® Open Chinese Contemporary Bible™ (2022, CC BY-SA 4.0). Japanese New Testament uses 新改訳新約聖書（1965年版） and the seven current Old Testament books use 口語訳聖書（1955年版）, whose copyright term has expired according to Japan Bible Society. Japanese editions are explicitly dated and are not presented as the newest translations. Image availability is independent of text: ongoing books still show placeholders where art is unfinished.
 
-New translated texts cache on first reading rather than downloading all 99 translations during installation. Search indexes are generated from the corresponding language text; share pages and cards retain that language and its attribution.
+New translated texts cache on first reading rather than downloading all 102 translations during installation. Search indexes are generated from the corresponding language text; share pages and cards retain that language and its attribution.
 
 The importer supports all books in the app catalog. VPL and USFM archives are the previously verified downloads from 2026-10-09. Japanese OT HTML files are downloaded from `https://www.ogccl.org/jcb/` as `genesis.html`, `exodus.html`, `leviticus.html`, `numbers.html`, `deuteronomy.html`, `psalms.html`. Only ruby pronunciation markup and HTML formatting are removed. Split verse segments are joined in their labelled order; combined verses remain explicit (Numbers 15:4–5, Psalms 132:3–5). BSB 3 John 1:14 includes the greeting labelled verse 15 in other editions; this is represented as 14–15, consistent with BSB's USFM footnote.
 
@@ -45,3 +45,7 @@ Expected JSON structure:
 Include every chapter and every verse position used by the current scene boundaries. For verses omitted in a modern edition, supply `{ "verse": 37, "text": "", "omitted": true }`; do not substitute text from the old edition. `sceneTitles` (scene ID to localized editorial title) and `chapterSources` (chapter to source URL) are optional. Images remain shared across languages. Remaining editorial/menu copy still requires localization before a complete four-language release.
 
 After imports, run `npm run check`. The build generates the availability catalog from validated files and copies all translation files. Test each language in reading, switching at the current verse, sharing a range, viewing OG images, and checking copyright notices before deployment. Share pages reject a requested language that has no text rather than changing its language silently. Existing Korean-only share URLs remain compatible.
+
+Joshua is included with authorized BSB English, 1955 Japanese Colloquial and
+2022 Open Chinese Contemporary texts. All 24 chapters remain readable while
+unavailable illustrations show the existing pending-art placeholder.

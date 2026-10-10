@@ -1,6 +1,7 @@
 import {epistleNames} from './epistles-catalog.js';
 import {pentateuchNames} from './pentateuch-catalog.js';
 import {psalmsNames} from './psalms-catalog.js';
+import {historicalNames} from './historical-catalog.js';
 export const languages=['ko','en','ja','zh'];
 export const languageNames={ko:'한국어',en:'English',ja:'日本語',zh:'中文'};
 export function normalizeLanguage(value){const code=String(value||'').toLowerCase().split(/[-_]/)[0];return languages.includes(code)?code:null;}
@@ -10,7 +11,7 @@ export function passageURL(book,chapter,verse,endChapter=chapter,endVerse=verse,
  return lang==='ko'?path:`${path}?lang=${lang}`;
 }
 export const bookNames={ko:{'1corinthians':'고린도전서',matthew:'마태복음',mark:'마가복음',luke:'누가복음',genesis:'창세기',john:'요한복음',acts:'사도행전',romans:'로마서',revelation:'요한계시록'},en:{'1corinthians':'1 Corinthians',matthew:'Matthew',mark:'Mark',luke:'Luke',genesis:'Genesis',john:'John',acts:'Acts',romans:'Romans',revelation:'Revelation'},ja:{'1corinthians':'コリントの信徒への手紙一',matthew:'マタイによる福音書',mark:'マルコによる福音書',luke:'ルカによる福音書',genesis:'創世記',john:'ヨハネによる福音書',acts:'使徒言行録',romans:'ローマの信徒への手紙',revelation:'ヨハネの黙示録'},zh:{'1corinthians':'哥林多前书',matthew:'马太福音',mark:'马可福音',luke:'路加福音',genesis:'创世记',john:'约翰福音',acts:'使徒行传',romans:'罗马书',revelation:'启示录'}};
-for(const lang of languages)Object.assign(bookNames[lang],pentateuchNames[lang],psalmsNames[lang],epistleNames[lang]);
+for(const lang of languages)Object.assign(bookNames[lang],pentateuchNames[lang],historicalNames[lang],psalmsNames[lang],epistleNames[lang]);
 export const messages={
  ko:{language:'언어 선택',unavailable:'이 언어의 성경 번역은 사용 허가와 본문 연결을 준비 중입니다. 현재 본문 언어는 그대로 유지됩니다.',loading:'본문을 불러오는 중입니다…',chapter:n=>`${n}장`,end:'마지막 말씀까지 읽었습니다.',all:'전체',previous:'이전',next:'다음',read:'읽기',story:'전체 흐름',gallery:'장면 지도',source:'본문 출처',shareHeading:'말씀을 마음에 담다',received:'당신에게 전해진 말씀',continue:'이 말씀 이어 읽기',invitation:'이 말씀을 소중한 사람에게 전해 보세요.',saveCard:'카드 저장',share:'말씀 나누기',copied:'말씀 링크를 복사했습니다.',copyHelp:'이 말씀의 주소를 복사해 주세요.',cardAlt:'말씀 카드',scenes:n=>`${n}개 장면`,selectVerse:(c,v)=>`${c}장 ${v}절 선택`},
  en:{language:'Language',unavailable:'This Bible translation is awaiting licensing and text integration. Your current reading language has been kept.',loading:'Loading Scripture…',chapter:n=>`Chapter ${n}`,end:'You have reached the end of this book.',all:'All',previous:'Previous',next:'Next',read:'Read',story:'Overview',gallery:'Scenes',source:'Translation & sources',shareHeading:'Keep the Word in your heart',received:'Scripture shared with you',continue:'Continue reading',invitation:'Share these words with someone you love.',saveCard:'Save card',share:'Share Scripture',copied:'Scripture link copied.',copyHelp:'Copy this Scripture link.',cardAlt:'Scripture card',scenes:n=>`${n} scenes`,selectVerse:(c,v)=>`Select ${c}:${v}`},

@@ -14,5 +14,9 @@ for(const file of await fs.readdir('dist/data')){
  }
  before+=Buffer.byteLength(JSON.stringify(original));after+=Buffer.byteLength(JSON.stringify(published));count++;
 }
-assert.equal(count,33);assert(after<before*.5);assert.match(await fs.readFile('dist/index.html','utf8'),/rel="preconnect"/);
+assert.equal(count,34);assert(after<before*.5);
+const hosting=JSON.parse(await fs.readFile('asset-hosting.json','utf8'));
+const assetOrigin=process.env.VIBLE_ASSET_ORIGIN??hosting.origin;
+const html=await fs.readFile('dist/index.html','utf8');
+if(assetOrigin)assert.match(html,/rel="preconnect"/);else assert.doesNotMatch(html,/rel="preconnect"/);
 console.log(`All ${count} reader books retain Scripture and image availability; payload reduced ${Math.round((1-after/before)*100)}% (${before} to ${after} bytes).`);
