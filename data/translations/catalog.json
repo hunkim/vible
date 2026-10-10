@@ -34,7 +34,8 @@
       "numbers",
       "deuteronomy",
       "joshua",
-      "psalms"
+      "psalms",
+      "proverbs"
     ],
     "licensedBooks": []
   },
@@ -73,7 +74,8 @@
       "numbers",
       "deuteronomy",
       "joshua",
-      "psalms"
+      "psalms",
+      "proverbs"
     ],
     "licensedBooks": [
       "john",
@@ -109,7 +111,8 @@
       "numbers",
       "deuteronomy",
       "joshua",
-      "psalms"
+      "psalms",
+      "proverbs"
     ]
   },
   "ja": {
@@ -147,7 +150,8 @@
       "numbers",
       "deuteronomy",
       "joshua",
-      "psalms"
+      "psalms",
+      "proverbs"
     ],
     "licensedBooks": [
       "john",
@@ -183,7 +187,8 @@
       "numbers",
       "deuteronomy",
       "joshua",
-      "psalms"
+      "psalms",
+      "proverbs"
     ]
   },
   "zh": {
@@ -221,7 +226,8 @@
       "numbers",
       "deuteronomy",
       "joshua",
-      "psalms"
+      "psalms",
+      "proverbs"
     ],
     "licensedBooks": [
       "john",
@@ -257,7 +263,8 @@
       "numbers",
       "deuteronomy",
       "joshua",
-      "psalms"
+      "psalms",
+      "proverbs"
     ]
   }
 }

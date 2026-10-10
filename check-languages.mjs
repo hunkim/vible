@@ -18,7 +18,7 @@ assert.throws(()=>applyTranslation(base,fixture('ja'),'en'),/language mismatch/)
 const root=await fs.mkdtemp(path.join(os.tmpdir(),'vible-language-tests-'));
 try{
  await fs.mkdir(path.join(root,'data'),{recursive:true});await fs.writeFile(path.join(root,'data/john.json'),JSON.stringify(base));
- for(const name of ['languages.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','historical-books.json','psalms-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
+ for(const name of ['languages.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','proverbs-books.json','historical-books.json','psalms-catalog.js','proverbs-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
  await fs.writeFile(path.join(root,'package.json'),JSON.stringify({type:'module'}));
  const {selection,shareParams}=await import(pathToFileURL(path.join(root,'share-data.mjs')));
  assert.throws(()=>selection(shareParams(new URL('https://vible.now/share/john/1/1?lang=en'))),/not available/);
@@ -47,10 +47,13 @@ assert.throws(()=>actualSelection(new URLSearchParams({book:'john',chapter:'5',v
 console.log('All catalogued real translations, translation attribution, combined verse sharing and modern omissions verified.');
 
 for(const lang of ['en','ja','zh']){
- assert.equal(actualCatalog[lang].books.length,34);
+ assert.equal(actualCatalog[lang].books.length,35);
  const closing=actualSelection(new URLSearchParams({book:'leviticus',chapter:'27',verse:'34',lang}));assert.equal(closing.lang,lang);assert(closing.text.trim());
  const psalm=actualSelection(new URLSearchParams({book:'psalms',chapter:'50',verse:'15',lang}));assert.equal(psalm.lang,lang);assert(psalm.text.trim());
 }
 const greeting=actualSelection(new URLSearchParams({book:'3john',chapter:'1',verse:'15',lang:'en'}));assert.equal(greeting.reference,'3 John 1:14–15');assert.match(greeting.text,/Peace to you/);
 const jpRange=actualSelection(new URLSearchParams({book:'numbers',chapter:'15',verse:'5',lang:'ja'}));assert.equal(jpRange.reference,'民数記 15:4–5');assert(jpRange.text.trim());
-console.log('All 102 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
+console.log('All 105 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
+
+for(const lang of ['ko','en','ja','zh']){const p=actualSelection(new URLSearchParams({book:'proverbs',chapter:'31',verse:'31',lang}));assert.equal(p.lang,lang);assert(p.text.trim());}
+const proverbBridge=actualSelection(new URLSearchParams({book:'proverbs',chapter:'26',verse:'19',lang:'zh'}));assert.equal(proverbBridge.reference,'箴言 26:18–19');assert(proverbBridge.text.trim());

@@ -14,7 +14,7 @@ for(const file of await fs.readdir('dist/data')){
  }
  before+=Buffer.byteLength(JSON.stringify(original));after+=Buffer.byteLength(JSON.stringify(published));count++;
 }
-assert.equal(count,34);assert(after<before*.5);
+assert.equal(count,35);assert(after<before*.5);
 const hosting=JSON.parse(await fs.readFile('asset-hosting.json','utf8'));
 const assetOrigin=process.env.VIBLE_ASSET_ORIGIN??hosting.origin;
 const html=await fs.readFile('dist/index.html','utf8');
