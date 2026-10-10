@@ -1,8 +1,8 @@
 {
   "date": "2026-10-11",
   "production": "https://vible.now",
-  "deployment": "https://vible-1cm1sckh2-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_BTpCXwTfTFGwV3yD3c6GYgZZnJXi",
+  "deployment": "https://vible-nyiuglra7-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_FVu3uPvcqxqfKkkE35LtpsHGytvW",
   "newImageFiles": 3,
   "releasedImages": {
     "leviticus": 236,
@@ -53,7 +53,7 @@
     }
   },
   "psalmsPlan": "Incremental 1354-scene release; all Psalms 1–121 illustrated, Psalm 122 through verse 7; previous illustrations and feedback fixes preserved",
-  "qa": "review/torah-complete-live-audit.json",
+  "qa": "review/feedback/run3-inspection-20261011.json",
   "checks": {
     "build": "passed: unchanged Scripture and image availability in all 33 books",
     "changedBooks": "passed: previous illustrations and all four language Scripture preserved",
@@ -68,7 +68,9 @@
     "feedbackCorrections": "3 inspected replacements, npm check/offline and live image/share-card checks passed",
     "readerCleanup": "npm run check and offline passed before content addition; count label removed at both rendering paths",
     "torahCompletion": "Passed complete 1189 new Torah image QA, 68 CDN URLs, 33-book/99-translation preservation, actual four-language browser/shared cards and deployed data.",
-    "feedbackRerun": "Three visually verified images, full check/offline, live images/share cards and mobile readers passed; current origin/main admin route preserved."
+    "feedbackRerun": "Three visually verified images, full check/offline, live images/share cards and mobile readers passed; current origin/main admin route preserved.",
+    "shareLanguageLayout": "Full check/offline, 28 historical-language browser paths, eight existing-book mobile pages and live four-language pending-art PNGs passed; all published content and feedback/admin preserved.",
+    "feedbackRun3": "Five reports grouped into three inspected corrections. Full check/offline, 33-book/99-translation preservation, live image/share cards and mobile readers passed. Prior shared-page fixes preserved."
   },
   "newTranslationFiles": 0,
   "translationBooksPerLanguage": {
@@ -90,5 +92,6 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "8f4b32f243688d0b774def80261c553651e25021"
+  "gitCommit": "4787c840335eef5bd990205ad7a0acaded7a48a3",
+  "lastApplicationQA": "review/share-language-fix-live-audit.json"
 }
