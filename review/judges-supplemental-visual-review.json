@@ -1,0 +1,94 @@
+{
+  "images": {
+    "48": {
+      "image": "judges-048-right-v2.jpg",
+      "sha256": "3c0a7d28fd80fc17703e48316ea836dd890420e6d2e590c7234456810261f8ca",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full actual v2: pale bottom-left geometric glyph removed with natural stone texture. Original Jael, Sisera, two connected arms each, coherent bowl and milk skin hands, safely clothed original characters, all four clean corners and cinematic landscape preserved.",
+      "reviewedUTC": "2026-10-10T22:25:11.373703+00:00"
+    },
+    "70": {
+      "image": "judges-070-right-v2.jpg",
+      "sha256": "8da96922951053dbeb75737831a8e493e627afd1d3061f82548464375ead1092",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full v2: upper-left pale emblem removed; four corners clean. Original Gideon RIGHT trumpet and LEFT torch, two naturally connected arms, natural fingers, huge realistic camp and broken jars retained.",
+      "reviewedUTC": "2026-10-10T22:29:15.947292+00:00"
+    },
+    "2": {
+      "image": "judges-002-right-v2.jpg",
+      "sha256": "f258e7fd5ac293846d8abd8f3a455b0e11951f38cab8817fa6af16ae348fb931",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full v2: captive original Adoni-bezek hands completely concealed beneath supported mantle; no mutilation shown or intact exposed hands contradicting passage. Original adult guards have natural supported spear grips, all four corners clean, monumental geography retained.",
+      "reviewedUTC": "2026-10-10T22:32:26.975282+00:00"
+    },
+    "24": {
+      "image": "judges-024-right-v3.jpg",
+      "sha256": "e40b52f86b558967fc01943f789d3437e95838b261f57da38daa016a3dcc8f18",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full v3: pale upper-right tapestry glyph fully removed with natural woven pattern. Original adult Ehud LEFT hand conceals short dagger at RIGHT thigh, RIGHT hand at own hip, exactly two arms, natural wrists and fingers, no blade exposed; original Eglon and tribute bearers preserved, all four corners clean.",
+      "reviewedUTC": "2026-10-10T22:32:26.975794+00:00"
+    },
+    "87": {
+      "image": "judges-087-right-v2.jpg",
+      "sha256": "5a494578447b9110245582e8b39d5647a20fbbb2dd051a2114b6024ade2bd671",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full actual v2: fig tree with own trunk and figs is visually distinct from separately rooted grapevine on right wooden trellis. Natural adult listener arms and wrists preserved, no anthropomorphic plant faces, quiet huge Gerizim landscape; all four diagnostic corners clean.",
+      "reviewedUTC": "2026-10-10T22:40:47.293294+00:00"
+    },
+    "71": {
+      "image": "judges-071-right-v4.jpg",
+      "sha256": "1283bba9910e8b91e2b61d8bd0ed4c66efdcb284b70eb9c87aed7b7cab046b51",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full actual v4: original foreground Gideon and close right soldier RIGHT horn and LEFT torch preserved, two closest rear-view soldiers corrected to their own LEFT torch and RIGHT horn; natural separate connected arms and grips, intact tents and camp alarm, one moon and all four corners clean.",
+      "reviewedUTC": "2026-10-10T22:50:35.533404+00:00"
+    },
+    "82": {
+      "image": "judges-082-right-v2.jpg",
+      "sha256": "b8719b87adbecb17dc85e0a9e5a744adc87a602927dfc4dfd1feead382620d08",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full actual v2: extreme bottom-right pale cap-like glyph removed with natural ground texture; original grieving adults natural connected hands, clothed supported babies and empty chair retained, all four diagnostic corners clean.",
+      "reviewedUTC": "2026-10-10T22:54:44.027955+00:00"
+    },
+    "157": {
+      "image": "judges-157-right-v2.jpg",
+      "sha256": "44802efa172d819a18cf8ce4c40770c06def36dbac2aee71a62e2eb6f4e8e619",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full v2: seven distinct dark locks visibly continuous from Samson scalp to loom warp; no severed locks. Original adult faces, two connected arms per person and natural hands retained. Four diagnostic corners clean.",
+      "reviewedUTC": "2026-10-10T23:07:22.356034+00:00"
+    },
+    "159": {
+      "image": "judges-159-right-v2.jpg",
+      "sha256": "5dc3134a34d9340d22981a3cbb662dd0a5ff5ada7e50c9543f1e7ad353a4e7cc",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full and four corners: both pale cap-shaped glyphs removed from top-right head wrap and bottom-right blanket with continuous natural cloth texture. Original haircut, faces, natural connected hands and cinematic landscape preserved.",
+      "reviewedUTC": "2026-10-10T23:18:00.949066+00:00"
+    },
+    "198": {
+      "image": "judges-198-right-v3.jpg",
+      "sha256": "cbd273f9f1f3fbdb21e690adb357b55b01d6093b7920329b394e22080c8e4025",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full v3: twelve countable gemstones in four rows of three on the single blue Phinehas breastplate; ordinary priests remain white without stones, natural hands and supported ark poles, original cinematic geography preserved. Four diagnostic corners clean.",
+      "reviewedUTC": "2026-10-10T23:31:29.949964+00:00"
+    }
+  }
+}
