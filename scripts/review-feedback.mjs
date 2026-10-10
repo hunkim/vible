@@ -26,7 +26,11 @@ if(command==='inbox'){
  const pathname=`feedback/reviews/${id}.json`,existing=await readFeedback(pathname);
  if(existing){
   // Keep an immutable audit trail before advancing an accepted/needs-info report.
-  if(!['accepted','needs-info'].includes(existing.status))throw Error('Review is already final.');
+  if(!['accepted','needs-info'].includes(existing.status)){
+   const {loadNotes}=await import('../api/admin-feedback.mjs');
+   const notes=(await loadNotes({read:readFeedback,list:listFeedback}))[id]||[];
+   if(!notes.some(n=>n.createdAt>existing.reviewedAt))throw Error('Review is already final.');
+  }
   const {put}=await import('@vercel/blob');
   await writeFeedback(`feedback/history/${id}/${Date.now()}.json`,existing);
   await put(pathname,JSON.stringify({...review,id,reviewedAt:new Date().toISOString()}),{access:'private',contentType:'application/json',addRandomSuffix:false,allowOverwrite:true});

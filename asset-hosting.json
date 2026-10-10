@@ -19845,6 +19845,18 @@
     "deuteronomy-301-right-v1.jpg": {
       "sha256": "288cbf58eb2f46b531eefef24625b54911c6fd736aa54d12c4b1b57ee461cf8a",
       "bytes": 598870
+    },
+    "psalms-c051-v006-006-right-context-feedback-v3.jpg": {
+      "sha256": "bbc6e2b526d6e3a1213a4bc71f895397e0d791f8493262b1818e6e2918edcd93",
+      "bytes": 271127
+    },
+    "psalms-c061-v004-004-right-context-feedback-v2.jpg": {
+      "sha256": "61957a242b82911794716abec0ea5a30d3e9c375408741ee2e690990215f779f",
+      "bytes": 556614
+    },
+    "psalms-c106-v024-027-right-context-feedback-v3.jpg": {
+      "sha256": "2958e4971f77e62b2e31461dfa0784cea59c34cb86e67ab87dace22f812b9474",
+      "bytes": 550936
     }
   }
 }

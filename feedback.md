@@ -121,3 +121,23 @@ it for the user when work changes. Never publish feedback text publicly.
 A `fixed` review requires saved before/after thumbnails and a matching replacement
 hash, as well as the verified deployment. Pending, accepted and needs-info states
 remain visible, including reports not corrected during this run.
+
+
+## Partial editing versus fresh generation
+
+Inspect the currently released image, the original report and all admin notes.
+Prioritize authenticated admin re-review directions. For a localized hand or
+object defect with a sound scene, edit the current image as a reference. If a
+previous edit leaves the same defect, several bodies/poses are entangled, or the
+whole composition is physically incoherent, write a fresh passage-specific
+prompt and generate a new scene without the faulty full-image reference. Keep
+Scripture, intended meaning, established identities and visual tone; the camera
+angle and pose may change to eliminate the cause. If identity reference is
+necessary, use a separate approved portrait rather than faulty anatomy. Record
+`generationMode` (edit or fresh), reason, prompt and selected output. Evaluate the
+actual output for original defects and new regressions before publishing.
+
+A new admin note after a terminal review reopens it; record preserves the prior
+review history before advancing. For rework, the before thumbnail may be the
+previously reviewed replacement. Prior comparison manifests and thumbnails are
+retained, so each generation remains traceable.
