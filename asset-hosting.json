@@ -19573,6 +19573,278 @@
     "psalms-c122-v006-007-right-context-v1.jpg": {
       "sha256": "0bf99f3698d23827f8ef8e5f2bb65ae31f51e3bb4edf9c522758f815842c617a",
       "bytes": 620452
+    },
+    "deuteronomy-195-right-v2.jpg": {
+      "sha256": "f0acf09430ac5300e47193976ed82b10d3d5237d473ef3dbd3b097b6ccf772e8",
+      "bytes": 546974
+    },
+    "deuteronomy-233-right-v1.jpg": {
+      "sha256": "62ea601169cb5557a1ddc4e426008f0ad0461f7d84c87689a3e1c00a88c45cc0",
+      "bytes": 562844
+    },
+    "deuteronomy-234-right-v1.jpg": {
+      "sha256": "559dbc8c586c081e7bb83961e991d443034f3fe960d1c1028a00ebc176f6453a",
+      "bytes": 625883
+    },
+    "deuteronomy-235-right-v1.jpg": {
+      "sha256": "0c10441f0bbcfd12ee37b8ab769d683a51938224f2599d29275084a4745b1f21",
+      "bytes": 460956
+    },
+    "deuteronomy-236-right-v1.jpg": {
+      "sha256": "e1f35715b9d917f13a9bc785bfd97ec181bd504c44c25e38c61b0233483c04e8",
+      "bytes": 466791
+    },
+    "deuteronomy-237-right-v1.jpg": {
+      "sha256": "26bfc7edae2a8e134cb531a09ed486f29309f992d038e2100f6672829a8f5213",
+      "bytes": 588445
+    },
+    "deuteronomy-238-right-v1.jpg": {
+      "sha256": "482a7923a808f9e7ba027f31e81782c10a6f58a067da05a39e3efc4f686fb8ee",
+      "bytes": 496240
+    },
+    "deuteronomy-239-right-v1.jpg": {
+      "sha256": "9d910d1096a9ca3a6b90677a413fb1f3238a960f7ad1fab457f0b2e439401419",
+      "bytes": 510321
+    },
+    "deuteronomy-240-right-v1.jpg": {
+      "sha256": "62fb9065a07b83b60e7ac874671092b1b987ba11b352c721e70d3d5fc344d3fe",
+      "bytes": 501920
+    },
+    "deuteronomy-243-right-v1.jpg": {
+      "sha256": "6b99298ff033e52dfbfcd611d21730aa0334c021e27480a4399a3bd8c17a5dd2",
+      "bytes": 504648
+    },
+    "deuteronomy-244-right-v1.jpg": {
+      "sha256": "d3efc733740eb076dd971565037574847a51d1b5c37d2cbfec32172937a572bd",
+      "bytes": 563109
+    },
+    "deuteronomy-245-right-v1.jpg": {
+      "sha256": "7c022baeca46f01d5238d3004fc66d6710c26f433d5547c234bac1888938f9f0",
+      "bytes": 633174
+    },
+    "deuteronomy-246-right-v1.jpg": {
+      "sha256": "7150d33e23ac576e648b62c36e40c23461d3c50b9f63be0b175e235f8cbabbc0",
+      "bytes": 617352
+    },
+    "deuteronomy-247-right-v2.jpg": {
+      "sha256": "30d2af1417b8e5275f2ad74ee34cbd823f96b87e090b897c76aab39948af7cbd",
+      "bytes": 575201
+    },
+    "deuteronomy-248-right-v1.jpg": {
+      "sha256": "5eca9e21ff21c71889e5dc7ddcd1193cc1c1880f23c2c4c9021365394c144c17",
+      "bytes": 605442
+    },
+    "deuteronomy-249-right-v1.jpg": {
+      "sha256": "c6adae3fab4c7ead3bb2de1e687db628f06cb5be2bb70d0c31ad0226dc7bc584",
+      "bytes": 504881
+    },
+    "deuteronomy-250-right-v1.jpg": {
+      "sha256": "94cbfa998dff01015e84cde9e5c7982de1162afd84b45fc79d2814c0c93ca05a",
+      "bytes": 720818
+    },
+    "deuteronomy-251-right-v1.jpg": {
+      "sha256": "312e6844ec7f720459b8906281dbe63ce3c1dac77b27b2010903579c15be2bb8",
+      "bytes": 582052
+    },
+    "deuteronomy-252-right-v1.jpg": {
+      "sha256": "3f2f8a9fc0c972f71445d4420627ddce9eded44dad4e24bcaa16539212fab098",
+      "bytes": 693376
+    },
+    "deuteronomy-253-right-v1.jpg": {
+      "sha256": "e5739ba08b4e6cbb01924640e37a4f5f908ebba29ee8ceaf418bb622d4a5e901",
+      "bytes": 606517
+    },
+    "deuteronomy-254-right-v1.jpg": {
+      "sha256": "4705a32a43fe45ab529af51317c0b4423d74074963c068e54d52e0a17c934ca4",
+      "bytes": 669617
+    },
+    "deuteronomy-255-right-v1.jpg": {
+      "sha256": "8260b66a8b3443695b45dd4f43cafeee6500e192838beb7e5edf28a5990d0592",
+      "bytes": 479701
+    },
+    "deuteronomy-256-right-v1.jpg": {
+      "sha256": "465127bf7e7589f621b6ebf40e3ffc7ba2166060a9a8e577f9314e50d3f5404b",
+      "bytes": 496229
+    },
+    "deuteronomy-257-right-v1.jpg": {
+      "sha256": "7b372d9c97cc90b1f3011fe5f0d444f16538a608a2086bea8f14bc9f581aafb7",
+      "bytes": 547858
+    },
+    "deuteronomy-258-right-v1.jpg": {
+      "sha256": "0e09099729636c2f5aca1f1df63bfd7eaa422e462d02420d5d241b68598ce53d",
+      "bytes": 511404
+    },
+    "deuteronomy-259-right-v2.jpg": {
+      "sha256": "3563ae30ebfe07a03b09b075ded402b9b4d7954f1bbd72a987af36e0ff8ed282",
+      "bytes": 513027
+    },
+    "deuteronomy-260-right-v1.jpg": {
+      "sha256": "e06e6c789f183dcf639b523247fe677a83146c416efe0b476db25cf86d1bc6c0",
+      "bytes": 519074
+    },
+    "deuteronomy-261-right-v1.jpg": {
+      "sha256": "6cfd168c7c4b80a95ce0dbf997b94fcedc62e1f6cef7e56f3de33b8dfbf5b052",
+      "bytes": 553958
+    },
+    "deuteronomy-262-right-v1.jpg": {
+      "sha256": "81756da8e0f9e74f3ee2d60dd8467097314f37d95a852b5297c1b3b705d7f89b",
+      "bytes": 516912
+    },
+    "deuteronomy-263-right-v1.jpg": {
+      "sha256": "0f02cfe65b57752e000752c61273b5a5ac76f8dac7d43010fbf83e9b00e9544c",
+      "bytes": 556208
+    },
+    "deuteronomy-264-right-v1.jpg": {
+      "sha256": "dbcb91b58eab3ee281b55a08b2d93850815ee8c6c15e9ba1fcf86a47de5c2baa",
+      "bytes": 685424
+    },
+    "deuteronomy-265-right-v1.jpg": {
+      "sha256": "37f540a60796f576a740cf0a36d9879adece6732ce1897afdc12a59e679c33c8",
+      "bytes": 561012
+    },
+    "deuteronomy-266-right-v1.jpg": {
+      "sha256": "070c151b0d820c029b4c027048f757082b56ac5a785612117b46a7fc41ff7b5e",
+      "bytes": 535967
+    },
+    "deuteronomy-267-right-v1.jpg": {
+      "sha256": "74ae28fddda7daa9769ca107c83ba77e1bce3cadcb0e05e4b2e11010dd87295c",
+      "bytes": 610278
+    },
+    "deuteronomy-268-right-v1.jpg": {
+      "sha256": "83bdd57563520d633ee144c4c79690b8290c556323af95e787f4a6aba4c83a3a",
+      "bytes": 680418
+    },
+    "deuteronomy-269-right-v1.jpg": {
+      "sha256": "fc53b4f1146813eae7286d8a9262bf07e7c9ac49a37706120be91780fc6c3cc0",
+      "bytes": 559220
+    },
+    "deuteronomy-270-right-v1.jpg": {
+      "sha256": "f5c6894e15ac78111da7bffd133778834e1ad1d7ac33eaa8d5604cd9b372e064",
+      "bytes": 630494
+    },
+    "deuteronomy-271-right-v1.jpg": {
+      "sha256": "654485a6825b6b3fb1e9307e7116e0e480b45d1d345db698c21233184d7a2650",
+      "bytes": 518416
+    },
+    "deuteronomy-272-right-v1.jpg": {
+      "sha256": "7a57bdec88ca6c04d03482eb44d3e6737e9728f00c21f93ae60c591570d042ca",
+      "bytes": 571759
+    },
+    "deuteronomy-273-right-v1.jpg": {
+      "sha256": "ee34b37362c55563489a1e49bf7cf6f48a89587271ebd74e0c4684a4ca6b6c72",
+      "bytes": 581007
+    },
+    "deuteronomy-274-right-v1.jpg": {
+      "sha256": "7574ce4031fe0f868bd170aa4d5edf9a602a02746d37a3d7094df9e28ea13c37",
+      "bytes": 573417
+    },
+    "deuteronomy-275-right-v1.jpg": {
+      "sha256": "55b01d3a3174f87de1f41751415c88e81c42d5535c865a16a40dcaa04e5b8248",
+      "bytes": 524895
+    },
+    "deuteronomy-276-right-v1.jpg": {
+      "sha256": "bc8cce342f610a59e00654a95a025706a81085503b88f349c8d1418fa0000164",
+      "bytes": 544693
+    },
+    "deuteronomy-277-right-v1.jpg": {
+      "sha256": "8274f63ac5957a63773b02434b3e9f4ee276c8356597f647c0120b54fdf938da",
+      "bytes": 514021
+    },
+    "deuteronomy-278-right-v1.jpg": {
+      "sha256": "3d55ae06abc0241a54ebf749483765fd90458a3f6ef7d999512db044be51e19a",
+      "bytes": 633873
+    },
+    "deuteronomy-279-right-v1.jpg": {
+      "sha256": "538342ce6a94912d94c8af6ebb28895604b21bdf6ff4445bb47688a1fd4dbe69",
+      "bytes": 533579
+    },
+    "deuteronomy-280-right-v1.jpg": {
+      "sha256": "a7f80a2f2d777e1386a53e02dcc49f706c20c835025ec3a22dc63bc5a8a2650b",
+      "bytes": 678018
+    },
+    "deuteronomy-281-right-v1.jpg": {
+      "sha256": "df9b59c0e666a86902d62227048976941b01dd1e0b2d2c33ee64f5452c6a6d5f",
+      "bytes": 535071
+    },
+    "deuteronomy-282-right-v1.jpg": {
+      "sha256": "c2561b0ecce292a14aee5401be5f68b516f9b1bcc93ebb9eb21baa0400fecaee",
+      "bytes": 535493
+    },
+    "deuteronomy-283-right-v1.jpg": {
+      "sha256": "e5b8a33cc5326a4eb991eabe7821448aeb6a2c47ee7e2c93a659197a3001294d",
+      "bytes": 588780
+    },
+    "deuteronomy-284-right-v1.jpg": {
+      "sha256": "8c130a2069160975a58a521b743b8ec33a59c63ca38787859a9882cee345b68e",
+      "bytes": 508498
+    },
+    "deuteronomy-285-right-v1.jpg": {
+      "sha256": "1fb2a0bd018b74f498fd0053815ee418d348574e8f826b957d50a4b8c61114f1",
+      "bytes": 485840
+    },
+    "deuteronomy-286-right-v1.jpg": {
+      "sha256": "598ea34b894ceab8681ee7f7a42e55adc5c36020c28afeee1f552fc21ea38a4b",
+      "bytes": 624532
+    },
+    "deuteronomy-287-right-v1.jpg": {
+      "sha256": "93e98d381edb0e841d3c08b6b28a00c5ce7ad9fefca424dc21cf31f629c4f78b",
+      "bytes": 751085
+    },
+    "deuteronomy-288-right-v1.jpg": {
+      "sha256": "aebb5d1a1968b9d2f595c2c5e63c5b6b818b041a2c12cae412b235fc54542d47",
+      "bytes": 553673
+    },
+    "deuteronomy-289-right-v1.jpg": {
+      "sha256": "36715f8412591fa99bb104b8babaeb0d3deee6b134253ca3943bc6893dd19faa",
+      "bytes": 630793
+    },
+    "deuteronomy-290-right-v1.jpg": {
+      "sha256": "38ee3358eb5c5f9be01e5d91b08eb6db20c8f60d686b7befb07216f191b2bdcf",
+      "bytes": 595812
+    },
+    "deuteronomy-291-right-v1.jpg": {
+      "sha256": "f57e5b81853a7b8d4c6eeb27f763a2c3a7e61964cd179739072e94e755f5318b",
+      "bytes": 623414
+    },
+    "deuteronomy-292-right-v2.jpg": {
+      "sha256": "23f198acfbdd6449647a64c7a97adb062ab3381aae7b22f8e55b8e477a352edb",
+      "bytes": 588434
+    },
+    "deuteronomy-293-right-v1.jpg": {
+      "sha256": "1e4892d07d5cba49c631d523385ed894c50a1979f713fe3dc1c302c54b7022dc",
+      "bytes": 648626
+    },
+    "deuteronomy-294-right-v1.jpg": {
+      "sha256": "e47a7f097885442314a3108b0d7fc8f59eb860e76444fbde7dd7698a6b000faf",
+      "bytes": 578129
+    },
+    "deuteronomy-295-right-v2.jpg": {
+      "sha256": "17d5373270dab34fffdf4d09fe4804aa66ef74a3493f0a18404bb2697217523c",
+      "bytes": 671075
+    },
+    "deuteronomy-296-right-v1.jpg": {
+      "sha256": "54a87fd014aba01cf9227e51b5d2ee49f1cef498c959842709db2d561a5d893d",
+      "bytes": 632994
+    },
+    "deuteronomy-297-right-v1.jpg": {
+      "sha256": "55a0637b54957ad615d38f5a5bc44f50d75b26d7d4672aa30ed30d8d0d7ff261",
+      "bytes": 511969
+    },
+    "deuteronomy-298-right-v1.jpg": {
+      "sha256": "95ba9e63ba22f550f612e31d85b53d7d49dd38aac52a81e5ba9e565922ffc893",
+      "bytes": 628124
+    },
+    "deuteronomy-299-right-v1.jpg": {
+      "sha256": "aed869b6a33f066257485f078d72a23f48b45ade13daaad94204a33f32afce3d",
+      "bytes": 579015
+    },
+    "deuteronomy-300-right-v1.jpg": {
+      "sha256": "5c9cc359e2c41240663ea3a61d00260261f952de9a6de7697b8516b197ecfb0b",
+      "bytes": 500431
+    },
+    "deuteronomy-301-right-v1.jpg": {
+      "sha256": "288cbf58eb2f46b531eefef24625b54911c6fd736aa54d12c4b1b57ee461cf8a",
+      "bytes": 598870
     }
   }
 }
