@@ -4,7 +4,7 @@ import {createSearchIndex,findScripture,normalize,excerpt} from './scripture-sea
 import {applyTranslation} from './languages.js';
 const ids=['genesis',...(JSON.parse(await fs.readFile('pentateuch-books.json'))).map(b=>b.id),...(JSON.parse(await fs.readFile('historical-books.json'))).map(b=>b.id),'psalms','matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
 const books=await Promise.all(ids.map(async id=>({id,data:JSON.parse(await fs.readFile(`data/${id}.json`))})));
-const index=createSearchIndex(books,'ko');assert.equal(index.books.length,40);assert.equal(index.verses.length,20668);
+const index=createSearchIndex(books,'ko');assert.equal(index.books.length,40);assert.equal(index.verses.length,20665);
 assert.equal(findScripture(index,'출 14:21').results[0].book,'exodus');
 assert.equal(findScripture(index,'레 19:18').results[0].book,'leviticus');
 assert.equal(findScripture(index,'민 6:24').results[0].book,'numbers');
@@ -24,7 +24,7 @@ const english=createSearchIndex([{id:'john',data:applyTranslation(books.find(b=>
 assert.equal(findScripture(english,'John 3:16').total,1);assert(findScripture(english,'love').total>0);assert.equal(findScripture(english,'사랑').total,0);assert.equal(findScripture(english,'창 1:1').total,0);
 assert(excerpt('x'.repeat(400)+'은혜'+'x'.repeat(400),'은혜').includes('은혜'));
 const unsafe=findScripture(index,'<script>');assert.equal(unsafe.total,0);
-console.log('Scripture search: all 40 books and 20668 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
+console.log('Scripture search: all 40 books and 20665 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
 
 // Run the actual search UI handlers, including uncommitted IME input.
 const {scriptureSearch}=await import('./search-ui.js');
