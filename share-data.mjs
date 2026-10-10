@@ -4,7 +4,7 @@ import {normalizeLanguage,passageURL,applyTranslation} from './languages.js';
 
 const books=new Map();
 let cachedReleaseVersion='';
-const allowed=['john','acts','romans','revelation','genesis','matthew','mark','luke',...JSON.parse(fs.readFileSync(new URL('./epistles-books.json',import.meta.url),'utf8')).map(book=>book.id),...JSON.parse(fs.readFileSync(new URL('./pentateuch-books.json',import.meta.url),'utf8')).map(book=>book.id),...JSON.parse(fs.readFileSync(new URL('./historical-books.json',import.meta.url),'utf8')).map(book=>book.id),...JSON.parse(fs.readFileSync(new URL('./psalms-books.json',import.meta.url),'utf8')).map(book=>book.id)];
+const allowed=['john','acts','romans','revelation','genesis','matthew','mark','luke',...JSON.parse(fs.readFileSync(new URL('./epistles-books.json',import.meta.url),'utf8')).map(book=>book.id),...JSON.parse(fs.readFileSync(new URL('./pentateuch-books.json',import.meta.url),'utf8')).map(book=>book.id),...JSON.parse(fs.readFileSync(new URL('./historical-books.json',import.meta.url),'utf8')).map(book=>book.id),...JSON.parse(fs.readFileSync(new URL('./psalms-books.json',import.meta.url),'utf8')).map(book=>book.id),...JSON.parse(fs.readFileSync(new URL('./proverbs-books.json',import.meta.url),'utf8')).map(book=>book.id)];
 export const sharePath=passageURL;
 export function shareParams(url){
  const match=url.pathname.match(/^\/share\/([a-z0-9]+)\/(\d+)\/(\d+)(?:\/(\d+)\/(\d+))?\/?$/);

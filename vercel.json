@@ -5,7 +5,7 @@
   "outputDirectory": "dist",
   "functions": {
     "api/*.mjs": {
-      "includeFiles": "{data/**/*.json,fonts/*,partial-release.json,asset-hosting.json,epistles-books.json,pentateuch-books.json,psalms-books.json,historical-books.json,assets/image-pending.svg}",
+      "includeFiles": "{data/**/*.json,fonts/*,partial-release.json,asset-hosting.json,epistles-books.json,pentateuch-books.json,psalms-books.json,proverbs-books.json,historical-books.json,assets/image-pending.svg}",
       "maxDuration": 30
     }
   },
@@ -63,7 +63,7 @@
         {
           "type": "query",
           "key": "book",
-          "value": "(?<sharedBook>genesis|psalms|exodus|leviticus|numbers|deuteronomy|joshua|judges|ruth|1samuel|2samuel|1kings|2kings|matthew|mark|luke|john|acts|romans|1corinthians|2corinthians|galatians|ephesians|philippians|colossians|1thessalonians|2thessalonians|1timothy|2timothy|titus|philemon|hebrews|james|1peter|2peter|1john|2john|3john|jude|revelation)"
+          "value": "(?<sharedBook>genesis|psalms|proverbs|exodus|leviticus|numbers|deuteronomy|joshua|judges|ruth|1samuel|2samuel|1kings|2kings|matthew|mark|luke|john|acts|romans|1corinthians|2corinthians|galatians|ephesians|philippians|colossians|1thessalonians|2thessalonians|1timothy|2timothy|titus|philemon|hebrews|james|1peter|2peter|1john|2john|3john|jude|revelation)"
         },
         {
           "type": "query",

@@ -1,0 +1,25 @@
+{
+  "sourceCommit": "b260d9f7e1460058c43eb63954df462da89624f4",
+  "chapters": 31,
+  "versePositions": 915,
+  "illustrations": 120,
+  "plannedScenes": 705,
+  "languages": [
+    "ko",
+    "en",
+    "ja",
+    "zh"
+  ],
+  "preservedBooks": 34,
+  "preservedTranslations": 102,
+  "checks": [
+    "npm run check",
+    "check-offline.mjs",
+    "120 new CDN URLs: JPEG and byte sizes",
+    "four-language mobile reader, language switching, search, share card, attribution and continue reading",
+    "mobile and desktop: final verse fully hidden and three fresh scroll gestures"
+  ],
+  "sourceVerification": "review/proverbs-source-preparation/ko-source-verification.json",
+  "liveChecks": "All four languages passed; 390px/1280px continuation passed; feedback 405/admin 401 preserved.",
+  "deployment": "https://vible-q8qh2npx9-hunkims-projects.vercel.app"
+}

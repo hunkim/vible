@@ -49,3 +49,7 @@ After imports, run `npm run check`. The build generates the availability catalog
 Joshua is included with authorized BSB English, 1955 Japanese Colloquial and
 2022 Open Chinese Contemporary texts. All 24 chapters remain readable while
 unavailable illustrations show the existing pending-art placeholder.
+
+## Proverbs release (2026-10-11)
+
+All 35 published books now include Korean, English BSB (Public Domain), Japanese and simplified Chinese OpenCCB (2022, CC BY-SA 4.0) Scripture. Proverbs uses Japanese 1955 Colloquial OT. All 31 chapters and 915 Korean verse positions are preserved; Chinese Proverbs 26:18–19 remains a combined verse. Art is released independently as images become available.

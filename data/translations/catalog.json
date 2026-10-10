@@ -40,7 +40,8 @@
       "2samuel",
       "1kings",
       "2kings",
-      "psalms"
+      "psalms",
+      "proverbs"
     ],
     "licensedBooks": []
   },
@@ -85,7 +86,8 @@
       "2samuel",
       "1kings",
       "2kings",
-      "psalms"
+      "psalms",
+      "proverbs"
     ],
     "licensedBooks": [
       "john",
@@ -121,13 +123,8 @@
       "numbers",
       "deuteronomy",
       "joshua",
-      "judges",
-      "ruth",
-      "1samuel",
-      "2samuel",
-      "1kings",
-      "2kings",
-      "psalms"
+      "psalms",
+      "proverbs"
     ]
   },
   "ja": {
@@ -171,7 +168,8 @@
       "2samuel",
       "1kings",
       "2kings",
-      "psalms"
+      "psalms",
+      "proverbs"
     ],
     "licensedBooks": [
       "john",
@@ -207,13 +205,8 @@
       "numbers",
       "deuteronomy",
       "joshua",
-      "judges",
-      "ruth",
-      "1samuel",
-      "2samuel",
-      "1kings",
-      "2kings",
-      "psalms"
+      "psalms",
+      "proverbs"
     ]
   },
   "zh": {
@@ -257,7 +250,8 @@
       "2samuel",
       "1kings",
       "2kings",
-      "psalms"
+      "psalms",
+      "proverbs"
     ],
     "licensedBooks": [
       "john",
@@ -293,13 +287,8 @@
       "numbers",
       "deuteronomy",
       "joshua",
-      "judges",
-      "ruth",
-      "1samuel",
-      "2samuel",
-      "1kings",
-      "2kings",
-      "psalms"
+      "psalms",
+      "proverbs"
     ]
   }
 }

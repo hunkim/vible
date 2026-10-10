@@ -1,3 +1,4 @@
+import {proverbsBooks} from './proverbs-catalog.js';
 import {assetURL} from './assets.js';
 import {initialLanguage,normalizeLanguage,languageNames,bookNames,messages,applyTranslation,interfaceCopy} from './languages.js';
 import {epistleBooks} from './epistles-catalog.js';
@@ -66,7 +67,7 @@ function updateScene(index){
  $('previous').disabled=index===0;$('next').disabled=index===data.scenes.length-1;
  $('visual').alt=`${reference(s)} · ${s.title}`;
  $('visual').dataset.book=bookId;$('visual').dataset.layout=s.image.includes('-right-')?'right':'';$('visual-stage').dataset.layout=$('visual').dataset.layout;loadSceneImage(s);$('visual').style.animation='none';void $('visual').offsetWidth;$('visual').style.animation='';
- $('explanation').textContent=bookId==='psalms'?(s.kind==='recollection'?'시에서 되돌아보는 구원의 역사를 그렸습니다. 시를 부르는 현재의 사건과 구분해 읽어 주세요.':'시의 감정과 기도, 비유를 시각적으로 표현했습니다. 그림은 실제 사건의 재현을 뜻하지 않습니다.') :s.kind==='recollection'?'본문에서 회상하거나 인용하는 과거 이야기를 그렸습니다. 현재 대화 현장의 사건과 구분해 읽어 주세요.':s.kind==='vision'?'본문에 기록된 꿈과 환상을 시각적으로 표현했습니다. 인물의 실제 주변 풍경과 구분해 읽어 주세요.':s.kind==='metaphor'?(bookId==='genesis'&&s.chapter<=3?'창조와 에덴의 서술을 이해하도록 구성한 시각화입니다. 과학적 시간표나 실제 장소의 확정된 복원으로 제시하지 않습니다.':'이 장면은 본문의 비유·가르침을 시각적으로 표현했습니다. 실제 사건의 모습과 구분해 읽어 주세요.'):s.kind==='editorial'?(['genesis',...Object.keys(pentateuchBooks),...Object.keys(historicalBooks),'matthew','mark','luke'].includes(bookId)?'족보와 여러 세대, 서술의 여백을 이해하도록 구성한 장면입니다. 본문에 없는 실제 사건으로 단정하지 않습니다.':'편지에 담긴 인물·인사·계획을 이해하도록 구성한 장면입니다. 본문에 기록된 실제 현장의 재현이나 여행의 실현을 뜻하지 않습니다.'):'본문의 인물·장소·행동을 바탕으로 그린 장면입니다. 의복과 건물, 인물의 모습은 이해를 위한 시각적 해석입니다.';
+ $('explanation').textContent=bookId==='proverbs'?'잠언의 가르침과 비유를 시각적으로 표현했습니다. 그림은 본문에 기록된 실제 사건의 재현을 뜻하지 않습니다.':bookId==='psalms'?(s.kind==='recollection'?'시에서 되돌아보는 구원의 역사를 그렸습니다. 시를 부르는 현재의 사건과 구분해 읽어 주세요.':'시의 감정과 기도, 비유를 시각적으로 표현했습니다. 그림은 실제 사건의 재현을 뜻하지 않습니다.') :s.kind==='recollection'?'본문에서 회상하거나 인용하는 과거 이야기를 그렸습니다. 현재 대화 현장의 사건과 구분해 읽어 주세요.':s.kind==='vision'?'본문에 기록된 꿈과 환상을 시각적으로 표현했습니다. 인물의 실제 주변 풍경과 구분해 읽어 주세요.':s.kind==='metaphor'?(bookId==='genesis'&&s.chapter<=3?'창조와 에덴의 서술을 이해하도록 구성한 시각화입니다. 과학적 시간표나 실제 장소의 확정된 복원으로 제시하지 않습니다.':'이 장면은 본문의 비유·가르침을 시각적으로 표현했습니다. 실제 사건의 모습과 구분해 읽어 주세요.'):s.kind==='editorial'?(['genesis',...Object.keys(pentateuchBooks),...Object.keys(historicalBooks),'matthew','mark','luke'].includes(bookId)?'족보와 여러 세대, 서술의 여백을 이해하도록 구성한 장면입니다. 본문에 없는 실제 사건으로 단정하지 않습니다.':'편지에 담긴 인물·인사·계획을 이해하도록 구성한 장면입니다. 본문에 기록된 실제 현장의 재현이나 여행의 실현을 뜻하지 않습니다.'):'본문의 인물·장소·행동을 바탕으로 그린 장면입니다. 의복과 건물, 인물의 모습은 이해를 위한 시각적 해석입니다.';
  $('bible-source').href=s.source;
  if(language!=='ko')$('explanation').textContent='';
  document.querySelectorAll('.passage').forEach(p=>p.classList.toggle('active',Number(p.dataset.id)===s.id));
@@ -83,7 +84,7 @@ function renderBook(){
   for(const v of s.verses){if(v.omitted)continue;const p=document.createElement('p');p.dataset.chapter=s.chapter;p.dataset.verse=v.verse;if(v.endVerse)p.dataset.endVerse=v.endVerse;const num=document.createElement('button');num.className='verse-number';num.textContent=v.endVerse?`${v.verse}–${v.endVerse}`:v.verse;num.setAttribute('aria-label',ui().selectVerse(s.chapter,v.verse));const text=document.createElement('span');text.className='verse-text';renderScripture(text,bookId,s.chapter,v.verse,language,v.text);p.append(num,text);section.append(p);}
   fragment.append(section);
  }
- const end=document.createElement('p');end.className='book-end';end.textContent=`${data.book} · ${ui().end}`;const next=nextBookId();if(next){const hint=document.createElement('span');hint.className='next-book-hint';hint.textContent=({ko:`한 번 더 아래로 스크롤하면 ${bookNames[language][next]||books[next].name}로 이어집니다.`,en:`Scroll down once more to continue to ${bookNames[language][next]||books[next].name}.`,ja:`もう一度下にスクロールすると${bookNames[language][next]||books[next].name}へ進みます。`,zh:`再向下滚动一次，继续阅读${bookNames[language][next]||books[next].name}。`})[language];end.append(hint);}fragment.append(end);
+ const end=document.createElement('p');end.className='book-end';end.textContent=`${data.book} · ${ui().end}`;const next=nextBookId();if(next){const hint=document.createElement('span');hint.className='next-book-hint';hint.textContent=({ko:`마지막 말씀을 지나 아래로 세 번 더 스크롤하면 ${bookNames[language][next]||books[next].name}로 이어집니다.`,en:`After the last verse, scroll down three more times to continue to ${bookNames[language][next]||books[next].name}.`,ja:`最後の節を通り過ぎてから、さらに3回下にスクロールすると${bookNames[language][next]||books[next].name}へ進みます。`,zh:`最后一节移出屏幕后，再向下滚动三次，继续阅读${bookNames[language][next]||books[next].name}。`})[language];end.append(hint);}fragment.append(end);
  $('reader').replaceChildren(fragment);
 }
 function goTo(index){
@@ -118,15 +119,17 @@ async function continueToNextBook(){
  const url=new URL(location.href);url.searchParams.set('book',id);url.searchParams.set('chapter','1');url.searchParams.set('verse','1');url.searchParams.set('lang',language);history.replaceState(null,'',url);
 }
 function setupBookContinuation(reader,canContinue,navigate){
- let lastWheel=-Infinity,wheelReady=false,wheelDistance=0,touchStart=null;
- const atEnd=()=>{const end=reader.querySelector('.book-end');return end?end.getBoundingClientRect().bottom<=reader.getBoundingClientRect().bottom:reader.scrollTop+reader.clientHeight>=reader.scrollHeight-2;};
+ let lastWheel=-Infinity,wheelReady=false,wheelDistance=0,touchStart=null,gestures=0;
+ const atEnd=()=>{const verse=reader.querySelector('.passage:last-of-type p[data-verse]:last-child');return !!verse&&verse.getBoundingClientRect().bottom<=reader.getBoundingClientRect().top;};
+ const advance=()=>{if(++gestures<3)return;gestures=0;navigate();};
+ reader.addEventListener('scroll',()=>{if(!atEnd())gestures=0;},{passive:true});
  reader.addEventListener('wheel',event=>{
   const now=performance.now(),fresh=now-lastWheel>300;lastWheel=now;
   if(fresh){wheelReady=atEnd()&&canContinue();wheelDistance=0;}
-  if(event.ctrlKey||event.deltaY<=0||Math.abs(event.deltaX)>Math.abs(event.deltaY)){wheelReady=false;return;}
+  if(event.ctrlKey||event.deltaY<=0||Math.abs(event.deltaX)>Math.abs(event.deltaY)){wheelReady=false;if(event.deltaY<0)gestures=0;return;}
   if(!wheelReady||!atEnd()||!canContinue())return;
   wheelDistance+=event.deltaY*(event.deltaMode===1?16:event.deltaMode===2?reader.clientHeight:1);if(wheelDistance<40)return;
-  wheelReady=false;event.preventDefault();navigate();
+  wheelReady=false;event.preventDefault();advance();
  },{passive:false});
  reader.addEventListener('touchstart',event=>{
   touchStart=event.touches.length===1&&atEnd()&&canContinue()?{x:event.touches[0].clientX,y:event.touches[0].clientY}:null;
@@ -136,7 +139,8 @@ function setupBookContinuation(reader,canContinue,navigate){
   const start=touchStart;touchStart=null;const touch=event.changedTouches[0];
   if(!start||!touch||!atEnd()||!canContinue())return;
   const distance=start.y-touch.clientY;
-  if(distance>=48&&distance>Math.abs(start.x-touch.clientX))navigate();
+  if(distance<0)gestures=0;
+  if(distance>=48&&distance>Math.abs(start.x-touch.clientX))advance();
  },{passive:true});
  reader.addEventListener('touchcancel',()=>{touchStart=null;},{passive:true});
 }
@@ -373,7 +377,7 @@ const books={
  chapterNames:['승천과 증인의 부르심','오순절과 함께 나누는 교회','미문에서 일어난 사람','담대한 증언과 한마음의 기도','사람보다 하나님께 순종','일곱 섬김의 사람과 스데반','스데반의 증언과 마지막 기도','사마리아와 광야 길의 만남','사울의 회심과 다비다의 회복','고넬료의 집, 이방인에게 열린 문','안디옥의 그리스도인들','옥문을 여신 하나님','안디옥에서 시작한 첫 여정','루스드라의 표적과 환난','예루살렘의 의논과 은혜','루디아, 감옥의 찬송과 간수','베뢰아의 말씀, 아덴의 질문','고린도와 브리스길라·아굴라','에베소에서 일어난 변화와 소동','밀레도의 눈물과 맡겨진 양 떼','예루살렘으로 돌아온 바울','계단 위의 증언과 로마 시민권','로마를 향한 약속과 밤의 호송','벨릭스 앞의 부활의 소망','가이사에게 호소한 바울','아그립바 앞의 증언','풍랑 속에서도 잃지 않은 소망','멜리데와 로마, 금하지 못한 말씀'],
  arcs:[{chapters:'1–7장',title:'예루살렘의 증인들',copy:'성령의 약속과 오순절, 나누는 공동체와 박해 속의 증언.',chapter:1,imageChapter:2},{chapters:'8–12장',title:'경계를 넘어선 복음',copy:'사마리아, 에디오피아 관원, 사울과 고넬료, 안디옥의 공동체.',chapter:8},{chapters:'13–20장',title:'여러 민족을 향한 여정',copy:'바울과 동역자들의 항해, 도시마다 열린 만남과 말씀.',chapter:13,imageChapter:16},{chapters:'21–28장',title:'결박 너머로 열린 길',copy:'예루살렘과 가이사랴의 재판, 풍랑과 멜리데, 로마의 열린 집.',chapter:21,imageChapter:27}]}
 };
-Object.assign(books,pentateuchBooks,historicalBooks,psalmsBooks,epistleBooks);
+Object.assign(books,pentateuchBooks,historicalBooks,psalmsBooks,proverbsBooks,epistleBooks);
 async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  if(!books[id])id='john';
  const version=++loadVersion;
@@ -398,7 +402,7 @@ async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  $('chapter-map-title').textContent=`${data.chapters}장의 흐름`;
  $('search').value='';$('search').placeholder=config.search;
  $('prompt-source').href=config.plan;$('prompt-source').textContent=`${data.sceneCount}장 제작 프롬프트 ↗`;
- $('source-notes').textContent=id==='psalms'?`시편의 다섯 권 흐름과 각 시의 기도·비유를 따라 구성했습니다. 역사 회상은 장면 설명에서 구분하고, 어둠 속에서 끝나는 탄식에 임의의 밝은 결말을 덧붙이지 않습니다. 본문은 개역한글 원본 그대로 보존했습니다.${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:historicalBooks[id]?`${data.book}의 인물과 장소, 선택과 결과를 본문의 흐름에 따라 시각화했습니다. 회상과 비유는 현재 사건과 구분하며, 본문은 개역한글 원본을 보존합니다.${id==='joshua'?' 여호수아 2:12–13은 원본의 합절 표기를 따라 함께 표시합니다.':id==='1samuel'?' 사무엘상 30:30–31은 원본의 합절을 보존합니다.':''}`:pentateuchBooks[id]?`${data.book}의 서사와 규례를 본문에 따라 구분하여 시각화했습니다. 율법·제의·시적 약속을 설명하는 그림은 실제 사건으로 단정하지 않습니다. 본문은 개역한글 원본을 보존합니다.${id==='deuteronomy'?' 신명기 30:9–10은 개역한글의 합절 표기를 따라 함께 표시합니다.':''}${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:epistleBooks[id]?`${data.book}의 가르침과 관계를 시각적 비유와 편집 장면으로 표현했습니다. 과거 회상은 설명에서 구분하며, 본문은 개역한글 원본 그대로 보존했습니다.${id==='hebrews'?' 히브리서의 저자는 본문에서 이름을 밝히지 않습니다.':''}${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:['matthew','mark','luke'].includes(id)?'각 복음서의 서술 순서와 인물 수, 만남의 장소를 따라 구성했습니다. 비유와 꿈, 족보를 그린 장면은 설명에서 구분합니다. 본문의 괄호와 (없음) 표기도 원본대로 보존했습니다.':id==='genesis'?'창조의 장면은 본문의 의미를 돕는 시각화이며 과학적 시간표나 확정된 지리 복원이 아닙니다. 족보는 세대의 이어짐을 구성한 편집 장면으로, 꿈과 시적 축복은 실제 현장과 구분합니다. 의복·건물·인물의 모습도 시각적 해석입니다.':id==='revelation'?'요한계시록의 환상과 상징은 맥락을 이해하도록 시각화했습니다. 특정 현대 인물·국가·기술이나 종말의 시간표로 단정하지 않으며, 핵심 이미지를 선택한 편집 해석입니다.':id==='romans'?'로마서는 편지의 논증을 시각적 비유와 편집 장면으로 표현합니다. 아브라함 등의 과거 회상은 구분하며, 16:24의 (없음) 표기를 원본대로 보존했습니다.':id==='john'?'비유와 가르침을 그린 장면은 설명에서 구분합니다. 요한복음 5:3–4와 7:53–8:11의 본문 괄호도 원본대로 유지했습니다.':'환상과 설교 속 과거 이야기는 장면 설명에서 구분합니다. 사도행전의 (없음) 및 [25절과 같음] 표기도 전자 본문 원본대로 유지했습니다.';
+ $('source-notes').textContent=id==='proverbs'?'잠언의 지혜와 가르침을 문맥에 따라 시각화했습니다. 본문은 개역한글 원본을 보존합니다.':id==='psalms'?`시편의 다섯 권 흐름과 각 시의 기도·비유를 따라 구성했습니다. 역사 회상은 장면 설명에서 구분하고, 어둠 속에서 끝나는 탄식에 임의의 밝은 결말을 덧붙이지 않습니다. 본문은 개역한글 원본 그대로 보존했습니다.${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:historicalBooks[id]?`${data.book}의 인물과 장소, 선택과 결과를 본문의 흐름에 따라 시각화했습니다. 회상과 비유는 현재 사건과 구분하며, 본문은 개역한글 원본을 보존합니다.${id==='joshua'?' 여호수아 2:12–13은 원본의 합절 표기를 따라 함께 표시합니다.':id==='1samuel'?' 사무엘상 30:30–31은 원본의 합절을 보존합니다.':''}`:pentateuchBooks[id]?`${data.book}의 서사와 규례를 본문에 따라 구분하여 시각화했습니다. 율법·제의·시적 약속을 설명하는 그림은 실제 사건으로 단정하지 않습니다. 본문은 개역한글 원본을 보존합니다.${id==='deuteronomy'?' 신명기 30:9–10은 개역한글의 합절 표기를 따라 함께 표시합니다.':''}${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:epistleBooks[id]?`${data.book}의 가르침과 관계를 시각적 비유와 편집 장면으로 표현했습니다. 과거 회상은 설명에서 구분하며, 본문은 개역한글 원본 그대로 보존했습니다.${id==='hebrews'?' 히브리서의 저자는 본문에서 이름을 밝히지 않습니다.':''}${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:['matthew','mark','luke'].includes(id)?'각 복음서의 서술 순서와 인물 수, 만남의 장소를 따라 구성했습니다. 비유와 꿈, 족보를 그린 장면은 설명에서 구분합니다. 본문의 괄호와 (없음) 표기도 원본대로 보존했습니다.':id==='genesis'?'창조의 장면은 본문의 의미를 돕는 시각화이며 과학적 시간표나 확정된 지리 복원이 아닙니다. 족보는 세대의 이어짐을 구성한 편집 장면으로, 꿈과 시적 축복은 실제 현장과 구분합니다. 의복·건물·인물의 모습도 시각적 해석입니다.':id==='revelation'?'요한계시록의 환상과 상징은 맥락을 이해하도록 시각화했습니다. 특정 현대 인물·국가·기술이나 종말의 시간표로 단정하지 않으며, 핵심 이미지를 선택한 편집 해석입니다.':id==='romans'?'로마서는 편지의 논증을 시각적 비유와 편집 장면으로 표현합니다. 아브라함 등의 과거 회상은 구분하며, 16:24의 (없음) 표기를 원본대로 보존했습니다.':id==='john'?'비유와 가르침을 그린 장면은 설명에서 구분합니다. 요한복음 5:3–4와 7:53–8:11의 본문 괄호도 원본대로 유지했습니다.':'환상과 설교 속 과거 이야기는 장면 설명에서 구분합니다. 사도행전의 (없음) 및 [25절과 같음] 표기도 전자 본문 원본대로 유지했습니다.';
  $('explanation').hidden=true;$('error').hidden=true;
  renderBook();notes.refresh();renderStory();renderGallery();
  $('translation-attribution').textContent=data.attribution||'성경전서 개역한글판 © 대한성서공회 1961.';
