@@ -1,9 +1,9 @@
 {
   "date": "2026-10-11",
   "production": "https://vible.now",
-  "deployment": "https://vible-glis1gspc-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_siFQjznsXJKn3u3XKzwEwGqEWbcB",
-  "newImageFiles": 336,
+  "deployment": "https://vible-bo5v2v2n3-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_FseCEgFy8tEGAz37qHuKxHF7GMM9",
+  "newImageFiles": 1,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -88,7 +88,8 @@
     "feedbackRerun": "Three visually verified images, full check/offline, live images/share cards and mobile readers passed; current origin/main admin route preserved.",
     "shareLanguageLayout": "Full check/offline, 28 historical-language browser paths, eight existing-book mobile pages and live four-language pending-art PNGs passed; all published content and feedback/admin preserved.",
     "feedbackRun3": "Five reports grouped into three inspected corrections. Full check/offline, 33-book/99-translation preservation, live image/share cards and mobile readers passed. Prior shared-page fixes preserved.",
-    "imageUpdate17": "193 Psalm illustrations and 143 Joshua illustrations added from a frozen snapshot; in-progress later art left for next release."
+    "imageUpdate17": "193 Psalm illustrations and 143 Joshua illustrations added from a frozen snapshot; in-progress later art left for next release.",
+    "psalm150FinaleV3": "Build, Scripture preservation, compact reader and refresh tests passed; CDN SHA256 matches; live data, share page/PNG and mobile image loading passed."
   },
   "newTranslationFiles": 3,
   "translationBooksPerLanguage": {
@@ -110,6 +111,10 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "a0b94eeadf8bb5251be12b2cca3f0931d9ab1f45",
-  "lastApplicationQA": "review/share-language-fix-live-audit.json"
+  "gitCommit": "25eeb54e2b37d194e4a2c93af0d6dad915ea721c",
+  "lastApplicationQA": "review/share-language-fix-live-audit.json",
+  "latestImageReplacement": {
+    "reference": "Psalm 150:6",
+    "image": "psalms-c150-v006-006-right-context-finale-v3.jpg"
+  }
 }
