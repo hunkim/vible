@@ -1,15 +1,15 @@
 {
   "date": "2026-10-11",
   "production": "https://vible.now",
-  "deployment": "https://vible-q8qh2npx9-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_3yaeTSak2NmwsUCLRzxvkoXBKmPw",
-  "newImageFiles": 120,
+  "deployment": "https://vible-4o2cp6pg2-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_59wAhCLRSMva2F5ZprCdRRQYkWG8",
+  "newImageFiles": 45,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
     "psalms": 1517,
     "deuteronomy": 301,
-    "joshua": 143,
+    "joshua": 185,
     "proverbs": 120
   },
   "releaseConfig": {
@@ -21,53 +21,6 @@
     "psalms": {
       "count": 1517,
       "withheld": []
-    },
-    "joshua": {
-      "count": 185,
-      "withheld": [
-        133,
-        135,
-        146,
-        147,
-        148,
-        149,
-        150,
-        151,
-        152,
-        153,
-        154,
-        155,
-        156,
-        157,
-        158,
-        159,
-        160,
-        161,
-        162,
-        163,
-        164,
-        165,
-        166,
-        167,
-        168,
-        169,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175,
-        176,
-        177,
-        178,
-        179,
-        180,
-        181,
-        182,
-        183,
-        184,
-        185
-      ]
     },
     "proverbs": {
       "count": 705,
@@ -658,39 +611,27 @@
         704,
         705
       ]
-    }
+    },
+    "judges": 0,
+    "ruth": 0,
+    "1samuel": 0,
+    "2samuel": 0,
+    "1kings": 0,
+    "2kings": 0
   },
   "psalmsPlan": "All Psalms 1–150 illustrated: 1517 scenes, original Scripture and all previously published art retained.",
   "qa": "review/proverbs-release-qa-20261011.json",
   "checks": {
-    "build": "passed: 34 books, required check and offline suite",
-    "changedBooks": "passed: all previous Scripture, 1324 Psalm images and 99 translations preserved; Joshua authorized texts in all four languages",
-    "httpAudit": "passed: 336 new image URLs JPEG 200 and matching byte sizes",
-    "readerPayload": "passed: compact reader preserves Scripture and image availability",
-    "liveData": "passed: deployed Psalms/Joshua match Git build; Joshua translations match all three imported editions",
-    "shareCard": "passed: new Psalm 122:8, 149:9 and Joshua 19:1 pages/cards",
-    "browser": "passed: four live Joshua languages, exact Scripture/search, card, attribution, continue reading and mobile width",
-    "feedback": "passed: production button, JS and POST-only endpoint retained",
-    "testPolicy": "focused image-only verification; unrelated full suite not repeated",
-    "feedbackHelpCleanup": "npm run check and offline passed; redundant help removed in all languages",
-    "feedbackCorrections": "3 inspected replacements, npm check/offline and live image/share-card checks passed",
-    "readerCleanup": "npm run check and offline passed before content addition; count label removed at both rendering paths",
-    "torahCompletion": "Passed complete 1189 new Torah image QA, 68 CDN URLs, 33-book/99-translation preservation, actual four-language browser/shared cards and deployed data.",
-    "feedbackRerun": "Three visually verified images, full check/offline, live images/share cards and mobile readers passed; current origin/main admin route preserved.",
-    "shareLanguageLayout": "Full check/offline, 28 historical-language browser paths, eight existing-book mobile pages and live four-language pending-art PNGs passed; all published content and feedback/admin preserved.",
-    "feedbackRun3": "Five reports grouped into three inspected corrections. Full check/offline, 33-book/99-translation preservation, live image/share cards and mobile readers passed. Prior shared-page fixes preserved.",
-    "imageUpdate17": "193 Psalm illustrations and 143 Joshua illustrations added from a frozen snapshot; in-progress later art left for next release.",
-    "psalm150FinaleV3": "Build, Scripture preservation, compact reader and refresh tests passed; CDN SHA256 matches; live data, share page/PNG and mobile image loading passed.",
-    "proverbs": "Full check/offline passed in Git archive; 120 new JPEG URLs and sizes verified; 34 previous books/102 translations preserved; actual live four-language mobile reader/search/switching/cards/attribution/continue reading passed, including pending-art Chinese card.",
-    "bookContinuation": "Unit wheel/touch/momentum/reset/boundary tests and live mobile/desktop passed: final verse completely outside viewport, then three independent downward gestures."
+    "frozenApplication": "npm run check passed; all 41 books and 123 translations",
+    "frozenOffline": "passed; 41 books checked (legacy console label says 35)",
+    "publicData": "164 exact JSON files match frozen source",
+    "changedJoshuaCDN": "45 exact JPEG byte/hash/MIME matches",
+    "privateFeedback": "admin authentication enforced",
+    "JoshuaVisualQA": "185 selected images reviewed, 12 corrections accepted",
+    "multilingualBrowser": "seven historical books, four languages; underway"
   },
-  "newTranslationFiles": 3,
-  "translationBooksPerLanguage": {
-    "ko": 35,
-    "en": 35,
-    "ja": 35,
-    "zh": 35
-  },
+  "newTranslationFiles": 21,
+  "translationBooksPerLanguage": 41,
   "features": {
     "feedback": {
       "storage": "vible-feedback",
@@ -704,11 +645,11 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "b260d9f7e1460058c43eb63954df462da89624f4",
+  "gitCommit": "ae90e72516424c39307c8da3f15296aa5cc935f0",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v3.jpg"
   },
-  "frozenSource": "/private/tmp/vible-release-b260d9f7e146"
+  "frozenSource": "/private/tmp/vible-release-ae90e7251642"
 }
