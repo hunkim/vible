@@ -84,7 +84,7 @@ function renderBook(){
   for(const v of s.verses){if(v.omitted)continue;const p=document.createElement('p');p.dataset.chapter=s.chapter;p.dataset.verse=v.verse;if(v.endVerse)p.dataset.endVerse=v.endVerse;const num=document.createElement('button');num.className='verse-number';num.textContent=v.endVerse?`${v.verse}–${v.endVerse}`:v.verse;num.setAttribute('aria-label',ui().selectVerse(s.chapter,v.verse));const text=document.createElement('span');text.className='verse-text';renderScripture(text,bookId,s.chapter,v.verse,language,v.text);p.append(num,text);section.append(p);}
   fragment.append(section);
  }
- const end=document.createElement('p');end.className='book-end';end.textContent=`${data.book} · ${ui().end}`;const next=nextBookId();if(next){const hint=document.createElement('span');hint.className='next-book-hint';hint.textContent=({ko:`한 번 더 아래로 스크롤하면 ${bookNames[language][next]||books[next].name}로 이어집니다.`,en:`Scroll down once more to continue to ${bookNames[language][next]||books[next].name}.`,ja:`もう一度下にスクロールすると${bookNames[language][next]||books[next].name}へ進みます。`,zh:`再向下滚动一次，继续阅读${bookNames[language][next]||books[next].name}。`})[language];end.append(hint);}fragment.append(end);
+ const end=document.createElement('p');end.className='book-end';end.textContent=`${data.book} · ${ui().end}`;const next=nextBookId();if(next){const hint=document.createElement('span');hint.className='next-book-hint';hint.textContent=({ko:`마지막 말씀을 지나 아래로 세 번 더 스크롤하면 ${bookNames[language][next]||books[next].name}로 이어집니다.`,en:`After the last verse, scroll down three more times to continue to ${bookNames[language][next]||books[next].name}.`,ja:`最後の節を通り過ぎてから、さらに3回下にスクロールすると${bookNames[language][next]||books[next].name}へ進みます。`,zh:`最后一节移出屏幕后，再向下滚动三次，继续阅读${bookNames[language][next]||books[next].name}。`})[language];end.append(hint);}fragment.append(end);
  $('reader').replaceChildren(fragment);
 }
 function goTo(index){
@@ -119,15 +119,17 @@ async function continueToNextBook(){
  const url=new URL(location.href);url.searchParams.set('book',id);url.searchParams.set('chapter','1');url.searchParams.set('verse','1');url.searchParams.set('lang',language);history.replaceState(null,'',url);
 }
 function setupBookContinuation(reader,canContinue,navigate){
- let lastWheel=-Infinity,wheelReady=false,wheelDistance=0,touchStart=null;
- const atEnd=()=>{const end=reader.querySelector('.book-end');return end?end.getBoundingClientRect().bottom<=reader.getBoundingClientRect().bottom:reader.scrollTop+reader.clientHeight>=reader.scrollHeight-2;};
+ let lastWheel=-Infinity,wheelReady=false,wheelDistance=0,touchStart=null,gestures=0;
+ const atEnd=()=>{const verse=reader.querySelector('.passage:last-of-type p[data-verse]:last-child');return !!verse&&verse.getBoundingClientRect().bottom<=reader.getBoundingClientRect().top;};
+ const advance=()=>{if(++gestures<3)return;gestures=0;navigate();};
+ reader.addEventListener('scroll',()=>{if(!atEnd())gestures=0;},{passive:true});
  reader.addEventListener('wheel',event=>{
   const now=performance.now(),fresh=now-lastWheel>300;lastWheel=now;
   if(fresh){wheelReady=atEnd()&&canContinue();wheelDistance=0;}
-  if(event.ctrlKey||event.deltaY<=0||Math.abs(event.deltaX)>Math.abs(event.deltaY)){wheelReady=false;return;}
+  if(event.ctrlKey||event.deltaY<=0||Math.abs(event.deltaX)>Math.abs(event.deltaY)){wheelReady=false;if(event.deltaY<0)gestures=0;return;}
   if(!wheelReady||!atEnd()||!canContinue())return;
   wheelDistance+=event.deltaY*(event.deltaMode===1?16:event.deltaMode===2?reader.clientHeight:1);if(wheelDistance<40)return;
-  wheelReady=false;event.preventDefault();navigate();
+  wheelReady=false;event.preventDefault();advance();
  },{passive:false});
  reader.addEventListener('touchstart',event=>{
   touchStart=event.touches.length===1&&atEnd()&&canContinue()?{x:event.touches[0].clientX,y:event.touches[0].clientY}:null;
@@ -137,7 +139,8 @@ function setupBookContinuation(reader,canContinue,navigate){
   const start=touchStart;touchStart=null;const touch=event.changedTouches[0];
   if(!start||!touch||!atEnd()||!canContinue())return;
   const distance=start.y-touch.clientY;
-  if(distance>=48&&distance>Math.abs(start.x-touch.clientX))navigate();
+  if(distance<0)gestures=0;
+  if(distance>=48&&distance>Math.abs(start.x-touch.clientX))advance();
  },{passive:true});
  reader.addEventListener('touchcancel',()=>{touchStart=null;},{passive:true});
 }

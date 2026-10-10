@@ -7,7 +7,7 @@
 
 /* Preserve the full cinematic frame on tall desktop windows. */
 @media(min-width:701px){.reading-workspace{height:min(850px,calc(100dvh - 218px))}#visual-stage{flex:none;aspect-ratio:16/9;height:auto;min-height:0}.text-column{max-height:100%}.visual-column{align-self:start}}
-#reader::after{content:"";display:block;height:70%;pointer-events:none}
+#reader::after{content:"";display:block;height:100%;pointer-events:none}
 
 .immersive #visual-stage{flex:1;aspect-ratio:auto;height:100%}.immersive #visual{object-fit:contain;background:#17211c}
 
