@@ -22721,6 +22721,170 @@
     "judges-211-right-v1.jpg": {
       "sha256": "afea9cbe6cc98291a4aa676953a869df02756ecf0b76564ed971a7312cb619ff",
       "bytes": 642642
+    },
+    "ruth-001-right-v1.jpg": {
+      "sha256": "fc6d6eb8b1eec77773fc46b5c48ae7e7381df3e7607a4eef2440e48035852444",
+      "bytes": 672291
+    },
+    "ruth-002-right-v1.jpg": {
+      "sha256": "d3321c2ef476bc2bc40be80d53f1486a670e344e3d724d39d25c38aee2df36c6",
+      "bytes": 500231
+    },
+    "ruth-003-right-v1.jpg": {
+      "sha256": "17bf708ea07b36b5e7145309cfa00b1304f491db4f879fd88a7f7105a2939622",
+      "bytes": 513606
+    },
+    "ruth-004-right-v1.jpg": {
+      "sha256": "8e6e4c1b251056980d1c44b571fcf04c0e53c03448f1bf51a49906e78866a38c",
+      "bytes": 559312
+    },
+    "ruth-005-right-v1.jpg": {
+      "sha256": "ee4a4c452269701d0b28408d1d090c2a6d235c38a708bf48ef50fdb006f070aa",
+      "bytes": 532388
+    },
+    "ruth-006-right-v1.jpg": {
+      "sha256": "4386ffaa1c27446cbddeedbf53afedb91a82c7da1e705ae41b1168fe14b9d9b4",
+      "bytes": 512068
+    },
+    "ruth-007-right-v1.jpg": {
+      "sha256": "f665b771b99ed626ae50b5c4714bb419c6e347cf8e0f02926b05473dd7e86526",
+      "bytes": 540160
+    },
+    "ruth-008-right-v1.jpg": {
+      "sha256": "da3d07bbbfc37a0f48209b3764b079164f1ba0b040d0319c303867b123a1aae7",
+      "bytes": 540283
+    },
+    "ruth-009-right-v1.jpg": {
+      "sha256": "2fa6ed8ee9dab0ff66067e1c7ce45d228b181f374da878dd0aa324e46386ddc5",
+      "bytes": 557162
+    },
+    "ruth-010-right-v1.jpg": {
+      "sha256": "8a9c228fc2ffc005a511aeb8e5feba22e83fa88c71b24453af31462c58b21ce8",
+      "bytes": 598852
+    },
+    "ruth-011-right-v1.jpg": {
+      "sha256": "94658f325fc81dd0d606ef458bc000d74ad1a110e56aeb2984ed7244f9175036",
+      "bytes": 570669
+    },
+    "ruth-012-right-v1.jpg": {
+      "sha256": "6b224457f22170f40ae17c563c29fb82beb1923a2bcdcb827da913ed6d693bfb",
+      "bytes": 536180
+    },
+    "ruth-013-right-v1.jpg": {
+      "sha256": "4966600809ab8dd9238bc8ff45063180535c498c33a5e2da18929fb5bf097a90",
+      "bytes": 622027
+    },
+    "ruth-014-right-v1.jpg": {
+      "sha256": "556cfdfadb0bcbe29001d87638ebf47c09b525aa593568ecad5edcf4eac734aa",
+      "bytes": 624428
+    },
+    "ruth-015-right-v1.jpg": {
+      "sha256": "d52a789f32dbeb31338e91245c02030f71cd7992c20976485b0209d53bf02a35",
+      "bytes": 676263
+    },
+    "ruth-016-right-v1.jpg": {
+      "sha256": "9cfafad457d622b929bbb79967a2fe5f3309384f0c0c3376c4dc4aab492760e4",
+      "bytes": 394340
+    },
+    "ruth-017-right-v2.jpg": {
+      "sha256": "81128f2d0f49f21a2ca854c308462e9d86baa512d18306c2b3392b2a99701b58",
+      "bytes": 545406
+    },
+    "ruth-018-right-v1.jpg": {
+      "sha256": "8c32844d16b381429c86a5f6cd405917249f7dbe9dcaecdec340378e77a87fd9",
+      "bytes": 558533
+    },
+    "ruth-019-right-v1.jpg": {
+      "sha256": "3c80b62448038e304ca3d0196bea1ac4e7fa876a41aaf4152fb756c9b5918897",
+      "bytes": 520187
+    },
+    "ruth-020-right-v1.jpg": {
+      "sha256": "a5bcb2b1289ad87ca00710048ef7de84f6b4bba703c63e13dfc03e12cb5ef881",
+      "bytes": 437173
+    },
+    "ruth-021-right-v1.jpg": {
+      "sha256": "5c37efd64a60f5951224102f56327be66bccbe60a299cbf5af67f8af08caf4bd",
+      "bytes": 562438
+    },
+    "ruth-022-right-v1.jpg": {
+      "sha256": "e6a5c93472e3dee2623bcb88babed6922f6b407e74bd656f711bd9375abce249",
+      "bytes": 621403
+    },
+    "ruth-023-right-v1.jpg": {
+      "sha256": "688ceb67264aebbf738c047ff9ac94631ebc5d64966a1851ccf9416eab04abb5",
+      "bytes": 544849
+    },
+    "ruth-024-right-v1.jpg": {
+      "sha256": "35812a598e8b6d4d846834f0a0652d8c82db170a3073bf526036e017ce45bbf1",
+      "bytes": 459376
+    },
+    "ruth-025-right-v2.jpg": {
+      "sha256": "b7de59ab311ec6fe1b0751fbc8630778b2d5fafb3c26df66a2bfa7c8ccd9ed34",
+      "bytes": 539381
+    },
+    "ruth-026-right-v1.jpg": {
+      "sha256": "e539741625d07045c08bd2c6933eee0c16324d70b9e089d05bb4d706adf4d7f0",
+      "bytes": 536573
+    },
+    "ruth-027-right-v1.jpg": {
+      "sha256": "ddf16355edf9dff98429799a3143d9e8542d249dbc9db39d408e50452ff4631f",
+      "bytes": 597559
+    },
+    "ruth-028-right-v1.jpg": {
+      "sha256": "4bea16d58788d4828ed7524f98398dbfb99d0fcde6b83ae406f0212125d9d95a",
+      "bytes": 465629
+    },
+    "ruth-029-right-v1.jpg": {
+      "sha256": "afba201352f5340d818ea39b8bb3c20c1bfafbbb6d761f2575efefa63c2812aa",
+      "bytes": 536640
+    },
+    "ruth-030-right-v1.jpg": {
+      "sha256": "ed8d8fec8aa9f2a448a1ab4019e88e02183b05fa0d0e3d025fc0ee0b62a7e482",
+      "bytes": 481094
+    },
+    "ruth-031-right-v1.jpg": {
+      "sha256": "ea6c32b8ba0693c06427f3461a9c6f1deaef12231ed81fd406cc67c15fbfd5d7",
+      "bytes": 487650
+    },
+    "ruth-032-right-v1.jpg": {
+      "sha256": "cbdf9d346713b206179c45ca9740492ba2d4981e68317c9750e52f0dd8ebe721",
+      "bytes": 634312
+    },
+    "ruth-033-right-v1.jpg": {
+      "sha256": "e1e5bbd7933d48e7677d1fd9e992248e35e7208dbc6a6583024d0e6dd64df464",
+      "bytes": 652350
+    },
+    "ruth-034-right-v1.jpg": {
+      "sha256": "b485cb97666debf22cbc0bca06b54a45bd174cfb28fe270dd868352166eda2c0",
+      "bytes": 572702
+    },
+    "ruth-035-right-v1.jpg": {
+      "sha256": "1c6a9dc60f2a6c727f325e639fd12c27dba974eb38db649ec8c09423fbfbfd12",
+      "bytes": 491530
+    },
+    "ruth-036-right-v1.jpg": {
+      "sha256": "eea3ccd0e8c4525d6fa992d1f1a00493cd0a69ba095412ede8989c49e1be6129",
+      "bytes": 607425
+    },
+    "ruth-037-right-v1.jpg": {
+      "sha256": "ba9b090271fdbdff8d325454c5d439f5f663b8182919534559ab02feab07775c",
+      "bytes": 552969
+    },
+    "ruth-038-right-v1.jpg": {
+      "sha256": "d8ecb60dcd9ebe35f150c61b86b5d729b9dcb78fc5fe5afb1ed7a93e46237a22",
+      "bytes": 468860
+    },
+    "ruth-039-right-v1.jpg": {
+      "sha256": "54f205d2d272d99644f81fe6ca9b299463af711926ee46a04d373bac01dc4f5f",
+      "bytes": 555868
+    },
+    "ruth-040-right-v1.jpg": {
+      "sha256": "c64f53b52eb4ec4bb9b208e5b45794828d2ca26d52126d92672f92a3abff8133",
+      "bytes": 495354
+    },
+    "ruth-041-right-v1.jpg": {
+      "sha256": "e82944fcf150ab9266e77f917bbfbe509cef985400b6525bcba4d9606c48218d",
+      "bytes": 630449
     }
   }
 }

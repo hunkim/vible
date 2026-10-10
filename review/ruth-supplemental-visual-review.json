@@ -1,0 +1,22 @@
+{
+  "images": {
+    "17": {
+      "image": "ruth-017-right-v2.jpg",
+      "sha256": "81128f2d0f49f21a2ca854c308462e9d86baa512d18306c2b3392b2a99701b58",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full v2: primary right recipient restored to original Ruth face from scene8; feminine Sung is one separate unnamed left-background female worker eating her own bread, no spouse or named-role implication, no Yeonkyung/male Sung. Natural supported hands and all four corners clean.",
+      "reviewedUTC": "2026-10-10T23:52:19.061383+00:00"
+    },
+    "25": {
+      "image": "ruth-025-right-v2.jpg",
+      "sha256": "b7de59ab311ec6fe1b0751fbc8630778b2d5fafb3c26df66a2bfa7c8ccd9ed34",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full v2: original clothed Ruth rests separately on folded cloth on straw near Boaz sandals, head off knee/lap; two original clothed adults, natural hands and coherent independent limbs, one moon, four corners clean.",
+      "reviewedUTC": "2026-10-10T23:52:19.061711+00:00"
+    }
+  }
+}
