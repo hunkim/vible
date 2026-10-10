@@ -11,6 +11,10 @@
   },
   "rewrites": [
     {
+      "source": "/admin_feedback",
+      "destination": "/api/admin-feedback"
+    },
+    {
       "source": "/share/:book/:chapter/:verse/:endChapter/:endVerse",
       "destination": "/api/share?book=:book&chapter=:chapter&verse=:verse&endChapter=:endChapter&endVerse=:endVerse"
     },

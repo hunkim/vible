@@ -19,6 +19,14 @@ network address per UTC day. A keyed daily hash partitions reports for this limi
 The limit is best-effort under simultaneous requests; this is not a CAPTCHA.
 No public API lists or reads feedback. The Blob token must remain server-only.
 
+`/admin_feedback` (`api/admin-feedback.mjs`) is the private reviewer list: each
+report's text, status, evidence, original image and replacement image (the
+reviewed `replacementImage`, or the image now released for that verse when it
+differs). It requires HTTP Basic authentication against the server-only
+`FEEDBACK_ADMIN_PASSWORD` variable (any username) and returns 503 when that
+variable is unset. Responses are `no-store` and `noindex`; system tests are
+hidden unless that filter is selected.
+
 For local testing or scheduled review, pull production variables to a private
 temporary file without printing credentials:
 
