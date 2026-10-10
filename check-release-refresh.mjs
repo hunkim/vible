@@ -6,7 +6,7 @@ import {pathToFileURL} from 'node:url';
 const fixture=await fs.mkdtemp(path.join(os.tmpdir(),'vible-release-refresh-'));
 try{
  await fs.mkdir(path.join(fixture,'data'));
- for(const name of ['release-data.mjs','share-data.mjs','languages.js','epistles-catalog.js','pentateuch-catalog.js','psalms-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(fixture,name));
+ for(const name of ['release-data.mjs','share-data.mjs','languages.js','epistles-catalog.js','pentateuch-catalog.js','psalms-catalog.js','historical-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','historical-books.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(fixture,name));
  await fs.copyFile(new URL('./data/1corinthians.json',import.meta.url),path.join(fixture,'data/1corinthians.json'));
  await fs.writeFile(path.join(fixture,'package.json'),'{"type":"module"}');
  const releases=path.join(fixture,'partial-release.json');

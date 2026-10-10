@@ -1,0 +1,9 @@
+[
+  {"id":"joshua","name":"여호수아","english":"Joshua","code":"JOS","chapters":24,"verseCount":658},
+  {"id":"judges","name":"사사기","english":"Judges","code":"JDG","chapters":21,"verseCount":618},
+  {"id":"ruth","name":"룻기","english":"Ruth","code":"RUT","chapters":4,"verseCount":85},
+  {"id":"1samuel","name":"사무엘상","english":"1 Samuel","code":"1SA","chapters":31,"verseCount":810},
+  {"id":"2samuel","name":"사무엘하","english":"2 Samuel","code":"2SA","chapters":24,"verseCount":695},
+  {"id":"1kings","name":"열왕기상","english":"1 Kings","code":"1KI","chapters":22,"verseCount":816},
+  {"id":"2kings","name":"열왕기하","english":"2 Kings","code":"2KI","chapters":25,"verseCount":719}
+]

@@ -4,7 +4,8 @@ import fs from 'node:fs/promises';
 import {randomUUID} from 'node:crypto';
 import {feedbackRecord} from './api/feedback.mjs';
 import {createAdminFeedbackHandler,authorized,imageURL,loadNotes,NOTE_LIMIT} from './api/admin-feedback.mjs';
-const make=(over={})=>({...feedbackRecord({book:'psalms',chapter:66,verse:18,lang:'ko',message:'<script>alert(1)</script> 손 모양',requestId:randomUUID()}),...over});
+// Use an always-published scene; unrelated draft-book gates must not change this fixture.
+const make=(over={})=>({...feedbackRecord({book:'john',chapter:3,verse:16,lang:'ko',message:'<script>alert(1)</script> 손 모양',requestId:randomUUID()}),...over});
 const pending=make({createdAt:'2026-10-01T00:00:00.000Z'}),fixed=make({createdAt:'2026-10-03T00:00:00.000Z'}),stale=make({createdAt:'2026-10-02T00:00:00.000Z',image:'psalms-old-v0.jpg'}),test=make({createdAt:'2026-10-04T00:00:00.000Z'});
 const records=new Map([[`feedback/reports/2026-10-01/a/${pending.id}.json`,pending],[`feedback/reports/2026-10-03/a/${fixed.id}.json`,fixed],[`feedback/reports/2026-10-02/a/${stale.id}.json`,stale],[`feedback/reports/2026-10-04/a/${test.id}.json`,test],
  [`feedback/reviews/${fixed.id}.json`,{status:'fixed',evidence:'손가락 수를 고쳤습니다.',replacementImage:'psalms-fixed-v2.jpg',deployment:'javascript:alert(1)'}],[`feedback/reviews/${test.id}.json`,{status:'system-test',evidence:'intake smoke test'}]]);
