@@ -3,6 +3,8 @@
 @media(max-width:760px){header{height:64px;padding:0 24px}header>span{font-size:10px}main{grid-template-columns:1fr;gap:38px;margin-top:38px;padding:0 24px}blockquote{font-size:23px;line-height:1.9}h1{margin-bottom:22px}footer{padding:0 24px;margin-top:40px}}
 
 blockquote .jesus-words{color:#934728;font-weight:600}
+main>*{min-width:0}blockquote{overflow-wrap:anywhere}
+blockquote:lang(ja),blockquote:lang(zh){word-break:normal}
 
 .shared-card-link{display:block;border-radius:14px;cursor:pointer}.shared-card-link #shared-card{transition:box-shadow .18s ease}.shared-card-link:hover #shared-card{box-shadow:0 18px 45px #172a2238}.shared-card-link:focus-visible{outline:3px solid #92784c;outline-offset:5px}footer a:hover{text-decoration:underline}
 @media(prefers-reduced-motion:reduce){.shared-card-link #shared-card{transition:none}}

@@ -9,10 +9,12 @@ const font=fs.readFile(new URL('../fonts/NanumMyeongjo-Regular.ttf',import.meta.
 const h=(type,style,children)=>({type,props:{style,children}});
 export async function cardResponse(s){
  const {size,height,textWidth}=cardLayout(s);
- const image=new URL(assetURL(s.image,process.env.VIBLE_ASSET_ORIGIN||(await hosting).origin),'https://vible.now/').href;
- const asset=await fetch(image,{signal:AbortSignal.timeout(10000)});
- if(!asset.ok)throw Error('장면 이미지를 불러오지 못했습니다.');
- const imageData=`data:${s.image.endsWith('.svg')?'image/svg+xml':'image/jpeg'};base64,${Buffer.from(await asset.arrayBuffer()).toString('base64')}`;
+ const origin=process.env.VIBLE_ASSET_ORIGIN??(await hosting).origin;
+ let bytes;
+ if(s.image==='image-pending.svg')bytes=await fs.readFile(new URL('../assets/image-pending.svg',import.meta.url));
+ else if(!origin){assetURL(s.image,'');bytes=await fs.readFile(new URL('../assets/'+s.image,import.meta.url));}
+ else{const image=new URL(assetURL(s.image,origin),'https://vible.now/').href;const asset=await fetch(image,{signal:AbortSignal.timeout(10000)});if(!asset.ok)throw Error('장면 이미지를 불러오지 못했습니다.');bytes=Buffer.from(await asset.arrayBuffer());}
+ const imageData=`data:${s.image.endsWith('.svg')?'image/svg+xml':'image/jpeg'};base64,${bytes.toString('base64')}`;
  return new ImageResponse(h('div',{display:'flex',width:'100%',height:'100%',position:'relative',backgroundColor:'#172a22',fontFamily:'Scripture',color:'#fff9ed'},[
   {type:'img',props:{src:imageData,width:1200,height,style:{position:'absolute',width:'100%',height:'100%',objectFit:'cover',objectPosition:'center'}}},
   h('div',{position:'absolute',top:0,left:0,width:'100%',height:'100%',backgroundImage:'linear-gradient(90deg,rgba(12,27,22,.94) 0%,rgba(12,27,22,.82) 38%,rgba(12,27,22,.25) 57%,rgba(12,27,22,0) 75%)'},null),

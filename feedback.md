@@ -141,3 +141,15 @@ A new admin note after a terminal review reopens it; record preserves the prior
 review history before advancing. For rework, the before thumbnail may be the
 previously reviewed replacement. Prior comparison manifests and thumbnails are
 retained, so each generation remains traceable.
+
+## Final replacement inspection (2026-10-11)
+
+Inspect the actual selected final output more carefully than the original.
+Compare the whole image with the passage and original, then inspect each visible
+hand through wrist, elbow and shoulder; neck/head alignment, joints, finger and
+person counts, pose, support, gravity and occlusion. Check era, place, time of
+day, identity rules and Scripture consistency. Inspect unaffected people and
+backgrounds for new defects, including forbidden visible Jesus faces. Record
+concrete observations for each relevant check. If defects remain or new ones
+appear, regenerate or edit and inspect the actual new output again. Never
+publish an uninspected result.

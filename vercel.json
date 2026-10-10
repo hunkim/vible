@@ -5,7 +5,7 @@
   "outputDirectory": "dist",
   "functions": {
     "api/*.mjs": {
-      "includeFiles": "{data/**/*.json,fonts/*,partial-release.json,asset-hosting.json,epistles-books.json,pentateuch-books.json,psalms-books.json}",
+      "includeFiles": "{data/**/*.json,fonts/*,partial-release.json,asset-hosting.json,epistles-books.json,pentateuch-books.json,psalms-books.json,assets/image-pending.svg}",
       "maxDuration": 30
     }
   },

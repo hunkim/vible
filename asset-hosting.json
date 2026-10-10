@@ -19857,6 +19857,18 @@
     "psalms-c106-v024-027-right-context-feedback-v3.jpg": {
       "sha256": "2958e4971f77e62b2e31461dfa0784cea59c34cb86e67ab87dace22f812b9474",
       "bytes": 550936
+    },
+    "acts-164-feedback-v2.jpg": {
+      "sha256": "c75a4c553592b84935fc43368923e38251aa1b65ac0dafeb68249e223f4d5484",
+      "bytes": 597613
+    },
+    "hebrews-027-right-feedback-v2.jpg": {
+      "sha256": "384273c5ca2cc26a1450ef38a322f834ae7cc3bcc25007737efa0c7af3d0f701",
+      "bytes": 517881
+    },
+    "luke-233-right-feedback-v2.jpg": {
+      "sha256": "c6182a554f74f7551bfc32d33281907f5fdfa3103685a91df1df09b9e4eb0019",
+      "bytes": 222151
     }
   }
 }
