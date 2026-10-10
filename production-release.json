@@ -628,7 +628,8 @@
     "changedJoshuaCDN": "45 exact JPEG byte/hash/MIME matches",
     "privateFeedback": "admin authentication enforced",
     "JoshuaVisualQA": "185 selected images reviewed, 12 corrections accepted",
-    "multilingualBrowser": "seven historical books, four languages; underway"
+    "multilingualBrowser": "passed: seven historical books × four languages, exact verses, translated search and real PNG shared cards",
+    "JoshuaLiveReader": "passed: exact rendered verses, chapter navigation, mobile, PNG cards and shared links"
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 41,
