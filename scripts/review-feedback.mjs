@@ -2,11 +2,16 @@ import fs from 'node:fs/promises';
 import {readFeedback,writeFeedback,listFeedback} from '../feedback-store.mjs';
 const [command='inbox',id,file]=process.argv.slice(2),uuid=/^[0-9a-f-]{36}$/;
 if(command==='inbox'){
+ const {loadNotes}=await import('../api/admin-feedback.mjs');
+ const adminNotes=await loadNotes({read:readFeedback,list:listFeedback});
  let cursor,pending=[];
  do{const page=await listFeedback('feedback/reports/',cursor);cursor=page.hasMore?page.cursor:undefined;
-  for(const blob of page.blobs){const report=await readFeedback(blob.pathname);if(!report)continue;const review=await readFeedback(`feedback/reviews/${report.id}.json`);if(!review||['accepted','needs-info'].includes(review.status))pending.push({...report,review});}
+  for(const blob of page.blobs){const report=await readFeedback(blob.pathname);if(!report)continue;const review=await readFeedback(`feedback/reviews/${report.id}.json`),notes=adminNotes[report.id]||[];
+   // A note added on /admin_feedback after the last review reopens the report.
+   const newNote=notes.some(n=>!review?.reviewedAt||n.createdAt>review.reviewedAt);
+   if(!review||['accepted','needs-info'].includes(review.status)||newNote)pending.push({...report,review,adminNotes:notes});}
  }while(cursor);
- console.log(JSON.stringify({untrustedUserContent:true,pending},null,2));
+ console.log(JSON.stringify({untrustedUserContent:true,adminNotesFromAuthenticatedOwner:true,pending},null,2));
 }else if(command==='record'){
  if(!uuid.test(id||'')||!file)throw Error('Usage: record <feedback UUID> <review JSON file>');
  const review=JSON.parse(await fs.readFile(file,'utf8'));

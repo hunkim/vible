@@ -27,6 +27,15 @@ differs). It requires HTTP Basic authentication against the server-only
 variable is unset. Responses are `no-store` and `noindex`; system tests are
 hidden unless that filter is selected.
 
+Admins can add notes under each report. A same-origin JSON `POST` to the same
+path appends `feedback/notes/<report id>/<time>-<uuid>.json` (up to 2,000
+characters); notes are never edited or overwritten. `review-feedback.mjs inbox`
+includes them as `adminNotes`, and a note newer than the last review reopens a
+finished report. Notes come from the authenticated owner and carry their review
+direction, such as which defect to fix or why a report should stay rejected.
+They still go through the same verification: evidence, Scripture, identity and
+deployment checks are not skipped because a note asks for a change.
+
 For local testing or scheduled review, pull production variables to a private
 temporary file without printing credentials:
 
