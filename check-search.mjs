@@ -2,9 +2,13 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {createSearchIndex,findScripture,normalize,excerpt} from './scripture-search.js';
 import {applyTranslation} from './languages.js';
-const ids=['genesis','matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
+const ids=['genesis',...(JSON.parse(await fs.readFile('pentateuch-books.json'))).map(b=>b.id),'psalms','matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
 const books=await Promise.all(ids.map(async id=>({id,data:JSON.parse(await fs.readFile(`data/${id}.json`))})));
-const index=createSearchIndex(books,'ko');assert.equal(index.books.length,28);assert.equal(index.verses.length,9490);
+const index=createSearchIndex(books,'ko');assert.equal(index.books.length,33);assert.equal(index.verses.length,16269);
+assert.equal(findScripture(index,'출 14:21').results[0].book,'exodus');
+assert.equal(findScripture(index,'레 19:18').results[0].book,'leviticus');
+assert.equal(findScripture(index,'민 6:24').results[0].book,'numbers');
+const combined=findScripture(index,'신 30:10');assert.equal(combined.total,1);assert.equal(combined.results[0].verse,9);assert.equal(combined.results[0].endVerse,10);
 for(const query of ['요 3:16','요한복음 3장 16절','John 3:16','ｊｏｈｎ ３：１６','ヨハネ 3:16','约 3:16']){const found=findScripture(index,query);assert.equal(found.total,1,query);assert.equal(found.results[0].book,'john');assert.equal(found.results[0].verse,16);}
 assert.equal(findScripture(index,'엡6:24').results[0].book,'ephesians');
 assert.equal(findScripture(index,'1 Corinthians 13:4-7').total,4);
@@ -20,4 +24,37 @@ const english=createSearchIndex([{id:'john',data:applyTranslation(books.find(b=>
 assert.equal(findScripture(english,'John 3:16').total,1);assert(findScripture(english,'love').total>0);assert.equal(findScripture(english,'사랑').total,0);assert.equal(findScripture(english,'창 1:1').total,0);
 assert(excerpt('x'.repeat(400)+'은혜'+'x'.repeat(400),'은혜').includes('은혜'));
 const unsafe=findScripture(index,'<script>');assert.equal(unsafe.total,0);
-console.log('Scripture search: all 9490 verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
+console.log('Scripture search: all 33 books and 16269 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
+
+// Run the actual search UI handlers, including uncommitted IME input.
+const {scriptureSearch}=await import('./search-ui.js');
+class SearchElement extends EventTarget {
+ constructor(){super();this.value='';this.children=[];this.style={setProperty(){}};this.classList={toggle(){}};this.open=false;this.offsetWidth=620;this.scrollTop=0;}
+ append(...children){this.children.push(...children);}
+ replaceChildren(){this.children=[];}
+ get firstChild(){return this.children[0];}
+ setAttribute(key){if(key==='open')this.open=true;}
+ focus(){document.activeElement=this;}
+ showModal(){this.open=true;}
+ close(){this.open=false;queueMicrotask(()=>this.dispatchEvent(new Event('close')));}
+ getBoundingClientRect(){return {left:150,bottom:48};}
+ contains(target){return target===this;}
+ querySelectorAll(){return this.children.filter(child=>child.className==='scripture-result');}
+}
+const elements=new Map(),get=id=>{if(!elements.has(id))elements.set(id,new SearchElement());return elements.get(id);};
+const globals={document:globalThis.document,window:globalThis.window,innerWidth:globalThis.innerWidth,innerHeight:globalThis.innerHeight,fetch:globalThis.fetch};
+try{
+ globalThis.document=Object.assign(new EventTarget(),{getElementById:get,createElement:()=>new SearchElement(),createTextNode:text=>({textContent:text})});
+ globalThis.window={addEventListener(){}};globalThis.innerWidth=375;globalThis.innerHeight=700;
+ globalThis.fetch=async()=>({ok:true,json:async()=>index});
+ scriptureSearch(()=>({ready:true,language:'ko',bookId:'genesis',name:'창세기'}),async()=>{});
+ const header=get('header-query');header.focus();header.dispatchEvent(new Event('compositionstart'));header.value='사랑';header.dispatchEvent(new Event('input'));
+ await new Promise(resolve=>setTimeout(resolve,160));
+ assert(get('scripture-search').open);assert.equal(document.activeElement,header,'Live results preserve IME focus');assert.equal(get('scripture-results').querySelectorAll().length,30);
+ header.value='요 3:16';header.dispatchEvent(new Event('input'));await new Promise(resolve=>setTimeout(resolve,160));
+ assert.equal(get('scripture-results').querySelectorAll().length,1,'Latest typed reference replaces prior results');
+ header.value='';header.dispatchEvent(new Event('input'));await Promise.resolve();assert(!get('scripture-search').open);assert.equal(document.activeElement,header,'Clearing keeps typing available');
+ header.value='은혜';header.dispatchEvent(new Event('input'));await new Promise(resolve=>setTimeout(resolve,160));
+ get('close-header-search').onclick();await Promise.resolve();assert(!get('scripture-search').open);assert.equal(header.value,'');assert.equal(document.activeElement,get('reader'));
+}finally{Object.assign(globalThis,globals);}
+console.log('Live search: composing input, focus preservation, latest query, empty input and mobile X collapse verified.');

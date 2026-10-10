@@ -1,0 +1,83 @@
+{
+  "language": "zh",
+  "book": "约翰三书",
+  "translation": "Biblica® 圣经当代译本™开放资源（2022）",
+  "attribution": "Biblica® 圣经当代译本™开放资源 · © 1979, 2005, 2007, 2011, 2022 Biblica, Inc. · Biblica® Open Chinese Contemporary Bible™ (Simplified Script). Biblica is a trademark registered by Biblica, Inc. Used with permission. · CC BY-SA 4.0",
+  "source": "https://ebible.org/cmncbs/",
+  "licenseSource": "https://ebible.org/cmncbs/copyright.htm",
+  "license": "CC BY-SA 4.0",
+  "permissions": {
+    "display": true,
+    "shareCards": true
+  },
+  "downloadSource": "https://ebible.org/Scriptures/cmncbs_vpl.zip",
+  "downloadSHA256": "91b951df7b284e967dba20af0dae02a61b377dad1a6b93f238644eb1e306dd1d",
+  "retrieved": "2026-10-09",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "我这做长老的写信给亲爱的该犹，你是我本着真理所爱的人。"
+        },
+        {
+          "verse": 2,
+          "text": "亲爱的弟兄，我愿你凡事顺利，身体像灵魂一样健康。"
+        },
+        {
+          "verse": 3,
+          "text": "一些弟兄来为你做见证，说你忠心地遵行真理，这使我非常欢喜。"
+        },
+        {
+          "verse": 4,
+          "text": "没有比听见自己的孩子遵行真理更使我欢喜了。"
+        },
+        {
+          "verse": 5,
+          "text": "亲爱的弟兄，你常常忠心地照顾素不相识的弟兄，"
+        },
+        {
+          "verse": 6,
+          "text": "他们把你的爱心告诉了教会。愿你照着上帝喜悦的方式继续帮助他们出行，"
+        },
+        {
+          "verse": 7,
+          "text": "因为他们为了主的名四处传道，不接受非信徒的任何帮助。"
+        },
+        {
+          "verse": 8,
+          "text": "我们理当接待这样的人，好成为他们传扬真理的同工。"
+        },
+        {
+          "verse": 9,
+          "text": "我曾写信给你那里的教会，但爱当头领的丢特腓不接待我们。"
+        },
+        {
+          "verse": 10,
+          "text": "因此，我若去你们那里，必揭露他的所作所为，他怎样恶言中伤我们。不仅如此，他还拒绝接待弟兄，并且禁止别人接待，甚至将接待的人赶出教会。"
+        },
+        {
+          "verse": 11,
+          "text": "亲爱的弟兄，不要效法罪恶，要效法美善。行善的人属于上帝，行恶的人不认识上帝。"
+        },
+        {
+          "verse": 12,
+          "text": "低米丢得到了众人的好评，真理也为他做见证，我们也为他做见证。你知道我们的见证是真实的。"
+        },
+        {
+          "verse": 13,
+          "text": "我还有许多事要告诉你，但不想借助笔墨，"
+        },
+        {
+          "verse": 14,
+          "text": "只希望很快见到你，跟你当面畅谈。"
+        },
+        {
+          "verse": 15,
+          "text": "愿你平安！这里的朋友们都问候你，请代我一一问候你那边的朋友。"
+        }
+      ]
+    }
+  ]
+}

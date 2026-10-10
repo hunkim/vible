@@ -1,0 +1,12 @@
+{
+  "scope": ["exodus", "leviticus", "numbers", "deuteronomy"],
+  "referenceScenesPerBook": {"minimum": 1, "maximum": 2},
+  "forbiddenCoappearance": [["woman", "yeonkyung"]],
+  "allowedCoappearance": [["sung", "yeonkyung"], ["sung", "woman"]],
+  "allowedRoles": ["unnamed nonfamilial neighbor", "ordinary public community participant"],
+  "coupleFramingException": ["sung", "yeonkyung"],
+  "relationshipRule": "Sung male and Yeonkyung may appear together with couple-like framing. No supplied face is assigned a named biblical spouse role or paired as the spouse of an original character. Feminine Sung has no spouse role.",
+  "compositionRule": "Couple-like framing and natural affectionate proximity are allowed specifically for Sung male and Yeonkyung together when appropriate to the passage. Do not imply marriage or romance for any other supplied-face pairing or with original characters.",
+  "generationRule": "MANDATORY USER CASTING RULE: Sung male and Yeonkyung MAY appear together with couple-like framing and natural affectionate proximity when appropriate to this passage. This is the sole exception to the spouse-framing restriction. Do not assign any supplied face a named biblical husband's or wife's identity, or make any supplied person the spouse or romantic partner of an original character. Feminine Sung must not be cast as anyone's wife or romantic partner. Keep unnamed participants separate from named biblical roles. Feminine Sung and Yeonkyung must NEVER be in the same image; include ONLY the specified supplied identities, never add another reference face to the background.",
+  "qualityReview": "Inspect every reference scene at full resolution for likeness, forbidden extra reference faces, disallowed spouse roles and correct hands. Couple-like framing specifically for Sung male and Yeonkyung together is allowed. Do not release a violating scene."
+}

@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import {releaseData} from './release-data.mjs';
 import share from './api/share.mjs';
 import shareCard from './api/share-card.mjs';
+import feedback from './api/feedback.mjs';
 const root = path.dirname(fileURLToPath(import.meta.url));
 const port = Number(process.env.PORT || 4174);
 const types = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml','.mp3':'audio/mpeg','.json':'application/json; charset=utf-8','.webmanifest':'application/manifest+json'};
@@ -12,6 +13,7 @@ http.createServer(async(req,res) => {
  try {
   const url=new URL(req.url,'http://localhost'),pathname=decodeURIComponent(url.pathname);
   if(pathname.startsWith('/share/')||pathname==='/api/share'||(pathname==='/'&&url.searchParams.has('chapter')&&url.searchParams.has('verse')&&!url.searchParams.has('read')))return share(req,res);
+  if(pathname==='/api/feedback')return await feedback(req,res);
   if(pathname==='/api/share-card')return await shareCard(req,res);
   if(/^\/data\/[a-z0-9]+\.json$/.test(pathname)){const id=path.basename(pathname,'.json');const file=path.join(root,'data',id+'.json');if(!fs.existsSync(file)){res.writeHead(404);return res.end('Not found');}const data=releaseData(id,JSON.parse(fs.readFileSync(file,'utf8')));res.writeHead(200,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-cache'});return res.end(req.method==='HEAD'?'':JSON.stringify(data));}
   const staticRoot=pathname.startsWith('/data/search/')?path.join(root,'dist'):root;

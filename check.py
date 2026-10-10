@@ -2,7 +2,7 @@ from pathlib import Path
 import json,hashlib,sys
 from PIL import Image,ImageOps,ImageDraw
 root=Path(__file__).resolve().parent
-book=next((x for x in sys.argv[1:] if x in ['john','acts','romans','revelation','genesis','matthew','mark','luke']+[b['id'] for b in json.loads((root/'epistles-books.json').read_text())]),'john')
+book=next((x for x in sys.argv[1:] if x in ['john','acts','romans','revelation','genesis','matthew','mark','luke']+[b['id'] for b in json.loads((root/'epistles-books.json').read_text())]+[b['id'] for b in json.loads((root/'pentateuch-books.json').read_text())]),'john')
 data=json.loads((root/f'data/{book}.json').read_text())
 source=json.loads((root/f'data/{book}-source.json').read_text())
 scenes=data['scenes']
@@ -11,6 +11,7 @@ assert len(scenes)==count
 assert [s['id'] for s in scenes]==list(range(1,count+1))
 for chapter in source['chapters']:
     extracted=[v for s in scenes if s['chapter']==chapter['chapter'] for v in s['verses']]
+    if book=='deuteronomy':extracted=[{k:v for k,v in item.items() if k not in ['omitted','combinedWith','endVerse']} for item in extracted]
     assert extracted==chapter['verses'],f"Changed or missing verses: {chapter['chapter']}"
 assert sum(len(s['verses']) for s in scenes)==data['verseCount']
 hashes=set();missing=[]

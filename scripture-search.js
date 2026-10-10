@@ -1,5 +1,5 @@
 import {bookNames} from './languages.js';
-const abbreviations={genesis:['창','gen'],matthew:['마','matt','mt'],mark:['막','mk'],luke:['눅','lk'],john:['요','jn','ヨハネ','约','約','约翰','約翰'],acts:['행','ac','使徒','徒'],romans:['롬','rom','ローマ','罗','羅'], '1corinthians':['고전','1 cor','1co'],'2corinthians':['고후','2 cor','2co'],galatians:['갈','gal'],ephesians:['엡','eph'],philippians:['빌','phil'],colossians:['골','col'],'1thessalonians':['살전','1 thess'],'2thessalonians':['살후','2 thess'],'1timothy':['딤전','1 tim'],'2timothy':['딤후','2 tim'],titus:['딛','tit'],philemon:['몬','phlm'],hebrews:['히','heb'],james:['약','jas'],'1peter':['벧전','1 pet'],'2peter':['벧후','2 pet'],'1john':['요일','1 jn'],'2john':['요이','2 jn'],'3john':['요삼','3 jn'],jude:['유','jud'],revelation:['계','rev','黙示録','ヨハネの黙示録','启','啟']};
+const abbreviations={genesis:['창','gen'],exodus:['출','exod','exo'],leviticus:['레','lev'],numbers:['민','num'],deuteronomy:['신','deut','deu'],psalms:['시','시편','ps','psalm','詩篇','詩編','诗篇'],matthew:['마','matt','mt'],mark:['막','mk'],luke:['눅','lk'],john:['요','jn','ヨハネ','约','約','约翰','約翰'],acts:['행','ac','使徒','徒'],romans:['롬','rom','ローマ','罗','羅'], '1corinthians':['고전','1 cor','1co'],'2corinthians':['고후','2 cor','2co'],galatians:['갈','gal'],ephesians:['엡','eph'],philippians:['빌','phil'],colossians:['골','col'],'1thessalonians':['살전','1 thess'],'2thessalonians':['살후','2 thess'],'1timothy':['딤전','1 tim'],'2timothy':['딤후','2 tim'],titus:['딛','tit'],philemon:['몬','phlm'],hebrews:['히','heb'],james:['약','jas'],'1peter':['벧전','1 pet'],'2peter':['벧후','2 pet'],'1john':['요일','1 jn'],'2john':['요이','2 jn'],'3john':['요삼','3 jn'],jude:['유','jud'],revelation:['계','rev','黙示録','ヨハネの黙示録','启','啟']};
 export const normalize=text=>String(text).normalize('NFKC').toLocaleLowerCase().replace(/[\s.,·]/gu,'');
 export function createSearchIndex(books,language){
  const order=Object.keys(abbreviations);books=[...books].sort((a,b)=>order.indexOf(a.id)-order.indexOf(b.id));
@@ -39,3 +39,5 @@ export function highlightText(element,text,query){
  const pattern=new RegExp(terms.map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|'),'giu');
  let end=0;for(const match of text.matchAll(pattern)){element.append(document.createTextNode(text.slice(end,match.index)));const mark=document.createElement('mark');mark.textContent=match[0];element.append(mark);end=match.index+match[0].length;}element.append(document.createTextNode(text.slice(end)));
 }
+
+export function bookSearchAliases(id){return [id,...Object.values(bookNames).map(names=>names[id]),...(abbreviations[id]||[])].filter(Boolean);}

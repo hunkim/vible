@@ -1,0 +1,75 @@
+{
+  "language": "zh",
+  "book": "约翰二书",
+  "translation": "Biblica® 圣经当代译本™开放资源（2022）",
+  "attribution": "Biblica® 圣经当代译本™开放资源 · © 1979, 2005, 2007, 2011, 2022 Biblica, Inc. · Biblica® Open Chinese Contemporary Bible™ (Simplified Script). Biblica is a trademark registered by Biblica, Inc. Used with permission. · CC BY-SA 4.0",
+  "source": "https://ebible.org/cmncbs/",
+  "licenseSource": "https://ebible.org/cmncbs/copyright.htm",
+  "license": "CC BY-SA 4.0",
+  "permissions": {
+    "display": true,
+    "shareCards": true
+  },
+  "downloadSource": "https://ebible.org/Scriptures/cmncbs_vpl.zip",
+  "downloadSHA256": "91b951df7b284e967dba20af0dae02a61b377dad1a6b93f238644eb1e306dd1d",
+  "retrieved": "2026-10-09",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "我这做长老的写信给蒙拣选的女士和你的儿女，就是我本着真理所爱的。不但我爱你们，一切认识真理的人也都爱你们，"
+        },
+        {
+          "verse": 2,
+          "text": "这是因为真理在我们里面，并且永远与我们同在。"
+        },
+        {
+          "verse": 3,
+          "text": "父上帝和祂儿子耶稣基督的恩典、怜悯和平安，必在真理和爱中与我们同在！"
+        },
+        {
+          "verse": 4,
+          "text": "我看见你一些儿女按照我们从父领受的命令遵行真理，感到非常欣慰。"
+        },
+        {
+          "verse": 5,
+          "text": "女士啊，我现在劝你，我们要彼此相爱。这不是新命令，而是我们从起初就已经领受的命令。"
+        },
+        {
+          "verse": 6,
+          "text": "爱就是遵行上帝的命令。你们要活出爱，这是你们从起初就听到的命令。"
+        },
+        {
+          "verse": 7,
+          "text": "因为许多骗子已经来到世上，他们否认耶稣基督曾降世为人。这样的人是骗子，是敌基督者。"
+        },
+        {
+          "verse": 8,
+          "text": "你们要谨慎，好得到完满的赏赐，免得我们前功尽弃。"
+        },
+        {
+          "verse": 9,
+          "text": "凡偏离基督教导的人，都没有上帝；凡遵守基督教导的人，都有父和子。"
+        },
+        {
+          "verse": 10,
+          "text": "若有人到你们那里不传基督的教导，不要请他到家里，也不要问候他，"
+        },
+        {
+          "verse": 11,
+          "text": "因为问候他就是与他同流合污。"
+        },
+        {
+          "verse": 12,
+          "text": "我还有许多事要告诉你们，但不想借助纸墨，只希望到你们那里当面畅谈，使我们喜乐满溢。"
+        },
+        {
+          "verse": 13,
+          "text": "你那蒙拣选之姊妹的儿女问候你。"
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@ const copy={
 };
 export function scriptureSearch(getContext,openVerse){
  const $=id=>document.getElementById(id),dialog=$('scripture-search'),input=$('scripture-query'),results=$('scripture-results'),status=$('scripture-status'),cache=new Map();
- let index=null,scope='',limit=30,generation=0,timer,composing=false,lang='ko',returnToReader=false,navigating=false,headerComposing=false;
+ let index=null,scope='',limit=30,generation=0,timer,composing=false,lang='ko',returnToReader=false,navigating=false,headerComposing=false,live=false;
  const c=()=>copy[lang];
  function message(title,detail='',retry=false){results.replaceChildren();const box=document.createElement('div');box.className='search-message';const heading=document.createElement('strong');heading.textContent=title;const p=document.createElement('p');p.textContent=detail;box.append(heading,p);if(retry){const b=document.createElement('button');b.textContent=c().retry;b.onclick=()=>{cache.delete(lang);load();};box.append(b);}results.append(box);}
  function render(){
@@ -15,7 +15,7 @@ export function scriptureSearch(getContext,openVerse){
   if(!index)return;
   if(!input.value.trim()){
    status.textContent=c().coverage(index.books.length);message(c().intro,c().help);
-   const choices=document.createElement('div');choices.className='search-examples';for(const query of c().examples){const b=document.createElement('button');b.textContent=query;b.onclick=()=>{input.value=query;limit=30;render();input.focus();};choices.append(b);}results.firstChild.append(choices);return;
+   const choices=document.createElement('div');choices.className='search-examples';for(const query of c().examples){const b=document.createElement('button');b.textContent=query;b.onclick=()=>{input.value=query;limit=30;render();$(live?'header-query':'scripture-query').focus();};choices.append(b);}results.firstChild.append(choices);return;
   }
   const found=findScripture(index,input.value,{book:scope,limit});status.textContent=c().count(found.total);results.replaceChildren();
   if(!found.total){message(c().empty,c().emptyHelp);return;}
@@ -36,28 +36,32 @@ export function scriptureSearch(getContext,openVerse){
   }catch{if(ticket===generation&&dialog.open){cache.delete(lang);status.textContent='';message(c().error,'',true);}}
   finally{if(ticket===generation)results.setAttribute('aria-busy','false');}
  }
- function open(){
+ function open(options={}){
   if(getContext().ready===false)return;
-  if(dialog.open){input.focus();return;}
-  const context=getContext();lang=context.language;scope='';limit=30;returnToReader=false;input.value=$('header-query').value;
+  if(dialog.open){if(!live)input.focus();return;}
+  live=options.live===true;dialog.classList.toggle('live-search',live);const context=getContext();lang=context.language;scope='';limit=30;returnToReader=false;input.value=$('header-query').value;
   $('scripture-search-title').textContent=c().title;input.placeholder=c().placeholder;input.setAttribute('aria-label',c().open);$('close-scripture-search').setAttribute('aria-label',c().close);$('clear-scripture-query').setAttribute('aria-label',c().clear);$('search-all').textContent=c().all;$('search-current').textContent=context.name;$('search-more').textContent=c().more;
-  $('search-all').setAttribute('aria-pressed','true');$('search-current').setAttribute('aria-pressed','false');dialog.showModal();fitViewport();input.focus();load();
+  $('search-all').setAttribute('aria-pressed','true');$('search-current').setAttribute('aria-pressed','false');if(live)dialog.setAttribute('open','');else{dialog.showModal();input.focus();}fitViewport();load();
  }
- function fitViewport(){if(!dialog.open)return;if(innerWidth<=700)dialog.style.setProperty('--search-height',`${window.visualViewport?.height||innerHeight}px`);else{const field=$('toolbar-search').getBoundingClientRect();dialog.style.setProperty('--search-left',`${Math.max(24,Math.min(field.left,innerWidth-dialog.offsetWidth-24))}px`);dialog.style.setProperty('--search-top',`${field.bottom+10}px`);}}
+ function fitViewport(){if(!dialog.open)return;const field=$('toolbar-search').getBoundingClientRect();if(innerWidth<=700){dialog.style.setProperty('--search-height',`${Math.max(120,(window.visualViewport?.height||innerHeight)-(live?field.bottom+8:0))}px`);dialog.style.setProperty('--search-top',`${field.bottom+8}px`);}else{dialog.style.setProperty('--search-left',`${Math.max(24,Math.min(field.left,innerWidth-dialog.offsetWidth-24))}px`);dialog.style.setProperty('--search-top',`${field.bottom+10}px`);}}
  window.visualViewport?.addEventListener('resize',fitViewport);window.addEventListener('resize',fitViewport);
  dialog.addEventListener('keydown',e=>{if(e.key==='Escape'&&!e.isComposing){e.preventDefault();e.stopPropagation();dialog.close();}});
- $('header-query').addEventListener('compositionstart',()=>{headerComposing=true;});$('header-query').addEventListener('compositionend',()=>{headerComposing=false;});
- $('header-query').addEventListener('keydown',e=>{if(e.key==='Escape'&&!e.isComposing){e.preventDefault();$('reader').focus({preventScroll:true});}});
+ $('close-header-search').onclick=()=>{clearTimeout(timer);$('header-query').value='';input.value='';headerComposing=false;returnToReader=true;if(dialog.open)dialog.close();$('reader').focus({preventScroll:true});};
+ $('header-query').addEventListener('compositionstart',()=>{headerComposing=true;});$('header-query').addEventListener('compositionend',()=>{headerComposing=false;updateHeader();});
+ $('header-query').addEventListener('keydown',e=>{if(e.key==='Escape'&&!e.isComposing){e.preventDefault();returnToReader=true;if(dialog.open)dialog.close();$('reader').focus({preventScroll:true});}});
+ function updateHeader(){clearTimeout(timer);input.value=$('header-query').value;if(!input.value.trim()){if(dialog.open&&live)dialog.close();return;}if(!dialog.open)open({live:true});timer=setTimeout(()=>{limit=30;render();},120);}
+ $('header-query').addEventListener('input',updateHeader);
+ document.addEventListener('pointerdown',e=>{if(live&&dialog.open&&!dialog.contains(e.target)&&!$('toolbar-search').contains(e.target))dialog.close();});
  $('toolbar-search').addEventListener('submit',e=>{e.preventDefault();if(!headerComposing)open();});$('close-scripture-search').onclick=()=>dialog.close();
- dialog.addEventListener('close',()=>{generation++;clearTimeout(timer);$('header-query').value=input.value;$(returnToReader?'reader':'header-query').focus({preventScroll:true});});
+ dialog.addEventListener('close',()=>{generation++;clearTimeout(timer);$('header-query').value=input.value;$(returnToReader||(!live&&innerWidth<=700)?'reader':'header-query').focus({preventScroll:true});});
  dialog.addEventListener('click',e=>{const r=dialog.getBoundingClientRect();if(e.target===dialog&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))dialog.close();});
- $('clear-scripture-query').onclick=()=>{input.value='';limit=30;render();input.focus();};
- input.addEventListener('input',()=>{clearTimeout(timer);if(!composing)timer=setTimeout(()=>{limit=30;render();},120);});
+ $('clear-scripture-query').onclick=()=>{input.value='';limit=30;render();$(live?'header-query':'scripture-query').focus();};
+ input.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>{limit=30;render();},120);});
  input.addEventListener('compositionstart',()=>{composing=true;clearTimeout(timer);});input.addEventListener('compositionend',()=>{composing=false;limit=30;render();});
- for(const [id,value] of [['search-all',''],['search-current',null]])$(id).onclick=()=>{scope=value===null?getContext().bookId:value;limit=30;for(const key of ['search-all','search-current'])$(key).setAttribute('aria-pressed',String(key===id));render();input.focus();};
+ for(const [id,value] of [['search-all',''],['search-current',null]])$(id).onclick=()=>{scope=value===null?getContext().bookId:value;limit=30;for(const key of ['search-all','search-current'])$(key).setAttribute('aria-pressed',String(key===id));render();$(live?'header-query':'scripture-query').focus();};
  $('search-more').onclick=()=>{const top=results.scrollTop;limit+=30;render();results.scrollTop=top;};
  input.addEventListener('keydown',e=>{if(e.isComposing||composing)return;if(e.key==='ArrowDown'){const first=results.querySelector('.scripture-result');if(first){e.preventDefault();first.focus();}}if(e.key==='Enter'){e.preventDefault();clearTimeout(timer);limit=30;render();const matches=results.querySelectorAll('.scripture-result');if(matches.length===1)matches[0].click();else matches[0]?.focus();}});
  results.addEventListener('keydown',e=>{if(!['ArrowDown','ArrowUp'].includes(e.key)||e.isComposing)return;const buttons=Array.from(results.querySelectorAll('.scripture-result')),position=buttons.indexOf(document.activeElement);if(position<0)return;e.preventDefault();if(e.key==='ArrowUp'&&position===0)input.focus();else buttons[position+(e.key==='ArrowDown'?1:-1)]?.focus();});
  document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'&&!e.isComposing){e.preventDefault();open();}});
- return {localize(){$('header-query').disabled=false;$('open-search').disabled=false;const language=getContext().language;const label=copy[language].open;const example=copy[language].examples.at(-1);$('header-query').placeholder=`${label} · ${example}`;$('header-query').setAttribute('aria-label',label);document.querySelector('.search-shortcut').textContent=/Mac|iPhone|iPad/.test(navigator.platform)?'⌘ K':'Ctrl K';$('open-search').setAttribute('aria-label',label);$('open-search').title=`${label} · ${copy[language].shortcut}`;}};
+ return {localize(){$('header-query').disabled=false;$('open-search').disabled=false;const language=getContext().language;const label=copy[language].open;$('close-header-search').setAttribute('aria-label',copy[language].close);const example=copy[language].examples.at(-1);$('header-query').placeholder=`${label} · ${example}`;$('header-query').setAttribute('aria-label',label);document.querySelector('.search-shortcut').textContent=/Mac|iPhone|iPad/.test(navigator.platform)?'⌘ K':'Ctrl K';$('open-search').setAttribute('aria-label',label);$('open-search').title=`${label} · ${copy[language].shortcut}`;}};
 }

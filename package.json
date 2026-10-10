@@ -8,10 +8,11 @@
     "build": "node build.mjs",
     "dev": "node build.mjs && node serve.mjs",
     "start": "node build.mjs && node serve.mjs",
-    "check": "node --check app.js && node --check search-ui.js && node --check scripture-search.js && node --check annotations.js && node --check install.js && node --check sw.js && node check-sharing.mjs && node check-mobile.mjs && node check-book-continuation.mjs && node check-search.mjs && node check-install.mjs && node check-languages.mjs && node check-share-page.mjs && node check-jesus-words.mjs && node check-partial-release.mjs && node check-release-refresh.mjs && node build.mjs",
+    "check": "node --check app.js && node --check book-picker.js && node --check search-ui.js && node --check scripture-search.js && node --check annotations.js && node --check install.js && node --check sw.js && node check-feedback.mjs && node check-image-cdn.mjs && node check-assets.mjs && node check-sharing.mjs && node check-mobile.mjs && node check-book-continuation.mjs && node check-book-picker.mjs && node check-search.mjs && node check-install.mjs && node check-languages.mjs && node check-share-page.mjs && node check-jesus-words.mjs && node check-partial-release.mjs && node check-release-refresh.mjs && node check-image-loading.mjs && node build.mjs && node check-reader-payload.mjs",
     "import-translation": "node import-translation.mjs"
   },
   "dependencies": {
+    "@vercel/blob": "^2.8.1",
     "@vercel/og": "1.0.1"
   },
   "overrides": {

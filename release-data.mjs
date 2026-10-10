@@ -5,6 +5,8 @@ export function releaseVersion(){const stat=fs.statSync(releaseFile);return `${s
 function refresh(){const version=releaseVersion();if(version!==cachedVersion){partial=JSON.parse(fs.readFileSync(releaseFile,'utf8'));cachedVersion=version;}}
 export function releaseData(id,data){
  refresh();
- const count=partial[id];if(count===undefined)return data;
- return {...data,partialRelease:{availableImages:count,totalImages:data.scenes.length},scenes:data.scenes.map((s,i)=>i<count?s:{...s,image:'image-pending.svg',imagePending:true})};
+ const config=partial[id];if(config===undefined)return data;
+ const count=typeof config==='number'?config:config.count,withheld=new Set(typeof config==='number'?[]:config.withheld||[]);
+ const available=data.scenes.filter((s,i)=>i<count&&!withheld.has(s.id)).length;
+ return {...data,partialRelease:{availableImages:available,totalImages:data.scenes.length},scenes:data.scenes.map((s,i)=>i<count&&!withheld.has(s.id)?s:{...s,image:'image-pending.svg',imagePending:true})};
 }

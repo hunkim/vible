@@ -9,3 +9,6 @@ john-196-overview.jpg
 
 
 .learnings/
+
+# New production artwork is retained in R2; existing tracked images remain.
+assets/*.jpg

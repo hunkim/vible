@@ -1,16 +1,24 @@
+import {assetURL} from './assets.js';
 import {initialLanguage,normalizeLanguage,languageNames,bookNames,messages,applyTranslation,interfaceCopy} from './languages.js';
 import {epistleBooks} from './epistles-catalog.js';
+import {pentateuchBooks} from './pentateuch-catalog.js';
+import {psalmsBooks} from './psalms-catalog.js';
 import {renderScripture} from './jesus-words.js';
 import {annotations} from './annotations.js';
 import './install.js';
 import {scriptureSearch} from './search-ui.js';
+import {bookPicker} from './book-picker.js';
+import {sceneFeedback} from './feedback.js';
 const $=id=>document.getElementById(id);
 const pad=n=>String(n).padStart(2,'0');
 const preview=new URLSearchParams(location.search).has('preview');
 let data,bookId='john',loadVersion=0,current=0,view='read',scrollFrame=0,fontSize=19,manual=false;
 let language='ko',catalog={ko:{books:[]}},preferredLanguage='ko';
+const picker=bookPicker(()=>({bookId,language}));
 const ui=()=>messages[language];
 const notes=annotations(()=>({data,bookId,language}));
+$('share-scene').onclick=()=>notes.shareScene(data.scenes[current]);
+const feedback=sceneFeedback(()=>({bookId,language,scene:data?.scenes[current],reference:data?reference(data.scenes[current]):''}));
 const search=scriptureSearch(()=>({ready:Boolean(data),bookId,language,name:data?.book||bookNames[language][bookId]}),async verse=>{
  if(bookId!==verse.book||language!==verse.language)await loadBook(verse.book,verse.language,true);
  const index=data.scenes.findIndex(s=>s.chapter===verse.chapter&&s.first<=verse.verse&&s.last>=verse.verse);
@@ -22,9 +30,19 @@ const search=scriptureSearch(()=>({ready:Boolean(data),bookId,language,name:data
 });
 const johnChapterNames=['말씀과 첫 만남','가나의 표적과 성전','거듭남과 하나님의 사랑','사마리아의 우물, 생수','베데스다와 생명의 권세','오병이어와 생명의 떡','초막절과 생수의 약속','빛과 자유, 예수님의 증언','보게 된 사람의 증언','선한 목자와 양의 음성','나사로, 부활과 생명','예루살렘에 오시는 왕','끝까지 사랑하신 마지막 식탁','길과 진리, 보혜사와 평안','포도나무와 가지, 사랑','근심에서 기쁨으로','하나 됨을 위한 기도','동산의 체포와 관정의 질문','십자가와 새 무덤','부활의 아침과 믿음','바닷가의 식탁, 다시 따르라'];
 const reference=s=>`${data.book} ${s.chapter}:${s.first}${s.last===s.first?'':`–${s.last}`}`;
-const image=s=>`assets/${s.image}`;
+const image=s=>assetURL(s.image);
 function showView(next){view=next;window.scrollTo({top:0,behavior:'instant'});for(const key of ['read','story','gallery']){$(`${key==='read'?'reading':key}-view`).hidden=key!==next;const b=$(`${key}-tab`);if(key===next)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');}document.body.classList.remove('image-only');$('focus').setAttribute('aria-pressed','false');$('focus').setAttribute('aria-label',interfaceCopy[language].hideText);$('focus').title=interfaceCopy[language].hideText;$('focus').hidden=next!=='read';}
 function remember(){if(preview||!data)return;try{localStorage.setItem(`visual-bible-${bookId}`,String(data.scenes[current].id));const s=data.scenes[current];localStorage.setItem(`vible-position-${bookId}`,JSON.stringify({chapter:s.chapter,verse:s.first}));}catch{}}
+function loadSceneImage(s,force=false){
+ const img=$('visual'),status=$('image-loading'),src=image(s);
+ if(!force&&img.getAttribute('src')===src)return;
+ const copy={ko:['그림을 불러오는 중입니다','그림을 불러오지 못했습니다','다시 시도'],en:['Loading image','Image could not load','Retry'],ja:['画像を読み込み中','画像を読み込めませんでした','再試行'],zh:['正在加载图片','图片加载失败','重试']}[language];
+ status.textContent=copy[0];status.hidden=Boolean(s.imagePending);
+ img.onload=()=>{status.hidden=true;};
+ img.onerror=()=>{if(s.imagePending)return;status.hidden=false;status.textContent=copy[1]+' ';const retry=document.createElement('button');retry.textContent=copy[2];retry.onclick=()=>loadSceneImage(s,true);status.append(retry);};
+ if(force)img.removeAttribute('src');img.src=src;
+ if(img.complete&&img.naturalWidth)status.hidden=true;
+}
 function updateScene(index){
  if(index<0||index>=data.scenes.length)return;
  current=index;const s=data.scenes[index];
@@ -37,22 +55,23 @@ function updateScene(index){
   button.setAttribute('aria-label',available?`${target}장으로 이동`:(target<1?'이전 장 없음':'다음 장 없음'));
   button.title=available?`${target}장 첫 말씀으로 이동`:(target<1?'첫 장입니다':'마지막 장입니다');
  }
+ const shareLabel=({ko:'이 장면 말씀 공유',en:'Share this scene',ja:'この場面を共有',zh:'分享这个场景'})[language];$('share-scene').setAttribute('aria-label',shareLabel);$('share-scene').title=shareLabel;
+ feedback.localize();
  $('current-reference').textContent=reference(s);$('current-title').textContent=s.title;
  $('scene-position').textContent=`${pad(index+1)} / ${data.sceneCount}`;
  $('image-pending').hidden=!s.imagePending;
- $('translation-edition').textContent=data.partialRelease?`${data.translation} · 그림 ${data.partialRelease.availableImages}/${data.partialRelease.totalImages}장 공개`:data.translation;
+ $('translation-edition').textContent=data.translation;
  const progress=$('progress');progress.max=data.scenes.length-1;progress.value=index;progress.disabled=data.scenes.length<2;progress.style.setProperty('--scene-progress',`${data.scenes.length>1?index/(data.scenes.length-1)*100:0}%`);progress.setAttribute('aria-valuetext',`${reference(s)} · ${index+1} / ${data.scenes.length}`);progress.setAttribute('aria-label',({ko:'장면 이동',en:'Go to scene',ja:'場面を移動',zh:'切换场景'})[language]);
  $('previous').disabled=index===0;$('next').disabled=index===data.scenes.length-1;
  $('visual').alt=`${reference(s)} · ${s.title}`;
- $('visual').dataset.layout=s.image.includes('-right-')?'right':'';$('visual-stage').dataset.layout=$('visual').dataset.layout;$('visual').src=image(s);$('visual').style.animation='none';void $('visual').offsetWidth;$('visual').style.animation='';
- $('visual').onerror=()=>{$('image-loading').hidden=false;};$('visual').onload=()=>{$('image-loading').hidden=true;};
- $('explanation').textContent=s.kind==='recollection'?'본문에서 회상하거나 인용하는 과거 이야기를 그렸습니다. 현재 대화 현장의 사건과 구분해 읽어 주세요.':s.kind==='vision'?'본문에 기록된 꿈과 환상을 시각적으로 표현했습니다. 인물의 실제 주변 풍경과 구분해 읽어 주세요.':s.kind==='metaphor'?(bookId==='genesis'&&s.chapter<=3?'창조와 에덴의 서술을 이해하도록 구성한 시각화입니다. 과학적 시간표나 실제 장소의 확정된 복원으로 제시하지 않습니다.':'이 장면은 본문의 비유·가르침을 시각적으로 표현했습니다. 실제 사건의 모습과 구분해 읽어 주세요.'):s.kind==='editorial'?(['genesis','matthew','mark','luke'].includes(bookId)?'족보와 여러 세대, 서술의 여백을 이해하도록 구성한 장면입니다. 본문에 없는 실제 사건으로 단정하지 않습니다.':'편지에 담긴 인물·인사·계획을 이해하도록 구성한 장면입니다. 본문에 기록된 실제 현장의 재현이나 여행의 실현을 뜻하지 않습니다.'):'본문의 인물·장소·행동을 바탕으로 그린 장면입니다. 의복과 건물, 인물의 모습은 이해를 위한 시각적 해석입니다.';
+ $('visual').dataset.book=bookId;$('visual').dataset.layout=s.image.includes('-right-')?'right':'';$('visual-stage').dataset.layout=$('visual').dataset.layout;loadSceneImage(s);$('visual').style.animation='none';void $('visual').offsetWidth;$('visual').style.animation='';
+ $('explanation').textContent=bookId==='psalms'?(s.kind==='recollection'?'시에서 되돌아보는 구원의 역사를 그렸습니다. 시를 부르는 현재의 사건과 구분해 읽어 주세요.':'시의 감정과 기도, 비유를 시각적으로 표현했습니다. 그림은 실제 사건의 재현을 뜻하지 않습니다.') :s.kind==='recollection'?'본문에서 회상하거나 인용하는 과거 이야기를 그렸습니다. 현재 대화 현장의 사건과 구분해 읽어 주세요.':s.kind==='vision'?'본문에 기록된 꿈과 환상을 시각적으로 표현했습니다. 인물의 실제 주변 풍경과 구분해 읽어 주세요.':s.kind==='metaphor'?(bookId==='genesis'&&s.chapter<=3?'창조와 에덴의 서술을 이해하도록 구성한 시각화입니다. 과학적 시간표나 실제 장소의 확정된 복원으로 제시하지 않습니다.':'이 장면은 본문의 비유·가르침을 시각적으로 표현했습니다. 실제 사건의 모습과 구분해 읽어 주세요.'):s.kind==='editorial'?(['genesis',...Object.keys(pentateuchBooks),'matthew','mark','luke'].includes(bookId)?'족보와 여러 세대, 서술의 여백을 이해하도록 구성한 장면입니다. 본문에 없는 실제 사건으로 단정하지 않습니다.':'편지에 담긴 인물·인사·계획을 이해하도록 구성한 장면입니다. 본문에 기록된 실제 현장의 재현이나 여행의 실현을 뜻하지 않습니다.'):'본문의 인물·장소·행동을 바탕으로 그린 장면입니다. 의복과 건물, 인물의 모습은 이해를 위한 시각적 해석입니다.';
  $('bible-source').href=s.source;
  if(language!=='ko')$('explanation').textContent='';
  document.querySelectorAll('.passage').forEach(p=>p.classList.toggle('active',Number(p.dataset.id)===s.id));
  remember();
  // Warm only neighboring assets, rather than downloading the whole book.
- for(const neighbor of [index-1,index+1])if(data.scenes[neighbor]){const pre=new Image();pre.src=image(data.scenes[neighbor]);}
+ for(const neighbor of [index-1,index+1])if(data.scenes[neighbor]){const pre=new Image();pre.crossOrigin='anonymous';pre.src=image(data.scenes[neighbor]);}
 }
 function renderBook(){
  const fragment=document.createDocumentFragment();let chapter=0;
@@ -129,13 +148,13 @@ function scrollScene(){
  if(chosen){const index=Number(chosen.dataset.id)-1;if(index!==current)updateScene(index);}
  });
 }
-function card(s){const b=document.createElement('button');b.className='gallery-card';b.setAttribute('aria-label',`${reference(s)} ${s.title}`);const img=document.createElement('img');img.src=image(s);img.alt=s.title;img.loading='lazy';img.width=480;img.height=270;const small=document.createElement('small');small.textContent=reference(s);const title=document.createElement('h2');title.textContent=s.title;b.append(img,small,title);b.addEventListener('click',()=>goTo(s.id-1));return b;}
+function card(s){const b=document.createElement('button');b.className='gallery-card';b.setAttribute('aria-label',`${reference(s)} ${s.title}`);const img=document.createElement('img');img.crossOrigin='anonymous';img.src=image(s);img.alt=s.title;img.loading='lazy';img.width=480;img.height=270;const small=document.createElement('small');small.textContent=reference(s);const title=document.createElement('h2');title.textContent=s.title;b.append(img,small,title);b.addEventListener('click',()=>goTo(s.id-1));return b;}
 function renderGallery(){const chapter=Number($('gallery-chapter').value);const term=$('search').value.trim().toLocaleLowerCase();const selected=data.scenes.filter(s=>(!chapter||s.chapter===chapter)&&(!term||`${reference(s)} ${s.title} ${s.verses.map(v=>v.text).join(' ')}`.toLocaleLowerCase().includes(term)));$('gallery').replaceChildren(...selected.map(card));$('result-count').textContent=ui().scenes(selected.length);$('empty').hidden=selected.length>0;}
 function renderStory(){
  const johnArcs=[{chapters:'1장',title:'말씀과 빛',copy:'우리 가운데 오신 말씀. 첫 증인들과 첫 제자들의 만남.',chapter:1},{chapters:'2–12장',title:'만남과 표적',copy:'일상의 갈증과 질문 속에서 드러나는 예수님의 정체와 생명.',chapter:4},{chapters:'13–17장',title:'끝까지 사랑',copy:'마지막 식탁, 섬김과 사랑, 떠나심의 약속과 하나 됨의 기도.',chapter:13},{chapters:'18–21장',title:'십자가와 부활',copy:'자신을 내어주신 분, 다시 찾아오신 분, 다시 따르는 사람들.',chapter:20}];
  const originalArcs=books[bookId].arcs||johnArcs;
  const arcs=language==='ko'?originalArcs:originalArcs.map(a=>({...a,title:a.chapters.replace(/장/g,''),chapters:ui().story,copy:''}));
- $('story-arcs').replaceChildren(...arcs.map(a=>{const s=data.scenes.find(s=>s.chapter===(a.imageChapter||a.chapter));const b=document.createElement('button');b.className='arc-card';const img=document.createElement('img');img.src=image(s);img.alt=s.title;img.loading='lazy';const copy=document.createElement('div');copy.className='arc-copy';const small=document.createElement('small');small.textContent=a.chapters;const h=document.createElement('h2');h.textContent=a.title;const p=document.createElement('p');p.textContent=a.copy;copy.append(small,h,p);b.append(img,copy);b.addEventListener('click',()=>goTo(data.scenes.findIndex(scene=>scene.chapter===a.chapter)));return b;}));
+ $('story-arcs').replaceChildren(...arcs.map(a=>{const s=data.scenes.find(s=>s.chapter===(a.imageChapter||a.chapter));const b=document.createElement('button');b.className='arc-card';const img=document.createElement('img');img.crossOrigin='anonymous';img.src=image(s);img.alt=s.title;img.loading='lazy';const copy=document.createElement('div');copy.className='arc-copy';const small=document.createElement('small');small.textContent=a.chapters;const h=document.createElement('h2');h.textContent=a.title;const p=document.createElement('p');p.textContent=a.copy;copy.append(small,h,p);b.append(img,copy);b.addEventListener('click',()=>goTo(data.scenes.findIndex(scene=>scene.chapter===a.chapter)));return b;}));
  $('chapter-map').replaceChildren(...(books[bookId].chapterNames||johnChapterNames).map((name,i)=>{const scenes=data.scenes.filter(s=>s.chapter===i+1);const b=document.createElement('button');b.className='chapter-card';const n=document.createElement('span');n.className='chapter-number';n.textContent=pad(i+1);const d=document.createElement('div');const h=document.createElement('h3');h.textContent=language==='ko'?name:ui().chapter(i+1);const p=document.createElement('p');p.textContent=language==='ko'?`${scenes.length}개 맥락 · ${scenes.reduce((n,s)=>n+s.verses.length,0)}절`:ui().scenes(scenes.length);d.append(h,p);b.append(n,d);b.addEventListener('click',()=>goTo(scenes[0].id-1));return b;}));
 }
 const books={
@@ -353,7 +372,7 @@ const books={
  chapterNames:['승천과 증인의 부르심','오순절과 함께 나누는 교회','미문에서 일어난 사람','담대한 증언과 한마음의 기도','사람보다 하나님께 순종','일곱 섬김의 사람과 스데반','스데반의 증언과 마지막 기도','사마리아와 광야 길의 만남','사울의 회심과 다비다의 회복','고넬료의 집, 이방인에게 열린 문','안디옥의 그리스도인들','옥문을 여신 하나님','안디옥에서 시작한 첫 여정','루스드라의 표적과 환난','예루살렘의 의논과 은혜','루디아, 감옥의 찬송과 간수','베뢰아의 말씀, 아덴의 질문','고린도와 브리스길라·아굴라','에베소에서 일어난 변화와 소동','밀레도의 눈물과 맡겨진 양 떼','예루살렘으로 돌아온 바울','계단 위의 증언과 로마 시민권','로마를 향한 약속과 밤의 호송','벨릭스 앞의 부활의 소망','가이사에게 호소한 바울','아그립바 앞의 증언','풍랑 속에서도 잃지 않은 소망','멜리데와 로마, 금하지 못한 말씀'],
  arcs:[{chapters:'1–7장',title:'예루살렘의 증인들',copy:'성령의 약속과 오순절, 나누는 공동체와 박해 속의 증언.',chapter:1,imageChapter:2},{chapters:'8–12장',title:'경계를 넘어선 복음',copy:'사마리아, 에디오피아 관원, 사울과 고넬료, 안디옥의 공동체.',chapter:8},{chapters:'13–20장',title:'여러 민족을 향한 여정',copy:'바울과 동역자들의 항해, 도시마다 열린 만남과 말씀.',chapter:13,imageChapter:16},{chapters:'21–28장',title:'결박 너머로 열린 길',copy:'예루살렘과 가이사랴의 재판, 풍랑과 멜리데, 로마의 열린 집.',chapter:21,imageChapter:27}]}
 };
-Object.assign(books,epistleBooks);
+Object.assign(books,pentateuchBooks,psalmsBooks,epistleBooks);
 async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  if(!books[id])id='john';
  const version=++loadVersion;
@@ -378,11 +397,11 @@ async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  $('chapter-map-title').textContent=`${data.chapters}장의 흐름`;
  $('search').value='';$('search').placeholder=config.search;
  $('prompt-source').href=config.plan;$('prompt-source').textContent=`${data.sceneCount}장 제작 프롬프트 ↗`;
- $('source-notes').textContent=epistleBooks[id]?`${data.book}의 가르침과 관계를 시각적 비유와 편집 장면으로 표현했습니다. 과거 회상은 설명에서 구분하며, 본문은 개역한글 원본 그대로 보존했습니다.${id==='hebrews'?' 히브리서의 저자는 본문에서 이름을 밝히지 않습니다.':''}${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:['matthew','mark','luke'].includes(id)?'각 복음서의 서술 순서와 인물 수, 만남의 장소를 따라 구성했습니다. 비유와 꿈, 족보를 그린 장면은 설명에서 구분합니다. 본문의 괄호와 (없음) 표기도 원본대로 보존했습니다.':id==='genesis'?'창조의 장면은 본문의 의미를 돕는 시각화이며 과학적 시간표나 확정된 지리 복원이 아닙니다. 족보는 세대의 이어짐을 구성한 편집 장면으로, 꿈과 시적 축복은 실제 현장과 구분합니다. 의복·건물·인물의 모습도 시각적 해석입니다.':id==='revelation'?'요한계시록의 환상과 상징은 맥락을 이해하도록 시각화했습니다. 특정 현대 인물·국가·기술이나 종말의 시간표로 단정하지 않으며, 핵심 이미지를 선택한 편집 해석입니다.':id==='romans'?'로마서는 편지의 논증을 시각적 비유와 편집 장면으로 표현합니다. 아브라함 등의 과거 회상은 구분하며, 16:24의 (없음) 표기를 원본대로 보존했습니다.':id==='john'?'비유와 가르침을 그린 장면은 설명에서 구분합니다. 요한복음 5:3–4와 7:53–8:11의 본문 괄호도 원본대로 유지했습니다.':'환상과 설교 속 과거 이야기는 장면 설명에서 구분합니다. 사도행전의 (없음) 및 [25절과 같음] 표기도 전자 본문 원본대로 유지했습니다.';
+ $('source-notes').textContent=id==='psalms'?`시편의 다섯 권 흐름과 각 시의 기도·비유를 따라 구성했습니다. 역사 회상은 장면 설명에서 구분하고, 어둠 속에서 끝나는 탄식에 임의의 밝은 결말을 덧붙이지 않습니다. 본문은 개역한글 원본 그대로 보존했습니다.${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:pentateuchBooks[id]?`${data.book}의 서사와 규례를 본문에 따라 구분하여 시각화했습니다. 율법·제의·시적 약속을 설명하는 그림은 실제 사건으로 단정하지 않습니다. 본문은 개역한글 원본을 보존합니다.${id==='deuteronomy'?' 신명기 30:9–10은 개역한글의 합절 표기를 따라 함께 표시합니다.':''}${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:epistleBooks[id]?`${data.book}의 가르침과 관계를 시각적 비유와 편집 장면으로 표현했습니다. 과거 회상은 설명에서 구분하며, 본문은 개역한글 원본 그대로 보존했습니다.${id==='hebrews'?' 히브리서의 저자는 본문에서 이름을 밝히지 않습니다.':''}${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:['matthew','mark','luke'].includes(id)?'각 복음서의 서술 순서와 인물 수, 만남의 장소를 따라 구성했습니다. 비유와 꿈, 족보를 그린 장면은 설명에서 구분합니다. 본문의 괄호와 (없음) 표기도 원본대로 보존했습니다.':id==='genesis'?'창조의 장면은 본문의 의미를 돕는 시각화이며 과학적 시간표나 확정된 지리 복원이 아닙니다. 족보는 세대의 이어짐을 구성한 편집 장면으로, 꿈과 시적 축복은 실제 현장과 구분합니다. 의복·건물·인물의 모습도 시각적 해석입니다.':id==='revelation'?'요한계시록의 환상과 상징은 맥락을 이해하도록 시각화했습니다. 특정 현대 인물·국가·기술이나 종말의 시간표로 단정하지 않으며, 핵심 이미지를 선택한 편집 해석입니다.':id==='romans'?'로마서는 편지의 논증을 시각적 비유와 편집 장면으로 표현합니다. 아브라함 등의 과거 회상은 구분하며, 16:24의 (없음) 표기를 원본대로 보존했습니다.':id==='john'?'비유와 가르침을 그린 장면은 설명에서 구분합니다. 요한복음 5:3–4와 7:53–8:11의 본문 괄호도 원본대로 유지했습니다.':'환상과 설교 속 과거 이야기는 장면 설명에서 구분합니다. 사도행전의 (없음) 및 [25절과 같음] 표기도 전자 본문 원본대로 유지했습니다.';
  $('explanation').hidden=true;$('error').hidden=true;
  renderBook();notes.refresh();renderStory();renderGallery();
  $('translation-attribution').textContent=data.attribution||'성경전서 개역한글판 © 대한성서공회 1961.';
- $('translation-edition').textContent=data.partialRelease?`${data.translation} · 그림 ${data.partialRelease.availableImages}/${data.partialRelease.totalImages}장 공개`:data.translation;
+ $('translation-edition').textContent=data.translation;
  $('translation-license').href=data.copyrightSource||'https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5';
  if(language!=='ko'){
   $('gallery-title').textContent=`${data.book} · ${ui().gallery}`;$('gallery-description').textContent=ui().scenes(data.sceneCount);
@@ -491,7 +510,7 @@ function localizeHeader(){
  document.querySelector('.bible-context').hidden=language!=='ko';
  $('language-flag').textContent={ko:'🇰🇷',en:'🇺🇸',ja:'🇯🇵',zh:'🇨🇳'}[language];$('open-language').setAttribute('aria-label',`${ui().language}: ${languageNames[language]}`);$('open-language').title=ui().language;
  for(const button of document.querySelectorAll('[data-language]')){button.setAttribute('aria-checked',String(button.dataset.language===language));button.querySelector('small').textContent=catalog[button.dataset.language]?.books.includes(bookId)?'':{ko:'준비 중',en:'Coming soon',ja:'準備中',zh:'准备中'}[button.dataset.language];}$('language').value=language;$('language').setAttribute('aria-label',ui().language);
- for(const option of $('book').options)option.textContent=bookNames[language][option.value];
+ for(const option of $('book').options)option.textContent=bookNames[language][option.value];picker.localize();
  for(const [id,key] of [['read-tab','read'],['story-tab','story'],['gallery-tab','gallery'],['source-button','source']])$(id).textContent=ui()[key];
  $('previous').querySelector('.step-label').textContent=ui().previous;$('next').querySelector('.step-label').textContent=ui().next;
  $('font-smaller').textContent=language==='ko'?'가−':language==='en'?'A−':'字−';$('font-larger').textContent=language==='ko'?'가+':language==='en'?'A+':'字+';

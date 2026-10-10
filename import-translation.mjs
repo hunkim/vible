@@ -1,8 +1,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import {languages,applyTranslation} from './languages.js';
+import {languages,bookNames,applyTranslation} from './languages.js';
 const [lang,book,input]=process.argv.slice(2),root=path.dirname(new URL(import.meta.url).pathname);
-if(!languages.includes(lang)||!['john','acts','romans','revelation','genesis','matthew','mark','luke'].includes(book)||!input)throw Error('Usage: npm run import-translation -- <ko|en|ja|zh> <book> <licensed-json-file>');
+if(!languages.includes(lang)||!bookNames[lang]?.[book]||!input)throw Error('Usage: npm run import-translation -- <ko|en|ja|zh> <book> <licensed-json-file>');
 const base=JSON.parse(await fs.readFile(path.join(root,`data/${book}.json`),'utf8'));
 const translation=JSON.parse(await fs.readFile(path.resolve(input),'utf8'));
 applyTranslation(base,translation,lang);

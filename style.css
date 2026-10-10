@@ -324,13 +324,15 @@ body.touch-selection #reader p.is-selected .verse-text{background:#dfc78445;box-
 .search-examples button,.search-message>button{border:1px solid #dce2d3;border-radius:20px;padding:9px 15px;color:#536c50;background:#f0f3e9;font-size:13px}
 #search-more{flex:none;border:0;border-top:1px solid #dfe3d9;background:#f0f2e9;color:#536c50;padding:14px;font-size:13px}
 @media(max-width:700px){
- .topbar{display:grid;grid-template-columns:auto minmax(0,1fr);height:104px;padding:10px 12px;gap:8px 10px}
- .topbar .brand{grid-column:1;grid-row:1}.topbar .header-actions{grid-column:2;grid-row:1;justify-self:end;gap:6px}
- .topbar .book-picker{grid-column:1;grid-row:2;min-width:0}.topbar .book-picker select{width:120px;max-width:120px;height:38px;padding-right:4px}
- .toolbar-search{grid-column:2;grid-row:2;width:100%;height:38px;min-width:0}.toolbar-search .search-toggle{width:32px;height:34px}.search-shortcut{display:none}#header-query{font-size:16px;padding-left:10px}#header-query::placeholder{font-size:12px}
- .topbar:has(.toolbar-search:focus-within) .book-picker{visibility:hidden;pointer-events:none}
- .toolbar-search:focus-within{grid-column:1 / -1}
- .reading-workspace{height:calc(100dvh - 104px)}
+ .topbar{display:flex;height:56px;padding:0 8px;gap:5px}
+ .topbar .brand{flex:none}.topbar .brand-name{display:none!important}.topbar .brand-icon{width:26px;height:26px}
+ .topbar .header-actions{flex:none;margin-left:0;gap:4px}.topbar .font-buttons button{width:26px;height:34px}.topbar .language-toggle{width:36px;height:36px;font-size:19px;gap:2px}.topbar .menu-toggle{width:28px;height:36px}
+ .topbar .book-picker{flex:none;min-width:0}.topbar .book-picker select{width:92px;max-width:92px;height:36px}
+ .toolbar-search{position:relative;flex:1;min-width:40px;height:36px}.toolbar-search .search-toggle{position:absolute;right:2px;width:28px;height:32px;margin:0;pointer-events:none}.search-shortcut{display:none}#header-query{font-size:16px;padding:0 30px 0 8px}#header-query::placeholder{font-size:12px}#header-query::-webkit-search-cancel-button{display:none}
+ .topbar:has(.toolbar-search:focus-within)>.brand,.topbar:has(.toolbar-search:focus-within)>.book-picker,.topbar:has(.toolbar-search:focus-within)>.header-actions{display:none}
+ .toolbar-search:focus-within{width:100%}.toolbar-search:focus-within #header-query{padding-right:70px;padding-left:12px}.toolbar-search:focus-within .search-toggle{pointer-events:auto}
+ .toolbar-search:focus-within #close-header-search{display:grid;place-items:center;position:absolute;right:34px;width:32px;height:32px;padding:7px;color:#657269}
+ .reading-workspace{height:calc(100dvh - 56px)}
  #scripture-search{inset:0;margin:0;width:100%;height:var(--search-height,100dvh);max-height:var(--search-height,100dvh);border:0;border-radius:0;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
  .scripture-search-heading{padding:20px 20px 16px}.scripture-search-field{margin:0 20px}.scripture-search-filters{padding:14px 20px}
  #scripture-results{flex:1;min-height:0;padding:6px 12px 16px}.scripture-result{gap:14px;padding:18px 8px}.scripture-result p{font-size:16px}.scripture-result img{width:64px;height:76px}
@@ -342,3 +344,72 @@ body.touch-selection #reader p.is-selected .verse-text{background:#dfc78445;box-
 #reader p.search-target .verse-text{animation:search-verse 3s ease-out}
 @keyframes search-verse{0%,35%{background:#dfc78445;box-shadow:0 2px 0 #dfc78480}100%{background:transparent;box-shadow:none}}
 @media(prefers-reduced-motion:reduce){#reader p.search-target .verse-text{animation:none}}
+
+/* Give the book picker a consistent inset arrow in browser and app windows. */
+.topbar .book-picker{position:relative}
+.topbar .book-picker select{appearance:none;-webkit-appearance:none;padding-right:38px;text-overflow:ellipsis}
+.book-chevron{position:absolute;right:13px;top:50%;transform:translateY(-50%);width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+@media(max-width:700px){.topbar .book-picker select{padding-right:32px}.book-chevron{right:11px;width:12px;height:12px}}
+
+#close-header-search{display:none}
+#close-header-search svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
+@media(max-width:350px){.toolbar-search:not(:focus-within) #header-query::placeholder{color:transparent}}
+
+.book-toggle{display:block;width:clamp(130px,15vw,200px);height:40px;padding:0 38px 0 12px;border:1px solid #283c3415;border-radius:10px;background:#eaece4;color:inherit;text-align:left;font-size:14px}
+#selected-book-name{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#book-picker-dialog{position:fixed;inset:auto;margin:0;padding:0;border:1px solid #d7dbd1;border-radius:16px;background:#f8f7f1;color:#283c34;box-shadow:0 16px 56px #10231f40;overflow:hidden;max-width:none}
+#book-picker-dialog[open]{display:flex;flex-direction:column}
+#book-picker-dialog::backdrop{background:#10231f25}
+.book-picker-heading{display:flex;align-items:center;justify-content:space-between;padding:12px 16px 4px}
+#book-picker-title{font:600 15px/1.5 'Noto Sans KR',sans-serif;margin:0}
+#close-book-picker{width:36px;height:36px;border-radius:8px;font-size:25px;color:#657269}
+#book-query{flex:none;width:calc(100% - 32px);margin:4px 16px 12px;padding:11px 12px;border:1px solid #a7b5a6;border-radius:10px;background:#fffef9;font-size:16px;outline-offset:2px}
+#book-results{padding:0 12px 14px;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin}
+#book-results h3{margin:12px 6px 8px;color:#778471;font:500 11px/1.5 'Noto Sans KR',sans-serif}
+.book-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.book-grid button{min-height:42px;padding:9px 10px;border-radius:8px;text-align:left;font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+.book-grid button:hover,.book-grid button[aria-pressed=true]{background:#e4e9df;color:#283c34}.book-grid button[aria-pressed=true]{font-weight:600}
+.book-empty{padding:32px 10px;text-align:center;color:#788077;font-size:13px}
+@media(min-width:701px) and (display-mode:standalone), (display-mode:window-controls-overlay){.book-toggle{height:34px;background:#ffffff0d;color:#fff6df;border-color:#ffffff26;font-size:13px}}
+@media(max-width:700px){.book-toggle{width:92px;height:36px;padding:0 32px 0 9px;font-size:12px}.book-grid button{min-height:44px}}
+
+/* Live results stay beneath the field so typing and the mobile keyboard continue. */
+#scripture-search.live-search{z-index:100;max-height:calc(100dvh - var(--search-top) - 16px)}
+#scripture-search.live-search .scripture-search-heading,#scripture-search.live-search .scripture-search-field{display:none}
+@media(max-width:700px){#scripture-search.live-search{inset:var(--search-top) 8px auto;margin:0;width:calc(100% - 16px);height:auto;max-height:var(--search-height);padding:0;border:1px solid #d7dbd1;border-radius:16px}#scripture-search.live-search #scripture-results{min-height:0}}
+
+/* Keep scene sharing beside the scripture reference, with a full touch target. */
+.scene-reference{display:flex;align-items:center;gap:4px;min-width:0}
+#share-scene{display:inline-flex;align-items:center;justify-content:center;flex:none;width:44px;height:44px;padding:12px;border-radius:50%;color:#eee0c5;transition:background .15s}
+#share-scene svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+#share-scene:hover,#share-scene:active{background:#ffffff20}
+.scene-reference+#current-title{margin-top:0}
+
+@media(max-width:700px){#visual[data-book="psalms"][data-layout="right"]{object-position:75% top}.immersive #visual[data-book="psalms"][data-layout="right"]{object-position:center}}
+
+#image-loading button{color:inherit;text-decoration:underline;text-underline-offset:4px;padding:8px 12px;border:1px solid currentColor;border-radius:8px;margin-left:8px}
+
+/* Scene feedback: one passage and one text field, beside the sharing action. */
+#feedback-scene{display:inline-flex;align-items:center;justify-content:center;flex:none;width:44px;height:44px;padding:12px;border-radius:50%;color:#eee0c5;transition:background .15s}
+#feedback-scene svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+#feedback-scene:hover,#feedback-scene:active{background:#ffffff20}
+#feedback-dialog{width:min(440px,calc(100% - 24px));max-width:440px;max-height:calc(100dvh - 24px);padding:28px;border:1px solid var(--line);border-radius:20px;background:var(--paper);color:var(--ink);box-shadow:0 24px 80px #10251d38;overflow:auto}
+#feedback-dialog::backdrop{background:#10251d66;backdrop-filter:blur(3px)}
+#feedback-dialog h2{font:600 22px 'Noto Sans KR',sans-serif;margin:0 36px 12px 0}
+#feedback-dialog .dialog-close{top:12px;right:12px;display:grid;place-items:center;width:40px;height:40px;border-radius:50%}
+#feedback-dialog .dialog-close svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}
+#feedback-dialog .dialog-close:hover{background:#283c340b}
+.feedback-reference{font-size:14px;color:var(--gold);margin:0 0 24px}
+#feedback-label{display:block;font-size:15px;font-weight:600;margin-bottom:10px}
+#feedback-message{display:block;width:100%;min-height:120px;max-height:240px;padding:14px;border:1px solid #bac2b5;border-radius:12px;background:#fffdf7;color:var(--ink);font:inherit;font-size:16px;line-height:1.65;resize:vertical}
+#feedback-message:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+#feedback-message::placeholder{color:#858c83;font-size:14px}
+#feedback-received{font-size:13px;color:#69766b;line-height:1.7;margin:12px 0}
+#feedback-status{font-size:13px;line-height:1.6;color:#8c4b35;margin:10px 0}
+#feedback-status:empty{display:none}
+#send-feedback,#feedback-done{display:block;width:100%;min-height:46px;margin-top:20px;padding:12px 20px;border-radius:12px;background:var(--ink);color:#fff9ed;font-size:15px;font-weight:600}
+#send-feedback:disabled{opacity:.6}
+#feedback-success{text-align:center;padding:8px 0 0}
+.feedback-check{width:40px;height:40px;padding:8px;border-radius:50%;background:#e1e9df;fill:none;stroke:var(--ink);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+#feedback-thanks{font-size:18px;line-height:1.6}
+@media(max-width:700px){#feedback-dialog{padding:24px 20px}.scene-reference{flex-wrap:wrap}#current-reference{max-width:calc(100vw - 150px)}}

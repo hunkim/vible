@@ -60,3 +60,13 @@ assert.equal(partial.book,'1corinthians');assert.equal(partial.image,'1corinthia
 assert.equal(pick('/share/1corinthians/1/1').image,'1corinthians-001-right-v1.jpg');
 assert(partial.text.trim());assert(shareHTML(partial).includes('og:image'));
 console.log('Complete Corinthians: numeric book links, first and final images, and full-text sharing verified.');
+
+for(const lang of ['ko','en','ja','zh']){
+ const selected=pick(`/share/john/3/16?lang=${lang}`),page=shareHTML(selected);
+ const cardLink=page.match(/<a class="shared-card-link" href="([^"]+)"[^>]*><img id="shared-card"[^>]*><\/a>/);
+ assert(cardLink,'Shared card is a keyboard-accessible reading link');
+ const target=new URL(cardLink[1],'https://vible.now');
+ assert.equal(target.searchParams.get('book'),'john');assert.equal(target.searchParams.get('chapter'),'3');assert.equal(target.searchParams.get('verse'),'16');assert.equal(target.searchParams.get('read'),'1');assert.equal(target.searchParams.get('lang'),lang);
+ assert(page.includes(`<a href="/?lang=${lang}">vible.now</a>`));
+}
+console.log('Shared cards and footer URLs are real links; exact passage and all four languages preserved.');

@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import vm from 'node:vm';
+const source=await fs.readFile('app.js','utf8');
+const helper=source.slice(source.indexOf('function loadSceneImage('),source.indexOf('function updateScene('));
+let requests=0,src=null,synchronous=false;
+const img={complete:false,naturalWidth:0,getAttribute:()=>src,removeAttribute:()=>{src=null;},set src(value){assert.equal(typeof this.onload,'function');assert.equal(typeof this.onerror,'function');requests++;src=value;if(synchronous){this.complete=true;this.naturalWidth=100;this.onload();}}};
+const status={hidden:true,textContent:'',append(button){this.button=button;}};
+const load=vm.runInNewContext(helper+';loadSceneImage',{$:id=>id==='visual'?img:status,image:s=>s.image,language:'ko',document:{createElement:()=>({})}});
+load({image:'first.jpg'});assert.equal(status.hidden,false);img.onload();assert.equal(status.hidden,true);
+load({image:'first.jpg'});assert.equal(requests,1,'Same scene must not restart an image download');
+load({image:'next.jpg'});img.onerror();assert.equal(status.hidden,false);assert.match(status.textContent,/못했습니다/);assert.equal(status.button.textContent,'다시 시도');status.button.onclick();assert.equal(requests,3);img.onload();assert.equal(status.hidden,true);
+load({image:'pending.svg',imagePending:true});assert.equal(status.hidden,true);img.onload();assert.equal(status.hidden,true);
+synchronous=true;load({image:'cached.jpg'});assert.equal(status.hidden,true,'Cached image load is handled before assigning src');
+console.log('Scene images verified: loading, failure/retry, cached load, pending scenes and duplicate request prevention.');

@@ -1,0 +1,6 @@
+[
+  {"id":"exodus","name":"출애굽기","english":"Exodus","code":"EXO","chapters":40,"verseCount":1213},
+  {"id":"leviticus","name":"레위기","english":"Leviticus","code":"LEV","chapters":27,"verseCount":859},
+  {"id":"numbers","name":"민수기","english":"Numbers","code":"NUM","chapters":36,"verseCount":1288},
+  {"id":"deuteronomy","name":"신명기","english":"Deuteronomy","code":"DEU","chapters":34,"verseCount":959}
+]

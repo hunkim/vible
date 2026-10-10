@@ -1,13 +1,15 @@
+import {assetURL} from '../assets.js';
 import {ImageResponse} from '@vercel/og';
 import fs from 'node:fs/promises';
 import {selection} from '../share-data.mjs';
 import {cardLayout} from '../share-card-layout.mjs';
 
+const hosting=fs.readFile(new URL('../asset-hosting.json',import.meta.url),'utf8').then(JSON.parse);
 const font=fs.readFile(new URL('../fonts/NanumMyeongjo-Regular.ttf',import.meta.url));
 const h=(type,style,children)=>({type,props:{style,children}});
 export async function cardResponse(s){
  const {size,height,textWidth}=cardLayout(s);
- const image=`${process.env.VIBLE_ASSET_ORIGIN||'https://vible.now'}/assets/${s.image}`;
+ const image=new URL(assetURL(s.image,process.env.VIBLE_ASSET_ORIGIN||(await hosting).origin),'https://vible.now/').href;
  const asset=await fetch(image,{signal:AbortSignal.timeout(10000)});
  if(!asset.ok)throw Error('장면 이미지를 불러오지 못했습니다.');
  const imageData=`data:${s.image.endsWith('.svg')?'image/svg+xml':'image/jpeg'};base64,${Buffer.from(await asset.arrayBuffer()).toString('base64')}`;
