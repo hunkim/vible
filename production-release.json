@@ -1,16 +1,17 @@
 {
   "date": "2026-10-11",
   "production": "https://vible.now",
-  "deployment": "https://vible-4o2cp6pg2-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_59wAhCLRSMva2F5ZprCdRRQYkWG8",
-  "newImageFiles": 45,
+  "deployment": "https://vible-pupon745t-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_8VEUTKv1xPdqDo7qf84Z8jmrFXhP",
+  "newImageFiles": 211,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
     "psalms": 1517,
     "deuteronomy": 301,
     "joshua": 185,
-    "proverbs": 120
+    "proverbs": 120,
+    "judges": 211
   },
   "releaseConfig": {
     "leviticus": 236,
@@ -612,7 +613,6 @@
         705
       ]
     },
-    "judges": 0,
     "ruth": 0,
     "1samuel": 0,
     "2samuel": 0,
@@ -620,7 +620,7 @@
     "2kings": 0
   },
   "psalmsPlan": "All Psalms 1–150 illustrated: 1517 scenes, original Scripture and all previously published art retained.",
-  "qa": "review/proverbs-release-qa-20261011.json",
+  "qa": "review/judges-qa-state.json",
   "checks": {
     "frozenApplication": "npm run check passed; all 41 books and 123 translations",
     "frozenOffline": "passed; 41 books checked (legacy console label says 35)",
@@ -629,7 +629,12 @@
     "privateFeedback": "admin authentication enforced",
     "JoshuaVisualQA": "185 selected images reviewed, 12 corrections accepted",
     "multilingualBrowser": "passed: seven historical books × four languages, exact verses, translated search and real PNG shared cards",
-    "JoshuaLiveReader": "passed: exact rendered verses, chapter navigation, mobile, PNG cards and shared links"
+    "JoshuaLiveReader": "passed: exact rendered verses, chapter navigation, mobile, PNG cards and shared links",
+    "JudgesVisualQA": "211 selected images, all thumbnails/four corners and critical passages reviewed; 10 corrections accepted",
+    "JudgesCDN": "211 new JPEG URLs passed exact byte/hash/MIME checks",
+    "JudgesPublicData": "Exact frozen compiled data, all 211 images available",
+    "JudgesLiveReader": "Passed exact rendered verses, chapter navigation, mobile, PNG card and shared links",
+    "JudgesFourLanguages": "Passed KO/EN/JA/ZH full verses, translated search and real PNG shared cards"
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 41,
@@ -646,11 +651,11 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "ae90e72516424c39307c8da3f15296aa5cc935f0",
+  "gitCommit": "26587c52bf055e0b65a20f285d1132b5d27eada8",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v3.jpg"
   },
-  "frozenSource": "/private/tmp/vible-release-ae90e7251642"
+  "frozenSource": "/private/tmp/vible-release-26587c52bf05"
 }

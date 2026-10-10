@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "book": "judges",
+      "language": "ko",
+      "allRenderedVerses": 618,
+      "search": "exact",
+      "sharedText": "exact",
+      "PNGCardWidth": 1200
+    },
+    {
+      "book": "judges",
+      "language": "en",
+      "allRenderedVerses": 618,
+      "search": "exact",
+      "sharedText": "exact",
+      "PNGCardWidth": 1200
+    },
+    {
+      "book": "judges",
+      "language": "ja",
+      "allRenderedVerses": 618,
+      "search": "exact",
+      "sharedText": "exact",
+      "PNGCardWidth": 1200
+    },
+    {
+      "book": "judges",
+      "language": "zh",
+      "allRenderedVerses": 616,
+      "search": "exact",
+      "sharedText": "exact",
+      "PNGCardWidth": 1200
+    }
+  ]
+}
