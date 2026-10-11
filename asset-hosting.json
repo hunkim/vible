@@ -24393,6 +24393,3542 @@
     "proverbs-c013-v018-018-right-context-v1.jpg": {
       "sha256": "be8066e95514c679ee6a45b48094f4488de75cbfa6e4f1246c22ae1376394396",
       "bytes": 487392
+    },
+    "1kings-001-right-v1.jpg": {
+      "sha256": "13fa08ced49811c99740877fe8fe8d03b1c1a80a602984b3984900c0326a4b2b",
+      "bytes": 429644
+    },
+    "1kings-002-right-v1.jpg": {
+      "sha256": "dc6f514d39aaf184c188ca3f58d8415a95314e0cf9e3a9a2ace63c31e1c991bd",
+      "bytes": 578704
+    },
+    "1kings-003-right-v1.jpg": {
+      "sha256": "dc08b883792bd941d9689db45fd64ab80777ff4d303324964e6332bb8a1ac057",
+      "bytes": 502697
+    },
+    "1kings-004-right-v1.jpg": {
+      "sha256": "4ff18ef10ff030fef87eec48cef78483f4afa9d73cd544b66eab6ce11cf77a1e",
+      "bytes": 650877
+    },
+    "1kings-005-right-v1.jpg": {
+      "sha256": "13225cce6a50e2586c4a36cf5f1a27363e08dc26ae37b9672ce85076209b5987",
+      "bytes": 542708
+    },
+    "1kings-006-right-v1.jpg": {
+      "sha256": "f7bcc8a46d4412052d68fd41d3934107d00dd19d4955f17c5631947c9d56234a",
+      "bytes": 471447
+    },
+    "1kings-007-right-v1.jpg": {
+      "sha256": "8ca05ac9b8875dfb7cd59d91ceec64816fccc59cf619baa961232fe34e08ab3d",
+      "bytes": 504841
+    },
+    "1kings-008-right-v1.jpg": {
+      "sha256": "457a7c65a23bf78b5c5c2a2abbbb5792c5a6b2e2c5af3f1c034012a60825129c",
+      "bytes": 480898
+    },
+    "1kings-009-right-v1.jpg": {
+      "sha256": "1a2beaae089e5185581aa31f6d9f96c8099e06052947875329996209a2c1882c",
+      "bytes": 473165
+    },
+    "1kings-010-right-v1.jpg": {
+      "sha256": "1385eabc0b1c3cacbb0a6771407b03e30e8df5330589bf84f2a1d29c9e26726d",
+      "bytes": 556314
+    },
+    "1kings-011-right-v1.jpg": {
+      "sha256": "f54dae5df7a9d90649511eed5db9b8705bf9ce43766f28d86379a2e8e1a7a4e7",
+      "bytes": 610917
+    },
+    "1kings-012-right-v1.jpg": {
+      "sha256": "b995f2f23bfa237fca485c045eb049b8c9a21ca44222de49bb082250910c68f2",
+      "bytes": 524377
+    },
+    "1kings-013-right-v1.jpg": {
+      "sha256": "00c48c8bf910d664b5952ad030d4969e35a0b6eec81d0982f48120138f625dcc",
+      "bytes": 414428
+    },
+    "1kings-014-right-v1.jpg": {
+      "sha256": "59698838379d3fe50add59c2e1c621205aca9a5ed8148f1e063b89c22de980a3",
+      "bytes": 545906
+    },
+    "1kings-015-right-v1.jpg": {
+      "sha256": "0424f5e17f8e4bfd359773b4515ce5cfcda3ce5100140bdf69e42dccd7ce1e8e",
+      "bytes": 464143
+    },
+    "1kings-016-right-v1.jpg": {
+      "sha256": "6f7e090d1c80a34838fe675b1d513d590519c2d6ec36f5181a4342ccac751034",
+      "bytes": 429822
+    },
+    "1kings-017-right-v1.jpg": {
+      "sha256": "e1d73752e271e46bf511b17a955afa46ab99a0c84ede10919cb8d8c674520e53",
+      "bytes": 519361
+    },
+    "1kings-018-right-v1.jpg": {
+      "sha256": "d8bd258b06a1f9627788e565645c3c90150b72dbfb38e6b66615579a8f3cf39f",
+      "bytes": 512755
+    },
+    "1kings-019-right-v1.jpg": {
+      "sha256": "14a2cfc97e6a2e13dc820c17be046b7342327a33f7a3bf8616793fe682db7f25",
+      "bytes": 490253
+    },
+    "1kings-020-right-v1.jpg": {
+      "sha256": "588b4ad633e5c007a921df56e7cc8019b46df68dd891bcc858883cb82d803c0e",
+      "bytes": 565583
+    },
+    "1kings-021-right-v1.jpg": {
+      "sha256": "7bbaf5bccbb58a52e4e20d1c97ac6eed8c5fbbd50354c9a71972526d50a663ac",
+      "bytes": 474664
+    },
+    "1kings-022-right-v1.jpg": {
+      "sha256": "b289e26268f3068c86ce104aa24ef81662a8af564d0ce595cb8d65fa365996c4",
+      "bytes": 570061
+    },
+    "1kings-023-right-v1.jpg": {
+      "sha256": "8777b7f70e0bfe330386c2b69f041504d6bf12c6e35459554eca1ae31cfa8926",
+      "bytes": 469861
+    },
+    "1kings-024-right-v1.jpg": {
+      "sha256": "4501b6745da258cc6ac690cb771a50b1014227eb49e63f28a07331214db780fb",
+      "bytes": 495178
+    },
+    "1kings-025-right-v1.jpg": {
+      "sha256": "b57de2f7fd261670d9002ed974cf18263bb4869b1d6f52ceb79e8264fd9708d4",
+      "bytes": 549014
+    },
+    "1kings-026-right-v1.jpg": {
+      "sha256": "aa58fb43621e9a9fc6f628db5c3ebad5be4a6b13edcc19405a9822fef775fecd",
+      "bytes": 618702
+    },
+    "1kings-027-right-v1.jpg": {
+      "sha256": "7c39a552cc44d4a17e5126e06db1956ddbc4c11d82f52cab490e4ead22efd2c3",
+      "bytes": 451523
+    },
+    "1kings-028-right-v1.jpg": {
+      "sha256": "0b5626f06d051a42c05bc7c63495f61ab3fec566fd210eb6000f9ab2ee06e371",
+      "bytes": 505691
+    },
+    "1kings-029-right-v1.jpg": {
+      "sha256": "c44d863d68f6b8e741d1de74696ecf6b9b817fd2a39b492aedbc542df67cf1d7",
+      "bytes": 547061
+    },
+    "1kings-030-right-v1.jpg": {
+      "sha256": "d49ba88fc48c6b08964a4c863b33369053e07fb3a1e259b8c6e8367d7701506e",
+      "bytes": 490513
+    },
+    "1kings-031-right-v1.jpg": {
+      "sha256": "230e65f03538b845bb6a4c92d416e3621a970834a140120f44493405784d0959",
+      "bytes": 548622
+    },
+    "1kings-032-right-v1.jpg": {
+      "sha256": "4243d644c76734f597fbb7cfb73f1f14adeec3d4860749ebc113b2e63de33701",
+      "bytes": 436539
+    },
+    "1kings-033-right-v1.jpg": {
+      "sha256": "d6120f71b33a5bfcf9af04c9f8a8507227e41fd81caad3adf3de31a492fcf6d3",
+      "bytes": 544087
+    },
+    "1kings-034-right-v1.jpg": {
+      "sha256": "ef7541abca49a5a634ba58ce0b6d74d409397f1e92bde82d96e9f54fcf855c3a",
+      "bytes": 430899
+    },
+    "1kings-035-right-v1.jpg": {
+      "sha256": "eb1cbd1a7a4af41afd0651e0f0d2c0d6377737433a937593844292d119258506",
+      "bytes": 612037
+    },
+    "1kings-036-right-v1.jpg": {
+      "sha256": "bf0571bf13923b0891a76ef91c09355f5976d0cb9714a8556dab68a2a36f21fa",
+      "bytes": 492606
+    },
+    "1kings-037-right-v1.jpg": {
+      "sha256": "01dcbf77d390b9e2efd787cfecb64696ffcef271fb33af4dcd65f1b1f1b3af40",
+      "bytes": 503062
+    },
+    "1kings-038-right-v1.jpg": {
+      "sha256": "a155c385e9f2456f194e79039add34b0df4403bb3a6b05a8d0fc7b59442cc24d",
+      "bytes": 583456
+    },
+    "1kings-039-right-v1.jpg": {
+      "sha256": "7f91c0cd95b88499f8ca24f6c41161dec90394f8b2a09d1f1692df939b3ef5dc",
+      "bytes": 459056
+    },
+    "1kings-040-right-v1.jpg": {
+      "sha256": "fb962848f610f16c5c93788c59dfa5592be7e3cbc6d1ee4b9fad3edd8ad8567f",
+      "bytes": 491770
+    },
+    "1kings-041-right-v1.jpg": {
+      "sha256": "b073db4af0f5b50b2fce76d50016db8ec9cccb5aab17e7b40e0adca0ddbaf121",
+      "bytes": 590779
+    },
+    "1kings-042-right-v1.jpg": {
+      "sha256": "0126a438e9ad5de6bad2fc87d64c8eabbf26706643242a29fd50ee746f1cb4b9",
+      "bytes": 589554
+    },
+    "1kings-043-right-v1.jpg": {
+      "sha256": "20524650e83e76b9004b8705b5f6ecbc7feaf8c3ac855325df1a3ee313f98ce7",
+      "bytes": 573273
+    },
+    "1kings-044-right-v1.jpg": {
+      "sha256": "89329b3312f26857c9717c0bc35680eeb7af525b701f7082d5202085c91c34a5",
+      "bytes": 678047
+    },
+    "1kings-045-right-v1.jpg": {
+      "sha256": "1f368162980e535c12ae278900a33556976df92c955737178c149fccf318bfb1",
+      "bytes": 628062
+    },
+    "1kings-046-right-v1.jpg": {
+      "sha256": "1f84a63190c0b3c406166764f90dc8b180d7f95879cd530ae2f2378c448b35dc",
+      "bytes": 539879
+    },
+    "1kings-047-right-v1.jpg": {
+      "sha256": "935bcbb24ca10dbfee3593ee499c9478bdeba332c57e01d8d7b396266021e9e7",
+      "bytes": 665357
+    },
+    "1kings-048-right-v1.jpg": {
+      "sha256": "32429cd77c63adb236b05bc9c5e5635c0f4cff550fd15e314ca351d4773f0450",
+      "bytes": 521440
+    },
+    "1kings-049-right-v1.jpg": {
+      "sha256": "0582cb1405a79b373ef87e940558ee43048e30ab1fa5ca6d273c2d962a4c58ec",
+      "bytes": 578547
+    },
+    "1kings-050-right-v1.jpg": {
+      "sha256": "b6b9a4353727d2a695792f523a0b98bd69ebc237dca1a96bc822cdbdab44c348",
+      "bytes": 577798
+    },
+    "1kings-051-right-v1.jpg": {
+      "sha256": "96e616f080dbbc8e6ec39615e3518d51da9756dc77bb871fdb5128fc87da2984",
+      "bytes": 707110
+    },
+    "1kings-052-right-v1.jpg": {
+      "sha256": "a965383fd256098ad203a37ab5507fc7abfcaac8d93729911e676461a981765b",
+      "bytes": 522625
+    },
+    "1kings-053-right-v1.jpg": {
+      "sha256": "410d0790ab102d4eca49bb01516c1be8c804a0b3c9ed81dfe86f82702065a89a",
+      "bytes": 593499
+    },
+    "1kings-054-right-v1.jpg": {
+      "sha256": "e4ba70f2446c7500a583c6ad943182113a2e6b3fbe5cb64d1e286fe7264d3a45",
+      "bytes": 605227
+    },
+    "1kings-055-right-v1.jpg": {
+      "sha256": "0381a3ea727ce38ea59d4efcaaebcd6f22c178ee8ba879afc94121e293eaa80a",
+      "bytes": 625781
+    },
+    "1kings-056-right-v1.jpg": {
+      "sha256": "18fb7dea833a117aaa9ad3d9ff498fa30e267eeb675b67ad189bfab26bbbce23",
+      "bytes": 534474
+    },
+    "1kings-057-right-v1.jpg": {
+      "sha256": "dd44df60ab5a3cebc109a860b5a422b6f1f13f3cd29e765604c000cbc181ef5b",
+      "bytes": 576177
+    },
+    "1kings-058-right-v1.jpg": {
+      "sha256": "a24050f6114eb127f1b0a820aa6b5d1e96f58d99a09d0b8c3644959535a04f27",
+      "bytes": 612190
+    },
+    "1kings-059-right-v1.jpg": {
+      "sha256": "dd9eefd8dd874ed34e1dcca5c0ba4da9d348057c089a2c6dcb9c5127affc7261",
+      "bytes": 546595
+    },
+    "1kings-060-right-v1.jpg": {
+      "sha256": "4a94f0a3923f8bfd02d43999c92bb721d8880976e5bacb97988e163e86dec67b",
+      "bytes": 482572
+    },
+    "1kings-061-right-v1.jpg": {
+      "sha256": "178ed145fcd7ebd89ff363158f5f4f967587ddb594cab49f4d1a6fe574f8007b",
+      "bytes": 582151
+    },
+    "1kings-062-right-v1.jpg": {
+      "sha256": "bf51957cbb02f928f6c9daae1d557d429e12674a969eb337800482dd0f692dcb",
+      "bytes": 590683
+    },
+    "1kings-063-right-v2.jpg": {
+      "sha256": "0deee0c204fdcf0ec0bbd5f4995eaa7bfbe70d513d47baec1f696facad388e32",
+      "bytes": 408307
+    },
+    "1kings-064-right-v1.jpg": {
+      "sha256": "d5e9f8d0d73a7982222362a249fbeef78bf07344cea10d5261382f627edeff97",
+      "bytes": 504821
+    },
+    "1kings-065-right-v1.jpg": {
+      "sha256": "a5a1709d83f34216abdc45edc8109b0f43372d2536a7e95d77c1b89278cbc974",
+      "bytes": 650209
+    },
+    "1kings-066-right-v1.jpg": {
+      "sha256": "40260aff6e772715bffcf0b4acff97469bfd780a77447f6ced735c4cd385c61b",
+      "bytes": 584005
+    },
+    "1kings-067-right-v1.jpg": {
+      "sha256": "05ec852d38a3d975f577cecf65c5dbc326d38c84331d78f9085e6480e30baad5",
+      "bytes": 568724
+    },
+    "1kings-068-right-v1.jpg": {
+      "sha256": "f66c9db359d5213c17357a36decafb7fce702ccf7a6f7751677fb4c5a83deb00",
+      "bytes": 478418
+    },
+    "1kings-069-right-v1.jpg": {
+      "sha256": "20b3601ed4b895cb9a67f0482bcb40fedee4bc22ed43932df36181f3ea15c988",
+      "bytes": 544642
+    },
+    "1kings-070-right-v1.jpg": {
+      "sha256": "44da6766bd3885268d2d2ecb3d837723d215021fd15bdfb6d9389ba2c3bdb6c2",
+      "bytes": 595839
+    },
+    "1kings-071-right-v1.jpg": {
+      "sha256": "d4d879359c55d051ecfebb727597c158d47df59515179e2918fb612b3c5e8159",
+      "bytes": 576288
+    },
+    "1kings-072-right-v1.jpg": {
+      "sha256": "175d0be0843acfa95f64bde5672f1aa1eec4f7d29ea99879d31b8c1f2c62039c",
+      "bytes": 457137
+    },
+    "1kings-073-right-v1.jpg": {
+      "sha256": "ac5cc33918af9c70b9ed7dd596ba25d12e745da90495f901b1f26d2663e0c82a",
+      "bytes": 560416
+    },
+    "1kings-074-right-v1.jpg": {
+      "sha256": "862d63aefe6bb98a87c72bbdb774a6148a3db535e20bb531107953a4bfa1c037",
+      "bytes": 483298
+    },
+    "1kings-075-right-v2.jpg": {
+      "sha256": "4148cbf0202e35ef4ccc8d0b00f2914204930b7773b98cf3cd5cdf99f824d69b",
+      "bytes": 654303
+    },
+    "1kings-076-right-v1.jpg": {
+      "sha256": "c781ceeb8aece65940259a0f048fdb309c6793ec2e25b2fe8753cf58ee4604c3",
+      "bytes": 541117
+    },
+    "1kings-077-right-v1.jpg": {
+      "sha256": "7c33221acc8a7a8770515105d0ad03a32c071ca0baf553d8cab158efd5612c97",
+      "bytes": 607232
+    },
+    "1kings-078-right-v2.jpg": {
+      "sha256": "2d557f5750d7faefc0163afe87a2f1cad02c9d0ffe91a7b0271cc8aa10562992",
+      "bytes": 497701
+    },
+    "1kings-079-right-v1.jpg": {
+      "sha256": "29423b9ed91cdf13586c63384e57d0b7025bf7732e04cd840e9f11cfed3c7a32",
+      "bytes": 555366
+    },
+    "1kings-080-right-v1.jpg": {
+      "sha256": "495272b97e19b5505927c57b4c37136f72cc4cc0c07b02687c1648ce93029598",
+      "bytes": 619264
+    },
+    "1kings-081-right-v2.jpg": {
+      "sha256": "dc711dff51a73f3f3c716af36b1c55474879e0435b80d2d251c8f3e05c9e135f",
+      "bytes": 543885
+    },
+    "1kings-082-right-v1.jpg": {
+      "sha256": "87b29e40e26160accf822bb2dc90968234f94dcb49650114e0e407ccd5bbe27f",
+      "bytes": 468921
+    },
+    "1kings-083-right-v1.jpg": {
+      "sha256": "e7a095700cebc333af3a06ae2c829b6066f4ee069ff47364a51c26fcecad7c02",
+      "bytes": 594880
+    },
+    "1kings-084-right-v1.jpg": {
+      "sha256": "38ba91ba757d8db46b8283224c3fb5a1d52bf3298d6c3e40d199376f4e9ba3ad",
+      "bytes": 513571
+    },
+    "1kings-085-right-v2.jpg": {
+      "sha256": "88ca6ac9c6c7686808145f90fbb6e1d6bb9dcea5406a1e028b165d7b944e28a4",
+      "bytes": 532019
+    },
+    "1kings-086-right-v1.jpg": {
+      "sha256": "71a9f3f5c1128a3e407e5b5a3aa59ffb7943472191a5d00e96ec696fb6ee51bc",
+      "bytes": 445612
+    },
+    "1kings-087-right-v1.jpg": {
+      "sha256": "d21fd0c7523646b0f3c1264d58e7133fb0463b7df47638ba03534c5697d05546",
+      "bytes": 484584
+    },
+    "1kings-088-right-v1.jpg": {
+      "sha256": "bb01a99ac5bcbb208d7df0bfc6e0f508162743c9a868ec637195431febd43252",
+      "bytes": 408327
+    },
+    "1kings-089-right-v1.jpg": {
+      "sha256": "5ec71739b9171c8464f6b46b2ab803574fc54af209ac563ae84c4dc89d2c0889",
+      "bytes": 494464
+    },
+    "1kings-090-right-v1.jpg": {
+      "sha256": "c8484c20616858d6bd7a54696cdf80070bebc0b2e920f81e721204fe28945199",
+      "bytes": 491753
+    },
+    "1kings-091-right-v1.jpg": {
+      "sha256": "d7384106e274bdeeacae743d5a2166d45ff7cc8fb460f810fff985e56b23cf9b",
+      "bytes": 460277
+    },
+    "1kings-092-right-v1.jpg": {
+      "sha256": "b16d6f87466d7722c541b268028c5797a8ea445e734b6a0e3a34986b5675824a",
+      "bytes": 456073
+    },
+    "1kings-093-right-v1.jpg": {
+      "sha256": "654ebb9e086f831c2bf256a94b3b33ad0323a398a548004f8968ac0c8949dee8",
+      "bytes": 633566
+    },
+    "1kings-094-right-v1.jpg": {
+      "sha256": "867110bb192a4a52af29eeec954e55eefcaf737da4cc7bd67878108f809bc744",
+      "bytes": 596825
+    },
+    "1kings-095-right-v1.jpg": {
+      "sha256": "e4f6bf8765b681a39ee5533e4a43e182e7fa3329c2f92cc5b83f86085ebecb82",
+      "bytes": 544689
+    },
+    "1kings-096-right-v1.jpg": {
+      "sha256": "36c490e41264b66543bce5ba2b97a6943e4a97eed3cf0fb73dcedd8765893920",
+      "bytes": 458747
+    },
+    "1kings-097-right-v1.jpg": {
+      "sha256": "e69ce3dd1d338ce7a70d83312095caeced2f83c8b234d26de305d671ec4d6434",
+      "bytes": 487248
+    },
+    "1kings-098-right-v1.jpg": {
+      "sha256": "e439fde1e6c0546330c4efbe41bf6dd4a283676ee3b372305f4fcf13d7b177be",
+      "bytes": 510520
+    },
+    "1kings-099-right-v1.jpg": {
+      "sha256": "794b4767485e7cae5c4f496884c7975b57ff421fa115b8a4b24f5d6e9f1fb343",
+      "bytes": 441605
+    },
+    "1kings-100-right-v1.jpg": {
+      "sha256": "399646b0796b978b2f1606e5ddec99b8417021e3dfe9d667693d78dae6976331",
+      "bytes": 420442
+    },
+    "1kings-101-right-v1.jpg": {
+      "sha256": "57e4e7957e094daf91f7e589d0154d7b233d493c44f9c65ad4450eb14e09995a",
+      "bytes": 458109
+    },
+    "1kings-102-right-v1.jpg": {
+      "sha256": "332f491cad78402ed9bec9cd3ab60f907725021e69d006d31cbd30b16b53cc87",
+      "bytes": 519557
+    },
+    "1kings-103-right-v1.jpg": {
+      "sha256": "363e314e11ba1118946673333c637fdead302a67cc9ee7559b8a86a63ea62fda",
+      "bytes": 651751
+    },
+    "1kings-104-right-v1.jpg": {
+      "sha256": "88148bad085f6e86759ab8651d6916602344c556da205d3cb33b61c2f628f268",
+      "bytes": 411632
+    },
+    "1kings-105-right-v1.jpg": {
+      "sha256": "e9708fde8e72351ecd73af0e75083bed061c13b41026a75c333293957270e960",
+      "bytes": 424692
+    },
+    "1kings-106-right-v1.jpg": {
+      "sha256": "74175025231eccac1cbc1f63f1d96b5762163bfc301c01c9131564f1ea7af0f2",
+      "bytes": 513380
+    },
+    "1kings-107-right-v1.jpg": {
+      "sha256": "3ced129188863c4c555861ab50fcdb44362e35085a0db97e1a630b1e7128d3c4",
+      "bytes": 634285
+    },
+    "1kings-108-right-v1.jpg": {
+      "sha256": "9c240ce732b7dc8c17083aac96bb689a6666ff130dafddce000fd94e92fd97a8",
+      "bytes": 636032
+    },
+    "1kings-109-right-v1.jpg": {
+      "sha256": "52b58c6505dcff4ed495d7414b11d0f8f42da8697d2655475baa1f1618eedf49",
+      "bytes": 602733
+    },
+    "1kings-110-right-v1.jpg": {
+      "sha256": "b512dcc4c88f786d69ff799ccf26d89ccb1c36a5c92ea947997fafb774a3cd09",
+      "bytes": 598126
+    },
+    "1kings-111-right-v1.jpg": {
+      "sha256": "14ca8dbaf12b6dd9c4b3126cc19ae939f2c9f79137229d0efdf5a19f8f046cfb",
+      "bytes": 617201
+    },
+    "1kings-112-right-v1.jpg": {
+      "sha256": "b3d102ade32378da6f9632663fd9acef00bcfc17618a2dbefbb783daf48f09da",
+      "bytes": 580691
+    },
+    "1kings-113-right-v1.jpg": {
+      "sha256": "1efdba7d46f5f92bcdf62b86a585e3a2a48d1f5bc084abde7c132ebec6b1f9c9",
+      "bytes": 582248
+    },
+    "1kings-114-right-v1.jpg": {
+      "sha256": "496db6f02602502011ba909a1f616aa869cc0082b284323ec218c2f5b2cbf6ae",
+      "bytes": 445951
+    },
+    "1kings-115-right-v1.jpg": {
+      "sha256": "1cd4b9dc512541a798b008d9eb32e0f3db4dea3b9a3053fae0edfb712a4ba0a5",
+      "bytes": 533466
+    },
+    "1kings-116-right-v1.jpg": {
+      "sha256": "d180367ddd1f665ef402870fb7bd14f809119705c595e7e3a708d40d5862c110",
+      "bytes": 545936
+    },
+    "1kings-117-right-v1.jpg": {
+      "sha256": "e5d2564e7e290c835191c819f96da025b29cc0ec32a53612037ad41f4115c140",
+      "bytes": 568023
+    },
+    "1kings-118-right-v1.jpg": {
+      "sha256": "5a61158bec8af3ce81a9852f257f5f74032efa1b9e95fb43c0845db46eb5a889",
+      "bytes": 564582
+    },
+    "1kings-119-right-v2.jpg": {
+      "sha256": "c436f1e6ee45325b25140c583e637912955899eba8d4b572374285b2a2c12c3b",
+      "bytes": 485377
+    },
+    "1kings-120-right-v1.jpg": {
+      "sha256": "e61bc9196e70afa77150fd2cff42e145576fa244f0ccb13e493d3ab41ab7f799",
+      "bytes": 631723
+    },
+    "1kings-121-right-v1.jpg": {
+      "sha256": "cadb4cb7226f8b241e01953a1b1273d8686fa2c77fbc71876f673e4a6757c405",
+      "bytes": 617028
+    },
+    "1kings-122-right-v1.jpg": {
+      "sha256": "125ec90aa893ff06f64483451a9fa1a54f0bcead2c16e41b157d32a01b004686",
+      "bytes": 707803
+    },
+    "1kings-123-right-v2.jpg": {
+      "sha256": "c9958039e3bdefe315bd5ef511000f3731bec6475175cb12b9085f35513a9a27",
+      "bytes": 559332
+    },
+    "1kings-124-right-v1.jpg": {
+      "sha256": "ebec6279a4ff2183902fea5104b5b1fddbc99e519310a5a9d7fc387de9aed66c",
+      "bytes": 561261
+    },
+    "1kings-125-right-v1.jpg": {
+      "sha256": "94f612d9773a4fba57b4994a753eb870d8f746fa7c2f10a398f78038b5f0bc74",
+      "bytes": 484114
+    },
+    "1kings-126-right-v1.jpg": {
+      "sha256": "20f23ba621928e15eaffd28777d347778cc6651eb67964637a7e76ea25192a9d",
+      "bytes": 589525
+    },
+    "1kings-127-right-v1.jpg": {
+      "sha256": "ee4c9026aac5208ab9a5a40665736f435d93dc141929b60e46836214d0195ca0",
+      "bytes": 430061
+    },
+    "1kings-128-right-v2.jpg": {
+      "sha256": "fa4b34eacb3201d351121d8f87aa4dd86d1e65282b616817362c9e0f7c8e480a",
+      "bytes": 511012
+    },
+    "1kings-129-right-v1.jpg": {
+      "sha256": "4c2f2049b6167f7395bd3fbc8e5780b3b81a75d33eb39a3652889f46f76c5ea1",
+      "bytes": 518759
+    },
+    "1kings-130-right-v1.jpg": {
+      "sha256": "5e661bf81cf6a78553f63f6a4fe28f96fd07c2647d07e049bfaccecaae2cd6cf",
+      "bytes": 473320
+    },
+    "1kings-131-right-v1.jpg": {
+      "sha256": "c60d66d00ca686991f585870c0ee4137d4f6c861c2a85fa0abcc70cd9df0ffed",
+      "bytes": 478821
+    },
+    "1kings-132-right-v1.jpg": {
+      "sha256": "6691b9585f6647cff3d0cb5ae5dce3edddb68078c8c4612376579f807ab8d5b2",
+      "bytes": 518410
+    },
+    "1kings-133-right-v1.jpg": {
+      "sha256": "196767034e7f86b28ce90b20f954c7dce9a7583a14645fbf14c532dd005ff90b",
+      "bytes": 511675
+    },
+    "1kings-134-right-v2.jpg": {
+      "sha256": "162b85c2cf5f00e7a1639fa54b2be630bac58899f58dc276e184e059b2abfcbe",
+      "bytes": 563059
+    },
+    "1kings-135-right-v1.jpg": {
+      "sha256": "0cdbcde2ae3d64f9c8ed8d2fbace0a5e691163bba703de3820279b1b99844102",
+      "bytes": 508510
+    },
+    "1kings-136-right-v1.jpg": {
+      "sha256": "aa9bbf8d13228dd5b00554eac3d5b792f83d0c5b1a779e99bf42287647f342df",
+      "bytes": 535448
+    },
+    "1kings-137-right-v1.jpg": {
+      "sha256": "95b8c9025f4a0d4e6dd43d98ab0cdae44fc340c5b08a4db8449ff430f2aaf3c9",
+      "bytes": 524313
+    },
+    "1kings-138-right-v1.jpg": {
+      "sha256": "3fb2deed32352c38f74afd4bc7638e5b689f9caa27f467b3f4a30934dfcb97d0",
+      "bytes": 561028
+    },
+    "1kings-139-right-v1.jpg": {
+      "sha256": "3e6d8e3994fbf8d561cb54b7afb4b8f3746170fb1353689199a2f9027cca47ab",
+      "bytes": 534204
+    },
+    "1kings-140-right-v1.jpg": {
+      "sha256": "92b72f186f545768c50c7030aa61c634bae4c86aa763bad3018adefa1951ce75",
+      "bytes": 431206
+    },
+    "1kings-141-right-v1.jpg": {
+      "sha256": "53eb85682948b4665051fcdb074495f40d49a1605e8495e2c20e8443323f28b8",
+      "bytes": 472516
+    },
+    "1kings-142-right-v1.jpg": {
+      "sha256": "43e4a34cd9ffd282fb3eafd9ef256e9ff1250701270e46ece62b493ea1c74157",
+      "bytes": 498359
+    },
+    "1kings-143-right-v1.jpg": {
+      "sha256": "76f1a382a6b29d7eb205f7aac7766bd96f6ad289015953faa6a8d8d8b8b605e1",
+      "bytes": 608722
+    },
+    "1kings-144-right-v1.jpg": {
+      "sha256": "d9492eed4c17f70e396e8bd747be4c39628ce4d24f80d5f846a3fbe5d22b31ad",
+      "bytes": 546822
+    },
+    "1kings-145-right-v1.jpg": {
+      "sha256": "f96751595b52f0483e357d582477496f2885dc2ba3f8f4d0b54bce0ab138f0d0",
+      "bytes": 549107
+    },
+    "1kings-146-right-v1.jpg": {
+      "sha256": "0a81a94bc9c2a2fbb9ad2d3389aac25558b5a254c950ed9645ba49de57a4b4d6",
+      "bytes": 547251
+    },
+    "1kings-147-right-v1.jpg": {
+      "sha256": "712a227f8257fbb6e7eaa5d8ae1b4261be2e44e3cf0a5514c2d06b11a91e6ce5",
+      "bytes": 583161
+    },
+    "1kings-148-right-v2.jpg": {
+      "sha256": "d1151eaf55503cf7ce830e0a23a617d22530e8a40b224a9a7f0494e61c4ccd4e",
+      "bytes": 507867
+    },
+    "1kings-149-right-v1.jpg": {
+      "sha256": "35ad215cacaa54f17edaa05f83ad9194c2751e1dd5703f0d5c3e6ec88ccb391d",
+      "bytes": 484684
+    },
+    "1kings-150-right-v1.jpg": {
+      "sha256": "cd431ece760f65320f072407f070004215cfb1e74aa29bd4a0bdf6e37f1468a9",
+      "bytes": 449579
+    },
+    "1kings-151-right-v2.jpg": {
+      "sha256": "4b3fda6a97974f1ffaab7709eead68530339023c25a08f4bfb4fa71794224a7e",
+      "bytes": 443486
+    },
+    "1kings-152-right-v1.jpg": {
+      "sha256": "67fec78046b81c4759484867adf5ec723177a6cdd0449e902a3dc9469fc9af9f",
+      "bytes": 518790
+    },
+    "1kings-153-right-v1.jpg": {
+      "sha256": "cf032a1ede306c35cedb3ffcf6d5ae91e535fde58bc07d3851867aedb34489b9",
+      "bytes": 680319
+    },
+    "1kings-154-right-v1.jpg": {
+      "sha256": "30eeff0fd1df7971024ab005de6b6038fe4a75c67403a3ad970d22e9b315494b",
+      "bytes": 660399
+    },
+    "1kings-155-right-v1.jpg": {
+      "sha256": "d286eb6246c8e67d37907b5acb896f4c4aaf096f2f46dfaa293dfaf0800ea85e",
+      "bytes": 439910
+    },
+    "1kings-156-right-v1.jpg": {
+      "sha256": "943f6d63c3ceada90e1e364bc28d8d1fb56023f0fb60f5bdc6fb4371075bb536",
+      "bytes": 472347
+    },
+    "1kings-157-right-v1.jpg": {
+      "sha256": "26f0159a392255f16a2b7a758b8208d1128b46e49ff6d7af86abf08f1939d38e",
+      "bytes": 660645
+    },
+    "1kings-158-right-v2.jpg": {
+      "sha256": "070d78b12764df6775f6a11661d0c41ed3717053d3c8953b1456c883c8aba44c",
+      "bytes": 614338
+    },
+    "1kings-159-right-v1.jpg": {
+      "sha256": "121e6a15672fc9f04e2f48e298e9784f67996559c77ac49572d05279bbe053a8",
+      "bytes": 613280
+    },
+    "1kings-160-right-v1.jpg": {
+      "sha256": "226c03e27561c9900f71e146610f86c39f83118c2226f081f539108521f19b7f",
+      "bytes": 537841
+    },
+    "1kings-161-right-v1.jpg": {
+      "sha256": "c9cecd2d19062f0ad2d1149159766bda80f19190e126070db5e2ed1c727353d5",
+      "bytes": 488152
+    },
+    "1kings-162-right-v2.jpg": {
+      "sha256": "a5370bd34fe15803f294bbb274383da6daa32e169df424ad8e570b29f07b4808",
+      "bytes": 415881
+    },
+    "1kings-163-right-v1.jpg": {
+      "sha256": "817d4e7b7f470d714a55c70641c12b84320015914132ccf8429ff3ba9e030a0e",
+      "bytes": 595916
+    },
+    "1kings-164-right-v1.jpg": {
+      "sha256": "4c839fe084f5fb198467339d5bf0168cdbac95680ac265dbcb45fafbe3abf411",
+      "bytes": 464102
+    },
+    "1kings-165-right-v1.jpg": {
+      "sha256": "06dc9a420a58d7e08b1e1ccdcc36d2bdff6d09cb3e3b82b722dfb07359f82654",
+      "bytes": 504398
+    },
+    "1kings-166-right-v1.jpg": {
+      "sha256": "c4cbd14134a654fe550478771a1374282f91a07e8a7fd20f106e0ab0aa0ec7be",
+      "bytes": 480955
+    },
+    "1kings-167-right-v1.jpg": {
+      "sha256": "129a217eabb9da4fac9c65999382781ef72ddc7611e5b29149bb9a3faf1f1695",
+      "bytes": 622468
+    },
+    "1kings-168-right-v1.jpg": {
+      "sha256": "2151392d783174236cccc6dea8487c19a9fee60f1bbc6fb1fcb2f71093248e5d",
+      "bytes": 439512
+    },
+    "1kings-169-right-v1.jpg": {
+      "sha256": "9dd4efd481a78c47002cce783619caec73b1b5e16adf92c5f1f154a2ed9c6fd4",
+      "bytes": 662508
+    },
+    "1kings-170-right-v1.jpg": {
+      "sha256": "10f0596bc03bfcfd910af53c8489e2c7669315e7d1fc47a4fae658114fd60f97",
+      "bytes": 587221
+    },
+    "1kings-171-right-v1.jpg": {
+      "sha256": "3872832d027df73524ba05ca8c4f17e7fe6cdae45e5d1c6adf555dc6b3b8d0ab",
+      "bytes": 496080
+    },
+    "1kings-172-right-v1.jpg": {
+      "sha256": "9f2860f6969a35c20351f1377640d1230476d2b709da84a26895c0833564341c",
+      "bytes": 592601
+    },
+    "1kings-173-right-v1.jpg": {
+      "sha256": "a5a87f271b7b5e966fbb031d45f0b3a44b93734d5ec9921c61bc368e833c4608",
+      "bytes": 427727
+    },
+    "1kings-174-right-v1.jpg": {
+      "sha256": "5b88e866ad87eeac9baf632c242a4b836eeceebf661482ea9347c1eda1472ecf",
+      "bytes": 619191
+    },
+    "1kings-175-right-v1.jpg": {
+      "sha256": "fd4a754fc4e06a09f2d34840ab93423717905788b904068ac1c67e72f030f8d1",
+      "bytes": 495901
+    },
+    "1kings-176-right-v2.jpg": {
+      "sha256": "7b2fe737745d0e9aaa1d091236fb2cc0e069a36b4829aaecea473471ef0eb7d5",
+      "bytes": 552503
+    },
+    "1kings-177-right-v1.jpg": {
+      "sha256": "ad0d30d0971e00b7315e33b2a7413e5d2dafa3a3bb4e7571b59c9d25aeefc90f",
+      "bytes": 588546
+    },
+    "1kings-178-right-v1.jpg": {
+      "sha256": "d3800000289dfe7794236b651b48a2e66906d3d675dd152d3f5ba138308141aa",
+      "bytes": 516570
+    },
+    "1kings-179-right-v1.jpg": {
+      "sha256": "01faa06f24bf7cab610cb22df6d37519c39812fd6f456516c1943fd4c04169f8",
+      "bytes": 645787
+    },
+    "1kings-180-right-v1.jpg": {
+      "sha256": "d9d127c3b49bfb9783966c1ddaf8b7997db5f33bdcf913850472872915cc5264",
+      "bytes": 516018
+    },
+    "1kings-181-right-v1.jpg": {
+      "sha256": "56a97c547c73e79a54723732b0f40011fbf72a5a2a92965cde7134e9499bfa53",
+      "bytes": 480506
+    },
+    "1kings-182-right-v1.jpg": {
+      "sha256": "f1e92667882ea64e5c5a2820cf2dec7e33e40cfb9f2da33626d3fc14bf732170",
+      "bytes": 542039
+    },
+    "1kings-183-right-v1.jpg": {
+      "sha256": "d8f78b8edbccf5327d5507f4795b6f26011585a97a57f3fa816072853609431f",
+      "bytes": 499698
+    },
+    "1kings-184-right-v1.jpg": {
+      "sha256": "0f2da68df4cce9296b84db9de6dc02ab0b06396c448314908ef9aef2fb688b7c",
+      "bytes": 472469
+    },
+    "1kings-185-right-v1.jpg": {
+      "sha256": "eaff9c2889f7089c4fbee1c83aca8413b172b7c4de58ee0dc07dc2947c090011",
+      "bytes": 512520
+    },
+    "1kings-186-right-v1.jpg": {
+      "sha256": "c4c096f3866e4f6c23fa1cbb92c946597d571da632550ff14774afec307d35a1",
+      "bytes": 475214
+    },
+    "1kings-187-right-v1.jpg": {
+      "sha256": "90e576fe4dbe118ca6f1a1cef5e79589a61208e011c89b736bedab9c5889ae07",
+      "bytes": 507936
+    },
+    "1kings-188-right-v1.jpg": {
+      "sha256": "98323b895bb02bd6205e72918ed807474243ef3af4d355a3c69338d93d3e0ed6",
+      "bytes": 489617
+    },
+    "1kings-189-right-v1.jpg": {
+      "sha256": "3a67fec3418fae23fbed43b10a40eccad2de5b1ce264c69c023e44676efb74e9",
+      "bytes": 578023
+    },
+    "1kings-190-right-v1.jpg": {
+      "sha256": "87b77027f7611c11673627020c771ba63dc769c4e77db8e5fd46236cfeb627a4",
+      "bytes": 582090
+    },
+    "1kings-191-right-v1.jpg": {
+      "sha256": "b2d62cb545c93a54a42bda6a2a8b230a8227aded8525d67a1126924ca68391ce",
+      "bytes": 542393
+    },
+    "1kings-192-right-v1.jpg": {
+      "sha256": "94a830e12402c2fdcba2b790766abbcadd810fe42f59950bab466d66529222fb",
+      "bytes": 506798
+    },
+    "1kings-193-right-v1.jpg": {
+      "sha256": "3690477875e17e3120faf2d13ece13ba4d47aee7cbb89f45983ed5e646bce848",
+      "bytes": 485058
+    },
+    "1kings-194-right-v1.jpg": {
+      "sha256": "b3599d4113231ec49caf28346bd8324ea635fc06ee302e8a8118613f62c5150d",
+      "bytes": 543236
+    },
+    "1kings-195-right-v1.jpg": {
+      "sha256": "57cf5d3ebb29f38d09b3e7c05e27c3f765a0d2b32a28494124da5aecb3f9d25b",
+      "bytes": 442235
+    },
+    "1kings-196-right-v1.jpg": {
+      "sha256": "d4f3803732f1ade183c50881e0edc6fdd1a282bbc2d7054aa61d12290c2d329c",
+      "bytes": 634123
+    },
+    "1kings-197-right-v2.jpg": {
+      "sha256": "36fabd6ff3bf7ebdaa06f59fd42fc6104181659554deeb8f3e6bb79d36fff730",
+      "bytes": 534228
+    },
+    "1kings-198-right-v1.jpg": {
+      "sha256": "b4237ba1aae1befe5f0b39a9ad6cf8e4e88a3941b3bd80307c7474f71306a142",
+      "bytes": 584534
+    },
+    "1kings-199-right-v1.jpg": {
+      "sha256": "1e15de51f217755e0b3738e981c248862fc12481d3a42ddc39fc4e225530aa40",
+      "bytes": 538226
+    },
+    "1kings-200-right-v1.jpg": {
+      "sha256": "f7d7e7fda2eb986edf0dff051d6f06e46c6b620c971e745725f093b1374241e0",
+      "bytes": 497237
+    },
+    "1kings-201-right-v1.jpg": {
+      "sha256": "4df70c1d11dc508c5b2938d0622e122d19e6d41e2f0c115cf54f0f0180acc806",
+      "bytes": 511745
+    },
+    "1kings-202-right-v1.jpg": {
+      "sha256": "9e0803e611aca380cbfb3f9969653280518644afcc1cf9a08d1806702634946b",
+      "bytes": 438205
+    },
+    "1kings-203-right-v1.jpg": {
+      "sha256": "2dd88291d2b0d1135856cb15c007d3c3e2d5e3e24e3c1021b0a932a85fb615f2",
+      "bytes": 475362
+    },
+    "1kings-204-right-v1.jpg": {
+      "sha256": "f052bf7cbd1777c35609718809a126f719195edadbca41ba50b5a3600f8d47b9",
+      "bytes": 587626
+    },
+    "1kings-205-right-v1.jpg": {
+      "sha256": "95239040b7900ccd12be930616d1f316f2c0b747bb1fab38a9b879b5346347a9",
+      "bytes": 486902
+    },
+    "1kings-206-right-v1.jpg": {
+      "sha256": "d9ce4415dc34e981997c8906b3c6b01ac088cefdc9e3ac4c3a61e6870b9e4df5",
+      "bytes": 589306
+    },
+    "1kings-207-right-v1.jpg": {
+      "sha256": "473d42416cf1f4f43a6c3ab35b3fa4930a9e50f8f0f96ac9bfe1cf696c791b5c",
+      "bytes": 546299
+    },
+    "1kings-208-right-v1.jpg": {
+      "sha256": "4c89811a731c2c1a32b8e63dbd7ba4018206b54e3e036bb73751e2f828a69b92",
+      "bytes": 475749
+    },
+    "1kings-209-right-v1.jpg": {
+      "sha256": "6661186855e8aad16488e39324b8ecbee7028d143d2ff37713b6f1a2f2f06300",
+      "bytes": 539689
+    },
+    "1kings-210-right-v1.jpg": {
+      "sha256": "249707de96f39b7abce959621865dc2446d3c7a060bc46326cd11ad0517bf913",
+      "bytes": 609326
+    },
+    "1kings-211-right-v1.jpg": {
+      "sha256": "862ca934c6504884ea0189eb5afaaf485845aed0dbec11443dbc0d61c88f5434",
+      "bytes": 351655
+    },
+    "1kings-212-right-v1.jpg": {
+      "sha256": "99a976dc0fa1fa331cf782ff3937730e678bc58f4d9f53015cd4b833eacb2c64",
+      "bytes": 538898
+    },
+    "1kings-213-right-v1.jpg": {
+      "sha256": "adcc3ae2d8c00a4364cbe06b672f32b612e675216e30970317efcf58b867aace",
+      "bytes": 539327
+    },
+    "1kings-214-right-v2.jpg": {
+      "sha256": "7566be0fc933838a2f474064c60a127114005bf47c11c7b77b5bea6e17d6deaa",
+      "bytes": 588486
+    },
+    "1kings-215-right-v3.jpg": {
+      "sha256": "a2585dfcfe8302bea53725e6374b32054f99eb344ab520ca264df65c086525f7",
+      "bytes": 586960
+    },
+    "1kings-216-right-v1.jpg": {
+      "sha256": "88e2706a79ae949e4a4fd477603ef8aad2577d398ad0f2fe73b3f388bf3ca8c2",
+      "bytes": 491933
+    },
+    "1kings-217-right-v1.jpg": {
+      "sha256": "3fff4570cf1a77ffa2c495dcc1a83d8375deded906595b55eb61a3588bdc573b",
+      "bytes": 559416
+    },
+    "1kings-218-right-v1.jpg": {
+      "sha256": "d9e4fad9abb9617ce6f3921cc1e404918cc0788fb72e273a148161b6ba34e622",
+      "bytes": 514254
+    },
+    "1kings-219-right-v1.jpg": {
+      "sha256": "eccd50e5ba737b29f8cb3a09bbe1fcb4496164d338fa5732cc1be2bbd351b93d",
+      "bytes": 625040
+    },
+    "1kings-220-right-v1.jpg": {
+      "sha256": "d8f91f101f6b987f6522849710d8a2a449757e26aa332b915dfed48d20fdf305",
+      "bytes": 496881
+    },
+    "1kings-221-right-v1.jpg": {
+      "sha256": "f61a2bf2fe939fc79a7be08cfdbd465e62f09a174e600acc630aafc558fdf8a1",
+      "bytes": 505089
+    },
+    "1kings-222-right-v1.jpg": {
+      "sha256": "e26a64288f9656684672d91e4f1056cd1a3c16da52af10f39c5dafee2dc16049",
+      "bytes": 558479
+    },
+    "1kings-223-right-v1.jpg": {
+      "sha256": "7664823c0a170bd0f178b49751883445cd41e1e52a4e1e8c997bebbc94787a8d",
+      "bytes": 428296
+    },
+    "1kings-224-right-v1.jpg": {
+      "sha256": "a4e80902ae0c59ad948317a9bb79de592c665a4313537e5365b56ade709eb5e2",
+      "bytes": 537180
+    },
+    "1kings-225-right-v1.jpg": {
+      "sha256": "bfd15871228efe0eb71c519559b25d4054be3e872c11e4de32e63c96307d467d",
+      "bytes": 520474
+    },
+    "1kings-226-right-v1.jpg": {
+      "sha256": "64609024a5ea65441c9ab40ceb6356f6a6ab5c300e2a83bc05c24fd792f36929",
+      "bytes": 455259
+    },
+    "1kings-227-right-v1.jpg": {
+      "sha256": "e61e260e541745a133b3df07dbae3bc61e140c053e783a7607d56c3d2e261ba3",
+      "bytes": 475962
+    },
+    "1kings-228-right-v1.jpg": {
+      "sha256": "9c5fb4c571c9cb98ee7968b6c881c8dcf332845000a5040af85221f2e8c14077",
+      "bytes": 521566
+    },
+    "1kings-229-right-v1.jpg": {
+      "sha256": "e0e1508e3aec15b0baf215ee21011e34883591efb7dbefe0e08dd740003df767",
+      "bytes": 549966
+    },
+    "1kings-230-right-v1.jpg": {
+      "sha256": "563db9c31b0c84b263e7667d1dbc17ecade81eaad605ab7b057c60f407d46a19",
+      "bytes": 447139
+    },
+    "1kings-231-right-v1.jpg": {
+      "sha256": "f40eeca89dc4c777f44848acc21cd384ac501fd207e2b01bd1be96a802adba5e",
+      "bytes": 512741
+    },
+    "1kings-232-right-v1.jpg": {
+      "sha256": "a144a866133b6b8dfbb7a7730154fc90c1ac10a3ffd5fbb102c094763bc45200",
+      "bytes": 624087
+    },
+    "1kings-233-right-v1.jpg": {
+      "sha256": "2454a50c2987295912fb6aa8a99d05ccbe091fd88a8879d800f50f7b319882fe",
+      "bytes": 608841
+    },
+    "1kings-234-right-v1.jpg": {
+      "sha256": "4abbbea8aa6fa5a8ca8ed38b36c42fd6a7a6684eb995e37230b8c42d1d131a12",
+      "bytes": 527573
+    },
+    "1kings-235-right-v1.jpg": {
+      "sha256": "6bc0665fbd76a52b896851b26a05bdb6dc826f05860d383aa2357c7e1540226e",
+      "bytes": 536050
+    },
+    "1kings-236-right-v1.jpg": {
+      "sha256": "6d5e1b8754412eb05db89b572e7d0106937ae2c79ac9d658c3dbade12475c83a",
+      "bytes": 515198
+    },
+    "1kings-237-right-v1.jpg": {
+      "sha256": "9b2f1f41eb366c3e598a9ff1ab3f9b0810181ad0209a9a06c41adfb8bd6c7eb0",
+      "bytes": 562036
+    },
+    "1kings-238-right-v1.jpg": {
+      "sha256": "2b26a35caa20f97f54f4a8c2ec41997af88fcd160ad4f42c91c02247d26917cd",
+      "bytes": 659529
+    },
+    "1kings-239-right-v1.jpg": {
+      "sha256": "1d892dea1c35ab51394a3799e8d9176367ebcac43b22cef3c9e55dd1f309fe21",
+      "bytes": 616495
+    },
+    "1kings-240-right-v1.jpg": {
+      "sha256": "dd12e5b327abcfa44b4121b62a0e5770781fd24e8029f5e903867cc3ca085096",
+      "bytes": 563453
+    },
+    "1kings-241-right-v1.jpg": {
+      "sha256": "824393a15c46825c6405a8e6a0fed2be54a675733dea01fc358f0fbb6da9be87",
+      "bytes": 679558
+    },
+    "1kings-242-right-v1.jpg": {
+      "sha256": "74c29a1a4bc8fd11d8c6c21e27bc91a6922ce70c16de14b17e45a73575abd72c",
+      "bytes": 535195
+    },
+    "1kings-243-right-v1.jpg": {
+      "sha256": "b6bbf619011566eb465a97a8d6adcf05ec645ad46cfd0163d29485f98974dfd2",
+      "bytes": 537823
+    },
+    "1kings-244-right-v1.jpg": {
+      "sha256": "506afb8d8c3ea185bcea5c6a7ca22e03c83afe2c0eef83057696a4dccffa8e1f",
+      "bytes": 491808
+    },
+    "1kings-245-right-v1.jpg": {
+      "sha256": "34ed5527affa99c244638e6287e5e1376d2cb606b1c51b1630100c406309beeb",
+      "bytes": 526647
+    },
+    "1kings-246-right-v1.jpg": {
+      "sha256": "e2111a29c13cc41e2d615968bfba5f7ef7f1f456e3fd662c66eff946c795377b",
+      "bytes": 526260
+    },
+    "1kings-247-right-v1.jpg": {
+      "sha256": "298699296c4deb50d94f9b1105d91922e1e847130b6a6f946fe739250c7e2f91",
+      "bytes": 472452
+    },
+    "1kings-248-right-v1.jpg": {
+      "sha256": "73846ebf53a07493ccdcba35bdf366bc22011b86ccad5c1d361e3d4dfedcef43",
+      "bytes": 440367
+    },
+    "1kings-249-right-v1.jpg": {
+      "sha256": "4277c7ffae33ecc79b53251f6da91dfc35e2f0beb553e724844f26faf2bc5b02",
+      "bytes": 631689
+    },
+    "1kings-250-right-v1.jpg": {
+      "sha256": "c9aaf9d40ce7b8be8c3f4d68f3009efeb4518f79e0b526ec10b00773f4c041da",
+      "bytes": 517024
+    },
+    "1kings-251-right-v1.jpg": {
+      "sha256": "9f5c1982940d5f4f4510baddd55e4ea42a7eeb11273259bce7841eaf6fa23556",
+      "bytes": 393940
+    },
+    "1kings-252-right-v1.jpg": {
+      "sha256": "1c29c749a32e61cf41dde6c91aa87628a15fe00b1277c43aa2329ab46e019db1",
+      "bytes": 489348
+    },
+    "1kings-253-right-v2.jpg": {
+      "sha256": "86d9feb3bda94b5263add521a107ab29a2da01e4156e5c0b8e20d7eb88f03f73",
+      "bytes": 622000
+    },
+    "1kings-254-right-v1.jpg": {
+      "sha256": "1a9171ef0981ce24d4b8d5bd2a123265b2f47ccfa75c0a78b36a07d9e05d198c",
+      "bytes": 559434
+    },
+    "1kings-255-right-v1.jpg": {
+      "sha256": "270294d189302f79f921a9f61c1464b3a250484676624bd9f2edda2396e59235",
+      "bytes": 593711
+    },
+    "1kings-256-right-v1.jpg": {
+      "sha256": "72c89b8b5e816e1d5ca30e2a66f5c5bd4db9568f69aff9df52bfe659de0b4537",
+      "bytes": 375503
+    },
+    "1kings-257-right-v1.jpg": {
+      "sha256": "77d487f8828ecdd4f7c9b3e8dcea00c436ea2198b56397606bac95b29f748ed6",
+      "bytes": 539553
+    },
+    "1kings-258-right-v1.jpg": {
+      "sha256": "8465fc3762a1416a517f0bcc80535f6f535dae51dce13d1ed2b5891b5a6b199c",
+      "bytes": 498716
+    },
+    "1kings-259-right-v1.jpg": {
+      "sha256": "254cec203cc3c24c5293b28d295a25e913af9fd47568d3afdd7efea614529525",
+      "bytes": 494873
+    },
+    "1kings-260-right-v1.jpg": {
+      "sha256": "3bb35034f2ca0bff73fa5d12de1ad203ce0b819b3275533bdfd2c106eea0bb83",
+      "bytes": 603657
+    },
+    "1kings-261-right-v1.jpg": {
+      "sha256": "046b1976b8e4a55c1e8f2fdeb1e67ff9f987660f13dfac470de0823a420ac1fb",
+      "bytes": 500396
+    },
+    "1kings-262-right-v1.jpg": {
+      "sha256": "7f17dfde1b42530272dfcb625904b233c688d28b20457798d10468744de1030c",
+      "bytes": 649779
+    },
+    "1kings-263-right-v2.jpg": {
+      "sha256": "47f8b4f297ccb95d3d64845da288aac41dfefb13822c380c8624d161d183b994",
+      "bytes": 463049
+    },
+    "1kings-264-right-v1.jpg": {
+      "sha256": "fc34537b6510e450b370bd4d648fd5f25426df47f70d1a62f354e7d6d9d22497",
+      "bytes": 400667
+    },
+    "1kings-265-right-v1.jpg": {
+      "sha256": "0e819454bde64d63f3fe2bc57657d5726171134a8012e29778b4402464ff1ea9",
+      "bytes": 390426
+    },
+    "1kings-266-right-v1.jpg": {
+      "sha256": "12a63f3816dc28431ff290c02db0a29dd993a5f4801136755c7a00fee97ad7ba",
+      "bytes": 564843
+    },
+    "1kings-267-right-v1.jpg": {
+      "sha256": "307b0b14937b10d696133543c8d84e94f30d3a8f895c7bf919fcccbe2cb87e4b",
+      "bytes": 452456
+    },
+    "1kings-268-right-v2.jpg": {
+      "sha256": "9a94dc296e54b24d6cec88ed1cced32a41b1211ba363a7e69014bf0d86e07d01",
+      "bytes": 419294
+    },
+    "1kings-269-right-v1.jpg": {
+      "sha256": "376b97f9a198e63dcd912506b9baeac2772c77393c0411aa5501468ba98f64b6",
+      "bytes": 583018
+    },
+    "1kings-270-right-v1.jpg": {
+      "sha256": "9ead9652fec0f6533e52d8d6a7e250e1c004c8dc9e23d5e2289a2eade7e3eb62",
+      "bytes": 444626
+    },
+    "1kings-271-right-v1.jpg": {
+      "sha256": "460dc59543b5543d88af4326a292e890227d3c95caebbe8600c4de2e6a65970b",
+      "bytes": 562606
+    },
+    "1kings-272-right-v1.jpg": {
+      "sha256": "7add9f947c0269fb5a7755db005ad68101cf7cc02addddbbd3362acab87ac786",
+      "bytes": 574578
+    },
+    "1kings-273-right-v1.jpg": {
+      "sha256": "9064bff00a8cd4c4e0eb52789e54dc1944e4dbe125e07051fe94bc16e121b44f",
+      "bytes": 615861
+    },
+    "1kings-274-right-v1.jpg": {
+      "sha256": "5030c18d4d3caea1c65c80b5d40675770423c82da07031be410fe94357df316f",
+      "bytes": 512835
+    },
+    "1kings-275-right-v1.jpg": {
+      "sha256": "808fc531fc013c78e9a732e7363b94f7a42f1e13e285f17421c84c7c53107085",
+      "bytes": 468787
+    },
+    "2samuel-001-right-v1.jpg": {
+      "sha256": "746acb3b4b1527d6cf278d215044c0a82210ad0a6c5d72dd074494a8a0337fdb",
+      "bytes": 579727
+    },
+    "2samuel-002-right-v1.jpg": {
+      "sha256": "3afe201f10557b8580a2b7e9c5d4aa4f570207816b1237d0d785b7f1f05578e0",
+      "bytes": 491014
+    },
+    "2samuel-003-right-v1.jpg": {
+      "sha256": "f90d0d7ecc84a81930d7b8f7cc565980afd1aa7491436a1e0c5d43aa970a6503",
+      "bytes": 530574
+    },
+    "2samuel-004-right-v1.jpg": {
+      "sha256": "0abf7a8e9cce25d5c12e3ff5f0ea3dc2b04315fda2852376643a7c4b76b12658",
+      "bytes": 489953
+    },
+    "2samuel-005-right-v1.jpg": {
+      "sha256": "f2fb1d20bed84e40891560beb6635e43f44270c4fda8c20a4bc0303e15254702",
+      "bytes": 509941
+    },
+    "2samuel-006-right-v1.jpg": {
+      "sha256": "34cf5543e89a7a2a05416a74fd85e795ded88b689026f55c382efe6c9f3830be",
+      "bytes": 456860
+    },
+    "2samuel-007-right-v1.jpg": {
+      "sha256": "c140b1a39b8475de971ef9e2190c6d34911eaec71e5246a864235a9af4fb36fe",
+      "bytes": 435185
+    },
+    "2samuel-008-right-v1.jpg": {
+      "sha256": "1b473c95bd6cc0c2f822d7824c51d7c3ea83bdc32fbd7ddaf8a5339442c0b4ed",
+      "bytes": 627571
+    },
+    "2samuel-009-right-v1.jpg": {
+      "sha256": "a68b6cdc122b1a0eb1376145931f2137c0bd03dc9b7014fde863f99406b79ee0",
+      "bytes": 568802
+    },
+    "2samuel-010-right-v1.jpg": {
+      "sha256": "228349f6dcba21eabe21b821167b54a3e679a35ce930713843816c4163ee2698",
+      "bytes": 461160
+    },
+    "2samuel-011-right-v1.jpg": {
+      "sha256": "91bcf92aff31654d624030e314add92ca5fb75798d364fd63c82d0a6125e7f9e",
+      "bytes": 603648
+    },
+    "2samuel-012-right-v1.jpg": {
+      "sha256": "0298b8f2fad864907ecba14d1e637e9d163b547b7fbb42185d43a36a17cafb4d",
+      "bytes": 682805
+    },
+    "2samuel-013-right-v1.jpg": {
+      "sha256": "3390c11653cc47e04ac8ce6884cff13642dbb16e2c1c4829991333b86dec8633",
+      "bytes": 608162
+    },
+    "2samuel-014-right-v1.jpg": {
+      "sha256": "017ed8fb9114b0c5e467537ff17cd1b2b6196fd2bdd67954d83013c49fc17095",
+      "bytes": 523865
+    },
+    "2samuel-015-right-v1.jpg": {
+      "sha256": "48a91582ab51a5dd8849b6581c7f84e48ec2fd5b6505b014005179f428229a55",
+      "bytes": 584217
+    },
+    "2samuel-016-right-v1.jpg": {
+      "sha256": "6397db5bca0793979701c95cad0b168d98a9844b69a3d6b25acc956171359c0d",
+      "bytes": 601142
+    },
+    "2samuel-017-right-v1.jpg": {
+      "sha256": "b7a74a82d7abfbce7562c68fd2d26b91bf1f7b83177d3f12cd5d569d3f73dc05",
+      "bytes": 669621
+    },
+    "2samuel-018-right-v1.jpg": {
+      "sha256": "2e32df2045e35b946dd1669a9248e1f54fd9c9c0689186bcb25aa4463388142f",
+      "bytes": 494912
+    },
+    "2samuel-019-right-v1.jpg": {
+      "sha256": "62d49440888014256d36cfcc6b48ab204824776d3b24746b7eca5d6842bb0b07",
+      "bytes": 545045
+    },
+    "2samuel-020-right-v1.jpg": {
+      "sha256": "35d142684fc6d7d1c6f5a5c14ddaa5b709774968c57f60555ce689070eae5ded",
+      "bytes": 540663
+    },
+    "2samuel-021-right-v1.jpg": {
+      "sha256": "d07da18b6b4e1a195e1145deaa7900752363a7e3708dcb5ad53f6ba89161ae78",
+      "bytes": 556194
+    },
+    "2samuel-022-right-v1.jpg": {
+      "sha256": "ac837756bfafc40e577ef39eb7d0ad7925ab24c3a15d17df66df280e0f8c4246",
+      "bytes": 534635
+    },
+    "2samuel-023-right-v1.jpg": {
+      "sha256": "0a5ebaafe797a8834b7b1ba6aba53da7066b636693ae238b7bde88740dc9281a",
+      "bytes": 564785
+    },
+    "2samuel-024-right-v1.jpg": {
+      "sha256": "ff4b0b2e32901981e5422f5453cdc18fbad2c15a9b2b066fd811a5421e6d896a",
+      "bytes": 558656
+    },
+    "2samuel-025-right-v1.jpg": {
+      "sha256": "10f2566f84335967dab6ce30e6c342874eb834a40f2abcc2bb6284fbf475580c",
+      "bytes": 524720
+    },
+    "2samuel-026-right-v1.jpg": {
+      "sha256": "4e64e3b52943178b9c7ebb6f795d5087ef30ec5d1bc1e2003e02006d3ba472c5",
+      "bytes": 633064
+    },
+    "2samuel-027-right-v1.jpg": {
+      "sha256": "edd2bd4dfa7a981b5b707dc2e42e13fe85e66e125427a2d33d56da6cec78566d",
+      "bytes": 445748
+    },
+    "2samuel-028-right-v1.jpg": {
+      "sha256": "14314a26b440b301c609ba617473e58ed4b855340c4e00d1487a2666a025b8a0",
+      "bytes": 408046
+    },
+    "2samuel-029-right-v1.jpg": {
+      "sha256": "fbf770677b34b53816d59c8bf907bf1483e983b43660d06352c8e0af7a167ceb",
+      "bytes": 498737
+    },
+    "2samuel-030-right-v2.jpg": {
+      "sha256": "bbd9261a74f9bc8d0cf6e7d4077a115bef18f60d82b684ec05ce67074a58a6d5",
+      "bytes": 593798
+    },
+    "2samuel-031-right-v2.jpg": {
+      "sha256": "d65a32664e0bccec46d96fb3dac7309fa7886d1b26408f724a421da2deb20846",
+      "bytes": 505180
+    },
+    "2samuel-032-right-v1.jpg": {
+      "sha256": "6163c3ed554617fe69b9f2e9ed64ac82687c683d99486130a4194640fc37d69e",
+      "bytes": 526117
+    },
+    "2samuel-033-right-v1.jpg": {
+      "sha256": "649134f819a70ecb4bf739dc0318012a1f0303eca905033ee0a6a7286e46ffe8",
+      "bytes": 626850
+    },
+    "2samuel-034-right-v1.jpg": {
+      "sha256": "d60903a5907cadac923e10091383b86c6d356130b764a08e2f0215ee1023be46",
+      "bytes": 584946
+    },
+    "2samuel-035-right-v1.jpg": {
+      "sha256": "24f963925513d93396bb3b8ce3969c7c6b188775eb891ea9fcfbb4dddd8f9cc0",
+      "bytes": 496227
+    },
+    "2samuel-036-right-v1.jpg": {
+      "sha256": "f3405d43304a6723c8529bf515194fdacd2a77f0fcb7e6e8f6dd81f04d464f5e",
+      "bytes": 681234
+    },
+    "2samuel-037-right-v1.jpg": {
+      "sha256": "b2d7448362a5bfb9b79b99a1db70f1464755730a8c65cc7fa28b4bc3836c609e",
+      "bytes": 623969
+    },
+    "2samuel-038-right-v1.jpg": {
+      "sha256": "ea70aa379b3a306af947d85351012e8d03123770dea54b993fafd4ac03aae844",
+      "bytes": 517770
+    },
+    "2samuel-039-right-v1.jpg": {
+      "sha256": "ee44d46a930977d05d158fb3632b4583b38f0847446b49b5b3f61cc0c3d8a42e",
+      "bytes": 558743
+    },
+    "2samuel-040-right-v1.jpg": {
+      "sha256": "4924e9a398173cd9429ded69a67bb7a684f201b9521d28c92ff9e660f726f2df",
+      "bytes": 594954
+    },
+    "2samuel-041-right-v1.jpg": {
+      "sha256": "544234703be0cb320af6e6fa76ea93b218a094307b417765e226c07240fd1a13",
+      "bytes": 699493
+    },
+    "2samuel-042-right-v1.jpg": {
+      "sha256": "b1527df7f328154ff3101b8eb09539dafffd1cae1322d6aa5926ed0d895606c3",
+      "bytes": 623025
+    },
+    "2samuel-043-right-v1.jpg": {
+      "sha256": "1e1ac2baf74b48186bdf6d2763005b2b0a29b7dfadbc5ebf74b2b22900401d0a",
+      "bytes": 677240
+    },
+    "2samuel-044-right-v1.jpg": {
+      "sha256": "a9a4e1acfaf8d5e1eff1be0cd3ec0c18193ca2a7882bf4c5423b2c113ba2818c",
+      "bytes": 588244
+    },
+    "2samuel-045-right-v1.jpg": {
+      "sha256": "f25f852a07cd9d04b1abe33f21e5d5e06c8ec6ec75c72403acfc47a1dbd2eb8a",
+      "bytes": 541211
+    },
+    "2samuel-046-right-v1.jpg": {
+      "sha256": "7928326c8c7fc024c44731f4f4710fa72cd5a57d43510787b4c6d1b10ed9a0ee",
+      "bytes": 641005
+    },
+    "2samuel-047-right-v1.jpg": {
+      "sha256": "7506c678adb983f5c99ac2b4f4ef093853971955caad58579c491d8313b11697",
+      "bytes": 610297
+    },
+    "2samuel-048-right-v2.jpg": {
+      "sha256": "52b19ae709efd6c5a23fdecef9fcf6c8f30d7b5b9ff432c6058d8a72181950d0",
+      "bytes": 453097
+    },
+    "2samuel-049-right-v1.jpg": {
+      "sha256": "ba3d863cf8aab6cb436d7cb261a0165bf3209846819db60097e8b76010b39d0c",
+      "bytes": 491961
+    },
+    "2samuel-050-right-v1.jpg": {
+      "sha256": "9b207a999da2ed0a2a4cbcbfe10e752abef8d7be702454bbb6fa63133ba1777f",
+      "bytes": 485335
+    },
+    "2samuel-051-right-v1.jpg": {
+      "sha256": "2f8af1c57a7684dd459b575eed2bbc690c7ba2365ae39614b8e6b1d6e6d0afc5",
+      "bytes": 542332
+    },
+    "2samuel-052-right-v1.jpg": {
+      "sha256": "7344e606cce29dacd47858358c42b9d10556b2a5f711d0006dd21875a286af43",
+      "bytes": 510184
+    },
+    "2samuel-053-right-v1.jpg": {
+      "sha256": "ee91585dae5e8dc4041af570f52e66641024471ea0ee1d4c7aa0a2393d399449",
+      "bytes": 457570
+    },
+    "2samuel-054-right-v1.jpg": {
+      "sha256": "c29e32255e18ddac096a8f412eba9a2f596fc87e505ab9fb7a12cbcd24e6f7a0",
+      "bytes": 589337
+    },
+    "2samuel-055-right-v1.jpg": {
+      "sha256": "dd2520b79e534dacaabc0e16b354480ccbce85770ece72c7e82969f893116ed0",
+      "bytes": 508844
+    },
+    "2samuel-056-right-v1.jpg": {
+      "sha256": "188f0756b972d458d6effa74699e97e76ab9e6377426fc9384258f94e9383bda",
+      "bytes": 501631
+    },
+    "2samuel-057-right-v1.jpg": {
+      "sha256": "df625106f1137444a771c16ed5c3dbaf55da0c19766e30715e4794d782a69fc3",
+      "bytes": 522402
+    },
+    "2samuel-058-right-v1.jpg": {
+      "sha256": "6f5c5c9375992edf47a2f4034bb1fc29a6c0f07992a151484f451abc1f61289c",
+      "bytes": 499647
+    },
+    "2samuel-059-right-v1.jpg": {
+      "sha256": "b32dae59cd148336b805f378d020bc1d530202ff6881b1f1d593b4329c6d15f6",
+      "bytes": 593537
+    },
+    "2samuel-060-right-v1.jpg": {
+      "sha256": "8b110c512fb74a87e8f0c655d0c05be3520cd84514a49a860e503a428e2d9ce3",
+      "bytes": 628857
+    },
+    "2samuel-061-right-v1.jpg": {
+      "sha256": "8ff386798d04fce22c1a37a3956f98b26e55d76fb0fe0ae8c6bbf88df267c055",
+      "bytes": 662411
+    },
+    "2samuel-062-right-v1.jpg": {
+      "sha256": "6c5ef84fe494807973da93e51c957b205164ffe1d4f5005148e5ff9f9f622cbe",
+      "bytes": 546561
+    },
+    "2samuel-063-right-v1.jpg": {
+      "sha256": "493ec3e0a6cf6f02fb903f035210d49a4d9293776d9f3e519bba74c155652407",
+      "bytes": 618554
+    },
+    "2samuel-064-right-v1.jpg": {
+      "sha256": "412061af3faa1ce72bcbda24533973bcd77ef0340c44509c037bc4926350cea5",
+      "bytes": 520586
+    },
+    "2samuel-065-right-v1.jpg": {
+      "sha256": "c03187d7b5e855bc0122088cd9f3d9d4c31e66fe1a3272aedd46c6ca2a36b7b9",
+      "bytes": 543599
+    },
+    "2samuel-066-right-v1.jpg": {
+      "sha256": "a914f71604e4cf3de03d43f5da6a264e8c6e0eed79ce9e1a6e61b0aee0b2d7fe",
+      "bytes": 583685
+    },
+    "2samuel-067-right-v1.jpg": {
+      "sha256": "0aa86ff4e0f24e00e40e4c774f7e16ef687ff83df2c26ee337e25cdea3d38bff",
+      "bytes": 589789
+    },
+    "2samuel-068-right-v1.jpg": {
+      "sha256": "14dac4ce62f7579bc85d19e26717c4246735562d9fed6b341dd63c671e35fe9f",
+      "bytes": 567541
+    },
+    "2samuel-069-right-v1.jpg": {
+      "sha256": "cd3235ff74a01132d517fb554afae53aac10dd582dfea2e6abb451ed814f8ca4",
+      "bytes": 577690
+    },
+    "2samuel-070-right-v1.jpg": {
+      "sha256": "226b58b1f332923582b8191d43c844966b266f255089fe59b3dbae6ad48420f2",
+      "bytes": 551708
+    },
+    "2samuel-071-right-v1.jpg": {
+      "sha256": "08aff90ab0b96a2cd4d4c877700135a1d6dbab46a9510a8ecb70d41eda68c91a",
+      "bytes": 509839
+    },
+    "2samuel-072-right-v1.jpg": {
+      "sha256": "42c884eacfa549ec5a5dea60c95e18dd3742629f9aa245d7da67ac07fe79b3b7",
+      "bytes": 585395
+    },
+    "2samuel-073-right-v1.jpg": {
+      "sha256": "7c2aa34ad0b75fdc1170323eb51e17157742931086f73ca3e2b68526d2d54e65",
+      "bytes": 639630
+    },
+    "2samuel-074-right-v1.jpg": {
+      "sha256": "12a9fdec60a6fce1d0183087764c602b2b451f8e06677cd7fd1a995c85f1caac",
+      "bytes": 547772
+    },
+    "2samuel-075-right-v1.jpg": {
+      "sha256": "192530735a0880f297f4197f8010c921e90b6b35ffb1b7f546b3c29c3034a603",
+      "bytes": 696620
+    },
+    "2samuel-076-right-v1.jpg": {
+      "sha256": "a4308d9cda5341db152952e85987f9fc36169b4c90cb54263aedb79f266f174d",
+      "bytes": 690340
+    },
+    "2samuel-077-right-v1.jpg": {
+      "sha256": "96362c5726d36ac188c8e84a9b297499913605405b67887235b7bda2dc99ebe7",
+      "bytes": 722946
+    },
+    "2samuel-078-right-v1.jpg": {
+      "sha256": "a0f7d9926c832eda4670fd8f394f279d154490f850170ac831ffac05ea87cd86",
+      "bytes": 447243
+    },
+    "2samuel-079-right-v1.jpg": {
+      "sha256": "39554928713eef8222f4090fc9a16a73d500af605891c0c30e2717a5a3ffd89f",
+      "bytes": 593568
+    },
+    "2samuel-080-right-v1.jpg": {
+      "sha256": "14ef7324201a5054003ff7551d239225a699be9a7c6971fff32f09393267a481",
+      "bytes": 452596
+    },
+    "2samuel-081-right-v1.jpg": {
+      "sha256": "791758e8ffa0ca0d491c4f29434ee439f1b8e349eeb45aab9ed58891a4a105ae",
+      "bytes": 556712
+    },
+    "2samuel-082-right-v1.jpg": {
+      "sha256": "b0fcc93a14e2f9bfbd23c5300e4b6819eb12e98e9c2913aa8ebc2234fe3e0885",
+      "bytes": 449019
+    },
+    "2samuel-083-right-v1.jpg": {
+      "sha256": "09436ad57b754ec9fc2c83ec12c1d82c17277b1413c7717a54b1b4b96a2d8dd6",
+      "bytes": 472829
+    },
+    "2samuel-084-right-v1.jpg": {
+      "sha256": "36467aabbcfa37b3249073c9a8ee695c348610601b2f47c6d13e3e0d7c6f6ee0",
+      "bytes": 513220
+    },
+    "2samuel-085-right-v1.jpg": {
+      "sha256": "feecbfabdfbe9a813e1426a58d75803ed00ceb9d81b0125bb843520e293ded7d",
+      "bytes": 474703
+    },
+    "2samuel-086-right-v1.jpg": {
+      "sha256": "99dde8040433d1af0abb62c6dfb24434ba2ec6b4fb53a37ddc2d4f080d78d546",
+      "bytes": 554683
+    },
+    "2samuel-087-right-v1.jpg": {
+      "sha256": "49bad51b2db3d546358b12b029106eb60823e1176ce464d3ff9459276869d109",
+      "bytes": 505255
+    },
+    "2samuel-088-right-v1.jpg": {
+      "sha256": "73815be3be244a7a7f26c9b8fde2d00d30e089ac15b9e513c98864c72d2eb642",
+      "bytes": 464060
+    },
+    "2samuel-089-right-v1.jpg": {
+      "sha256": "1e9ed7b58e069495bdbb9b7807da672b6f8624a00ffa4ddc03c1cc3b3f3684a2",
+      "bytes": 443429
+    },
+    "2samuel-090-right-v1.jpg": {
+      "sha256": "9fb8fde521f13e6800da0957c7518964e4bb1e2dee731e80758e64cee0065b41",
+      "bytes": 590035
+    },
+    "2samuel-091-right-v1.jpg": {
+      "sha256": "00ae8397a9a3babea090f92bae5019848cd5af54b9bab52ea0c60055e1190c30",
+      "bytes": 476286
+    },
+    "2samuel-092-right-v1.jpg": {
+      "sha256": "7156592f0de0ab228cfb88185097308ac1695b21a65a13dcf6ca7ef6948b9065",
+      "bytes": 435622
+    },
+    "2samuel-093-right-v1.jpg": {
+      "sha256": "6219cd161d17c2e017b8b572c89b31f03ec54435b44da1dcd510518ebc0742b1",
+      "bytes": 502416
+    },
+    "2samuel-094-right-v1.jpg": {
+      "sha256": "9d36d660ba76607a2899047f0ba72e87fa765b7729e68784269d11240d790e6d",
+      "bytes": 462124
+    },
+    "2samuel-095-right-v1.jpg": {
+      "sha256": "a341a76523e06c268e1531446679411c77eb1a862edcdf836865ecf845682a9c",
+      "bytes": 385246
+    },
+    "2samuel-096-right-v1.jpg": {
+      "sha256": "5512a638d160105fdebfb98115a34d739198047b31badecd7b0d2925a3c53d32",
+      "bytes": 389164
+    },
+    "2samuel-097-right-v1.jpg": {
+      "sha256": "65f15c7cdd749eafdef8a620b84a0785c0069b5219664964d3bf3d6c86fa1f9b",
+      "bytes": 481497
+    },
+    "2samuel-098-right-v1.jpg": {
+      "sha256": "3b2b4396f95d827cefc08631469c4d0427679bfa31055908afc543c76b9a6f87",
+      "bytes": 460780
+    },
+    "2samuel-099-right-v1.jpg": {
+      "sha256": "749c2a7018b02f401ff8f9fc991a8af1e0ec92fbd1a2134bfa8d79889767fb26",
+      "bytes": 594980
+    },
+    "2samuel-100-right-v1.jpg": {
+      "sha256": "837beb140754e27cf0f3ce1240ca60c974cd0776e74eaf4fd785be8bf90c1dcd",
+      "bytes": 515635
+    },
+    "2samuel-101-right-v1.jpg": {
+      "sha256": "0c0ae7323b4699221c83023b0d3631e83de0dfb9bd18943378e2e00c74f6fb09",
+      "bytes": 672693
+    },
+    "2samuel-102-right-v1.jpg": {
+      "sha256": "f452431d0de013e185ac8996424fc3fb8937139e87b03fb470306a672b6761ed",
+      "bytes": 456247
+    },
+    "2samuel-103-right-v1.jpg": {
+      "sha256": "c7a1550ded1d7ff6e0139224d279efee73896449ae7aff83d291d5988997c6dc",
+      "bytes": 453929
+    },
+    "2samuel-104-right-v1.jpg": {
+      "sha256": "fd8e18a0d144cb6e1a4404b284a495a7edc605d0d02141469da85db479f20111",
+      "bytes": 517681
+    },
+    "2samuel-105-right-v1.jpg": {
+      "sha256": "0a16221e460ef119cc8c0ead5d833618b2193d89fd90b6a37895a6efc2cd8827",
+      "bytes": 461011
+    },
+    "2samuel-106-right-v1.jpg": {
+      "sha256": "eacacb5d9dac0c0f2e5ffa22933a185380f90380faa16e018594e1f7450638c4",
+      "bytes": 505774
+    },
+    "2samuel-107-right-v1.jpg": {
+      "sha256": "88e0c2a2679e218f833a5ea48bd2835c65e7912b55dd44b2038febbbca705c7f",
+      "bytes": 625548
+    },
+    "2samuel-108-right-v1.jpg": {
+      "sha256": "1c9719c672b4d3c0afd6bd6506df17beacb3d8b6cfc1847dd3d3870442458660",
+      "bytes": 499550
+    },
+    "2samuel-109-right-v1.jpg": {
+      "sha256": "1bebd8da9dd745e50eb2c81cc05aff4a3959416a8fd8978e0e7cd7c26696670b",
+      "bytes": 642375
+    },
+    "2samuel-110-right-v1.jpg": {
+      "sha256": "2a82d742797c55b5ca04416e751586d9d3f52ff530122f06ff58a3758c83271c",
+      "bytes": 563882
+    },
+    "2samuel-111-right-v1.jpg": {
+      "sha256": "9a10d49458dfb388a58ae4c42952c6746cefb78f730d909897370d9b5cddac42",
+      "bytes": 534805
+    },
+    "2samuel-112-right-v1.jpg": {
+      "sha256": "1ffa57946fbbaf2615e57660bbc151d3ac205a35aed89682cf7ee5f77dff572b",
+      "bytes": 542240
+    },
+    "2samuel-113-right-v1.jpg": {
+      "sha256": "49f94fd8f16fc72188943c4d828e59b89841f4945aeaea3d2721c84914eafa11",
+      "bytes": 556079
+    },
+    "2samuel-114-right-v1.jpg": {
+      "sha256": "3f5577649bc278902ee38536d5ebd2991fc42f38334a845f02bcba1c284b931a",
+      "bytes": 508076
+    },
+    "2samuel-115-right-v1.jpg": {
+      "sha256": "0d31ff16c2e816d1e3ed52fafb3d84e41538530db88048e56595a1507a29d50b",
+      "bytes": 471033
+    },
+    "2samuel-116-right-v1.jpg": {
+      "sha256": "c76916cc750cf23896ae2c4f5fd3e9f8353926b71d201505ddd97d191348b800",
+      "bytes": 453102
+    },
+    "2samuel-117-right-v1.jpg": {
+      "sha256": "e3c5f3343c4743e653194b0f84b3b14c68407f6b956db407ce90bf28c5b98ee0",
+      "bytes": 520336
+    },
+    "2samuel-118-right-v1.jpg": {
+      "sha256": "744fd2c7b6217363957988f79bf7a9449651146839e76fcd6e8a830386984678",
+      "bytes": 445570
+    },
+    "2samuel-119-right-v1.jpg": {
+      "sha256": "ba0531fc83b28449063a5945036c5e7f3c9c777e09d85d4bf135065413edb706",
+      "bytes": 467749
+    },
+    "2samuel-120-right-v1.jpg": {
+      "sha256": "19037399ac1301cba87f9dfd8c3b0accd64278f9f7e527278fce01ecc5d6d48f",
+      "bytes": 556061
+    },
+    "2samuel-121-right-v1.jpg": {
+      "sha256": "9836b5384d3ab754f488e6c332d25fad16c61d2dcb93032992071c3bdf1783b7",
+      "bytes": 614974
+    },
+    "2samuel-122-right-v1.jpg": {
+      "sha256": "5cb2aa7e72ed8aae374a4e17b27faf229a44c5b1c5a669645d85400f6e9d3167",
+      "bytes": 642377
+    },
+    "2samuel-123-right-v1.jpg": {
+      "sha256": "be1118d8f9eac03775de61889ade6abe2a4ef8b5233c459ab158d794cbfa2ca8",
+      "bytes": 607797
+    },
+    "2samuel-124-right-v1.jpg": {
+      "sha256": "1f3ce4d777ca18e25b5dc568ef5d09aa88560ed41cdd5b973ac0caed87233b60",
+      "bytes": 457014
+    },
+    "2samuel-125-right-v1.jpg": {
+      "sha256": "c68f0302f0fd76fa439498b44005d711045674c71aaedf8f0549ab16149dc69d",
+      "bytes": 600738
+    },
+    "2samuel-126-right-v1.jpg": {
+      "sha256": "9c23b887a131d588a3a8142a7ceb0e306d63e5f64d20c08464a5678c3dc24649",
+      "bytes": 500536
+    },
+    "2samuel-127-right-v1.jpg": {
+      "sha256": "34d16caf887db74a18dd50713dc4d7bded8c318de501131c66e6fbdc2c930231",
+      "bytes": 553122
+    },
+    "2samuel-128-right-v1.jpg": {
+      "sha256": "2158224e2153902a80be62ee69e7a6ac8ffdd7e925a65e1f421d9995a642f3c9",
+      "bytes": 502208
+    },
+    "2samuel-129-right-v1.jpg": {
+      "sha256": "39e13daf4e261f411e745ecb345ea323089b079123893cae37589a33f7937479",
+      "bytes": 656888
+    },
+    "2samuel-130-right-v1.jpg": {
+      "sha256": "3d1d743c3e21a01ebbf0f9c5ca2beed022c64ac5f2a3df5c7ffdab26f6e916b7",
+      "bytes": 539935
+    },
+    "2samuel-131-right-v1.jpg": {
+      "sha256": "4365901c7b324ac86f5a7e45cf2edabf765d54afb1cc83a2b9d825005510710c",
+      "bytes": 687432
+    },
+    "2samuel-132-right-v1.jpg": {
+      "sha256": "7a98bfb80d52500f5e7458e5be0d74fdc67b46442d151b2eff2d6ac996b3a029",
+      "bytes": 557736
+    },
+    "2samuel-133-right-v1.jpg": {
+      "sha256": "d6b60524f16125a56e22b94364a4d1563769e46c983fd8a19f7234159ee5aad6",
+      "bytes": 632509
+    },
+    "2samuel-134-right-v1.jpg": {
+      "sha256": "02c72321370e2110f61d32f92206ab923f41493f762b3bdc848983618be48fef",
+      "bytes": 627753
+    },
+    "2samuel-135-right-v1.jpg": {
+      "sha256": "44068fb3cb9f38d19705e69ccb9a8bb68ad3da34352e1cc83852463389b6bb7a",
+      "bytes": 491871
+    },
+    "2samuel-136-right-v1.jpg": {
+      "sha256": "7d9187d9cd882db874ce0cd27215ad2af53c78947ac1097a8c146a6ba74418f0",
+      "bytes": 653367
+    },
+    "2samuel-137-right-v1.jpg": {
+      "sha256": "a4dd91687f2ad5aea926e19b270f5bb4dfb6feffd1f38ec4d3e4959a176553be",
+      "bytes": 541697
+    },
+    "2samuel-138-right-v1.jpg": {
+      "sha256": "ccd9999e1e8eabab6c12795867d3b78fde162a92a0c0c1a72eb2d1c06f253724",
+      "bytes": 636506
+    },
+    "2samuel-139-right-v1.jpg": {
+      "sha256": "a0d8ca7a824403a0ed88db9e5bcf26a77f34743e9e52164d280f23a328e7935a",
+      "bytes": 620722
+    },
+    "2samuel-140-right-v1.jpg": {
+      "sha256": "4d1dbb50ee78287148aebc39a4fe184aa6f35c8b91a4b04f656a6e09167942ed",
+      "bytes": 532356
+    },
+    "2samuel-141-right-v1.jpg": {
+      "sha256": "2a0627194cb10bde0655e9f6f2c79c88e21cad958ba65fb1aaef06c0bca21a6b",
+      "bytes": 496479
+    },
+    "2samuel-142-right-v1.jpg": {
+      "sha256": "cda9509833a37f277a01e7ed666dbddd90f9652279d8576da37e254517049a39",
+      "bytes": 504768
+    },
+    "2samuel-143-right-v1.jpg": {
+      "sha256": "dd5c3dccad7c473b9fa098a2fa188ea693000341a882bc350ba6b0cb39579a1d",
+      "bytes": 570429
+    },
+    "2samuel-144-right-v1.jpg": {
+      "sha256": "999641ad9d85ed96d897909aedacd691a7a51724ca9631d6e4c7271eae5e65b9",
+      "bytes": 534096
+    },
+    "2samuel-145-right-v1.jpg": {
+      "sha256": "86f1cbecb6f0b0e83af678128045b52da4acc006ab59e721ac416420f3f910b8",
+      "bytes": 538266
+    },
+    "2samuel-146-right-v1.jpg": {
+      "sha256": "6f3ffdf0ed40ae912ed05814080cfb63084fa110390575d6c8397237cc324603",
+      "bytes": 433156
+    },
+    "2samuel-147-right-v1.jpg": {
+      "sha256": "4d667e4ab3b9b34ccfec5d839d776ff48814053383f4547bc857529aee62ab66",
+      "bytes": 441505
+    },
+    "2samuel-148-right-v1.jpg": {
+      "sha256": "3b9f63d7f1d3dd81b7d30ba40984ae3385a89ed8c1d485392abb1974213ca6a0",
+      "bytes": 423807
+    },
+    "2samuel-149-right-v1.jpg": {
+      "sha256": "48c0cffac1ff5529bd86fc16d42574b5c411ca0b516b094bc118e14e43087b31",
+      "bytes": 504202
+    },
+    "2samuel-150-right-v1.jpg": {
+      "sha256": "3b5eaeaa6fb4356e5147b1521b71354e41e02633312ff17979ffca8adebffb4f",
+      "bytes": 540590
+    },
+    "2samuel-151-right-v1.jpg": {
+      "sha256": "97e1bfaa328e2b0626cc10f46cd764828c73387602a523660717e1d70fa74e65",
+      "bytes": 653745
+    },
+    "2samuel-152-right-v2.jpg": {
+      "sha256": "866cad822a594c9cd835b52bb7490492dd874218b7aaff9c8c193ff01aebd117",
+      "bytes": 695993
+    },
+    "2samuel-153-right-v1.jpg": {
+      "sha256": "1ed5e13000bee0367b1eba6f30cb72d1353e31b4715d4eb7056d255a1674dff1",
+      "bytes": 577597
+    },
+    "2samuel-154-right-v2.jpg": {
+      "sha256": "50ac357f5e6e0701f341d7fa7301c30211c70fc9646c75f881ebacfa0c9c3747",
+      "bytes": 581845
+    },
+    "2samuel-155-right-v1.jpg": {
+      "sha256": "626b21095571c77f4c074db4c7f6e0f883979142c6b5aac32380ac41a0bb3f80",
+      "bytes": 700684
+    },
+    "2samuel-156-right-v1.jpg": {
+      "sha256": "c7771b6cd9b0ae06544c4b9d7fca0a42450b5ab4bc8e6e06f6e0204b4b1e3e8c",
+      "bytes": 570029
+    },
+    "2samuel-157-right-v1.jpg": {
+      "sha256": "0536c1422a1426db43eef70d4e52ba03a65810168b69e5c2b00d0db09ffbdba5",
+      "bytes": 664119
+    },
+    "2samuel-158-right-v1.jpg": {
+      "sha256": "afff927dfacece6d87cb033c64e5e02d03da73977d498c18d4f661776a9cd5ec",
+      "bytes": 593598
+    },
+    "2samuel-159-right-v1.jpg": {
+      "sha256": "3d345127e565d56ef19037faaf312baca087c44644b104cf33e41c33c0a3ca17",
+      "bytes": 768286
+    },
+    "2samuel-160-right-v1.jpg": {
+      "sha256": "a52c146e62467a509f052f7291083ea29e7a1da6c2c00f33f69919d2aaa749e6",
+      "bytes": 654324
+    },
+    "2samuel-161-right-v1.jpg": {
+      "sha256": "da0976e2a910b1982afcd36483e7cab2b03176341cb5eaf10439b6eee726c927",
+      "bytes": 505157
+    },
+    "2samuel-162-right-v1.jpg": {
+      "sha256": "9a3ccd9898e075428e4aa3c1103c5d7b9b5176001f92d888ccb8d09eda96b383",
+      "bytes": 688069
+    },
+    "2samuel-163-right-v1.jpg": {
+      "sha256": "84bcd2c8d311060229ca571d2fa52eaa61092aa5768098a3987426ec0f731b0a",
+      "bytes": 784008
+    },
+    "2samuel-164-right-v1.jpg": {
+      "sha256": "e6a12e95e775a6ecc0fb76e4c59a99b74980f182263640636eacfdb264449633",
+      "bytes": 649080
+    },
+    "2samuel-165-right-v1.jpg": {
+      "sha256": "5220844574f45714c8cb094d21e6a06f97a1e67b26389892eca1aae20bc12fd4",
+      "bytes": 656963
+    },
+    "2samuel-166-right-v1.jpg": {
+      "sha256": "f859e79574d1988d17206661e7f4242cbbff104cf162cd801fbc189f53d27153",
+      "bytes": 552854
+    },
+    "2samuel-167-right-v1.jpg": {
+      "sha256": "19503a1c861874e3b794db99d06223dc068d2605a263a147d272f47de8623214",
+      "bytes": 552243
+    },
+    "2samuel-168-right-v1.jpg": {
+      "sha256": "ed21daf6b99a7c03a7d2c585441ea9d67f6464db53cf83cfc6a022f2e97b3591",
+      "bytes": 490642
+    },
+    "2samuel-169-right-v1.jpg": {
+      "sha256": "9046fd6b898ae7e7e077b24648749de20fba199e49ddad6835c91e85fe2977f8",
+      "bytes": 493502
+    },
+    "2samuel-170-right-v1.jpg": {
+      "sha256": "624646c18184f18b71b530b9ee996c7804e00ef1f6a496bccd40014161e47591",
+      "bytes": 530861
+    },
+    "2samuel-171-right-v1.jpg": {
+      "sha256": "dcb7052c45188281a9f7c0abddc94b905ce27856581af6ddec09a55c6bdea5f9",
+      "bytes": 483139
+    },
+    "2samuel-172-right-v1.jpg": {
+      "sha256": "8b45acf1d651fae1b84b75b01b2c4cf9c54ad9beabe05c7f8888f088eeed2552",
+      "bytes": 620627
+    },
+    "2samuel-173-right-v1.jpg": {
+      "sha256": "87a4f14e28b4749f64be2cdd7c27f5532f8365e437aba2009135ab1809297b28",
+      "bytes": 498052
+    },
+    "2samuel-174-right-v1.jpg": {
+      "sha256": "3152fa2fe199cec64d4c8f1201ad0fdc8301ccd93b0d01eedc715e2befbbe313",
+      "bytes": 603661
+    },
+    "2samuel-175-right-v1.jpg": {
+      "sha256": "cd3351e2d2c840e68dbe39b67eebe8273a6d59ab50d9c5c88405306dc9a41346",
+      "bytes": 516902
+    },
+    "2samuel-176-right-v1.jpg": {
+      "sha256": "5c4aab106c7bb85857db1f1ab4ceae09b2b06c9d2b59f9590d2cac94c178fc12",
+      "bytes": 577581
+    },
+    "2samuel-177-right-v1.jpg": {
+      "sha256": "4464ed1fba96d0fa13c7b9fe76310b9078f894705cd55f01edf6de220f81e37a",
+      "bytes": 504356
+    },
+    "2samuel-178-right-v1.jpg": {
+      "sha256": "c49c7e3262173f70c96feba2b7a8009de49f0d4690eeadc185bbd29e8c49746b",
+      "bytes": 504319
+    },
+    "2samuel-179-right-v1.jpg": {
+      "sha256": "596deffc62e50fc43a635c13496ee410d74c884b18c8943a1c391971689721e4",
+      "bytes": 487194
+    },
+    "2samuel-180-right-v1.jpg": {
+      "sha256": "7d25636923639b13e0f9315e4d5c3a709827b5d5bbd295e3d9d01204cfc382f6",
+      "bytes": 492414
+    },
+    "2samuel-181-right-v1.jpg": {
+      "sha256": "39626508a40397657675649f2edb57a5e8c00d5e07dd6be2359568d3b01da4e2",
+      "bytes": 537693
+    },
+    "2samuel-182-right-v1.jpg": {
+      "sha256": "e5139884d3ec1085a97a177c324d6717a3ad7de19ab073b731ec0538fbd64ff4",
+      "bytes": 503254
+    },
+    "2samuel-183-right-v2.jpg": {
+      "sha256": "389bdb8249306f8e82eb541a729c3c3abc92de7a9f0c702ea004dee8890442a1",
+      "bytes": 558781
+    },
+    "2samuel-184-right-v1.jpg": {
+      "sha256": "42f5b5544ed4ab26350357104cfcec2301162b88b6465dc841b1b5639607e84e",
+      "bytes": 526966
+    },
+    "2samuel-185-right-v1.jpg": {
+      "sha256": "44e3eb179a5c04db65f62936e65552c85ba44ec9e9b62be5b9eae46e2a75d429",
+      "bytes": 563014
+    },
+    "2samuel-186-right-v1.jpg": {
+      "sha256": "efbe0dc21014ab0a3db23f32c812b70fe9ef67099288d7279225e56fae5f9a9c",
+      "bytes": 608977
+    },
+    "2samuel-187-right-v1.jpg": {
+      "sha256": "3f468e33136ef2753b285c6eb1850d9789d02f6fa54914233b4f34cacf1f4eb6",
+      "bytes": 601627
+    },
+    "2samuel-188-right-v1.jpg": {
+      "sha256": "c0bd178a3a66b483495e26a7b9e2edce26564cbc52365ccf5659f6e7094ee15e",
+      "bytes": 606036
+    },
+    "2samuel-189-right-v1.jpg": {
+      "sha256": "e914ee4facbc5c9d545c7080af8d367d6d6d2f9aefde7d3937f9d8b34cfd0340",
+      "bytes": 519689
+    },
+    "2samuel-190-right-v1.jpg": {
+      "sha256": "1c475e86951ee8ad65edac8a55efb725dd8407f5a50140c88d0433b704f35194",
+      "bytes": 505869
+    },
+    "2samuel-191-right-v1.jpg": {
+      "sha256": "f1a2480982f4bf7afc394677b9a3aa6db3281fb40a0648330f9561787b1aac20",
+      "bytes": 543523
+    },
+    "2samuel-192-right-v1.jpg": {
+      "sha256": "761db4f72fba80a102fa7a210e1b1a4a022f3819bc75e44e8197193530215abe",
+      "bytes": 508044
+    },
+    "2samuel-193-right-v1.jpg": {
+      "sha256": "acd8d48118427ae73419c9d3db72952f11d3fd50a286e20541a72c7be2386597",
+      "bytes": 528148
+    },
+    "2samuel-194-right-v1.jpg": {
+      "sha256": "f5e3274cb1ec12f7f8064dd9c498002b24eb0bd67d972ab1eb719904e1df29b4",
+      "bytes": 573856
+    },
+    "2samuel-195-right-v1.jpg": {
+      "sha256": "cef79ac2959f27ee101e002d1b19e93948aa477f70d1d671d7a016a4f190599c",
+      "bytes": 441238
+    },
+    "2samuel-196-right-v1.jpg": {
+      "sha256": "ca1d2bbbebe6d4ab47e6901aca201fbd58137fbc23c4f1e1bb1ed9b9de024583",
+      "bytes": 650418
+    },
+    "2samuel-197-right-v1.jpg": {
+      "sha256": "53bc96529d3ba51362fdc30fb78e49441f8d807f9196db55390e48dd80cc7b4f",
+      "bytes": 487580
+    },
+    "2samuel-198-right-v2.jpg": {
+      "sha256": "7b736853488c0fae4ea59dfd9b82ee1f207f0dae4bb4cdcafce4df6b5c7b2185",
+      "bytes": 527675
+    },
+    "2samuel-199-right-v1.jpg": {
+      "sha256": "b3c51e82837710661d31d018a30eef92507920b27d1cc0c4855358b6713e846a",
+      "bytes": 510366
+    },
+    "2samuel-200-right-v1.jpg": {
+      "sha256": "41fb05ffda3742a4dda4ef62098a228a694eccdbb3cffdbe1141024b77c16ec6",
+      "bytes": 564803
+    },
+    "2samuel-201-right-v1.jpg": {
+      "sha256": "e2dc827867c4790b46cf3afe7af6be4728824b8519649e877b9394ebfefb406d",
+      "bytes": 550727
+    },
+    "2samuel-202-right-v1.jpg": {
+      "sha256": "c2f3b2e1db8a196dd2e5ed8c04e5846960d0a1105e2d1cbbaf644a76770ca06e",
+      "bytes": 553673
+    },
+    "2samuel-203-right-v1.jpg": {
+      "sha256": "f67b6b3f346d07ed2bd356dd18bf2a978b4cbdced0e8717dbea49b78fe6a957a",
+      "bytes": 475964
+    },
+    "2samuel-204-right-v1.jpg": {
+      "sha256": "a73a2abf08894f90cc45eba761b7747c265b63d75d98735ff8289b85d261bf51",
+      "bytes": 468330
+    },
+    "2samuel-205-right-v1.jpg": {
+      "sha256": "fcc393d126749094db053fbd15e3bf36a6d8ffe15b5f52f24227643c4e39662e",
+      "bytes": 545967
+    },
+    "2samuel-206-right-v1.jpg": {
+      "sha256": "ea67c2ee83e5d228ede845fa3f9f1cdfee88dced522cd2d11f36260e25a0024e",
+      "bytes": 566572
+    },
+    "2samuel-207-right-v1.jpg": {
+      "sha256": "d3c99f1e6b8bd5c09a206dbb3c3d86931fbc1c91fb735b33d3a3ec00469a01cd",
+      "bytes": 501719
+    },
+    "2samuel-208-right-v1.jpg": {
+      "sha256": "5bcaa991b34a7223149b05ec4b7f5c336e3fe603a0ea84b44b0538b77041a387",
+      "bytes": 546493
+    },
+    "2samuel-209-right-v1.jpg": {
+      "sha256": "4d46c9f33dca965304056195992cbb0c01c7e26704c1e9f94077610fde0340d4",
+      "bytes": 463836
+    },
+    "2samuel-210-right-v1.jpg": {
+      "sha256": "31b398ab86392d3c4d4baa597c4d4012bbc4ca0590ffd8dd694fef355f5eb74c",
+      "bytes": 483882
+    },
+    "2samuel-211-right-v1.jpg": {
+      "sha256": "e0d35d7793c274dfc9fc3ccb97e95ce238f5eaa19174d6ec3870a465d56a2b39",
+      "bytes": 584063
+    },
+    "2samuel-212-right-v1.jpg": {
+      "sha256": "38d20a33b7a2d82bd53bd276d85e3ad0516860ce3446a181d4024005facb876d",
+      "bytes": 537411
+    },
+    "2samuel-213-right-v1.jpg": {
+      "sha256": "5ec5d34e0533ef4fe12652ae5643c296159588375811967a1e0ec3f548797bf7",
+      "bytes": 457427
+    },
+    "2samuel-214-right-v2.jpg": {
+      "sha256": "fb9c296eb1409cc99a9d3b6adfc8a48cbac2b90b1b337b1e494118773d3a3478",
+      "bytes": 494059
+    },
+    "2samuel-215-right-v1.jpg": {
+      "sha256": "de413adb56247eb5e9b9efc0e1b29b7b2a3632ddae02b0aad11c5250d8ac8e71",
+      "bytes": 597877
+    },
+    "2samuel-216-right-v1.jpg": {
+      "sha256": "618b03d0fd569b06fc0ffa8cb3dcd825c0c386f7e1c36ded7d3605e93051efaf",
+      "bytes": 517275
+    },
+    "2samuel-217-right-v1.jpg": {
+      "sha256": "5958defac6cdc6039be177cfa9e1104f489ec7884f8eee60f3b503d70b583b05",
+      "bytes": 441056
+    },
+    "2samuel-218-right-v1.jpg": {
+      "sha256": "ce7e6641cdfb709fb7661ff6a5d79dec3c56f7bfd8b4159adba5d3ab889d42f1",
+      "bytes": 493201
+    },
+    "2samuel-219-right-v1.jpg": {
+      "sha256": "07bb61f20d36a5c23ff3ca339e99de790c7c608ae771b76f1368939ee3c8c109",
+      "bytes": 632618
+    },
+    "2samuel-220-right-v1.jpg": {
+      "sha256": "b205cac6294383e5af88d80994612eaab86e39349822063724c5773b6caeda4b",
+      "bytes": 567347
+    },
+    "2samuel-221-right-v1.jpg": {
+      "sha256": "fc69e574465c3f02e11955709c9f4db0b9f56c7247fd5ca3df81eaee6562f9b5",
+      "bytes": 544957
+    },
+    "2samuel-222-right-v1.jpg": {
+      "sha256": "a3286a19a7f11dd4646aa0b8b41f672f85ec17f75033d14e56865fc7b5018928",
+      "bytes": 413615
+    },
+    "2samuel-223-right-v1.jpg": {
+      "sha256": "62b7ef382a9e2600800ffcbcdaaa979aefdfbd51201149c8f6011e81fdfe3378",
+      "bytes": 524523
+    },
+    "2samuel-224-right-v1.jpg": {
+      "sha256": "11f0532d0aa46792f64ebd32f19892cf3039f3a03f58fe436de0e14da99f0ce7",
+      "bytes": 550147
+    },
+    "2samuel-225-right-v1.jpg": {
+      "sha256": "2bc0a1f81b98fbdf8d34f6e9dac272b1171d4375d0ddfc18312ae52de1372ae3",
+      "bytes": 566674
+    },
+    "2samuel-226-right-v1.jpg": {
+      "sha256": "b02fff98cd4ed7b09ec465cf68f1582b3de291c9bac9f4117e0223db5979737c",
+      "bytes": 662776
+    },
+    "2samuel-227-right-v1.jpg": {
+      "sha256": "d3b09d758d4bfa0a83a5969260c35948012d3a0af9b80e8a6c16cb0b4985bdbd",
+      "bytes": 615109
+    },
+    "2samuel-228-right-v1.jpg": {
+      "sha256": "b5711a22699d65bc825951d2ea7b9d6a7b9598627c9e6c4e2a25674f2ee0fa46",
+      "bytes": 580116
+    },
+    "2samuel-229-right-v1.jpg": {
+      "sha256": "2b0e5d98c05f31ef0043f20ceed2a7c5c888a4ad907aa3ea134a8ec12d675288",
+      "bytes": 513446
+    },
+    "2samuel-230-right-v1.jpg": {
+      "sha256": "06e9fe5a0597b9e1c5c2a44a21cc5ac07189f63b22e04b21e8d93f3eca194d07",
+      "bytes": 604094
+    },
+    "2samuel-231-right-v1.jpg": {
+      "sha256": "4f7ebf39362e6aab976375793b4c6c86483397d41649a27b09ce5c3052722bbb",
+      "bytes": 489848
+    },
+    "2samuel-232-right-v1.jpg": {
+      "sha256": "3c1c641e079923a2a638a35310d899ca18230c32a28dc2cbb5a72ba318955524",
+      "bytes": 474592
+    },
+    "2samuel-233-right-v1.jpg": {
+      "sha256": "3539129a3153127008565451005da748604862eabf92288cc8cbe9aff46e26dc",
+      "bytes": 468316
+    },
+    "2samuel-234-right-v1.jpg": {
+      "sha256": "9b0b7729d5baffc79301ea4ce7daaead34d4dc598a60df1bd45e3c73e963e095",
+      "bytes": 586631
+    },
+    "2samuel-235-right-v1.jpg": {
+      "sha256": "bedf68642b1afaab13f91fb53efb0794604a15595ebdb4b9ec99f99d4d8c1a16",
+      "bytes": 441115
+    },
+    "2samuel-236-right-v1.jpg": {
+      "sha256": "adcebd18b136322259fb85fc37b9d09632c661f04cc4affcbbb32e5b6f663c3f",
+      "bytes": 685392
+    },
+    "2samuel-237-right-v1.jpg": {
+      "sha256": "f64e135900e2eaa3006799ac11df12578d75dadbcfabfa61e1558d68459f1521",
+      "bytes": 556221
+    },
+    "2samuel-238-right-v2.jpg": {
+      "sha256": "d3acb5434e8132f16d1a30a10e4fbd794dbb33831c330765a7d313c6bc2b9723",
+      "bytes": 515424
+    },
+    "2samuel-239-right-v1.jpg": {
+      "sha256": "c83a83e1fee266b48b17393e1be31c6e852afa48bc5afa7c8a6f3cdccd9f1c2e",
+      "bytes": 579365
+    },
+    "proverbs-c013-v019-019-right-context-v1.jpg": {
+      "sha256": "4e9157a987923da30ac039beea804e66220701b2a649d539be8fee68d880fa63",
+      "bytes": 527440
+    },
+    "proverbs-c013-v020-020-right-context-v1.jpg": {
+      "sha256": "11fbe7aafca0d0afa1ab0f71e270483326374d6892203f59e39ce8c6db0c7bcf",
+      "bytes": 585593
+    },
+    "proverbs-c013-v021-021-right-context-v1.jpg": {
+      "sha256": "0c0b6b697712eee116f52a4bddc55b6bc525ae7312a78c04c49e4d241db64ae4",
+      "bytes": 537995
+    },
+    "proverbs-c013-v022-022-right-context-v1.jpg": {
+      "sha256": "f4e1e05ac1fc4a9312848b91f88b2430a9e6ff557e8c3d00567bee140d2f3038",
+      "bytes": 523389
+    },
+    "proverbs-c013-v023-023-right-context-v1.jpg": {
+      "sha256": "f467fc2c06607fd2546246510b8f53abbdd685f0f400e1dda17722747577b082",
+      "bytes": 533570
+    },
+    "proverbs-c013-v024-024-right-context-v1.jpg": {
+      "sha256": "913d16f24d79f6b29c84664799b455f389000ae9d11ef2b56dfda67cf5f7440d",
+      "bytes": 451233
+    },
+    "proverbs-c013-v025-025-right-context-v1.jpg": {
+      "sha256": "653865a12165567a3814e4256dc4dee2b446bf95138e32b3b59fa4870b5c2cf7",
+      "bytes": 561631
+    },
+    "proverbs-c014-v001-001-right-context-v1.jpg": {
+      "sha256": "cfb6ed3da0f5fbc727e9c8f9114efc44147ea8976d7549befc1d04e697d22028",
+      "bytes": 547572
+    },
+    "proverbs-c014-v002-002-right-context-v1.jpg": {
+      "sha256": "56a2649b30e51df46aea23a8732180ad53b44ebb9f8e4f75b56a47f17bdc0c84",
+      "bytes": 528948
+    },
+    "proverbs-c014-v003-003-right-context-v1.jpg": {
+      "sha256": "4ff7d5a50e9b3aec56784425afaa17818addb5699edf2447b211005cb1e0c5a0",
+      "bytes": 418205
+    },
+    "proverbs-c014-v004-004-right-context-v1.jpg": {
+      "sha256": "7500e97ad0f05b61453381a1e6568efa5c2f5ea080bc3d9f9d4d0cc4a9ef4816",
+      "bytes": 536396
+    },
+    "proverbs-c014-v005-005-right-context-v1.jpg": {
+      "sha256": "bf0bdda3fdd093a6c1021d9742c324bc4742f918c28c4018a4f087fb7cbf3135",
+      "bytes": 459350
+    },
+    "proverbs-c014-v006-006-right-context-v1.jpg": {
+      "sha256": "f58ebbc481be156b22937ed98589f1b76478af8b24280ec6154ebe8ef9fc6dd3",
+      "bytes": 494675
+    },
+    "proverbs-c014-v007-007-right-context-v1.jpg": {
+      "sha256": "0d354a3b4b081acdbb95f95f694e7869a9314821c3a5a568c86d90854e7a68a7",
+      "bytes": 514281
+    },
+    "proverbs-c014-v008-008-right-context-v1.jpg": {
+      "sha256": "cefca614bd8603daa20ed885858fda7df2ac4a9c78d80b0d2c22be18dfce080c",
+      "bytes": 552520
+    },
+    "proverbs-c014-v009-009-right-context-v1.jpg": {
+      "sha256": "0f8cb7c907d5370c1c73b6b5efe4816deb3596e1ad5858993c9902f08a039d4e",
+      "bytes": 500648
+    },
+    "proverbs-c014-v010-010-right-context-v1.jpg": {
+      "sha256": "57bdb95c6d5cdeca7fa4a0962c1abd9f5825eb7b9a95ad95ce3a9f176eb2942b",
+      "bytes": 451408
+    },
+    "proverbs-c014-v011-011-right-context-v1.jpg": {
+      "sha256": "68b05305dc39a0e045497cf5a1d3b188d52c3113644a5efe26c1fb59a61c66fb",
+      "bytes": 610687
+    },
+    "proverbs-c014-v012-012-right-context-v1.jpg": {
+      "sha256": "be81e26a34cf83d2eaf781b129db6e622c8eb44f9c1280057707d687e1531d4b",
+      "bytes": 599556
+    },
+    "proverbs-c014-v013-013-right-context-v1.jpg": {
+      "sha256": "a0c5209c10cc6dbae7fb177fee30c2d6a4cae201459a827f0eed442b662495fb",
+      "bytes": 415326
+    },
+    "proverbs-c014-v014-014-right-context-v1.jpg": {
+      "sha256": "6b6abb6c89a442d6f7bfd38cb8eecd9ac4fb2fc8a2d5a11e38e51c2d27d965c1",
+      "bytes": 596518
+    },
+    "proverbs-c014-v015-015-right-context-v1.jpg": {
+      "sha256": "2630dba9c290ebc85caf25dea8969bb549c0cb2eb9cd75dfad397c9f3b950735",
+      "bytes": 507730
+    },
+    "proverbs-c014-v016-016-right-context-v1.jpg": {
+      "sha256": "e2ae409ff51c2373dde5573dbe357f62471f129c06ac32bb9cddf99cb417e798",
+      "bytes": 472263
+    },
+    "proverbs-c014-v017-017-right-context-v1.jpg": {
+      "sha256": "41b7a2d2b4ab40e3daa36601355853e02e81817b8094b3401bdb56d46a803f04",
+      "bytes": 473649
+    },
+    "proverbs-c014-v018-018-right-context-v1.jpg": {
+      "sha256": "4d81d1702c64585f07987ddc9ad5415c9fb7bdbcc855bf773ecce0c3e7df659e",
+      "bytes": 451651
+    },
+    "proverbs-c014-v019-019-right-context-v1.jpg": {
+      "sha256": "3dc7fd50b87a2a424daa31e0891ac11dac3af033bda6575ca4fd30981af1d339",
+      "bytes": 536873
+    },
+    "proverbs-c014-v020-020-right-context-v1.jpg": {
+      "sha256": "224a166e46d97149f957f18e07d3d2674d24efdcf778c3effbb08a9f1129b834",
+      "bytes": 551119
+    },
+    "proverbs-c014-v021-021-right-context-v1.jpg": {
+      "sha256": "41779f3e6f4925bbee55e90e5ca6e7240f342ebf982c5a72d456d9836e7edbd4",
+      "bytes": 473914
+    },
+    "proverbs-c014-v022-022-right-context-v1.jpg": {
+      "sha256": "66d4b95f1709ef26be832806075f70717d590f2de3b857c92b1e292b3186b16a",
+      "bytes": 548501
+    },
+    "proverbs-c014-v023-023-right-context-v1.jpg": {
+      "sha256": "99e1372ebf6ddeddebdb1f6d197a1f35b1a2548007b6f1e2bbf0c5b844378b1f",
+      "bytes": 476825
+    },
+    "proverbs-c014-v024-024-right-context-v1.jpg": {
+      "sha256": "b05a9fe87de0de4248bcb1aa5fd62ca2b9a9eb06dff92b1cf458a355c5f6a3ea",
+      "bytes": 523430
+    },
+    "proverbs-c014-v025-025-right-context-v1.jpg": {
+      "sha256": "fc7b342e2d67d06f50a21ca13b56030ce71275267d845bebe9594ad48f5b1820",
+      "bytes": 452094
+    },
+    "proverbs-c014-v026-026-right-context-v1.jpg": {
+      "sha256": "9ab6040f2d4afb77375b2ed59c513b4baf9d57339d7ebe5720b8a1af331d396b",
+      "bytes": 523985
+    },
+    "proverbs-c014-v027-027-right-context-v1.jpg": {
+      "sha256": "5fb082248ff0dabae55e1faf37b75f6ecc07c22636d051703f8cc3952ae881b8",
+      "bytes": 661956
+    },
+    "proverbs-c014-v028-028-right-context-v1.jpg": {
+      "sha256": "36c369db1e412af1217b1574e0d4d5f00011e449b170ba767a59dc42d4605ebc",
+      "bytes": 481443
+    },
+    "proverbs-c014-v029-029-right-context-v1.jpg": {
+      "sha256": "8fe9372959661e628412d21b61323f426aa7f73d197ed0c90bb98dd53c020c4e",
+      "bytes": 475239
+    },
+    "proverbs-c014-v030-030-right-context-v1.jpg": {
+      "sha256": "20ffa22349442a687abdb8e6705655b3127c734ab88e6f36a8087dac3cad633d",
+      "bytes": 540476
+    },
+    "proverbs-c014-v031-031-right-context-v1.jpg": {
+      "sha256": "37c8c8a1304e9eb1bb28bf0f3d47257cbd89ca3199112e4f46979f14ec083379",
+      "bytes": 456279
+    },
+    "proverbs-c014-v032-032-right-context-v1.jpg": {
+      "sha256": "284bf2f18d1759c7eed23195677f5ebd289953b8578587a3044cc110e4cbc006",
+      "bytes": 482421
+    },
+    "proverbs-c014-v033-033-right-context-v1.jpg": {
+      "sha256": "36a4ba18b2597e49cee6f582f0484f02d96219c202c00f118cb3ade491e27741",
+      "bytes": 404075
+    },
+    "proverbs-c014-v034-034-right-context-v1.jpg": {
+      "sha256": "ddfb1d3650feb8ee3bef7322ec6c16fe40c5329c812c5a2ebfe17de619be6261",
+      "bytes": 567383
+    },
+    "proverbs-c014-v035-035-right-context-v1.jpg": {
+      "sha256": "868e7429a7e6a12b9b9da7ec44dc0d2d9bd6f89f8f9bab096f3ce56d3ca4a4c5",
+      "bytes": 420869
+    },
+    "proverbs-c015-v001-001-right-context-v1.jpg": {
+      "sha256": "ec5825c78387097b968f39db4d8642540ee6e0d15b6461d5ccdc47e1e6b88a15",
+      "bytes": 437145
+    },
+    "proverbs-c015-v002-002-right-context-v1.jpg": {
+      "sha256": "cc9cd2fb990a70cc26f7a162357c17dec9e06d3b5c98840f6d41647dadfa87ab",
+      "bytes": 432649
+    },
+    "proverbs-c015-v003-003-right-context-v1.jpg": {
+      "sha256": "6f4598e49f040b5aa1239215266d17a0a2a91142b78a37f1989e8ee32bbe1dcd",
+      "bytes": 545242
+    },
+    "proverbs-c015-v004-004-right-context-v1.jpg": {
+      "sha256": "d692d8707386d2afa482910452b8c70990f8eb80675d9e2f45fbc9af6ef5410b",
+      "bytes": 570116
+    },
+    "proverbs-c015-v005-005-right-context-v1.jpg": {
+      "sha256": "95586955822b75be875b3ba5b65376fa8bed802c87bce50b0a00acf77fe589fb",
+      "bytes": 452530
+    },
+    "proverbs-c015-v006-006-right-context-v1.jpg": {
+      "sha256": "5b224a8098398b31812066d61e755ecc2bf28ed6df9dc1c23f0f2671589360b2",
+      "bytes": 575750
+    },
+    "proverbs-c015-v007-007-right-context-v1.jpg": {
+      "sha256": "f7cba82d6475e3f3ceeed3f91a9f554dfc4594f79fb219948eba7bb543c638e7",
+      "bytes": 458213
+    },
+    "proverbs-c015-v008-008-right-context-v1.jpg": {
+      "sha256": "fd34475a8595700f3789cb8b6bf4adf5205813a9eda85354001a70f20a63737a",
+      "bytes": 469820
+    },
+    "proverbs-c015-v009-009-right-context-v1.jpg": {
+      "sha256": "9cdde109d9b88ea258212f1b4e67aabd3eb2183ff82af5b8a60414aad8fa9d66",
+      "bytes": 667702
+    },
+    "proverbs-c015-v010-010-right-context-v1.jpg": {
+      "sha256": "a9745628cab7968091b606e60be730a41ce2cefabb629ad9459849415d23811b",
+      "bytes": 589209
+    },
+    "proverbs-c015-v011-011-right-context-v1.jpg": {
+      "sha256": "ceef190aa9539526fa15a1bc61e8a9e9d7bf5de238a484bc8fb040da788b5890",
+      "bytes": 494964
+    },
+    "proverbs-c015-v012-012-right-context-v1.jpg": {
+      "sha256": "9d9441f3e3963efeab8398aa056476753fdd5a01b37dfd279c0c6481bf70bf82",
+      "bytes": 474113
+    },
+    "proverbs-c015-v013-013-right-context-v1.jpg": {
+      "sha256": "ec0dc1bd49fbc4833d1991487a8f83970468f483d5438e2b50141f7a83d04ead",
+      "bytes": 480995
+    },
+    "proverbs-c015-v014-014-right-context-v1.jpg": {
+      "sha256": "caa2bdc24b07eb2cc54a5edb28f0d9f544d41831423e4c52e89419c08e12d477",
+      "bytes": 497346
+    },
+    "proverbs-c015-v015-015-right-context-v1.jpg": {
+      "sha256": "052bb4dd8cd6edaafc37be9767898bc9574931d7e949ae88cdea6f7d23bd2325",
+      "bytes": 512129
+    },
+    "proverbs-c015-v016-016-right-context-v1.jpg": {
+      "sha256": "c8e17645bdc46c4c98ce01cdeed39c780a9d8080cfe6876d3c0aaebfc364a4f6",
+      "bytes": 508897
+    },
+    "proverbs-c015-v017-017-right-context-v1.jpg": {
+      "sha256": "d79c31db4171f22ebcca7ab47406521a882f3efb1adf616669f0ec2fd229f13f",
+      "bytes": 531633
+    },
+    "proverbs-c015-v018-018-right-context-v1.jpg": {
+      "sha256": "2f6a0d7feabf07ed9845a6c64a50587c202f91d10348b8dffd9c220cae057bdc",
+      "bytes": 474000
+    },
+    "proverbs-c015-v019-019-right-context-v1.jpg": {
+      "sha256": "afc122dbca791229655a6a42c25a2f89a4d3bdda326aad654ae164119ab261f6",
+      "bytes": 626385
+    },
+    "proverbs-c015-v020-020-right-context-v1.jpg": {
+      "sha256": "ed8773024880e93dc6a94b402a0fc0f37921e95ad7e9632e80270c92a27a6ac1",
+      "bytes": 493176
+    },
+    "proverbs-c015-v021-021-right-context-v1.jpg": {
+      "sha256": "d1de6e9538c80edcb0bc2d369c41ba8f630dba21f34fa875fd8dd36c35e16843",
+      "bytes": 650601
+    },
+    "proverbs-c015-v022-022-right-context-v1.jpg": {
+      "sha256": "d82ddfb747a645193f6fee25eaef04914bc43db127d06a3fe326e90dead1d308",
+      "bytes": 522782
+    },
+    "proverbs-c015-v023-023-right-context-v1.jpg": {
+      "sha256": "3543510cda67c352c5f3c0e75909ddf2ea57de631357eef0a8dd0f741eaf0c4f",
+      "bytes": 480239
+    },
+    "proverbs-c015-v024-024-right-context-v1.jpg": {
+      "sha256": "d537bb28cb56f0f230b40e64db9b96293a2ed3df1552a96284648c0066a6be26",
+      "bytes": 537449
+    },
+    "proverbs-c015-v025-025-right-context-v1.jpg": {
+      "sha256": "d42b23704fa75161813eb4e12890ac9ef87274c0ac39050ec97688598d0aaa79",
+      "bytes": 499150
+    },
+    "proverbs-c015-v026-026-right-context-v1.jpg": {
+      "sha256": "5caea4c2b32f3129b38109a28548588c3e32e8600c049d5fe5b4a83bfd1d7422",
+      "bytes": 367393
+    },
+    "proverbs-c015-v027-027-right-context-v1.jpg": {
+      "sha256": "5791b2029d4566c3db400c808fbcfd677c82e3192fb4ac7fe135524455f04c50",
+      "bytes": 393455
+    },
+    "proverbs-c015-v028-028-right-context-v1.jpg": {
+      "sha256": "9e8ce9c340ebc7463c6bb028ad9ea9c272de23a5414d2329fd27ef4155bfd6e2",
+      "bytes": 488320
+    },
+    "proverbs-c015-v029-029-right-context-v1.jpg": {
+      "sha256": "6716268ad434c1af0ffef404feda3542ca6542d5bfcf285748955bf24683e1fb",
+      "bytes": 454019
+    },
+    "proverbs-c015-v030-030-right-context-v1.jpg": {
+      "sha256": "8ee85ab2308d63b233324dcd68c1a6c6d45ac3104206731741192925870c61e7",
+      "bytes": 433244
+    },
+    "proverbs-c015-v031-031-right-context-v1.jpg": {
+      "sha256": "42006f9bd8ace5f162f274fd1623e30207a205fe0f0a2efeb9098cd4f507b980",
+      "bytes": 494522
+    },
+    "proverbs-c015-v032-032-right-context-v1.jpg": {
+      "sha256": "a75cb550e9daa7af0ca20556b76c9b2845ff933bf151da870040e9f563bd20b7",
+      "bytes": 500772
+    },
+    "proverbs-c015-v033-033-right-context-v1.jpg": {
+      "sha256": "3ccff093146f8993bdce3651acc72e9aca0ac4c3a2e6c68003ce706d95e112ad",
+      "bytes": 448183
+    },
+    "proverbs-c016-v001-001-right-context-v1.jpg": {
+      "sha256": "8a0f3fef2aae51d5f7c39de7e29731491ea55d81fbacc46c3c2046d27057ffce",
+      "bytes": 380959
+    },
+    "proverbs-c016-v002-002-right-context-v1.jpg": {
+      "sha256": "6a527778435121e087b919abab4b6c1af196912456761fe5d6a16cd781aec6a5",
+      "bytes": 452421
+    },
+    "proverbs-c016-v003-003-right-context-v1.jpg": {
+      "sha256": "dfec091bcce32a0e3cbe7a9a95edb0e3a04da4a17228aec4c3de279e10defea4",
+      "bytes": 439918
+    },
+    "proverbs-c016-v004-004-right-context-v1.jpg": {
+      "sha256": "743bfa82a8594f5124827f7405f6e200bd8dd281d7b326752b54ac90e8201cee",
+      "bytes": 630292
+    },
+    "proverbs-c016-v005-005-right-context-v1.jpg": {
+      "sha256": "848c5bbda595c9934157f41d97ea75d92b00aca6d1f185cde06488b3fc34041d",
+      "bytes": 439160
+    },
+    "proverbs-c016-v006-006-right-context-v1.jpg": {
+      "sha256": "97af6690bb44f2b36e19f3a3a378d99cc72d666ee1cbb70ce2aa3042eb7d1d7d",
+      "bytes": 538955
+    },
+    "proverbs-c016-v007-007-right-context-v1.jpg": {
+      "sha256": "8073fa2165dcf842bcb1fe08df471de3525828ded26e5f8fe106104e812cfab7",
+      "bytes": 483538
+    },
+    "proverbs-c016-v008-008-right-context-v1.jpg": {
+      "sha256": "213229254d0d9f58c790f32903612f0ac3f6f95ceb13a482b8dde0be8d5a2291",
+      "bytes": 445848
+    },
+    "proverbs-c016-v009-009-right-context-v1.jpg": {
+      "sha256": "f0ed909a5a77fd5bef3c139b169b6f8769ab3d7bc39b03d7539d37476b86daca",
+      "bytes": 437051
+    },
+    "proverbs-c016-v010-010-right-context-v1.jpg": {
+      "sha256": "33b2ea1ca50a1799fa4a239acab21973fb154f7520bab2b40e214d2157802081",
+      "bytes": 482317
+    },
+    "proverbs-c016-v011-011-right-context-v1.jpg": {
+      "sha256": "8112cd4e4520c8cd690ec9cf1f4b87528f17795a12fd66ef86d144e1fcd3c086",
+      "bytes": 507310
+    },
+    "proverbs-c016-v012-012-right-context-v1.jpg": {
+      "sha256": "6e4a26b1b00d53c28a6c457d43146631ad16ca0eaf9bd6b55aca5515ad1d3c91",
+      "bytes": 440743
+    },
+    "proverbs-c016-v013-013-right-context-v1.jpg": {
+      "sha256": "e6dc7ccf399d2ef53fc546f5b1a115acd84638017d492a11670e5fec158e8ebf",
+      "bytes": 465611
+    },
+    "proverbs-c016-v014-014-right-context-v1.jpg": {
+      "sha256": "eee3011f4cf3dfad9f6c0d6552faee425198ce677215c48757b275f7444520ee",
+      "bytes": 404277
+    },
+    "proverbs-c016-v015-015-right-context-v1.jpg": {
+      "sha256": "071a49fbac3ef107609abfc60106a14cd604b3439033c53ff8be9716fdcfda20",
+      "bytes": 564595
+    },
+    "proverbs-c016-v016-016-right-context-v1.jpg": {
+      "sha256": "e36abed65e4f015e68fa6a88ed644ecc94ad64fdeb09fcf2cceb8480d532070f",
+      "bytes": 417358
+    },
+    "proverbs-c016-v017-017-right-context-v1.jpg": {
+      "sha256": "e57c328fd60348b465e10b1f957c5b24c5ec2615cdff15f9a7e2e90d6e6bcc2b",
+      "bytes": 618658
+    },
+    "proverbs-c016-v018-018-right-context-v1.jpg": {
+      "sha256": "c873f41c067746cc2cbafad6b8529efe750e5a4cb76892fcab0f12a231caf50f",
+      "bytes": 472881
+    },
+    "proverbs-c016-v019-019-right-context-v1.jpg": {
+      "sha256": "b03409dd5df9684ae94b51b8a9f2cd3bc52c7f5dcb1aeee028bb4b7ac210502f",
+      "bytes": 603483
+    },
+    "proverbs-c016-v020-020-right-context-v1.jpg": {
+      "sha256": "034e29d3d6a277e8bc11ee13b3423d68fc3d999caf82121f9b3f55931216ee7d",
+      "bytes": 489851
+    },
+    "proverbs-c016-v021-021-right-context-v1.jpg": {
+      "sha256": "c04eb4b8c9092f449a092fe6961b0305d4f48f8f6e2f832723ac07bb84bd9f46",
+      "bytes": 454978
+    },
+    "proverbs-c016-v022-022-right-context-v1.jpg": {
+      "sha256": "a52f75b7fde000d2a41088a5ef9bdaf366967894d54587ae08e28a79990baef5",
+      "bytes": 541805
+    },
+    "proverbs-c016-v023-023-right-context-v1.jpg": {
+      "sha256": "f5da767d7e61ab63b4e4485965379ee9a752bf1bef59ed8d7370af22298e881a",
+      "bytes": 388623
+    },
+    "proverbs-c016-v024-024-right-context-v1.jpg": {
+      "sha256": "d969ae33b82369615e297ee04fa5c27f6f3dfd86e266dcabc63945ffd605d5e4",
+      "bytes": 541585
+    },
+    "proverbs-c016-v025-025-right-context-v1.jpg": {
+      "sha256": "019132e7b7652852a90342c9b88bfa17f2e731b0fa22afbf3b87e5f440d61083",
+      "bytes": 558858
+    },
+    "proverbs-c016-v026-026-right-context-v1.jpg": {
+      "sha256": "381fb8e99b2248e3d5ab4a3a656c11df64f3b8331cd5329ba9c969fcaa6595ca",
+      "bytes": 506295
+    },
+    "proverbs-c016-v027-027-right-context-v1.jpg": {
+      "sha256": "2ebc6ccba09eed31758a2c0cf97cee13ab9c8b3b18675875a1ae469603cd99f9",
+      "bytes": 350731
+    },
+    "proverbs-c016-v028-028-right-context-v1.jpg": {
+      "sha256": "0348f106afffb45758c23417685621123e57478840911cb3f505440580d8b0d4",
+      "bytes": 514257
+    },
+    "proverbs-c016-v029-029-right-context-v1.jpg": {
+      "sha256": "681dc496eb0c45b35fa03da6d6ecbc2b5a46647de71ec67e95caee2b4e6e6607",
+      "bytes": 458036
+    },
+    "proverbs-c016-v030-030-right-context-v1.jpg": {
+      "sha256": "d447e561b7323bea9580bf0599f0711668ba01ac97bf14368d05502dfd9e99e3",
+      "bytes": 421135
+    },
+    "proverbs-c016-v031-031-right-context-v1.jpg": {
+      "sha256": "7091c610766632a261e6a515b879c0bf1edd0191102964e6d45f52114c853b09",
+      "bytes": 464814
+    },
+    "proverbs-c016-v032-032-right-context-v1.jpg": {
+      "sha256": "297aa308b04146d923f7113c9058c28304a3b754d7c303f20743b942ad55301f",
+      "bytes": 491707
+    },
+    "proverbs-c016-v033-033-right-context-v1.jpg": {
+      "sha256": "88de00afcb7667447302ba2a86ca1f699f159e393bf0aec644133cc42ab24917",
+      "bytes": 517204
+    },
+    "proverbs-c017-v001-001-right-context-v1.jpg": {
+      "sha256": "abfdefc5a3ec728cf1d14670268a2eca99ec5136f5d7d54cc2c7616fe46a727a",
+      "bytes": 539894
+    },
+    "proverbs-c017-v002-002-right-context-v1.jpg": {
+      "sha256": "ed26a2420b57a284eab0cd5463c683241302f2b8adbe923b47d566148dc93524",
+      "bytes": 486906
+    },
+    "proverbs-c017-v003-003-right-context-v1.jpg": {
+      "sha256": "eb047da4e44fd40a2c514a58a2866165807966f467cfc0c101ae09ac8bdc6e98",
+      "bytes": 466000
+    },
+    "proverbs-c017-v004-004-right-context-v1.jpg": {
+      "sha256": "2cd9fff658a889674b5baa88c06dd37d3cb7e263b4333442d35f8c985bde222d",
+      "bytes": 523270
+    },
+    "proverbs-c017-v005-005-right-context-v1.jpg": {
+      "sha256": "ccf6222faf3ea7a1cdce365946c6d4e1a19ddec20e7f4188f2aeeb7224364b72",
+      "bytes": 556624
+    },
+    "proverbs-c017-v006-006-right-context-v1.jpg": {
+      "sha256": "9d6f76dd5703e34c076ed9035304b58651890ec1361e61cb751c10ea8d398a27",
+      "bytes": 524392
+    },
+    "proverbs-c017-v007-007-right-context-v1.jpg": {
+      "sha256": "fdb52d6e53b31c64dc89106303d2528b7a2bb675bd7a58902faa8b5f68d60907",
+      "bytes": 448746
+    },
+    "proverbs-c017-v008-008-right-context-v1.jpg": {
+      "sha256": "8e757744def97250fdb17d1727d74a1caa31f6a483796862ee1de31a11b2e1e8",
+      "bytes": 457409
+    },
+    "proverbs-c017-v009-009-right-context-v1.jpg": {
+      "sha256": "5f2e71c4680bd0a81952c910ae6efd981820953347017476014e8cb728a8683a",
+      "bytes": 486632
+    },
+    "proverbs-c017-v010-010-right-context-v1.jpg": {
+      "sha256": "3b72f903ca66a26fade00a65edaf26ef85354af890e78d2e201218b88e9c55b3",
+      "bytes": 443684
+    },
+    "proverbs-c017-v011-011-right-context-v1.jpg": {
+      "sha256": "28c9b862b1c6e4fa001b554e36ac655eb82a7ffe6d2561994f6007a45e27b8d7",
+      "bytes": 482204
+    },
+    "proverbs-c017-v012-012-right-context-v1.jpg": {
+      "sha256": "8ccf87b3d865ce53d03b5cf41bcf7fdd6b7df98ebb5be569b3f4e17757dbae53",
+      "bytes": 565131
+    },
+    "proverbs-c017-v013-013-right-context-v1.jpg": {
+      "sha256": "94ee56aef3a9a0ae6ca99c6c3509008b496171ec86f0f8fc3b7ba6f8ace67976",
+      "bytes": 444155
+    },
+    "proverbs-c017-v014-014-right-context-v1.jpg": {
+      "sha256": "602e70b9bdae6dc741e14e64fe0844c790c5a76210206b31022bf92cc8b4125b",
+      "bytes": 527036
+    },
+    "proverbs-c017-v015-015-right-context-v1.jpg": {
+      "sha256": "896c1fd43abb0594159dcd503255689f3d8fa1b78d7bc4f16ebc542b762fee35",
+      "bytes": 483560
+    },
+    "proverbs-c017-v016-016-right-context-v1.jpg": {
+      "sha256": "076350e39ff37f09a3522d13ba2d2b78e08ef77f8a0a35441ec4f2e648ab6959",
+      "bytes": 452431
+    },
+    "proverbs-c017-v017-017-right-context-v1.jpg": {
+      "sha256": "d9d38c68e07b1c7d163ddf74be539e94ec75b86a072b35f75d5ade46c3c19743",
+      "bytes": 472084
+    },
+    "proverbs-c017-v018-018-right-context-v1.jpg": {
+      "sha256": "6409a41660ce2449d20b3dc4c0f8fbbe5d6abdcdd773b2bb256131d439d593d9",
+      "bytes": 481478
+    },
+    "proverbs-c017-v019-019-right-context-v1.jpg": {
+      "sha256": "17c4455800f91b11e7cb8fba56efa386e95cbed129dbeaeccaccb59be686f915",
+      "bytes": 583942
+    },
+    "proverbs-c017-v020-020-right-context-v1.jpg": {
+      "sha256": "927ac69bd4e211ae26c11eca7688052faa463b0ae9636cf4ac2808253a56fc58",
+      "bytes": 490926
+    },
+    "proverbs-c017-v021-021-right-context-v1.jpg": {
+      "sha256": "b5e5d5372fb7f0c3bc004a42a0e46ed2db0352c379a16d7977764d74eda38526",
+      "bytes": 443584
+    },
+    "proverbs-c017-v022-022-right-context-v1.jpg": {
+      "sha256": "5112578b4b223d46f3ec690e98c03aad84a4837ead95cb18cf5db84ad283f563",
+      "bytes": 474104
+    },
+    "proverbs-c017-v023-023-right-context-v1.jpg": {
+      "sha256": "0634ad7cc9569d2739c7ee19cd41557aca6662f0257f5a7a92c2ae01c75dec8f",
+      "bytes": 460026
+    },
+    "proverbs-c017-v024-024-right-context-v1.jpg": {
+      "sha256": "106177759f554a0605647cc1d1a38e8afc115cfe101536e50dd9b77797051bcb",
+      "bytes": 397696
+    },
+    "proverbs-c017-v025-025-right-context-v1.jpg": {
+      "sha256": "80c9d2fd23515aac820752606dedb23aa55127e01682dcbebc6e995fc3a81900",
+      "bytes": 527437
+    },
+    "proverbs-c017-v026-026-right-context-v1.jpg": {
+      "sha256": "ee2714dc7575b628a3b69563e578b91ff4276805a6c2ec17e6426d8009c4e753",
+      "bytes": 440415
+    },
+    "proverbs-c017-v027-027-right-context-v1.jpg": {
+      "sha256": "31b18e0b21ac8b100e4c9452b8217534a682e9f8c0c4f2f5a781310e1ea10976",
+      "bytes": 382949
+    },
+    "proverbs-c017-v028-028-right-context-v1.jpg": {
+      "sha256": "88d71ff93bcfce2b567dc1201691926662aa027a9196d0db1d5e3af379df07aa",
+      "bytes": 470809
+    },
+    "proverbs-c018-v001-001-right-context-v1.jpg": {
+      "sha256": "a370b452c145e2a8924115d2b72afe11d846c6e72f19768d7a4ed25258079dde",
+      "bytes": 508656
+    },
+    "proverbs-c018-v002-002-right-context-v1.jpg": {
+      "sha256": "e338b7e01ae91d5369a2783ec67465379cc88179841a823b8f741966860abc26",
+      "bytes": 451513
+    },
+    "proverbs-c018-v003-003-right-context-v1.jpg": {
+      "sha256": "232b10b747186c66e14c5e991e752a02b5bee86aceb9d3447d87b29527bbe067",
+      "bytes": 506464
+    },
+    "proverbs-c018-v004-004-right-context-v1.jpg": {
+      "sha256": "8acb394d03bfbac106a9da57d8461aa64d70efff7d6cd58022a8fe64eec96e32",
+      "bytes": 641809
+    },
+    "proverbs-c018-v005-005-right-context-v1.jpg": {
+      "sha256": "bfeaa593076fa5c9d9f35f8676d25ec9876618d9cc962b2bf2d3a1f15e33e60d",
+      "bytes": 513977
+    },
+    "proverbs-c018-v006-006-right-context-v1.jpg": {
+      "sha256": "6d20023dec0dd9b23939540ca39a3dd8bdc2ae0961599f1b7703cc01b5af63cf",
+      "bytes": 499632
+    },
+    "proverbs-c018-v007-007-right-context-v1.jpg": {
+      "sha256": "630ae2c268ef31c3a7c895ab3f95f0cf42da7842584ca1b9080855cfed2ab6ba",
+      "bytes": 519155
+    },
+    "proverbs-c018-v008-008-right-context-v1.jpg": {
+      "sha256": "42a03e073fafccf0a90a079088591c93565cd666baa1c75b3b4656803ce54c5b",
+      "bytes": 487425
+    },
+    "proverbs-c018-v009-009-right-context-v1.jpg": {
+      "sha256": "35b934ece070c5fa4938e34ad11211fbff96997f55ce94a88979a4d4ea4d5e2d",
+      "bytes": 678274
+    },
+    "proverbs-c018-v010-010-right-context-v1.jpg": {
+      "sha256": "e07ce4b4fcec995e6e31625f6613f3d8c19b781b6c4851a0c2d937a7133ef243",
+      "bytes": 537549
+    },
+    "proverbs-c018-v011-011-right-context-v1.jpg": {
+      "sha256": "dd5a27b5abb71bab61400a319b9d297888d768604367d805fc3f7b737654939c",
+      "bytes": 490008
+    },
+    "proverbs-c018-v012-012-right-context-v1.jpg": {
+      "sha256": "4dd2b4573b57cc8a311ef264e1940dd4751236b6dc2e1bc91ab95c09fc44ec03",
+      "bytes": 448272
+    },
+    "proverbs-c018-v013-013-right-context-v1.jpg": {
+      "sha256": "ef3226fc3c37f3a7214bd3526f6c3793077c0c5a5f82f0ccd14a47b297b51508",
+      "bytes": 415109
+    },
+    "proverbs-c018-v014-014-right-context-v1.jpg": {
+      "sha256": "92d6c8ba32d6514f753d62dd844a6625022ddc1f1a3fa6c538ff662aefd439ea",
+      "bytes": 402951
+    },
+    "proverbs-c018-v015-015-right-context-v1.jpg": {
+      "sha256": "243d290c58f261f0d8bf7a68b2f641b26ff4958b1afb0f3b86177ecbaca179d2",
+      "bytes": 413927
+    },
+    "proverbs-c018-v016-016-right-context-v1.jpg": {
+      "sha256": "69564712bd2911c39d40f9a71eaed208314f0358c316420ae680cae99def6d83",
+      "bytes": 489198
+    },
+    "proverbs-c018-v017-017-right-context-v1.jpg": {
+      "sha256": "d9681a9fbca0dc703477436a6ee949c94165955cfeb854612b74c08f8ee8f8c0",
+      "bytes": 466837
+    },
+    "proverbs-c018-v018-018-right-context-v1.jpg": {
+      "sha256": "00d7f472a41d995927f94c45a563b896cabbff85abae10189ad3e1a7a2329fcf",
+      "bytes": 530086
+    },
+    "proverbs-c018-v019-019-right-context-v1.jpg": {
+      "sha256": "fcea49246f1f568e4994c1f05e86b9a3a88322219a38073f37fe3d6cee6ba0da",
+      "bytes": 554509
+    },
+    "proverbs-c018-v020-020-right-context-v1.jpg": {
+      "sha256": "8ef6a84e6eefe29b8c5598da8e623f9e7ea42776cc5f57fa6f6fda88b5943a19",
+      "bytes": 481362
+    },
+    "proverbs-c018-v021-021-right-context-v1.jpg": {
+      "sha256": "0373ab7a54b1ffb51b714ac9b250f155da98daf1659ad3c04cfb5a7f441bf64e",
+      "bytes": 414744
+    },
+    "proverbs-c018-v022-022-right-context-v1.jpg": {
+      "sha256": "80825abb9e6bbafe32f7a5d3064af073de7e9251d600944d220c9d84dbf557d2",
+      "bytes": 457715
+    },
+    "proverbs-c018-v023-023-right-context-v1.jpg": {
+      "sha256": "d9d875b328381271bddb1e2cba5ec6d989f9cda1b12cec9d2b8dc821b30f3a87",
+      "bytes": 524215
+    },
+    "proverbs-c018-v024-024-right-context-v1.jpg": {
+      "sha256": "cbd05270d2ea55f5a9504387010c7e482f3d29bdfa4b4833b0d25851d3699a9c",
+      "bytes": 507551
+    },
+    "proverbs-c019-v001-001-right-context-v1.jpg": {
+      "sha256": "6ea190aec393698d0f48e4af253b112bc61e485c034161e8d94879f5ac3c8209",
+      "bytes": 528132
+    },
+    "proverbs-c019-v002-002-right-context-v1.jpg": {
+      "sha256": "bd138d1c370df79b9df46ce5f6469ae31563888358d85bad269d63b33d4d5d99",
+      "bytes": 563214
+    },
+    "proverbs-c019-v003-003-right-context-v1.jpg": {
+      "sha256": "af363433220bb1a6c90767d5632aba664d0f5060eed3290c144dcaac4f0ccf9b",
+      "bytes": 493612
+    },
+    "proverbs-c019-v004-004-right-context-v1.jpg": {
+      "sha256": "720aacd357b2687aba58de3f230275e94032addb0639750362422c2cc703d68e",
+      "bytes": 592197
+    },
+    "proverbs-c019-v005-005-right-context-v1.jpg": {
+      "sha256": "31b7fdf43bea586e3bc2d6dd633a61e28666c711857712b7d87c3c625cc26138",
+      "bytes": 433845
+    },
+    "proverbs-c019-v006-006-right-context-v1.jpg": {
+      "sha256": "32b409ae63cfe25ac812b3262a1aa603320e6584f1fe5643ee2e76d17099c574",
+      "bytes": 561922
+    },
+    "proverbs-c019-v007-007-right-context-v1.jpg": {
+      "sha256": "a0227926cd5e220ef7cf251dde7bb4eeb04c94728e56150fabaa5705782311ae",
+      "bytes": 552910
+    },
+    "proverbs-c019-v008-008-right-context-v1.jpg": {
+      "sha256": "89bb6d815600faa21d4d485668a8365d27de7a9822d214797b98311cc2023d41",
+      "bytes": 406010
+    },
+    "proverbs-c019-v009-009-right-context-v1.jpg": {
+      "sha256": "e9d4a8828f587909ac4eb19ee6cd041b9e13f4b7d2cf0fe4b12d9ca96c4910bb",
+      "bytes": 438752
+    },
+    "proverbs-c019-v010-010-right-context-v1.jpg": {
+      "sha256": "b6b8351a14c3698d721716b044eaec6dc62a89e898907e35fe9a7d138291c562",
+      "bytes": 434392
+    },
+    "proverbs-c019-v011-011-right-context-v1.jpg": {
+      "sha256": "885490dc405d8e0a8e843bb4321df24ee98f6d73fc0e750a1ea2f2c6ceaa57f1",
+      "bytes": 481601
+    },
+    "proverbs-c019-v012-012-right-context-v1.jpg": {
+      "sha256": "9af04619cd96e3c3d239b380442425fbf98a2a225852401efe871ce25c261316",
+      "bytes": 508270
+    },
+    "proverbs-c019-v013-013-right-context-v1.jpg": {
+      "sha256": "3841008587c97de03c154d760b0172feed4774630824ce678b82c714724d9c2a",
+      "bytes": 438767
+    },
+    "proverbs-c019-v014-014-right-context-v1.jpg": {
+      "sha256": "2aa5505cdb31ce229c3829ceeb178813eec5a8a6f67918ab91f0778a50036be4",
+      "bytes": 551369
+    },
+    "proverbs-c019-v015-015-right-context-v1.jpg": {
+      "sha256": "95172c2dd5b09a77d7d947e183067b3c5ec1b8d8472a366ac8cb8d2e5f5843ff",
+      "bytes": 587692
+    },
+    "proverbs-c019-v016-016-right-context-v1.jpg": {
+      "sha256": "338ecdc6b9586861491eda711fb95787955b2edfc55e9a9d661dc89ae9720f2e",
+      "bytes": 576583
+    },
+    "proverbs-c019-v017-017-right-context-v1.jpg": {
+      "sha256": "0366c351dd00e56ba6fdfbc3695338ddd87cf4a4fba6292e27ce05cbcd50ec6c",
+      "bytes": 483697
+    },
+    "proverbs-c019-v018-018-right-context-v1.jpg": {
+      "sha256": "d42f9f0e5fa23c1cb991d9e6dff53d5f300e345a53cb3ab368d490ac111b578d",
+      "bytes": 487345
+    },
+    "proverbs-c019-v019-019-right-context-v1.jpg": {
+      "sha256": "f05d4f28fb49d9b890e8bf62855dc22932dc7ace1570167e90a48b82764c16a4",
+      "bytes": 480687
+    },
+    "proverbs-c019-v020-020-right-context-v1.jpg": {
+      "sha256": "39ac2898e44a5a12fdc7454ba3128f3592aa2de5af5241a82c38e7c5d17063a1",
+      "bytes": 463716
+    },
+    "proverbs-c019-v021-021-right-context-v1.jpg": {
+      "sha256": "e17ac006314333be5e806c1f8e240539387dbc6eaf492964c00821b2d7a82b84",
+      "bytes": 546270
+    },
+    "proverbs-c019-v022-022-right-context-v1.jpg": {
+      "sha256": "9162cae811ee6d299677af82ab011bbaf7b04445dc3deb690b14e2be8561eabf",
+      "bytes": 552351
+    },
+    "proverbs-c019-v023-023-right-context-v1.jpg": {
+      "sha256": "98fe341e4307ff7782d5e9b05f9de4c172012875c26f552b49d150098c90560a",
+      "bytes": 446800
+    },
+    "proverbs-c019-v024-024-right-context-v1.jpg": {
+      "sha256": "51c9635b87949886310638246e9b0934f905b24914ce03165453d986bfd8120f",
+      "bytes": 451809
+    },
+    "proverbs-c019-v025-025-right-context-v1.jpg": {
+      "sha256": "55dc2ff5f579a48e18b1784c40a677db9d5ae41cb039dc7d8f2ff49187955a79",
+      "bytes": 436167
+    },
+    "proverbs-c019-v026-026-right-context-v1.jpg": {
+      "sha256": "d9f79c844342561f28389a8c1f86662cd85edb7feeed8829eae0f8852cda2130",
+      "bytes": 492550
+    },
+    "proverbs-c019-v027-027-right-context-v1.jpg": {
+      "sha256": "89df9f044a51b6f7c4bf18d09d7007414cea02fd96d4e2c69153f52d3e19d6bb",
+      "bytes": 490546
+    },
+    "proverbs-c019-v028-028-right-context-v1.jpg": {
+      "sha256": "9980b971103f8bcd035922634f8ae70b75af5e8d2677c63b8cc23e3521736abe",
+      "bytes": 425132
+    },
+    "proverbs-c019-v029-029-right-context-v1.jpg": {
+      "sha256": "6b1cdca78e25d2dcec642022ff1d913928a28f73dc280c256b5e2e97ee1e8f8a",
+      "bytes": 477393
+    },
+    "proverbs-c020-v001-001-right-context-v1.jpg": {
+      "sha256": "52f52b729ea802fdc02fedec04f18b879c33881aa1fa508918056e59eddce5da",
+      "bytes": 440994
+    },
+    "proverbs-c020-v002-002-right-context-v1.jpg": {
+      "sha256": "91342f84f8f3b1657fa2c0401b5a152010e29b5c55dfe988e768f03e8e31f454",
+      "bytes": 412383
+    },
+    "proverbs-c020-v003-003-right-context-v1.jpg": {
+      "sha256": "2887ce7f82bd698057dca5e62efe946165e3d0db88186b68a66564b87b2e5e07",
+      "bytes": 425273
+    },
+    "proverbs-c020-v004-004-right-context-v1.jpg": {
+      "sha256": "f956104c3ee05ed97ab2bd2af7f9743209b087d9ec25aeb3557b2dcc5f76e90e",
+      "bytes": 692576
+    },
+    "proverbs-c020-v005-005-right-context-v1.jpg": {
+      "sha256": "aa79ce3052a622d7335dc3c83b26748ae07809bf885a5ec7ee3cc97954c7077f",
+      "bytes": 521666
+    },
+    "proverbs-c020-v006-006-right-context-v1.jpg": {
+      "sha256": "a532f16074a9f52526d73d6406c8de0b986b1f78fca11bc439b45225dca12a68",
+      "bytes": 529786
+    },
+    "proverbs-c020-v007-007-right-context-v1.jpg": {
+      "sha256": "7e4d8a3f662b0abd49480fefa264de96159b5c4eed3d0aef7fdb3a38646fb7db",
+      "bytes": 429906
+    },
+    "proverbs-c020-v008-008-right-context-v1.jpg": {
+      "sha256": "f23a04b58d4ab8090f2df460cdf7778b0d4eec1e6cbbb1aeb52dbab041257666",
+      "bytes": 471683
+    },
+    "proverbs-c020-v009-009-right-context-v1.jpg": {
+      "sha256": "daa12919c82def94cb78aed2f1fa58155ca3cf0484f07d8eb85aa5526f06e26c",
+      "bytes": 465738
+    },
+    "proverbs-c020-v010-010-right-context-v1.jpg": {
+      "sha256": "ddb1b0c4944d72f64da0ddb5bf35e243195a320bde323d409de907708b51df2b",
+      "bytes": 469727
+    },
+    "proverbs-c020-v011-011-right-context-v1.jpg": {
+      "sha256": "77bc9b73681b43590e08c8c3f45fcb656aa2ad5e13fa9ccb2621720a9a7b1937",
+      "bytes": 489384
+    },
+    "proverbs-c020-v012-012-right-context-v1.jpg": {
+      "sha256": "161330480640e6f90a0a4025e996bdcdfb6c144c5aaf3624f13ecce10bdc2c81",
+      "bytes": 527465
+    },
+    "proverbs-c020-v013-013-right-context-v1.jpg": {
+      "sha256": "503a9b5534e196d2b7b0dfb06491589f5e467519841ce0633a429f04910bb032",
+      "bytes": 516290
+    },
+    "proverbs-c020-v014-014-right-context-v1.jpg": {
+      "sha256": "dcc5fbf1deeaed6f62079433008851bf6ea0094aaea5d1851a0ac72b1fec6c21",
+      "bytes": 452102
+    },
+    "proverbs-c020-v015-015-right-context-v1.jpg": {
+      "sha256": "60523da8af57541ac1c09a1aef5c9f34ea2dca4c58e0025d23c19d2bcc8f5c95",
+      "bytes": 502043
+    },
+    "proverbs-c020-v016-016-right-context-v1.jpg": {
+      "sha256": "e292808250bf0587b21a3d270a258d45edc10dd119e2ec75244a54976a6447ba",
+      "bytes": 504737
+    },
+    "proverbs-c020-v017-017-right-context-v1.jpg": {
+      "sha256": "52c1b139d38f09bbd9472b43b661d28e49129fa01bdccfa25a0123932d302f52",
+      "bytes": 483184
+    },
+    "proverbs-c020-v018-018-right-context-v1.jpg": {
+      "sha256": "e8a5ebd338075e66846c61db9265030a7993023cc1aeebd01b86b3d7bab6e9aa",
+      "bytes": 442299
+    },
+    "proverbs-c020-v019-019-right-context-v1.jpg": {
+      "sha256": "0d394b5741560f049273f399662755f727f6766bcb235ed6097f3fc47179f8ac",
+      "bytes": 484493
+    },
+    "proverbs-c020-v020-020-right-context-v1.jpg": {
+      "sha256": "6e041740b7458f24095748c95fb015e19a46e0f3ec6963a23b91d3b58a0b7c24",
+      "bytes": 341132
+    },
+    "proverbs-c020-v021-021-right-context-v1.jpg": {
+      "sha256": "4d65c110f4b942df1b6d6ad83d3d01cfca8926e67b6bdb4f741c94cdeb52f936",
+      "bytes": 568188
+    },
+    "proverbs-c020-v022-022-right-context-v1.jpg": {
+      "sha256": "12bbb8d5250d0cf96df453afa3887fc4079f7f2b52259b093c743891e52c7e1e",
+      "bytes": 395114
+    },
+    "proverbs-c020-v023-023-right-context-v1.jpg": {
+      "sha256": "efa7fe0886f9dea68712ccf0583c722c59fd1172f069d568398fa82d4fc01e49",
+      "bytes": 473457
+    },
+    "proverbs-c020-v024-024-right-context-v1.jpg": {
+      "sha256": "305374d7cc69b5061ef4064eba3d13e3062f09cdc72bfdf2adbc2388d4303c44",
+      "bytes": 658203
+    },
+    "proverbs-c020-v025-025-right-context-v1.jpg": {
+      "sha256": "62159e06798c1787e8420a140caa5e0615f2ef591cfdbd535906a334f04c3968",
+      "bytes": 562912
+    },
+    "proverbs-c020-v026-026-right-context-v1.jpg": {
+      "sha256": "4992bf015b499234aa25c814e3bb78113e424dbe5e8d819504c317f66b4d5bd2",
+      "bytes": 538557
+    },
+    "proverbs-c020-v027-027-right-context-v1.jpg": {
+      "sha256": "0ab8415fd2de875145d9fb16eedbc06a65b1c47ae3ec89d611cbc793baa02b1f",
+      "bytes": 351038
+    },
+    "proverbs-c020-v028-028-right-context-v1.jpg": {
+      "sha256": "b9a836686b49e665cb83cd461f5f37d545a4c81fb2541b3b0d296591d75e8ddf",
+      "bytes": 445004
+    },
+    "proverbs-c020-v029-029-right-context-v1.jpg": {
+      "sha256": "853d80688e50d3695d771f11c7db77097325561381c3c310062f47a38aa87936",
+      "bytes": 468668
+    },
+    "proverbs-c020-v030-030-right-context-v1.jpg": {
+      "sha256": "2b3614a5ca17690ff01300bb96ea9f46bd8e844b5d640ef11f68e50899d68210",
+      "bytes": 442560
+    },
+    "proverbs-c021-v001-001-right-context-v1.jpg": {
+      "sha256": "0813ea0d16486d4b3def0e263a8a9babe2f0598c5abecbcfff4bbeca2473ff70",
+      "bytes": 692813
+    },
+    "proverbs-c021-v002-002-right-context-v1.jpg": {
+      "sha256": "e4ebfee454faa3a465d6c8b113b064070b295be9582bbd5cbe2f86287edb52d0",
+      "bytes": 428806
+    },
+    "proverbs-c021-v003-003-right-context-v1.jpg": {
+      "sha256": "32669ceac31309f706b07f042f18e2fb0aaf80ebcf4581239a7bfdb35e558bce",
+      "bytes": 518559
+    },
+    "proverbs-c021-v004-004-right-context-v1.jpg": {
+      "sha256": "a17e48c8d0c25a9bca60f4f7fe05946e15c96dc3a35338d3eafed0f0bb307689",
+      "bytes": 451093
+    },
+    "proverbs-c021-v005-005-right-context-v1.jpg": {
+      "sha256": "61d4ee6d7d4aeedf3b6135c050b0f0562cf6e815e7a2939d590ffec76f13fb03",
+      "bytes": 515376
+    },
+    "proverbs-c021-v006-006-right-context-v1.jpg": {
+      "sha256": "eb4a51d3058d2433afcfd33fc5f8c95ddb86fcb155b06ea87623f8bb69a9af5f",
+      "bytes": 485744
+    },
+    "proverbs-c021-v007-007-right-context-v1.jpg": {
+      "sha256": "5f38dd129ee1a65258e3996df4e4f9ae3d9c165de743ab5125f3b84366b6aba8",
+      "bytes": 506426
+    },
+    "proverbs-c021-v008-008-right-context-v1.jpg": {
+      "sha256": "9521a2cff53a526987997a17c1106439c920269a0e819cf605a978a00688804a",
+      "bytes": 654603
+    },
+    "proverbs-c021-v009-009-right-context-v1.jpg": {
+      "sha256": "ced30fcdb9ae02fa79efc1c8b7678681522a1bf5f143f04be71353eb28a7841b",
+      "bytes": 439926
+    },
+    "proverbs-c021-v010-010-right-context-v1.jpg": {
+      "sha256": "dfdea15b0ce1bb491db9230920f64cd80a8142b4742a2efd26ed91bd01327b51",
+      "bytes": 497634
+    },
+    "proverbs-c021-v011-011-right-context-v1.jpg": {
+      "sha256": "80b178b7e674bbd79d8fca7fffd4a7844ae7bf9b40e4f908c6af343a18aa9a9a",
+      "bytes": 464362
+    },
+    "proverbs-c021-v012-012-right-context-v1.jpg": {
+      "sha256": "828b076462715d30c3398bf373364cb382b487671ee018a6b4f2a990bde5f747",
+      "bytes": 557391
+    },
+    "proverbs-c021-v013-013-right-context-v1.jpg": {
+      "sha256": "7dcab70b650cac4d288a4d97f4aede9a08a11d3096c88c96d84c12288a16f9b7",
+      "bytes": 518496
+    },
+    "proverbs-c021-v014-014-right-context-v1.jpg": {
+      "sha256": "a979978a838ef0aac84a6c691452c5fa3b35cf9d1681def5ed895e8e7eaf16f8",
+      "bytes": 536652
+    },
+    "proverbs-c021-v015-015-right-context-v1.jpg": {
+      "sha256": "0de1699c58a404933c5155565a91831dcc5cdffef51a45dc2a03a0d49c8fc9f6",
+      "bytes": 460029
+    },
+    "proverbs-c021-v016-016-right-context-v1.jpg": {
+      "sha256": "f71d6680c94f37a28695235e9c641c3d97a7bb6df9ee32e976f597561a1309d0",
+      "bytes": 610521
+    },
+    "proverbs-c021-v017-017-right-context-v1.jpg": {
+      "sha256": "1bc6ca477aa0243d2c2e23ae92ec8e9c4d7a0f39e63099f7b2068ba4ce2e796c",
+      "bytes": 570827
+    },
+    "proverbs-c021-v018-018-right-context-v1.jpg": {
+      "sha256": "9559b5a0377937ecec25e22f3a1da7b9ea75ca34ecc1380bcd4a7dcc9d21318f",
+      "bytes": 404312
+    },
+    "proverbs-c021-v019-019-right-context-v1.jpg": {
+      "sha256": "5906c6bd96f68ec1a5db4b02f5e128bc25ad7a3357fce2e811bfe464304384dd",
+      "bytes": 478729
+    },
+    "proverbs-c021-v020-020-right-context-storage-v2.jpg": {
+      "sha256": "6e10c446545567f0ef2733637ded28353d1105d9498584ca3caa9ff70130e177",
+      "bytes": 413446
+    },
+    "proverbs-c021-v021-021-right-context-v1.jpg": {
+      "sha256": "0bae27b01856a3fcc866fd9eb592aa11851620ec11caee7b58bf017904c98382",
+      "bytes": 535457
+    },
+    "proverbs-c021-v022-022-right-context-v1.jpg": {
+      "sha256": "a9f29bc73ee15afbdd850102fc2ae7c326c22b97dea40eb8589537b5d272fc85",
+      "bytes": 530322
+    },
+    "proverbs-c021-v023-023-right-context-v1.jpg": {
+      "sha256": "1f8a841c7c1d3a962ff94854bbb5c7d0fc760de08ad4d6f3f5afc94cf79673c4",
+      "bytes": 391149
+    },
+    "proverbs-c021-v024-024-right-context-v1.jpg": {
+      "sha256": "6da6536debf02111f6156ae5af1d8db912fed4047539fec09d17423a308e68c9",
+      "bytes": 417000
+    },
+    "proverbs-c021-v025-025-right-context-v1.jpg": {
+      "sha256": "873c34370cd323dfb7d2bb191adb5638687898e37f9837549e9f573909d95174",
+      "bytes": 536511
+    },
+    "proverbs-c021-v026-026-right-context-v1.jpg": {
+      "sha256": "1616f9ec7cb43454dfd186aa153e847bb727d72a7c87884e251395c656d06e5d",
+      "bytes": 528832
+    },
+    "proverbs-c021-v027-027-right-context-v1.jpg": {
+      "sha256": "2edb6edcd1f4e96bf270a952cfb8dd01f64c0e32d58a4ab952ea28e43668e2a2",
+      "bytes": 432830
+    },
+    "proverbs-c021-v028-028-right-context-v1.jpg": {
+      "sha256": "5729e13a645cf2850f52e135bbce80e3096d8e1b3151fbdac891abd7a3e2b5ef",
+      "bytes": 428951
+    },
+    "proverbs-c021-v029-029-right-context-v1.jpg": {
+      "sha256": "37779504ee4790503b6a9f966c5b8852e26b1452a94c6ad06e21d1ca6cc37d79",
+      "bytes": 475554
+    },
+    "proverbs-c021-v030-030-right-context-v1.jpg": {
+      "sha256": "ad1cbba816185cf449611a346955cd10b94cafe4a86c47514ddb084136224128",
+      "bytes": 463013
+    },
+    "proverbs-c021-v031-031-right-context-v1.jpg": {
+      "sha256": "0b63c3dab28e2c150e24940672853b832ef411e591cf51f76f339d55b9b740bd",
+      "bytes": 429064
+    },
+    "proverbs-c022-v001-001-right-context-v1.jpg": {
+      "sha256": "916a87b161f0a3593847257e68e3fa41df9981a4507e1614403d9284880706e9",
+      "bytes": 502481
+    },
+    "proverbs-c022-v002-002-right-context-v1.jpg": {
+      "sha256": "f0745906962232c7b56d99064060f4915da7769ff1bec839507acb069c6b996b",
+      "bytes": 565013
+    },
+    "proverbs-c022-v003-003-right-context-v1.jpg": {
+      "sha256": "6c9b9259694d9c7ffb577f04ae5c94bc036debbb1e7b477929149f68c1d3c4f8",
+      "bytes": 484052
+    },
+    "proverbs-c022-v004-004-right-context-v1.jpg": {
+      "sha256": "c9187fc469656d6eefd29059bf87c3b701040ba8d3f5cec3d036ee839eca0f8d",
+      "bytes": 478965
+    },
+    "proverbs-c022-v005-005-right-context-v1.jpg": {
+      "sha256": "5b6ba2a91d5bf8ebc73a9c9a6d1b4c01de9e14900efbf9de4cf4bd1ca7181061",
+      "bytes": 544901
+    },
+    "proverbs-c022-v006-006-right-context-v1.jpg": {
+      "sha256": "1036fd63286a6390fc582f7d44b0fb605af1715f2effa56c4a22819da8cfa3d5",
+      "bytes": 476590
+    },
+    "proverbs-c022-v007-007-right-context-v1.jpg": {
+      "sha256": "d20dd52abf6f6d1788ad4e37beae854ab9f7989581c4f472d229e01749cd1059",
+      "bytes": 485131
+    },
+    "proverbs-c022-v008-008-right-context-v1.jpg": {
+      "sha256": "de69a8122114ea896b529879e37fcd3939d7731ed04f90f09ffa3d882da6f8b2",
+      "bytes": 518587
+    },
+    "proverbs-c022-v009-009-right-context-v1.jpg": {
+      "sha256": "e910ad67bd2931902175cacb6b03a0f5a27b95db955604c8f377c83194b19a0c",
+      "bytes": 541089
+    },
+    "proverbs-c022-v010-010-right-context-v1.jpg": {
+      "sha256": "a7b0ff80692d4d37a3ce2854c9e002efccc0d8e9ea33090297a906caf3d9331d",
+      "bytes": 503562
+    },
+    "proverbs-c022-v011-011-right-context-v1.jpg": {
+      "sha256": "337f41dac704b20690ea573df01730742f21e867c97c1419f35a74e0c3746fea",
+      "bytes": 458444
+    },
+    "proverbs-c022-v012-012-right-context-v1.jpg": {
+      "sha256": "02a466aed881cda35b02211befc1f01ac965f5438592b77321a4486d560b2c30",
+      "bytes": 499309
+    },
+    "proverbs-c022-v013-013-right-context-v1.jpg": {
+      "sha256": "8811db0916b9ef799eed2512d29beeb5a4a7ced71ef15f0e699b2e0f9c77b755",
+      "bytes": 443504
+    },
+    "proverbs-c022-v014-014-right-context-v1.jpg": {
+      "sha256": "df2a01b83faa725b0d343e41e155592d7bf19ea15169a61e65247481af30ad45",
+      "bytes": 519063
+    },
+    "proverbs-c022-v015-015-right-context-v1.jpg": {
+      "sha256": "833dade9f89a89bd71664234a719676b9e82f4a4602963898fa9359140bc5dc9",
+      "bytes": 458584
+    },
+    "proverbs-c022-v016-016-right-context-v1.jpg": {
+      "sha256": "935684c37d221fe5760e21948c95c4184c59d92aa2ec68f2f50b3ca62942eace",
+      "bytes": 548659
+    },
+    "proverbs-c022-v017-021-right-context-v1.jpg": {
+      "sha256": "25922cd1ea9b5baebf204572871ea2bfb0fac7261975312bc91bfbd98ff04c2e",
+      "bytes": 442739
+    },
+    "proverbs-c022-v022-023-right-context-v1.jpg": {
+      "sha256": "db7d91816cea2134c5c5e8b56bdd133ed103e0f4a3901fa55ad730a701d6cbb7",
+      "bytes": 499882
+    },
+    "proverbs-c022-v024-025-right-context-v1.jpg": {
+      "sha256": "cd16284f7338e76047420f48182613747720ff1024a4776728c8b8f8d9106001",
+      "bytes": 582003
+    },
+    "proverbs-c022-v026-027-right-context-v1.jpg": {
+      "sha256": "8e1f44770dbf801030e12b6407d66affa954c1640aac64cabf9ca0dd943db3c0",
+      "bytes": 477907
+    },
+    "proverbs-c022-v028-028-right-context-v1.jpg": {
+      "sha256": "d2f4023c46beca740e3a9b531593250c7ea31ff100f6d4f3095582d3d6290829",
+      "bytes": 573951
+    },
+    "proverbs-c022-v029-029-right-context-v1.jpg": {
+      "sha256": "3d016814ebca28459b20dc033c2bf0cb259aad71b42040567ce6ca788afbdf48",
+      "bytes": 407148
+    },
+    "proverbs-c023-v001-003-right-context-v1.jpg": {
+      "sha256": "0a9c23eafa482197bf9b10eeabf1e29a1ef76ad4dd47976b7bcf4d84044099c5",
+      "bytes": 411294
+    },
+    "proverbs-c023-v004-004-right-context-v1.jpg": {
+      "sha256": "5e532c41959f9fc14c8eb44a544353da4514546ba342fa9b4d76906d7f2e2ad3",
+      "bytes": 442493
+    },
+    "proverbs-c023-v005-005-right-context-v1.jpg": {
+      "sha256": "99b6a90a3e6a9534c479ca1de662ccf4b13da049b7d16b1ab22510340b50a7eb",
+      "bytes": 473956
+    },
+    "proverbs-c023-v006-008-right-context-v1.jpg": {
+      "sha256": "13887a6c24076c30509e3a63cf19f75a59053c98a52dcd6ffbe6683b6b1039d7",
+      "bytes": 432887
+    },
+    "proverbs-c023-v009-009-right-context-v1.jpg": {
+      "sha256": "8b5f7e0108da25d581268a984d174ba48fbae53206f8f61d01020561c697028c",
+      "bytes": 497239
+    },
+    "proverbs-c023-v010-011-right-context-v1.jpg": {
+      "sha256": "703e599142e26f1c241a77f60c86f308a15ef9d07d12570b293ce9e70c931b41",
+      "bytes": 572666
+    },
+    "proverbs-c023-v012-012-right-context-v1.jpg": {
+      "sha256": "593c564d214af549698aa2ef022983f3cf8b305512b92b804c849397656bcdde",
+      "bytes": 455451
+    },
+    "proverbs-c023-v013-014-right-context-v1.jpg": {
+      "sha256": "e2da367f07f144dc9bbfa630a5eea7b8af9109905c3b600a29b597ed39e0d58c",
+      "bytes": 480320
+    },
+    "proverbs-c023-v015-016-right-context-v1.jpg": {
+      "sha256": "3adddc34028e64bc3f3fb2d3638406fa48b26b72f4cb3c7446836e71876d7ebf",
+      "bytes": 528342
+    },
+    "proverbs-c023-v017-018-right-context-v1.jpg": {
+      "sha256": "9803a97756d645f2307f77472333c16cbeee11e5ed92c2b5729e5c8ce2986c75",
+      "bytes": 529151
+    },
+    "proverbs-c023-v019-021-right-context-v1.jpg": {
+      "sha256": "8656e014c3d57ae723a56a1eb3400b1985892ae0795fbdb8a5070e75747985f0",
+      "bytes": 514230
+    },
+    "proverbs-c023-v022-022-right-context-v1.jpg": {
+      "sha256": "5c29e7d0c243b9a3b728a7f11359cad9fb1525f9a4c0edca2e31539d41909434",
+      "bytes": 561645
+    },
+    "proverbs-c023-v023-023-right-context-v1.jpg": {
+      "sha256": "e6a37839772ac516ae79031897b6635cc77bcafb74d4ae875c566fc8f4d9aa65",
+      "bytes": 444378
+    },
+    "proverbs-c023-v024-025-right-context-v1.jpg": {
+      "sha256": "a363a937d3942a1aab7e138e83e5f2c38dd31ef7bafb7d2fb3f453c5e156154b",
+      "bytes": 523767
+    },
+    "proverbs-c023-v026-028-right-context-v1.jpg": {
+      "sha256": "c4287c6f0f2083a28d6503b66929bb4d09d8eafd9efb860a8f15adcf052258a6",
+      "bytes": 510376
+    },
+    "proverbs-c023-v029-030-right-context-v1.jpg": {
+      "sha256": "75e5446c1ae1abca0dc4afcec15d9e8744582f305f4993d164f70e4fa46f809e",
+      "bytes": 419580
+    },
+    "proverbs-c023-v031-031-right-context-v1.jpg": {
+      "sha256": "05babe44c043397dcc5236916e1fb6409164490776261eacef702710140fb46d",
+      "bytes": 403130
+    },
+    "proverbs-c023-v032-032-right-context-v1.jpg": {
+      "sha256": "d3c822e2a2c07bcb112a1d9766c31e0d4d11e71511e95da3cf7f42a8a13e2c40",
+      "bytes": 414885
+    },
+    "proverbs-c023-v033-033-right-context-v1.jpg": {
+      "sha256": "5fc79c2ccf7b1d1c52b5e1fefb94cf85105e20ee4e7d02fe214feecb7812dfff",
+      "bytes": 319443
+    },
+    "proverbs-c023-v034-034-right-context-v1.jpg": {
+      "sha256": "4e47da16a479147686da58fa6b96875be373246704d5e004a24b992d813922a0",
+      "bytes": 556726
+    },
+    "proverbs-c023-v035-035-right-context-v1.jpg": {
+      "sha256": "eb7e74ddf76129d7aec797419e8e280ca9f330774e8de652f1a5a49dacf69b61",
+      "bytes": 446507
+    },
+    "proverbs-c024-v001-002-right-context-v1.jpg": {
+      "sha256": "8f66b3902c3c49fb0f72a8bcd9f23d163de47e2d416996ebcf794e3ce48ae119",
+      "bytes": 464720
+    },
+    "proverbs-c024-v003-004-right-context-v1.jpg": {
+      "sha256": "725b9865716df4782d9c2b061028d5356ce699a4bafcc00e78293fb62468a82f",
+      "bytes": 589725
+    },
+    "proverbs-c024-v005-006-right-context-v1.jpg": {
+      "sha256": "47df5eaa2a18233aa5877becb30ce4c3df4f66236f5416ff636d779fe9c665c1",
+      "bytes": 489439
+    },
+    "proverbs-c024-v007-007-right-context-v1.jpg": {
+      "sha256": "c599908a00d4042ee8745aaa9bc53f8dad6e557b594038074994bb7dc6e49c49",
+      "bytes": 470173
+    },
+    "proverbs-c024-v008-009-right-context-v1.jpg": {
+      "sha256": "53a4307eba6cea9e043f958bbf83ce8368947de861ae3fc91ee59e43e74d89e8",
+      "bytes": 433007
+    },
+    "proverbs-c024-v010-010-right-context-v1.jpg": {
+      "sha256": "6198084635a6862c8c1fce9bcefe6d56187a2cf22fae9017cf3b4a8c51f92eed",
+      "bytes": 553682
+    },
+    "proverbs-c024-v011-012-right-context-v1.jpg": {
+      "sha256": "9a9966e3c6b32c99c9c38a962f9513d38b6ebbc03bb011224cdd5bbd2a8c1f64",
+      "bytes": 515218
+    },
+    "proverbs-c024-v013-014-right-context-v1.jpg": {
+      "sha256": "7fa0414ba9a58d36710779df7f4677fa5bc1f4bf18945189a380d7b6b427d003",
+      "bytes": 463095
+    },
+    "proverbs-c024-v015-016-right-context-v1.jpg": {
+      "sha256": "c6fbda921b1ae2938489208d781ce8636d573323de3240937466481ad3b8ff92",
+      "bytes": 582793
+    },
+    "proverbs-c024-v017-018-right-context-v1.jpg": {
+      "sha256": "1952373634c7c9035643ae58519ee7993ddceeea8b0d957ec410641359639c85",
+      "bytes": 575015
+    },
+    "proverbs-c024-v019-020-right-context-v1.jpg": {
+      "sha256": "7156067df9ef3be534efe9a2ae008b268c8bfb423d957a50014921af932046d9",
+      "bytes": 538709
+    },
+    "proverbs-c024-v021-022-right-context-v1.jpg": {
+      "sha256": "7b8b77261e5f1a408d37cbf3cf499ab8ac58747a73016af65610d9c6f7118bf3",
+      "bytes": 520189
+    },
+    "proverbs-c024-v023-025-right-context-v1.jpg": {
+      "sha256": "8bae5e0fb62ef0cbf1448f4908b3a0ada45647dacca47bd79f7675efb97217fd",
+      "bytes": 518252
+    },
+    "proverbs-c024-v026-026-right-context-v1.jpg": {
+      "sha256": "2d4722b06e5424ec05e7c9c57f601bd7e2dd68c7e047a0e3f4d7e6fe87a5c5a2",
+      "bytes": 494862
+    },
+    "proverbs-c024-v027-027-right-context-v1.jpg": {
+      "sha256": "6ae2494d39245688c63aaac1838c838f01f755682fb725f120ba12a34fc25a52",
+      "bytes": 620243
+    },
+    "proverbs-c024-v028-029-right-context-v1.jpg": {
+      "sha256": "cd6f880cada3e554bbf32dc520a0d4990d1b4e3dc75bc95864032b75ed496664",
+      "bytes": 464849
+    },
+    "proverbs-c024-v030-032-right-context-v1.jpg": {
+      "sha256": "8c91ddf60344ed445b71103807a98fba112500b8bceeffa2ffd389caad735a6e",
+      "bytes": 732471
+    },
+    "proverbs-c024-v033-034-right-context-v1.jpg": {
+      "sha256": "a6eb15457639b9b3aa96ed58096de17dfd205179fa04f81cada686a200cef6cb",
+      "bytes": 542044
+    },
+    "proverbs-c025-v001-001-right-context-v1.jpg": {
+      "sha256": "cb2bc66b301a622201ce7ef87fcdfca765e023b2c220973ca5232c3f4f3d95be",
+      "bytes": 451689
+    },
+    "proverbs-c025-v002-002-right-context-v1.jpg": {
+      "sha256": "2f47207c1009b5504d70a420d083ddd099c9138a516865959ffec3ab7b91b65c",
+      "bytes": 409548
+    },
+    "proverbs-c025-v003-003-right-context-v1.jpg": {
+      "sha256": "cd320c72dc3dff55e293aeeae80a98491f8c3d64f5a31a4ee47d5bacb915db7b",
+      "bytes": 497922
+    },
+    "proverbs-c025-v004-005-right-context-v1.jpg": {
+      "sha256": "c855eee7deac8c04a7ffee79854968e8bd2401668d8bf8ad92c5046390d1c72c",
+      "bytes": 507667
+    },
+    "proverbs-c025-v006-007-right-context-v1.jpg": {
+      "sha256": "f9c907a1da54e77adbf66f7763226e3536f523284a7ecf71e14b81905ae4bbbd",
+      "bytes": 480666
+    },
+    "proverbs-c025-v008-010-right-context-v1.jpg": {
+      "sha256": "7dcf84ecc277871f3f25c618ec403101e1403f1ec971fbfee6b5f74f78986d6c",
+      "bytes": 556993
+    },
+    "proverbs-c025-v011-011-right-context-v1.jpg": {
+      "sha256": "f15484c53408330ae890083a7aaa758d26c981fb99e23fcc1a4ba955bf17ecdf",
+      "bytes": 448791
+    },
+    "proverbs-c025-v012-012-right-context-v1.jpg": {
+      "sha256": "4165cfefc5880bb1b3c18b6d3e983a5a2ac62740711bb20caa74c0114ff1d71b",
+      "bytes": 478513
+    },
+    "proverbs-c025-v013-013-right-context-v1.jpg": {
+      "sha256": "09c876864db42d07e37b639ede681fbdb68f775bc37a7cb4d1b0ef69a71581ef",
+      "bytes": 498177
+    },
+    "proverbs-c025-v014-014-right-context-v1.jpg": {
+      "sha256": "af23363c186fb22ddba283bd3bae02633cb246b437e5d4cb8f8fe7e158c048e9",
+      "bytes": 525539
+    },
+    "proverbs-c025-v015-015-right-context-v1.jpg": {
+      "sha256": "c82ba5dab50da9ad27dd6a3d2082beeff16ce4b479919c2a91af3d2b1f9117ff",
+      "bytes": 396237
+    },
+    "proverbs-c025-v016-016-right-context-v1.jpg": {
+      "sha256": "3e6a4544a2e1274dd35f17c87e6db07e19b8e1ff761eaed6d38af6cb7f915860",
+      "bytes": 472498
+    },
+    "proverbs-c025-v017-017-right-context-v1.jpg": {
+      "sha256": "378412e6b235ac088bbd0c0fb75eabe3ba1bf2fdd731922c2bf72b896b56e8a9",
+      "bytes": 571338
+    },
+    "proverbs-c025-v018-018-right-context-v1.jpg": {
+      "sha256": "c55a151ce653a6c4eb5dc434a0161119d8a661394fc462de9155df33677b658c",
+      "bytes": 500466
+    },
+    "proverbs-c025-v019-019-right-context-v1.jpg": {
+      "sha256": "f9eeb9dc0b654334216a0db9e08a11cf69338d189b761f49dfa6f40039ce3c36",
+      "bytes": 455153
+    },
+    "proverbs-c025-v020-020-right-context-v1.jpg": {
+      "sha256": "efbd995a1cb2db9d244f33cbd4ebf20f960a8ef53b8945dc75ba8a5c6b6bbea3",
+      "bytes": 484870
+    },
+    "proverbs-c025-v021-022-right-context-v1.jpg": {
+      "sha256": "48d00b9d644ad58cce9d4d1cf8d83b377db1a30cd2760eba180341a2e2088346",
+      "bytes": 526773
+    },
+    "proverbs-c025-v023-023-right-context-v1.jpg": {
+      "sha256": "75e3e1e864cc5b06eddbf6055609c70ee50c6774acdc38bae257bf6e4cda68d3",
+      "bytes": 491559
+    },
+    "proverbs-c025-v024-024-right-context-v1.jpg": {
+      "sha256": "d0d33bd349cf85db238309710b5ab3372ab27dbffd0e8a01865735b9c3c9acc0",
+      "bytes": 469083
+    },
+    "proverbs-c025-v025-025-right-context-v1.jpg": {
+      "sha256": "fb791119499561ad5a27b05d3aec6eea990ddb895a0cdb3dcc400412e08f652b",
+      "bytes": 483913
+    },
+    "proverbs-c025-v026-026-right-context-v1.jpg": {
+      "sha256": "64595aca8049013d93ade876d93e4c828090160e9efe72e151e90ff641da18b5",
+      "bytes": 616023
+    },
+    "proverbs-c025-v027-027-right-context-v1.jpg": {
+      "sha256": "54a1201fd12ffd9107a1b5fa1e57a34a6bb54bd0ffb979371fac4baee11ba91c",
+      "bytes": 446482
+    },
+    "proverbs-c025-v028-028-right-context-v1.jpg": {
+      "sha256": "d2fd6cbbf919b77a2ee517f03a02f60dd095681581cbdd5e4efb84477f2acf7a",
+      "bytes": 497363
+    },
+    "proverbs-c026-v001-001-right-context-v1.jpg": {
+      "sha256": "414a5391987f4214490fe2979c3064e34a5d767482bb45468d20cb715c9dabf2",
+      "bytes": 634212
+    },
+    "proverbs-c026-v002-002-right-context-v1.jpg": {
+      "sha256": "5a22189ca9f26f2d8347ee8f440ae071b96d60f2f4694910aef4344ff5b502d9",
+      "bytes": 462699
+    },
+    "proverbs-c026-v003-003-right-context-v1.jpg": {
+      "sha256": "aa5dd8738c8a3fd6270aff8e682e3968b9cce8054c553440ed056e25287cc895",
+      "bytes": 564384
+    },
+    "proverbs-c026-v004-005-right-context-v1.jpg": {
+      "sha256": "b9afae4634d4a29304b1637fcd36481fba029f2cdb225f878a25ceea4b0371d6",
+      "bytes": 472275
+    },
+    "proverbs-c026-v006-006-right-context-v1.jpg": {
+      "sha256": "108dec5a1612c96a2e7372ff0af3713be5c5d04a3c9cd561e8386dd99752c4b3",
+      "bytes": 514874
+    },
+    "proverbs-c026-v007-007-right-context-v1.jpg": {
+      "sha256": "58efca16ae40b23bbe535c549526813b0548663914eb3a35054e8301c5a5c199",
+      "bytes": 501432
+    },
+    "proverbs-c026-v008-008-right-context-v1.jpg": {
+      "sha256": "572c04eab3c1d4907206c34de007527ab34db2e4db0825af6737a46cf00e314e",
+      "bytes": 451447
+    },
+    "proverbs-c026-v009-009-right-context-v1.jpg": {
+      "sha256": "d4480d7d06ecc188107e15274236d7c302ed6bd1c8609c6e817487266f028d78",
+      "bytes": 466939
+    },
+    "proverbs-c026-v010-010-right-context-v1.jpg": {
+      "sha256": "6693bd73b5cf8fa122bc81adb53a8a7538b19d8984a96db3cf36d39a8069e5c6",
+      "bytes": 459348
+    },
+    "proverbs-c026-v011-011-right-context-v1.jpg": {
+      "sha256": "af8a729b7e805b51da181c88f20489f0e862e9bab3c435cc7a9dd5f802a2683c",
+      "bytes": 473664
+    },
+    "proverbs-c026-v012-012-right-context-v1.jpg": {
+      "sha256": "e2233e219e542f1051f4588e0a5de87fd426325f2ddd37ae877a7eaa5e6a099b",
+      "bytes": 503810
+    },
+    "proverbs-c026-v013-013-right-context-v1.jpg": {
+      "sha256": "5977ba1a9c629ea1e6ae43ad85ba07b28f42583c05535e59ea18ed24408fe377",
+      "bytes": 442204
+    },
+    "proverbs-c026-v014-014-right-context-v1.jpg": {
+      "sha256": "d6b96dfbd73c11d69c6d9428b4ffbb8442e711da47a71b5545ff509c5056f87e",
+      "bytes": 477447
+    },
+    "proverbs-c026-v015-015-right-context-v1.jpg": {
+      "sha256": "c0de4159ab4c4a2d069df4a0e42eb5a1f23587c923a430d43bbb5048d5166a61",
+      "bytes": 455688
+    },
+    "proverbs-c026-v016-016-right-context-v1.jpg": {
+      "sha256": "6e393cb4fb468c61a864710c244f4be6ad6c3f896e86d57de5bd7e0934791d25",
+      "bytes": 457071
+    },
+    "proverbs-c026-v017-017-right-context-v1.jpg": {
+      "sha256": "1267cb993214417bdf97137fe012fe7f7460a6a6ce22b8f521652c65d2f8043a",
+      "bytes": 538390
+    },
+    "proverbs-c026-v018-019-right-context-v1.jpg": {
+      "sha256": "0eec5f1a6b765c29937236d1829c1c0cf2d7a3685c6fd52a24a456ac09ab1485",
+      "bytes": 491862
+    },
+    "proverbs-c026-v020-020-right-context-v1.jpg": {
+      "sha256": "7e607202e42c6bed7f63672e821de25ff99fb629ae070e327e1b64c3a03303f2",
+      "bytes": 588295
+    },
+    "proverbs-c026-v021-021-right-context-v1.jpg": {
+      "sha256": "99b01db7c91517d4401cacbfdd64a420e684f3e12d0d842146ca430dcf9e47c6",
+      "bytes": 486389
+    },
+    "proverbs-c026-v022-022-right-context-v1.jpg": {
+      "sha256": "51fddc48cc51fb8a2d5fd5541d4133caa65d7f0f31aed73a26f44abca0f167ab",
+      "bytes": 513216
+    },
+    "proverbs-c026-v023-023-right-context-v1.jpg": {
+      "sha256": "dde2e57134ac486a75dbb34c2e2049b35330dff82fbb7af26f5206a6bf44b8e6",
+      "bytes": 413335
+    },
+    "proverbs-c026-v024-026-right-context-v1.jpg": {
+      "sha256": "7fdaafa6f8214cbc5c5d7f535049060b951d7c2b607b07878f67b129bcf97417",
+      "bytes": 419985
+    },
+    "proverbs-c026-v027-027-right-context-v1.jpg": {
+      "sha256": "c60499c55ead426842c704de3dec588d0677562dbb021fb7a1e4db7b94854c20",
+      "bytes": 591640
+    },
+    "proverbs-c026-v028-028-right-context-v1.jpg": {
+      "sha256": "5c6b352124569f7ec57da4dfabed7c0201288394a05dc76c5972271777a92d5c",
+      "bytes": 530773
+    },
+    "proverbs-c027-v001-001-right-context-v1.jpg": {
+      "sha256": "8de3efe4ef75ab0d0ee43963f5ae4ff46eeeb51e62c4f6c5f1d5d490e2e855b4",
+      "bytes": 489816
+    },
+    "proverbs-c027-v002-002-right-context-v1.jpg": {
+      "sha256": "a29e1f39b49ad2f8af1e7430a2c4adbdf30dcf70fb4fe24b6090a9399f395e1d",
+      "bytes": 448452
+    },
+    "proverbs-c027-v003-003-right-context-v1.jpg": {
+      "sha256": "f0eefcfed72298de366cd6d7d9bc307344e0d4be54d4ee348fde224d4a95bddf",
+      "bytes": 474961
+    },
+    "proverbs-c027-v004-004-right-context-v1.jpg": {
+      "sha256": "7eb3643cdfee4a8b538bd17c7ddb0ca6a3c0663fd920ce946f71b1d775c59a71",
+      "bytes": 555220
+    },
+    "proverbs-c027-v005-005-right-context-v1.jpg": {
+      "sha256": "1e9f7212a555958ab419b4a59f59044cef3ce350115506449ee4a12027893657",
+      "bytes": 438518
+    },
+    "proverbs-c027-v006-006-right-context-v1.jpg": {
+      "sha256": "402e21d117183040e30e6aaed3126fb0a5f0b46c29cba4534f2fd33ea34ee38b",
+      "bytes": 482442
+    },
+    "proverbs-c027-v007-007-right-context-v1.jpg": {
+      "sha256": "fdeb776efbc6a90bb25bfaf1ab06cc96009f1ae268dd5f77db3640454197e9e4",
+      "bytes": 452521
+    },
+    "proverbs-c027-v008-008-right-context-v1.jpg": {
+      "sha256": "fa82cd1587590fb8edbc63445be0ac14965994da893ac898104f5741e000660a",
+      "bytes": 468859
+    },
+    "proverbs-c027-v009-009-right-context-v1.jpg": {
+      "sha256": "b1988cbb4c736a7fbe51fc874f9b9fb88bade53370ce225e9abda0ddb0e2834e",
+      "bytes": 518003
+    },
+    "proverbs-c027-v010-010-right-context-v1.jpg": {
+      "sha256": "99c4491f36f870e48b40b9f49a72b4cd90851132f7cd62aaff45bfb58b7acfe7",
+      "bytes": 611832
+    },
+    "proverbs-c027-v011-011-right-context-v1.jpg": {
+      "sha256": "e842a4983d5349572d02d6c0412742d60a45d515fa2c582851f13b575d7ab27b",
+      "bytes": 529651
+    },
+    "proverbs-c027-v012-012-right-context-v1.jpg": {
+      "sha256": "4d7dc593c4f5c53948513c11c6c4703d30af60698cab5dd2f9740d45acf53c42",
+      "bytes": 504268
     }
   }
 }
