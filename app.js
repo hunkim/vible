@@ -6,6 +6,8 @@ import {epistleBooks} from './epistles-catalog.js';
 import {pentateuchBooks} from './pentateuch-catalog.js';
 import {psalmsBooks} from './psalms-catalog.js';
 import {historicalBooks} from './historical-catalog.js';
+import {bibleBooks} from './bible-books.js';
+import {addAbbreviations} from './scripture-search.js';
 import {renderScripture} from './jesus-words.js';
 import {annotations} from './annotations.js';
 import {scriptureSearch} from './search-ui.js';
@@ -118,7 +120,7 @@ function setupSceneProgress(range,navigate,getIndex){
  },{passive:false});
 }
 function nextBookId(){
- const ids=Array.from($('book').options,option=>option.value);
+ const ids=Array.from($('book').options).filter(option=>!option.disabled).map(option=>option.value);
  return ids[ids.indexOf(bookId)+1];
 }
 async function continueToNextBook(){
@@ -388,6 +390,9 @@ const books={
  arcs:[{chapters:'1–7장',title:'예루살렘의 증인들',copy:'성령의 약속과 오순절, 나누는 공동체와 박해 속의 증언.',chapter:1,imageChapter:2},{chapters:'8–12장',title:'경계를 넘어선 복음',copy:'사마리아, 에디오피아 관원, 사울과 고넬료, 안디옥의 공동체.',chapter:8},{chapters:'13–20장',title:'여러 민족을 향한 여정',copy:'바울과 동역자들의 항해, 도시마다 열린 만남과 말씀.',chapter:13,imageChapter:16},{chapters:'21–28장',title:'결박 너머로 열린 길',copy:'예루살렘과 가이사랴의 재판, 풍랑과 멜리데, 로마의 열린 집.',chapter:21,imageChapter:27}]}
 };
 Object.assign(books,pentateuchBooks,historicalBooks,psalmsBooks,proverbsBooks,songofsongsBooks,epistleBooks);
+// List all 66 books; books released on the site after this app build arrive through data/books.json, the rest show as coming soon.
+function listAllBooks(){const select=$('book'),existing=new Map(Array.from(select.options,option=>[option.value,option]));select.replaceChildren(...bibleBooks.map(({id})=>{const option=existing.get(id)||new Option(bookNames[language]?.[id]||id,id);option.disabled=!books[id];return option;}));}
+async function loadReleasedBooks(){try{const response=await fetchContent('data/books.json');if(response.ok){const released=await response.json();for(const [id,config] of Object.entries(released.books||{}))books[id]??=config;for(const [id,list] of Object.entries(released.abbreviations||{}))addAbbreviations(id,list);}}catch{}listAllBooks();}
 async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  if(!books[id])id='john';
  const version=++loadVersion;
@@ -509,6 +514,7 @@ async function init(){
  document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)||(document.querySelector('dialog[open]')||[...document.querySelectorAll('[popover]')].some(popoverOpen)))return;if(e.key==='Escape')setImageOnly(false);if(view==='read'&&e.key==='ArrowRight'){e.preventDefault();goTo(current+1);}if(view==='read'&&e.key==='ArrowLeft'){e.preventDefault();goTo(current-1);}});
  const params=new URLSearchParams(location.search);let storedLanguage;try{storedLanguage=localStorage.getItem('vible-language');}catch{}
  preferredLanguage=initialLanguage({url:params.get('lang'),saved:storedLanguage,locales:navigator.languages||[navigator.language]});
+ await loadReleasedBooks();
  const catalogResponse=await fetchContent('data/translations/catalog.json');if(!catalogResponse.ok)throw Error('Language catalog unavailable');catalog=await catalogResponse.json();
  let initial=params.get('book');try{if(!initial&&!preview)initial=localStorage.getItem('visual-bible-book');}catch{}const firstBook=books[initial]?initial:'john';const ready=catalog[preferredLanguage]?.books.includes(firstBook);
  if(!ready)$('language-status').textContent=messages[preferredLanguage].unavailable;

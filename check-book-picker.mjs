@@ -2,7 +2,8 @@ import assert from 'node:assert/strict';
 import {filterBooks,bookPicker} from './book-picker.js';
 import {bookNames} from './languages.js';
 const books=Object.entries(bookNames.ko).map(([id,name])=>({id,name}));
-assert.deepEqual(new Set(filterBooks(books,'요').map(book=>book.id)),new Set(['john','1john','2john','3john','revelation']));
+assert.deepEqual(new Set(filterBooks(books,'요').map(book=>book.id)),new Set(['john','1john','2john','3john','revelation','joel','jonah']));
+for(const lang of ['ko','en','ja','zh'])assert.equal(Object.keys(bookNames[lang]).length,66,`${lang}: all 66 book names are bundled for coming-soon listing`);
 assert.deepEqual(filterBooks(books,'고전').map(book=>book.id),['1corinthians']);
 assert.deepEqual(filterBooks(books,'로마').map(book=>book.id),['romans']);
 assert.deepEqual(filterBooks(books,'ｊｏｈｎ').map(book=>book.id).sort(),['1john','2john','3john','john']);
@@ -31,10 +32,12 @@ try{
  assert.deepEqual(names(),filterBooks(books,'로').map(book=>book.name),'Filter updates before compositionend or a space');
  assert(names().includes('로마서'));
  input.value='요';input.dispatchEvent(new Event('input'));
- assert.equal(names().length,5,'Subsequent composing syllables update the list');
+ assert.equal(names().length,7,'Subsequent composing syllables update the list');
  const enter=new Event('keydown',{cancelable:true});Object.assign(enter,{key:'Enter',isComposing:true});input.dispatchEvent(enter);
  assert.equal(enter.defaultPrevented,false,'IME confirmation is not intercepted as book selection');
- input.dispatchEvent(new Event('compositionend'));assert.equal(names().length,5);
+ input.dispatchEvent(new Event('compositionend'));assert.equal(names().length,7);
  input.value='';input.dispatchEvent(new Event('input'));assert.equal(new Set(names()).size,books.length);
+ ids.book.options.find(option=>option.value==='jonah').disabled=true;input.value='요나';input.dispatchEvent(new Event('input'));
+ const soon=ids['book-results'].querySelectorAll().find(button=>button.textContent==='요나');assert(soon.disabled&&soon.className==='book-soon'&&soon.children[0].textContent==='준비 중'&&!soon.onclick,'Unreleased books are listed as coming soon and cannot be opened');
 }finally{Object.assign(globalThis,saved);}
 console.log('Book picker IME: live Korean composition, confirmation key and clearing verified.');
