@@ -16,7 +16,13 @@
         "height": 860,
         "minWidth": 380,
         "minHeight": 600,
-        "backgroundColor": "#f4f1e9"
+        "backgroundColor": "#f4f1e9",
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true,
+        "trafficLightPosition": {
+          "x": 18,
+          "y": 25
+        }
       }
     ],
     "security": {
@@ -25,12 +31,23 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["app", "dmg", "nsis", "msi"],
+    "targets": [
+      "app",
+      "dmg",
+      "nsis",
+      "msi"
+    ],
     "category": "Reference",
     "shortDescription": "A cinematic visual Bible",
     "longDescription": "Read Scripture in Korean, English, Japanese and Chinese with a reviewed image for every passage.",
     "copyright": "Scripture texts: see Translation & sources in the app",
-    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
     "macOS": {
       "minimumSystemVersion": "11.0",
       "entitlements": "Entitlements.plist"

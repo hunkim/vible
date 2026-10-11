@@ -21,7 +21,7 @@ let bytes=0;for(const entry of await fs.readdir(out,{recursive:true,withFileType
 assert(bytes<100e6,`bundle ${bytes} bytes exceeds 100 MB budget`);
 
 // Adapter: Capacitor share sheet and Tauri save dialog; the web path is covered by check-sharing.mjs.
-const source=(await fs.readFile(path.join(root,'platform.js'),'utf8')).replace(/^export /gm,'')+'\n;({platform,isNative,apiURL,shareLink,shareFile,saveFile,canShareLink,openExternal,appLinkTarget,handleBack})';
+const source=(await fs.readFile(path.join(root,'platform.js'),'utf8')).replace(/^export /gm,'')+'\n;({platform,isNative,apiURL,shareLink,shareFile,saveFile,canShareLink,openExternal,appLinkTarget,handleBack,desktopChrome})';
 const listeners={},document={addEventListener:(type,fn)=>listeners[type]=fn};
 const calls=[];let cancel=false;
 const Capacitor={isNativePlatform:()=>true,getPlatform:()=>'ios',nativePromise:async(plugin,method,options)=>{calls.push(JSON.parse(JSON.stringify([plugin,method,options])));if(cancel&&plugin==='Share')throw Error('Share canceled');return plugin==='Filesystem'?{uri:'file:///cache/'+options.path}:{};}};
@@ -41,7 +41,7 @@ prevented=false;listeners.click({target:{closest:()=>({href:'capacitor://localho
 
 const written=[],opened=[];let target='/Users/me/Desktop/card.png';
 const __TAURI__={dialog:{save:async options=>{written.push(['dialog',options.defaultPath]);return target;}},fs:{writeFile:async(file,data)=>written.push([file,data.length])},opener:{openUrl:async url=>opened.push(url)}};
-const desktop=vm.runInNewContext(source,{__TAURI__,document:{addEventListener(){}},navigator:{share(){throw Error('desktop webviews must not use navigator.share');}},location:{href:'tauri://localhost/'},URL,Uint8Array});
+const desktop=vm.runInNewContext(source,{__TAURI__,document:{addEventListener(){},documentElement:{classList:{add(){}}},querySelector:()=>null,getElementById:()=>null},navigator:{share(){throw Error('desktop webviews must not use navigator.share');}},location:{href:'tauri://localhost/'},URL,Uint8Array});
 assert.equal(desktop.platform,'desktop');assert.equal(desktop.canShareLink(),false);
 assert.equal(await desktop.shareLink({title:'t',url:'https://vible.now/'}),false,'desktop falls back to URL copy');
 assert.equal(await desktop.shareFile(card),false,'desktop falls back to saving the card');
@@ -66,4 +66,15 @@ const layers=({dialog=false,popover=false,selection=false,image=false,otherView=
  const doc={getElementById:el,querySelectorAll:()=>dialog?[{requestClose:()=>clicked.push('requestClose')}]:[],querySelector:()=>popover?{hidePopover:()=>clicked.push('hidePopover')}:null,body:{classList:{contains:()=>image}}};return {doc,clicked};};
 for(const [state,expected,action] of [[{dialog:true,popover:true},'dialog','requestClose'],[{popover:true,selection:true},'popover','hidePopover'],[{selection:true},'selection','dismiss-selection'],[{image:true},'image','focus'],[{otherView:true},'view','read-tab']]){const {doc,clicked}=layers(state);assert.equal(mobile.handleBack(doc),expected);assert.deepEqual(clicked,[action]);}
 assert.equal(mobile.handleBack(layers().doc),'minimize');assert.deepEqual(calls.at(-1),['App','minimizeApp',{}]);
-console.log(`Store app bundle verified (${(bytes/1e6).toFixed(1)} MB, ${catalog.ko.books.length} books, 4 languages, no service worker); Capacitor share/files/links/app links, Android back and Tauri save/open verified.`);
+// Frameless desktop windows: the header is the drag region; Windows gets its own minimize/maximize/close.
+const fakeDoc=()=>{const classes=new Set(),bar={attrs:{},children:[],setAttribute(k,v){this.attrs[k]=v;},append(c){this.children.push(c);}};const els=[];
+ return {documentElement:{classList:{add:(...c)=>c.forEach(x=>classes.add(x))}},querySelector:()=>bar,getElementById:id=>els.find(e=>e.id===id)||null,createElement:()=>{const e={dataset:{},attrs:{},children:[],setAttribute(k,v){this.attrs[k]=v;},append(c){this.children.push(c);}};els.push(e);return e;},classes,bar};};
+const windowCalls=[];const tauriWin={...__TAURI__,window:{getCurrentWindow:()=>({minimize:()=>windowCalls.push('min'),toggleMaximize:()=>windowCalls.push('max'),close:()=>windowCalls.push('close')})}};
+const chrome=vm.runInNewContext(source,{__TAURI__:tauriWin,document:{addEventListener(){},documentElement:{classList:{add(){}}},querySelector:()=>null,getElementById:()=>null},navigator:{userAgent:'Mac'},location:{href:'tauri://localhost/'},URL,URLSearchParams,Uint8Array});
+const mac=fakeDoc();assert.equal(chrome.desktopChrome(mac,'Macintosh; Intel Mac OS X'),'mac');assert(mac.classes.has('desktop-app')&&mac.classes.has('os-mac'));assert.equal(mac.bar.attrs['data-tauri-drag-region'],'');assert.equal(mac.bar.children.length,0,'Mac keeps native traffic lights');
+const win=fakeDoc();assert.equal(chrome.desktopChrome(win,'Windows NT 10.0'),'windows');const controls=win.bar.children[0];assert.deepEqual(controls.children.map(b=>b.dataset.action),['minimize','maximize','close']);controls.children.forEach(b=>b.onclick());assert.deepEqual(windowCalls,['min','max','close']);
+assert.equal(mobile.desktopChrome(fakeDoc(),'Windows'),null,'phones and tablets keep their layout');
+const conf=JSON.parse(await fs.readFile(path.join(root,'native/desktop/src-tauri/tauri.conf.json'),'utf8')).app.windows[0],winConf=JSON.parse(await fs.readFile(path.join(root,'native/desktop/src-tauri/tauri.windows.conf.json'),'utf8')).app.windows[0];
+assert.equal(conf.titleBarStyle,'Overlay');assert.equal(conf.hiddenTitle,true);assert.equal(winConf.decorations,false);
+const perms=JSON.parse(await fs.readFile(path.join(root,'native/desktop/src-tauri/capabilities/default.json'),'utf8')).permissions;for(const p of ['core:window:allow-start-dragging','core:window:allow-minimize','core:window:allow-toggle-maximize','core:window:allow-close'])assert(perms.includes(p),p);
+console.log(`Store app bundle verified (${(bytes/1e6).toFixed(1)} MB, ${catalog.ko.books.length} books, 4 languages, no service worker); Capacitor share/files/links/app links, Android back, Tauri save/open and frameless desktop windows verified.`);

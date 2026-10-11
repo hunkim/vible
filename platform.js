@@ -64,3 +64,20 @@ export function handleBack(doc=document){
  if(capacitor)plugin('App','minimizeApp',{}).catch(()=>{});return 'minimize';
 }
 if(capacitor?.getPlatform()==='android')capacitor.addListener?.('App','backButton',()=>handleBack());
+// Desktop apps have no title bar: the reader header doubles as the window bar so the page stays on Scripture.
+export function desktopChrome(doc=document,ua=navigator.userAgent){
+ if(!tauri)return null;
+ const os=/Mac/.test(ua)?'mac':/Windows/.test(ua)?'windows':'other',root=doc.documentElement,bar=doc.querySelector('.topbar');
+ root.classList.add('desktop-app',`os-${os}`);
+ if(bar)bar.setAttribute('data-tauri-drag-region','');
+ if(os==='windows'&&bar&&!doc.getElementById('window-controls')){
+  const win=()=>tauri.window.getCurrentWindow(),box=doc.createElement('div');box.id='window-controls';
+  for(const [label,icon,act] of [['Minimize','M5 12h14',w=>w.minimize()],['Maximize','M6 6h12v12H6z',w=>w.toggleMaximize()],['Close','M6 6l12 12M18 6 6 18',w=>w.close()]]){
+   const b=doc.createElement('button');b.type='button';b.setAttribute('aria-label',label);b.dataset.action=label.toLowerCase();
+   b.innerHTML=`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${icon}"/></svg>`;b.onclick=()=>act(win());box.append(b);
+  }
+  bar.append(box);
+ }
+ return os;
+}
+if(tauri)desktopChrome();

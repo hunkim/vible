@@ -420,3 +420,17 @@ html:lang(ja) *,html:lang(zh) *{word-break:normal!important;line-break:strict}
 /* The reader fills the window edge to edge on every width: no side gutters, bottom gap or rounded frame. */
 .reading-workspace{padding-left:0;padding-right:0;padding-bottom:0}
 #visual-stage{border-radius:0}
+/* Desktop apps (Tauri): no system title bar. The compact header is the window bar; Mac traffic lights sit at its left edge. */
+html.desktop-app{--app-header-height:52px}
+html.desktop-app .topbar{height:var(--app-header-height);padding:0 12px 0 16px;gap:14px;user-select:none;-webkit-user-select:none}
+html.desktop-app.os-mac .topbar{padding-left:100px}
+html.desktop-app .topbar .brand-name{display:none}
+html.desktop-app .topbar .brand-icon{width:26px;height:26px;border-radius:7px}
+html.desktop-app .topbar .book-picker{padding-left:12px}
+html.desktop-app .reading-workspace{height:calc(100dvh - var(--app-header-height))}
+html.desktop-app .immersive .reading-workspace{height:100dvh}
+#window-controls{display:flex;margin-left:4px}
+#window-controls button{display:grid;place-items:center;width:40px;height:34px;border-radius:6px;color:inherit}
+#window-controls button:hover{background:#283c3414}
+#window-controls button[data-action="close"]:hover{background:#c42b1c;color:#fff}
+#window-controls svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.4}

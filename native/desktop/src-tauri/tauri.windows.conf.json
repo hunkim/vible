@@ -1,0 +1,22 @@
+{
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "VibleNow",
+        "width": 1280,
+        "height": 860,
+        "minWidth": 380,
+        "minHeight": 600,
+        "backgroundColor": "#f4f1e9",
+        "titleBarStyle": "Visible",
+        "hiddenTitle": true,
+        "trafficLightPosition": {
+          "x": 18,
+          "y": 25
+        },
+        "decorations": false
+      }
+    ]
+  }
+}
