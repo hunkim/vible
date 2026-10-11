@@ -6,6 +6,7 @@ import {createHash} from 'node:crypto';
 import {createSearchIndex} from './scripture-search.js';
 import {releaseData} from './release-data.mjs';
 import {applyTranslation,languages} from './languages.js';
+import {abbreviations} from './scripture-search.js';
 const root=path.dirname(new URL(import.meta.url).pathname);
 const read=async file=>JSON.parse(await fs.readFile(path.join(root,file),'utf8'));
 const hosting=await read('asset-hosting.json');if(process.env.VIBLE_ASSET_ORIGIN!==undefined)hosting.origin=process.env.VIBLE_ASSET_ORIGIN;if(hosting.origin){const origin=new URL(hosting.origin);assert.equal(origin.protocol,'https:');assert.equal(origin.origin,hosting.origin);}
@@ -50,12 +51,15 @@ const native=process.argv.includes('--target=native');
 const output=path.join(root,native?'dist-native':'dist');
 await fs.rm(output,{recursive:true,force:true});
 await fs.mkdir(path.join(output,'assets'),{recursive:true});await fs.mkdir(path.join(output,'data'),{recursive:true});
-for(const file of [...(native?[]:['privacy.html']),'index.html','assets.js','platform.js','i18n.js','image-cache.js','feedback.js','app.js','annotations.js','install.js',...(native?[]:['sw.js','manifest.webmanifest']),'style.css','share.css','share.js','languages.js','epistles-catalog.js','pentateuch-catalog.js','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','1chronicles-catalog.js','2chronicles-catalog.js','ezra-catalog.js','nehemiah-catalog.js','esther-catalog.js','job-catalog.js','ecclesiastes-catalog.js','daniel-catalog.js','jonah-catalog.js','historical-catalog.js','scripture-search.js','search-ui.js','book-picker.js','jesus-words.js','jesus-words-data.js',...books.flatMap(b=>[...(native?[]:[b.plan]),`data/${b.id}.json`])])await fs.copyFile(path.join(root,file),path.join(output,file));
+for(const file of [...(native?[]:['privacy.html']),'index.html','assets.js','platform.js','i18n.js','image-cache.js','feedback.js','app.js','annotations.js','install.js',...(native?[]:['sw.js','manifest.webmanifest']),'style.css','share.css','share.js','languages.js','epistles-catalog.js','pentateuch-catalog.js','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','1chronicles-catalog.js','2chronicles-catalog.js','ezra-catalog.js','nehemiah-catalog.js','esther-catalog.js','job-catalog.js','ecclesiastes-catalog.js','daniel-catalog.js','jonah-catalog.js','historical-catalog.js','bible-books.js','scripture-search.js','search-ui.js','book-picker.js','jesus-words.js','jesus-words-data.js',...books.flatMap(b=>[...(native?[]:[b.plan]),`data/${b.id}.json`])])await fs.copyFile(path.join(root,file),path.join(output,file));
 for(const file of native?['assets.js']:['assets.js','sw.js']){const source=await fs.readFile(path.join(root,file),'utf8');await fs.writeFile(path.join(output,file),source.replace("const ASSET_ORIGIN=''",`const ASSET_ORIGIN=${JSON.stringify(hosting.origin)}`));}
 await fs.cp(path.join(root,'icons'),path.join(output,'icons'),{recursive:true});
 await fs.cp(path.join(root,'data/translations'),path.join(output,'data/translations'),{recursive:true});
 await fs.writeFile(path.join(root,'data/translations/catalog.json'),JSON.stringify(catalog,null,2));
 await fs.writeFile(path.join(output,'data/translations/catalog.json'),JSON.stringify(catalog));
+// Apps built earlier learn about books released since then from this file (titles, chapter names, search abbreviations).
+const catalogBooks=Object.assign({},...await Promise.all((await fs.readdir(root)).filter(file=>file.endsWith('-catalog.js')).map(async file=>Object.fromEntries(Object.entries(await import(path.join(root,file))).filter(([name])=>name.endsWith('Books')).flatMap(([,value])=>Object.entries(value))))));
+await fs.writeFile(path.join(output,'data/books.json'),JSON.stringify({books:Object.fromEntries(books.filter(b=>catalogBooks[b.id]).map(b=>[b.id,catalogBooks[b.id]])),abbreviations:Object.fromEntries(books.map(b=>[b.id,abbreviations[b.id]||[]]))}));
 await fs.cp(path.join(root,'fonts'),path.join(output,'fonts'),{recursive:true});
 // Universal Links let vible.now verse links open the installed iOS app.
 if(!native)await fs.cp(path.join(root,'.well-known'),path.join(output,'.well-known'),{recursive:true});
