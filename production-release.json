@@ -1,9 +1,9 @@
 {
   "date": "2026-10-11",
   "production": "https://vible.now",
-  "deployment": "https://vible-1fgb6fqtg-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_4ktSnXmTi36Zj2BQw1HXmTA75q6i",
-  "newImageFiles": 399,
+  "deployment": "https://vible-p44j2jsvb-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_48Eb41NScwuE7MvmT3SzdA6Aosxg",
+  "newImageFiles": 63,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -16,7 +16,8 @@
     "1samuel": 278,
     "2samuel": 239,
     "1kings": 275,
-    "2kings": 282
+    "2kings": 282,
+    "songofsongs": 63
   },
   "releaseConfig": {
     "leviticus": 236,
@@ -61,7 +62,8 @@
     "searchThumbnails": "Search result thumbnails load from images.vible.now (6/6 loaded live); language flag frameless. npm run check and check-offline passed in frozen source.",
     "proverbs588_2samuel_1kings": "Proverbs 1-588, 2 Samuel 239/239, 1 Kings 275/275: 884 CDN files byte-verified; npm run check and check-offline passed in frozen source; live data counts, 2 Samuel en share page, 1 Kings ja PNG card, zh reader image and admin 401 verified.",
     "proverbs705_2kings": "Proverbs 705/705 and 2 Kings 282/282: 399 CDN files byte-verified; frozen npm run check (with new check-shell) and check-offline passed. An intermediate deploy (dpl_3GMoK4gYxtEbiVCJYWPtXhLT4cF6) went out with a failing check and missing image-pending.svg for about 5 minutes; fixed by always shipping the placeholder. Live: all 70 SW pre-cache files 200, data counts, 2 Kings en card, admin 401.",
-    "noteDialogClose": "UI-only: note dialog close button moved off the card preview. Frozen npm run check and check-offline passed. Before deploy, production dpl_FhSMxXc86LYM7VzwiCUtiDFFqVen (newer than the record) served files identical to cd35da7 (236 static files matched). Live: new markup/CSS/JS, placeholder 200, share page 200, admin 401."
+    "noteDialogClose": "UI-only: note dialog close button moved off the card preview. Frozen npm run check and check-offline passed. Before deploy, production dpl_FhSMxXc86LYM7VzwiCUtiDFFqVen (newer than the record) served files identical to cd35da7 (236 static files matched). Live: new markup/CSS/JS, placeholder 200, share page 200, admin 401.",
+    "songofsongs": "New book Song of Songs (63/63 scenes, 118 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; 6:13-14 bridged in en/ja/zh (Korean has 6:14). 63 CDN files byte-verified against asset-hosting sha256. Frozen npm run check and check-offline passed. Before deploy, production dpl_CzUccPg4vjcUXyyF9aVsXZidjHc1 served files identical to e3da2c7. Live: SW vible-songofsongs-20261011, data 63 images, en/ja/zh translations, share pages ko/en/ja/zh incl. 2:10-13 and 6:13-14 with attribution, ja/zh cards 200, admin 401."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 41,
@@ -85,5 +87,5 @@
     "image": "psalms-c150-v006-006-right-context-finale-v3.jpg"
   },
   "frozenSource": "/private/tmp/vible-release-883d0ce71630",
-  "sourceCommit": "e3da2c7"
+  "sourceCommit": "5be5a01"
 }
