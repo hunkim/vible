@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "book": "ruth",
+      "language": "ko",
+      "allRenderedVerses": 85,
+      "search": "exact",
+      "sharedText": "exact",
+      "PNGCardWidth": 1200
+    },
+    {
+      "book": "ruth",
+      "language": "en",
+      "allRenderedVerses": 85,
+      "search": "exact",
+      "sharedText": "exact",
+      "PNGCardWidth": 1200
+    },
+    {
+      "book": "ruth",
+      "language": "ja",
+      "allRenderedVerses": 85,
+      "search": "exact",
+      "sharedText": "exact",
+      "PNGCardWidth": 1200
+    },
+    {
+      "book": "ruth",
+      "language": "zh",
+      "allRenderedVerses": 85,
+      "search": "exact",
+      "sharedText": "exact",
+      "PNGCardWidth": 1200
+    }
+  ]
+}

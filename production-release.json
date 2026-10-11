@@ -1,9 +1,9 @@
 {
   "date": "2026-10-11",
   "production": "https://vible.now",
-  "deployment": "https://vible-pupon745t-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_8VEUTKv1xPdqDo7qf84Z8jmrFXhP",
-  "newImageFiles": 211,
+  "deployment": "https://vible-6rdk6c720-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_8jKzbCoXt2ZyyuGibcEMUkGFG6Pc",
+  "newImageFiles": 41,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -11,7 +11,8 @@
     "deuteronomy": 301,
     "joshua": 185,
     "proverbs": 120,
-    "judges": 211
+    "judges": 211,
+    "ruth": 41
   },
   "releaseConfig": {
     "leviticus": 236,
@@ -613,14 +614,13 @@
         705
       ]
     },
-    "ruth": 0,
     "1samuel": 0,
     "2samuel": 0,
     "1kings": 0,
     "2kings": 0
   },
-  "psalmsPlan": "All Psalms 1–150 illustrated: 1517 scenes, original Scripture and all previously published art retained.",
-  "qa": "review/judges-qa-state.json",
+  "psalmsPlan": "All Psalms 1\u2013150 illustrated: 1517 scenes, original Scripture and all previously published art retained.",
+  "qa": "review/ruth-qa-state.json",
   "checks": {
     "frozenApplication": "npm run check passed; all 41 books and 123 translations",
     "frozenOffline": "passed; 41 books checked (legacy console label says 35)",
@@ -628,13 +628,18 @@
     "changedJoshuaCDN": "45 exact JPEG byte/hash/MIME matches",
     "privateFeedback": "admin authentication enforced",
     "JoshuaVisualQA": "185 selected images reviewed, 12 corrections accepted",
-    "multilingualBrowser": "passed: seven historical books × four languages, exact verses, translated search and real PNG shared cards",
+    "multilingualBrowser": "passed: seven historical books \u00d7 four languages, exact verses, translated search and real PNG shared cards",
     "JoshuaLiveReader": "passed: exact rendered verses, chapter navigation, mobile, PNG cards and shared links",
     "JudgesVisualQA": "211 selected images, all thumbnails/four corners and critical passages reviewed; 10 corrections accepted",
     "JudgesCDN": "211 new JPEG URLs passed exact byte/hash/MIME checks",
     "JudgesPublicData": "Exact frozen compiled data, all 211 images available",
     "JudgesLiveReader": "Passed exact rendered verses, chapter navigation, mobile, PNG card and shared links",
-    "JudgesFourLanguages": "Passed KO/EN/JA/ZH full verses, translated search and real PNG shared cards"
+    "JudgesFourLanguages": "Passed KO/EN/JA/ZH full verses, translated search and real PNG shared cards",
+    "RuthVisualQA": "41 selected images, all thumbnails/four corners and critical passages reviewed; 2 corrections accepted",
+    "RuthCDN": "41 new JPEG URLs passed exact byte/hash/MIME checks",
+    "RuthPublicData": "Exact frozen compiled data, all 41 images available",
+    "RuthLiveReader": "Passed exact rendered verses, chapter navigation, mobile, PNG card and shared links",
+    "RuthFourLanguages": "Passed KO/EN/JA/ZH full verses, translated search and real PNG shared cards"
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 41,
@@ -651,11 +656,11 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "26587c52bf055e0b65a20f285d1132b5d27eada8",
+  "gitCommit": "883d0ce71630c8d54fe42387b1678bff5684e884",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v3.jpg"
   },
-  "frozenSource": "/private/tmp/vible-release-26587c52bf05"
+  "frozenSource": "/private/tmp/vible-release-883d0ce71630"
 }
