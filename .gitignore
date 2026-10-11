@@ -13,3 +13,4 @@ john-196-overview.jpg
 
 # New production artwork is retained in R2; existing tracked images remain.
 assets/*.jpg
+native/store/screenshots/

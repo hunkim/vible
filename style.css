@@ -415,3 +415,5 @@ body.touch-selection #reader p.is-selected .verse-text{background:#dfc78445;box-
 @media(max-width:700px){#feedback-dialog{padding:24px 20px}.scene-reference{flex-wrap:wrap}#current-reference{max-width:calc(100vw - 150px)}}
 /* A failed image keeps its alt text for screen readers without painting it over the scene. */
 #visual{color:transparent}
+/* keep-all keeps Korean words together; Japanese and Chinese have no spaces, so they must break between characters. */
+html:lang(ja) *,html:lang(zh) *{word-break:normal!important;line-break:strict}
