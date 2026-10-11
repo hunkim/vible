@@ -57,6 +57,8 @@ await fs.cp(path.join(root,'data/translations'),path.join(output,'data/translati
 await fs.writeFile(path.join(root,'data/translations/catalog.json'),JSON.stringify(catalog,null,2));
 await fs.writeFile(path.join(output,'data/translations/catalog.json'),JSON.stringify(catalog));
 await fs.cp(path.join(root,'fonts'),path.join(output,'fonts'),{recursive:true});
+// Universal Links let vible.now verse links open the installed iOS app.
+if(!native)await fs.cp(path.join(root,'.well-known'),path.join(output,'.well-known'),{recursive:true});
 // Keep production readers lean; generation prompts and reference metadata stay in source.
 for(const {id,data} of books){const reader={...data,scenes:data.scenes.map(({prompt,referenceImages,cast,visual,...scene})=>scene)};await fs.writeFile(path.join(output,`data/${id}.json`),JSON.stringify(reader));}
 if(hosting.origin){const file=path.join(output,'index.html');const html=await fs.readFile(file,'utf8');await fs.writeFile(file,html.replace('</head>',`<link rel="preconnect" href="${hosting.origin}" crossorigin><link rel="dns-prefetch" href="${hosting.origin}"></head>`));}

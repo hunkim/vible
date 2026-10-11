@@ -1,0 +1,24 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "9S7XU72M4Z.now.vible.app"
+        ],
+        "components": [
+          {
+            "/": "/share/*",
+            "comment": "Shared verse pages open in the app"
+          },
+          {
+            "/": "/",
+            "?": {
+              "book": "?*"
+            },
+            "comment": "Reader links with a book"
+          }
+        ]
+      }
+    ]
+  }
+}

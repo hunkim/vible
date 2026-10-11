@@ -37,3 +37,30 @@ export function openExternal(url){
 }
 // Keep links to other sites out of the app webview (custom app schemes have an opaque origin, so compare scheme and host).
 if(isNative)document.addEventListener('click',e=>{const a=e.target.closest?.('a[href]');if(!a||a.hasAttribute('download'))return;const url=new URL(a.href,location.href),here=new URL(location.href);if(url.protocol===here.protocol&&url.host===here.host)return;e.preventDefault();openExternal(url.href);});
+// vible.now links (Universal Links / App Links) open the same passage in the bundled reader.
+export function appLinkTarget(link){
+ let url;try{url=new URL(link);}catch{return null;}
+ if(url.hostname!=='vible.now'&&url.hostname!=='www.vible.now')return null;
+ const params=new URLSearchParams(url.search),share=url.pathname.match(/^\/share\/([a-z0-9]+)\/(\d+)\/(\d+)(?:\/\d+\/\d+)?\/?$/);
+ if(share){params.set('book',share[1]);params.set('chapter',share[2]);params.set('verse',share[3]);}
+ if(!params.get('book'))return null;
+ params.set('read','1');return `index.html?${params}`;
+}
+function openAppLink(link){const target=appLinkTarget(link);if(target&&new URL(target,location.href).search!==location.search)location.replace(target);}
+if(capacitor){capacitor.addListener?.('App','appUrlOpen',event=>openAppLink(event.url));plugin('App','getLaunchUrl',{}).then(result=>{
+ // The launch URL stays the same for the whole process, so follow it only once; later links arrive as appUrlOpen.
+ let seen;try{seen=sessionStorage.getItem('vible-launch-url');sessionStorage.setItem('vible-launch-url',result?.url||'');}catch{}
+ if(result?.url&&seen===null)openAppLink(result.url);
+},()=>{});}
+// Android back closes the innermost open layer before leaving the app, as Android users expect.
+export function handleBack(doc=document){
+ const $=id=>doc.getElementById(id),dialog=[...doc.querySelectorAll('dialog[open]')].at(-1);
+ if(dialog){dialog.requestClose?dialog.requestClose():dialog.close();return 'dialog';}
+ let popover=null;try{popover=doc.querySelector(':popover-open');}catch{}
+ if(popover){popover.hidePopover();return 'popover';}
+ if($('selection-tools')&&!$('selection-tools').hidden){$('dismiss-selection').click();return 'selection';}
+ if(doc.body.classList.contains('image-only')){$('focus').click();return 'image';}
+ if($('reading-view')?.hidden){$('read-tab').click();return 'view';}
+ if(capacitor)plugin('App','minimizeApp',{}).catch(()=>{});return 'minimize';
+}
+if(capacitor?.getPlatform()==='android')capacitor.addListener?.('App','backButton',()=>handleBack());
