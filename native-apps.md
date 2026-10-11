@@ -55,6 +55,19 @@ python3 resources/generate.py   # 아이콘·스플래시 재생성
 
 자동 검사: `npm run check`에 `check-i18n.mjs`, `check-native.mjs` 추가. `node check-offline.mjs` 통과.
 
+## 스토어 상태 (2026-10-11)
+
+| 플랫폼 | 상태 | 빌드 |
+|---|---|---|
+| iOS·iPadOS | 심사 대기 (Waiting for Review) | 1.0 (5) |
+| macOS (Mac App Store) | 심사 대기 (Waiting for Review) | 1.0.0 (1), universal, App Sandbox |
+| Android | Play Console 본인 인증 대기 | AAB 1.0.0 (1) 준비 |
+| Windows | 미빌드 (Windows 환경 필요) | — |
+
+App Store Connect 앱 ID 6821509962, 175개국 무료, 연령 13+. 업로드: `xcodebuild -exportArchive`
+(iOS는 Xcode 아카이브, macOS는 Tauri universal 빌드를 xcarchive로 감싸 업로드). 다음 업로드 때는
+CFBundleVersion(iOS `CURRENT_PROJECT_VERSION`, macOS `bundleVersion`)을 올릴 것.
+
 ## 출시 전 남은 일
 
 ### 사용자가 직접 해야 하는 일 (계정·결제·서명)
