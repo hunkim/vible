@@ -1,0 +1,1069 @@
+[
+  {
+    "book": "joshua",
+    "chapter": 3,
+    "first": 13,
+    "last": 17,
+    "sceneIds": [
+      16,
+      17,
+      18
+    ],
+    "reason": "Covered ark; ordinary white linen bearers; natural shoulder-pole grips."
+  },
+  {
+    "book": "joshua",
+    "chapter": 4,
+    "first": 10,
+    "last": 18,
+    "sceneIds": [
+      21,
+      22
+    ],
+    "reason": "Dry crossing under all feet; river resumes behind people safely on dry land."
+  },
+  {
+    "book": "joshua",
+    "chapter": 6,
+    "first": 6,
+    "last": 9,
+    "sceneIds": [
+      33,
+      34
+    ],
+    "reason": "Seven separate ram horns; ordinary priests, no duplicated high priest."
+  },
+  {
+    "book": "joshua",
+    "chapter": 8,
+    "first": 30,
+    "last": 35,
+    "sceneIds": [
+      58,
+      59
+    ],
+    "reason": "Uncut altar stones; original Joshua actor and natural scroll hands."
+  },
+  {
+    "book": "joshua",
+    "chapter": 10,
+    "first": 12,
+    "last": 14,
+    "sceneIds": [
+      72
+    ],
+    "reason": "One sun, one moon; no divine human body or hand."
+  },
+  {
+    "book": "joshua",
+    "chapter": 10,
+    "first": 16,
+    "last": 27,
+    "sceneIds": [
+      73,
+      74,
+      75,
+      76
+    ],
+    "reason": "Five distinct original kings; no graphic executions."
+  },
+  {
+    "book": "joshua",
+    "chapter": 14,
+    "first": 1,
+    "last": 5,
+    "sceneIds": [
+      103
+    ],
+    "reason": "One Eleazar, twelve chest stones in four rows of three; lot grips."
+  },
+  {
+    "book": "joshua",
+    "chapter": 17,
+    "first": 3,
+    "last": 6,
+    "sceneIds": [
+      125
+    ],
+    "reason": "Five original daughters; one Eleazar with twelve gems; no approved faces as daughters."
+  },
+  {
+    "book": "joshua",
+    "chapter": 19,
+    "first": 51,
+    "last": 51,
+    "sceneIds": [
+      146
+    ],
+    "reason": "One high priest with twelve gems in four rows of three."
+  },
+  {
+    "book": "joshua",
+    "chapter": 22,
+    "first": 10,
+    "last": 34,
+    "sceneIds": [
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169
+    ],
+    "reason": "Witness altar is empty and unlit; distinguish reported fear from actual sacrifice."
+  },
+  {
+    "book": "joshua",
+    "chapter": 24,
+    "first": 29,
+    "last": 33,
+    "sceneIds": [
+      183,
+      184,
+      185
+    ],
+    "reason": "Joshua and Eleazar die in correct chronology; Joseph bones closed, no living Joseph."
+  },
+  {
+    "book": "joshua",
+    "chapter": 15,
+    "first": 37,
+    "last": 41,
+    "sceneIds": [
+      114
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "sung",
+      "yeonkyung"
+    ]
+  },
+  {
+    "book": "joshua",
+    "chapter": 20,
+    "first": 9,
+    "last": 9,
+    "sceneIds": [
+      150
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "woman"
+    ]
+  },
+  {
+    "book": "judges",
+    "chapter": 7,
+    "first": 16,
+    "last": 22,
+    "sceneIds": [
+      69,
+      70,
+      71
+    ],
+    "reason": "Left torch and right horn, natural hands; broken jars on ground."
+  },
+  {
+    "book": "judges",
+    "chapter": 9,
+    "first": 8,
+    "last": 15,
+    "sceneIds": [
+      86,
+      87,
+      88
+    ],
+    "reason": "Jotham tree parable; real trees, no invented divine body."
+  },
+  {
+    "book": "judges",
+    "chapter": 11,
+    "first": 34,
+    "last": 40,
+    "sceneIds": [
+      117,
+      118,
+      119,
+      120
+    ],
+    "reason": "Loss and absence, no child sacrifice action."
+  },
+  {
+    "book": "judges",
+    "chapter": 16,
+    "first": 3,
+    "last": 3,
+    "sceneIds": [
+      153
+    ],
+    "reason": "One gate, two posts and one crossbar; coherent supported load."
+  },
+  {
+    "book": "judges",
+    "chapter": 16,
+    "first": 6,
+    "last": 14,
+    "sceneIds": [
+      155,
+      156,
+      157
+    ],
+    "reason": "Seven cords/locks where visible; no multiplied people or detached hands."
+  },
+  {
+    "book": "judges",
+    "chapter": 16,
+    "first": 23,
+    "last": 30,
+    "sceneIds": [
+      161,
+      162,
+      163,
+      164
+    ],
+    "reason": "Two central pillars, one hand at each, naturally connected arms."
+  },
+  {
+    "book": "judges",
+    "chapter": 19,
+    "first": 22,
+    "last": 29,
+    "sceneIds": [
+      188,
+      189,
+      190
+    ],
+    "reason": "Privacy and absence for sexual assault and dismemberment; no acts shown."
+  },
+  {
+    "book": "judges",
+    "chapter": 10,
+    "first": 15,
+    "last": 16,
+    "sceneIds": [
+      104
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "woman"
+    ]
+  },
+  {
+    "book": "judges",
+    "chapter": 18,
+    "first": 8,
+    "last": 10,
+    "sceneIds": [
+      174
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "sung",
+      "yeonkyung"
+    ]
+  },
+  {
+    "book": "ruth",
+    "chapter": 2,
+    "first": 4,
+    "last": 4,
+    "sceneIds": [
+      12
+    ],
+    "reason": "Male Sung and Yeonkyung only unnamed workers, not Boaz/Ruth."
+  },
+  {
+    "book": "ruth",
+    "chapter": 2,
+    "first": 14,
+    "last": 14,
+    "sceneIds": [
+      17
+    ],
+    "reason": "Feminine Sung ordinary public helper, no Yeonkyung or spouse role."
+  },
+  {
+    "book": "ruth",
+    "chapter": 3,
+    "first": 7,
+    "last": 14,
+    "sceneIds": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "reason": "Fully clothed threshing-floor scene; no sexual action."
+  },
+  {
+    "book": "ruth",
+    "chapter": 3,
+    "first": 15,
+    "last": 15,
+    "sceneIds": [
+      29
+    ],
+    "reason": "Six measures of barley, no arbitrary six bowls; supported load."
+  },
+  {
+    "book": "ruth",
+    "chapter": 4,
+    "first": 1,
+    "last": 9,
+    "sceneIds": [
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "reason": "Exactly ten elders plus Boaz and nearer kinsman if all depicted; one sandal, natural handover."
+  },
+  {
+    "book": "ruth",
+    "chapter": 4,
+    "first": 13,
+    "last": 17,
+    "sceneIds": [
+      38,
+      39,
+      40
+    ],
+    "reason": "Obed is safely supported clothed infant; no infant David crown."
+  },
+  {
+    "book": "ruth",
+    "chapter": 2,
+    "first": 4,
+    "last": 4,
+    "sceneIds": [
+      12
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "sung",
+      "yeonkyung"
+    ]
+  },
+  {
+    "book": "ruth",
+    "chapter": 2,
+    "first": 14,
+    "last": 14,
+    "sceneIds": [
+      17
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "woman"
+    ]
+  },
+  {
+    "book": "1samuel",
+    "chapter": 2,
+    "first": 13,
+    "last": 14,
+    "sceneIds": [
+      14
+    ],
+    "reason": "Three-pronged fork if visible; no unsafe sacrifice action."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 5,
+    "first": 4,
+    "last": 4,
+    "sceneIds": [
+      40
+    ],
+    "reason": "Dagon sculpted stone head and two stone hands, inert."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 6,
+    "first": 7,
+    "last": 13,
+    "sceneIds": [
+      46,
+      47,
+      48
+    ],
+    "reason": "Two milk cows, one new cart; covered ark and separate gold-offering box."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 16,
+    "first": 10,
+    "last": 13,
+    "sceneIds": [
+      136,
+      137,
+      138
+    ],
+    "reason": "Seven sons before original David; no approved cast as named sons."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 17,
+    "first": 40,
+    "last": 40,
+    "sceneIds": [
+      153
+    ],
+    "reason": "Five stones and one sling if shown, naturally connected hands."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 26,
+    "first": 11,
+    "last": 12,
+    "sceneIds": [
+      238,
+      239
+    ],
+    "reason": "One spear and one water flask; two natural holding hands."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 28,
+    "first": 7,
+    "last": 20,
+    "sceneIds": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "reason": "Reported medium narrative distinguished from divine figure."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 30,
+    "first": 30,
+    "last": 31,
+    "sceneIds": [
+      272
+    ],
+    "reason": "KRV verse bridge retained, no invented extra wording."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 31,
+    "first": 4,
+    "last": 13,
+    "sceneIds": [
+      274,
+      275,
+      276,
+      277,
+      278
+    ],
+    "reason": "Death conveyed by absence and objects, no suicide action or exposed corpses."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 6,
+    "first": 13,
+    "last": 13,
+    "sceneIds": [
+      48
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "sung",
+      "yeonkyung"
+    ]
+  },
+  {
+    "book": "1samuel",
+    "chapter": 7,
+    "first": 3,
+    "last": 4,
+    "sceneIds": [
+      53
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "woman"
+    ]
+  },
+  {
+    "book": "2samuel",
+    "chapter": 1,
+    "first": 10,
+    "last": 10,
+    "sceneIds": [
+      2
+    ],
+    "reason": "Amalekite claim distinguished from witnessed event; one circlet and one armring."
+  },
+  {
+    "book": "2samuel",
+    "chapter": 6,
+    "first": 1,
+    "last": 19,
+    "sceneIds": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "reason": "First ark cart versus later shoulder-pole transport; David clothed."
+  },
+  {
+    "book": "2samuel",
+    "chapter": 11,
+    "first": 2,
+    "last": 4,
+    "sceneIds": [
+      80,
+      81
+    ],
+    "reason": "Privacy and fully clothed original Bathsheba, no approved spouse identity."
+  },
+  {
+    "book": "2samuel",
+    "chapter": 13,
+    "first": 1,
+    "last": 22,
+    "sceneIds": [
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "reason": "Tamar assault represented by absence/privacy, no act."
+  },
+  {
+    "book": "2samuel",
+    "chapter": 21,
+    "first": 20,
+    "last": 20,
+    "sceneIds": [
+      199
+    ],
+    "reason": "Six-digit source handled by covered gloves/shoes; do not force visible five fingers."
+  },
+  {
+    "book": "2samuel",
+    "chapter": 23,
+    "first": 15,
+    "last": 17,
+    "sceneIds": [
+      220,
+      221
+    ],
+    "reason": "Three warriors and water offering, natural supported two-hand gestures."
+  },
+  {
+    "book": "2samuel",
+    "chapter": 24,
+    "first": 16,
+    "last": 25,
+    "sceneIds": [
+      234,
+      235,
+      236,
+      237,
+      238,
+      239
+    ],
+    "reason": "Angel wings rooted behind shoulder blades, arms separate; no divine body."
+  },
+  {
+    "book": "2samuel",
+    "chapter": 6,
+    "first": 19,
+    "last": 19,
+    "sceneIds": [
+      50
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "sung",
+      "yeonkyung"
+    ]
+  },
+  {
+    "book": "2samuel",
+    "chapter": 22,
+    "first": 50,
+    "last": 51,
+    "sceneIds": [
+      214
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "woman"
+    ]
+  },
+  {
+    "book": "1kings",
+    "chapter": 3,
+    "first": 16,
+    "last": 28,
+    "sceneIds": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "reason": "Two original mothers, one safe infant; sheathed sword far away, no cutting action."
+  },
+  {
+    "book": "1kings",
+    "chapter": 6,
+    "first": 23,
+    "last": 28,
+    "sceneIds": [
+      63,
+      64
+    ],
+    "reason": "Two cherub sculptures with back-rooted wings; natural separate arms."
+  },
+  {
+    "book": "1kings",
+    "chapter": 7,
+    "first": 23,
+    "last": 39,
+    "sceneIds": [
+      75,
+      76,
+      77,
+      78
+    ],
+    "reason": "Sea on twelve oxen in four groups of three; ten lavers five each side."
+  },
+  {
+    "book": "1kings",
+    "chapter": 8,
+    "first": 9,
+    "last": 9,
+    "sceneIds": [
+      85
+    ],
+    "reason": "Ark contents only two tablets; no manna jar or rod."
+  },
+  {
+    "book": "1kings",
+    "chapter": 10,
+    "first": 18,
+    "last": 20,
+    "sceneIds": [
+      119
+    ],
+    "reason": "Six throne steps, twelve paired step lions plus armrest lions if visible."
+  },
+  {
+    "book": "1kings",
+    "chapter": 11,
+    "first": 29,
+    "last": 32,
+    "sceneIds": [
+      133,
+      134
+    ],
+    "reason": "Twelve garment pieces, ten and two separate groups if visible."
+  },
+  {
+    "book": "1kings",
+    "chapter": 18,
+    "first": 30,
+    "last": 35,
+    "sceneIds": [
+      214,
+      215
+    ],
+    "reason": "Twelve altar stones; four jars per round, not twelve simultaneous jars."
+  },
+  {
+    "book": "1kings",
+    "chapter": 18,
+    "first": 44,
+    "last": 44,
+    "sceneIds": [
+      221
+    ],
+    "reason": "Small cloud compared with hand, not a literal hand-shaped cloud."
+  },
+  {
+    "book": "1kings",
+    "chapter": 19,
+    "first": 11,
+    "last": 19,
+    "sceneIds": [
+      228,
+      229,
+      230,
+      231
+    ],
+    "reason": "Divine presence nonfigurative; Elisha and twelve paired oxen if shown."
+  },
+  {
+    "book": "1kings",
+    "chapter": 4,
+    "first": 24,
+    "last": 25,
+    "sceneIds": [
+      46
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "sung",
+      "yeonkyung"
+    ]
+  },
+  {
+    "book": "1kings",
+    "chapter": 18,
+    "first": 39,
+    "last": 39,
+    "sceneIds": [
+      218
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "woman"
+    ]
+  },
+  {
+    "book": "2kings",
+    "chapter": 2,
+    "first": 11,
+    "last": 15,
+    "sceneIds": [
+      13,
+      14,
+      15
+    ],
+    "reason": "Elijah whirlwind, not riding fiery chariot; distinct original Elisha and inherited mantle."
+  },
+  {
+    "book": "2kings",
+    "chapter": 2,
+    "first": 23,
+    "last": 24,
+    "sceneIds": [
+      19
+    ],
+    "reason": "Two female bears before contact, no mauling children."
+  },
+  {
+    "book": "2kings",
+    "chapter": 4,
+    "first": 1,
+    "last": 7,
+    "sceneIds": [
+      31,
+      32,
+      33,
+      34
+    ],
+    "reason": "Widow with two original sons, one pouring oil jar and natural grips."
+  },
+  {
+    "book": "2kings",
+    "chapter": 5,
+    "first": 10,
+    "last": 18,
+    "sceneIds": [
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "reason": "One covered adult Naaman at seventh dip, no seven cloned bodies; two earth mules."
+  },
+  {
+    "book": "2kings",
+    "chapter": 6,
+    "first": 1,
+    "last": 7,
+    "sceneIds": [
+      57,
+      58,
+      59
+    ],
+    "reason": "One floating axehead and one branch; coherent hands."
+  },
+  {
+    "book": "2kings",
+    "chapter": 6,
+    "first": 20,
+    "last": 23,
+    "sceneIds": [
+      65
+    ],
+    "reason": "Male Sung and Yeonkyung only ordinary peace-meal helpers."
+  },
+  {
+    "book": "2kings",
+    "chapter": 11,
+    "first": 1,
+    "last": 12,
+    "sceneIds": [
+      116,
+      117,
+      118,
+      119
+    ],
+    "reason": "Safe infant Joash, later seven-year-old; one high priest with twelve gems."
+  },
+  {
+    "book": "2kings",
+    "chapter": 13,
+    "first": 14,
+    "last": 19,
+    "sceneIds": [
+      137,
+      138,
+      139
+    ],
+    "reason": "Bow: two king arms plus two prophet arms, four total; third ground strike one coherent moment."
+  },
+  {
+    "book": "2kings",
+    "chapter": 14,
+    "first": 23,
+    "last": 25,
+    "sceneIds": [
+      153,
+      154
+    ],
+    "reason": "Jonah son of Amittai, no invented whale scene."
+  },
+  {
+    "book": "2kings",
+    "chapter": 16,
+    "first": 17,
+    "last": 17,
+    "sceneIds": [
+      176
+    ],
+    "reason": "Round sea on stone base, oxen set aside; not original complete twelve-ox support."
+  },
+  {
+    "book": "2kings",
+    "chapter": 19,
+    "first": 14,
+    "last": 37,
+    "sceneIds": [
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219
+    ],
+    "reason": "Letter in forecourt; nonfigurative God; empty camp/Nineveh loss, no graphic deaths."
+  },
+  {
+    "book": "2kings",
+    "chapter": 20,
+    "first": 8,
+    "last": 11,
+    "sceneIds": [
+      223,
+      224
+    ],
+    "reason": "Ten shadow divisions in one view, not multiple suns."
+  },
+  {
+    "book": "2kings",
+    "chapter": 22,
+    "first": 14,
+    "last": 20,
+    "sceneIds": [
+      242,
+      243
+    ],
+    "reason": "Huldah wholly original woman; exactly five envoys if all pictured."
+  },
+  {
+    "book": "2kings",
+    "chapter": 25,
+    "first": 1,
+    "last": 21,
+    "sceneIds": [
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278
+    ],
+    "reason": "Final siege chronology; Riblah unoccupied court, no killing children or blinding action."
+  },
+  {
+    "book": "2kings",
+    "chapter": 25,
+    "first": 27,
+    "last": 30,
+    "sceneIds": [
+      281,
+      282
+    ],
+    "reason": "Jehoiachin now 55, release and food; no restored Jerusalem kingship."
+  },
+  {
+    "book": "2kings",
+    "chapter": 6,
+    "first": 20,
+    "last": 23,
+    "sceneIds": [
+      65
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "sung",
+      "yeonkyung"
+    ]
+  },
+  {
+    "book": "2kings",
+    "chapter": 23,
+    "first": 21,
+    "last": 23,
+    "sceneIds": [
+      254
+    ],
+    "reason": "Authorized face identities, per-book frequency and combinations; inspect each visible wrist and fingers.",
+    "cast": [
+      "woman"
+    ]
+  },
+  {
+    "book": "judges",
+    "chapter": 2,
+    "first": 1,
+    "last": 5,
+    "sceneIds": [
+      12,
+      13
+    ],
+    "reason": "Angelic messenger: wingless when unspecified is allowed. If wings appear, roots at upper BACK behind shoulder blades, arms separate. God never portrayed as human body, giant hand or face."
+  },
+  {
+    "book": "judges",
+    "chapter": 6,
+    "first": 11,
+    "last": 24,
+    "sceneIds": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "reason": "Angelic messenger: wingless when unspecified is allowed. If wings appear, roots at upper BACK behind shoulder blades, arms separate. God never portrayed as human body, giant hand or face."
+  },
+  {
+    "book": "judges",
+    "chapter": 13,
+    "first": 3,
+    "last": 23,
+    "sceneIds": [
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134
+    ],
+    "reason": "Angelic messenger: wingless when unspecified is allowed. If wings appear, roots at upper BACK behind shoulder blades, arms separate. God never portrayed as human body, giant hand or face."
+  },
+  {
+    "book": "1kings",
+    "chapter": 19,
+    "first": 5,
+    "last": 8,
+    "sceneIds": [
+      225,
+      226
+    ],
+    "reason": "Angelic messenger: wingless when unspecified is allowed. If wings appear, roots at upper BACK behind shoulder blades, arms separate. God never portrayed as human body, giant hand or face."
+  },
+  {
+    "book": "2kings",
+    "chapter": 1,
+    "first": 3,
+    "last": 15,
+    "sceneIds": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "reason": "Angelic messenger: wingless when unspecified is allowed. If wings appear, roots at upper BACK behind shoulder blades, arms separate. God never portrayed as human body, giant hand or face."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 6,
+    "first": 4,
+    "last": 6,
+    "sceneIds": [
+      45
+    ],
+    "reason": "Five gold lumps total including held object, plus five gold mice if visible; supported hands."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 6,
+    "first": 17,
+    "last": 18,
+    "sceneIds": [
+      50
+    ],
+    "reason": "Five prescribed gold lumps, never five cooking pots; ark distinct and fully covered."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 10,
+    "first": 3,
+    "last": 4,
+    "sceneIds": [
+      78
+    ],
+    "reason": "Three travelers, three goats, three loaves, one wine skin; two loaves offered with natural hands."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 17,
+    "first": 17,
+    "last": 19,
+    "sceneIds": [
+      146
+    ],
+    "reason": "Exactly ten loaves and ten cheeses when whole prepared sets are shown; coherent grain-sack supporting arms."
+  },
+  {
+    "book": "1samuel",
+    "chapter": 18,
+    "first": 25,
+    "last": 27,
+    "sceneIds": [
+      167
+    ],
+    "reason": "Campaign evidence entirely hidden in plain opaque closed bundles; no invented animal pelts/heads or visible body parts."
+  }
+]

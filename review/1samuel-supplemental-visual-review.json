@@ -1,0 +1,202 @@
+{
+  "images": {
+    "47": {
+      "image": "1samuel-047-right-v2.jpg",
+      "sha256": "877568f141589fbafcaef27406f1716414c8083957611e41258d1d054bffae21",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four diagnostic corners actually viewed: exactly two cows, one cart, covered ark and one plain opaque separate offering box, five original followers, natural visible arms and hands, no glyphs.",
+      "reviewedUTC": "2026-10-11T00:10:34.989309+00:00"
+    },
+    "12": {
+      "image": "1samuel-012-right-v2.jpg",
+      "sha256": "fbd006a493d7edbe51f8e824b971d257f6dd07f2e0100cba42701d24d384fc6e",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four diagnostic corners actually viewed: original scene and coherent arms/hands preserved, artificial glyph removed; all corners natural.",
+      "reviewedUTC": "2026-10-11T00:15:06.169092+00:00"
+    },
+    "28": {
+      "image": "1samuel-028-right-v2.jpg",
+      "sha256": "86793e34ddb89c97cc60b747a6f6b487991a58168deac19c784b84c4addeb4de",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four diagnostic corners actually viewed: original scene and coherent arms/hands preserved, artificial glyph removed; all corners natural.",
+      "reviewedUTC": "2026-10-11T00:15:06.169371+00:00"
+    },
+    "45": {
+      "image": "1samuel-045-right-v2.jpg",
+      "sha256": "b19e4b017c4a1f14802bfd158e9d32120d856b8b50e5df07e0f3495d7ba4c5a9",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full and four corners: four golden lumps inside box plus one held = exactly five total, exactly five golden mice, natural supported hands and original faces preserved, all corners clean.",
+      "reviewedUTC": "2026-10-11T00:16:34.934364+00:00"
+    },
+    "56": {
+      "image": "1samuel-056-right-v2.jpg",
+      "sha256": "1ba7a95a5601b68f1aaa7ddf1155839767280dd34afd2fdc89f6fed7b9c33b1a",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full plus all four corners: original elderly Samuel with two naturally connected clasped prayer hands, immense thundercloud valley, distant adult troop movement; no altar, graphic violence or divine human image, exact same 7:9–11 narrative, clean corners.",
+      "reviewedUTC": "2026-10-11T00:20:38.417259+00:00"
+    },
+    "50": {
+      "image": "1samuel-050-right-v2.jpg",
+      "sha256": "491b3612a015abb07759b12e156309f8429e0ad1096d141dbf1b2637a6c263e2",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four diagnostic corners actually viewed: Exactly five inert golden lumps on a cloth replace erroneous five cooking pots; covered ark and one separate closed offering box retained, natural hands. All four corners natural and clean.",
+      "reviewedUTC": "2026-10-11T00:25:22.842218+00:00"
+    },
+    "54": {
+      "image": "1samuel-054-right-v2.jpg",
+      "sha256": "79d22002df4ea723644444f68cd4ebdbea521f55a225625bdb60dffaf8ed54bd",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four diagnostic corners actually viewed: Faint upper-right artificial glyph removed, correct supported water pour and original Samuel with independent natural prayer hand and staff grip retained. All four corners natural and clean.",
+      "reviewedUTC": "2026-10-11T00:25:22.842587+00:00"
+    },
+    "107": {
+      "image": "1samuel-107-right-v2.jpg",
+      "sha256": "4bbc465f1443338d57dcbb200814dd7cf2ef53c8531a0ddef0ae898ba43d093a",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full and four corners: spurious nine-cell chest decoration removed; original Ahijah wears plain ivory linen ephod with natural staff grip and separate arms. Original Saul/Jonathan actors, coherent hands, pomegranate tree and epic gorge retained; no corner marks.",
+      "reviewedUTC": "2026-10-11T00:32:33.523980+00:00"
+    },
+    "153": {
+      "image": "1samuel-153-right-v2.jpg",
+      "sha256": "1643ff0ff5274c0fcd84ec3c7843220e4ce75777e942677b7f84f010141284b7",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full and four corners: exactly one chosen stone held plus four grouped on bank, pouch mouth empty/dark, total five. One sling, one staff, coherent two arms and natural selecting/rim hands, original adult David retained. Corners natural.",
+      "reviewedUTC": "2026-10-11T00:50:02.653038+00:00"
+    },
+    "148": {
+      "image": "1samuel-148-right-v3.jpg",
+      "sha256": "166bc60d150c37752ca04898b9bcb64a201ddd201d09cb57c2589d36c8e1b656",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full and four corners: original young adult David speaks to three unnamed original adult soldiers in safe camp, exact 17:23–27 context, no Eliab confrontation borrowed from following passage. Natural separate two-arm gestures, lowered weapons, epic valley; clean corners.",
+      "reviewedUTC": "2026-10-11T00:59:53.914026+00:00"
+    },
+    "146": {
+      "image": "1samuel-146-right-v2.jpg",
+      "sha256": "d448fbde2bd4cc8a6514b761c3da8bfef0d85c41437020f3cf94c7d731154e61",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full and four corners: Exactly ten bread loaves in two rows of five, exactly ten cheeses in two rows of five, one supported grain sack, four coherent arms and natural grips total. Natural clean corners.",
+      "reviewedUTC": "2026-10-11T01:04:04.765269+00:00"
+    },
+    "167": {
+      "image": "1samuel-167-right-v2.jpg",
+      "sha256": "f452eb1797a50316a591c00711e5181db86b62d7f53b05ca207aef64de79f84b",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Actual full and four corners: All animal pelts and heads removed, original David and all visible load-bearing helpers carry entirely closed opaque linen bundles; natural two-arm anatomy and grips preserved, contents hidden, original Saul and Michal faces untouched. Natural clean corners.",
+      "reviewedUTC": "2026-10-11T01:04:04.765581+00:00"
+    },
+    "202": {
+      "image": "1samuel-202-right-v2.jpg",
+      "sha256": "deffc69c7384a11d72ae4c677d6c50884b413c0dc1897521dda733fd5cbfae50",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four corners actually viewed. Same young adult original Abiathar as scene 201, dark curls and short dark beard, no elderly father substitution. David, two connected arms and supported original textile remain coherent; natural corners.",
+      "reviewedUTC": "2026-10-11T01:24:50.032455+00:00"
+    },
+    "205": {
+      "image": "1samuel-205-right-v2.jpg",
+      "sha256": "b04093b1fd4348447c6dae678e63da3048f7c3c9af019530d3c3cdda0ac62174",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four corners actually viewed. Same young adult original Abiathar as scene 201, dark curls and short dark beard, no elderly father substitution. David, two connected arms and supported original textile remain coherent; natural corners.",
+      "reviewedUTC": "2026-10-11T01:24:50.032847+00:00"
+    },
+    "175": {
+      "image": "1samuel-175-right-v3.jpg",
+      "sha256": "23ebc4f6312a2b7ca133ab8797118fc363cd76d6d8485fed33d681ffd8561803",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four corners actually viewed: nested triangle at extreme top-right removed, organically irregular olive branches and sky restored; original faces and coherent prayer hands preserved.",
+      "reviewedUTC": "2026-10-11T01:30:47.522642+00:00"
+    },
+    "215": {
+      "image": "1samuel-215-right-v2.jpg",
+      "sha256": "02fbb65bafb33fbe664a24ce4c2e00c0f602412f2fdfabe14c07d7d5f20fbd45",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four corners actually viewed: same 24:3-4 event in enormous cave, original adult David with one cut mantle fragment in two connected natural hands, clothed adult companions, Saul concealed, no weapon, bodily function or nudity.",
+      "reviewedUTC": "2026-10-11T01:30:47.522989+00:00"
+    },
+    "238": {
+      "image": "1samuel-238-right-v2.jpg",
+      "sha256": "944bd4d945dd648dbc5ab26ba29808cd76ae1c37c6a4e1d68e9f505ec47c3f24",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four corners actually viewed: invented threatening drawn sword removed, Abishai has natural empty lowered hand, David stop palm remains natural, Saul untouched asleep; one selected spear and one water flask remain beside him.",
+      "reviewedUTC": "2026-10-11T01:30:47.523223+00:00"
+    },
+    "207": {
+      "image": "1samuel-207-right-v3.jpg",
+      "sha256": "fb810730259fe3f60b02a0652d6da6a8e037a8b7a05abb35ffb2caded8dea079",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four corners actually viewed. Complete visible young Abiathar face and connected neck restored from original intact target, consistent with scene 201; both natural ephod support hands and David prayer hands preserved, no head removal or corner glyph.",
+      "reviewedUTC": "2026-10-11T01:36:38.267509+00:00"
+    },
+    "251": {
+      "image": "1samuel-251-right-v2.jpg",
+      "sha256": "18915ece566a230e0e51cc6f9c30751bbe7588fdc33eb84f8b5bb38b2fae910c",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four corners actually viewed: modern glass lantern replaced by small open shallow ancient oil lamp on wall support, same warm light, disguised Saul plus exactly two adult companions, original medium and natural hands preserved.",
+      "reviewedUTC": "2026-10-11T01:41:20.199557+00:00"
+    },
+    "254": {
+      "image": "1samuel-254-right-v2.jpg",
+      "sha256": "7222539db7cc36fa97023900664f65ca7fac71a53a0392ef261640d08ff82754",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four corners actually viewed: definite material old-man apparition removed, shadowed empty threshold and mantle-like dark shape preserve uncertainty; Saul crown removed while kneeling anguish, natural arms and original woman remain.",
+      "reviewedUTC": "2026-10-11T01:41:20.200234+00:00"
+    },
+    "274": {
+      "image": "1samuel-274-right-v2.jpg",
+      "sha256": "c9c65554f5b9e0595826b7f5ca2fb1ed4dd96eb9b42889e2a93ad3282567e1fb",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four corners actually viewed: immense empty Gilboa ridge, one abandoned mantle and one inert shield, no blade, person, remains or dangerous act; same 31:3-6 loss conveyed by absence with unchanged separate Scripture.",
+      "reviewedUTC": "2026-10-11T01:45:55.013511+00:00"
+    },
+    "276": {
+      "image": "1samuel-276-right-v3.jpg",
+      "sha256": "db965dd2fdca55f8577df70e8fe6196924122270477cf16acdf3196ce40ba31a",
+      "fullFrameViewed": true,
+      "fourCornerViewed": true,
+      "accepted": true,
+      "note": "Full frame and all four corners actually viewed: all suspended human figures removed from distant walls and sky, one empty armor display retains hollow helmet, living soldiers have natural arms/hands. Bottom-right artificial logo box removed, bronze vessel surface continuous and naturally embossed.",
+      "reviewedUTC": "2026-10-11T01:55:35.337638+00:00"
+    }
+  }
+}
