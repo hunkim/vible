@@ -29525,6 +29525,258 @@
     "proverbs-c031-v031-031-right-context-v1.jpg": {
       "sha256": "961985bf3c9ecdb5df8c7dfdae52fa78988342d2245e9a4715e7be23beb2fb3c",
       "bytes": 517651
+    },
+    "songofsongs-c001-v001-001-right-context-v1.jpg": {
+      "sha256": "fad6980c58ef873fc261b89badf410173a7c2917417e91e4ce9e125564058b37",
+      "bytes": 499800
+    },
+    "songofsongs-c001-v002-004-right-context-v1.jpg": {
+      "sha256": "63eaba44afcbab071b3d88ea82f4eff92b775dea3ddadab3b331835129d872ed",
+      "bytes": 565947
+    },
+    "songofsongs-c001-v005-006-right-context-v1.jpg": {
+      "sha256": "95d3b6690f000fd34d8acd11375f42e531d74fb7b78890f74b3b49110c07ce98",
+      "bytes": 497272
+    },
+    "songofsongs-c001-v007-008-right-context-v1.jpg": {
+      "sha256": "73f0cf45b3608f37786fde3140d153d71b07a53b6a48b143ca92eeb7247f7961",
+      "bytes": 663841
+    },
+    "songofsongs-c001-v009-011-right-context-v1.jpg": {
+      "sha256": "f5b0de9730b7e805509b08f40350441d13a8d79a8f87943be6998a13e433856b",
+      "bytes": 528403
+    },
+    "songofsongs-c001-v012-014-right-context-v1.jpg": {
+      "sha256": "c3446d94e5cb0c6b3fb00b193f5abbfd0dd93d6d8b0609961f4ddc4b1ba9b95a",
+      "bytes": 575459
+    },
+    "songofsongs-c001-v015-017-right-context-v1.jpg": {
+      "sha256": "41b6b89db5dfa68a1f99e9a1a599354577e504b79c8e77a31489d7990394a51f",
+      "bytes": 610594
+    },
+    "songofsongs-c002-v001-002-right-context-v1.jpg": {
+      "sha256": "f23c3922b458a5ccd2d688ae0dbfc7591f28905efd6a91c6ae7e0b61a9775125",
+      "bytes": 630169
+    },
+    "songofsongs-c002-v003-003-right-context-v1.jpg": {
+      "sha256": "4b20f9d8ed13e5337d67c8f1f3539133e6e97fd53a061c7149c780faebe76fe9",
+      "bytes": 633271
+    },
+    "songofsongs-c002-v004-007-right-context-v1.jpg": {
+      "sha256": "ed26ecd16fbf8cfc1f5ce5faf8bea4432bc0108aad05bcdddfbc15d1a3c469c1",
+      "bytes": 581799
+    },
+    "songofsongs-c002-v008-009-right-context-v1.jpg": {
+      "sha256": "7a1189c8add412ed6ba90dcfe46b2a3d99f160d7d1b771faa8e9f076e33e040d",
+      "bytes": 569456
+    },
+    "songofsongs-c002-v010-013-right-context-v1.jpg": {
+      "sha256": "ddd996d71a1c16509389d1de95e394217683b58e131a467bb9790fdba154a58f",
+      "bytes": 617388
+    },
+    "songofsongs-c002-v014-014-right-context-v1.jpg": {
+      "sha256": "e4b562028bd97235417a8e206bfd7a84b7339c09c0135ba7bdb5be3459ba8dde",
+      "bytes": 521158
+    },
+    "songofsongs-c002-v015-015-right-context-v1.jpg": {
+      "sha256": "4caba35666dd62c84b710e948d58c7193e4eb2752e518690dfb729f71152b446",
+      "bytes": 652130
+    },
+    "songofsongs-c002-v016-017-right-context-v1.jpg": {
+      "sha256": "bde5e594064e0a1521f254ef43b44f270eee2ff924dc2f058fec7d6b259a1b37",
+      "bytes": 603867
+    },
+    "songofsongs-c003-v001-001-right-context-v1.jpg": {
+      "sha256": "72f7d65c5e60a58d084e0b59b92ea2cdbcaf78e5ae552e823c410297a413e225",
+      "bytes": 458445
+    },
+    "songofsongs-c003-v002-003-right-context-v1.jpg": {
+      "sha256": "06060415fdc23360f551d27d30b8ab9a193fcf257e823c3a625845126c3d10d8",
+      "bytes": 479146
+    },
+    "songofsongs-c003-v004-005-right-context-v1.jpg": {
+      "sha256": "5a1439fd2567225a4cfbb0b85ef91df2329845881e65706057d7f300a7f04ecf",
+      "bytes": 514172
+    },
+    "songofsongs-c003-v006-006-right-context-v1.jpg": {
+      "sha256": "f4e4ad56273467863e9fbe3df0fd055ebe1d0763dfb1e70143b53765cfcf88bd",
+      "bytes": 621547
+    },
+    "songofsongs-c003-v007-008-right-context-v1.jpg": {
+      "sha256": "5dbecd63699a2fdd0c4d13a83c46d0c5465b1ad78123eae86aac1b55a101b852",
+      "bytes": 587193
+    },
+    "songofsongs-c003-v009-010-right-context-v1.jpg": {
+      "sha256": "dd2bb2e26ce5d8b76866bb17fa5a35db5732404b8fbc07ee33e0bead508f6bdb",
+      "bytes": 574757
+    },
+    "songofsongs-c003-v011-011-right-context-v1.jpg": {
+      "sha256": "765121f7cfb63b7d17012890c8e75aea0c5f58a64138f5a3fe1a162a8cf12f3a",
+      "bytes": 474911
+    },
+    "songofsongs-c004-v001-003-right-context-v1.jpg": {
+      "sha256": "4c06ba3570157595cd9583eba8c47f864b4f46e2768597f4ce025cfe5f214c01",
+      "bytes": 503577
+    },
+    "songofsongs-c004-v004-004-right-context-v1.jpg": {
+      "sha256": "2cb877c39d16bb1933bcb1f1852fa9e37da22ad1e048ca85fedb10b58bf70aed",
+      "bytes": 529921
+    },
+    "songofsongs-c004-v005-005-right-context-v1.jpg": {
+      "sha256": "9c8da20d68bbeb9eed42b61294d951ea5c1377a64f1938fc25eda24b7b319ac5",
+      "bytes": 611299
+    },
+    "songofsongs-c004-v006-007-right-context-v1.jpg": {
+      "sha256": "9ba17d2fc0d416dd0fd687b7c1e207c33bf4de18acd4f700b6913bfefb046580",
+      "bytes": 596546
+    },
+    "songofsongs-c004-v008-008-right-context-v1.jpg": {
+      "sha256": "86339ddcf250a255f56baeb8efd9cb84133a174a2677e9ecab10f7113d828296",
+      "bytes": 652175
+    },
+    "songofsongs-c004-v009-011-right-context-v1.jpg": {
+      "sha256": "2b128bd14398b8c87bd4517f78b5a29eea19ad4f971e1520858c291a6355cd20",
+      "bytes": 548356
+    },
+    "songofsongs-c004-v012-012-right-context-v1.jpg": {
+      "sha256": "dffb76217168e3304504e52496af89ad52d8f7215e6d882bcd6164134610d10c",
+      "bytes": 626010
+    },
+    "songofsongs-c004-v013-014-right-context-v1.jpg": {
+      "sha256": "306c43abfb4278ea5684bd6c46d9ab43080ffae5850271c0ca17f74556867393",
+      "bytes": 659356
+    },
+    "songofsongs-c004-v015-016-right-context-v1.jpg": {
+      "sha256": "b9a039ea59bf0ea8933670927b0e9354a6a3d2368c4e0997a7532a6505867402",
+      "bytes": 668229
+    },
+    "songofsongs-c005-v001-001-right-context-v1.jpg": {
+      "sha256": "fa5b48acb8ef92a04026affd94d9622521d213713e2328541218c9af9a219b91",
+      "bytes": 536499
+    },
+    "songofsongs-c005-v002-003-right-context-v1.jpg": {
+      "sha256": "04d962acd2d7ba7733ed5e2b106b8486ef7ffbc68575d3036530b80b28f8f008",
+      "bytes": 437397
+    },
+    "songofsongs-c005-v004-005-right-context-v1.jpg": {
+      "sha256": "dc6118ac1e220161e772d985430295018d85fdccb14be50053eeea444d72c12a",
+      "bytes": 433461
+    },
+    "songofsongs-c005-v006-006-right-context-v1.jpg": {
+      "sha256": "6630b403abe845d9b124c63a0e13d37c866a7f9a887ce52c7c36fd3ad1704887",
+      "bytes": 451969
+    },
+    "songofsongs-c005-v007-007-right-context-v1.jpg": {
+      "sha256": "8a40b28efaf09472bed27b0e3a99e760edc22177f93bcc23f366e08fb68b6e06",
+      "bytes": 487258
+    },
+    "songofsongs-c005-v008-009-right-context-v1.jpg": {
+      "sha256": "7182f7055a5d3631c638c1181ecf927e405a17f95e1e46127c0eb4f0e593078a",
+      "bytes": 569202
+    },
+    "songofsongs-c005-v010-012-right-context-v1.jpg": {
+      "sha256": "689ac9e76e2f67bcb39002369e63219b65d117655febe2c38fe0099c968da1dd",
+      "bytes": 525038
+    },
+    "songofsongs-c005-v013-015-right-context-v1.jpg": {
+      "sha256": "baf14ea5063597098d379ff935492b50c0ab43f1e00d4e301a6b7d83cdb8b8b6",
+      "bytes": 669113
+    },
+    "songofsongs-c005-v016-016-right-context-v1.jpg": {
+      "sha256": "f434bf01b5652179fae3e2a762f75beb7d97cc2240881f4d5e35b4cbe746bfe7",
+      "bytes": 583205
+    },
+    "songofsongs-c006-v001-001-right-context-v1.jpg": {
+      "sha256": "f721d73bd09456e6ddb0b9b37f70c33018e7c949e1d56c64a6e910edc7373bf5",
+      "bytes": 673366
+    },
+    "songofsongs-c006-v002-003-right-context-v1.jpg": {
+      "sha256": "fb604e41e0a737500711dfa309b71163675ef79622b3b1e95bbf125164abed14",
+      "bytes": 620111
+    },
+    "songofsongs-c006-v004-007-right-context-v1.jpg": {
+      "sha256": "67e6220ad8220fa1c3ba1eb98e9ec29e4b00cc98019aea0b8f60dadfe49db62a",
+      "bytes": 575885
+    },
+    "songofsongs-c006-v008-009-right-context-v1.jpg": {
+      "sha256": "19c5e5ac1170450801a110c22b00311535d72f36c61f85c487bfddc870079888",
+      "bytes": 631763
+    },
+    "songofsongs-c006-v010-010-right-context-v1.jpg": {
+      "sha256": "1e22bf8d5694985f7acba785eb9660be7f71e3e6c7add904c39790fdb6c5d556",
+      "bytes": 562541
+    },
+    "songofsongs-c006-v011-012-right-context-v1.jpg": {
+      "sha256": "a17835e2566a4b6054efc9cdd02ebbba01535807a175911414d8e3a4b6875614",
+      "bytes": 691197
+    },
+    "songofsongs-c006-v013-014-right-context-v1.jpg": {
+      "sha256": "0685ae68365cf9b86eccf3d2db1149b9ec3fbb8dd85bc677c06021f04101be53",
+      "bytes": 556120
+    },
+    "songofsongs-c007-v001-003-right-context-v1.jpg": {
+      "sha256": "dc48c923d0e1b72333c893f69f0bce1a7b7e3891b2ee5a9dae152d8d91f0c5c6",
+      "bytes": 682489
+    },
+    "songofsongs-c007-v004-005-right-context-v1.jpg": {
+      "sha256": "259b3d87caf15abf62bb75aed591dcb3a183014c10a236e94f62c5f9a2fff38c",
+      "bytes": 521286
+    },
+    "songofsongs-c007-v006-009-right-context-v1.jpg": {
+      "sha256": "f4ffb8421afe923abbd5788c2a75b814de51e3c3b65fdf211178de582bb9ccc7",
+      "bytes": 582236
+    },
+    "songofsongs-c007-v010-010-right-context-v1.jpg": {
+      "sha256": "a2e296a9debd6a2be8ac64437335c83d5c0cacd2b39831f636933cdf6e8a9a30",
+      "bytes": 559195
+    },
+    "songofsongs-c007-v011-012-right-context-v1.jpg": {
+      "sha256": "ae69e34b5cb2ebfcb34ff4017ec050a78c4b611e52dc62b0e1b9a2da4646f336",
+      "bytes": 633962
+    },
+    "songofsongs-c007-v013-013-right-context-v1.jpg": {
+      "sha256": "ee6687af7011be251f9bd3f4699b81e98e4de2bb11ab4c9f25acb98d65db5b14",
+      "bytes": 627733
+    },
+    "songofsongs-c008-v001-002-right-context-v1.jpg": {
+      "sha256": "fa4df538108c670308331cae9f5b6bbea1d8a30eeb89f94709c21d948eceb244",
+      "bytes": 632409
+    },
+    "songofsongs-c008-v003-004-right-context-v1.jpg": {
+      "sha256": "51236f86a19044f022f55ec967c5e3bd875a1633f6c894ba36a9d91611441bd8",
+      "bytes": 599465
+    },
+    "songofsongs-c008-v005-005-right-context-v1.jpg": {
+      "sha256": "4bf62b40f002b6ed2732470a3278072d23ec72046d31c633f6a32575e7433f3d",
+      "bytes": 636726
+    },
+    "songofsongs-c008-v006-006-right-context-v1.jpg": {
+      "sha256": "b647239d9ee1898971ce972e58f0ff360142b7cda06b6659bfcada1d032a11c8",
+      "bytes": 529457
+    },
+    "songofsongs-c008-v007-007-right-context-v1.jpg": {
+      "sha256": "2331deb811383c2b77dd1974280255c814fd3bb005fc6839d080db40afa3a463",
+      "bytes": 600961
+    },
+    "songofsongs-c008-v008-009-right-context-v1.jpg": {
+      "sha256": "ea354bf181e6ed8257bbff29933a3440ee42ce31680003132063df0e87ca13dc",
+      "bytes": 656246
+    },
+    "songofsongs-c008-v010-010-right-context-v1.jpg": {
+      "sha256": "18bd29e74a4c916f7980f05768695e5119f387d0b23f6958a1f5a29bf621151c",
+      "bytes": 592278
+    },
+    "songofsongs-c008-v011-012-right-context-props-v2.jpg": {
+      "sha256": "e7f830e9adba6eb4849b978efee856d5a2fb8a7273fd52dd8efc3c5f5b8ed0e2",
+      "bytes": 601570
+    },
+    "songofsongs-c008-v013-013-right-context-v1.jpg": {
+      "sha256": "365495232061a996653a01be5a8d053fc80e51965f1e4e9a628e4d9611cf3442",
+      "bytes": 565642
+    },
+    "songofsongs-c008-v014-014-right-context-v1.jpg": {
+      "sha256": "b9131282ad49da0f53baded93e4a855b498f6631bc5a47e2cbae446a8164076b",
+      "bytes": 617488
     }
   }
 }

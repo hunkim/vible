@@ -2,9 +2,9 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {createSearchIndex,findScripture,normalize,excerpt} from './scripture-search.js';
 import {applyTranslation} from './languages.js';
-const ids=['genesis',...(JSON.parse(await fs.readFile('pentateuch-books.json'))).map(b=>b.id),...(JSON.parse(await fs.readFile('historical-books.json'))).map(b=>b.id),'psalms','proverbs','matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
+const ids=['genesis',...(JSON.parse(await fs.readFile('pentateuch-books.json'))).map(b=>b.id),...(JSON.parse(await fs.readFile('historical-books.json'))).map(b=>b.id),'psalms','proverbs','songofsongs','matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
 const books=await Promise.all(ids.map(async id=>({id,data:JSON.parse(await fs.readFile(`data/${id}.json`))})));
-const index=createSearchIndex(books,'ko');assert.equal(index.books.length,41);assert.equal(index.verses.length,21583);
+const index=createSearchIndex(books,'ko');assert.equal(index.books.length,42);assert.equal(index.verses.length,21701);
 assert.equal(findScripture(index,'출 14:21').results[0].book,'exodus');
 assert.equal(findScripture(index,'레 19:18').results[0].book,'leviticus');
 assert.equal(findScripture(index,'민 6:24').results[0].book,'numbers');
@@ -24,7 +24,7 @@ const english=createSearchIndex([{id:'john',data:applyTranslation(books.find(b=>
 assert.equal(findScripture(english,'John 3:16').total,1);assert(findScripture(english,'love').total>0);assert.equal(findScripture(english,'사랑').total,0);assert.equal(findScripture(english,'창 1:1').total,0);
 assert(excerpt('x'.repeat(400)+'은혜'+'x'.repeat(400),'은혜').includes('은혜'));
 const unsafe=findScripture(index,'<script>');assert.equal(unsafe.total,0);
-console.log('Scripture search: all 41 books and 21583 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
+console.log('Scripture search: all 42 books and 21701 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
 
 // Run the actual search UI handlers, including uncommitted IME input.
 const {scriptureSearch}=await import('./search-ui.js');
@@ -62,3 +62,6 @@ try{
 console.log('Live search: composing input, focus preservation, latest query, empty input and mobile X collapse verified.');
 
 assert.equal(findScripture(index,'잠 3:5').results[0].book,'proverbs');
+assert.equal(findScripture(index,'아 8:6').results[0].book,'songofsongs');assert.equal(findScripture(index,'아가 2:1').results[0].book,'songofsongs');
+for(const [lang,query,word] of [['en','Song of Songs 8:7','waters'],['ja','雅歌 8:7','大水'],['zh','雅歌 8:7','大水']]){const song=createSearchIndex([{id:'songofsongs',data:applyTranslation(books.find(b=>b.id==='songofsongs').data,JSON.parse(await fs.readFile(`data/translations/${lang}/songofsongs.json`)),lang)}],lang);assert.equal(findScripture(song,query).results[0].verse,7,`${lang} reference`);assert(findScripture(song,word).total>0,`${lang} text`);}
+console.log('Song of Songs: Korean abbreviations and English/Japanese/Chinese translated reference and text search verified.');

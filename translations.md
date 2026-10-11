@@ -53,3 +53,7 @@ unavailable illustrations show the existing pending-art placeholder.
 ## Proverbs release (2026-10-11)
 
 All 35 published books now include Korean, English BSB (Public Domain), Japanese and simplified Chinese OpenCCB (2022, CC BY-SA 4.0) Scripture. Proverbs uses Japanese 1955 Colloquial OT. All 31 chapters and 915 Korean verse positions are preserved; Chinese Proverbs 26:18–19 remains a combined verse. Art is released independently as images become available.
+
+## Song of Songs release (2026-10-11)
+
+All 42 published books now include Korean, English, Japanese and simplified Chinese Scripture. Song of Songs (아가) uses Korean 개역한글 (1961), English BSB (Public Domain), Japanese 口語訳聖書（1955年版） from `https://www.ogccl.org/jcb/jcb_ot_22_sofs.htm` (retrieved 2026-10-11) and Chinese OpenCCB (2022, CC BY-SA 4.0) from the same verified 2026-10-09 eBible archives. All 8 chapters and 118 Korean verse positions are preserved. 개역한글 divides 6:13 into 6:13 and 6:14; BSB, the 1955 Colloquial and OpenCCB keep one verse 6:13, so those editions show it as a combined 6:13–14 without filling 6:14 from another text. OpenCCB's speaker labels (for example 男子：) are part of its verse text and are kept verbatim.

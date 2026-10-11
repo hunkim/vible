@@ -1,0 +1,1352 @@
+{
+  "book": "songofsongs",
+  "createdAt": "2026-10-11T10:43:03.192538+00:00",
+  "mode": "local-images-only",
+  "planned": 63,
+  "chapters": 8,
+  "versePositions": 118,
+  "images": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "startVerse": 1,
+      "endVerse": 1,
+      "title": "솔로몬의 아가",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "솔로몬의 아가라"
+        }
+      ],
+      "image": "songofsongs-c001-v001-001-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nPassage context: Song of Songs 1:1–1; 솔로몬의 아가.\nScene: An original older Levantine royal poet, about 55, sits in a sunlit cedar courtyard reflecting on a love song, a closed undecorated scroll beside him, garden beyond. Quiet joyful wisdom in his eyes. No legible writing.\nCamera and emotion: Oblique eye-level medium-wide, poet on right, foreground cedar column at edge.\n",
+      "referenceImages": []
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "startVerse": 2,
+      "endVerse": 4,
+      "title": "사랑의 기쁨",
+      "verses": [
+        {
+          "verse": 2,
+          "text": "내게 입맞추기를 원하니 네 사랑이 포도주보다 나음이로구나"
+        },
+        {
+          "verse": 3,
+          "text": "네 기름이 향기로워 아름답고 네 이름이 쏟은 향기름 같으므로 처녀들이 너를 사랑하는구나"
+        },
+        {
+          "verse": 4,
+          "text": "왕이 나를 침궁으로 이끌어 들이시니 너는 나를 인도하라 우리가 너를 따라 달려가리라 우리가 너를 인하여 기뻐하며 즐거워하니 네 사랑이 포도주에서 지남이라 처녀들이 너를 사랑함이 마땅하니라"
+        }
+      ],
+      "image": "songofsongs-c001-v002-004-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 1:2–4; 사랑의 기쁨.\nScene: The adult lovers meet in an airy ancient courtyard adjoining a private chamber. She gently touches his cheek, their foreheads nearly meeting, anticipation and restrained joy; two adult women friends rejoice in the far background. Clay cups and small perfume jar on a low table.\nCamera and emotion: Intimate eye-level three-quarter two-shot, faces readable, viewer just beside them.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "startVerse": 5,
+      "endVerse": 6,
+      "title": "햇볕 아래 아름다움",
+      "verses": [
+        {
+          "verse": 5,
+          "text": "예루살렘 여자들아 내가 비록 검으나 아름다우니 게달의 장막 같을지라도 솔로몬의 휘장과도 같구나"
+        },
+        {
+          "verse": 6,
+          "text": "내가 일광에 쬐어서 거무스름할지라도 흘겨보지 말 것은 내 어미의 아들들이 나를 노하여 포도원지기를 삼았음이라 나의 포도원은 내가 지키지 못하였구나"
+        }
+      ],
+      "image": "songofsongs-c001-v005-006-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 1:5–6; 햇볕 아래 아름다움.\nScene: The dark sun-browned woman stands after work in a vineyard, looking with vulnerable dignity toward two adult women who now listen respectfully. Earth on fingertips, woven basket nearby, warm light on natural skin. Show her beauty and fatigue without changing skin color or shaming her.\nCamera and emotion: Medium shot from listener shoulder height; restrained foreground shoulder at right edge, her expressive face on right.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "startVerse": 7,
+      "endVerse": 8,
+      "title": "양떼의 발자취",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "내 마음에 사랑하는 자야 너의 양떼 먹이는 곳과 오정에 쉬게 하는 곳을 내게 고하라 내가 네 동무 양떼 곁에서 어찌 얼굴을 가리운 자 같이 되랴"
+        },
+        {
+          "verse": 8,
+          "text": "여인 중에 어여쁜 자야 네가 알지 못하겠거든 양떼의 발자취를 따라 목자들의 장막 곁에서 너의 염소 새끼를 먹일지니라"
+        }
+      ],
+      "image": "songofsongs-c001-v007-008-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 1:7–8; 양떼의 발자취.\nScene: The woman asks a kindly adult shepherd where her beloved rests at midday. Young goats and sheep tracks lead toward shepherd tents under shade; her face searching, hopeful, attentive.\nCamera and emotion: Eye-level oblique medium-wide with her face and shepherd readable, sheep path receding left.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "startVerse": 9,
+      "endVerse": 11,
+      "title": "사랑의 아름다움",
+      "verses": [
+        {
+          "verse": 9,
+          "text": "내 사랑아 내가 너를 바로의 병거의 준마에 비하였구나"
+        },
+        {
+          "verse": 10,
+          "text": "네 두 뺨은 땋은 머리털로, 네 목은 구슬 꿰미로 아름답구나"
+        },
+        {
+          "verse": 11,
+          "text": "우리가 너를 위하여 금사슬을 은을 박아 만들리라"
+        }
+      ],
+      "image": "songofsongs-c001-v009-011-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 1:9–11; 사랑의 아름다움.\nScene: The man admires the woman with braided dark hair and a modest bead necklace; a skilled adult artisan offers a delicate silver-inlaid gold chain on a small cloth. A fine ancient horse stands naturally in distant courtyard as poetic association, no human-animal fusion.\nCamera and emotion: Close three-quarter two-shot; loving eyeline and small smile, unobtrusive necklace, hands natural.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "startVerse": 12,
+      "endVerse": 14,
+      "title": "향기와 엔게디",
+      "verses": [
+        {
+          "verse": 12,
+          "text": "왕이 상에 앉았을 때에 나의 나도 기름이 향기를 토하였구나"
+        },
+        {
+          "verse": 13,
+          "text": "나의 사랑하는 자는 내 품 가운데 몰약 향낭이요"
+        },
+        {
+          "verse": 14,
+          "text": "나의 사랑하는 자는 내게 엔게디 포도원의 고벨화 송이로구나"
+        }
+      ],
+      "image": "songofsongs-c001-v012-014-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 1:12–14; 향기와 엔게디.\nScene: The lovers sit at a low shaded garden table in an En Gedi-like oasis vineyard; a small opaque perfume jar, myrrh sachet and henna flowers nearby suggest fragrance. They exchange a private tender smile; palms and dry cliffs beyond.\nCamera and emotion: Oblique medium two-shot at seated eye level, table edge close, oasis depth.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "startVerse": 15,
+      "endVerse": 17,
+      "title": "푸른 쉼과 백향목",
+      "verses": [
+        {
+          "verse": 15,
+          "text": "내 사랑아 너는 어여쁘고 어여쁘다 네 눈이 비둘기 같구나"
+        },
+        {
+          "verse": 16,
+          "text": "나의 사랑하는 자야 너는 어여쁘고 화창하다 우리의 침상은 푸르고"
+        },
+        {
+          "verse": 17,
+          "text": "우리 집은 백향목 들보, 잣나무 석가래로구나"
+        }
+      ],
+      "image": "songofsongs-c001-v015-017-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 1:15–17; 푸른 쉼과 백향목.\nScene: The lovers sit fully clothed side by side on a green woven resting mat beneath cedar beams and cypress rafters, speaking warmly and admiring one another. A dove rests on a distant beam. Natural comfort and reciprocal delight.\nCamera and emotion: Low seated eye-level two-shot; close readable faces within airy wide shelter.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 8,
+      "chapter": 2,
+      "startVerse": 1,
+      "endVerse": 2,
+      "title": "가시 가운데 백합",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "나는 사론의 수선화요 골짜기의 백합화로구나"
+        },
+        {
+          "verse": 2,
+          "text": "여자들 중에 내 사랑은 가시나무 가운데 백합화 같구나"
+        }
+      ],
+      "image": "songofsongs-c002-v001-002-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 2:1–2; 가시 가운데 백합.\nScene: The woman pauses beside pale wild lilies growing among thorny shrubs in an ancient valley. The man watches her with quiet admiration from a few steps away. She is a real fully clothed person, flowers a natural poetic association.\nCamera and emotion: Eye-level medium-wide, angled face looking toward him off right, gentle near foliage.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 9,
+      "chapter": 2,
+      "startVerse": 3,
+      "endVerse": 3,
+      "title": "사과나무 그늘",
+      "verses": [
+        {
+          "verse": 3,
+          "text": "남자들 중에 나의 사랑하는 자는 수풀 가운데 사과나무 같구나 내가 그 그늘에 앉아서 심히 기뻐하였고 그 실과는 내 입에 달았구나"
+        }
+      ],
+      "image": "songofsongs-c002-v003-003-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 2:3–3; 사과나무 그늘.\nScene: The woman rests under a fruiting apple tree, tasting an apple slice with a small relieved smile, her beloved sitting nearby offering shade and company. Ancient orchard, soft dappled sun.\nCamera and emotion: Seated eye-level intimate two-shot, natural hands, face visible in three-quarter angle.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "startVerse": 4,
+      "endVerse": 7,
+      "title": "사랑의 기 아래 쉼",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "그가 나를 인도하여 잔치집에 들어갔으니 그 사랑이 내 위에 기로구나"
+        },
+        {
+          "verse": 5,
+          "text": "너희는 건포도로 내 힘을 돕고 사과로 나를 시원케 하라 내가 사랑하므로 병이 났음이니라"
+        },
+        {
+          "verse": 6,
+          "text": "그가 왼손으로 내 머리에 베게하고 오른손으로 나를 안는구나"
+        },
+        {
+          "verse": 7,
+          "text": "예루살렘 여자들아 내가 노루와 들사슴으로 너희에게 부탁한다 내 사랑이 원하기 전에는 흔들지 말고 깨우지 말지니라"
+        }
+      ],
+      "image": "songofsongs-c002-v004-007-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 2:4–7; 사랑의 기 아래 쉼.\nScene: An intimate joyful ancient banquet garden, the woman tired with overwhelming affection rests her head gently on the seated man’s supporting left arm while his right arm wraps her shoulders. Both fully clothed upright; two adult women friends quietly set raisins and apples nearby without disturbing them. A simple unmarked cloth canopy overhead.\nCamera and emotion: Seated eye-level medium two-shot, tender gaze and relaxed posture, no sexualized framing.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 11,
+      "chapter": 2,
+      "startVerse": 8,
+      "endVerse": 9,
+      "title": "산을 넘어 오는 사랑",
+      "verses": [
+        {
+          "verse": 8,
+          "text": "나의 사랑하는 자의 목소리로구나 보라 그가 산에서 달리고 작은 산을 빨리 넘어 오는구나"
+        },
+        {
+          "verse": 9,
+          "text": "나의 사랑하는 자는 노루와도 같고 어린 사슴과도 같아서 우리 벽 뒤에 서서 창으로 들여다 보며 창살 틈으로 엿보는구나"
+        }
+      ],
+      "image": "songofsongs-c002-v008-009-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 2:8–9; 산을 넘어 오는 사랑.\nScene: The man arrives swiftly along a mountain path and pauses outside a stone garden wall, smiling through a simple wooden lattice at the delighted woman inside. A distant gazelle on the hillside suggests nimbleness naturally.\nCamera and emotion: From inside garden at woman eye height, her near three-quarter face and his face through lattice both readable.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 12,
+      "chapter": 2,
+      "startVerse": 10,
+      "endVerse": 13,
+      "title": "일어나서 함께 가자",
+      "verses": [
+        {
+          "verse": 10,
+          "text": "나의 사랑하는 자가 내게 말하여 이르기를 나의 사랑 나의 어여쁜 자야 일어나서 함께 가자"
+        },
+        {
+          "verse": 11,
+          "text": "겨울도 지나고 비도 그쳤고"
+        },
+        {
+          "verse": 12,
+          "text": "지면에는 꽃이 피고 새의 노래할 때가 이르렀는데 반구의 소리가 우리 땅에 들리는구나"
+        },
+        {
+          "verse": 13,
+          "text": "무화과 나무에는 푸른 열매가 익었고 포도나무는 꽃이 피어 향기를 토하는구나 나의 사랑 나의 어여쁜 자야 일어나서 함께 가자"
+        }
+      ],
+      "image": "songofsongs-c002-v010-013-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene.\nAsset type: Vible Bible reader cinematic still, Song of Songs 2:10–13, original first image.\nPrimary request: a deeply immersive photorealistic live-action moment of \"Arise, my love, and come away\": winter has passed, flowers appear, the turtledove is heard, young figs and flowering vines bring spring fragrance. Capture tender invitation and the woman's dawning joy through nuanced human expression, not a posed beauty portrait.\nScene: an ancient Levant hillside vineyard after spring rain, authentic dry-stone terrace, flowering vines, small unripe figs, pale wildflowers and a turtledove resting naturally farther away. The path opens into a sunlit green valley and distant hills.\nSubjects: two original fictional unrelated adult Levantine lovers, both about 30. Woman warm olive-brown skin, dark wavy hair with wind-loosened strands, ivory woven linen dress and muted rose wrap; man warm brown skin, dark wavy hair, short beard, undyed linen tunic and soft indigo wrap. Fully clothed in modest authentic ancient garments, no contemporary grooming/glamour. Do not resemble movie actors or any real reference people.\nCamera: wide 16:9 landscape, immersive human-eye-height, moderately close three-quarter two-shot at an oblique angle rather than frontal symmetry; natural perspective of a 40mm lens. Viewer stands just beside them within the vineyard. Place faces in right half, woman about 66% width and man 82%; her face readable in three-quarter profile, not obscured, his gentle inviting gaze also visible. His open hand extends toward her, her hand just beginning to meet it, anatomically correct. Her eyes warm and slightly moist with relief, a restrained spontaneous smile, slight lift of brows, breath and posture shifting toward him; his expression patient, tender, quietly joyful. They look at each other, not at viewer. Keep left 40% a quiet low-detail sunlit valley for Scripture overlay, without text. Subtle near vine leaves at frame edge create depth, believable near-middle-far spatial layers, no giant decorative flowers. Include enough bodies and environment to feel a real place, faces and hands above bottom 18%.\nLight: bright luminous spring daylight with believable directional sun and soft open-sky fill, clear natural shadows, rich true greens, warm ivory highlights, readable skin texture and emotion. Cinematic physical presence: wind moving linen and hair, damp soil and worn stone, real pores and woven fiber, restrained fine film texture, natural optical depth. Emotional intimacy within an expansive real landscape. Color stays bright and welcoming.\nConstraints: original biblical setting; no Greek armor or movie scene reproduction; no painting/CGI/game look, no plastic wax skin, no artificial glow, no exaggerated smile or crying, no theatrical pose, no text, captions, logos, watermark, frame, black letterbox bars, no modern items, no glass vessels, no divine figures.\n",
+      "referenceImages": []
+    },
+    {
+      "id": 13,
+      "chapter": 2,
+      "startVerse": 14,
+      "endVerse": 14,
+      "title": "네 얼굴과 목소리",
+      "verses": [
+        {
+          "verse": 14,
+          "text": "바위 틈 낭떠러지 은밀한 속에 있는 나의 비둘기야 나로 네 얼굴을 보게 하라 네 소리를 듣게 하라 네 소리는 부드럽고 네 얼굴은 아름답구나"
+        }
+      ],
+      "image": "songofsongs-c002-v014-014-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 2:14–14; 네 얼굴과 목소리.\nScene: The woman speaks softly from the shelter of a rocky garden recess; her beloved listens a few steps away, visibly moved by her voice. A dove perches naturally farther along the cliff. Bright reflected daylight into shade, secure calm setting.\nCamera and emotion: Eye-level over man shoulder, woman three-quarter expressive face on right; shoulder only at extreme edge.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 14,
+      "chapter": 2,
+      "startVerse": 15,
+      "endVerse": 15,
+      "title": "포도원을 지키는 손길",
+      "verses": [
+        {
+          "verse": 15,
+          "text": "우리를 위하여 여우 곧 포도원을 허는 작은 여우를 잡으라 우리의 포도원에 꽃이 피었음이니라"
+        }
+      ],
+      "image": "songofsongs-c002-v015-015-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 2:15–15; 포도원을 지키는 손길.\nScene: The lovers work together repairing a small vineyard fence to protect flowering vines from two small foxes slipping past outside. Affectionate teamwork, concentration and brief amused eye contact, no animal injury.\nCamera and emotion: Kneeling eye-height medium-wide beside their hands; foxes small in background, quiet left vineyard.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 15,
+      "chapter": 2,
+      "startVerse": 16,
+      "endVerse": 17,
+      "title": "서로에게 속한 사랑",
+      "verses": [
+        {
+          "verse": 16,
+          "text": "나의 사랑하는 자는 내게 속하였고 나는 그에게 속하였구나 그가 백합화 가운데서 양떼를 먹이는구나"
+        },
+        {
+          "verse": 17,
+          "text": "나의 사랑하는 자야 날이 기울고 그림자가 갈 때에 돌아와서 베데르 산에서의 노루와 어린 사슴 같아여라"
+        }
+      ],
+      "image": "songofsongs-c002-v016-017-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 2:16–17; 서로에게 속한 사랑.\nScene: The adult couple stand close among lilies beside grazing sheep as daylight inclines, quietly clasping hands and looking toward a mountain path. A distant gazelle moves across hills. Mutual belonging and longing for return.\nCamera and emotion: Oblique eye-level medium-wide, connected hands and faces on right, soft late-day light.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 16,
+      "chapter": 3,
+      "startVerse": 1,
+      "endVerse": 1,
+      "title": "밤의 그리움",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "내가 밤에 침상에서 마음에 사랑하는 자를 찾았구나 찾아도 발견치 못하였구나"
+        }
+      ],
+      "image": "songofsongs-c003-v001-001-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 3:1–1; 밤의 그리움.\nScene: The woman sits fully clothed at the edge of her simple woven bed, awake and searching the empty doorway with longing and uncertainty. Moonlit ancient room and one open clay oil bowl with visible wick; empty space suggests absence.\nCamera and emotion: Close three-quarter eye-level face, luminous readable blue moonlight and soft wick fill; no black crush.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 17,
+      "chapter": 3,
+      "startVerse": 2,
+      "endVerse": 3,
+      "title": "거리에서 찾다",
+      "verses": [
+        {
+          "verse": 2,
+          "text": "이에 내가 일어나서 성중으로 돌아다니며 마음에 사랑하는 자를 거리에서나 큰 길에서나 찾으리라 하고 찾으나 만나지 못하였구나"
+        },
+        {
+          "verse": 3,
+          "text": "성중의 행순하는 자들을 만나서 묻기를 내 마음에 사랑하는 자를 너희가 보았느냐 하고"
+        }
+      ],
+      "image": "songofsongs-c003-v002-003-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 3:2–3; 거리에서 찾다.\nScene: The woman walks a moonlit ancient stone street and asks two ordinary adult watchmen whether they saw her beloved; their attentive faces and her urgent searching eyes remain clear. Wooden gates, open bowl lamps, no glass lanterns.\nCamera and emotion: Street-level medium-wide beside conversation, near stone edge, layered lane behind.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 18,
+      "chapter": 3,
+      "startVerse": 4,
+      "endVerse": 5,
+      "title": "찾아낸 기쁨",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "그들을 떠나자마자 마음에 사랑하는 자를 만나서 그를 붙잡고 내 어미 집으로, 나를 잉태한 자의 방으로 가기까지 놓지 아니하였노라"
+        },
+        {
+          "verse": 5,
+          "text": "예루살렘 여자들아 내가 노루와 들 사슴으로 너희에게 부탁한다 사랑하는 자가 원하기 전에는 흔들지 말고 깨우지 말지니라"
+        }
+      ],
+      "image": "songofsongs-c003-v004-005-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 3:4–5; 찾아낸 기쁨.\nScene: Having found him, the woman gently holds her beloved’s forearm and leans against his shoulder, relief in moist eyes and a tiny smile. They arrive at her mother’s simple stone home; her kindly adult mother welcomes them softly. Fully clothed, no bedroom sexuality.\nCamera and emotion: Eye-level intimate three-quarter reunion, one subtle foreground doorway edge, night light readable.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 19,
+      "chapter": 3,
+      "startVerse": 6,
+      "endVerse": 6,
+      "title": "향기로운 행렬",
+      "verses": [
+        {
+          "verse": 6,
+          "text": "연기 기둥과도 같고 몰약과 유향과 장사의 여러가지 향품으로 향기롭게도 하고 거친 들에서 오는 자가 누구인고"
+        }
+      ],
+      "image": "songofsongs-c003-v006-006-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nPassage context: Song of Songs 3:6–6; 향기로운 행렬.\nScene: An ancient royal procession emerges across a bright wilderness path, pale incense rising like a smoke column from bronze censers, distant travelers watching with wonder. Grounded scale, natural dust and warm sunlight.\nCamera and emotion: Human-height wide from roadside among spectators, close stone and fabric edge, procession recedes.\n",
+      "referenceImages": []
+    },
+    {
+      "id": 20,
+      "chapter": 3,
+      "startVerse": 7,
+      "endVerse": 8,
+      "title": "솔로몬의 연과 용사",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "이는 솔로몬의 연이라 이스라엘 용사 중 육십 인이 옹위하였는데"
+        },
+        {
+          "verse": 8,
+          "text": "다 칼을 잡고 싸움에 익숙한 사람들이라 밤의 두려움을 인하여 각기 허리에 칼을 찼느니라"
+        }
+      ],
+      "image": "songofsongs-c003-v007-008-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nPassage context: Song of Songs 3:7–8; 솔로몬의 연과 용사.\nScene: A wooden royal litter escorted by a disciplined large company of ancient Israelite guards, sword belts and modest bronze/leather period equipment; alert calm faces, no Greek or Roman armor. Protective escort along rugged road, royal occupant secondary.\nCamera and emotion: Eye-height oblique wide, nearest guard readable on right, procession depth and quiet left landscape.\n",
+      "referenceImages": []
+    },
+    {
+      "id": 21,
+      "chapter": 3,
+      "startVerse": 9,
+      "endVerse": 10,
+      "title": "레바논 나무의 연",
+      "verses": [
+        {
+          "verse": 9,
+          "text": "솔로몬 왕이 레바논 나무로 자기의 연을 만들었는데"
+        },
+        {
+          "verse": 10,
+          "text": "그 기둥은 은이요 바닥은 금이요 자리는 자색 담이라 그 안에는 예루살렘 여자들의 사랑이 입혔구나"
+        }
+      ],
+      "image": "songofsongs-c003-v009-010-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nPassage context: Song of Songs 3:9–10; 레바논 나무의 연.\nScene: Two adult craftspeople finish a royal cedar litter with silver posts, gold-toned floor and purple woven seat, admiring careful workmanship with dignified satisfaction. No giant throne or fantasy decoration.\nCamera and emotion: Medium-wide at artisan eye height, tactile wood joints and metal reflections, work on right.\n",
+      "referenceImages": []
+    },
+    {
+      "id": 22,
+      "chapter": 3,
+      "startVerse": 11,
+      "endVerse": 11,
+      "title": "혼인날의 기쁨",
+      "verses": [
+        {
+          "verse": 11,
+          "text": "시온의 여자들아 나와서 솔로몬 왕을 보라 혼인날 마음이 기쁠 때에 그 모친의 씌운 면류관이 그 머리에 있구나"
+        }
+      ],
+      "image": "songofsongs-c003-v011-011-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nPassage context: Song of Songs 3:11–11; 혼인날의 기쁨.\nScene: An original distinct older King Solomon smiles with restrained emotion as his aged mother places a modest gold crown on his head in a sunlit courtyard. Adult women witnesses smile warmly. All characters clearly adult, no resemblance to the lovers.\nCamera and emotion: Eye-height close-medium ceremony, crown placement hands and faces natural, court depth.\n",
+      "referenceImages": []
+    },
+    {
+      "id": 23,
+      "chapter": 4,
+      "startVerse": 1,
+      "endVerse": 3,
+      "title": "너울 속의 눈",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "내 사랑 너는 어여쁘고도 어여쁘다 너울 속에 있는 네 눈이 비둘기 같고 네 머리털은 길르앗 산 기슭에 누운 무리 염소 같구나"
+        },
+        {
+          "verse": 2,
+          "text": "네 이는 목욕장에서 나온 털 깎인 암양 곧 새끼 없는 것은 하나도 없이 각각 쌍태를 낳은 양 같구나"
+        },
+        {
+          "verse": 3,
+          "text": "네 입술은 홍색 실 같고 네 입은 어여쁘고 너울 속의 네 뺨은 석류 한 쪽 같구나"
+        }
+      ],
+      "image": "songofsongs-c004-v001-003-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 4:1–3; 너울 속의 눈.\nScene: The woman in a light ancient linen head veil gazes affectionately toward her beloved, with softly braided dark hair, a natural smile and healthy cheeks. Distant sheep and goats on hills, pomegranate on low wall serve subtle poetic associations. No animal facial features.\nCamera and emotion: Close eye-level three-quarter portrait with beloved shoulder soft at extreme right; eyes fully visible.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 24,
+      "chapter": 4,
+      "startVerse": 4,
+      "endVerse": 4,
+      "title": "망대 같은 품위",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "네 목은 군기를 두려고 건축한 다윗의 망대 곧 일천 방패, 용사의 모든 방패가 달린 망대 같고"
+        }
+      ],
+      "image": "songofsongs-c004-v004-004-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 4:4–4; 망대 같은 품위.\nScene: The woman stands with dignified upright posture beside an ancient stone tower displaying a few shields. Her beloved admires her strength and poise. Focus her face and bearing, not body parts.\nCamera and emotion: Slight low-angle medium-wide from natural waist-height, dignified not superhero, tower recedes.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 25,
+      "chapter": 4,
+      "startVerse": 5,
+      "endVerse": 5,
+      "title": "백합화 가운데 노루",
+      "verses": [
+        {
+          "verse": 5,
+          "text": "네 두 유방은 백합화 가운데서 꼴을 먹는 쌍태 노루 새끼 같구나"
+        }
+      ],
+      "image": "songofsongs-c004-v005-005-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 4:5–5; 백합화 가운데 노루.\nScene: Two young gazelles graze naturally among wild lilies in a luminous valley, watched quietly from afar by the fully clothed adult woman. Interpret the poetic metaphor through landscape, not anatomy or erotic body focus.\nCamera and emotion: Low natural meadow-level wide, gazelles right, woman small and dignified behind.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 26,
+      "chapter": 4,
+      "startVerse": 6,
+      "endVerse": 7,
+      "title": "아무 흠 없는 사랑",
+      "verses": [
+        {
+          "verse": 6,
+          "text": "날이 기울고 그림자가 갈 때에 내가 몰약 산과 유향의 작은 산으로 가리라"
+        },
+        {
+          "verse": 7,
+          "text": "나의 사랑 너는 순전히 어여뻐서 아무 흠이 없구나"
+        }
+      ],
+      "image": "songofsongs-c004-v006-007-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 4:6–7; 아무 흠 없는 사랑.\nScene: The man and woman pause on a fragrant hillside with resin-bearing shrubs at late afternoon. He regards her with sincere gentle admiration, she lowers then lifts her eyes, feeling accepted and loved.\nCamera and emotion: Intimate eye-level oblique two-shot, faces warm in bright late-day sun, hills behind.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 27,
+      "chapter": 4,
+      "startVerse": 8,
+      "endVerse": 8,
+      "title": "레바논에서 함께 가자",
+      "verses": [
+        {
+          "verse": 8,
+          "text": "나의 신부야 너는 레바논에서부터 나와 함께 하고 레바논에서부터 나와 함께 가자 아마나와 스닐과 헤르몬 꼭대기에서 사자 굴과 표범 산에서 내려다보아라"
+        }
+      ],
+      "image": "songofsongs-c004-v008-008-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 4:8–8; 레바논에서 함께 가자.\nScene: The couple descend a safe mountain path beneath distant cedar-covered Lebanon ridges and high peaks, he offers a steadying hand, she looks at him with trust. Wild rocky country spacious and real, no dangerous animal encounter.\nCamera and emotion: Human-height side angle medium-wide, forward movement, near rock edge, high peaks recede.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 28,
+      "chapter": 4,
+      "startVerse": 9,
+      "endVerse": 11,
+      "title": "한 번의 눈길",
+      "verses": [
+        {
+          "verse": 9,
+          "text": "나의 누이, 나의 신부야 네가 내 마음을 빼앗았구나 네 눈으로 한번 보는 것과 네 목의 구슬 한 꿰미로 내 마음을 빼앗았구나"
+        },
+        {
+          "verse": 10,
+          "text": "나의 누이, 나의 신부야 네 사랑이 어찌 그리 아름다운지 네 사랑은 포도주에 지나고 네 기름의 향기는 각양 향품보다 승하구나"
+        },
+        {
+          "verse": 11,
+          "text": "내 신부야 네 입술에서는 꿀 방울이 떨어지고 네 혀 밑에는 꿀과 젖이 있고 네 의복의 향기는 레바논의 향기 같구나"
+        }
+      ],
+      "image": "songofsongs-c004-v009-011-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 4:9–11; 한 번의 눈길.\nScene: The woman turns a gentle unexpected glance toward her beloved, a modest necklace catching light; he visibly pauses, breath caught, softened eyes and slight smile. Aromatic cedar courtyard with tiny perfume jar and clay bowl of honey nearby. They are unrelated adult lovers; poetic sister language is endearment, not kinship.\nCamera and emotion: Close-medium oblique two-shot across a small gap, focus on eye contact, no dramatic grimace.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 29,
+      "chapter": 4,
+      "startVerse": 12,
+      "endVerse": 12,
+      "title": "잠근 동산",
+      "verses": [
+        {
+          "verse": 12,
+          "text": "나의 누이, 나의 신부는 잠근 동산이요 덮은 우물이요 봉한 샘이로구나"
+        }
+      ],
+      "image": "songofsongs-c004-v012-012-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 4:12–12; 잠근 동산.\nScene: The woman stands inside a quiet enclosed ancient garden, carefully opening a cedar gate while her beloved waits respectfully outside. A covered stone well and sealed water jar visible. Tender trust and protected dignity.\nCamera and emotion: Eye-level over gate edge, her expression and his waiting face visible; layered walled garden.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 30,
+      "chapter": 4,
+      "startVerse": 13,
+      "endVerse": 14,
+      "title": "향기로운 동산",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "네게서 나는 것은 석류나무와 각종 아름다운 과수와 고벨화와 나도초와"
+        },
+        {
+          "verse": 14,
+          "text": "나도와 번홍화와 창포와 계수와 각종 유향목과 몰약과 침향과 모든 귀한 향품이요"
+        }
+      ],
+      "image": "songofsongs-c004-v013-014-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 4:13–14; 향기로운 동산.\nScene: The lovers stroll through a lush but believable cultivated garden of pomegranate, henna and aromatic herbs, pausing to smell a small sprig. Wonder and delight in subtle faces, no magical glow.\nCamera and emotion: Oblique eye-level medium-wide, foreground leaves and herb bed, faces on right.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 31,
+      "chapter": 4,
+      "startVerse": 15,
+      "endVerse": 16,
+      "title": "바람과 생수",
+      "verses": [
+        {
+          "verse": 15,
+          "text": "너는 동산의 샘이요 생수의 우물이요 레바논에서부터 흐르는 시내로구나"
+        },
+        {
+          "verse": 16,
+          "text": "북풍아 일어나라 남풍아 오라 나의 동산에 불어서 향기를 날리라 나의 사랑하는 자가 그 동산에 들어가서 그 아름다운 실과 먹기를 원하노라"
+        }
+      ],
+      "image": "songofsongs-c004-v015-016-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 4:15–16; 바람과 생수.\nScene: The woman welcomes her beloved into a spring-fed garden as fresh wind stirs linen and herbs; clear water runs through an ancient stone channel. She opens her hand toward the ripening fruit with joyful invitation.\nCamera and emotion: Eye-level three-quarter two-shot with near water channel, layered garden, bright clear light.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 32,
+      "chapter": 5,
+      "startVerse": 1,
+      "endVerse": 1,
+      "title": "동산의 잔치",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "나의 누이, 나의 신부야 내가 내 동산에 들어와서 나의 몰약과 향재료를 거두고 나의 꿀송이와 꿀을 먹고 내 포도주와 내 젖을 마셨으니 나의 친구들아 먹으라 나의 사랑하는 사람들아 마시고 많이 마시라"
+        }
+      ],
+      "image": "songofsongs-c005-v001-001-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 5:1–1; 동산의 잔치.\nScene: The adult lovers share a joyful garden meal with adult friends; clay bowls hold honeycomb and fruit, opaque earthen cups for milk and wine. Warm laughter and attentive friendship, restrained candid faces.\nCamera and emotion: Seated eye-level medium-wide among table company, textured food and linen, no glass.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 33,
+      "chapter": 5,
+      "startVerse": 2,
+      "endVerse": 3,
+      "title": "밤의 문 두드림",
+      "verses": [
+        {
+          "verse": 2,
+          "text": "내가 잘지라도 마음은 깨었는데 나의 사랑하는 자의 소리가 들리는구나 문을 두드려 이르기를 나의 누이, 나의 사랑, 나의 비둘기, 나의 완전한 자야 문 열어 다고 내 머리에는 이슬이, 내 머리털에는 밤 이슬이 가득하였다 하는구나"
+        },
+        {
+          "verse": 3,
+          "text": "내가 옷을 벗었으니 어찌 다시 입겠으며 내가 발을 씻었으니 어찌 다시 더럽히랴마는"
+        }
+      ],
+      "image": "songofsongs-c005-v002-003-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 5:2–3; 밤의 문 두드림.\nScene: The woman fully dressed in an opaque simple linen night robe pauses inside an ancient chamber hearing a knock; through the doorway gap the fully dressed man’s dew-damp hair is visible outside. Her expression shifts from sleepy hesitation toward concern and yearning.\nCamera and emotion: Eye-level interior oblique medium shot, readable woman face and distant man; moonlight and open wick lamp.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 34,
+      "chapter": 5,
+      "startVerse": 4,
+      "endVerse": 5,
+      "title": "문빗장에 맺힌 몰약",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "나의 사랑하는 자가 문틈으로 손을 들이밀매 내 마음이 동하여서"
+        },
+        {
+          "verse": 5,
+          "text": "일어나서 나의 사랑하는 자 위하여 문을 열 때 몰약이 내 손에서, 몰약의 즙이 내 손가락에서 문빗장에 듣는구나"
+        }
+      ],
+      "image": "songofsongs-c005-v004-005-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 5:4–5; 문빗장에 맺힌 몰약.\nScene: The woman reaches to open an ancient wooden door latch, tiny resin oil traces on her fingertips; his hand was just reaching through a simple latch opening and is now withdrawing. Her face carries sudden hope and urgency, anatomically natural hands.\nCamera and emotion: Close-medium at her eye height, door latch foreground but face clearly visible; gentle night lighting.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 35,
+      "chapter": 5,
+      "startVerse": 6,
+      "endVerse": 6,
+      "title": "비어 있는 문 밖",
+      "verses": [
+        {
+          "verse": 6,
+          "text": "내가 나의 사랑하는 자 위하여 문을 열었으나 그가 벌써 물러갔네 그가 말할 때에 내 혼이 나갔구나 내가 그를 찾아도 못 만났고 불러도 응답이 없었구나"
+        }
+      ],
+      "image": "songofsongs-c005-v006-006-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 5:6–6; 비어 있는 문 밖.\nScene: She opens the door onto an empty moonlit street, holding the wooden frame with one hand, expression of disappointment and longing as she calls softly. Fully clothed, clear eyes, no exaggerated sobbing.\nCamera and emotion: Eye-level three-quarter close-medium from just outside doorway, quiet empty left street.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 36,
+      "chapter": 5,
+      "startVerse": 7,
+      "endVerse": 7,
+      "title": "상처와 외로움",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "성중에서 행순하는 자들이 나를 만나매 나를 쳐서 상하게 하였고 성벽을 파수하는 자들이 나의 웃옷을 벗겨 취하였구나"
+        }
+      ],
+      "image": "songofsongs-c005-v007-007-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 5:7–7; 상처와 외로움.\nScene: After mistreatment by city watchmen, the woman sits fully clothed in an opaque long linen robe beside a stone wall, shaken and bruised only subtly, clutching cloth close; distant watchmen carry away her outer shawl. No active attack, nudity, sexual content, blood or graphic injury. Show grief and injustice with dignity, not spectacle.\nCamera and emotion: Eye-level close-medium beside her, soft moonlight readable eyes, distant secondary figures.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 37,
+      "chapter": 5,
+      "startVerse": 8,
+      "endVerse": 9,
+      "title": "사랑을 전해 다오",
+      "verses": [
+        {
+          "verse": 8,
+          "text": "예루살렘 여자들아 너희에게 내가 부탁한다 너희가 나의 사랑하는 자를 만나거든 내가 사랑하므로 병이 났다고 하려무나"
+        },
+        {
+          "verse": 9,
+          "text": "여자 중 극히 어여쁜 자야 너의 사랑하는 자가 남의 사랑하는 자보다 나은 것이 무엇인가 너의 사랑하는 자가 남의 사랑하는 자보다 나은 것이 무엇이기에 이같이 우리에게 부탁하는가"
+        }
+      ],
+      "image": "songofsongs-c005-v008-009-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 5:8–9; 사랑을 전해 다오.\nScene: At early dawn the distressed woman speaks to two compassionate adult women friends, asking them to find her beloved. They listen and one gently supports her forearm. Longing meets solidarity, fully clothed.\nCamera and emotion: Eye-level oblique close group, faces and hands visible, warm dawn stone street.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 38,
+      "chapter": 5,
+      "startVerse": 10,
+      "endVerse": 12,
+      "title": "기억 속의 사랑하는 얼굴",
+      "verses": [
+        {
+          "verse": 10,
+          "text": "나의 사랑하는 자는 희고도 붉어 만 사람에 뛰어난다"
+        },
+        {
+          "verse": 11,
+          "text": "머리는 정금 같고 머리털은 고불고불하고 까마귀 같이 검구나"
+        },
+        {
+          "verse": 12,
+          "text": "눈은 시냇가의 비둘기 같은데 젖으로 씻은 듯하고 아름답게도 박혔구나"
+        }
+      ],
+      "image": "songofsongs-c005-v010-012-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 5:10–12; 기억 속의 사랑하는 얼굴.\nScene: The beloved man pauses beside a clear stream, dark curls and gentle luminous eyes, healthy warm skin. A dove rests on a nearby rock; portrait as her affectionate remembered impression, no gold skin or symbolic animal eyes.\nCamera and emotion: Close eye-level three-quarter portrait, off-camera tender gaze, natural sunlight and stream depth.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 39,
+      "chapter": 5,
+      "startVerse": 13,
+      "endVerse": 15,
+      "title": "향기와 백향목 같은 품위",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "뺨은 향기로운 꽃밭 같고 향기로운 풀언덕과도 같고 입술은 백합화 같고 몰약의 즙이 뚝뚝 떨어진다"
+        },
+        {
+          "verse": 14,
+          "text": "손은 황옥을 물린 황금 노리개 같고 몸은 아로새긴 상아에 청옥을 입힌듯 하구나"
+        },
+        {
+          "verse": 15,
+          "text": "다리는 정금 받침에 세운 화반석 기둥 같고 형상은 레바논 같고 백향목처럼 보기 좋고"
+        }
+      ],
+      "image": "songofsongs-c005-v013-015-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 5:13–15; 향기와 백향목 같은 품위.\nScene: The fully clothed man tends fragrant plants near an ancient courtyard, a cedar grove beyond. Kind expression, strong yet unposed posture, natural hands. Poetic beauty conveyed through aromatic garden and upright cedar, not metal or gemstone body.\nCamera and emotion: Eye-level medium-wide oblique candid, face and working hands on right, real fabrics.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 40,
+      "chapter": 5,
+      "startVerse": 16,
+      "endVerse": 16,
+      "title": "사랑하는 자요 친구",
+      "verses": [
+        {
+          "verse": 16,
+          "text": "입은 심히 다니 그 전체가 사랑스럽구나 예루살렘 여자들아 이는 나의 사랑하는 자요 나의 친구일다"
+        }
+      ],
+      "image": "songofsongs-c005-v016-016-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 5:16–16; 사랑하는 자요 친구.\nScene: The couple converse under cedar shade, he smiles quietly as she listens with warmth and deep affection. Ordinary friendship and love, a tiny shared laugh, no staged glamour.\nCamera and emotion: Close eye-level oblique two-shot with shoulder depth, faces in right half, bright soft shade.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 41,
+      "chapter": 6,
+      "startVerse": 1,
+      "endVerse": 1,
+      "title": "함께 찾으리라",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "여자 중 극히 어여쁜 자야 너의 사랑하는 자가 어디로 갔는가 너의 사랑하는 자가 어디로 돌이켰는가 우리가 너와 함께 찾으리라"
+        }
+      ],
+      "image": "songofsongs-c006-v001-001-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 6:1–1; 함께 찾으리라.\nScene: Two adult women friends accompany the woman along a garden path, one points toward the flowering valley and the other listens; her face begins to brighten with hope.\nCamera and emotion: Eye-level medium-wide beside walking group, overlapping natural figures and path depth.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 42,
+      "chapter": 6,
+      "startVerse": 2,
+      "endVerse": 3,
+      "title": "동산에서 만나다",
+      "verses": [
+        {
+          "verse": 2,
+          "text": "나의 사랑하는 자가 자기 동산으로 내려가 향기로운 꽃밭에 이르러서 동산 가운데서 양떼를 먹이며 백합화를 꺾는구나"
+        },
+        {
+          "verse": 3,
+          "text": "나는 나의 사랑하는 자에게 속하였고 나의 사랑하는 자는 내게 속하였다 그가 백합화 가운데서 그 양떼를 먹이는구나"
+        }
+      ],
+      "image": "songofsongs-c006-v002-003-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 6:2–3; 동산에서 만나다.\nScene: The woman finds her beloved among lilies and a small sheep flock in a quiet garden meadow; they recognize one another with soft relief, hands meeting naturally.\nCamera and emotion: Eye-level three-quarter medium two-shot, mutual gaze and restrained smiles, layered pasture.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 43,
+      "chapter": 6,
+      "startVerse": 4,
+      "endVerse": 7,
+      "title": "아름다움과 위엄",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "내 사랑아 너의 어여쁨이 디르사 같고 너의 고움이 예루살렘 같고 엄위함이 기치를 벌인 군대 같구나"
+        },
+        {
+          "verse": 5,
+          "text": "네 눈이 나를 놀래니 돌이켜 나를 보지 말라 네 머리털은 길르앗 산 기슭에 누운 염소떼 같고"
+        },
+        {
+          "verse": 6,
+          "text": "네 이는 목욕장에서 나온 암양떼 곧 새끼 없는 것은 하나도 없이 각각 쌍태를 낳은 양 같고"
+        },
+        {
+          "verse": 7,
+          "text": "너울 속의 너의 뺨은 석류 한 쪽 같구나"
+        }
+      ],
+      "image": "songofsongs-c006-v004-007-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 6:4–7; 아름다움과 위엄.\nScene: The woman’s strong yet tender gaze makes the man pause in admiration near an ancient city garden; distant walls and ordered standards suggest dignity, a few sheep farther away. Veil open enough for face, no animal metaphor on body.\nCamera and emotion: Close-medium eye-level angled two-shot, eyelines readable, city and standards secondary.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 44,
+      "chapter": 6,
+      "startVerse": 8,
+      "endVerse": 9,
+      "title": "하나뿐인 사랑",
+      "verses": [
+        {
+          "verse": 8,
+          "text": "왕후가 육십이요 비빈이 팔십이요 시녀가 무수하되"
+        },
+        {
+          "verse": 9,
+          "text": "나의 비둘기, 나의 완전한 자는 하나뿐이로구나 그는 그 어미의 외딸이요 그 낳은 자의 귀중히 여기는 자로구나 여자들이 그를 보고 복된 자라 하고 왕후와 비빈들도 그를 칭찬하는구나"
+        }
+      ],
+      "image": "songofsongs-c006-v008-009-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 6:8–9; 하나뿐인 사랑.\nScene: In a dignified ancient courtyard several distinct adult women of royal household speak warmly of the woman, her older mother looks proud and affectionate, the beloved stands nearby smiling. She remains a modest real person, no sexual harem staging.\nCamera and emotion: Eye-level candid medium-wide with expressive adult faces, original woman on right, gentle daylight.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 45,
+      "chapter": 6,
+      "startVerse": 10,
+      "endVerse": 10,
+      "title": "아침빛 같은 여인",
+      "verses": [
+        {
+          "verse": 10,
+          "text": "아침빛 같이 뚜렷하고 달 같이 아름답고 해 같이 맑고 기치를 벌인 군대 같이 엄위한 여자가 누구인가"
+        }
+      ],
+      "image": "songofsongs-c006-v010-010-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 6:10–10; 아침빛 같은 여인.\nScene: The woman emerges along an ancient hillside path in fresh clear dawn light, serene and confident, distant unmarked standards and bright pale sky behind. Human dignity and quiet beauty, no halo or celestial fusion.\nCamera and emotion: Slight natural low-angle medium portrait, full face warm readable, generous landscape left.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 46,
+      "chapter": 6,
+      "startVerse": 11,
+      "endVerse": 12,
+      "title": "호도 동산과 수레",
+      "verses": [
+        {
+          "verse": 11,
+          "text": "골짜기의 푸른 초목을 보려고 포도나무가 순이 났는가 석류나무가 꽃이 피었는가 알려고 내가 호도 동산으로 내려갔을 때에"
+        },
+        {
+          "verse": 12,
+          "text": "부지 중에 내 마음이 나로 내 귀한 백성의 수레 가운데 이르게 하였구나"
+        }
+      ],
+      "image": "songofsongs-c006-v011-012-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 6:11–12; 호도 동산과 수레.\nScene: The woman explores a walnut orchard with fresh grape shoots and pomegranate blossoms; surprised and delighted she notices ordinary wooden horse-drawn carts of her people waiting at the garden boundary.\nCamera and emotion: Eye-level oblique medium-wide, nuanced surprise, trees and carts naturally layered.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 47,
+      "chapter": 6,
+      "startVerse": 13,
+      "endVerse": 14,
+      "title": "돌아오라 술람미",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "돌아오고 돌아오라 술람미 여자야 돌아오고 돌아오라 우리로 너를 보게 하라"
+        },
+        {
+          "verse": 14,
+          "text": "너희가 어찌하여 마하나임의 춤추는 것을 보는 것처럼 술람미 여자를 보려느냐"
+        }
+      ],
+      "image": "songofsongs-c006-v013-014-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 6:13–14; 돌아오라 술람미.\nScene: The adult woman turns back toward adult friends calling to her during a modest joyful courtyard circle dance, flowing opaque linen and natural foot movement. Two small facing groups, mutual delighted faces. No erotic dance or audience objectification.\nCamera and emotion: Human-height candid oblique medium-wide from beside group, turning face clear, natural movement.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 48,
+      "chapter": 7,
+      "startVerse": 1,
+      "endVerse": 3,
+      "title": "장색의 아름다움",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "귀한 자의 딸아 신을 신은 네 발이 어찌 그리 아름다운가 네 넓적다리는 둥글어서 공교한 장색의 만든 구슬 꿰미 같구나"
+        },
+        {
+          "verse": 2,
+          "text": "배꼽은 섞은 포도주를 가득히 부은 둥근 잔 같고 허리는 백합화로 두른 밀단 같구나"
+        },
+        {
+          "verse": 3,
+          "text": "두 유방은 암사슴의 쌍태 새끼 같고"
+        }
+      ],
+      "image": "songofsongs-c007-v001-003-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 7:1–3; 장색의 아름다움.\nScene: A fully clothed dignified adult woman moves gracefully through a harvest garden, ordinary ancient sandals visible naturally at ground level. Wheat sheaves, lilies and two small gazelles in distant meadow evoke poetic artistry. No sexualized framing, nudity, body-part closeups or human-animal fusion.\nCamera and emotion: Eye-level full-figure medium-wide, face and graceful movement lead; landscape metaphors secondary.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 49,
+      "chapter": 7,
+      "startVerse": 4,
+      "endVerse": 5,
+      "title": "못처럼 깊은 눈",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "목은 상아 망대 같구나 눈은 헤스본 바드랍빔 문 곁의 못 같고 코는 다메섹을 향한 레바논 망대 같구나"
+        },
+        {
+          "verse": 5,
+          "text": "머리는 갈멜산 같고 드리운 머리털은 자주 빛이 있으니 왕이 그 머리카락에 매이었구나"
+        }
+      ],
+      "image": "songofsongs-c007-v004-005-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 7:4–5; 못처럼 깊은 눈.\nScene: Close view of the woman looking quietly toward her beloved near calm reflecting pools by an ancient stone gate, modest purple woven hair ribbon, distant Carmel-like ridge. Natural eyes and graceful posture, no ivory skin or tower anatomy.\nCamera and emotion: Eye-level three-quarter close-medium, eyes expressive, pools and ridge softly recede.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 50,
+      "chapter": 7,
+      "startVerse": 6,
+      "endVerse": 9,
+      "title": "기쁨과 아름다움",
+      "verses": [
+        {
+          "verse": 6,
+          "text": "사랑아 네가 어찌 그리 아름다운지, 어찌 그리 화창한지 쾌락하게 하는구나"
+        },
+        {
+          "verse": 7,
+          "text": "네 키는 종려나무 같고 네 유방은 그 열매 송이 같구나"
+        },
+        {
+          "verse": 8,
+          "text": "내가 말하기를 종려나무에 올라가서 그 가지를 잡으리라 하였나니 네 유방은 포도송이 같고 네 콧김은 사과 냄새 같고"
+        },
+        {
+          "verse": 9,
+          "text": "네 입은 좋은 포도주 같을 것이니라 이 포도주는 나의 사랑하는 자를 위하여 미끄럽게 흘러 내려서 자는 자의 입으로 움직이게 하느니라"
+        }
+      ],
+      "image": "songofsongs-c007-v006-009-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 7:6–9; 기쁨과 아름다움.\nScene: The fully clothed lovers share fruit and gentle conversation beneath a date palm in an ancient orchard, ripe grapes and apples on a plain clay dish. Affectionate warmth and delighted mutual gaze, no sexual act or body-part focus.\nCamera and emotion: Seated eye-level intimate medium two-shot, spontaneous small smiles, palms and shade depth.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 51,
+      "chapter": 7,
+      "startVerse": 10,
+      "endVerse": 10,
+      "title": "서로를 사모하다",
+      "verses": [
+        {
+          "verse": 10,
+          "text": "나는 나의 사랑하는 자에게 속하였구나 그가 나를 사모하는구나"
+        }
+      ],
+      "image": "songofsongs-c007-v010-010-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 7:10–10; 서로를 사모하다.\nScene: The adult couple hold hands near a quiet stone terrace, her face glows with assurance of being loved and his gaze is tender and attentive. Mutual belonging and respect.\nCamera and emotion: Close-medium oblique eye-level two-shot, neither looking at camera, hands natural.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 52,
+      "chapter": 7,
+      "startVerse": 11,
+      "endVerse": 12,
+      "title": "이른 아침 포도원",
+      "verses": [
+        {
+          "verse": 11,
+          "text": "나의 사랑하는 자야 우리가 함께 들로 가서 동네에서 유숙하자"
+        },
+        {
+          "verse": 12,
+          "text": "우리가 일찍이 일어나서 포도원으로 가서 포도 움이 돋았는지 꽃술이 퍼졌는지 석류꽃이 피었는지 보자 거기서 내가 나의 사랑을 네게 주리라"
+        }
+      ],
+      "image": "songofsongs-c007-v011-012-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 7:11–12; 이른 아침 포도원.\nScene: The woman leads her beloved into the fields at dawn, gesturing toward new vine buds and pomegranate blossom; he follows eagerly, both smiling with shared anticipation. A modest village beyond.\nCamera and emotion: Eye-level beside walking pair, woman glances back, dynamic but gentle near-mid-far landscape.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 53,
+      "chapter": 7,
+      "startVerse": 13,
+      "endVerse": 13,
+      "title": "너를 위해 쌓은 열매",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "합환채가 향기를 토하고 우리의 문 앞에는 각양 귀한 실과가 새 것, 묵은 것이 구비하였구나 내가 나의 사랑하는 자 너를 위하여 쌓아둔 것이로구나"
+        }
+      ],
+      "image": "songofsongs-c007-v013-013-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 7:13–13; 너를 위해 쌓은 열매.\nScene: The woman warmly offers her beloved a basket at their simple doorway, fresh and dried fruits in opaque earthen bowls, flowering herbs nearby. Her expression thoughtful and giving, his grateful delight.\nCamera and emotion: Eye-level medium oblique two-shot, natural basket hands, tactile stone and woven fibers.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 54,
+      "chapter": 8,
+      "startVerse": 1,
+      "endVerse": 2,
+      "title": "어미 집으로 이끌다",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "네가 내 어미의 젖을 먹은 오라비 같았었더면 내가 밖에서 너를 만날 때에 입을 맞추어도 나를 업신여길 자가 없었을 것이라"
+        },
+        {
+          "verse": 2,
+          "text": "내가 너를 이끌어 내 어미 집에 들이고 네게서 교훈을 받았으리라 나는 향기로운 술 곧 석류즙으로 네게 마시웠겠고"
+        }
+      ],
+      "image": "songofsongs-c008-v001-002-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 8:1–2; 어미 집으로 이끌다.\nScene: The unrelated adult lovers approach her mother’s welcoming stone house, she holds his hand with affectionate confidence and her aged mother offers a plain clay cup of pomegranate drink. Public tenderness and family welcome. Poetic wish for sibling-like social freedom is NOT literal sibling romance.\nCamera and emotion: Human-height oblique medium-wide, three readable adult faces, warm bright courtyard.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 55,
+      "chapter": 8,
+      "startVerse": 3,
+      "endVerse": 4,
+      "title": "조용히 품어 주다",
+      "verses": [
+        {
+          "verse": 3,
+          "text": "너는 왼손으론 내 머리에 베개하고 오른손으론 나를 안았었으리라"
+        },
+        {
+          "verse": 4,
+          "text": "예루살렘 여자들아 내가 너희에게 부탁한다 나의 사랑하는 자가 원하기 전에는 흔들지 말며 깨우지 말지니라"
+        }
+      ],
+      "image": "songofsongs-c008-v003-004-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 8:3–4; 조용히 품어 주다.\nScene: The woman rests fully clothed seated beside her beloved under garden shade, his left arm supports her head and right arm gently embraces shoulders; two adult women friends quietly move away to respect the peaceful moment.\nCamera and emotion: Seated eye-level intimate medium shot, gentle eyes and relaxed hands, no sexualized pose.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 56,
+      "chapter": 8,
+      "startVerse": 5,
+      "endVerse": 5,
+      "title": "의지하며 올라오다",
+      "verses": [
+        {
+          "verse": 5,
+          "text": "그 사랑하는 자를 의지하고 거친 들에서 올라오는 여자가 누구인고 너를 인하여 네 어미가 신고한, 너를 낳은 자가 애쓴 그곳 사과나무 아래서 내가 너를 깨웠노라"
+        }
+      ],
+      "image": "songofsongs-c008-v005-005-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 8:5–5; 의지하며 올라오다.\nScene: The woman leans lightly on her beloved’s arm as they come up a wilderness path toward an old apple tree near her family home, tired but quietly joyful. An older mother awaits in distance.\nCamera and emotion: Eye-level side three-quarter medium-wide, shared effort and trust, textured path and hillside depth.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 57,
+      "chapter": 8,
+      "startVerse": 6,
+      "endVerse": 6,
+      "title": "마음에 품은 사랑",
+      "verses": [
+        {
+          "verse": 6,
+          "text": "너는 나를 인 같이 마음에 품고 도장 같이 팔에 두라 사랑은 죽음 같이 강하고 투기는 음부 같이 잔혹하며 불 같이 일어나니 그 기세가 여호와의 불과 같으니라"
+        }
+      ],
+      "image": "songofsongs-c008-v006-006-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 8:6–6; 마음에 품은 사랑.\nScene: The couple tenderly press their clasped hands near the man’s heart, a small simple unlettered seal pendant at his chest. Their eyes convey solemn faithful commitment, warm sunlight evokes intensity without literal divine fire.\nCamera and emotion: Eye-level intimate close-medium, both faces clear, hand gesture natural, no visible deity or burning people.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 58,
+      "chapter": 8,
+      "startVerse": 7,
+      "endVerse": 7,
+      "title": "많은 물도 끄지 못할 사랑",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "이 사랑은 많은 물이 꺼치지 못하겠고 홍수라도 엄몰하지 못하나니 사람이 그 온 가산을 다 주고 사랑과 바꾸려 할지라도 오히려 멸시를 받으리라"
+        }
+      ],
+      "image": "songofsongs-c008-v007-007-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 8:7–7; 많은 물도 끄지 못할 사랑.\nScene: The adult couple stand safely on a high stone bank beside a powerful broad river, holding hands firmly and looking at each other with steady trusting affection. Distant flood water and spray convey love enduring difficulty, no danger to bodies.\nCamera and emotion: Eye-level oblique medium-wide, faces and hands right, grand bright river valley left, grounded scale.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 59,
+      "chapter": 8,
+      "startVerse": 8,
+      "endVerse": 9,
+      "title": "가족의 돌봄",
+      "verses": [
+        {
+          "verse": 8,
+          "text": "우리에게 있는 작은 누이는 아직도 유방이 없구나 그가 청혼함을 받는 날에는 우리가 그를 위하여 무엇을 할꼬"
+        },
+        {
+          "verse": 9,
+          "text": "그가 성벽일진대 우리는 은 망대를 그 위에 세울 것이요 그가 문일진대 우리는 백향목 판자로 두르리라"
+        }
+      ],
+      "image": "songofsongs-c008-v008-009-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene.\nAsset type: Vible Bible reading background, Song of Songs 8:8–9, ordinary family care expressed through architectural imagery.\nA realistic ancient Levant home courtyard in bright gentle daylight. Two fully dressed middle-aged family elders, a woman about 55 and a man about 60, quietly discuss how to care for their family's future. Patient, thoughtful, kind expressions and respectful everyday gestures. They stand beside a sturdy pale stone garden wall, a small silver-inlaid ornamental architectural feature and a cedar-plank door, translating the poem's wall and cedar protection imagery into a real setting. Only these two older adults appear. Both are original fictional people with gray hair, natural warm brown skin, plain opaque linen and muted earth-colored shawls. No reference actors or previously generated lovers.\nCamera: human eye-height at an oblique medium-wide angle, elders and wall on right 55–90%, quiet low-detail sunlit garden on left 40% for later verse overlay. Faces and hands clearly readable above bottom 18%, natural body proportions, foreground stone edge and garden depth. Small concerned brow and gentle reassuring eye contact convey protective care.\nLight and material: bright real daylight with soft sky fill and natural shadows, believable worn stone, cedar wood grain and woven linen, realistic skin texture, restrained cinematic film texture, inviting warm ivory and true greens. Landscape 16:9.\nKeep it an ordinary historical family scene. No text, letters, numbers, emblems, logos, watermark, modern items, glass, magical glow, divine figures, black bars or illustration/CGI appearance.",
+      "referenceImages": [],
+      "promptRevision": 2
+    },
+    {
+      "id": 60,
+      "chapter": 8,
+      "startVerse": 10,
+      "endVerse": 10,
+      "title": "평화와 성숙",
+      "verses": [
+        {
+          "verse": 10,
+          "text": "나는 성벽이요 나의 유방은 망대 같으니 그러므로 나는 그의 보기에 화평을 얻은 자 같구나"
+        }
+      ],
+      "image": "songofsongs-c008-v010-010-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 8:10–10; 평화와 성숙.\nScene: The adult woman stands assured beside a sturdy ancient garden wall, her beloved listens respectfully, a calm small smile shows peace and mature self-possession. Fully clothed, focus face and upright bearing, no body-part metaphor rendering.\nCamera and emotion: Eye-level close-medium three-quarter portrait with listening man secondary, soft clear daylight.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 61,
+      "chapter": 8,
+      "startVerse": 11,
+      "endVerse": 12,
+      "title": "내게 속한 포도원",
+      "verses": [
+        {
+          "verse": 11,
+          "text": "솔로몬이 바알하몬에 포도원이 있어 지키는 자들에게 맡겨두고 그들로 각기 그 실과를 인하여서 은 일천을 바치게 하였구나"
+        },
+        {
+          "verse": 12,
+          "text": "솔로몬 너는 일천을 얻겠고 실과 지키는 자도 이백을 얻으려니와 내게 속한 내 포도원은 내 앞에 있구나"
+        }
+      ],
+      "image": "songofsongs-c008-v011-012-right-context-props-v2.jpg",
+      "prompt": "Use case: precise-object-edit. Input image: edit target, the supplied Song of Songs 8:11–12 vineyard still.\nChange only two period props. Replace the modern pivoted pruning secateurs in the woman's working hand with one small ancient curved bronze grape-harvesting knife, a simple single curved blade and plain wooden handle, no pivot, spring or paired blades. Preserve the same hand position and natural fingers while making the tool physically usable to cut the grape stem she is holding.\nRemove the crowned heraldic lion motif from the purple background banner entirely, leaving a plain unmarked purple woven banner with its existing fabric folds, lighting, pole and location.\nKeep everything else unchanged: woman's identity, facial expression, gaze, skin tone, curls, ivory dress, rose wrap, body pose, grape-holding hand, grapes and vines, basket, background workers and table, hills, stone terrace, bright natural sunlight, depth and 16:9 composition. No added text, marks, logos or watermark. Photorealistic texture and original color unchanged.",
+      "referenceImages": [
+        "assets/songofsongs-c008-v011-012-right-context-v1.jpg"
+      ],
+      "revision": 2
+    },
+    {
+      "id": 62,
+      "chapter": 8,
+      "startVerse": 13,
+      "endVerse": 13,
+      "title": "네 목소리를 듣고 싶다",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "너 동산에 거한 자야 동무들이 네 소리에 귀를 기울이니 나로 듣게 하려무나"
+        }
+      ],
+      "image": "songofsongs-c008-v013-013-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 8:13–13; 네 목소리를 듣고 싶다.\nScene: The woman speaks or sings softly in a fragrant garden to her beloved and two adult friends, who listen attentively. Her face alive with warmth, his expression deeply moved. No musical instrument required.\nCamera and emotion: Eye-level intimate oblique group shot, eyes and small lip movement readable, garden depth.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    },
+    {
+      "id": 63,
+      "chapter": 8,
+      "startVerse": 14,
+      "endVerse": 14,
+      "title": "향기로운 산으로 달리라",
+      "verses": [
+        {
+          "verse": 14,
+          "text": "나의 사랑하는 자야 너는 빨리 달리라 향기로운 산들에서 노루와도 같고 어린 사슴과도 같아여라"
+        }
+      ],
+      "image": "songofsongs-c008-v014-014-right-context-v1.jpg",
+      "prompt": "Use case: historical-scene. Asset type: Vible immersive Bible reader cinematic still, landscape 16:9, original photorealistic live-action ancient Levant.\nVisual direction approved by user: maintain bright natural spring light, tactile real skin/linen/stone, emotionally restrained expressions, eye-level embodied camera presence. Study nuanced eyes, brow and mouth, correct mutual eyelines, responsive hands and body posture; no posed glamour. Inspired by physical depth and facial restraint observed in user-provided Odyssey trailer, not its dark grade, actors or specific costumes.\nComposition: action and readable faces primarily RIGHT 55–90%, left 40% quiet natural lower-detail environment for later Scripture overlay, no raster text. Faces and meaningful hands above bottom 18%. Foreground edge + middle action + distant environment provide natural depth. Real lens perspective and soft optical focus, avoid flat postcard panoramas. Original ancient people, modest opaque woven clothing, worn clay/wood/bronze props, no glass lanterns or modern objects. Night scenes remain recognizable night with readable moonlight and open clay oil bowls with visible wicks, no crushed black.\nConstraints: no text, writing, captions, marks, watermark, logos, borders or letterbox. No CGI/painting/fantasy plastic, halos, visible deity or invented angel. No anatomy fusion with poetic animals/objects, no nudity, erotic body-part focus, sexual activity or violence spectacle. All lovers are unrelated fictional adults about 30. Skin tone natural warm olive/brown; expressions support verse emotion rather than exaggerated stock smiles.\nInput image role: the provided approved Song of Songs pilot is identity and bright-realism reference only. Preserve its original adult woman’s dark wavy hair, warm olive-brown skin and ivory dress/rose wrap, and original adult man’s dark curls, short beard and ivory linen/indigo wrap when present. Change scene, pose, angle and expression to this passage; do not repeat the pilot composition or hand gesture by default. No actors or real people copied. Older mother and other characters distinct. Do not introduce an absent lover merely because he is in reference.\nPassage context: Song of Songs 8:14–14; 향기로운 산으로 달리라.\nScene: A hopeful luminous finale: the adult woman looks with tender longing and a small smile toward her beloved moving swiftly up a fragrant spring mountain path, glancing warmly back. A gazelle runs naturally on a distant ridge, aromatic flowers and cedar-covered mountains extend into clear sunlight. Love remains alive and expectant.\nCamera and emotion: Human-height medium-wide from just beside the woman; her three-quarter face right foreground, man right midground, expansive mountains left; bright majestic real landscape.\n",
+      "referenceImages": [
+        "output/songofsongs/songofsongs-c002-v010-013-original-v1.png"
+      ]
+    }
+  ]
+}

@@ -70,3 +70,9 @@ for(const lang of ['ko','en','ja','zh']){
  assert(page.includes(`<a href="/?lang=${lang}">vible.now</a>`));
 }
 console.log('Shared cards and footer URLs are real links; exact passage and all four languages preserved.');
+for(const [lang,reference] of [['ko','아가 1:1'],['en','Song of Songs 1:1'],['ja','雅歌 1:1'],['zh','雅歌 1:1']]){
+ const song=pick(`/share/songofsongs/1/1${lang==='ko'?'':`?lang=${lang}`}`),page=shareHTML(song);
+ assert.equal(song.reference,reference);assert.equal(song.image,'songofsongs-c001-v001-001-right-context-v1.jpg');assert(page.includes(song.text));assert(page.includes('book=songofsongs'));
+ if(lang!=='ko')assert(page.includes(song.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} attribution`);
+}
+console.log('Song of Songs share pages render in all four languages with translation attribution.');
