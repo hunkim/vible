@@ -64,6 +64,8 @@ for(const {id,data} of books){const reader={...data,scenes:data.scenes.map(({pro
 if(hosting.origin){const file=path.join(output,'index.html');const html=await fs.readFile(file,'utf8');await fs.writeFile(file,html.replace('</head>',`<link rel="preconnect" href="${hosting.origin}" crossorigin><link rel="dns-prefetch" href="${hosting.origin}"></head>`));}
 if(native){const file=path.join(output,'index.html');const html=await fs.readFile(file,'utf8');assert(html.includes('<link rel="manifest" href="manifest.webmanifest">'));await fs.writeFile(file,html.replace('<link rel="manifest" href="manifest.webmanifest">',''));}
 // Reuse storage on copy-on-write filesystems; unsupported systems fall back to ordinary copies.
+// The placeholder is part of the app shell (service worker, store apps) even when every released scene has art.
+await fs.copyFile(path.join(root,'assets/image-pending.svg'),path.join(output,'assets/image-pending.svg'));
 for(const {data} of books)for(const scene of data.scenes)if(!hosting.origin||scene.imagePending)await fs.copyFile(path.join(root,'assets',scene.image),path.join(output,'assets',scene.image),fsConstants.COPYFILE_FICLONE);
 for(const {data} of books)console.log(`Built ${data.book}: ${data.chapters} chapters, ${data.verseCount} unchanged verses, ${data.partialRelease?`${data.partialRelease.availableImages}/${data.sceneCount} images available`:data.sceneCount+' images'}.`);
 
