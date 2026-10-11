@@ -1,9 +1,9 @@
 {
   "date": "2026-10-11",
   "production": "https://vible.now",
-  "deployment": "https://vible-i6tw1x3qy-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_Aqanu5K4RWF2BNTQNuHSXo6BUZ2Z",
-  "newImageFiles": 278,
+  "deployment": "https://vible-lbcpbg37m-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_Avjfip5QHDQhJVUaamzj7SKYKVoh",
+  "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -643,7 +643,8 @@
     "storeAppRelease": "Store app sources (native/), platform adapter, i18n, privacy page and app-link files released with First Samuel",
     "frozenApplicationApps": "npm run check passed in /private/tmp/vible-release-0918701884af including check-i18n and check-native; check-offline passed",
     "liveEndpoints": "/, /privacy, /i18n.js, /platform.js, /image-cache.js, /.well-known/apple-app-site-association (application/json), First Samuel data (0/278 pending) and share pages return 200; feedback CORS 204 for capacitor://localhost, 403 for other origins; /admin_feedback 401",
-    "liveFourLanguageUI": "English reader on vible.now shows no Korean interface strings; privacy link and scene info button present; First Samuel CDN image loads"
+    "liveFourLanguageUI": "English reader on vible.now shows no Korean interface strings; privacy link and scene info button present; First Samuel CDN image loads",
+    "cjkLineBreak": "Japanese/Chinese line breaking release: npm run check and check-offline passed in /private/tmp/vible-release-5dcae980f79f; live style, privacy, app-link file, data, admin 401 and app CORS verified. No new reviewed images were ready (2 Samuel generation still in progress, uncommitted)."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 41,
@@ -667,5 +668,5 @@
     "image": "psalms-c150-v006-006-right-context-finale-v3.jpg"
   },
   "frozenSource": "/private/tmp/vible-release-883d0ce71630",
-  "sourceCommit": "0918701884af"
+  "sourceCommit": "5dcae980f79f"
 }
