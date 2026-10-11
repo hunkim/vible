@@ -434,3 +434,6 @@ html.desktop-app .immersive .reading-workspace{height:100dvh}
 #window-controls button:hover{background:#283c3414}
 #window-controls button[data-action="close"]:hover{background:#c42b1c;color:#fff}
 #window-controls svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.4}
+/* The language flag needs no frame; a soft background appears only on hover or while its menu is open. */
+.language-toggle,.topbar .language-toggle{border:0!important;background:transparent!important}
+.language-toggle:hover,.language-toggle[aria-expanded="true"],#language-menu:popover-open~.language-toggle{background:#283c3410!important}

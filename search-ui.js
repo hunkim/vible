@@ -1,3 +1,4 @@
+import {assetURL} from './assets.js';
 import {fetchContent} from './platform.js';
 import {findScripture,excerpt,highlightText} from './scripture-search.js';
 const copy={
@@ -24,7 +25,7 @@ export function scriptureSearch(getContext,openVerse){
    const book=index.books.find(b=>b.id===verse.book),button=document.createElement('button');button.className='scripture-result';
    const info=document.createElement('div'),ref=document.createElement('strong');ref.textContent=`${book.name} ${verse.chapter}:${verse.verse}${verse.endVerse!==verse.verse?'–'+verse.endVerse:''}`;
    const text=document.createElement('p');highlightText(text,excerpt(verse.text,found.address?'':input.value),found.address?'':input.value);info.append(ref,text);
-   const img=document.createElement('img');img.src=`assets/${book.images[verse.scene-1]}`;img.alt='';img.loading='lazy';img.width=76;img.height=76;button.append(info,img);
+   const img=document.createElement('img');img.src=assetURL(book.images[verse.scene-1]);img.alt='';img.loading='lazy';img.width=76;img.height=76;button.append(info,img);
    button.onclick=async()=>{if(navigating)return;navigating=true;button.disabled=true;status.textContent=c().loading;try{await openVerse({...verse,language:lang});returnToReader=true;dialog.close();}catch{button.disabled=false;status.textContent=c().error;}finally{navigating=false;}};results.append(button);
   }
   $('search-more').hidden=found.total<=limit;

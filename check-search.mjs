@@ -51,6 +51,8 @@ try{
  const header=get('header-query');header.focus();header.dispatchEvent(new Event('compositionstart'));header.value='사랑';header.dispatchEvent(new Event('input'));
  await new Promise(resolve=>setTimeout(resolve,160));
  assert(get('scripture-search').open);assert.equal(document.activeElement,header,'Live results preserve IME focus');assert.equal(get('scripture-results').querySelectorAll().length,30);
+ // Result thumbnails use the reader's image URLs (CDN for released art, bundled placeholder otherwise), never a bare assets/ path.
+ {const ui=await fs.readFile('search-ui.js','utf8');assert(ui.includes('img.src=assetURL(')&&!ui.includes('`assets/${'),'search thumbnails must go through assetURL');}
  header.value='요 3:16';header.dispatchEvent(new Event('input'));await new Promise(resolve=>setTimeout(resolve,160));
  assert.equal(get('scripture-results').querySelectorAll().length,1,'Latest typed reference replaces prior results');
  header.value='';header.dispatchEvent(new Event('input'));await Promise.resolve();assert(!get('scripture-search').open);assert.equal(document.activeElement,header,'Clearing keeps typing available');
