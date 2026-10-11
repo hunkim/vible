@@ -396,6 +396,12 @@ body.touch-selection #reader p.is-selected .verse-text{background:#dfc78445;box-
 #feedback-dialog{width:min(440px,calc(100% - 24px));max-width:440px;max-height:calc(100dvh - 24px);padding:28px;border:1px solid var(--line);border-radius:20px;background:var(--paper);color:var(--ink);box-shadow:0 24px 80px #10251d38;overflow:auto}
 #feedback-dialog::backdrop{background:#10251d66;backdrop-filter:blur(3px)}
 #feedback-dialog h2{font:600 22px 'Noto Sans KR',sans-serif;margin:0 36px 12px 0}
+/* Note dialog: a quiet round close button in the corner, with the card preview starting below it. */
+#note-dialog .dialog-close{top:14px;right:14px;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;color:#283c34}
+#note-dialog .dialog-close svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}
+#note-dialog .dialog-close:hover{background:#283c340b}
+#note-dialog:focus{outline:none}
+@media(min-width:701px){#note-dialog #card-preview{margin-top:44px}}
 #feedback-dialog .dialog-close{top:12px;right:12px;display:grid;place-items:center;width:40px;height:40px;border-radius:50%}
 #feedback-dialog .dialog-close svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}
 #feedback-dialog .dialog-close:hover{background:#283c340b}
