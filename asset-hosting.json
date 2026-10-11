@@ -23997,6 +23997,402 @@
     "1samuel-278-right-v1.jpg": {
       "sha256": "8f5a4c059d85983232f79b56445f7d13aeaa3979d1b5f17ad088ffbb03e83650",
       "bytes": 735495
+    },
+    "proverbs-c008-v022-023-right-context-cosmic-v2.jpg": {
+      "sha256": "0b8876180cab80adb53efd362b72dee524dd81056d001d6855bd7d5c6c63cb95",
+      "bytes": 429084
+    },
+    "proverbs-c010-v012-012-right-context-v1.jpg": {
+      "sha256": "890cf12f17c05dc9ee9d64c77cfc67849dc755dd89cdecb6b6a5f0034ad4b996",
+      "bytes": 526167
+    },
+    "proverbs-c010-v013-013-right-context-v1.jpg": {
+      "sha256": "af39d11302c2412ee4fbc3d5ae5f3520b1af291f3e4d91ed65241a201fe2c5e1",
+      "bytes": 489513
+    },
+    "proverbs-c010-v014-014-right-context-v1.jpg": {
+      "sha256": "0561b99c7338a9ddf69fe83d02dffdf97e2aabc3029079ae126fa93d05e4c7ab",
+      "bytes": 591675
+    },
+    "proverbs-c010-v015-015-right-context-v1.jpg": {
+      "sha256": "edb53040d2c666ad0e8f7fba238de0a6b661df93b438561a4a4088a50d3b8765",
+      "bytes": 644459
+    },
+    "proverbs-c010-v016-016-right-context-v1.jpg": {
+      "sha256": "2a16529e471bae831428304c2345c79390bb00994ac78703da1295f52265a91f",
+      "bytes": 624378
+    },
+    "proverbs-c010-v017-017-right-context-sign-v2.jpg": {
+      "sha256": "4762c7c6b926eba383fe4a74d496a830c9b96400cdd4a6b6821e820db357273b",
+      "bytes": 610261
+    },
+    "proverbs-c010-v018-018-right-context-v1.jpg": {
+      "sha256": "b465bc8b0374d3c4749a076aa48a00ecab1c1fdbb4b15d9f6e9bd1cf3d2022e6",
+      "bytes": 467853
+    },
+    "proverbs-c010-v019-019-right-context-v1.jpg": {
+      "sha256": "3a62ecfa01d37855f9fae7b40298e2190c3c271e06e41cb1da04737e506863e4",
+      "bytes": 461252
+    },
+    "proverbs-c010-v020-020-right-context-v1.jpg": {
+      "sha256": "ec76b5d3c0232f759062d99fb0f4c82099f4e47eb67e72782c04173d21263daa",
+      "bytes": 404486
+    },
+    "proverbs-c010-v021-021-right-context-v1.jpg": {
+      "sha256": "cc375f53ed8b26556f7beb279c5d3fc314aaf93cf9abbcb722101e47b2d420d9",
+      "bytes": 540429
+    },
+    "proverbs-c010-v022-022-right-context-v1.jpg": {
+      "sha256": "14b67dd6ee91cf08e0d87ea94aa35a35e58685ec46bc55cd574004396ab9302f",
+      "bytes": 579249
+    },
+    "proverbs-c010-v023-023-right-context-v1.jpg": {
+      "sha256": "3a1db0403c41ffaad69360cb720a737292b66faa064e5b66a97f01518834e82c",
+      "bytes": 487779
+    },
+    "proverbs-c010-v024-024-right-context-v1.jpg": {
+      "sha256": "a64993c70751d2145dc7e4d4c4010c6df1151d566fb6d744eccb64f86f8c019c",
+      "bytes": 586899
+    },
+    "proverbs-c010-v025-025-right-context-v1.jpg": {
+      "sha256": "fcc48f47ff4c3fcd7ef36fd555c88057d3d8d68c2754fb068ff35c48a74687fd",
+      "bytes": 607516
+    },
+    "proverbs-c010-v026-026-right-context-v1.jpg": {
+      "sha256": "a9806b335401ee821fb6ebc6b2e5a79d6d328894e365b0320b1da700e375b237",
+      "bytes": 585828
+    },
+    "proverbs-c010-v027-027-right-context-v1.jpg": {
+      "sha256": "a8fe86245db27eed3f7ea90aabfd837a819cc4f6c33bedf552feec293f1e1e4a",
+      "bytes": 600687
+    },
+    "proverbs-c010-v028-028-right-context-v1.jpg": {
+      "sha256": "4229c1fccfd222a5eade9d5f4818779ccec66684bb0f82709f8695504e7a26dd",
+      "bytes": 564697
+    },
+    "proverbs-c010-v029-029-right-context-v1.jpg": {
+      "sha256": "199b53a7bc62c6083f557bddd7d5898d32e23bb689321dc69084a8cc8b43992c",
+      "bytes": 649531
+    },
+    "proverbs-c010-v030-030-right-context-v1.jpg": {
+      "sha256": "0c5668278eaf41e8f7c565b48c9ee7d2c570854f960d0570229df9193f6a8b91",
+      "bytes": 635660
+    },
+    "proverbs-c010-v031-031-right-context-v1.jpg": {
+      "sha256": "fab8094e915648d16aecbf26e6331c8fb010c9808e2b4e090778a46a1db23bb0",
+      "bytes": 621558
+    },
+    "proverbs-c010-v032-032-right-context-v1.jpg": {
+      "sha256": "f8b1956a95b52748cd2646bdb74cfdeffd16bbafc788c5d30e9998538c182f20",
+      "bytes": 564885
+    },
+    "proverbs-c011-v001-001-right-context-v1.jpg": {
+      "sha256": "59fab1b6bb9374f94eeff2a5e45425798442ac7a4818d7579f9ae115de9b13b7",
+      "bytes": 560401
+    },
+    "proverbs-c011-v002-002-right-context-v1.jpg": {
+      "sha256": "da80b3958c7a9b08baafe4975376917b5a2c8c7654e5d5b8d7968aed7403e4a8",
+      "bytes": 551866
+    },
+    "proverbs-c011-v003-003-right-context-v1.jpg": {
+      "sha256": "fe3e1b8b4fec199ddf0494cb468ddac4799c4b6c444f265b9a95aad032b3a55c",
+      "bytes": 557240
+    },
+    "proverbs-c011-v004-004-right-context-v1.jpg": {
+      "sha256": "ff6195bee0494227ce1df6e829ae41ce838da0ca59f01b2cc4584447f553882c",
+      "bytes": 547277
+    },
+    "proverbs-c011-v005-005-right-context-v1.jpg": {
+      "sha256": "76d9577a204c6b671840eecfeb17cd679ace591ace5aeeaa5c63e0e24b259e42",
+      "bytes": 657042
+    },
+    "proverbs-c011-v006-006-right-context-v1.jpg": {
+      "sha256": "c49fc1b25012e49965c35505f60fce2db834f0a67e90aebf73b415a62a79f8f1",
+      "bytes": 539218
+    },
+    "proverbs-c011-v007-007-right-context-v1.jpg": {
+      "sha256": "2a33cbf7d6333017f4842bd04c4e56df1a62d3941b3067e93b5dfc9a2a820d74",
+      "bytes": 491371
+    },
+    "proverbs-c011-v008-008-right-context-v1.jpg": {
+      "sha256": "7e06d5412af67f90a174c3c7987a6974ee68bcede8e0a631e87ebbec3c5bd8fa",
+      "bytes": 509652
+    },
+    "proverbs-c011-v009-009-right-context-v1.jpg": {
+      "sha256": "2e6400c64a992f9be0330cc67f34d01b906c742e2428f5ed69e25d2d55cccaca",
+      "bytes": 528668
+    },
+    "proverbs-c011-v010-010-right-context-v1.jpg": {
+      "sha256": "2361ae48fc8769258c8fdfbf12d918c0e184faeef8ca744704cdcdb795d3a49c",
+      "bytes": 505355
+    },
+    "proverbs-c011-v011-011-right-context-v1.jpg": {
+      "sha256": "948c36887d2c0b4ba5741ae46e9cdd378b9859c50cee72fd8906a1faa0750cd0",
+      "bytes": 578603
+    },
+    "proverbs-c011-v012-012-right-context-v1.jpg": {
+      "sha256": "f93cc4f2aa2e94a6a5816a7158b2afdd08a86df07a187005ca3a84c4e2c1622a",
+      "bytes": 551768
+    },
+    "proverbs-c011-v013-013-right-context-v1.jpg": {
+      "sha256": "ddb9b0285e49530ecbfb094193f2abe4b9c3b4ef6d612a817ead43b1be245433",
+      "bytes": 497540
+    },
+    "proverbs-c011-v014-014-right-context-v1.jpg": {
+      "sha256": "925d54bc908875ea2ebd7cca7e2b69ebd57228599dfba958d92ae4fe39c5a7a3",
+      "bytes": 425275
+    },
+    "proverbs-c011-v015-015-right-context-v1.jpg": {
+      "sha256": "8857e19eed3af5cf1e2ac0e6fd5ff854c7988f30f254fddc4324acdacfc679f1",
+      "bytes": 523014
+    },
+    "proverbs-c011-v016-016-right-context-v1.jpg": {
+      "sha256": "1a33a80b47ae544c56a63d4c00fac9592d8315794bbfad8b974e8810d74bf9dc",
+      "bytes": 546119
+    },
+    "proverbs-c011-v017-017-right-context-v1.jpg": {
+      "sha256": "18667bf5d4f189940003b168b8adb46c153e2215154b538b7fb7ea9880138f45",
+      "bytes": 510404
+    },
+    "proverbs-c011-v018-018-right-context-v1.jpg": {
+      "sha256": "b4eba67403bc26d60a83aae18b100a7f8aa0ceb9b50b581fccba0b6d4ffdc26b",
+      "bytes": 575464
+    },
+    "proverbs-c011-v019-019-right-context-sign-v2.jpg": {
+      "sha256": "49552a579a9dc59663253e0c601e19377dece5b32f5e7b56d9635e0d0eb6b134",
+      "bytes": 539604
+    },
+    "proverbs-c011-v020-020-right-context-v1.jpg": {
+      "sha256": "09de806c3548380f95f1e99a36555c62e49d0c73af8e390a7baceb94ea64e149",
+      "bytes": 482050
+    },
+    "proverbs-c011-v021-021-right-context-v1.jpg": {
+      "sha256": "3e05b5cb87f572283d2770bafade8f9ed91f4232495986d1d796b3411da943dd",
+      "bytes": 546564
+    },
+    "proverbs-c011-v022-022-right-context-v1.jpg": {
+      "sha256": "58427a156ba9f9b0fd800ac1f03cba48d273e89db7a9cdb96e043fab125e330a",
+      "bytes": 525638
+    },
+    "proverbs-c011-v023-023-right-context-v1.jpg": {
+      "sha256": "f6ea48f95f1fba6edf4999fda26ba6d169645ce69ba6d23d8d8d2a545c15693d",
+      "bytes": 507416
+    },
+    "proverbs-c011-v024-024-right-context-v1.jpg": {
+      "sha256": "504b812fd4608f608336c349f339f65427ee6d97acae147e55edb6063b8a245e",
+      "bytes": 478216
+    },
+    "proverbs-c011-v025-025-right-context-v1.jpg": {
+      "sha256": "546f6eb0175b3bb6fca8fcf9ceec68501ae4bc02a05abd306ced698a8209c21c",
+      "bytes": 539198
+    },
+    "proverbs-c011-v026-026-right-context-v1.jpg": {
+      "sha256": "18271d33138785a62ca8d4366f95d94053494bdaf1d19ee68e75df74ccfbcc54",
+      "bytes": 621691
+    },
+    "proverbs-c011-v027-027-right-context-v1.jpg": {
+      "sha256": "ea0ea2dac4e22400ecb9982c5ab4c716d0ef16b2fdb04dab767b121b5df0565c",
+      "bytes": 494654
+    },
+    "proverbs-c011-v028-028-right-context-v1.jpg": {
+      "sha256": "9376ecd634a0f1c1ce10fec44df190433064b1f431eb54e5d0641d2e0c16edb8",
+      "bytes": 525021
+    },
+    "proverbs-c011-v029-029-right-context-v1.jpg": {
+      "sha256": "01dfb41f9245ef13126772e96e46d4f01bc663a4fdff10bb855d3ddf5fb5f919",
+      "bytes": 512652
+    },
+    "proverbs-c011-v030-030-right-context-v1.jpg": {
+      "sha256": "ca1556c37084922c2ae268a8156db695afe8379096c20720e10883dbb0b2db15",
+      "bytes": 693551
+    },
+    "proverbs-c011-v031-031-right-context-v1.jpg": {
+      "sha256": "1845168fb28096bfa36c01375311fa8f9ab4f871cb4e7060bcea6fd271ce9b52",
+      "bytes": 509359
+    },
+    "proverbs-c012-v001-001-right-context-v1.jpg": {
+      "sha256": "0a36ea2c47a99108e18830c65a434c79658d5a1bc4ef4ee8bd86ab6923a2b311",
+      "bytes": 477908
+    },
+    "proverbs-c012-v002-002-right-context-v1.jpg": {
+      "sha256": "fc15b834eb381e5b3a04481297414ebef10890f3457845c745799d22c86dcd6e",
+      "bytes": 515679
+    },
+    "proverbs-c012-v003-003-right-context-v1.jpg": {
+      "sha256": "c13434163a033f4b161fe8842f2ebd6878de7863d37f02230d1ec6722e2a4e9b",
+      "bytes": 690845
+    },
+    "proverbs-c012-v004-004-right-context-v1.jpg": {
+      "sha256": "810f870cf865806b43d9a22303a2bb35cc1f925500c180d109b3a3964eac4b7d",
+      "bytes": 538723
+    },
+    "proverbs-c012-v005-005-right-context-v1.jpg": {
+      "sha256": "0158d406d288638bc658f0e3fa0c10e9a8c3f8fbfde06b53c9443d3f69876591",
+      "bytes": 455828
+    },
+    "proverbs-c012-v006-006-right-context-v1.jpg": {
+      "sha256": "e3d8b63620673d56c1d21a355f9079e2a418d55aacbd938ecc0bdd0749cd844d",
+      "bytes": 467468
+    },
+    "proverbs-c012-v007-007-right-context-v1.jpg": {
+      "sha256": "3fd8b7c61d9b86aafda2a14179ccea97351047cd30d32d67443f9e3fc8f3be9c",
+      "bytes": 625841
+    },
+    "proverbs-c012-v008-008-right-context-v1.jpg": {
+      "sha256": "d232f0434bbd6267a0223f4acb54496a55ad1da895943e0efb09fb60c7c7c496",
+      "bytes": 525548
+    },
+    "proverbs-c012-v009-009-right-context-v1.jpg": {
+      "sha256": "165ebd6d891507d7beacd61fe5e08d8aa9decd34c9e71735beaf8c99a05e741c",
+      "bytes": 559717
+    },
+    "proverbs-c012-v010-010-right-context-v1.jpg": {
+      "sha256": "ff67238c1ade558737bdabc92333c7f5ec4959138c7c69746b3927eb555ab619",
+      "bytes": 569395
+    },
+    "proverbs-c012-v011-011-right-context-v1.jpg": {
+      "sha256": "17dd3889eade271bb6b843d6fb4565ca5c9ad8125529fe82544ed23443e2c4ac",
+      "bytes": 546211
+    },
+    "proverbs-c012-v012-012-right-context-v1.jpg": {
+      "sha256": "1a94f1fecec73993bd7fdc626e9f80d64690e72717dc5c1183dce4b7f1d1e203",
+      "bytes": 574912
+    },
+    "proverbs-c012-v013-013-right-context-v1.jpg": {
+      "sha256": "d837ded3c43c18ecb371ea5c6f1c0ecf158e2293630420262e2f754f60fd8820",
+      "bytes": 514695
+    },
+    "proverbs-c012-v014-014-right-context-v1.jpg": {
+      "sha256": "93b935e460d0978e1278af8464041b6ee02aa93e55854a51aa2ea5978b631518",
+      "bytes": 529692
+    },
+    "proverbs-c012-v015-015-right-context-v1.jpg": {
+      "sha256": "950223c676205259080e2b1ea098e1da872253098fbb462d8b3b752477282299",
+      "bytes": 482271
+    },
+    "proverbs-c012-v016-016-right-context-v1.jpg": {
+      "sha256": "153d0b421a110356b6cea48ca104d38519314c7472c7a291d4c081536da702d7",
+      "bytes": 411070
+    },
+    "proverbs-c012-v017-017-right-context-v1.jpg": {
+      "sha256": "e6cccf92bca457eabd317f22b13da8abb96f1ca236e66304080a1db4ba64d637",
+      "bytes": 432440
+    },
+    "proverbs-c012-v018-018-right-context-v1.jpg": {
+      "sha256": "1aad37aa2fb2fe4be6ccdb644c29995813b507bd7817ec913257ed80493288bb",
+      "bytes": 508242
+    },
+    "proverbs-c012-v019-019-right-context-v1.jpg": {
+      "sha256": "bb893ff341c782dd4b2c309922080aa4fb427ed0482cfdc587b34ef17cdb2d6f",
+      "bytes": 467394
+    },
+    "proverbs-c012-v020-020-right-context-v1.jpg": {
+      "sha256": "7ea3790d1443c35f420f28f4596b36f02b859b4fecce1e6321826e9c10c67133",
+      "bytes": 470755
+    },
+    "proverbs-c012-v021-021-right-context-v1.jpg": {
+      "sha256": "7414578c1f0843d0d25825d1c751149a346c10e8dc85a3f0e0cf5cb5de62f568",
+      "bytes": 534338
+    },
+    "proverbs-c012-v022-022-right-context-v1.jpg": {
+      "sha256": "08d649cbd795538b7ffa153109f8da629254506aaad01602780934b16c0147c4",
+      "bytes": 477622
+    },
+    "proverbs-c012-v023-023-right-context-v1.jpg": {
+      "sha256": "7a990814ea0a816867d759881345427d053721ce3365c4c859696795b5712680",
+      "bytes": 478273
+    },
+    "proverbs-c012-v024-024-right-context-v1.jpg": {
+      "sha256": "36df569b2face31b7ba4b2945a153f990e3e2ba10da92ccdedf3ec02a75677d6",
+      "bytes": 560068
+    },
+    "proverbs-c012-v025-025-right-context-v1.jpg": {
+      "sha256": "01fa4d4d2b6e09587d55861376ca5c85ed23b5a528c99c068b10483502e5b281",
+      "bytes": 453971
+    },
+    "proverbs-c012-v026-026-right-context-v1.jpg": {
+      "sha256": "5216b3e8ebc69011f5c72f70777f5f57b7e1881028f6c3bbb76d2c3e317a19a1",
+      "bytes": 741688
+    },
+    "proverbs-c012-v027-027-right-context-v1.jpg": {
+      "sha256": "3e237303a6f221e00e0c27ec20199eb40b8c3036341374b5c087920702412dd2",
+      "bytes": 549814
+    },
+    "proverbs-c012-v028-028-right-context-v1.jpg": {
+      "sha256": "8a0e18a9f02c04e9db1f261a54a9105add473f3da9f3b621ed22728245c4acf9",
+      "bytes": 617085
+    },
+    "proverbs-c013-v001-001-right-context-v1.jpg": {
+      "sha256": "1cca7a42e2976133a8711af4375522a2f711b3b12666494e2505635992a3b2be",
+      "bytes": 507981
+    },
+    "proverbs-c013-v002-002-right-context-v1.jpg": {
+      "sha256": "031bc0aaf8d0b4f4886178d5f9e866ba5cd861d74b6ab1201a7c51a11fc65c51",
+      "bytes": 496862
+    },
+    "proverbs-c013-v003-003-right-context-v1.jpg": {
+      "sha256": "b94e45498fc7755779f14bc00d3ec62b858147fa9d4a16c001c955628a6e3449",
+      "bytes": 376542
+    },
+    "proverbs-c013-v004-004-right-context-v1.jpg": {
+      "sha256": "fef027e8926746e9f079c1025afe376ee93d9fbfbe70f75cb8d961270dc29ca2",
+      "bytes": 541713
+    },
+    "proverbs-c013-v005-005-right-context-v1.jpg": {
+      "sha256": "dde104e76fff1faf1a7645478dcb87127754be6f7511bfbcaf96dc9dcf796afc",
+      "bytes": 463457
+    },
+    "proverbs-c013-v006-006-right-context-v1.jpg": {
+      "sha256": "a1571c985ca6873cf3734e779e094a8ab726447beacb2ffd70a52cf8b87318e8",
+      "bytes": 570657
+    },
+    "proverbs-c013-v007-007-right-context-v1.jpg": {
+      "sha256": "afd31a694a8b6dcdc3ed7b28b1232ec113557cdaa1afd621a1ccdf58fdfe3760",
+      "bytes": 601659
+    },
+    "proverbs-c013-v008-008-right-context-v1.jpg": {
+      "sha256": "a7a53467bff2dcf852c8f11b42dc260c0baa39d61bc60186faa542dac4f88af1",
+      "bytes": 524284
+    },
+    "proverbs-c013-v009-009-right-context-v1.jpg": {
+      "sha256": "81d741f1127d1eb15363537bf4b2551ee401e514e53c274b583a48ca655c95a5",
+      "bytes": 433125
+    },
+    "proverbs-c013-v010-010-right-context-v1.jpg": {
+      "sha256": "2557f3f64f6b8404a8f6d40626fca20f7e1b6500009aad6f5996338277da01a7",
+      "bytes": 409835
+    },
+    "proverbs-c013-v011-011-right-context-v1.jpg": {
+      "sha256": "f15f3c1c32a3d951b5d36be3afce88b3162868d2fb08bc3c12ce917623cbca4c",
+      "bytes": 443927
+    },
+    "proverbs-c013-v012-012-right-context-v1.jpg": {
+      "sha256": "b5c8214d66c60333c87bb7492e011c93fd8a0768fcf5e9e29c2cfc441aa07389",
+      "bytes": 469783
+    },
+    "proverbs-c013-v013-013-right-context-v1.jpg": {
+      "sha256": "f135c413c388afaed1c14753de65a6d76bbfb50b22f6aa2912ef43be2eee05de",
+      "bytes": 433483
+    },
+    "proverbs-c013-v014-014-right-context-v1.jpg": {
+      "sha256": "beaac1e93b3cf1c33c1458a1df0c3cec5de879ec623ef5a79be9295901506c61",
+      "bytes": 686498
+    },
+    "proverbs-c013-v015-015-right-context-v1.jpg": {
+      "sha256": "404d2cc4a0b6cda381910e4aa02851ef6f3340c7213dca69623175e5411aa919",
+      "bytes": 538334
+    },
+    "proverbs-c013-v016-016-right-context-v1.jpg": {
+      "sha256": "4716e68ad1a9b54337a0e7f2cee14bf9130271be4b153c36b9c6e7cff7f32d42",
+      "bytes": 456083
+    },
+    "proverbs-c013-v017-017-right-context-v1.jpg": {
+      "sha256": "d9724b9d5dff654966c22384cfdda6bacd4840f5398c140c7a26e678eb129d30",
+      "bytes": 491541
+    },
+    "proverbs-c013-v018-018-right-context-v1.jpg": {
+      "sha256": "be8066e95514c679ee6a45b48094f4488de75cbfa6e4f1246c22ae1376394396",
+      "bytes": 487392
     }
   }
 }
