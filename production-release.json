@@ -1,8 +1,8 @@
 {
   "date": "2026-10-11",
   "production": "https://vible.now",
-  "deployment": "https://vible-7jrvxixma-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_5ec7HJ9kX2LrAQZaso5R4uk9ANkF",
+  "deployment": "https://vible-1fgb6fqtg-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_4ktSnXmTi36Zj2BQw1HXmTA75q6i",
   "newImageFiles": 399,
   "releasedImages": {
     "leviticus": 236,
@@ -60,7 +60,8 @@
     "appContentRefresh": "Store apps refresh /data from vible.now in the background (public CORS on /data); simulator test: an app bundled with Proverbs 1-120 showed scene 201 after one relaunch. Cold-start text alignment fixed. npm run check and check-offline passed in frozen source; live app.js, Proverbs 218, data CORS and admin 401 verified.",
     "searchThumbnails": "Search result thumbnails load from images.vible.now (6/6 loaded live); language flag frameless. npm run check and check-offline passed in frozen source.",
     "proverbs588_2samuel_1kings": "Proverbs 1-588, 2 Samuel 239/239, 1 Kings 275/275: 884 CDN files byte-verified; npm run check and check-offline passed in frozen source; live data counts, 2 Samuel en share page, 1 Kings ja PNG card, zh reader image and admin 401 verified.",
-    "proverbs705_2kings": "Proverbs 705/705 and 2 Kings 282/282: 399 CDN files byte-verified; frozen npm run check (with new check-shell) and check-offline passed. An intermediate deploy (dpl_3GMoK4gYxtEbiVCJYWPtXhLT4cF6) went out with a failing check and missing image-pending.svg for about 5 minutes; fixed by always shipping the placeholder. Live: all 70 SW pre-cache files 200, data counts, 2 Kings en card, admin 401."
+    "proverbs705_2kings": "Proverbs 705/705 and 2 Kings 282/282: 399 CDN files byte-verified; frozen npm run check (with new check-shell) and check-offline passed. An intermediate deploy (dpl_3GMoK4gYxtEbiVCJYWPtXhLT4cF6) went out with a failing check and missing image-pending.svg for about 5 minutes; fixed by always shipping the placeholder. Live: all 70 SW pre-cache files 200, data counts, 2 Kings en card, admin 401.",
+    "noteDialogClose": "UI-only: note dialog close button moved off the card preview. Frozen npm run check and check-offline passed. Before deploy, production dpl_FhSMxXc86LYM7VzwiCUtiDFFqVen (newer than the record) served files identical to cd35da7 (236 static files matched). Live: new markup/CSS/JS, placeholder 200, share page 200, admin 401."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 41,
@@ -84,5 +85,5 @@
     "image": "psalms-c150-v006-006-right-context-finale-v3.jpg"
   },
   "frozenSource": "/private/tmp/vible-release-883d0ce71630",
-  "sourceCommit": "cd35da7b73cd"
+  "sourceCommit": "e3da2c7"
 }
