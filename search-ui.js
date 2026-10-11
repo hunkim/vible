@@ -1,3 +1,4 @@
+import {fetchContent} from './platform.js';
 import {findScripture,excerpt,highlightText} from './scripture-search.js';
 const copy={
  ko:{title:'말씀 찾기',placeholder:'단어, 문구 또는 요 3:16',all:'전체 성경',current:'현재 책',intro:'마음에 남은 말씀을 찾아보세요',help:'단어·문구 또는 책 이름과 장·절로 검색하세요.',examples:['사랑','은혜','두려워 말라','요 3:16'],loading:'말씀을 준비하고 있습니다…',error:'검색을 불러오지 못했습니다.',retry:'다시 시도',empty:'찾는 말씀이 없습니다',emptyHelp:'짧은 단어나 다른 표현으로 찾아보세요.',count:n=>`${n.toLocaleString()}절`,coverage:n=>`한국어 · ${n}권`,more:'더 보기',close:'검색 닫기',clear:'검색어 지우기',open:'말씀 검색',shortcut:'⌘ K / Ctrl K',unavailable:'현재 책의 이 언어 번역은 준비 중입니다.'},
@@ -31,7 +32,7 @@ export function scriptureSearch(getContext,openVerse){
  async function load(){
   const ticket=++generation;index=null;status.textContent=c().loading;message(c().loading);results.setAttribute('aria-busy','true');
   try{
-   if(!cache.has(lang))cache.set(lang,fetch(`data/search/${lang}.json`).then(async r=>{if(!r.ok)throw Error('Search unavailable');return r.json();}));
+   if(!cache.has(lang))cache.set(lang,fetchContent(`data/search/${lang}.json`).then(async r=>{if(!r.ok)throw Error('Search unavailable');return r.json();}));
    const next=await cache.get(lang);if(ticket!==generation||!dialog.open)return;index=next;$('search-all').textContent=`${c().all} · ${index.books.length}`;render();
   }catch{if(ticket===generation&&dialog.open){cache.delete(lang);status.textContent='';message(c().error,'',true);}}
   finally{if(ticket===generation)results.setAttribute('aria-busy','false');}

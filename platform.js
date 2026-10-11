@@ -81,3 +81,16 @@ export function desktopChrome(doc=document,ua=navigator.userAgent){
  return os;
 }
 if(tauri)desktopChrome();
+// Store apps read Scripture and image-release data from the bundle first, so they open instantly and offline,
+// then refresh it from vible.now in the background; newly released images appear on the next open without an app update.
+const CONTENT_CACHE='vible-content';
+export async function fetchContent(path,{fetchImpl=globalThis.fetch,store=globalThis.caches,refresh=true}={}){
+ if(!isNative||!store)return fetchImpl(path);
+ const url=`${SITE_ORIGIN}/${path}`;let cache=null,cached=null;
+ try{cache=await store.open(CONTENT_CACHE);cached=await cache.match(url);}catch{}
+ const update=refresh?Promise.resolve().then(async()=>{const r=await fetchImpl(url,{cache:'no-cache',signal:globalThis.AbortSignal?.timeout?.(15000)});if(r.ok&&cache)await cache.put(url,r.clone());return r;}).catch(()=>null):Promise.resolve(null);
+ if(cached)return cached;
+ const local=await fetchImpl(path).catch(()=>null);
+ if(local?.ok)return local;
+ return (await update)||local||cached;
+}

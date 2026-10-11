@@ -21,7 +21,7 @@ let bytes=0;for(const entry of await fs.readdir(out,{recursive:true,withFileType
 assert(bytes<100e6,`bundle ${bytes} bytes exceeds 100 MB budget`);
 
 // Adapter: Capacitor share sheet and Tauri save dialog; the web path is covered by check-sharing.mjs.
-const source=(await fs.readFile(path.join(root,'platform.js'),'utf8')).replace(/^export /gm,'')+'\n;({platform,isNative,apiURL,shareLink,shareFile,saveFile,canShareLink,openExternal,appLinkTarget,handleBack,desktopChrome})';
+const source=(await fs.readFile(path.join(root,'platform.js'),'utf8')).replace(/^export /gm,'')+'\n;({platform,isNative,apiURL,shareLink,shareFile,saveFile,canShareLink,openExternal,appLinkTarget,handleBack,desktopChrome,fetchContent})';
 const listeners={},document={addEventListener:(type,fn)=>listeners[type]=fn};
 const calls=[];let cancel=false;
 const Capacitor={isNativePlatform:()=>true,getPlatform:()=>'ios',nativePromise:async(plugin,method,options)=>{calls.push(JSON.parse(JSON.stringify([plugin,method,options])));if(cancel&&plugin==='Share')throw Error('Share canceled');return plugin==='Filesystem'?{uri:'file:///cache/'+options.path}:{};}};
@@ -77,4 +77,14 @@ assert.equal(mobile.desktopChrome(fakeDoc(),'Windows'),null,'phones and tablets 
 const conf=JSON.parse(await fs.readFile(path.join(root,'native/desktop/src-tauri/tauri.conf.json'),'utf8')).app.windows[0],winConf=JSON.parse(await fs.readFile(path.join(root,'native/desktop/src-tauri/tauri.windows.conf.json'),'utf8')).app.windows[0];
 assert.equal(conf.titleBarStyle,'Overlay');assert.equal(conf.hiddenTitle,true);assert.equal(winConf.decorations,false);
 const perms=JSON.parse(await fs.readFile(path.join(root,'native/desktop/src-tauri/capabilities/default.json'),'utf8')).permissions;for(const p of ['core:window:allow-start-dragging','core:window:allow-minimize','core:window:allow-toggle-maximize','core:window:allow-close'])assert(perms.includes(p),p);
-console.log(`Store app bundle verified (${(bytes/1e6).toFixed(1)} MB, ${catalog.ko.books.length} books, 4 languages, no service worker); Capacitor share/files/links/app links, Android back, Tauri save/open and frameless desktop windows verified.`);
+// Content refresh: bundled data first (instant, offline), vible.now copy cached in the background and used next time.
+{const stores=new Map(),store={open:async()=>({match:async u=>stores.get(u)?.clone(),put:async(u,r)=>{stores.set(u,r);}})};const seen=[];let online=true;
+ const fetchImpl=async(u)=>{seen.push(u);if(u.startsWith('https://')){if(!online)throw new TypeError('offline');return new Response('{"v":"remote"}');}return new Response('{"v":"bundled"}');};
+ const first=await mobile.fetchContent('data/proverbs.json',{fetchImpl,store});assert.equal((await first.json()).v,'bundled','first open uses the bundle');
+ await new Promise(r=>setTimeout(r,10));assert(stores.has('https://vible.now/data/proverbs.json'),'remote copy cached in background');
+ assert.equal((await (await mobile.fetchContent('data/proverbs.json',{fetchImpl,store})).json()).v,'remote','next open uses the refreshed release');
+ online=false;assert.equal((await (await mobile.fetchContent('data/proverbs.json',{fetchImpl,store})).json()).v,'remote','offline keeps the last refreshed release');
+ const web=vm.runInNewContext(source,{document:{addEventListener(){}},navigator:{},location:{href:'https://vible.now/'},URL,URLSearchParams});
+ seen.length=0;await web.fetchContent('data/john.json',{fetchImpl,store});assert.deepEqual(seen,['data/john.json'],'the website fetches its own files directly');}
+const vercelConfig=JSON.parse(await fs.readFile(path.join(root,'vercel.json'),'utf8'));assert(vercelConfig.headers.some(h=>h.source==='/data/(.*)'&&h.headers.some(x=>x.key==='Access-Control-Allow-Origin'&&x.value==='*')),'apps can read public release data');
+console.log(`Store app bundle verified (${(bytes/1e6).toFixed(1)} MB, ${catalog.ko.books.length} books, 4 languages, no service worker); Capacitor share/files/links/app links, Android back, Tauri save/open and frameless desktop windows and background content refresh verified.`);

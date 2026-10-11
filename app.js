@@ -10,7 +10,7 @@ import {annotations} from './annotations.js';
 import {scriptureSearch} from './search-ui.js';
 import {bookPicker} from './book-picker.js';
 import {sceneFeedback} from './feedback.js';
-import {isNative,SITE_ORIGIN} from './platform.js';
+import {isNative,SITE_ORIGIN,fetchContent} from './platform.js';
 import {text,localizeDocument} from './i18n.js';
 import {offlineImages,offlineImageURL} from './image-cache.js';
 import {localizeInstall} from './install.js';
@@ -388,9 +388,9 @@ async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  const version=++loadVersion;
  $('book').disabled=true;$('language').disabled=true;$('open-language').disabled=true;remember();cancelAnimationFrame(scrollFrame);
  try{
- const response=await fetch(`data/${id}.json`);if(!response.ok)throw Error(text(language).loadFailed);let next=await response.json();
+ const response=await fetchContent(`data/${id}.json`);if(!response.ok)throw Error(text(language).loadFailed);let next=await response.json();
  if(nextLanguage!=='ko'||catalog.ko?.licensedBooks?.includes(id)){
-  const translated=await fetch(`data/translations/${nextLanguage}/${id}.json`);
+  const translated=await fetchContent(`data/translations/${nextLanguage}/${id}.json`);
   if(!translated.ok)throw Error(messages[nextLanguage].unavailable);
   next=applyTranslation(next,await translated.json(),nextLanguage);
  }
@@ -504,7 +504,7 @@ async function init(){
  document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)||(document.querySelector('dialog[open]')||[...document.querySelectorAll('[popover]')].some(popoverOpen)))return;if(e.key==='Escape')setImageOnly(false);if(view==='read'&&e.key==='ArrowRight'){e.preventDefault();goTo(current+1);}if(view==='read'&&e.key==='ArrowLeft'){e.preventDefault();goTo(current-1);}});
  const params=new URLSearchParams(location.search);let storedLanguage;try{storedLanguage=localStorage.getItem('vible-language');}catch{}
  preferredLanguage=initialLanguage({url:params.get('lang'),saved:storedLanguage,locales:navigator.languages||[navigator.language]});
- const catalogResponse=await fetch('data/translations/catalog.json');if(!catalogResponse.ok)throw Error('Language catalog unavailable');catalog=await catalogResponse.json();
+ const catalogResponse=await fetchContent('data/translations/catalog.json');if(!catalogResponse.ok)throw Error('Language catalog unavailable');catalog=await catalogResponse.json();
  let initial=params.get('book');try{if(!initial&&!preview)initial=localStorage.getItem('visual-bible-book');}catch{}const firstBook=books[initial]?initial:'john';const ready=catalog[preferredLanguage]?.books.includes(firstBook);
  if(!ready)$('language-status').textContent=messages[preferredLanguage].unavailable;
  await loadBook(firstBook,ready?preferredLanguage:'ko');
