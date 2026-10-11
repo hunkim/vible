@@ -587,7 +587,124 @@
     585,
     586,
     587,
-    588
+    588,
+    589,
+    590,
+    591,
+    592,
+    593,
+    594,
+    595,
+    596,
+    597,
+    598,
+    599,
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619,
+    620,
+    621,
+    622,
+    623,
+    624,
+    625,
+    626,
+    627,
+    628,
+    629,
+    630,
+    631,
+    632,
+    633,
+    634,
+    635,
+    636,
+    637,
+    638,
+    639,
+    640,
+    641,
+    642,
+    643,
+    644,
+    645,
+    646,
+    647,
+    648,
+    649,
+    650,
+    651,
+    652,
+    653,
+    654,
+    655,
+    656,
+    657,
+    658,
+    659,
+    660,
+    661,
+    662,
+    663,
+    664,
+    665,
+    666,
+    667,
+    668,
+    669,
+    670,
+    671,
+    672,
+    673,
+    674,
+    675,
+    676,
+    677,
+    678,
+    679,
+    680,
+    681,
+    682,
+    683,
+    684,
+    685,
+    686,
+    687,
+    688,
+    689,
+    690,
+    691,
+    692,
+    693,
+    694,
+    695,
+    696,
+    697,
+    698,
+    699,
+    700,
+    701,
+    702,
+    703,
+    704,
+    705
   ],
   "approved": [
     1,
@@ -1177,9 +1294,7 @@
     585,
     586,
     587,
-    588
-  ],
-  "pending": [
+    588,
     589,
     590,
     591,
@@ -1298,6 +1413,7 @@
     704,
     705
   ],
+  "pending": [],
   "referenceReviewed": [
     26,
     36,
@@ -1311,7 +1427,10 @@
     302,
     395,
     457,
-    549
+    549,
+    592,
+    683,
+    695
   ],
   "approvedFiles": {
     "1": {
@@ -3665,11 +3784,481 @@
     "588": {
       "image": "proverbs-c027-v012-012-right-context-v1.jpg",
       "sha256": "4d7dc593c4f5c53948513c11c6c4703d30af60698cab5dd2f9740d45acf53c42"
+    },
+    "589": {
+      "image": "proverbs-c027-v013-013-right-context-v1.jpg",
+      "sha256": "52247f2b31c065578da0ef8347903839b7fcff79b60d5667691454692b3c1466"
+    },
+    "590": {
+      "image": "proverbs-c027-v014-014-right-context-v1.jpg",
+      "sha256": "d6548de830e661a9b4b97af697d795ae9f484be9eb0cb179b7f90b82692d233f"
+    },
+    "591": {
+      "image": "proverbs-c027-v015-016-right-context-v1.jpg",
+      "sha256": "4d418a9e3faaec3de2708348805a13dfbd79f2c8cc25edc302233b35585e68b7"
+    },
+    "592": {
+      "image": "proverbs-c027-v017-017-right-context-clean-v2.jpg",
+      "sha256": "7b0a4c479909ec49686e77f622049b11e5d0129af74b0b3cd148cb331fb40d39"
+    },
+    "593": {
+      "image": "proverbs-c027-v018-018-right-context-v1.jpg",
+      "sha256": "25dd73c9efe9a89bef2124e50ef879e54aaa072ce9b50bd6182493d2a60fb410"
+    },
+    "594": {
+      "image": "proverbs-c027-v019-019-right-context-v1.jpg",
+      "sha256": "8e941c639799a82bca455954a6f752f99a41e1340ee5d6b0ce2d24f46d00a11b"
+    },
+    "595": {
+      "image": "proverbs-c027-v020-020-right-context-v1.jpg",
+      "sha256": "0bbd261a078445e5da45c48cdf667e5f6c37482f8790c7fe16f03ceb57439f78"
+    },
+    "596": {
+      "image": "proverbs-c027-v021-021-right-context-v1.jpg",
+      "sha256": "060a8b810697cf9f4e0f032bdf657629fd34cdfcc5a4984591669704a9aa4d94"
+    },
+    "597": {
+      "image": "proverbs-c027-v022-022-right-context-v1.jpg",
+      "sha256": "a90e314c8e0e8d2148a689628c9edf818315b624814ae29dcf18fd95acffbc32"
+    },
+    "598": {
+      "image": "proverbs-c027-v023-024-right-context-v1.jpg",
+      "sha256": "67feda22a2c25a8bec114246e89fcac6171708139aebe1c9d00e1515e9fb74cd"
+    },
+    "599": {
+      "image": "proverbs-c027-v025-025-right-context-v1.jpg",
+      "sha256": "1aea71e3d0cfb8bc09974e264ffd5a0b71f568ff704192bcc5f05cd9b54b6ccc"
+    },
+    "600": {
+      "image": "proverbs-c027-v026-027-right-context-v1.jpg",
+      "sha256": "8f7427386ffa82ee469db564c195d1506aabd45802d6b4b397e2d8992409ddab"
+    },
+    "601": {
+      "image": "proverbs-c028-v001-001-right-context-v1.jpg",
+      "sha256": "6cbceb05ecadee4972abe3c9443957aad978118c35063cfe2a055b0587010234"
+    },
+    "602": {
+      "image": "proverbs-c028-v002-002-right-context-v1.jpg",
+      "sha256": "b3594befe2b9957de28a1de3e608c59d3509b92666fb742c200dc17681e84120"
+    },
+    "603": {
+      "image": "proverbs-c028-v003-003-right-context-v1.jpg",
+      "sha256": "47bfacf961b6e0d64eccb8db5beaa8bc56475b0c30021ddab402e3b004824fd6"
+    },
+    "604": {
+      "image": "proverbs-c028-v004-004-right-context-v1.jpg",
+      "sha256": "4a147fcb045a0bacd4501e50c47c5ddeed6796d331ffa5f6068047c925aec6ae"
+    },
+    "605": {
+      "image": "proverbs-c028-v005-005-right-context-v1.jpg",
+      "sha256": "a64e499d38edf85086950aeb2dc966a25855bace8fc60de4c39ad21ca95c60cc"
+    },
+    "606": {
+      "image": "proverbs-c028-v006-006-right-context-v1.jpg",
+      "sha256": "6d5634508b356d316e4ad07a654537f6d7be6b5d3bc140961836ace7540a53d1"
+    },
+    "607": {
+      "image": "proverbs-c028-v007-007-right-context-v1.jpg",
+      "sha256": "2819de363b39369dd5abc480d48cec0d1e3c2cb608544ed23c00021a0a016c68"
+    },
+    "608": {
+      "image": "proverbs-c028-v008-008-right-context-v1.jpg",
+      "sha256": "c22312ef8b97d1f49fbf7c0eca20d5d7e86aaf522606233be5da4ad6227196d0"
+    },
+    "609": {
+      "image": "proverbs-c028-v009-009-right-context-v1.jpg",
+      "sha256": "7dd1d5fc0f76396071b6284e394c2984297dd0a85f52f85d0029c9cef9809497"
+    },
+    "610": {
+      "image": "proverbs-c028-v010-010-right-context-v1.jpg",
+      "sha256": "a93d8d72f0e7d3d01677fae65801f906d8a3a9b880d075ddbc4772af3e18f6db"
+    },
+    "611": {
+      "image": "proverbs-c028-v011-011-right-context-v1.jpg",
+      "sha256": "e35dd2e1b6b089624b31ef4cbc2bad368e37f4cc98a21b017742e9d06d198839"
+    },
+    "612": {
+      "image": "proverbs-c028-v012-012-right-context-v1.jpg",
+      "sha256": "2991174b2be6ac0d66920c0af096b1a4a7ec5c0fd26fb998f3cdea3c27dbb5a6"
+    },
+    "613": {
+      "image": "proverbs-c028-v013-013-right-context-v1.jpg",
+      "sha256": "0330de92692a83d60c741810e0c125d1a6b5f34d5cbde0e71a01c8f432fa5e9f"
+    },
+    "614": {
+      "image": "proverbs-c028-v014-014-right-context-v1.jpg",
+      "sha256": "f417ac5292b5191270ad3187234bc3e3c0e905599dfd18fa1831a021ced7bf0a"
+    },
+    "615": {
+      "image": "proverbs-c028-v015-015-right-context-v1.jpg",
+      "sha256": "0fdeb1dd055d66ac7187b3e4c7ef50435bfa56ba5c2b35a79a7ba45d67fde74a"
+    },
+    "616": {
+      "image": "proverbs-c028-v016-016-right-context-v1.jpg",
+      "sha256": "2707e8699c0ef167d5ab6208bbd7517f554862582e00b9c30372ec8db49826d6"
+    },
+    "617": {
+      "image": "proverbs-c028-v017-017-right-context-v1.jpg",
+      "sha256": "16f8c041f8a036a1e5bad5bd1d79718b3a3b655219a92bdb9b6d0bb99dbcef2b"
+    },
+    "618": {
+      "image": "proverbs-c028-v018-018-right-context-v1.jpg",
+      "sha256": "13f43feb0ab0559cec3d5b91517daa7770672647498cacaae48a91e34f93e89e"
+    },
+    "619": {
+      "image": "proverbs-c028-v019-019-right-context-v1.jpg",
+      "sha256": "bf880534d99123d75591344a658db78489e736f0c315cedc5e76acfb26d5ec13"
+    },
+    "620": {
+      "image": "proverbs-c028-v020-020-right-context-v1.jpg",
+      "sha256": "66ec658e8789c1b26fe48b27b63bc95129787bd8de08ee9ef9cf1cfe52d5f5cb"
+    },
+    "621": {
+      "image": "proverbs-c028-v021-021-right-context-v1.jpg",
+      "sha256": "a3d2612bae98eb985df01ece57e82bee0387fa5f6a26ecd08a589f704827cd8b"
+    },
+    "622": {
+      "image": "proverbs-c028-v022-022-right-context-v1.jpg",
+      "sha256": "0cf3717a013f04b2202b0215ae10db4477298b6c7888c0ed9987ea4b55e6a6fe"
+    },
+    "623": {
+      "image": "proverbs-c028-v023-023-right-context-v1.jpg",
+      "sha256": "3d97f22d60877d9b680fc8e5d3c092087b9dc8ff38f9d141f5e11a0d1d9fed03"
+    },
+    "624": {
+      "image": "proverbs-c028-v024-024-right-context-v1.jpg",
+      "sha256": "9ba639c68613a6b7bb083dee7f1fc440019363e0dfb096f976153ef2b2ceee49"
+    },
+    "625": {
+      "image": "proverbs-c028-v025-025-right-context-v1.jpg",
+      "sha256": "b65f4ab271dd5d1aaab178df59b37acaf27863c5cba5a1780f2e44a4653275ad"
+    },
+    "626": {
+      "image": "proverbs-c028-v026-026-right-context-v1.jpg",
+      "sha256": "5d6aae6d3f1fb7c2db3689edb6d75be4f709e3e3914be25d48e2d548ae215750"
+    },
+    "627": {
+      "image": "proverbs-c028-v027-027-right-context-v1.jpg",
+      "sha256": "3cd1f651c40a4da54fe4943bc134edc4d3538f8bb0827fd9df23bbeb7f4f8b38"
+    },
+    "628": {
+      "image": "proverbs-c028-v028-028-right-context-v1.jpg",
+      "sha256": "679163a149bcb11e31632e88c3e2b45d022649a0d181586953242b720b58d328"
+    },
+    "629": {
+      "image": "proverbs-c029-v001-001-right-context-v1.jpg",
+      "sha256": "14a08fb98c71ba005f65c03d8144b944a53ac0fae1ebdf736d61e074fe871a4e"
+    },
+    "630": {
+      "image": "proverbs-c029-v002-002-right-context-v1.jpg",
+      "sha256": "9e93d257229d701ab780f2958f0b889ec6bdaa776edad64f1ce225bc7e15a007"
+    },
+    "631": {
+      "image": "proverbs-c029-v003-003-right-context-v1.jpg",
+      "sha256": "9982b492f5afed728edd13f0faa3c1bd77689b5a16afe6c424571ac641ed3483"
+    },
+    "632": {
+      "image": "proverbs-c029-v004-004-right-context-v1.jpg",
+      "sha256": "88690d84b15211097ada681ed06957a9e94162bdc17a8fa28abb969be6ef6fb1"
+    },
+    "633": {
+      "image": "proverbs-c029-v005-005-right-context-v1.jpg",
+      "sha256": "935468a1a4c87c1c856dc02dea661595b19b866580b3ff44711d3e5cbb30c677"
+    },
+    "634": {
+      "image": "proverbs-c029-v006-006-right-context-v1.jpg",
+      "sha256": "cfba9da8cbba79dd023c584abc8eb9fd8cece820e978e36bf28c4df7f6ab7f85"
+    },
+    "635": {
+      "image": "proverbs-c029-v007-007-right-context-v1.jpg",
+      "sha256": "b7c7fe858d63ca199d8ecd7b8aab4ce944ed59000916b62a125d76202b4f61e3"
+    },
+    "636": {
+      "image": "proverbs-c029-v008-008-right-context-v1.jpg",
+      "sha256": "71358ff539618cb78f36b32bbcf9f4e90767efcbd7ae64043a36ff91a74fa249"
+    },
+    "637": {
+      "image": "proverbs-c029-v009-009-right-context-v1.jpg",
+      "sha256": "ae0cf25d49bfa7e3add0c3cc6429d5f1aeef48b1d8a94847d848230a9f7efbf4"
+    },
+    "638": {
+      "image": "proverbs-c029-v010-010-right-context-v1.jpg",
+      "sha256": "19e2836100e8b5894eaf0e0886cd06a813b52d910f48c7250d20999255a1eb44"
+    },
+    "639": {
+      "image": "proverbs-c029-v011-011-right-context-v1.jpg",
+      "sha256": "c4a8291fbaff2a87f2c1cf0a9b86390ed52f39ed736ea9c18f239d92270f9e02"
+    },
+    "640": {
+      "image": "proverbs-c029-v012-012-right-context-v1.jpg",
+      "sha256": "cfdd73a3379ae8643a53244b6c11f56c0fb8feccbfd8c5b00e81d43ab9d3b479"
+    },
+    "641": {
+      "image": "proverbs-c029-v013-013-right-context-v1.jpg",
+      "sha256": "835ad827944a7b9703bb465d033031c2b521a4f2cc2aac9b6fe56c2b0d416be3"
+    },
+    "642": {
+      "image": "proverbs-c029-v014-014-right-context-v1.jpg",
+      "sha256": "6ff042624a36c0c87b762ad9491d648c21472ef22703feca13ca228eb9a495d8"
+    },
+    "643": {
+      "image": "proverbs-c029-v015-015-right-context-v1.jpg",
+      "sha256": "48b2e68f5dfc4bc4e049f4213baabb064b91a39ca7db6a1e3ca65f1f5e5ea85f"
+    },
+    "644": {
+      "image": "proverbs-c029-v016-016-right-context-v1.jpg",
+      "sha256": "0db7ee1d093df85b87d13526c8b5e0c0eef4f57e0c6191a3c363b6f69ff107a7"
+    },
+    "645": {
+      "image": "proverbs-c029-v017-017-right-context-v1.jpg",
+      "sha256": "d1344e290879dbc51e9dee5fa8541ffb2f12f57a27432631ba7322416a21ad7e"
+    },
+    "646": {
+      "image": "proverbs-c029-v018-018-right-context-v1.jpg",
+      "sha256": "63e38eb214cdef527c71284d71c28b221cf37f6b5b738e529de0dacf5c484c30"
+    },
+    "647": {
+      "image": "proverbs-c029-v019-019-right-context-v1.jpg",
+      "sha256": "e771feaa9be2b286f389b4ae848d6e413bf38aff551cd869a73e3f226e421b88"
+    },
+    "648": {
+      "image": "proverbs-c029-v020-020-right-context-v1.jpg",
+      "sha256": "71e96e58e4b71b074603b4dd80b1846494552a9af3d7f02563aeace5dada978e"
+    },
+    "649": {
+      "image": "proverbs-c029-v021-021-right-context-v1.jpg",
+      "sha256": "86bb0c847c75d22033b3b9f81e73ac88e328830dc3795e7ab1d27c6621f8475b"
+    },
+    "650": {
+      "image": "proverbs-c029-v022-022-right-context-v1.jpg",
+      "sha256": "38ccd627e35be6dae6db2b1998c5d2a8eb7f16a86e7ef0de8a59c96b4e17b467"
+    },
+    "651": {
+      "image": "proverbs-c029-v023-023-right-context-v1.jpg",
+      "sha256": "a163a084cda2f68a3efd6d19f953be961ed59dd74a91bd3881c2331eb65f490d"
+    },
+    "652": {
+      "image": "proverbs-c029-v024-024-right-context-v1.jpg",
+      "sha256": "3b9ea92522d6e84f775579a230f13bfd039369eac9eba9dc75e69d6c4aea2270"
+    },
+    "653": {
+      "image": "proverbs-c029-v025-025-right-context-v1.jpg",
+      "sha256": "23f323bc5da7481af7dc8272b8202d43857f268a8dc3d67f550fea63acd6cc04"
+    },
+    "654": {
+      "image": "proverbs-c029-v026-026-right-context-v1.jpg",
+      "sha256": "119af1940811c938db2baefcacc148a830991687ea18cd766a5b055cad82d755"
+    },
+    "655": {
+      "image": "proverbs-c029-v027-027-right-context-v1.jpg",
+      "sha256": "17853f7670353d37aac762962e6386d68d78075d9a8f37a0d705f12b324afe12"
+    },
+    "656": {
+      "image": "proverbs-c030-v001-001-right-context-v1.jpg",
+      "sha256": "6b51133c6fd7598fccae3d3a89becf50f3797f0fec3110424d7c823064e633f8"
+    },
+    "657": {
+      "image": "proverbs-c030-v002-003-right-context-v1.jpg",
+      "sha256": "7d6607faad4399bbb35c3afd3301cc97073b8ef6c1f2eb9902ee2dafce5ae7ae"
+    },
+    "658": {
+      "image": "proverbs-c030-v004-004-right-context-v1.jpg",
+      "sha256": "3708ca7c15cc8f4828167ae70e9d7bdb4a95d961064ac33586916b5c1f5c1851"
+    },
+    "659": {
+      "image": "proverbs-c030-v005-005-right-context-v1.jpg",
+      "sha256": "526b7cb3a328e98af49844cd571c4041994ba3cba0a899dbd8374ad2e47a129e"
+    },
+    "660": {
+      "image": "proverbs-c030-v006-006-right-context-v1.jpg",
+      "sha256": "4bbe5c5c90b4bcd24a187472691d8d6d19cecf15dc8c293c338c2a5851fa18e4"
+    },
+    "661": {
+      "image": "proverbs-c030-v007-009-right-context-v1.jpg",
+      "sha256": "eb83926386a79b6d1c37ad5f69eaf15b4973d6cf6001d9f729867daee3fcf456"
+    },
+    "662": {
+      "image": "proverbs-c030-v010-010-right-context-v1.jpg",
+      "sha256": "5b38e47946658173eedaf907d58af7bf0e00c6c0d806618dd2a6ef09a13c514e"
+    },
+    "663": {
+      "image": "proverbs-c030-v011-011-right-context-v1.jpg",
+      "sha256": "de7ccb71dd9b367d247071e799ff84f3477961504e81d5b5f6fdaaeba69c0703"
+    },
+    "664": {
+      "image": "proverbs-c030-v012-012-right-context-v1.jpg",
+      "sha256": "f5e501a700511bad021d553c3feba9d029dc17cd272354ee0e3b71496eebedc3"
+    },
+    "665": {
+      "image": "proverbs-c030-v013-013-right-context-v1.jpg",
+      "sha256": "44eed44e08cb12ecb9a649b2f36023a56886a77bfd7a9ecd0455932642c51323"
+    },
+    "666": {
+      "image": "proverbs-c030-v014-014-right-context-v1.jpg",
+      "sha256": "33f81dcf76a59ff6fa0562662b50096f464133cb54d1acf07e667ba68112a3f2"
+    },
+    "667": {
+      "image": "proverbs-c030-v015-015-right-context-v1.jpg",
+      "sha256": "b32ea4c001966d3302150df1951ec430abf793df8694c0d9c188e72b2ad689f7"
+    },
+    "668": {
+      "image": "proverbs-c030-v016-016-right-context-v1.jpg",
+      "sha256": "bacefd888098c02cce2386f8eec56dceffe8809c41564cab077381e51e0ac6ae"
+    },
+    "669": {
+      "image": "proverbs-c030-v017-017-right-context-v1.jpg",
+      "sha256": "6bebf9e013b8784dff92eaa558254c03285907c25be366396262aec9d6479a32"
+    },
+    "670": {
+      "image": "proverbs-c030-v018-019-right-context-v1.jpg",
+      "sha256": "f22aa3597deb9d6bde45f3de8ee8a821f5c48e881dda38cc32dc35816ee8fa99"
+    },
+    "671": {
+      "image": "proverbs-c030-v020-020-right-context-v1.jpg",
+      "sha256": "14a14e64f14f2d430e56b28703d4129cbbbb7bc5adef07fb26e1e0c9431b744d"
+    },
+    "672": {
+      "image": "proverbs-c030-v021-023-right-context-v1.jpg",
+      "sha256": "a1e0712b89f0b64f7e85c5847cdd7b6959c2ca9fa270bb6f5d27111019c56bd4"
+    },
+    "673": {
+      "image": "proverbs-c030-v024-024-right-context-v1.jpg",
+      "sha256": "ddea7349873cd04ed5f64a40fef7d9385b43862da02352eaf14286b84aca68db"
+    },
+    "674": {
+      "image": "proverbs-c030-v025-025-right-context-v1.jpg",
+      "sha256": "41055c52a3718cf8a5a737b78430f131b026865d01995e6c7536e9849c2655b4"
+    },
+    "675": {
+      "image": "proverbs-c030-v026-026-right-context-v1.jpg",
+      "sha256": "5ab1516fdd760f810d67178c0202938d164f956aa6ab9aa4f33692e0bf9d198c"
+    },
+    "676": {
+      "image": "proverbs-c030-v027-027-right-context-v1.jpg",
+      "sha256": "7d4e230c119e9b70eaceb221fa10c78bc9e0c33bf9d0cace5197f71518a3bea7"
+    },
+    "677": {
+      "image": "proverbs-c030-v028-028-right-context-v1.jpg",
+      "sha256": "d9800ed7c1a36c779a656894181930f69be50dba3621a63ebdea7eb37bf5fc9c"
+    },
+    "678": {
+      "image": "proverbs-c030-v029-030-right-context-v1.jpg",
+      "sha256": "bd3b6756a6d79790be0895a88dc8c36576568df998aad2832414e1d653c0e94f"
+    },
+    "679": {
+      "image": "proverbs-c030-v031-031-right-context-v1.jpg",
+      "sha256": "7dc5979da17f63f010497e86e3fb5f3ec5b0d7b32d386da6c72200462f7df9d3"
+    },
+    "680": {
+      "image": "proverbs-c030-v032-032-right-context-v1.jpg",
+      "sha256": "3aa1f3cabd18a64e8b3105ab8b9fb330f00db3a398554f375c847ae7bacabbf9"
+    },
+    "681": {
+      "image": "proverbs-c030-v033-033-right-context-v1.jpg",
+      "sha256": "bbce2c3390fbec29a32f0e7f8f8f4fff935b098db5c39e33347c4b5490fcccfe"
+    },
+    "682": {
+      "image": "proverbs-c031-v001-003-right-context-v1.jpg",
+      "sha256": "7a58e027f450be0e908598a9f62425289199575ccde1fd33a3eb14af7dde2bd9"
+    },
+    "683": {
+      "image": "proverbs-c031-v004-005-right-context-vessels-v2.jpg",
+      "sha256": "7cc1c88c9f38eb0b8dc41da7915418eb5bca0488f1a6bd8cf0570b443e3174dd"
+    },
+    "684": {
+      "image": "proverbs-c031-v006-007-right-context-v1.jpg",
+      "sha256": "6061d3787e488420b104f79cbd800b502806eb89d914e39d0b49a6db1f3e0331"
+    },
+    "685": {
+      "image": "proverbs-c031-v008-009-right-context-v1.jpg",
+      "sha256": "7ea87475e6e0fdbe2f1e3a417c3bc783d692ff39384938c7ea83cea71a7e5d7d"
+    },
+    "686": {
+      "image": "proverbs-c031-v010-010-right-context-v1.jpg",
+      "sha256": "fad0b84d45fda4dbfb0ed62ccb96cf30e15beac8f6cf68a43fdcbcc7a8bfb0d9"
+    },
+    "687": {
+      "image": "proverbs-c031-v011-012-right-context-v1.jpg",
+      "sha256": "0bc6865d9936e53957d6dc20cbfe9987e8f2669d1d1935e2b6540aee9589e12f"
+    },
+    "688": {
+      "image": "proverbs-c031-v013-013-right-context-v1.jpg",
+      "sha256": "826a449ca3185aaa9b0f30157a032d510cadc17edb271e9329077414eb77e4c5"
+    },
+    "689": {
+      "image": "proverbs-c031-v014-014-right-context-v1.jpg",
+      "sha256": "46324dbd448a6cbb7a094692244414fc31ef05ff81313352e9655f5207a17ab7"
+    },
+    "690": {
+      "image": "proverbs-c031-v015-015-right-context-v1.jpg",
+      "sha256": "7adc36491ea08a9ddf39b1ac72d0aee1bc6561eb497476ea4c4f768dcdeba832"
+    },
+    "691": {
+      "image": "proverbs-c031-v016-016-right-context-v1.jpg",
+      "sha256": "fa5fb3ccae8459ad781dd9f0c628d4c2bda082fa5504a25d9721295e2643f4a3"
+    },
+    "692": {
+      "image": "proverbs-c031-v017-017-right-context-v1.jpg",
+      "sha256": "11705367604f6fceb4a7ceba8efef73a679f1109b00270fb18b2d9408587bad1"
+    },
+    "693": {
+      "image": "proverbs-c031-v018-018-right-context-v1.jpg",
+      "sha256": "a019f029a28d075137e6a591fa25afcdb311c6c92ba13f207a09ee81f6f919dc"
+    },
+    "694": {
+      "image": "proverbs-c031-v019-019-right-context-v1.jpg",
+      "sha256": "f4c3da174114c56d4e17075d93933501e29e11ab5d3e165af846c5c2e5a87c1b"
+    },
+    "695": {
+      "image": "proverbs-c031-v020-020-right-context-v1.jpg",
+      "sha256": "7e34dbfe45ddb88a04787f0aa07f3831ad7e82c90574ed721dccad42aa43b386"
+    },
+    "696": {
+      "image": "proverbs-c031-v021-021-right-context-v1.jpg",
+      "sha256": "c57627bb6b5913fddfa6a9d8ff93848ab209a33c395bd227c46c8c72420740c7"
+    },
+    "697": {
+      "image": "proverbs-c031-v022-022-right-context-v1.jpg",
+      "sha256": "31b148e34388846e86ea2061c0b790baa0150a734cca4718241a550271b37abb"
+    },
+    "698": {
+      "image": "proverbs-c031-v023-023-right-context-v1.jpg",
+      "sha256": "ea61172628a62d6bfacce761d77dd2703541963096e3e7645ab833473f11f04f"
+    },
+    "699": {
+      "image": "proverbs-c031-v024-024-right-context-v1.jpg",
+      "sha256": "c98baeb34925c96860373817914e706243e9b58bfd1d3e51184e8e5dfd4fe567"
+    },
+    "700": {
+      "image": "proverbs-c031-v025-025-right-context-v1.jpg",
+      "sha256": "e673d04ec457f992377e38f2e9835945260341d2c04177c74e2443a23aa975ab"
+    },
+    "701": {
+      "image": "proverbs-c031-v026-026-right-context-v1.jpg",
+      "sha256": "cc887db84589a490f20f482ebda476ed17fcbe54320178db73f27a58cafb8ac4"
+    },
+    "702": {
+      "image": "proverbs-c031-v027-027-right-context-v1.jpg",
+      "sha256": "a2544adaeb8fdb9c118fb9114a8179f9dc491007911dc4b207d6ef15ce6a9815"
+    },
+    "703": {
+      "image": "proverbs-c031-v028-029-right-context-v1.jpg",
+      "sha256": "d79b430bbc0d46f80d11f3c933c29d35f91a5fc6d50cd66235705649fe95aaaa"
+    },
+    "704": {
+      "image": "proverbs-c031-v030-030-right-context-v1.jpg",
+      "sha256": "09d4f09be90cdfa5ab178ea4ad2e203b334a254c89526e37ece52edcf2e93733"
+    },
+    "705": {
+      "image": "proverbs-c031-v031-031-right-context-v1.jpg",
+      "sha256": "961985bf3c9ecdb5df8c7dfdae52fa78988342d2245e9a4715e7be23beb2fb3c"
     }
   },
   "redraw": [],
   "redrawReasons": {
-    "457": "Full image inspection found multiple modern-looking transparent green oil bottles; replace all with opaque handmade ancient terracotta storage jars, preserving person and composition."
+    "457": "Full image inspection found multiple modern-looking transparent green oil bottles; replace all with opaque handmade ancient terracotta storage jars, preserving person and composition.",
+    "592": "Actual full-size inspection found a pale geometric emblem at the extreme lower-right; preserve identity and remove the mark in a versioned image edit.",
+    "683": "Actual full-size QA found modern-looking glossy transparent wine vessels on the servant tray; replace with opaque handmade terracotta vessels."
   },
   "resolvedRedraws": {
     "457": {
@@ -3677,6 +4266,20 @@
       "replacement": {
         "image": "proverbs-c021-v020-020-right-context-storage-v2.jpg",
         "sha256": "6e10c446545567f0ef2733637ded28353d1105d9498584ca3caa9ff70130e177"
+      }
+    },
+    "592": {
+      "reason": "Actual full-size inspection found a pale geometric emblem at the extreme lower-right; preserve identity and remove the mark in a versioned image edit.",
+      "replacement": {
+        "image": "proverbs-c027-v017-017-right-context-clean-v2.jpg",
+        "sha256": "7b0a4c479909ec49686e77f622049b11e5d0129af74b0b3cd148cb331fb40d39"
+      }
+    },
+    "683": {
+      "reason": "Actual full-size QA found modern-looking glossy transparent wine vessels on the servant tray; replace with opaque handmade terracotta vessels.",
+      "replacement": {
+        "image": "proverbs-c031-v004-005-right-context-vessels-v2.jpg",
+        "sha256": "7cc1c88c9f38eb0b8dc41da7915418eb5bca0488f1a6bd8cf0570b443e3174dd"
       }
     }
   }
