@@ -417,3 +417,6 @@ body.touch-selection #reader p.is-selected .verse-text{background:#dfc78445;box-
 #visual{color:transparent}
 /* keep-all keeps Korean words together; Japanese and Chinese have no spaces, so they must break between characters. */
 html:lang(ja) *,html:lang(zh) *{word-break:normal!important;line-break:strict}
+/* The reader fills the window edge to edge on every width: no side gutters, bottom gap or rounded frame. */
+.reading-workspace{padding-left:0;padding-right:0;padding-bottom:0}
+#visual-stage{border-radius:0}
