@@ -1,0 +1,898 @@
+{
+  "book": "ecclesiastes",
+  "images": [
+    {
+      "id": 1,
+      "image": "ecclesiastes-c001-v001-003-right-context-v1.jpg",
+      "sha256": "9d9c21b0263d83b067c8246a85b2a685ea37edc5fe7683903d2ed3c3cffaa8f9",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:44:00.818928+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-001-010.jpg",
+      "fullSizeReviewedIds": [
+        1,
+        5
+      ],
+      "findings": "Actually viewed contact sheet1–10 plus full1,5,10. Selected1–9 show bright natural photographic material, readable restrained faces and plausible hands. Scene1 openhand/cup/circlet;5 tired brow/scrolls checked full. Literary scenes interpret passage themes rather than exact narrated events. Scene10 held for period key correction, not approved here."
+    },
+    {
+      "id": 2,
+      "image": "ecclesiastes-c001-v004-007-right-context-v1.jpg",
+      "sha256": "a644a0c134bcb6adec130925a66b088bc0d1821c7e29236b9c5665dab0028f00",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:44:00.818928+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-001-010.jpg",
+      "fullSizeReviewedIds": [
+        1,
+        5
+      ],
+      "findings": "Actually viewed contact sheet1–10 plus full1,5,10. Selected1–9 show bright natural photographic material, readable restrained faces and plausible hands. Scene1 openhand/cup/circlet;5 tired brow/scrolls checked full. Literary scenes interpret passage themes rather than exact narrated events. Scene10 held for period key correction, not approved here."
+    },
+    {
+      "id": 3,
+      "image": "ecclesiastes-c001-v008-011-right-context-v1.jpg",
+      "sha256": "5aa2eb87b8643e347e8ffb976c7f32d1b80d168bff9de7049e7189d04aad32cf",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:44:00.818928+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-001-010.jpg",
+      "fullSizeReviewedIds": [
+        1,
+        5
+      ],
+      "findings": "Actually viewed contact sheet1–10 plus full1,5,10. Selected1–9 show bright natural photographic material, readable restrained faces and plausible hands. Scene1 openhand/cup/circlet;5 tired brow/scrolls checked full. Literary scenes interpret passage themes rather than exact narrated events. Scene10 held for period key correction, not approved here."
+    },
+    {
+      "id": 4,
+      "image": "ecclesiastes-c001-v012-015-right-context-v1.jpg",
+      "sha256": "eb3df719a245b02c5885b597c114f324e1e95be56c8d3d0257db979e4d74af39",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:44:00.818928+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-001-010.jpg",
+      "fullSizeReviewedIds": [
+        1,
+        5
+      ],
+      "findings": "Actually viewed contact sheet1–10 plus full1,5,10. Selected1–9 show bright natural photographic material, readable restrained faces and plausible hands. Scene1 openhand/cup/circlet;5 tired brow/scrolls checked full. Literary scenes interpret passage themes rather than exact narrated events. Scene10 held for period key correction, not approved here."
+    },
+    {
+      "id": 5,
+      "image": "ecclesiastes-c001-v016-018-right-context-v1.jpg",
+      "sha256": "3fe1d9400eed185e6e37fa3b7107b0cd8efdf1f76828bacde51c93d887c3e798",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:44:00.818928+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-001-010.jpg",
+      "fullSizeReviewedIds": [
+        1,
+        5
+      ],
+      "findings": "Actually viewed contact sheet1–10 plus full1,5,10. Selected1–9 show bright natural photographic material, readable restrained faces and plausible hands. Scene1 openhand/cup/circlet;5 tired brow/scrolls checked full. Literary scenes interpret passage themes rather than exact narrated events. Scene10 held for period key correction, not approved here."
+    },
+    {
+      "id": 6,
+      "image": "ecclesiastes-c002-v001-003-right-context-v1.jpg",
+      "sha256": "eb7bd38cca94d33b7ddad7a9253ba56d11e402ac5be5efd3d97dd0eeef5df204",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:44:00.818928+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-001-010.jpg",
+      "fullSizeReviewedIds": [
+        1,
+        5
+      ],
+      "findings": "Actually viewed contact sheet1–10 plus full1,5,10. Selected1–9 show bright natural photographic material, readable restrained faces and plausible hands. Scene1 openhand/cup/circlet;5 tired brow/scrolls checked full. Literary scenes interpret passage themes rather than exact narrated events. Scene10 held for period key correction, not approved here."
+    },
+    {
+      "id": 7,
+      "image": "ecclesiastes-c002-v004-006-right-context-v1.jpg",
+      "sha256": "918a6db8880b7497f098a124af5ea822a3fcba6961ceac9c00bc2b5386445753",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:44:00.818928+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-001-010.jpg",
+      "fullSizeReviewedIds": [
+        1,
+        5
+      ],
+      "findings": "Actually viewed contact sheet1–10 plus full1,5,10. Selected1–9 show bright natural photographic material, readable restrained faces and plausible hands. Scene1 openhand/cup/circlet;5 tired brow/scrolls checked full. Literary scenes interpret passage themes rather than exact narrated events. Scene10 held for period key correction, not approved here."
+    },
+    {
+      "id": 8,
+      "image": "ecclesiastes-c002-v007-011-right-context-v1.jpg",
+      "sha256": "32c8c7d7ad8e192d3b76cbd0de3dddf946c677072525e73ebf5aa63369fa5928",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:44:00.818928+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-001-010.jpg",
+      "fullSizeReviewedIds": [
+        1,
+        5
+      ],
+      "findings": "Actually viewed contact sheet1–10 plus full1,5,10. Selected1–9 show bright natural photographic material, readable restrained faces and plausible hands. Scene1 openhand/cup/circlet;5 tired brow/scrolls checked full. Literary scenes interpret passage themes rather than exact narrated events. Scene10 held for period key correction, not approved here."
+    },
+    {
+      "id": 9,
+      "image": "ecclesiastes-c002-v012-016-right-context-v1.jpg",
+      "sha256": "60e0383ec2ac88adf23acc9c1911bb33d34882679ee3ad6d39b182b368eb0153",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:44:00.818928+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-001-010.jpg",
+      "fullSizeReviewedIds": [
+        1,
+        5
+      ],
+      "findings": "Actually viewed contact sheet1–10 plus full1,5,10. Selected1–9 show bright natural photographic material, readable restrained faces and plausible hands. Scene1 openhand/cup/circlet;5 tired brow/scrolls checked full. Literary scenes interpret passage themes rather than exact narrated events. Scene10 held for period key correction, not approved here."
+    },
+    {
+      "id": 10,
+      "image": "ecclesiastes-c002-v017-021-right-context-props-v2.jpg",
+      "sha256": "5ee0b82e8accb610c3201d25672bc4a428ec156ceb964923c725577b67effa2f",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:53:19.993448+00:00",
+      "evidence": "assets/ecclesiastes-c002-v017-021-right-context-props-v2.jpg",
+      "fullSizeReviewedIds": [
+        10
+      ],
+      "findings": "Actually inspected v1 and full v2. Metal skeleton key replaced by simple wooden shaft with three wooden pegs. Original faces, successor open hand, older giver grip, linen, vineyard and light maintained. Current v2 approved; v1 retained as prior rejected prop version."
+    },
+    {
+      "id": 11,
+      "image": "ecclesiastes-c002-v022-023-right-context-v1.jpg",
+      "sha256": "abeccde78457abea18a12c63de6b073f8b0cd526c3afbf0e1b5d7d1f606459d5",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:48:47.841435+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-011-020.jpg",
+      "fullSizeReviewedIds": [
+        11,
+        14,
+        19
+      ],
+      "findings": "Actually viewed all10 on contact and11,14,19 full. Night11 remains recognizable with readable weary eyes and clay open wick lamp.14 embrace shows held tears, natural hands and dignity.19 wooden joint grip/face checked full.16 spring blossoms and thoughtful wonder;18 indifferent judge contrasts petition. No graphic violence or raster text. Passage time-poem depicted through selected representative moments, not exhaustive literal montage."
+    },
+    {
+      "id": 12,
+      "image": "ecclesiastes-c002-v024-026-right-context-v1.jpg",
+      "sha256": "9d0a8d085eddcf794ffadcc70ebdb65694d5e9cbd5b281e6ba15c982eb6672a6",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:48:47.841435+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-011-020.jpg",
+      "fullSizeReviewedIds": [
+        11,
+        14,
+        19
+      ],
+      "findings": "Actually viewed all10 on contact and11,14,19 full. Night11 remains recognizable with readable weary eyes and clay open wick lamp.14 embrace shows held tears, natural hands and dignity.19 wooden joint grip/face checked full.16 spring blossoms and thoughtful wonder;18 indifferent judge contrasts petition. No graphic violence or raster text. Passage time-poem depicted through selected representative moments, not exhaustive literal montage."
+    },
+    {
+      "id": 13,
+      "image": "ecclesiastes-c003-v001-003-right-context-v1.jpg",
+      "sha256": "26d7d168b50e319ac5b0372d129b9c2c40530750d04ab530badbedf664e953db",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:48:47.841435+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-011-020.jpg",
+      "fullSizeReviewedIds": [
+        11,
+        14,
+        19
+      ],
+      "findings": "Actually viewed all10 on contact and11,14,19 full. Night11 remains recognizable with readable weary eyes and clay open wick lamp.14 embrace shows held tears, natural hands and dignity.19 wooden joint grip/face checked full.16 spring blossoms and thoughtful wonder;18 indifferent judge contrasts petition. No graphic violence or raster text. Passage time-poem depicted through selected representative moments, not exhaustive literal montage."
+    },
+    {
+      "id": 14,
+      "image": "ecclesiastes-c003-v004-005-right-context-v1.jpg",
+      "sha256": "4645b8f1a8bfcabf3799a132f3f563aef4cc21e87f070a50f853ecdcdf20e8d5",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:48:47.841435+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-011-020.jpg",
+      "fullSizeReviewedIds": [
+        11,
+        14,
+        19
+      ],
+      "findings": "Actually viewed all10 on contact and11,14,19 full. Night11 remains recognizable with readable weary eyes and clay open wick lamp.14 embrace shows held tears, natural hands and dignity.19 wooden joint grip/face checked full.16 spring blossoms and thoughtful wonder;18 indifferent judge contrasts petition. No graphic violence or raster text. Passage time-poem depicted through selected representative moments, not exhaustive literal montage."
+    },
+    {
+      "id": 15,
+      "image": "ecclesiastes-c003-v006-008-right-context-v1.jpg",
+      "sha256": "bdefe05939d98d58ca372897cd14b14144c257d52051365d136971cefb9fcaeb",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:48:47.841435+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-011-020.jpg",
+      "fullSizeReviewedIds": [
+        11,
+        14,
+        19
+      ],
+      "findings": "Actually viewed all10 on contact and11,14,19 full. Night11 remains recognizable with readable weary eyes and clay open wick lamp.14 embrace shows held tears, natural hands and dignity.19 wooden joint grip/face checked full.16 spring blossoms and thoughtful wonder;18 indifferent judge contrasts petition. No graphic violence or raster text. Passage time-poem depicted through selected representative moments, not exhaustive literal montage."
+    },
+    {
+      "id": 16,
+      "image": "ecclesiastes-c003-v009-011-right-context-v1.jpg",
+      "sha256": "329a19846226b8a4fe5c9d76798b301c8dabd1bd041c1470e8870f55a53069ad",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:48:47.841435+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-011-020.jpg",
+      "fullSizeReviewedIds": [
+        11,
+        14,
+        19
+      ],
+      "findings": "Actually viewed all10 on contact and11,14,19 full. Night11 remains recognizable with readable weary eyes and clay open wick lamp.14 embrace shows held tears, natural hands and dignity.19 wooden joint grip/face checked full.16 spring blossoms and thoughtful wonder;18 indifferent judge contrasts petition. No graphic violence or raster text. Passage time-poem depicted through selected representative moments, not exhaustive literal montage."
+    },
+    {
+      "id": 17,
+      "image": "ecclesiastes-c003-v012-015-right-context-v1.jpg",
+      "sha256": "e37bf02370c1ff5c3dd6403d9aa018b51469f458474eb474afaafd892621137d",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:48:47.841435+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-011-020.jpg",
+      "fullSizeReviewedIds": [
+        11,
+        14,
+        19
+      ],
+      "findings": "Actually viewed all10 on contact and11,14,19 full. Night11 remains recognizable with readable weary eyes and clay open wick lamp.14 embrace shows held tears, natural hands and dignity.19 wooden joint grip/face checked full.16 spring blossoms and thoughtful wonder;18 indifferent judge contrasts petition. No graphic violence or raster text. Passage time-poem depicted through selected representative moments, not exhaustive literal montage."
+    },
+    {
+      "id": 18,
+      "image": "ecclesiastes-c003-v016-021-right-context-v1.jpg",
+      "sha256": "84716e6fb0921d586d4ac5a564828485cb7d9b24a461772bdf9e0c6cf64ebede",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:48:47.841435+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-011-020.jpg",
+      "fullSizeReviewedIds": [
+        11,
+        14,
+        19
+      ],
+      "findings": "Actually viewed all10 on contact and11,14,19 full. Night11 remains recognizable with readable weary eyes and clay open wick lamp.14 embrace shows held tears, natural hands and dignity.19 wooden joint grip/face checked full.16 spring blossoms and thoughtful wonder;18 indifferent judge contrasts petition. No graphic violence or raster text. Passage time-poem depicted through selected representative moments, not exhaustive literal montage."
+    },
+    {
+      "id": 19,
+      "image": "ecclesiastes-c003-v022-022-right-context-v1.jpg",
+      "sha256": "a2ebc040a25bc30270a32224a7323e6083c1a446c1eb8d7ff477767b17175e31",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:48:47.841435+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-011-020.jpg",
+      "fullSizeReviewedIds": [
+        11,
+        14,
+        19
+      ],
+      "findings": "Actually viewed all10 on contact and11,14,19 full. Night11 remains recognizable with readable weary eyes and clay open wick lamp.14 embrace shows held tears, natural hands and dignity.19 wooden joint grip/face checked full.16 spring blossoms and thoughtful wonder;18 indifferent judge contrasts petition. No graphic violence or raster text. Passage time-poem depicted through selected representative moments, not exhaustive literal montage."
+    },
+    {
+      "id": 20,
+      "image": "ecclesiastes-c004-v001-003-right-context-v1.jpg",
+      "sha256": "8c61b0726c87add60894e6a3dfc6e3966d852b5dff7ae19898a7a20c2dcb69f6",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:48:47.841435+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-011-020.jpg",
+      "fullSizeReviewedIds": [
+        11,
+        14,
+        19
+      ],
+      "findings": "Actually viewed all10 on contact and11,14,19 full. Night11 remains recognizable with readable weary eyes and clay open wick lamp.14 embrace shows held tears, natural hands and dignity.19 wooden joint grip/face checked full.16 spring blossoms and thoughtful wonder;18 indifferent judge contrasts petition. No graphic violence or raster text. Passage time-poem depicted through selected representative moments, not exhaustive literal montage."
+    },
+    {
+      "id": 21,
+      "image": "ecclesiastes-c004-v004-006-right-context-v1.jpg",
+      "sha256": "a8909c884bd2062c27411e9b54af106f7738cce5bd55e4e6ee8361ba1389b128",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:53:19.934146+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-021-029.jpg",
+      "fullSizeReviewedIds": [
+        23,
+        26
+      ],
+      "findings": "Actually reviewed9 selected images contact,23,26 full.23 stable feet/kneeling and supportive hand grip, relief mutual eyelines;26 basket supported naturally by both hands, sincere gaze.22 lone merchant/empty stool conveys isolation;25 listening temple encounter;28 readable moon/clay flame night;29 loss without undressing or body spectacle. Bright coherent physical depth, varied candid framing."
+    },
+    {
+      "id": 22,
+      "image": "ecclesiastes-c004-v007-008-right-context-v1.jpg",
+      "sha256": "854d4205352f7c358841461d6940b34951821639bab9f91bcb2eb1eaef1b3215",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:53:19.934146+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-021-029.jpg",
+      "fullSizeReviewedIds": [
+        23,
+        26
+      ],
+      "findings": "Actually reviewed9 selected images contact,23,26 full.23 stable feet/kneeling and supportive hand grip, relief mutual eyelines;26 basket supported naturally by both hands, sincere gaze.22 lone merchant/empty stool conveys isolation;25 listening temple encounter;28 readable moon/clay flame night;29 loss without undressing or body spectacle. Bright coherent physical depth, varied candid framing."
+    },
+    {
+      "id": 23,
+      "image": "ecclesiastes-c004-v009-012-right-context-v1.jpg",
+      "sha256": "34a554e7a9983cacdb7023a011fa900590478cafecb2ec1761cb61d5482d05b6",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:53:19.934146+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-021-029.jpg",
+      "fullSizeReviewedIds": [
+        23,
+        26
+      ],
+      "findings": "Actually reviewed9 selected images contact,23,26 full.23 stable feet/kneeling and supportive hand grip, relief mutual eyelines;26 basket supported naturally by both hands, sincere gaze.22 lone merchant/empty stool conveys isolation;25 listening temple encounter;28 readable moon/clay flame night;29 loss without undressing or body spectacle. Bright coherent physical depth, varied candid framing."
+    },
+    {
+      "id": 24,
+      "image": "ecclesiastes-c004-v013-016-right-context-v1.jpg",
+      "sha256": "b317851c8aab691247a0ed5534875ccbc8331656810b439534bc726597f662f7",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:53:19.934146+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-021-029.jpg",
+      "fullSizeReviewedIds": [
+        23,
+        26
+      ],
+      "findings": "Actually reviewed9 selected images contact,23,26 full.23 stable feet/kneeling and supportive hand grip, relief mutual eyelines;26 basket supported naturally by both hands, sincere gaze.22 lone merchant/empty stool conveys isolation;25 listening temple encounter;28 readable moon/clay flame night;29 loss without undressing or body spectacle. Bright coherent physical depth, varied candid framing."
+    },
+    {
+      "id": 25,
+      "image": "ecclesiastes-c005-v001-003-right-context-v1.jpg",
+      "sha256": "df2a27539f845d18a2af7b560a861975181a03355c6b3e0b56ef071f29e4837d",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:53:19.934146+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-021-029.jpg",
+      "fullSizeReviewedIds": [
+        23,
+        26
+      ],
+      "findings": "Actually reviewed9 selected images contact,23,26 full.23 stable feet/kneeling and supportive hand grip, relief mutual eyelines;26 basket supported naturally by both hands, sincere gaze.22 lone merchant/empty stool conveys isolation;25 listening temple encounter;28 readable moon/clay flame night;29 loss without undressing or body spectacle. Bright coherent physical depth, varied candid framing."
+    },
+    {
+      "id": 26,
+      "image": "ecclesiastes-c005-v004-007-right-context-v1.jpg",
+      "sha256": "71c2e1eb8afb59f7895454bb880df97edcafbe07a95af4b7ac22f34a9f041304",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:53:19.934146+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-021-029.jpg",
+      "fullSizeReviewedIds": [
+        23,
+        26
+      ],
+      "findings": "Actually reviewed9 selected images contact,23,26 full.23 stable feet/kneeling and supportive hand grip, relief mutual eyelines;26 basket supported naturally by both hands, sincere gaze.22 lone merchant/empty stool conveys isolation;25 listening temple encounter;28 readable moon/clay flame night;29 loss without undressing or body spectacle. Bright coherent physical depth, varied candid framing."
+    },
+    {
+      "id": 27,
+      "image": "ecclesiastes-c005-v008-009-right-context-v1.jpg",
+      "sha256": "a1e92dce4c79502e63798b932f29809ab3b5748d8f04f82eac974e0dee338836",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:53:19.934146+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-021-029.jpg",
+      "fullSizeReviewedIds": [
+        23,
+        26
+      ],
+      "findings": "Actually reviewed9 selected images contact,23,26 full.23 stable feet/kneeling and supportive hand grip, relief mutual eyelines;26 basket supported naturally by both hands, sincere gaze.22 lone merchant/empty stool conveys isolation;25 listening temple encounter;28 readable moon/clay flame night;29 loss without undressing or body spectacle. Bright coherent physical depth, varied candid framing."
+    },
+    {
+      "id": 28,
+      "image": "ecclesiastes-c005-v010-012-right-context-v1.jpg",
+      "sha256": "3c751b5debb7df5c0ed91e8a054b77430f9aa0803431a77ab27b8dac4eb93f74",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:53:19.934146+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-021-029.jpg",
+      "fullSizeReviewedIds": [
+        23,
+        26
+      ],
+      "findings": "Actually reviewed9 selected images contact,23,26 full.23 stable feet/kneeling and supportive hand grip, relief mutual eyelines;26 basket supported naturally by both hands, sincere gaze.22 lone merchant/empty stool conveys isolation;25 listening temple encounter;28 readable moon/clay flame night;29 loss without undressing or body spectacle. Bright coherent physical depth, varied candid framing."
+    },
+    {
+      "id": 29,
+      "image": "ecclesiastes-c005-v013-017-right-context-v1.jpg",
+      "sha256": "1104ff61711700633b75fffa66554b7132a117b1103fa7bbdafe2d8559884060",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:53:19.934146+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-021-029.jpg",
+      "fullSizeReviewedIds": [
+        23,
+        26
+      ],
+      "findings": "Actually reviewed9 selected images contact,23,26 full.23 stable feet/kneeling and supportive hand grip, relief mutual eyelines;26 basket supported naturally by both hands, sincere gaze.22 lone merchant/empty stool conveys isolation;25 listening temple encounter;28 readable moon/clay flame night;29 loss without undressing or body spectacle. Bright coherent physical depth, varied candid framing."
+    },
+    {
+      "id": 30,
+      "image": "ecclesiastes-c005-v018-020-right-context-v1.jpg",
+      "sha256": "6924cfac0d6785871bdc29c614817d2d4f4c5390b615d1715c1d6f05166d68fe",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:59:02.508262+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-030-039.jpg",
+      "fullSizeReviewedIds": [
+        35,
+        38
+      ],
+      "findings": "Actually viewed all10 contact plus35,38 full.30 daily meal responsive joy contrasts31 solitary unsatisfied host;32 empty chair reflective absence.35 mourning visitor and comforting elder, natural forearm contact and moist thoughtful eyes, no visible corpse.38 storm-broken branch hands and neutral clearing daylight verified.36 listener correction,37 restrained response,39 humble conversation. No raster lettering or overt modern props. Mortality/contrasts interpreted via single representative instant."
+    },
+    {
+      "id": 31,
+      "image": "ecclesiastes-c006-v001-002-right-context-v1.jpg",
+      "sha256": "776b90fb679337abbfef3872927a621397fe045fe0a03a9577831b51bc30528a",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:59:02.508262+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-030-039.jpg",
+      "fullSizeReviewedIds": [
+        35,
+        38
+      ],
+      "findings": "Actually viewed all10 contact plus35,38 full.30 daily meal responsive joy contrasts31 solitary unsatisfied host;32 empty chair reflective absence.35 mourning visitor and comforting elder, natural forearm contact and moist thoughtful eyes, no visible corpse.38 storm-broken branch hands and neutral clearing daylight verified.36 listener correction,37 restrained response,39 humble conversation. No raster lettering or overt modern props. Mortality/contrasts interpreted via single representative instant."
+    },
+    {
+      "id": 32,
+      "image": "ecclesiastes-c006-v003-006-right-context-v1.jpg",
+      "sha256": "eb4a6181a16f6cc0d02b94066078350a561c8b136b9562af96b84b97986e2fb3",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:59:02.508262+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-030-039.jpg",
+      "fullSizeReviewedIds": [
+        35,
+        38
+      ],
+      "findings": "Actually viewed all10 contact plus35,38 full.30 daily meal responsive joy contrasts31 solitary unsatisfied host;32 empty chair reflective absence.35 mourning visitor and comforting elder, natural forearm contact and moist thoughtful eyes, no visible corpse.38 storm-broken branch hands and neutral clearing daylight verified.36 listener correction,37 restrained response,39 humble conversation. No raster lettering or overt modern props. Mortality/contrasts interpreted via single representative instant."
+    },
+    {
+      "id": 33,
+      "image": "ecclesiastes-c006-v007-009-right-context-v1.jpg",
+      "sha256": "146cc55a7304e433bd5fe763b8df257df0b56ef654f81c2912f3bf9272dc37da",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:59:02.508262+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-030-039.jpg",
+      "fullSizeReviewedIds": [
+        35,
+        38
+      ],
+      "findings": "Actually viewed all10 contact plus35,38 full.30 daily meal responsive joy contrasts31 solitary unsatisfied host;32 empty chair reflective absence.35 mourning visitor and comforting elder, natural forearm contact and moist thoughtful eyes, no visible corpse.38 storm-broken branch hands and neutral clearing daylight verified.36 listener correction,37 restrained response,39 humble conversation. No raster lettering or overt modern props. Mortality/contrasts interpreted via single representative instant."
+    },
+    {
+      "id": 34,
+      "image": "ecclesiastes-c006-v010-012-right-context-v1.jpg",
+      "sha256": "53429b723b1aa79c172e48767ff51de4f71404fcd360ff5d3287f632cebe8b89",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:59:02.508262+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-030-039.jpg",
+      "fullSizeReviewedIds": [
+        35,
+        38
+      ],
+      "findings": "Actually viewed all10 contact plus35,38 full.30 daily meal responsive joy contrasts31 solitary unsatisfied host;32 empty chair reflective absence.35 mourning visitor and comforting elder, natural forearm contact and moist thoughtful eyes, no visible corpse.38 storm-broken branch hands and neutral clearing daylight verified.36 listener correction,37 restrained response,39 humble conversation. No raster lettering or overt modern props. Mortality/contrasts interpreted via single representative instant."
+    },
+    {
+      "id": 35,
+      "image": "ecclesiastes-c007-v001-004-right-context-v1.jpg",
+      "sha256": "72a315b4d27cd70c492bf3fb97b9501ece07529a7dc27d918aafcbf362aee233",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:59:02.508262+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-030-039.jpg",
+      "fullSizeReviewedIds": [
+        35,
+        38
+      ],
+      "findings": "Actually viewed all10 contact plus35,38 full.30 daily meal responsive joy contrasts31 solitary unsatisfied host;32 empty chair reflective absence.35 mourning visitor and comforting elder, natural forearm contact and moist thoughtful eyes, no visible corpse.38 storm-broken branch hands and neutral clearing daylight verified.36 listener correction,37 restrained response,39 humble conversation. No raster lettering or overt modern props. Mortality/contrasts interpreted via single representative instant."
+    },
+    {
+      "id": 36,
+      "image": "ecclesiastes-c007-v005-007-right-context-v1.jpg",
+      "sha256": "43868fa1f65d32878d5203fc48b6aee07d2e6b4a2cc9c62a1e61488ddee61811",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:59:02.508262+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-030-039.jpg",
+      "fullSizeReviewedIds": [
+        35,
+        38
+      ],
+      "findings": "Actually viewed all10 contact plus35,38 full.30 daily meal responsive joy contrasts31 solitary unsatisfied host;32 empty chair reflective absence.35 mourning visitor and comforting elder, natural forearm contact and moist thoughtful eyes, no visible corpse.38 storm-broken branch hands and neutral clearing daylight verified.36 listener correction,37 restrained response,39 humble conversation. No raster lettering or overt modern props. Mortality/contrasts interpreted via single representative instant."
+    },
+    {
+      "id": 37,
+      "image": "ecclesiastes-c007-v008-010-right-context-v1.jpg",
+      "sha256": "e1269be52fcd3495df27a89938d1a842559dc2790666b1f3372e945fc6df5621",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:59:02.508262+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-030-039.jpg",
+      "fullSizeReviewedIds": [
+        35,
+        38
+      ],
+      "findings": "Actually viewed all10 contact plus35,38 full.30 daily meal responsive joy contrasts31 solitary unsatisfied host;32 empty chair reflective absence.35 mourning visitor and comforting elder, natural forearm contact and moist thoughtful eyes, no visible corpse.38 storm-broken branch hands and neutral clearing daylight verified.36 listener correction,37 restrained response,39 humble conversation. No raster lettering or overt modern props. Mortality/contrasts interpreted via single representative instant."
+    },
+    {
+      "id": 38,
+      "image": "ecclesiastes-c007-v011-014-right-context-v1.jpg",
+      "sha256": "fa102879bd50bae4d57f5728c8c3e232317338f417d08d1683c5e8b347bdfa17",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:59:02.508262+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-030-039.jpg",
+      "fullSizeReviewedIds": [
+        35,
+        38
+      ],
+      "findings": "Actually viewed all10 contact plus35,38 full.30 daily meal responsive joy contrasts31 solitary unsatisfied host;32 empty chair reflective absence.35 mourning visitor and comforting elder, natural forearm contact and moist thoughtful eyes, no visible corpse.38 storm-broken branch hands and neutral clearing daylight verified.36 listener correction,37 restrained response,39 humble conversation. No raster lettering or overt modern props. Mortality/contrasts interpreted via single representative instant."
+    },
+    {
+      "id": 39,
+      "image": "ecclesiastes-c007-v015-020-right-context-v1.jpg",
+      "sha256": "473f44e64135dd1550f143ec4535bd11257415223de833c1ca39461a6d3d58f6",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T11:59:02.508262+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-030-039.jpg",
+      "fullSizeReviewedIds": [
+        35,
+        38
+      ],
+      "findings": "Actually viewed all10 contact plus35,38 full.30 daily meal responsive joy contrasts31 solitary unsatisfied host;32 empty chair reflective absence.35 mourning visitor and comforting elder, natural forearm contact and moist thoughtful eyes, no visible corpse.38 storm-broken branch hands and neutral clearing daylight verified.36 listener correction,37 restrained response,39 humble conversation. No raster lettering or overt modern props. Mortality/contrasts interpreted via single representative instant."
+    },
+    {
+      "id": 40,
+      "image": "ecclesiastes-c007-v021-024-right-context-v1.jpg",
+      "sha256": "8cf5039906942f7ac46c674c86071528a0b38ccc94e2084d3be3a4390ffaa8e3",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:04:33.695872+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-040-049.jpg",
+      "fullSizeReviewedIds": [
+        46,
+        49
+      ],
+      "findings": "Actually viewed10 contact plus46,49 full.46 attentive upward gaze, tired lines, natural hands on closed scroll and open clay wick bowl; readable nighttime.49 mutual married companionship, bread grip and earthen cups verified, small responsive smiles.44 honest worker distress foreground and closed funeral bier distant;47 sober living visitors only.48 living dog hope with stone lion metaphor.41 human schemes an interpretive choice centered on7:29 rather than literal rendering of every comparison. No readable raster text or graphic death."
+    },
+    {
+      "id": 41,
+      "image": "ecclesiastes-c007-v025-029-right-context-v1.jpg",
+      "sha256": "3363d2459ccfb6c20470379e5ee3f219f06376605fe3ce7b2ef05525a123fcfe",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:04:33.695872+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-040-049.jpg",
+      "fullSizeReviewedIds": [
+        46,
+        49
+      ],
+      "findings": "Actually viewed10 contact plus46,49 full.46 attentive upward gaze, tired lines, natural hands on closed scroll and open clay wick bowl; readable nighttime.49 mutual married companionship, bread grip and earthen cups verified, small responsive smiles.44 honest worker distress foreground and closed funeral bier distant;47 sober living visitors only.48 living dog hope with stone lion metaphor.41 human schemes an interpretive choice centered on7:29 rather than literal rendering of every comparison. No readable raster text or graphic death."
+    },
+    {
+      "id": 42,
+      "image": "ecclesiastes-c008-v001-004-right-context-v1.jpg",
+      "sha256": "12fb32d223e945fc6cfaf9b7da42ef36ac8de5c0841744574691ed9c3bf08430",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:04:33.695872+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-040-049.jpg",
+      "fullSizeReviewedIds": [
+        46,
+        49
+      ],
+      "findings": "Actually viewed10 contact plus46,49 full.46 attentive upward gaze, tired lines, natural hands on closed scroll and open clay wick bowl; readable nighttime.49 mutual married companionship, bread grip and earthen cups verified, small responsive smiles.44 honest worker distress foreground and closed funeral bier distant;47 sober living visitors only.48 living dog hope with stone lion metaphor.41 human schemes an interpretive choice centered on7:29 rather than literal rendering of every comparison. No readable raster text or graphic death."
+    },
+    {
+      "id": 43,
+      "image": "ecclesiastes-c008-v005-009-right-context-v1.jpg",
+      "sha256": "a398d39d328a64c20e2cb5fc3f0d7c1743c761c941bf7d54def5089fab72cca2",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:04:33.695872+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-040-049.jpg",
+      "fullSizeReviewedIds": [
+        46,
+        49
+      ],
+      "findings": "Actually viewed10 contact plus46,49 full.46 attentive upward gaze, tired lines, natural hands on closed scroll and open clay wick bowl; readable nighttime.49 mutual married companionship, bread grip and earthen cups verified, small responsive smiles.44 honest worker distress foreground and closed funeral bier distant;47 sober living visitors only.48 living dog hope with stone lion metaphor.41 human schemes an interpretive choice centered on7:29 rather than literal rendering of every comparison. No readable raster text or graphic death."
+    },
+    {
+      "id": 44,
+      "image": "ecclesiastes-c008-v010-014-right-context-v1.jpg",
+      "sha256": "bdb7e880cd450db6e6f1ac73017472f2adbdb30b5c82dbb5352575c58e97fb41",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:04:33.695872+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-040-049.jpg",
+      "fullSizeReviewedIds": [
+        46,
+        49
+      ],
+      "findings": "Actually viewed10 contact plus46,49 full.46 attentive upward gaze, tired lines, natural hands on closed scroll and open clay wick bowl; readable nighttime.49 mutual married companionship, bread grip and earthen cups verified, small responsive smiles.44 honest worker distress foreground and closed funeral bier distant;47 sober living visitors only.48 living dog hope with stone lion metaphor.41 human schemes an interpretive choice centered on7:29 rather than literal rendering of every comparison. No readable raster text or graphic death."
+    },
+    {
+      "id": 45,
+      "image": "ecclesiastes-c008-v015-015-right-context-v1.jpg",
+      "sha256": "e076235b828435dfe6ffa1a561f3c363eed866c2f0e3013ca2f355e90a625fac",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:04:33.695872+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-040-049.jpg",
+      "fullSizeReviewedIds": [
+        46,
+        49
+      ],
+      "findings": "Actually viewed10 contact plus46,49 full.46 attentive upward gaze, tired lines, natural hands on closed scroll and open clay wick bowl; readable nighttime.49 mutual married companionship, bread grip and earthen cups verified, small responsive smiles.44 honest worker distress foreground and closed funeral bier distant;47 sober living visitors only.48 living dog hope with stone lion metaphor.41 human schemes an interpretive choice centered on7:29 rather than literal rendering of every comparison. No readable raster text or graphic death."
+    },
+    {
+      "id": 46,
+      "image": "ecclesiastes-c008-v016-017-right-context-v1.jpg",
+      "sha256": "a45cbfd79a6786a20016b108fe06620add9cc40147bf51b638fa83b2590926a1",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:04:33.695872+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-040-049.jpg",
+      "fullSizeReviewedIds": [
+        46,
+        49
+      ],
+      "findings": "Actually viewed10 contact plus46,49 full.46 attentive upward gaze, tired lines, natural hands on closed scroll and open clay wick bowl; readable nighttime.49 mutual married companionship, bread grip and earthen cups verified, small responsive smiles.44 honest worker distress foreground and closed funeral bier distant;47 sober living visitors only.48 living dog hope with stone lion metaphor.41 human schemes an interpretive choice centered on7:29 rather than literal rendering of every comparison. No readable raster text or graphic death."
+    },
+    {
+      "id": 47,
+      "image": "ecclesiastes-c009-v001-003-right-context-v1.jpg",
+      "sha256": "d99f68b5c90baf80bb469703899f0ecc733d5c993654e2c72459431bee09ac95",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:04:33.695872+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-040-049.jpg",
+      "fullSizeReviewedIds": [
+        46,
+        49
+      ],
+      "findings": "Actually viewed10 contact plus46,49 full.46 attentive upward gaze, tired lines, natural hands on closed scroll and open clay wick bowl; readable nighttime.49 mutual married companionship, bread grip and earthen cups verified, small responsive smiles.44 honest worker distress foreground and closed funeral bier distant;47 sober living visitors only.48 living dog hope with stone lion metaphor.41 human schemes an interpretive choice centered on7:29 rather than literal rendering of every comparison. No readable raster text or graphic death."
+    },
+    {
+      "id": 48,
+      "image": "ecclesiastes-c009-v004-006-right-context-v1.jpg",
+      "sha256": "1a33eab811949b0d1bf6787f295e1b69f4a018fb0f45ddb3322bb9e7e89f2c94",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:04:33.695872+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-040-049.jpg",
+      "fullSizeReviewedIds": [
+        46,
+        49
+      ],
+      "findings": "Actually viewed10 contact plus46,49 full.46 attentive upward gaze, tired lines, natural hands on closed scroll and open clay wick bowl; readable nighttime.49 mutual married companionship, bread grip and earthen cups verified, small responsive smiles.44 honest worker distress foreground and closed funeral bier distant;47 sober living visitors only.48 living dog hope with stone lion metaphor.41 human schemes an interpretive choice centered on7:29 rather than literal rendering of every comparison. No readable raster text or graphic death."
+    },
+    {
+      "id": 49,
+      "image": "ecclesiastes-c009-v007-009-right-context-v1.jpg",
+      "sha256": "5e3bd43ff83b2fb46285329a18520e643d4edf79d26af6033eb4a376aff1c5c6",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:04:33.695872+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-040-049.jpg",
+      "fullSizeReviewedIds": [
+        46,
+        49
+      ],
+      "findings": "Actually viewed10 contact plus46,49 full.46 attentive upward gaze, tired lines, natural hands on closed scroll and open clay wick bowl; readable nighttime.49 mutual married companionship, bread grip and earthen cups verified, small responsive smiles.44 honest worker distress foreground and closed funeral bier distant;47 sober living visitors only.48 living dog hope with stone lion metaphor.41 human schemes an interpretive choice centered on7:29 rather than literal rendering of every comparison. No readable raster text or graphic death."
+    },
+    {
+      "id": 50,
+      "image": "ecclesiastes-c009-v010-012-right-context-v1.jpg",
+      "sha256": "ebf13b08725570c31028d397f098936bfcd867968684d4b829bf7df48c80b094",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:10:09.285376+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-050-059.jpg",
+      "fullSizeReviewedIds": [
+        50,
+        59
+      ],
+      "findings": "Actually viewed all10 on contact plus50,55,59 full.50 simple wooden loom and hand grip realistic.59 grain pours from scoop into supported sack, grateful mutual faces and boat weight coherent.53 tiny fly/earthen perfume jar appropriate;58 worn leaking wooden beam/clay bowl and softly conversing faces.55 held pending targeted sharpening contact correction because whetstone touches broad axe cheek instead of edge.9 approved; not55."
+    },
+    {
+      "id": 51,
+      "image": "ecclesiastes-c009-v013-016-right-context-v1.jpg",
+      "sha256": "ba6f5a555b683d1214dd9f2463bf6f95d14ba0cc89af5d0f55e534ec7176c45d",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:10:09.285376+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-050-059.jpg",
+      "fullSizeReviewedIds": [
+        50,
+        59
+      ],
+      "findings": "Actually viewed all10 on contact plus50,55,59 full.50 simple wooden loom and hand grip realistic.59 grain pours from scoop into supported sack, grateful mutual faces and boat weight coherent.53 tiny fly/earthen perfume jar appropriate;58 worn leaking wooden beam/clay bowl and softly conversing faces.55 held pending targeted sharpening contact correction because whetstone touches broad axe cheek instead of edge.9 approved; not55."
+    },
+    {
+      "id": 52,
+      "image": "ecclesiastes-c009-v017-018-right-context-v1.jpg",
+      "sha256": "72c34818652c1bb3a48e74ad88b8c6e4a15cf9669b41fe7e11e10052edfe3f7c",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:10:09.285376+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-050-059.jpg",
+      "fullSizeReviewedIds": [
+        50,
+        59
+      ],
+      "findings": "Actually viewed all10 on contact plus50,55,59 full.50 simple wooden loom and hand grip realistic.59 grain pours from scoop into supported sack, grateful mutual faces and boat weight coherent.53 tiny fly/earthen perfume jar appropriate;58 worn leaking wooden beam/clay bowl and softly conversing faces.55 held pending targeted sharpening contact correction because whetstone touches broad axe cheek instead of edge.9 approved; not55."
+    },
+    {
+      "id": 53,
+      "image": "ecclesiastes-c010-v001-003-right-context-v1.jpg",
+      "sha256": "8afef1a939e97189f95b3a40f3a94bfa07d70188af2bae938d6d1fb1c47f7851",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:10:09.285376+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-050-059.jpg",
+      "fullSizeReviewedIds": [
+        50,
+        59
+      ],
+      "findings": "Actually viewed all10 on contact plus50,55,59 full.50 simple wooden loom and hand grip realistic.59 grain pours from scoop into supported sack, grateful mutual faces and boat weight coherent.53 tiny fly/earthen perfume jar appropriate;58 worn leaking wooden beam/clay bowl and softly conversing faces.55 held pending targeted sharpening contact correction because whetstone touches broad axe cheek instead of edge.9 approved; not55."
+    },
+    {
+      "id": 54,
+      "image": "ecclesiastes-c010-v004-007-right-context-v1.jpg",
+      "sha256": "7725dfd53bcd5bb0530cb7ddd5dcba737f0dfa45478e7876430d5e25ad0658c4",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:10:09.285376+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-050-059.jpg",
+      "fullSizeReviewedIds": [
+        50,
+        59
+      ],
+      "findings": "Actually viewed all10 on contact plus50,55,59 full.50 simple wooden loom and hand grip realistic.59 grain pours from scoop into supported sack, grateful mutual faces and boat weight coherent.53 tiny fly/earthen perfume jar appropriate;58 worn leaking wooden beam/clay bowl and softly conversing faces.55 held pending targeted sharpening contact correction because whetstone touches broad axe cheek instead of edge.9 approved; not55."
+    },
+    {
+      "id": 55,
+      "image": "ecclesiastes-c010-v008-011-right-context-props-v3.jpg",
+      "sha256": "f1fefb201e42fa85d176c3fe64b9925720cb2be7e68304de455953a31326db08",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:16:41.002629+00:00",
+      "evidence": "assets/ecclesiastes-c010-v008-011-right-context-props-v3.jpg",
+      "fullSizeReviewedIds": [
+        55
+      ],
+      "findings": "Actually inspected v1,v2,v3 full. V2 natural stone improved but still broad-face contact, retained unapproved. V3 raises/reorients forged axe and rough hand-held stone at upward-facing bright cutting bevel with visible contact; secure wooden handle grip. Original focused face, linen, location, light preserved. Current v3 approved, previous versions retained."
+    },
+    {
+      "id": 56,
+      "image": "ecclesiastes-c010-v012-015-right-context-v1.jpg",
+      "sha256": "070a0f025cee8c0b4eafdab3f2a0f9f6c7fab86075b591469265502ad2edddf0",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:10:09.285376+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-050-059.jpg",
+      "fullSizeReviewedIds": [
+        50,
+        59
+      ],
+      "findings": "Actually viewed all10 on contact plus50,55,59 full.50 simple wooden loom and hand grip realistic.59 grain pours from scoop into supported sack, grateful mutual faces and boat weight coherent.53 tiny fly/earthen perfume jar appropriate;58 worn leaking wooden beam/clay bowl and softly conversing faces.55 held pending targeted sharpening contact correction because whetstone touches broad axe cheek instead of edge.9 approved; not55."
+    },
+    {
+      "id": 57,
+      "image": "ecclesiastes-c010-v016-017-right-context-v1.jpg",
+      "sha256": "f21a77b8b5a4f6039c35cfc9252c014e9c9af3607f6930ce71150f30aee29bdd",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:10:09.285376+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-050-059.jpg",
+      "fullSizeReviewedIds": [
+        50,
+        59
+      ],
+      "findings": "Actually viewed all10 on contact plus50,55,59 full.50 simple wooden loom and hand grip realistic.59 grain pours from scoop into supported sack, grateful mutual faces and boat weight coherent.53 tiny fly/earthen perfume jar appropriate;58 worn leaking wooden beam/clay bowl and softly conversing faces.55 held pending targeted sharpening contact correction because whetstone touches broad axe cheek instead of edge.9 approved; not55."
+    },
+    {
+      "id": 58,
+      "image": "ecclesiastes-c010-v018-020-right-context-v1.jpg",
+      "sha256": "5d9ba20dc312d75635c4e1c8ecf00170b87fe32cc65f68d0abb88b806dda4c63",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:10:09.285376+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-050-059.jpg",
+      "fullSizeReviewedIds": [
+        50,
+        59
+      ],
+      "findings": "Actually viewed all10 on contact plus50,55,59 full.50 simple wooden loom and hand grip realistic.59 grain pours from scoop into supported sack, grateful mutual faces and boat weight coherent.53 tiny fly/earthen perfume jar appropriate;58 worn leaking wooden beam/clay bowl and softly conversing faces.55 held pending targeted sharpening contact correction because whetstone touches broad axe cheek instead of edge.9 approved; not55."
+    },
+    {
+      "id": 59,
+      "image": "ecclesiastes-c011-v001-002-right-context-v1.jpg",
+      "sha256": "71104414a336827266f49daa263396ce5f468b893a170da94cb7a818a3a06648",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:10:09.285376+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-050-059.jpg",
+      "fullSizeReviewedIds": [
+        50,
+        59
+      ],
+      "findings": "Actually viewed all10 on contact plus50,55,59 full.50 simple wooden loom and hand grip realistic.59 grain pours from scoop into supported sack, grateful mutual faces and boat weight coherent.53 tiny fly/earthen perfume jar appropriate;58 worn leaking wooden beam/clay bowl and softly conversing faces.55 held pending targeted sharpening contact correction because whetstone touches broad axe cheek instead of edge.9 approved; not55."
+    },
+    {
+      "id": 60,
+      "image": "ecclesiastes-c011-v003-006-right-context-v1.jpg",
+      "sha256": "6b90a594f9fde218412d8c35238683fb02f5c1a653b745e816dfbe370f5b7091",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:15:22.345221+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-060-068.jpg",
+      "fullSizeReviewedIds": [
+        64,
+        68
+      ],
+      "findings": "Actually viewed final9 contact plus64,65,68 full.60 sowing grip/stride grounded;61 gratitude into daylight,62 adult youthful joy.64 whitehair wrinkles/staff hand support and dignified frailty verified full.66 attentive teaching,67 quiet wisdom.68 finale readable reverent faces and folded hands, luminous spacious temple ground, no visible deity or cheering.65 held: jar broken but wheel and bowl still intact, unlike12:6 required broken objects."
+    },
+    {
+      "id": 61,
+      "image": "ecclesiastes-c011-v007-008-right-context-v1.jpg",
+      "sha256": "971237ce7110ba7dbef75d0c9535b05458dbd2c154ea4fe7f4b327a309ed9eb9",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:15:22.345221+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-060-068.jpg",
+      "fullSizeReviewedIds": [
+        64,
+        68
+      ],
+      "findings": "Actually viewed final9 contact plus64,65,68 full.60 sowing grip/stride grounded;61 gratitude into daylight,62 adult youthful joy.64 whitehair wrinkles/staff hand support and dignified frailty verified full.66 attentive teaching,67 quiet wisdom.68 finale readable reverent faces and folded hands, luminous spacious temple ground, no visible deity or cheering.65 held: jar broken but wheel and bowl still intact, unlike12:6 required broken objects."
+    },
+    {
+      "id": 62,
+      "image": "ecclesiastes-c011-v009-010-right-context-v1.jpg",
+      "sha256": "ebc954d78a7e41117cf55327742aa68fc42a58341bd0c8aca9bf484b8340e1af",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:15:22.345221+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-060-068.jpg",
+      "fullSizeReviewedIds": [
+        64,
+        68
+      ],
+      "findings": "Actually viewed final9 contact plus64,65,68 full.60 sowing grip/stride grounded;61 gratitude into daylight,62 adult youthful joy.64 whitehair wrinkles/staff hand support and dignified frailty verified full.66 attentive teaching,67 quiet wisdom.68 finale readable reverent faces and folded hands, luminous spacious temple ground, no visible deity or cheering.65 held: jar broken but wheel and bowl still intact, unlike12:6 required broken objects."
+    },
+    {
+      "id": 63,
+      "image": "ecclesiastes-c012-v001-002-right-context-v1.jpg",
+      "sha256": "dd8a53f9fdb9569d77b8eb502a25b447e9542c0f15c6a77fc3630a6d41f60dcd",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:15:22.345221+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-060-068.jpg",
+      "fullSizeReviewedIds": [
+        64,
+        68
+      ],
+      "findings": "Actually viewed final9 contact plus64,65,68 full.60 sowing grip/stride grounded;61 gratitude into daylight,62 adult youthful joy.64 whitehair wrinkles/staff hand support and dignified frailty verified full.66 attentive teaching,67 quiet wisdom.68 finale readable reverent faces and folded hands, luminous spacious temple ground, no visible deity or cheering.65 held: jar broken but wheel and bowl still intact, unlike12:6 required broken objects."
+    },
+    {
+      "id": 64,
+      "image": "ecclesiastes-c012-v003-005-right-context-v1.jpg",
+      "sha256": "c92646780bba57aa5667c6b4216b2d90759140f3d1d44559b745e7662e8703b7",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:15:22.345221+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-060-068.jpg",
+      "fullSizeReviewedIds": [
+        64,
+        68
+      ],
+      "findings": "Actually viewed final9 contact plus64,65,68 full.60 sowing grip/stride grounded;61 gratitude into daylight,62 adult youthful joy.64 whitehair wrinkles/staff hand support and dignified frailty verified full.66 attentive teaching,67 quiet wisdom.68 finale readable reverent faces and folded hands, luminous spacious temple ground, no visible deity or cheering.65 held: jar broken but wheel and bowl still intact, unlike12:6 required broken objects."
+    },
+    {
+      "id": 65,
+      "image": "ecclesiastes-c012-v006-008-right-context-props-v2.jpg",
+      "sha256": "8127ba2201cc1da466674a7a261854e1145cde37a9929878782f6e8214b6d105",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:17:39.612894+00:00",
+      "evidence": "assets/ecclesiastes-c012-v006-008-right-context-props-v2.jpg",
+      "fullSizeReviewedIds": [
+        65
+      ],
+      "findings": "Actually inspected original and full corrected still life. V2 has severed frayed cord with distinct separated ends, broken detached wooden wheel on stones, gold-colored bowl fractured into visibly separated pieces, broken clay jar retained. Bright photographic well/location/light unchanged.12:6 mortality metaphor accurate; no visible soul or deity. Current v2 approved, original preserved."
+    },
+    {
+      "id": 66,
+      "image": "ecclesiastes-c012-v009-010-right-context-v1.jpg",
+      "sha256": "042794736e83657f7abb1fb45c305a3509d23ae607dd4b17f0abb548ac503d60",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:15:22.345221+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-060-068.jpg",
+      "fullSizeReviewedIds": [
+        64,
+        68
+      ],
+      "findings": "Actually viewed final9 contact plus64,65,68 full.60 sowing grip/stride grounded;61 gratitude into daylight,62 adult youthful joy.64 whitehair wrinkles/staff hand support and dignified frailty verified full.66 attentive teaching,67 quiet wisdom.68 finale readable reverent faces and folded hands, luminous spacious temple ground, no visible deity or cheering.65 held: jar broken but wheel and bowl still intact, unlike12:6 required broken objects."
+    },
+    {
+      "id": 67,
+      "image": "ecclesiastes-c012-v011-012-right-context-v1.jpg",
+      "sha256": "53c5a0bd281b887f9b29c0a3da6931cb2a3a1252ca0c562d7eaf389fa3e80644",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:15:22.345221+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-060-068.jpg",
+      "fullSizeReviewedIds": [
+        64,
+        68
+      ],
+      "findings": "Actually viewed final9 contact plus64,65,68 full.60 sowing grip/stride grounded;61 gratitude into daylight,62 adult youthful joy.64 whitehair wrinkles/staff hand support and dignified frailty verified full.66 attentive teaching,67 quiet wisdom.68 finale readable reverent faces and folded hands, luminous spacious temple ground, no visible deity or cheering.65 held: jar broken but wheel and bowl still intact, unlike12:6 required broken objects."
+    },
+    {
+      "id": 68,
+      "image": "ecclesiastes-c012-v013-014-right-context-v1.jpg",
+      "sha256": "85c5332215142b8864503dc0f3c3806bfd5fb0eb3b5f165fe50763d4c8c1d1db",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:15:22.345221+00:00",
+      "evidence": "review/ecclesiastes-contact-sheets/scenes-060-068.jpg",
+      "fullSizeReviewedIds": [
+        64,
+        68
+      ],
+      "findings": "Actually viewed final9 contact plus64,65,68 full.60 sowing grip/stride grounded;61 gratitude into daylight,62 adult youthful joy.64 whitehair wrinkles/staff hand support and dignified frailty verified full.66 attentive teaching,67 quiet wisdom.68 finale readable reverent faces and folded hands, luminous spacious temple ground, no visible deity or cheering.65 held: jar broken but wheel and bowl still intact, unlike12:6 required broken objects."
+    }
+  ],
+  "approved": 68,
+  "planned": 68
+}

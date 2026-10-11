@@ -1,0 +1,404 @@
+{
+  "book": "jonah",
+  "images": [
+    {
+      "id": 1,
+      "image": "jonah-c001-v001-002-right-context-v1.jpg",
+      "sha256": "397e0ba5b3f851379e29df672676f26a817fc45c4d99154796a1a1b864eb545e",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:29:25.402512+00:00",
+      "method": "full-resolution visual inspection",
+      "evidencePaths": [
+        "output/jonah/jonah-c001-v001-002-original-v1.png"
+      ],
+      "findings": "Bright natural village scene; reluctant searching expression; coherent mantle grip, original midlife Jonah face. Unseen divine command, right-side figure, readable open left landscape."
+    },
+    {
+      "id": 2,
+      "image": "jonah-c001-v003-003-right-context-v1.jpg",
+      "sha256": "1922d92ad30ab5af8f6fba6103cc0177dcea1ec2ed14856b160b4e33da3db0ee",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.447347+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg"
+      ],
+      "findings": "Jonah pays passage at ancient harbor; coherent coin exchange and established face."
+    },
+    {
+      "id": 3,
+      "image": "jonah-c001-v004-004-right-context-v1.jpg",
+      "sha256": "96d53327d6d73579337caf7e38ddafcc84ef9cb8890b64250b8af218a87668cf",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.448007+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg"
+      ],
+      "findings": "Strong storm, straining timber square-sail ship and frightened crew, readable daylight."
+    },
+    {
+      "id": 4,
+      "image": "jonah-c001-v005-005-right-context-v1.jpg",
+      "sha256": "176ccdfea48ef5eb9a90c0ce5bc3688eaa725ce38150efe0d9c4d7fc69fd358f",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.448475+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg"
+      ],
+      "findings": "Continuous lower hold view shows sleeping Jonah and cargo cast out above hatch; no collage."
+    },
+    {
+      "id": 5,
+      "image": "jonah-c001-v006-006-right-context-v1.jpg",
+      "sha256": "a0ea1ab83965a49d54f0f6b01978ad4fd4189ab42536d8c1f1e274438786760b",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.448949+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg"
+      ],
+      "findings": "Captain wakes sleeping Jonah with connected shoulder contact; frightened expression."
+    },
+    {
+      "id": 6,
+      "image": "jonah-c001-v007-008-right-context-v1.jpg",
+      "sha256": "fb788a39bf5646e564d31b865ad34aebec3588dbb3e44605e50ee63ddaf85218",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.449448+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg"
+      ],
+      "findings": "Plain lots in palms and crew questioning Jonah, sober restrained reaction."
+    },
+    {
+      "id": 7,
+      "image": "jonah-c001-v009-010-right-context-v1.jpg",
+      "sha256": "21a6053bf94a98ba24b5cd03ad3bd72c7c927587853e22d7d93f0999369972f7",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.449946+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg"
+      ],
+      "findings": "Confession with open hand, anxious sailors listen, no visible God."
+    },
+    {
+      "id": 8,
+      "image": "jonah-c001-v011-012-right-context-v1.jpg",
+      "sha256": "f63fb8a5419faead5946b0e7d4fcf31d5b36e2ea026814f75299e8f3091c5b28",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.450422+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg"
+      ],
+      "findings": "Resigned Jonah faces sailors by rough sea without glorified self-harm."
+    },
+    {
+      "id": 9,
+      "image": "jonah-c001-v013-014-right-context-v1.jpg",
+      "sha256": "491caf2574cb77353ab58fab7282f00246477bc79a688ad91b1060bb57dca3a6",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.450884+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg"
+      ],
+      "findings": "Crew visibly strain at long oars and praying captain; coherent rowing grips."
+    },
+    {
+      "id": 10,
+      "image": "jonah-c001-v015-016-right-context-v1.jpg",
+      "sha256": "5e31c52f4cf2b8f65035589ca8cfcd44e6da5af1e49b17840c7438685b955ad5",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.451317+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg"
+      ],
+      "findings": "Jonah absent after sea cast; calmer water and sailors reverent relief."
+    },
+    {
+      "id": 11,
+      "image": "jonah-c001-v017-017-right-context-v1.jpg",
+      "sha256": "aabf0adf108024a89dadea67e5d264716828498bcd5cd1d4fc6487562f2a4c79",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.451765+00:00",
+      "method": "contact-sheet visual inspection; full-resolution for11",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg",
+        "output/jonah/jonah-c001-v017-017-original-v1.png"
+      ],
+      "findings": "Full resolution also inspected: scaled unspecified enormous fish, no mammal blowhole/monster teeth; Jonah terrified, coherent five-finger hand."
+    },
+    {
+      "id": 12,
+      "image": "jonah-c002-v001-002-right-context-v1.jpg",
+      "sha256": "4af5d92b790b8ab19b68c187078de86e4768a3054a89c62e58fdaf2797455ce6",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.452133+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg"
+      ],
+      "findings": "Claustrophobic damp organic folds and tearful praying Jonah, no cave props."
+    },
+    {
+      "id": 13,
+      "image": "jonah-c002-v003-004-right-context-v1.jpg",
+      "sha256": "78bb80d840611c35ee24dc3ffcf973b93b286262d940c1be173bdcdac5dce3cb",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:35:15.452604+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/002-013-f35ee00e.jpg"
+      ],
+      "findings": "Editorial recalled sinking, frightened reaching face and surface waves, no underwater temple."
+    },
+    {
+      "id": 14,
+      "image": "jonah-c002-v005-006-right-context-v1.jpg",
+      "sha256": "86d541ef4566d5b7ecae6f23fedf57b51bc8f68913eee46b9fb2042d1bd28b61",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:36:04.412571+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/014-022-7394010c.jpg"
+      ],
+      "findings": "Recalled sinking with seaweed around hair, consistent Jonah face; no literal iron gates."
+    },
+    {
+      "id": 15,
+      "image": "jonah-c002-v007-007-right-context-v1.jpg",
+      "sha256": "b89df9abd4486f03e37c66fba8944426bdfd2bdcf184ffbb5a3b2eeb56cd9e18",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:36:04.413171+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/014-022-7394010c.jpg"
+      ],
+      "findings": "Wet organic enclosure, hand on heart and braced connected arm, weary appeal."
+    },
+    {
+      "id": 16,
+      "image": "jonah-c002-v008-009-right-context-v2.jpg",
+      "sha256": "6e143bf02953b02a5c8a0d89af17b8e420848368cc53137be3225667287dacd1",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:38:25.570158+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/016-033-43ff30f5.jpg"
+      ],
+      "findings": "Revised image now entirely curved damp organic enclosure, clasped hands and grateful prayer before release; no timber/window."
+    },
+    {
+      "id": 17,
+      "image": "jonah-c002-v010-010-right-context-v1.jpg",
+      "sha256": "1a09f1e1a23158224a070d7e1af717bf007c537b4dffa849beda441052420e6a",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:36:04.413719+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/014-022-7394010c.jpg"
+      ],
+      "findings": "After release on rocky shore, physically supported kneeling body, exhausted face and wet clothing."
+    },
+    {
+      "id": 18,
+      "image": "jonah-c003-v001-002-right-context-v1.jpg",
+      "sha256": "2e2bdbaac35a77b72653a9338bc752e4f7e18c3f6c965d8c6fc7a2483bcef099",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:37:16.572830+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/018-028-045ed59b.jpg"
+      ],
+      "findings": "Second call by shore, serious resolved expression and original face; no visible divine messenger."
+    },
+    {
+      "id": 19,
+      "image": "jonah-c003-v003-003-right-context-v1.jpg",
+      "sha256": "f86353aae025d991e88df48cb5d25fb8fabe1a63c2090c43aa0825fbf6ec0247",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:36:04.414197+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/014-022-7394010c.jpg"
+      ],
+      "findings": "Large ancient fortified city arrival, original Jonah at right, scale and opaque period clothing."
+    },
+    {
+      "id": 20,
+      "image": "jonah-c003-v004-004-right-context-v1.jpg",
+      "sha256": "6f5b12d038289ee8f20e594dd8053f1479c4221c042910a987c504388478077b",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:36:04.414600+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/014-022-7394010c.jpg"
+      ],
+      "findings": "Urgent proclamation, listening crowd and open hands, consistent Jonah face."
+    },
+    {
+      "id": 21,
+      "image": "jonah-c003-v005-005-right-context-v1.jpg",
+      "sha256": "0f3a03378f971ab256286e9073df6914325bfbe881f6305c750e54aad018e738",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:36:04.415066+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/014-022-7394010c.jpg"
+      ],
+      "findings": "Repentant ordinary families in sackcloth and fasting, tearful faces and no Jonah hero focus."
+    },
+    {
+      "id": 22,
+      "image": "jonah-c003-v006-006-right-context-v1.jpg",
+      "sha256": "8fd30d7bce1a67e2f2fd53dc5727f248fc858bc05a9b25ce16177b02e26691dd",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:36:04.415522+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/014-022-7394010c.jpg"
+      ],
+      "findings": "King off throne in sackcloth and ashes; discarded royal robe, humble lowered expression."
+    },
+    {
+      "id": 23,
+      "image": "jonah-c003-v007-009-right-context-v1.jpg",
+      "sha256": "8cacc0a44bfd36fb87b203d967276423f4ac634f2825e079b4faa3350bb5a230",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:37:16.573404+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/018-028-045ed59b.jpg"
+      ],
+      "findings": "Official announces fasting to repentant sackcloth families and clothed ox/sheep; no animal abuse."
+    },
+    {
+      "id": 24,
+      "image": "jonah-c003-v010-010-right-context-v1.jpg",
+      "sha256": "b511f2a683977b9f77e2b216ad85b9b6a9a03c686e6d97da40926bb7784fdabc",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:37:16.573894+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/018-028-045ed59b.jpg"
+      ],
+      "findings": "Intact city and ordinary neighbors help elder and child; mercy without visible deity or Jonah hero."
+    },
+    {
+      "id": 25,
+      "image": "jonah-c004-v001-002-right-context-v1.jpg",
+      "sha256": "b5f2f50b04b792948f4faaa23acf88d6c782f67012175345f68716491b788de3",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:37:16.574298+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/018-028-045ed59b.jpg"
+      ],
+      "findings": "Jonah resentment and furrowed face toward spared city, not joyful resolution."
+    },
+    {
+      "id": 26,
+      "image": "jonah-c004-v003-004-right-context-v1.jpg",
+      "sha256": "3ec816b80cb36c05dbec89f11217f117fa1fa95264408b895a87d003307d54d4",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:37:16.574754+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/018-028-045ed59b.jpg"
+      ],
+      "findings": "Frustrated questioning prayer, sober tearful face and no weapon."
+    },
+    {
+      "id": 27,
+      "image": "jonah-c004-v005-005-right-context-v1.jpg",
+      "sha256": "66fb7755bfc02c1e2f8c4306dcde10ae8c24c7f0fac0790b6bca08c452dd3747",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:37:16.575223+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/018-028-045ed59b.jpg"
+      ],
+      "findings": "Rough branch shelter overlooking city, impatient Jonah, no new gourd yet."
+    },
+    {
+      "id": 28,
+      "image": "jonah-c004-v006-006-right-context-v1.jpg",
+      "sha256": "21a04cccd6cdaa6352808d7c864b3e6aeb1273f084e6b26857ed109c6fef8fb8",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:37:16.575671+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/018-028-045ed59b.jpg"
+      ],
+      "findings": "Fresh broad-lobed shade vine at shelter and Jonah temporary relief, coherent touching hand."
+    },
+    {
+      "id": 29,
+      "image": "jonah-c004-v007-007-right-context-v1.jpg",
+      "sha256": "59453bb72757233de22e3817106f56fb12eab1d9e8e7f197f3d70026c27b4989",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:38:25.570667+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/016-033-43ff30f5.jpg"
+      ],
+      "findings": "Ordinary caterpillar chewing vine base with wilted leaves at dawn; no Jonah."
+    },
+    {
+      "id": 30,
+      "image": "jonah-c004-v008-008-right-context-v1.jpg",
+      "sha256": "3687d5700b9142f336f58a08dda205ef5bc8e70e5cc75e58fbebbd4b2f5a179b",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:38:25.571219+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/016-033-43ff30f5.jpg"
+      ],
+      "findings": "Jonah sweating and weak beneath shriveled vine, sunlight harsh but image readable."
+    },
+    {
+      "id": 31,
+      "image": "jonah-c004-v009-009-right-context-v1.jpg",
+      "sha256": "02eee1527c9495cd1b66f0293ffe94c9157a2edc4e36e3cb1c8634d86a7cefcc",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:38:25.571652+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/016-033-43ff30f5.jpg"
+      ],
+      "findings": "Angry tearful resistance and open palm under dead vine; original face."
+    },
+    {
+      "id": 32,
+      "image": "jonah-c004-v010-010-right-context-v1.jpg",
+      "sha256": "f74e54cab91b425d35146353257f2fa6e11f17088935b775684aa359f4e9500e",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:38:25.572113+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/jonah-contact-sheets/016-033-43ff30f5.jpg"
+      ],
+      "findings": "Jonah holds single dead leaf with unresolved sorrow; no falsely cheerful ending."
+    },
+    {
+      "id": 33,
+      "image": "jonah-c004-v011-011-right-context-v2.jpg",
+      "sha256": "96696492ab3ea35ba778b55e6748bfe8b3da4ac49377ade94a3413f2498ccf86",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:39:41.448955+00:00",
+      "method": "full-resolution visual inspection",
+      "evidencePaths": [
+        "output/jonah/jonah-c004-v011-011-original-v2.png"
+      ],
+      "findings": "Revised ending removes Jonah cameo. Moving mother-child embrace, elder with child, intact immense city, ordinary citizens and ox/sheep. Coherent hugging arms; luminous humanity and relief, divine compassion editorially evoked without asserting Jonah's response."
+    }
+  ],
+  "approved": 33,
+  "planned": 33
+}

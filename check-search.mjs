@@ -2,9 +2,9 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {createSearchIndex,findScripture,normalize,excerpt} from './scripture-search.js';
 import {applyTranslation} from './languages.js';
-const ids=['genesis',...(JSON.parse(await fs.readFile('pentateuch-books.json'))).map(b=>b.id),...(JSON.parse(await fs.readFile('historical-books.json'))).map(b=>b.id),'psalms','proverbs','songofsongs','matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
+const ids=['genesis',...(JSON.parse(await fs.readFile('pentateuch-books.json'))).map(b=>b.id),...(JSON.parse(await fs.readFile('historical-books.json'))).map(b=>b.id),'1chronicles','2chronicles','ezra','nehemiah','esther','job','ecclesiastes','daniel','jonah','psalms','proverbs','songofsongs','matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
 const books=await Promise.all(ids.map(async id=>({id,data:JSON.parse(await fs.readFile(`data/${id}.json`))})));
-const index=createSearchIndex(books,'ko');assert.equal(index.books.length,42);assert.equal(index.verses.length,21701);
+const index=createSearchIndex(books,'ko');assert.equal(index.books.length,51);assert.equal(index.verses.length,26015);
 assert.equal(findScripture(index,'출 14:21').results[0].book,'exodus');
 assert.equal(findScripture(index,'레 19:18').results[0].book,'leviticus');
 assert.equal(findScripture(index,'민 6:24').results[0].book,'numbers');
@@ -24,7 +24,7 @@ const english=createSearchIndex([{id:'john',data:applyTranslation(books.find(b=>
 assert.equal(findScripture(english,'John 3:16').total,1);assert(findScripture(english,'love').total>0);assert.equal(findScripture(english,'사랑').total,0);assert.equal(findScripture(english,'창 1:1').total,0);
 assert(excerpt('x'.repeat(400)+'은혜'+'x'.repeat(400),'은혜').includes('은혜'));
 const unsafe=findScripture(index,'<script>');assert.equal(unsafe.total,0);
-console.log('Scripture search: all 42 books and 21701 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
+console.log('Scripture search: all 51 books and 26015 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
 
 // Run the actual search UI handlers, including uncommitted IME input.
 const {scriptureSearch}=await import('./search-ui.js');
@@ -65,3 +65,19 @@ assert.equal(findScripture(index,'잠 3:5').results[0].book,'proverbs');
 assert.equal(findScripture(index,'아 8:6').results[0].book,'songofsongs');assert.equal(findScripture(index,'아가 2:1').results[0].book,'songofsongs');
 for(const [lang,query,word] of [['en','Song of Songs 8:7','waters'],['ja','雅歌 8:7','大水'],['zh','雅歌 8:7','大水']]){const song=createSearchIndex([{id:'songofsongs',data:applyTranslation(books.find(b=>b.id==='songofsongs').data,JSON.parse(await fs.readFile(`data/translations/${lang}/songofsongs.json`)),lang)}],lang);assert.equal(findScripture(song,query).results[0].verse,7,`${lang} reference`);assert(findScripture(song,word).total>0,`${lang} text`);}
 console.log('Song of Songs: Korean abbreviations and English/Japanese/Chinese translated reference and text search verified.');
+
+for(const [query,id,chapter,verse] of [['대상 16:34','1chronicles',16,34],['대하 7:14','2chronicles',7,14],['스 7:10','ezra',7,10],['느 8:10','nehemiah',8,10],['에 4:14','esther',4,14],['욥 19:25','job',19,25],['전 3:1','ecclesiastes',3,1],['단 6:22','daniel',6,22],['욘 1:17','jonah',1,17],['요나 4:11','jonah',4,11],['전도서 12:1','ecclesiastes',12,1]]){const found=findScripture(index,query);assert.equal(found.total,1,query);assert.equal(found.results[0].book,id,query);assert.equal(found.results[0].chapter,chapter);assert.equal(found.results[0].verse,verse);}
+// One-syllable Korean abbreviations resolve only as references with a chapter number; ordinary words stay text searches.
+for(const word of ['에','전','단','스','느']){const found=findScripture(index,`${word} 하나님`);assert.equal(found.address,false,word);}
+assert.equal(findScripture(index,'요 3:16').results[0].book,'john');assert.equal(findScripture(index,'아 8:6').results[0].book,'songofsongs');
+const otBatch=[['1chronicles','1 Chronicles 16:34','歴代誌上 16:34','代上 16:34','Give thanks','感謝','称谢'],['2chronicles','2 Chronicles 7:14','歴代誌下 7:14','代下 7:14','humble','へりくだ','谦卑'],['ezra','Ezra 7:10','エズラ記 7:10','拉 7:10','Law','律法','律法'],['nehemiah','Nehemiah 8:10','ネヘミヤ記 8:10','尼 8:10','joy','喜び','喜乐'],['esther','Esther 4:14','エステル記 4:14','斯 4:14','such a time','この時','今日之时'],['job','Job 19:25','ヨブ記 19:25','伯 19:25','Redeemer','あがなう','救赎主'],['ecclesiastes','Ecclesiastes 3:1','コヘレトの言葉 3:1','传 3:1','season','時','定时'],['daniel','Daniel 6:22','ダニエル書 6:22','但 6:22','lions','ししの','狮子'],['jonah','Jonah 1:17','ヨナ書 1:17','拿 1:17','fish','魚','鱼']];
+for(const [id,en,ja,zh,enWord,jaWord,zhWord] of otBatch){
+ const ko=books.find(b=>b.id===id).data;
+ for(const [lang,query,word] of [['en',en,enWord],['ja',ja,jaWord],['zh',zh,zhWord]]){
+  const translated=createSearchIndex([{id,data:applyTranslation(ko,JSON.parse(await fs.readFile(`data/translations/${lang}/${id}.json`)),lang)}],lang);
+  const [,chapter,verse]=query.match(/(\d+):(\d+)$/);const found=findScripture(translated,query);
+  assert.equal(found.results[0]?.book,id,`${lang} ${query}`);assert.equal(found.results[0].chapter,Number(chapter));assert.equal(found.results[0].verse,Number(verse));
+  assert(findScripture(translated,word).total>0,`${lang} ${id} text ${word}`);
+ }
+}
+console.log('Chronicles–Esther, Job, Ecclesiastes, Daniel and Jonah: Korean abbreviations and English/Japanese/Chinese reference and text search verified.');

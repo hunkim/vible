@@ -1,0 +1,833 @@
+{
+  "approvedFiles": {
+    "1": {
+      "image": "esther-001-right-v1.jpg",
+      "sha256": "4da5c31da540e5e3f5fafbaa3bf37160ea6ac5918017336aa1b28a97767878b9",
+      "finding": "Native inspection: one seated Ahasuerus with natural scepter/chair hands; background adult attendant wears plain tall cylindrical Persian court cap, NOT second pointed royal crown, initial concern disproved. Bright photographed Persian Susa court. All four corners actually inspected clear; physically photographed skin/cloth/metal/stone.",
+      "review": "full native actual visual review",
+      "reviewedUtc": "2026-10-11T19:19:04.881946+00:00"
+    },
+    "2": {
+      "image": "esther-002-right-v1.jpg",
+      "sha256": "09baaf0be6c176227f5d5943dbee26b8b28217594814560cba3a64317688d0c9",
+      "finding": "One Persian royal feast with original adult officials, natural supported different cups and real prepared food, no 180-day collage. All four corners actually inspected clear; physically photographed skin/cloth/metal/stone.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:19:04.883047+00:00"
+    },
+    "3": {
+      "image": "esther-003-right-v1.jpg",
+      "sha256": "68be778c2759920ae1a8e0e54d47f81c8d4c0d77c217012eaaa6f55da50e13bf",
+      "finding": "Susa garden feast with physical white/green/blue drapes tied to silver rings, Persian marble columns and patterned real floor, natural cups and seated adults. All four corners actually inspected clear; physically photographed skin/cloth/metal/stone.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:19:04.883839+00:00"
+    },
+    "4": {
+      "image": "esther-004-right-v1.jpg",
+      "sha256": "d988d72d0101dccb0aabedd3501db337a4fd81111e18a1de617de9cbf6118011",
+      "finding": "Original adult guests freely converse with different supported gold cups, connected hands and natural finger grips, no forced intoxication. All four corners actually inspected clear; physically photographed skin/cloth/metal/stone.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:19:04.884632+00:00"
+    },
+    "5": {
+      "image": "esther-005-right-v1.jpg",
+      "sha256": "6a39ba616ad4c9e6474bc61375ded9d671f20ece9586a4555ccaadd99d71a1b7",
+      "finding": "Wholly original clearly mature adult Vashti hosts original adult women in separate Persian room, natural supported cup/serving hands and opaque dress; no modern reference women. All four corners actually inspected clear; physically photographed skin/cloth/metal/stone.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:19:04.885345+00:00"
+    },
+    "6": {
+      "image": "esther-006-right-v1.jpg",
+      "sha256": "01f3db2ec74438aa80175b5fbe0ad942a7b7249cd0288cdfb271a65e0eeb51a9",
+      "finding": "Original adult king gives verbal order to original adult messengers, natural open hand and attentive faces; Vashti not yet arriving, no literal anger fire. All four corners actually inspected clear; physically photographed skin/cloth/metal/stone.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:19:04.885928+00:00"
+    },
+    "7": {
+      "image": "esther-007-right-v1.jpg",
+      "sha256": "b3dd64b813be860a19e99af1b8aa3f87cf3de7f98feca104efdbb4172003f69b",
+      "finding": "Native inspection: original mature adult Vashti firmly refuses messenger with one natural open five-digit palm and second resting hand; dignified fully opaque royal gown, identity coherent and no Esther/modern face. All four corners actually inspected clear; physically photographed skin/cloth/metal/stone.",
+      "review": "full native actual visual review",
+      "reviewedUtc": "2026-10-11T19:19:04.886615+00:00"
+    },
+    "8": {
+      "image": "esther-008-right-v1.jpg",
+      "sha256": "d05779ba4febd06902c5943a0230d1af89033adfdda82220bffef0c5f3df2202",
+      "finding": "Native inspection: exactly seven original adult advisers consult one seated king, natural clasped/gesture/table hands. Background figure has a rounded guard HELMET and spear, NOT duplicate king/crown; initial concern disproved. All four corners actually inspected clear; physically photographed skin/cloth/metal/stone.",
+      "review": "full native actual visual review",
+      "reviewedUtc": "2026-10-11T19:19:04.887371+00:00"
+    },
+    "9": {
+      "image": "esther-009-right-v1.jpg",
+      "sha256": "13a5d563888c694391a39a03f7abe1355318dfd68f631727b16c586dc21a4a75",
+      "finding": "Original adult Memucan addresses king/advisers with natural open palm; restrictive speech attributed to character, no city-wide wives revolt enacted. All four corners actually inspected clear; physically photographed skin/cloth/metal/stone.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:19:04.888018+00:00"
+    },
+    "10": {
+      "image": "esther-010-right-v1.jpg",
+      "sha256": "ffec112fa8b5fd268e91487b80b3e90c564d2ed670920ca3b83cb153295039ae",
+      "finding": "Original adult scribe records proposed removal of Vashti, natural pen/paper support and empty queen seat; no invented death/execution. All four corners actually inspected clear; physically photographed skin/cloth/metal/stone.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:19:04.888576+00:00"
+    },
+    "11": {
+      "image": "esther-011-right-v1.jpg",
+      "sha256": "344ac13f7b5e77b48ea58a268f3857041947014015b3e0cafad4685f5a817365",
+      "finding": "Original adult messengers receive supported sealed scrolls in Persian departure court, natural handover and physical horses, no readable slogans. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.716612+00:00"
+    },
+    "12": {
+      "image": "esther-012-right-v1.jpg",
+      "sha256": "63110199abcd28398889b0e356543924f8da57d39aec4a582362823b7bf4472a",
+      "finding": "Original adult king pensively listens to attendants proposal, natural chin and chair hands; Vashti absent without invented punishment. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.717526+00:00"
+    },
+    "13": {
+      "image": "esther-013-right-v1.jpg",
+      "sha256": "0f98d5c60a29bf2b7e471b6fa3325d7cd052c44a6f293d12918ddf6f1aff85a1",
+      "finding": "Wholly original clearly adult women arrive court with dignified concern, fully opaque gowns and natural basket/clasped hands; no underage sexualized inspection. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.718210+00:00"
+    },
+    "14": {
+      "image": "esther-014-right-v1.jpg",
+      "sha256": "daad951b13c3b17c47e90d529df8f99940847bcbd98b1d988e914fef7e017324",
+      "finding": "Original elderly Mordecai in modest Susa quarter, natural garment grip, source captivity wording retained without precise age assertion. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.718877+00:00"
+    },
+    "15": {
+      "image": "esther-015-right-v1.jpg",
+      "sha256": "8888da4252858f005721eeb93f8bef53d84bc1b347b060e0ab4bb8e694133bef",
+      "finding": "Original adult Esther listens to elder Mordecai in modest home, guardian distance and natural clasped/open hands, no romance or modern reference faces. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.719601+00:00"
+    },
+    "16": {
+      "image": "esther-016-right-v1.jpg",
+      "sha256": "ec59e6ab7f51a8ad8fa7c35837e804deeb7329554f32c0f9adbe729b999bfa3b",
+      "finding": "Original adult Esther follows original adult Hegai toward women quarters, natural clasped hands and respectful official gesture, no child or sexual inspection. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.720266+00:00"
+    },
+    "18": {
+      "image": "esther-018-right-v1.jpg",
+      "sha256": "7602a7a2585f22b12b30df7adf2b8506a816574633a7b79eb314ad1a0fa0fc59",
+      "finding": "Original elder Mordecai waits respectfully outside women court, natural garment hands and distance; no forced entry. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.721026+00:00"
+    },
+    "19": {
+      "image": "esther-019-right-v1.jpg",
+      "sha256": "5d3df24fa6007ab00f0d4b53bfae0f1b91f20d2f0b0555a1016b41cc5b0ed276",
+      "finding": "Dignified original adult preparation in opaque clothes with myrrh vessels and natural hair-care hands, no bathing/undress/sex or time collage. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.721709+00:00"
+    },
+    "20": {
+      "image": "esther-020-right-v1.jpg",
+      "sha256": "52b3bb9425d915023fb0e6e06fec059262527862733c8423bee4170a87ad80ad",
+      "finding": "Original adult Esther chooses simple opaque garment with original adult Hegai, supported cloth and natural grips, modest restraint. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.722355+00:00"
+    },
+    "21": {
+      "image": "esther-021-right-v1.jpg",
+      "sha256": "d4911fb84529e7efd1775232c24182d17c5119153097d909065a60b6c8e9bc57",
+      "finding": "Original adult Esther approaches adult king across real Persian audience-hall distance, fully opaque robe and natural hem support, no Temple or printed date. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.722996+00:00"
+    },
+    "22": {
+      "image": "esther-022-right-v1.jpg",
+      "sha256": "27006113c0d9f1b13ff5de34f9113a10b71a9bf1f7757378a2ee5daab40eb70a",
+      "finding": "Native review: one original adult king gently lowers supported restrained crown to original adult Esther with connected natural arms/grip; adult Esther folded hands and opaque gown, no supplied modern female spouse. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "full native actual visual review",
+      "reviewedUtc": "2026-10-11T19:23:14.723667+00:00"
+    },
+    "23": {
+      "image": "esther-023-right-v1.jpg",
+      "sha256": "dffd1879ff1e0432e44ad48aeb7ff0b25b0889b68be16a22d3b6297be1505028",
+      "finding": "Original adult officials celebrate feast with natural supported cups, prepared food and gift baskets, real garden depth. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.724451+00:00"
+    },
+    "24": {
+      "image": "esther-024-right-v1.jpg",
+      "sha256": "92c24f3fc82a36932f531cd8c0a349a7d7461b52f482123d5f37f36342ba50a3",
+      "finding": "Original elder Mordecai seated at royal gate with naturally folded hands, original officials pass, loyal quiet watchfulness. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.725132+00:00"
+    },
+    "25": {
+      "image": "esther-025-right-v1.jpg",
+      "sha256": "1070dd525435f01d29edc9085075ef5dd5f0167ad9033538a45599a02611e8d2",
+      "finding": "Two original adult gate attendants whisper resentment, natural supported quiet gesture hands; Mordecai observes apart and no actual assassination. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.725801+00:00"
+    },
+    "26": {
+      "image": "esther-026-right-v1.jpg",
+      "sha256": "b6619cea04024e64afd23a1da86e530a03668a9b425cd237e1c9f400c091bfb6",
+      "finding": "Original adult Esther reports threat to listening king, natural chest/resting hands, no message bubbles. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.726429+00:00"
+    },
+    "27": {
+      "image": "esther-027-right-v1.jpg",
+      "sha256": "f0f33619f53019af0fd5f6d9a84249cec2725ac87f19358349e1c2687259b452",
+      "finding": "Original adult scribe records exposed plot with natural pen/resting hands, empty court/post aftermath without hanging bodies or graphic punishment. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.726968+00:00"
+    },
+    "30": {
+      "image": "esther-030-right-v1.jpg",
+      "sha256": "dd5288916a09be4c2114e062ab5608813515b7b47db636200709951d9d3eafa7",
+      "finding": "Original court workers question resolute original elder Mordecai, natural open palms and folded hands, no force or ethnicity badge. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.728071+00:00"
+    },
+    "31": {
+      "image": "esther-031-right-v1.jpg",
+      "sha256": "8858a3e676040c24ea791677d3933d32c73dbb7376b6e71c1e466e9a99bb00a7",
+      "finding": "Original adult Haman privately reacts to information with restrained rage, natural chin/support hands, no genocide enacted. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.728693+00:00"
+    },
+    "32": {
+      "image": "esther-032-right-v1.jpg",
+      "sha256": "19a894c40affb6e5bbd4469e538fbe13be0f9168d9e0dfe7354a77a706580e7e",
+      "finding": "Original adult Haman observes physical lot tokens cast on supported table by adults, natural grips, no magical divination glow. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.729522+00:00"
+    },
+    "33": {
+      "image": "esther-033-right-v1.jpg",
+      "sha256": "93a543795c35d4117961136dd8c12b5ad1b821d6b4e6c47cc23d19933b40220f",
+      "finding": "Original adult Haman makes hostile accusations to listening king, natural open palms; allegations as speech not objective Jewish crime. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.730351+00:00"
+    },
+    "34": {
+      "image": "esther-034-right-v1.jpg",
+      "sha256": "1eed6b72e6942961fd534d78914c4cfc9c8a7b436817c52f1131332f4f52b3c4",
+      "finding": "Native review: king passes ONE modest signet ring with natural thumb/index pinch to Haman connected hand; both have exactly two arms and second resting hands, no extra digits or giant ring. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "full native actual visual review",
+      "reviewedUtc": "2026-10-11T19:23:14.732729+00:00"
+    },
+    "35": {
+      "image": "esther-035-right-v1.jpg",
+      "sha256": "542838394f2759429a7539e3f20a5aac11d71d759f1747437c423ce15740e808",
+      "finding": "Original adult scribes write and seal hostile decree with physically supported one signet, natural writing/seal hands and grave faces, no violent readable slogan. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.734548+00:00"
+    },
+    "36": {
+      "image": "esther-036-right-v1.jpg",
+      "sha256": "a004cc48fea0ea08cd6d7a433b4ec5bd17014c862f232b065b87c8e4fc8c286d",
+      "finding": "Original adult courier hands decree to local official with natural parchment grips, distant safe families fear future order; no massacre or child violence enacted. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.735128+00:00"
+    },
+    "37": {
+      "image": "esther-037-right-v1.jpg",
+      "sha256": "fc80ea7bc1d834d563143408cd81ab308a0184b49c97c79ae0abf589c87c7603",
+      "finding": "Original Susa adults react in fear to decree, natural scroll and mouth/hand gestures, safe child and no death yet. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.735704+00:00"
+    },
+    "39": {
+      "image": "esther-039-right-v1.jpg",
+      "sha256": "d2fdaf45c69e48626080f07887065064de6f92de9019e5b77936f56241e3f1f5",
+      "finding": "Original adult households mourn/fast with safe child protectively cradled by own original mother, exactly two natural connected supporting arms, opaque sackcloth and no modern faces. All four corners actually inspected clear; physically photographed skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:23:14.736325+00:00"
+    },
+    "28": {
+      "image": "esther-028-right-v1.jpg",
+      "sha256": "08e12ca901af393e26b7048c08510d2f8813c0b51291d2823560a8b97a81f853",
+      "finding": "Original adult Haman receives elevated appointment before one seated king, natural bow and decree hands, dignitary burgundy not supplied likeness. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.558780+00:00"
+    },
+    "38": {
+      "image": "esther-038-right-v1.jpg",
+      "sha256": "bf64d05d0bb06e94d40809ac252e28867c517293b31731de1548e1946276dc21",
+      "finding": "Original elder Mordecai laments in fully covering sackcloth outside palace gate, natural forehead hand and second lap hand, no graphic self-harm. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.560070+00:00"
+    },
+    "40": {
+      "image": "esther-040-right-v1.jpg",
+      "sha256": "8fbab8f97d17d3dfbaa209af102e3b3e0c41e7e1b60787df2ab0091c837cb82f",
+      "finding": "Original adult Esther hears worried female adult attendants report beside supported folded clothing for Mordecai, natural chin/resting hands; separate locations not collapsed. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.560869+00:00"
+    },
+    "41": {
+      "image": "esther-041-right-v1.jpg",
+      "sha256": "a20f4f6555cc2f66da6dd508d793a242a9f4d9c61504dc1a1020d07a9495f8f1",
+      "finding": "Original adult Esther gives instruction to adult Hathach in one royal interior moment, natural gesture/scroll grips, no visit montage. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.561547+00:00"
+    },
+    "42": {
+      "image": "esther-042-right-v1.jpg",
+      "sha256": "a3136230f25baf1b988494b01aed51a865813d1f99dce4537bf40d6d21af86a6",
+      "finding": "Original elder Mordecai passes supported decree to Hathach at palace gate, natural two-hand paper roll grips and urgent face. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.562233+00:00"
+    },
+    "43": {
+      "image": "esther-043-right-v1.jpg",
+      "sha256": "dab2d319356320cbe0ca43bb82802323351751aee572d6f523964beac99694f9",
+      "finding": "Original adult Esther explains audience danger to adult Hathach with natural chest/open palm hands, no actual execution or invented calendar. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.562980+00:00"
+    },
+    "44": {
+      "image": "esther-044-right-v1.jpg",
+      "sha256": "57434a1835e33b03095c8266895242c811c462b518faf8ff08dad993ffa43775",
+      "finding": "Original elder Mordecai appeals firmly through original adult Hathach, natural open hand and hopeful responsibility, no divine person or prophetic angel. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.563599+00:00"
+    },
+    "45": {
+      "image": "esther-045-right-v1.jpg",
+      "sha256": "b1fe977e9ece44c1dab920e8911d60bc607c7b3b794af1d99ba70a1fac1d8d7b",
+      "finding": "Original adult Esther resolutely instructs original adult attendants and Hathach, natural palms and brave eyes, no self-harm or modern female. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.564333+00:00"
+    },
+    "47": {
+      "image": "esther-047-right-v1.jpg",
+      "sha256": "6736fcd7e073c9106feb88d1667772bf825321d7779b2986e9c419a1e17d5a2e",
+      "finding": "Original adult Esther in opaque royal robe at inner court doorway faces distant king, observer beside her across real hall depth, no other-era Temple. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.565056+00:00"
+    },
+    "48": {
+      "image": "esther-048-right-v1.jpg",
+      "sha256": "2fd3d2d205ac688113957ea4946d5f563c2a19ca5749a5e3a5d0cbab823d67ba",
+      "finding": "Native review: king extends ONE supported gold scepter with natural five-digit grip and second chair hand; adult Esther touches tip with natural connected fingers and second resting arm, clear distance and relief. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "full native actual visual review",
+      "reviewedUtc": "2026-10-11T19:27:54.565676+00:00"
+    },
+    "49": {
+      "image": "esther-049-right-v1.jpg",
+      "sha256": "fcdb49d65600ed6cb74eb107d50fe0a9d76d93ebc77e4e097aeabc06236201e4",
+      "finding": "Original adult Esther asks king to attend feast with Haman, natural chest/open palm hands and court distance, no literal half-kingdom map. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.566599+00:00"
+    },
+    "50": {
+      "image": "esther-050-right-v1.jpg",
+      "sha256": "c90ab5907067f4e019da24dcfb5b552f97b996787f7cac901694f84c1d0c2cd4",
+      "finding": "Three original adults king, Esther and Haman at first Persian feast, supported cups and natural hands, quiet tension no sexual or modern face. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.567507+00:00"
+    },
+    "51": {
+      "image": "esther-051-right-v1.jpg",
+      "sha256": "01e0321923eac379b5554a31e408f292bf525a847fe8538a495442cf9496a3af",
+      "finding": "Original adult Esther pauses at first feast as king and Haman listen, natural speaking hands and cup support, no second-feast collage. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.568144+00:00"
+    },
+    "52": {
+      "image": "esther-052-right-v1.jpg",
+      "sha256": "9df192cab681136af9227c654c8202103f492ca0ed2d65cf3fa8fe9af650e868",
+      "finding": "Native inspection: Haman wears cylindrical ornamented Persian court cap with level rim, NOT pointed royal crown; initial concern disproved. Original elder Mordecai remains seated, natural limbs/garment hands and tense encounter, no assault. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "full native actual visual review",
+      "reviewedUtc": "2026-10-11T19:27:54.568892+00:00"
+    },
+    "53": {
+      "image": "esther-053-right-v1.jpg",
+      "sha256": "f18750325521a9f7b759b136d3f3b075186ceff505fa34240989a572824733fd",
+      "finding": "Original adult Haman boasts before wholly original adult Zeresh in opaque ochre gown and adult friends, natural two open hands and listening faces; no authorized reference spouse. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.569570+00:00"
+    },
+    "60": {
+      "image": "esther-060-right-v1.jpg",
+      "sha256": "1a72e24075b64a46b3d2c9aeff30a3c317df826bd78eadbc501de19814e9e269",
+      "finding": "Original adult Haman explains proposed honor to seated king, natural open palms; supported robe and ONE healthy horse as practical proposed context, no Haman riding/crowning. All four corners actually inspected clear; photographic skin/cloth/materials.",
+      "review": "contact sheet actual inspection; context and all four corners",
+      "reviewedUtc": "2026-10-11T19:27:54.570274+00:00"
+    },
+    "54": {
+      "image": "esther-054-right-v1.jpg",
+      "sha256": "8e251216caa3d8bfdceeca2f51d897e836240d725ac9b509c11dd9f8cff98c82",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.179216+00:00"
+    },
+    "55": {
+      "image": "esther-055-right-v1.jpg",
+      "sha256": "e3b907d567f21d7eaf0554614b3c7ba790aedd2f261e7c0aa43deeedf352058f",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.180077+00:00"
+    },
+    "56": {
+      "image": "esther-056-right-v1.jpg",
+      "sha256": "7650e7b28c2244eff282863f13830a75ee8f04341c03063f2aeffe851902cae6",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.180750+00:00"
+    },
+    "58": {
+      "image": "esther-058-right-v1.jpg",
+      "sha256": "935b658ed1f39416b16e44d55f4a8637835974006d4e92768b19d1558843a5d0",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.181263+00:00"
+    },
+    "59": {
+      "image": "esther-059-right-v1.jpg",
+      "sha256": "6604e4e903693eca6e3b1a3965a063eedf27ce2bbca76996aba7616077a4408e",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.181914+00:00"
+    },
+    "61": {
+      "image": "esther-061-right-v1.jpg",
+      "sha256": "dba17a0939701335643eb5f172690c6cfd255b6799f8be4325dbbddddb1f27aa",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.182582+00:00"
+    },
+    "62": {
+      "image": "esther-062-right-v1.jpg",
+      "sha256": "a73c7586021f1c4e5e839c32b0198dd416cf86e6f7392aea77f80127797185c8",
+      "finding": "Full-size: one white horse, Mordecai rides, Haman on foot leads physically connected rein with natural hand and other open palm.",
+      "review": "full-size native review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.182894+00:00"
+    },
+    "63": {
+      "image": "esther-063-right-v1.jpg",
+      "sha256": "9b81d2a66acae9e1483921dbeaea187bfe8e4ca01fc92c2019b4d6837599447a",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.183572+00:00"
+    },
+    "64": {
+      "image": "esther-064-right-v1.jpg",
+      "sha256": "2a28363a34c5efa422f9fbaa98db7c517f25d0994f331e0ec397ab982b6454c2",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.184243+00:00"
+    },
+    "65": {
+      "image": "esther-065-right-v1.jpg",
+      "sha256": "dc517669e16320efa3a7d8cb871d57549ef9c29ada3afce3ce662edf5d713e3a",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.184976+00:00"
+    },
+    "66": {
+      "image": "esther-066-right-v1.jpg",
+      "sha256": "e3f618cd446ecd91c657ba9233ffb9a2ed5c656c7450ed749fd2a8029b616d08",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.185325+00:00"
+    },
+    "69": {
+      "image": "esther-069-right-v1.jpg",
+      "sha256": "efa58f06b7b73cc9f14bb9b6aa9d8666518231cff95b5b9d7cf7ff72a3cb2fc5",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.186149+00:00"
+    },
+    "70": {
+      "image": "esther-070-right-v1.jpg",
+      "sha256": "75e10dffcdcfcdec30feee64361e2d76b092438678cb99895bdf51bbb1d23bcc",
+      "finding": "Full-size: clothed Haman below queen couch, connected palm on floor, attendant covers his head, queen untouched, king returns; non-graphic.",
+      "review": "full-size native review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.186479+00:00"
+    },
+    "71": {
+      "image": "esther-071-right-v1.jpg",
+      "sha256": "7005fe8442e2c5394c0c6b967bb0dc27a2e901866d335d420c3eba501883442b",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.187078+00:00"
+    },
+    "72": {
+      "image": "esther-072-right-v1.jpg",
+      "sha256": "8ea7fee534d7f403b9a42aa54bfba9be6807716f94364c85e0fd867961ae6325",
+      "finding": "Full-size: ONE signet ring passed from king pinch to Mordecai receiving hand; other connected hands coherent, Esther observes.",
+      "review": "full-size native review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.187363+00:00"
+    },
+    "73": {
+      "image": "esther-073-right-v1.jpg",
+      "sha256": "f53e41c07881aec9d3012e9d80f86b6e2c45e96f8767e8952040c31065f4f083",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.187996+00:00"
+    },
+    "74": {
+      "image": "esther-074-right-v1.jpg",
+      "sha256": "5f433f49b1a67131f6c9bc47cb7cefa1efb190f62a4598d19f33adb216a30042",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.188585+00:00"
+    },
+    "75": {
+      "image": "esther-075-right-v1.jpg",
+      "sha256": "d8b489ff268d9a4d19ad0e2c18b4448a514267352f174c3a231e5122d490fcac",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.189293+00:00"
+    },
+    "76": {
+      "image": "esther-076-right-v1.jpg",
+      "sha256": "b9feeea8d2bc64ea9605985efb4835464995ef9648e8fe1861ae9ccea1a0dab0",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.189931+00:00"
+    },
+    "77": {
+      "image": "esther-077-right-v1.jpg",
+      "sha256": "76b8d2dfd41376e2a2f6175833837ebd5ffd27f611c665e9612cee208d56ce38",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.190548+00:00"
+    },
+    "78": {
+      "image": "esther-078-right-v1.jpg",
+      "sha256": "e9867bbd710fdc4b9750a47a929833619b4193cead38c426f254eb49a4140691",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.191208+00:00"
+    },
+    "79": {
+      "image": "esther-079-right-v1.jpg",
+      "sha256": "c89f896eff29c67fe16896fa72c01a598ffb1a4863f31bf1dbaf21d184a8cf55",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.191819+00:00"
+    },
+    "80": {
+      "image": "esther-080-right-v1.jpg",
+      "sha256": "f6600767e3b09c289da449f5bc950748d3949cffb1d491380f0990dfc8c08cdf",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.192491+00:00"
+    },
+    "81": {
+      "image": "esther-081-right-v1.jpg",
+      "sha256": "889eba295a8c819f812c8364c344a075530c62167a10706cc6a8ccba0aa78c93",
+      "finding": "Full-size: authorized female Sung alone, natural two clasped chest hands, no Yeonkyung or male Sung; original neighboring faces, no modern accessories or spouse role.",
+      "review": "full-size native review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.192892+00:00"
+    },
+    "82": {
+      "image": "esther-082-right-v1.jpg",
+      "sha256": "584b84a419bd314429449b4ff80b55b451b953b4badb6a51b52c788c9bb091f5",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.193485+00:00"
+    },
+    "83": {
+      "image": "esther-083-right-v1.jpg",
+      "sha256": "e9adf195b4ab1a47238a9951535617d0bef74b3e68966e5907182521bbd3f956",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.194094+00:00"
+    },
+    "84": {
+      "image": "esther-084-right-v1.jpg",
+      "sha256": "2b52bb94ac786bfbec4fdb29d73b748ff8d3fdbc3fd4009caad91867eeec1340",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.194774+00:00"
+    },
+    "85": {
+      "image": "esther-085-right-v1.jpg",
+      "sha256": "dd45d84f59fd5dfec0392d5f5db4f884f968726faecbf4aaa57edd9e8ab2081f",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.195386+00:00"
+    },
+    "86": {
+      "image": "esther-086-right-v1.jpg",
+      "sha256": "24cb087d05fdcb3409a3e925db23a0f55309242040a3ae6d2d67aced708aa8ed",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.195992+00:00"
+    },
+    "87": {
+      "image": "esther-087-right-v1.jpg",
+      "sha256": "d221e16f9a2c204ce8a9727981cee7e0df02cfc95fa23b806deb50c8e9ee1862",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.196608+00:00"
+    },
+    "88": {
+      "image": "esther-088-right-v1.jpg",
+      "sha256": "38888852fa1a7e1b50b346234afca6e65cb0e2be717b5dc89969c546b5dafffc",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.197166+00:00"
+    },
+    "89": {
+      "image": "esther-089-right-v1.jpg",
+      "sha256": "91914f4ae7f5e71487fff55ec1ac55f391e6e760bb5d995c99d91107570c9a96",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.197767+00:00"
+    },
+    "90": {
+      "image": "esther-090-right-v1.jpg",
+      "sha256": "4a4e4dd536b69e6a07dc1661e636cc48a0484d4ef3144165ab8cd2f0935bed40",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.198452+00:00"
+    },
+    "91": {
+      "image": "esther-091-right-v1.jpg",
+      "sha256": "49bfdf756e378ea39ffc34f0de20e7276d2de22b7d6729d1fbad73240562aa62",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.199076+00:00"
+    },
+    "92": {
+      "image": "esther-092-right-v1.jpg",
+      "sha256": "b982fba944c3f58f6ede786f41e82eb5b69037e4a91627034652b35b3e51038a",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.199661+00:00"
+    },
+    "93": {
+      "image": "esther-093-right-v1.jpg",
+      "sha256": "1b128b98672da3286f33addc68da51b396cc4e2a6be9aafa9c6eadf02a7f8e1d",
+      "finding": "Full-size: authorized male Sung and Yeonkyung ordinary adult couple give food basket to original older adult; natural connected grips, no female Sung/modern glasses/third-party spouse or parent role.",
+      "review": "full-size native review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.199995+00:00"
+    },
+    "94": {
+      "image": "esther-094-right-v1.jpg",
+      "sha256": "275e62e910e4ecd261b6bcdf0ccfafc68fae4045d6bb45ea918bad255b2b3912",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.200548+00:00"
+    },
+    "95": {
+      "image": "esther-095-right-v1.jpg",
+      "sha256": "e3d5da593d3ff290197cf277091089178fb68abbe3f78db87aa99b692074c74e",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.201178+00:00"
+    },
+    "96": {
+      "image": "esther-096-right-v1.jpg",
+      "sha256": "17f2144edfec3bcaa4c35fa299bfa6fe28253ce15db1edc7f20a10b7cd7eaadd",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.201746+00:00"
+    },
+    "97": {
+      "image": "esther-097-right-v1.jpg",
+      "sha256": "4018043c2f4cdeca1ddc022dbd67e99b812ee96a4db5d0b3410cc98fa5d1dbf3",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.202303+00:00"
+    },
+    "98": {
+      "image": "esther-098-right-v1.jpg",
+      "sha256": "9b7cdeba2a89d0a640a3f4dd20b37eb487b208de6d635d8ba9364c3d5b5acb8c",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.202924+00:00"
+    },
+    "99": {
+      "image": "esther-099-right-v1.jpg",
+      "sha256": "dc78383b1ccbf9eae49f0c6d4238d29a2fdd7ea4512bf95608e7e726ea6fdb58",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.203594+00:00"
+    },
+    "100": {
+      "image": "esther-100-right-v1.jpg",
+      "sha256": "d2d81be0d6f657c5e9b459995d9e61caf91e800f86f662cc33269376b3b5bb4b",
+      "finding": "Actually viewed photographed Persian historical scene with faithful passage context, clear corners, coherent people/hands/clothing; no invented divine body, gore or unauthorized modern cast.",
+      "review": "actual contact-sheet visual review and all corners",
+      "reviewedUtc": "2026-10-11T19:43:04.204267+00:00"
+    },
+    "29": {
+      "image": "esther-029-right-v2.jpg",
+      "sha256": "c0679a52f4ca1192d210a95ed890cfd41dde3c37cda61a964228097e02d6264c",
+      "finding": "Actual full-size view: Haman now flat burgundy official cap and robe, ordinary rolled document and no royal scepter or canopy; upright Mordecai, bowing adults and natural connected hands preserved.",
+      "review": "full native actual visual review of correction",
+      "reviewedUtc": "2026-10-11T19:43:48.120004+00:00",
+      "previousImagePreserved": "esther-029-right-v1.jpg"
+    },
+    "57": {
+      "image": "esther-057-right-v2.jpg",
+      "sha256": "6fc1515881451fd957e952cce972f6474f77a67addffdb32e4273f78dfcab4b8",
+      "finding": "Actual full-size view restores blue moonlit deep night and practical lamps in sleepless chronicles reading; same natural chin/cup hands, original attendant and Persian setting.",
+      "review": "full native actual visual review of correction",
+      "reviewedUtc": "2026-10-11T19:44:28.320769+00:00",
+      "previousImagePreserved": "esther-057-right-v1.jpg"
+    },
+    "68": {
+      "image": "esther-068-right-v2.jpg",
+      "sha256": "b3656b1b8c3bb89ba2b0bcd0d122eb4e8ac7a3fba5c9487118da6a34ef165da2",
+      "finding": "Actual full-size view restores three seated adults at second-banquet table; Esther natural pointing hand identifies Haman, king turns in alarm; Haman cylindrical flat-topped court cap and both hands coherent; clear photographic corners.",
+      "review": "full native actual visual review of correction",
+      "reviewedUtc": "2026-10-11T19:45:07.594462+00:00",
+      "previousImagePreserved": "esther-068-right-v1.jpg"
+    },
+    "46": {
+      "image": "esther-046-right-v2.jpg",
+      "sha256": "63fb3c47ecdb401db27c40e66c29d8faeb3cec21c1b43bc2f862fa8ce96af571",
+      "finding": "Actual full-size view confirms low-lying Persian Susa/date palms/blue-gold palace walls replace Jerusalem hill sanctuary; original praying adults and natural connected clasped hands preserved.",
+      "review": "full native actual visual review of correction",
+      "reviewedUtc": "2026-10-11T19:45:36.066804+00:00",
+      "previousImagePreserved": "esther-046-right-v1.jpg"
+    },
+    "17": {
+      "image": "esther-017-right-v2.jpg",
+      "sha256": "ac0a66d50d40c1d0d2a4d97fb4a14329390cbb3e05d182699bebb757756d6b01",
+      "finding": "Actual full-size view counts SIX distinct adult background helpers (including partly occluded one behind giver) plus ONE foreground giver = SEVEN helpers; Esther separate = eight women total. Natural tray grips and physical weight preserved.",
+      "review": "full native actual visual review of correction",
+      "reviewedUtc": "2026-10-11T19:46:48.436274+00:00",
+      "previousImagePreserved": "esther-017-right-v1.jpg"
+    },
+    "67": {
+      "image": "esther-067-right-v3.jpg",
+      "sha256": "e5001b377954b0598e67aba27829c75a54c1efe28b9b0b1ed7247f3cd1c2a346",
+      "finding": "Actual full-size view confirms Haman flat burgundy cylindrical official cap, sole king retains royal pointed crown; three seated adults, Esther natural chest/open pleading hands and second banquet photographic continuity preserved.",
+      "review": "full native actual visual review of correction",
+      "reviewedUtc": "2026-10-11T19:50:39.596695+00:00",
+      "previousImagePreserved": "esther-067-right-v1.jpg"
+    }
+  },
+  "nativeReviewed": [
+    1,
+    7,
+    8,
+    22,
+    34,
+    48,
+    52,
+    62,
+    70,
+    72,
+    81,
+    93,
+    29,
+    57,
+    68,
+    46,
+    17,
+    67
+  ],
+  "cornerReviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    39,
+    28,
+    38,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    60,
+    54,
+    55,
+    56,
+    58,
+    59,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    29,
+    57,
+    68,
+    46,
+    17,
+    67
+  ],
+  "pendingCorrections": {}
+}

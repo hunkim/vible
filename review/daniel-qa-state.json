@@ -1,0 +1,1007 @@
+{
+  "book": "daniel",
+  "images": [
+    {
+      "id": 1,
+      "image": "daniel-c001-v001-002-right-context-v1.jpg",
+      "sha256": "eedb1d66d652d287ed49dd401e4b469d433c8bdea6038228e1501d79ef745065",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:42:39.395506+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/001-013-55727c91.jpg"
+      ],
+      "findings": "Guarded sacred vessels removed from besieged city, sorrowful witnesses, no Daniel or gore."
+    },
+    {
+      "id": 2,
+      "image": "daniel-c001-v003-007-right-context-v1.jpg",
+      "sha256": "df03d35df3ce3e07d857e3d5fca06d0604b32c6faf18489f2de6b588dda5fe19",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:41:20.538726+00:00",
+      "method": "full-resolution visual inspection",
+      "evidencePaths": [
+        "output/daniel/daniel-c001-v003-007-original-v1.png"
+      ],
+      "findings": "Exactly four distinct Judean youths, Daniel at right in ivory/burgundy with sober uncertain face, friends ochre/olive/blue-gray. Coherent hands and opaque period clothing; monumental court but human-level camera."
+    },
+    {
+      "id": 3,
+      "image": "daniel-c001-v008-010-right-context-v1.jpg",
+      "sha256": "3dd417d410036cd4debc944fe41e8bbd9cf7ab3ba016484a29e93ea19ebdf3d1",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:51:49.639231+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/003-011-00e877c8.jpg"
+      ],
+      "findings": "Respectful Daniel requests food exemption, sober youthful face, uneaten food and wine, coherent open hands."
+    },
+    {
+      "id": 4,
+      "image": "daniel-c001-v011-016-right-context-v1.jpg",
+      "sha256": "fea380d9c4a13c0f6bf432b461ae877c9b3262e22027eb019635c87646a792e0",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:51:49.639840+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/003-011-00e877c8.jpg"
+      ],
+      "findings": "Exactly four youths eating vegetables and water with supervisor, healthy faces, identity clothing continuity."
+    },
+    {
+      "id": 5,
+      "image": "daniel-c001-v017-021-right-context-v1.jpg",
+      "sha256": "02d05ac3059ce700e214cb47ae908ca8e8985ffa56200aefc50b206546a5bf20",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:51:49.640327+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/003-011-00e877c8.jpg"
+      ],
+      "findings": "Exactly four youths answering seated king, Daniel humble confidence and distinct friends."
+    },
+    {
+      "id": 6,
+      "image": "daniel-c002-v001-003-right-context-v1.jpg",
+      "sha256": "52ffe61d09d4e709650c2d11a6e7454e90822c959e9ade0d6394216c54b892dd",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:42:39.396351+00:00",
+      "method": "contact-sheet visual inspection; full-resolution for6",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/001-013-55727c91.jpg",
+        "output/daniel/daniel-c002-v001-003-original-v1.png"
+      ],
+      "findings": "Full-resolution king face inspected: anxious sleepless brow and moist eyes, natural dawn and distinct royal robe."
+    },
+    {
+      "id": 7,
+      "image": "daniel-c002-v004-011-right-context-v1.jpg",
+      "sha256": "b81dba9f1dbb787d0f0cf0d27150c77314787529c97b52f4fd3c3f3d0a557cc1",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:51:49.640821+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/003-011-00e877c8.jpg"
+      ],
+      "findings": "Sleepless king identity preserved, demanding gesture and anxious wise men, no Daniel."
+    },
+    {
+      "id": 8,
+      "image": "daniel-c002-v012-016-right-context-v1.jpg",
+      "sha256": "43c9b902a59ae5107f88e381f3fe15622092d4df0476bfef599ec999003eb515",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:51:49.641269+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/003-011-00e877c8.jpg"
+      ],
+      "findings": "Daniel speaks calmly to armed court captain, intact connected hands, no executions."
+    },
+    {
+      "id": 9,
+      "image": "daniel-c002-v017-018-right-context-v1.jpg",
+      "sha256": "748bc79a2bb1c1c990411b3a39e09af51211ac6a5f9d2c4d5a6c7dc34e21965e",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:51:49.641703+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/003-011-00e877c8.jpg"
+      ],
+      "findings": "Exactly four friends seek mercy at night, fear and trust in clasped hands and bowed faces."
+    },
+    {
+      "id": 10,
+      "image": "daniel-c002-v019-023-right-context-v1.jpg",
+      "sha256": "701674506b2487d6e1d650e8a3630e897e9412c429d661e651bf6d448f77231e",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:51:49.642081+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/003-011-00e877c8.jpg"
+      ],
+      "findings": "Daniel grateful relief after revelation, moist eyes and coherent clasp, unseen God."
+    },
+    {
+      "id": 11,
+      "image": "daniel-c002-v024-030-right-context-v1.jpg",
+      "sha256": "f0f1e4b7d2616b8b3dc011c51f9ebafc5fbb5081d9c645d03d8e9dba993e1edc",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:51:49.642558+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/003-011-00e877c8.jpg"
+      ],
+      "findings": "Daniel humble before king, captain aside, period court scale."
+    },
+    {
+      "id": 12,
+      "image": "daniel-c002-v031-033-right-context-v1.jpg",
+      "sha256": "2a7122677fb43802e00533fae546501e56d9bab03dabb354821ae69c87b3d037",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:44:08.190691+00:00",
+      "method": "full-resolution visual inspection",
+      "evidencePaths": [
+        "output/daniel/daniel-c002-v031-033-original-v1.png"
+      ],
+      "findings": "Full-resolution inspected: gold head, silver arms/chest, bronze midsection, dark iron legs and earthen patches feet; interpretive dream landscape."
+    },
+    {
+      "id": 13,
+      "image": "daniel-c002-v034-035-right-context-v1.jpg",
+      "sha256": "413d08188ca2c671c3ded1ec9b2c997529dc14ae2c3ba8f660494064c0776a14",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:42:39.397126+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/001-013-55727c91.jpg"
+      ],
+      "findings": "Interpretive dream aftermath: broken multimetal statue fragments with mountain dominating, no divine hand."
+    },
+    {
+      "id": 14,
+      "image": "daniel-c002-v036-043-right-context-v1.jpg",
+      "sha256": "36799402ae32f20e7c05ab34f021777df1e78576b94e6a42bea931c33bc01d56",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.588588+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/014-030-bfb6f08c.jpg"
+      ],
+      "findings": "Daniel humbly interprets kingdoms, same youthful actor and king listening."
+    },
+    {
+      "id": 15,
+      "image": "daniel-c002-v044-045-right-context-v1.jpg",
+      "sha256": "ddea3258742a4df1c214b1660330b165947e2a68648261f05a9bd70ebe82bd90",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:44:08.191674+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/012-026-9f1e81a2.jpg"
+      ],
+      "findings": "Enduring mountain and small broken metallic statue remnants; no divine form."
+    },
+    {
+      "id": 16,
+      "image": "daniel-c002-v046-049-right-context-v1.jpg",
+      "sha256": "48f2538b61ef0a6b466cf6e8811bda912c565d19a1d6cc17ccd398db0d6cfda3",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.589157+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/014-030-bfb6f08c.jpg"
+      ],
+      "findings": "King bowed low, Daniel uncomfortable humble rather than divine, three friends beyond, gifts offered."
+    },
+    {
+      "id": 17,
+      "image": "daniel-c003-v001-007-right-context-v1.jpg",
+      "sha256": "c6ff7a52d9911da7ae5e78ae1641fdd78bfcb75fe8838a4fbec6204b454c5da9",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.589614+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/014-030-bfb6f08c.jpg"
+      ],
+      "findings": "Gold idol and bowing crowd, exactly three friends upright as foreshadowing refusal, no Daniel."
+    },
+    {
+      "id": 18,
+      "image": "daniel-c003-v008-015-right-context-v1.jpg",
+      "sha256": "cbf43398d362e991d242332a76625159a19cdee9385bc656b85ec7c5a2bd81ed",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.590115+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/014-030-bfb6f08c.jpg"
+      ],
+      "findings": "Three distinctive friends before angry king and accusers, Daniel absent."
+    },
+    {
+      "id": 19,
+      "image": "daniel-c003-v016-018-right-context-v1.jpg",
+      "sha256": "c1cf75a485f6b8e80728f246cd8d1a6e25e83ddf9751c62a037f4dd5c5fc525e",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.590561+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/014-030-bfb6f08c.jpg"
+      ],
+      "findings": "Three friends firm yet anxious faces and clothed posture, no fourth person or Daniel."
+    },
+    {
+      "id": 20,
+      "image": "daniel-c003-v019-023-right-context-v1.jpg",
+      "sha256": "ceb04c6060c9ea1aa04be10918764428a20ccc43ee773de8a16721dee4c51f9e",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.591062+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/014-030-bfb6f08c.jpg"
+      ],
+      "findings": "Three bound friends at brick furnace, guards recoil from intense heat, no graphic burned bodies."
+    },
+    {
+      "id": 21,
+      "image": "daniel-c003-v024-025-right-context-v1.jpg",
+      "sha256": "2f8612020bd1c0225ffca39356f9c40fb585d68689b42341ba049f8204414b87",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.591455+00:00",
+      "method": "full-resolution visual inspection",
+      "evidencePaths": [
+        "output/daniel/daniel-c003-v024-025-original-v1.png"
+      ],
+      "findings": "Full-resolution inspected: exactly three original friends plus distinct luminous linen fourth messenger, intact skin/hair/clothing and unbound, no Daniel."
+    },
+    {
+      "id": 22,
+      "image": "daniel-c003-v026-027-right-context-v1.jpg",
+      "sha256": "5cad0112f6b411ebc698dc2fb845983cd8b2f2ed95bba2f80509c39dbf3058fc",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.591972+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/014-030-bfb6f08c.jpg"
+      ],
+      "findings": "Three emerged intact, officials inspect hair and sleeves, awe and relief, no fourth messenger outside."
+    },
+    {
+      "id": 23,
+      "image": "daniel-c003-v028-030-right-context-v1.jpg",
+      "sha256": "5c88d5c734714d2b5bcbfbfcb21da378cca167cfb98a399dc568dfc601362cac",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.592436+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/014-030-bfb6f08c.jpg"
+      ],
+      "findings": "King acknowledges deliverance with three friends, reverent rather than violent triumph."
+    },
+    {
+      "id": 24,
+      "image": "daniel-c004-v001-009-right-context-v1.jpg",
+      "sha256": "ef7272944391fa7ff4a7bc47f9a22b4bd3442bc19d5aca1a8a017a40f5d7b9d2",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:44:08.194572+00:00",
+      "method": "full-resolution visual inspection",
+      "evidencePaths": [
+        "output/daniel/daniel-c004-v001-009-original-v1.png"
+      ],
+      "findings": "Full-resolution aged Daniel50 recognizable with graying beard; listening king and coherent open hands."
+    },
+    {
+      "id": 25,
+      "image": "daniel-c004-v010-012-right-context-v1.jpg",
+      "sha256": "085573230f02baa1d1a07a050877ab3508d27c889c7fbf25a21175bc13f88aff",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:44:08.192829+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/012-026-9f1e81a2.jpg"
+      ],
+      "findings": "Immense fruitful tree with birds and animals, physical root-level dream view."
+    },
+    {
+      "id": 26,
+      "image": "daniel-c004-v013-017-right-context-v1.jpg",
+      "sha256": "35c624339363c760de5dd6fe6c372cda1ab710762f6f56fd0df2318c834ec93e",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:44:08.193719+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/012-026-9f1e81a2.jpg"
+      ],
+      "findings": "Rooted stump with iron and bronze bands, dew grass and distant sacred messenger, no deity form."
+    },
+    {
+      "id": 27,
+      "image": "daniel-c004-v018-027-right-context-v1.jpg",
+      "sha256": "865d1b3558bf92268006057e8e6007f8c705275132285f50a70f5763f51ceed9",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.592923+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/014-030-bfb6f08c.jpg"
+      ],
+      "findings": "Middle-aged Daniel empathetic advice to worried king, natural open hand."
+    },
+    {
+      "id": 28,
+      "image": "daniel-c004-v028-032-right-context-v1.jpg",
+      "sha256": "484a18f9b1d27a0e02889d7a8cd4d846d44ebd9da87e32dfec07c1e917cd9e50",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.593410+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/014-030-bfb6f08c.jpg"
+      ],
+      "findings": "Proud king on high rooftop turns alarmed toward unseen voice, city depth, no God body."
+    },
+    {
+      "id": 29,
+      "image": "daniel-c004-v033-033-right-context-v2.jpg",
+      "sha256": "3c777b7f3fad92e270ee2492bb0d09e2c06099b58fd4e795b5103e997c612025",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.767533+00:00",
+      "method": "full original PNG visual review",
+      "evidencePaths": [
+        "output/daniel/daniel-c004-v033-033-original-v2.png"
+      ],
+      "findings": "Full PNG v2: humbled crownless Nebuchadnezzar with tangled hair, five long clawlike nails, coarse covering and grass eating; painful vulnerability without ridicule."
+    },
+    {
+      "id": 30,
+      "image": "daniel-c004-v034-037-right-context-v1.jpg",
+      "sha256": "2c1cb3fa9a56def9b7ed8291bfa54d7ffd68b83ec3843d4fcf42d7ac1ea49475",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:52.593853+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/014-030-bfb6f08c.jpg"
+      ],
+      "findings": "Restored king grateful upward gaze and coherent open palms, distinct from Daniel."
+    },
+    {
+      "id": 31,
+      "image": "daniel-c005-v001-004-right-context-v1.jpg",
+      "sha256": "29488043afdf3ebe1619995b67084122c1434592cb12af9f689f14eb722eed8a",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.320357+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Belshazzar careless banquet with sacred vessels and many adult courtiers, physically coherent cup lift."
+    },
+    {
+      "id": 32,
+      "image": "daniel-c005-v005-009-right-context-v1.jpg",
+      "sha256": "1794153a4eccf8e4b1ce426a38388e8478b8cda38dbd98da94c0bd97249066b2",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.767964+00:00",
+      "method": "full original PNG visual review",
+      "evidencePaths": [
+        "output/daniel/daniel-c005-v005-009-original-v1.png"
+      ],
+      "findings": "Full PNG: humanlike detached writing fingers on plaster, Belshazzar alarm and falling cup, plausible connected king arms; script visual marks not asserted exact transcription. Biblical hand not identified as visible God portrait."
+    },
+    {
+      "id": 33,
+      "image": "daniel-c005-v010-016-right-context-v1.jpg",
+      "sha256": "a64a4a096fa6624d819a125594b23c3613dc262602e16ff790d13e9998bf1dd6",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:44:08.195448+00:00",
+      "method": "full-resolution visual inspection",
+      "evidencePaths": [
+        "output/daniel/daniel-c005-v010-016-original-v1.png"
+      ],
+      "findings": "Full-resolution elder white-bearded Daniel beside queen mother and separate young anxious Belshazzar; opaque court clothing and coherent hands."
+    },
+    {
+      "id": 34,
+      "image": "daniel-c005-v017-024-right-context-v1.jpg",
+      "sha256": "18c4e2f41710a3371f3dabf690ac1c4c12d1f4137a9fee8b9abfbcc5695d8b72",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.320941+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Elder Daniel refuses royal honor and soberly confronts king; in-world distant wall marks not used as exact transcription."
+    },
+    {
+      "id": 35,
+      "image": "daniel-c005-v025-028-right-context-v1.jpg",
+      "sha256": "8a77d5961eeccccabfd9784da49b0ec88256ef8c0bdd95b3c5235470d60a1cf1",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.321446+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Daniel interpreting judgment, king shaken and small balance motif, no modern chart."
+    },
+    {
+      "id": 36,
+      "image": "daniel-c005-v029-031-right-context-v2.jpg",
+      "sha256": "f280b927047a909dd4f5804ed8a82bdfef1e20fda99746f5dbd8804f498dc559",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:55:13.580247+00:00",
+      "method": "full-resolution visual inspection",
+      "evidencePaths": [
+        "output/daniel/daniel-c005-v029-031-original-v2.png"
+      ],
+      "findings": "Revised Darius wears pale cream court robe and fitted soft cap, distinct face/costume from Babylonian kings. Empty throne and discarded cup convey regime change without corpse; coherent guards."
+    },
+    {
+      "id": 37,
+      "image": "daniel-c006-v001-005-right-context-v1.jpg",
+      "sha256": "2cda3f3d23cc0d2cd5faa19371cd38b448068914be36cc05a864874905a29267",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.321898+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Elder Daniel honestly reviews tablets while jealous officials watch, coherent grips."
+    },
+    {
+      "id": 38,
+      "image": "daniel-c006-v006-009-right-context-v1.jpg",
+      "sha256": "bc4d156c480ffe85f2d39e1b3cab2e3fe4dad291e042e7406f2e84cef82e0369",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.322404+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Cream-clad distinct Darius presses seal onto decree; coherent hand and conspiring officials."
+    },
+    {
+      "id": 39,
+      "image": "daniel-c006-v010-011-right-context-v1.jpg",
+      "sha256": "4bde5e751986ce2d333fa8b42927f51ba5275404a63fce57414ef547e709576e",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.322863+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Elder Daniel kneels gratefully at open window, spies dim behind; city view represents Babylon not distant Jerusalem."
+    },
+    {
+      "id": 40,
+      "image": "daniel-c006-v012-015-right-context-v1.jpg",
+      "sha256": "f0c2575a39fb15d65d4a0333ce4709a5cb0740d6be8f80058b9c8de9a08bfb05",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.758942+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg"
+      ],
+      "findings": "Darius cream garments and gray narrow face, distressed open-handed appeal to accusers at dusk; no Daniel cameo."
+    },
+    {
+      "id": 41,
+      "image": "daniel-c006-v016-017-right-context-v1.jpg",
+      "sha256": "cf4a2ca5fcd277fbe925222fe378de4ebfbdec91b99a4ea1fbb3156f0b6c1d20",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.759506+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg"
+      ],
+      "findings": "Daniel lowered on two ropes in rocky lion pit, intact elder and connected gripping hands; Darius above, distinct lion faces."
+    },
+    {
+      "id": 42,
+      "image": "daniel-c006-v018-020-right-context-v1.jpg",
+      "sha256": "1d658aeeda9bf3fbfff85e06b47221491be0cee0adaa9087883f271e9e104a3b",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.760027+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg"
+      ],
+      "findings": "Darius urgently leans toward opened stone den at dawn with guards; face and cap continuous with corrected anchor."
+    },
+    {
+      "id": 43,
+      "image": "daniel-c006-v021-022-right-context-v1.jpg",
+      "sha256": "a7f98e1f3301c420dbded4d8c7a86cde2e6f8a9e354d629a557316fe0b8049f0",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.760488+00:00",
+      "method": "full original PNG plus contact sheet",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg",
+        "output/daniel/daniel-c006-v021-022-original-v1.png"
+      ],
+      "findings": "Full PNG: four calm lions with closed mouths, unhurt elder Daniel, distant linen messenger; coherent clasped hands and luminous rocky den."
+    },
+    {
+      "id": 44,
+      "image": "daniel-c006-v023-024-right-context-v1.jpg",
+      "sha256": "6e07caf9baf9c03001f6a88579efed0b40908d0f81f27b39ef021a9a4703c0fd",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.760902+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg"
+      ],
+      "findings": "Darius clasps rescued Daniel hand, elder climbing edge with connected supporting arm; no depicted family mauling."
+    },
+    {
+      "id": 45,
+      "image": "daniel-c006-v025-028-right-context-v1.jpg",
+      "sha256": "192d5c3bbe10c6ad15070b67843fd8cf04a02f31d92a2cad1d43cc2a04a2e41c",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.761313+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg"
+      ],
+      "findings": "Darius cream cap/robe proclamation with Daniel beside him; kings and Daniel facial identities distinguishable."
+    },
+    {
+      "id": 46,
+      "image": "daniel-c007-v001-003-right-context-v1.jpg",
+      "sha256": "f665fdf6601c6b07f7ba16aac81ec1273178e457850afa5e7df1898326aadc55",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:44:50.537837+00:00",
+      "method": "full-resolution visual inspection",
+      "evidencePaths": [
+        "output/daniel/daniel-c007-v001-003-original-v1.png"
+      ],
+      "findings": "Daniel gray-bearded in earlier visionary period, worried brow and writing grip coherent, readable pre-dawn room. Same ivory/burgundy actor identity without copying group scene."
+    },
+    {
+      "id": 47,
+      "image": "daniel-c007-v004-004-right-context-v1.jpg",
+      "sha256": "434eef9a0db9d7e80eb1081ea11e687038286ad7f79e37833a912056028c5703",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.251930+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Winged lion in luminous rough coast, two eagle wings and coherent four-legged animal body, no humans."
+    },
+    {
+      "id": 48,
+      "image": "daniel-c007-v005-005-right-context-v1.jpg",
+      "sha256": "71c25ebaf0efae11dcb41c3aec15877eb0f705835a844dfb638696b1daf82d21",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.252489+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Bear raised on one side with three pale bare rib bones between teeth; no bloody prey."
+    },
+    {
+      "id": 49,
+      "image": "daniel-c007-v006-006-right-context-v3.jpg",
+      "sha256": "5ae8b86f70f08feaabd44f1584b2b41b0ed424639efa28782a42d87d546e4299",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:07:02.746464+00:00",
+      "method": "full original PNG visual review",
+      "evidencePaths": [
+        "output/daniel/daniel-c007-v006-006-original-v3.png"
+      ],
+      "findings": "Full v3 PNG: exactly FOUR separate leopard heads (front left, central, lower right, upper rear right), FOUR bird wings (upper pair and lower pair), single spotted body and tail; far-left fifth head removed."
+    },
+    {
+      "id": 50,
+      "image": "daniel-c007-v007-008-right-context-v3.jpg",
+      "sha256": "6bbeb1bd2687047935c4f6f0ce061b486064f7e6bca2424618aa03cac1261fa2",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:07:02.747014+00:00",
+      "method": "full original PNG visual review",
+      "evidencePaths": [
+        "output/daniel/daniel-c007-v007-008-original-v3.png"
+      ],
+      "findings": "Full v3 PNG count: SEVEN clearly visible intact large horns (four left and three right), one smaller forehead horn with eyes/mouth, THREE empty dry sockets on rear ridge; iron teeth/claws, no blood. Symbolic vision editorial."
+    },
+    {
+      "id": 51,
+      "image": "daniel-c007-v009-014-right-context-v1.jpg",
+      "sha256": "429a27467fcb2af38e97ae83bd8c5588672094f2f51e9b0f35833e4226607040",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.768374+00:00",
+      "method": "full original PNG visual review",
+      "evidencePaths": [
+        "output/daniel/daniel-c007-v009-014-original-v1.png"
+      ],
+      "findings": "Full PNG: radiant throne with two fiery wheels, open books and numerous linen attendants, Daniel witnessing; no discernible divine face/body. Symbolic editorial vision, not documentary heaven depiction."
+    },
+    {
+      "id": 52,
+      "image": "daniel-c007-v015-022-right-context-v1.jpg",
+      "sha256": "508925bc9f8bf5cf060a1c29b251e5590a0bf19b6a0d04c5863d9fd0ba43d659",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.323238+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Gray-bearded Daniel questions linen vision attendant, sober hope rather than triumph; no divine form."
+    },
+    {
+      "id": 53,
+      "image": "daniel-c007-v023-028-right-context-v1.jpg",
+      "sha256": "978f8932941baad0d2f4b0306d13999c54ae8c917e08a13cac7f110165691e79",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.761682+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg"
+      ],
+      "findings": "Gray-bearded earlier Daniel hand over heart, troubled face and scrolls, coherent five-finger hand; matches vision aftermath age."
+    },
+    {
+      "id": 54,
+      "image": "daniel-c008-v001-004-right-context-v1.jpg",
+      "sha256": "6678f311ce7b989e9fff7c8efbd9155dbc739b6d244d788ba2e7f9094eef2b16",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.252892+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Ram has two horns of unequal length by river, coherent realistic animal form."
+    },
+    {
+      "id": 55,
+      "image": "daniel-c008-v005-008-right-context-v1.jpg",
+      "sha256": "013f45a16420608028b33d82d7449b5aca765855756877cdd3bbd71e4acf1e88",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.253317+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Powerful goat leaps with broken central horn and new divergent horns; no gore."
+    },
+    {
+      "id": 56,
+      "image": "daniel-c008-v009-014-right-context-v1.jpg",
+      "sha256": "b8cda6bd91910663593e7cb57944404e3bdb7aa6adb82273de371c02d9fd146c",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.253835+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Interpretive desecrated sanctuary and sorrowful citizens, overturned altar vessels; no deity form."
+    },
+    {
+      "id": 57,
+      "image": "daniel-c008-v015-019-right-context-v1.jpg",
+      "sha256": "0fb10273fae39cde23d3c66243e74f6e11be6e0e9b2d17a2eefbfff5c7ed6368",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.323716+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Gabriel supports weak Daniel shoulder by river, connected hands and trembling humbled pose."
+    },
+    {
+      "id": 58,
+      "image": "daniel-c008-v020-027-right-context-v1.jpg",
+      "sha256": "989543c63676390ce00743005e0e6eb4b8001721a8fc2235c800fb21e1135779",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.324125+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Daniel resumed study/court duty still shaken, weary face and coherent scroll grip."
+    },
+    {
+      "id": 59,
+      "image": "daniel-c009-v001-003-right-context-v1.jpg",
+      "sha256": "d71372b145d4cd47f815588c608f83d47e4fc4d7e73ea62d8608f0fe5748bd90",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.762068+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg"
+      ],
+      "findings": "White-bearded Daniel85 reading scrolls and resolving to pray, rough textile and restrained solemn face."
+    },
+    {
+      "id": 60,
+      "image": "daniel-c009-v004-010-right-context-v1.jpg",
+      "sha256": "2475aae71eb5d23924aa37f6e8da06cdd2ade9ba1eb8fb0549fa4d5f4a6cd51d",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.762507+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg"
+      ],
+      "findings": "Elder kneeling in sackcloth-like rough fabric, ash forehead, bowed confession and open hands; natural sunlight."
+    },
+    {
+      "id": 61,
+      "image": "daniel-c009-v011-015-right-context-v1.jpg",
+      "sha256": "24c576c03e9e926d109cfe0c3c4d645dd44b3727693047b924900129f858bacc",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.324608+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Peaceful adult reflection among weathered stones, grief and regret without injury or active violence."
+    },
+    {
+      "id": 62,
+      "image": "daniel-c009-v016-019-right-context-v1.jpg",
+      "sha256": "7d9fa3cc4f7e24986685f4ae15d327651e2397fec76180317666d991be021dac",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.762869+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg"
+      ],
+      "findings": "Moist eyes upward, pleading elder prayer with two coherent open palms and scrolls; sorrowful hopeful expression."
+    },
+    {
+      "id": 63,
+      "image": "daniel-c009-v020-023-right-context-v1.jpg",
+      "sha256": "3b43c07b0a9af865feee47473820d72183d9729912f7fb95d0eb79b6b7d290af",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.763310+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg"
+      ],
+      "findings": "Linen-clad Gabriel bends toward elder Daniel at evening prayer, warm connection and coherent arms."
+    },
+    {
+      "id": 64,
+      "image": "daniel-c009-v024-027-right-context-v1.jpg",
+      "sha256": "28b04df3bf5e6d983a06597f327d99be19e4c0ec1d66e506590eea86c77df05a",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.763708+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/040-064-1ed78117.jpg"
+      ],
+      "findings": "Elder Daniel attentively listens to Gabriel with scroll at table; no speculative timetable labels."
+    },
+    {
+      "id": 65,
+      "image": "daniel-c010-v001-004-right-context-v1.jpg",
+      "sha256": "af63cee2e531db4cf12291a5f8940a18d3ea91701d58801fa7a7f8c4f083bd30",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.764242+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/065-083-c66ce8db.jpg"
+      ],
+      "findings": "Old Daniel mourning on riverbank beside plain meal, subdued face and coherent clasped hands."
+    },
+    {
+      "id": 66,
+      "image": "daniel-c010-v005-009-right-context-v1.jpg",
+      "sha256": "1ec0a0138cfed62fdb44d0a28ca05aadd5c37e0f55fa6e142bba6d8b010d96c3",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.764677+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/065-083-c66ce8db.jpg"
+      ],
+      "findings": "Daniel collapsed with connected hands on natural ground, radiant linen/gold-belt messenger at river and companions withdrawing; no deity identity claim."
+    },
+    {
+      "id": 67,
+      "image": "daniel-c010-v010-014-right-context-v2.jpg",
+      "sha256": "6ce3be8645a3ce3ea6b151abb3ca38d72d3497bcb12c78c2c3354a3e3723ff03",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:07:02.747585+00:00",
+      "method": "full original PNG visual review",
+      "evidencePaths": [
+        "output/daniel/daniel-c010-v010-014-original-v2.png"
+      ],
+      "findings": "Full v2 PNG: courtyard/columns removed, elder Daniel kneeling with both palms on river pebbles, linen messenger hand gently connected at shoulder, broad Tigris water/reeds behind; same cast and reassurance."
+    },
+    {
+      "id": 68,
+      "image": "daniel-c010-v015-019-right-context-v2.jpg",
+      "sha256": "b3ae0501934216758070f9e4c162fbf9dbe174b9a10d83b63f5ae5d550134088",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:07:02.748082+00:00",
+      "method": "full original PNG visual review",
+      "evidencePaths": [
+        "output/daniel/daniel-c010-v015-019-original-v2.png"
+      ],
+      "findings": "Full v2 PNG: palace removed, outdoor riverbank close-up with moist elderly face, breath returning, hand over chest and messenger hand at shoulder; coherent hands and river continuity."
+    },
+    {
+      "id": 69,
+      "image": "daniel-c010-v020-021-right-context-v1.jpg",
+      "sha256": "9d59d9bb31002067b4f911606dde67621af643e6eb41bef7d95ea6a35b691da3",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.765142+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/065-083-c66ce8db.jpg"
+      ],
+      "findings": "Elder and linen messenger at riverbank, attentive dialogue, natural hands and ages; outdoor continuity."
+    },
+    {
+      "id": 70,
+      "image": "daniel-c011-v001-004-right-context-v1.jpg",
+      "sha256": "362d006305e3b1fa13e7147bec9189a1cc51bf2daaaf6e4b1119182b2578c2b6",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.254332+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Fallen diadem and dispersing factions visually convey divided power, no invented modern identity."
+    },
+    {
+      "id": 71,
+      "image": "daniel-c011-v005-009-right-context-v1.jpg",
+      "sha256": "35a2f3bb41c9e57e541978447060ef23be6119d7f43e691da7b6bb5bbc329969",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.254721+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Princess between departing rival envoys, sorrowful face and opaque clothing, restrained failed alliance."
+    },
+    {
+      "id": 72,
+      "image": "daniel-c011-v010-016-right-context-v1.jpg",
+      "sha256": "dc53bc48067db21e20c10ef47dfbf9bbe86414d18f2455fb979884454d9c9ae0",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.325064+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Peaceful domestic adult pair concerned toward gate, no battle depiction, emotional reflection of uncertain times."
+    },
+    {
+      "id": 73,
+      "image": "daniel-c011-v017-020-right-context-v1.jpg",
+      "sha256": "b3b14ba2213e853e2191be10b8cae5678251a6661c558ce648c5aee4989483b4",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.255197+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Weary king and collectors amid uneasy citizens, no Daniel or active battle."
+    },
+    {
+      "id": 74,
+      "image": "daniel-c011-v021-027-right-context-v1.jpg",
+      "sha256": "5038d071da9a57b88015dd909866ce91250eba91d447b1223e0f525bead81927",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.255587+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Two rival kings across one table, false courtesies and suspicious eyes, physically coherent hands."
+    },
+    {
+      "id": 75,
+      "image": "daniel-c011-v028-031-right-context-v1.jpg",
+      "sha256": "8fe55604066d448eb2aa4ef9667853f3f4fe0d43a1a88d0979f5b9dc47b0e150",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.256033+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Altar vessels removed by troops, mournful witnesses, non-graphic sanctuary violation."
+    },
+    {
+      "id": 76,
+      "image": "daniel-c011-v032-035-right-context-v1.jpg",
+      "sha256": "e998d2096d857d66b4c02969d7d4e43d9e0b8930e69c927dfd8f88270956de4b",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:01:16.325503+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/031-076-c3b90f7e.jpg"
+      ],
+      "findings": "Teacher encourages adults with tears and resolve in peaceful courtyard, no injured victims or captors."
+    },
+    {
+      "id": 77,
+      "image": "daniel-c011-v036-039-right-context-v1.jpg",
+      "sha256": "6d1f136932f45477f54f5c0d9e37a4cf92c486fb935aa90b4b5c2f9aca259beb",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.256489+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Haughty unnamed king with wealth and officials, restrained arrogance without modern identification."
+    },
+    {
+      "id": 78,
+      "image": "daniel-c011-v040-043-right-context-v1.jpg",
+      "sha256": "6b9483f1448e3a29f3ea276e15dac71b1bfad7f2b2dd05873c89ced6b993d564",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.765605+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/065-083-c66ce8db.jpg"
+      ],
+      "findings": "Two clothed adult travelers and loaded donkey near coastal ships, worried anticipation; editorial civilian consequence, not literal depiction of all warfare verses."
+    },
+    {
+      "id": 79,
+      "image": "daniel-c011-v044-045-right-context-v1.jpg",
+      "sha256": "25b2827f85a792059903460a97693ecfcec4547e36ea13ddedb03fa0ae1e84ef",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.256947+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Abandoned royal pavilion and empty throne between sea and hill, vivid quiet end of power."
+    },
+    {
+      "id": 80,
+      "image": "daniel-c012-v001-003-right-context-v1.jpg",
+      "sha256": "99f95ddb4ee96a8a252ba5f3fb27b3aed30cdcdec119234dcaafb6f2950fcb91",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T21:53:18.257466+00:00",
+      "method": "contact-sheet visual inspection",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/047-080-9bc85dfa.jpg"
+      ],
+      "findings": "Whole clothed ordinary people rise from dusty ground into hope-filled dawn, no horror/gore; luminous editorial resurrection image."
+    },
+    {
+      "id": 81,
+      "image": "daniel-c012-v004-007-right-context-v1.jpg",
+      "sha256": "529d95ebb0ec29689872f8a79ee9e2fa11214b1ef2d5e47db1856525126ef910",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.766161+00:00",
+      "method": "full original PNG plus contact sheet",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/065-083-c66ce8db.jpg",
+        "output/daniel/daniel-c012-v004-007-original-v1.png"
+      ],
+      "findings": "Full PNG: two linen witnesses on opposite river banks and one above river with both arms raised, sealed scroll in Daniel arms; separate connected hands."
+    },
+    {
+      "id": 82,
+      "image": "daniel-c012-v008-012-right-context-v1.jpg",
+      "sha256": "8b46e0ac585e2944df5fccf38e09404cc762dee090ffcf2e547f4e6b703e6916",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.766607+00:00",
+      "method": "actual contact sheet review",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/065-083-c66ce8db.jpg"
+      ],
+      "findings": "Elder seated at river listening despite uncertainty, closed scroll and linen messenger, distinct arms/hands."
+    },
+    {
+      "id": 83,
+      "image": "daniel-c012-v013-013-right-context-v1.jpg",
+      "sha256": "8dc23714832e18962cef20f2b852c9258ca0ca0bd131e9a9312b64c5b2228002",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T22:05:59.767033+00:00",
+      "method": "full original PNG plus contact sheet",
+      "evidencePaths": [
+        "review/daniel-contact-sheets/065-083-c66ce8db.jpg",
+        "output/daniel/daniel-c012-v013-013-original-v1.png"
+      ],
+      "findings": "Full PNG: peaceful elderly Daniel with closed scroll, living hopeful face, wide luminous river sunrise; final promise editorially visualized without invented death scene."
+    }
+  ],
+  "approved": 83,
+  "planned": 83
+}

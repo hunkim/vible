@@ -1,0 +1,389 @@
+{
+  "book": "job",
+  "images": [
+    {
+      "id": 1,
+      "image": "job-c001-v001-003-right-context-v1.jpg",
+      "sha256": "d04bd7ab112b2c43c333377dcf84f74980ce7d13ee8900a4af7e88a28c04933b",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:39:06.875782+00:00",
+      "method": "actual full image inspection",
+      "evidencePaths": [
+        "output/job/job-c001-v001-003-original-v1.png"
+      ],
+      "findings": "욥의 온화한 눈빛, 자연스러운 회색 머리와 수염, 푸른 회색 겉옷, 실제 목축 공간과 양·낙타·소의 거리감 확인. 손과 지팡이 접촉 정상, 현대 소품/문자 없음. 왼쪽 아래는 양으로 다소 복잡하지만 왼쪽 상단 하늘·원경은 읽기 여백으로 활용 가능."
+    },
+    {
+      "id": 2,
+      "image": "job-c001-v004-005-right-context-v1.jpg",
+      "sha256": "bd48f0a1c2db0825261c864bc21a9f958db316b207e523bb840ecc9898623f8b",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:40:37.981786+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-002-013.jpg"
+      ],
+      "findings": "2번 아침 중보기도와 아직 깎지 않은 머리·평온한 경외 확인. 제단의 실제 돌·옅은 연기와 손 자연스러움 확인. 3번은 본문의 하늘 회의를 구름과 익명 실루엣으로 해석하며 신의 가시적 형상·뿔·문자 없음. 선명한 공간 깊이와 좌측 여백 확인."
+    },
+    {
+      "id": 3,
+      "image": "job-c001-v006-012-right-context-v1.jpg",
+      "sha256": "60b7b16edca9f9a23b6f608ccea4cb57a404435496ae5bf327070e0aba08934f",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:40:37.981786+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-002-013.jpg"
+      ],
+      "findings": "2번 아침 중보기도와 아직 깎지 않은 머리·평온한 경외 확인. 제단의 실제 돌·옅은 연기와 손 자연스러움 확인. 3번은 본문의 하늘 회의를 구름과 익명 실루엣으로 해석하며 신의 가시적 형상·뿔·문자 없음. 선명한 공간 깊이와 좌측 여백 확인."
+    },
+    {
+      "id": 4,
+      "image": "job-c001-v013-015-right-context-v1.jpg",
+      "sha256": "0155a1222b9569c6fac4c858b582f74690319321b2d81907b8e5df33c06f7a3f",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:40:04.966738+00:00",
+      "method": "actual full image inspection",
+      "evidencePaths": [
+        "output/job/job-c001-v013-015-original-v1.png"
+      ],
+      "findings": "사자의 급한 숨과 놀란 욥의 표정·시선 맞물림 확인. 머리카락과 온전한 겉옷이 1:20 이전 순서에 부합. 양손·손가락 접촉 정상, 비사실적 살육 장면 없음. 왼쪽 인물이 있어 본문 여백은 상단 원경 중심으로 활용."
+    },
+    {
+      "id": 5,
+      "image": "job-c001-v016-017-right-context-v2.jpg",
+      "sha256": "89ce62925528e240b73fa82292e5d8168d11937460a0c17d0bfa87abd4f193d5",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:45:49.843191+00:00",
+      "method": "actual contact sheets with prior full-size comparison",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-005-010.jpg",
+        "review/job-contact-sheets/scenes-008-009.jpg"
+      ],
+      "findings": "5·6·7·9·10 수정본에서 상실 이후 가축이 없는 빈 우리와 동일 인물 표정·손·옷감 보존 확인. 7 깎은 머리와 찢어진 겉옷·경배 자세, 아직 병이 없는 피부가 순서에 맞음. 9는 병과 재·기와 조각, 10은 아내의 함께 겪은 슬픔과 시선 맞물림 확인. 8은 해석적 하늘 회의로 신의 인간형상 없음. 현대 소품/문자/손 형태 오류 없음."
+    },
+    {
+      "id": 6,
+      "image": "job-c001-v018-019-right-context-v2.jpg",
+      "sha256": "05654702a3a2f0608bc08a0d1521edcf644ca6966eca822a15ccf2c9eabbdbe0",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:45:49.843191+00:00",
+      "method": "actual contact sheets with prior full-size comparison",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-005-010.jpg",
+        "review/job-contact-sheets/scenes-008-009.jpg"
+      ],
+      "findings": "5·6·7·9·10 수정본에서 상실 이후 가축이 없는 빈 우리와 동일 인물 표정·손·옷감 보존 확인. 7 깎은 머리와 찢어진 겉옷·경배 자세, 아직 병이 없는 피부가 순서에 맞음. 9는 병과 재·기와 조각, 10은 아내의 함께 겪은 슬픔과 시선 맞물림 확인. 8은 해석적 하늘 회의로 신의 인간형상 없음. 현대 소품/문자/손 형태 오류 없음."
+    },
+    {
+      "id": 7,
+      "image": "job-c001-v020-022-right-context-v3.jpg",
+      "sha256": "9ffdfe3988091b2477d88c5f16d8b322b2b980134d4a8d1de465b47fbdaba737",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:53:29.834841+00:00",
+      "method": "actual full-size inspection of fresh photographic versions",
+      "evidencePaths": [
+        "output/job/job-c001-v020-022-original-v3.png",
+        "output/job/job-c003-v024-026-original-v4.png"
+      ],
+      "findings": "7 흘러내린 눈물·깎은 머리·병 없는 피부·찢긴 겉옷과 온전한 속옷, 빈 우리와 엎드린 손 접촉 확인. 15 자연스러운 피부와 옷감으로 재생성, 회복 전의 지친 눈과 손·먹지 않은 빵·흙잔, 세 친구의 일관된 캐스트·침묵 확인. 과도한 각인 패턴 감소, 로고·문자·가축 없음."
+    },
+    {
+      "id": 8,
+      "image": "job-c002-v001-006-right-context-v1.jpg",
+      "sha256": "3fe1048531dd2dfdeb7a098e5205111bba213567d358b0b36ba249c8a1523614",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T12:45:49.843191+00:00",
+      "method": "actual contact sheets with prior full-size comparison",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-005-010.jpg",
+        "review/job-contact-sheets/scenes-008-009.jpg"
+      ],
+      "findings": "5·6·7·9·10 수정본에서 상실 이후 가축이 없는 빈 우리와 동일 인물 표정·손·옷감 보존 확인. 7 깎은 머리와 찢어진 겉옷·경배 자세, 아직 병이 없는 피부가 순서에 맞음. 9는 병과 재·기와 조각, 10은 아내의 함께 겪은 슬픔과 시선 맞물림 확인. 8은 해석적 하늘 회의로 신의 인간형상 없음. 현대 소품/문자/손 형태 오류 없음."
+    },
+    {
+      "id": 9,
+      "image": "job-c002-v007-008-right-context-v4.jpg",
+      "sha256": "eb6116376562f6fe5cdf3eefe75f33ce227bd1f2c2b773cb4d3ad77cc9c6f31b",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:38:46.242013+00:00",
+      "method": "actual full image and contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-009-022-fe90ac75.jpg",
+        "output/job/job-c002-v007-008-original-v4.png"
+      ],
+      "findings": "정수리·뺨·목·팔·드러난 다리에 크고 붉은 악창과 딱지, 갈라진 피부 확인. 얼굴을 찡그린 통증과 토기 조각 쥔 손 정상. 발은 화면 밖이라 발바닥 상처를 이 프레임만으로 확인할 수 없음. 밝은 실사 톤과 인물 정체성 유지, 문자·가축·신의 형상·조기 회복 없음."
+    },
+    {
+      "id": 10,
+      "image": "job-c002-v009-010-right-context-v4.jpg",
+      "sha256": "5df23e08b4b41e66ce0e2fdb0f1cc1f51c25bb546a6d06997e7a6d0ad4624c1d",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:38:46.300703+00:00",
+      "method": "actual full image and contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-009-022-fe90ac75.jpg",
+        "output/job/job-c002-v009-010-original-v4.png"
+      ],
+      "findings": "확대 검수에서 두피와 목, 팔의 넓은 붉은 악창·딱지, 아내를 바라보는 지친 눈과 입술 긴장 확인. 아내는 건강한 피부와 함께 상실한 슬픔 유지. 밝은 실사 톤과 인물 정체성 유지, 문자·가축·신의 형상·조기 회복 없음."
+    },
+    {
+      "id": 11,
+      "image": "job-c002-v011-013-right-context-v4.jpg",
+      "sha256": "3ce071e0d57551e8f6c000537059d9c788c1698bd9a60db73b3648140c87cb15",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:38:46.358430+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-009-022-fe90ac75.jpg"
+      ],
+      "findings": "네 사람 정확, 욥의 고개·팔·다리·발에 넓은 병변과 통증에 숙인 자세 확인. 친구 셋은 질병 없이 일관된 의복과 얼굴, 빈 우리 유지. 밝은 실사 톤과 인물 정체성 유지, 문자·가축·신의 형상·조기 회복 없음."
+    },
+    {
+      "id": 12,
+      "image": "job-c003-v001-010-right-context-v5.jpg",
+      "sha256": "fabf7f6eec0e4705d2112da65ab48b563e13992227d5045ca4ea321a78383601",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:38:46.418014+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-009-022-fe90ac75.jpg"
+      ],
+      "findings": "탄식하는 욥의 팽팽한 눈가와 열린 입술, 정수리·목·팔의 넓은 악창·딱지 확인. 열린 손 정상, 친구 세 사람과 구름 낀 낮빛 유지. 밝은 실사 톤과 인물 정체성 유지, 문자·가축·신의 형상·조기 회복 없음."
+    },
+    {
+      "id": 13,
+      "image": "job-c003-v011-019-right-context-v5.jpg",
+      "sha256": "4cbda3bc0d51ba56ce283fa99168eb3379d288abf550226946f8bff35a7eed60",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:39:47.157414+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-013-027-921ce5f2.jpg"
+      ],
+      "findings": "고개를 숙인 채 왜 태어났는지 탄식하는 욥, 넓은 두피·팔·손·다리의 악창과 통증 자세, 정확한 세 친구 확인. 기존 인물·시대 의복·밝은 실사 톤 유지, 문자·복구된 가축·신의 형상 없음."
+    },
+    {
+      "id": 14,
+      "image": "job-c003-v020-023-right-context-v4.jpg",
+      "sha256": "c6fdf561cd3a7949be2a62bc82f6396aed87c9d46db51c03cd7f1ad6d98dedc3",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:39:47.216443+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-013-027-921ce5f2.jpg"
+      ],
+      "findings": "위로를 구하는 위쪽 시선과 열린 손, 붉은 두피·목·팔의 상처와 피로한 안색 확인. 욥 포함 네 명 정확. 기존 인물·시대 의복·밝은 실사 톤 유지, 문자·복구된 가축·신의 형상 없음."
+    },
+    {
+      "id": 15,
+      "image": "job-c003-v024-026-right-context-v5.jpg",
+      "sha256": "9ed55f2d6fddda17729f7fbb3b7f94e490bbe99d83d826c514448ab250674c77",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:39:47.275331+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-013-027-921ce5f2.jpg"
+      ],
+      "findings": "먹지 못한 빵과 물그릇, 안식 없는 욥의 긴장한 미간·숙인 고개, 넓은 악창·딱지 확인. 뒤 친구 셋과 빈 우리 유지. 기존 인물·시대 의복·밝은 실사 톤 유지, 문자·복구된 가축·신의 형상 없음."
+    },
+    {
+      "id": 16,
+      "image": "job-c004-v001-006-right-context-v2.jpg",
+      "sha256": "75c108cda46072771df656b93e93940756d77e2a7d8bca0a222f065c306270a8",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:41:34.171662+00:00",
+      "method": "actual full image inspection",
+      "evidencePaths": [
+        "output/job/job-c004-v001-006-original-v2.png"
+      ],
+      "findings": "확대 검수에서 욥 정수리·뺨·목·양팔·손의 광범위한 부은 붉은 악창과 딱지·피부 균열 확인. 눈을 감고 미간과 턱에 힘을 준 통증 표정과 벌어진 입술, 위축된 자세 확인. 엘리바스는 건강한 피부와 조심스러운 열린 손, 동일한 두 인물과 빈 우리, 밝은 낮빛 유지. 문자·신의 형상·조기 회복 없음."
+    },
+    {
+      "id": 17,
+      "image": "job-c004-v007-011-right-context-v2.jpg",
+      "sha256": "d16b05e71abfeb89ae2df6ed76c08731e8e07686f61b2f7912bd33b29efad041",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:38:46.482808+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-009-022-fe90ac75.jpg"
+      ],
+      "findings": "욥의 정수리·뺨에 크게 부은 병변과 딱지, 깊이 숙인 얼굴과 턱의 통증 긴장 확인. 엘리바스의 단정적 말에 움츠린 관계와 두 인물 유지. 밝은 실사 톤과 인물 정체성 유지, 문자·가축·신의 형상·조기 회복 없음."
+    },
+    {
+      "id": 18,
+      "image": "job-c004-v012-021-right-context-v1.jpg",
+      "sha256": "1402d6eb2e4b69933f7347750db04ce3cf27286dee41ace903c66d77b11f708d",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:28:30.214002+00:00",
+      "method": "actual full image and contact sheet inspection",
+      "evidencePaths": [
+        "output/job/job-c004-v012-021-original-v1.png",
+        "review/job-contact-sheets/scenes-017-027.jpg"
+      ],
+      "findings": "엘리바스만 있는 장막, 놀란 눈과 장막을 잡은 손 확인. 신·영의 구체 형상 없음. 밤 이상을 회상하는 해석 장면이며 실제 이미지는 여명에 가까운 노출. 의복·등잔·손 자연스러움 확인."
+    },
+    {
+      "id": 19,
+      "image": "job-c005-v001-007-right-context-v2.jpg",
+      "sha256": "82a52c681df05d0c91f91fb0b75cdb3da4d034a89fcc713e83e3d5ed7a89e248",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:38:46.542975+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-009-022-fe90ac75.jpg"
+      ],
+      "findings": "욥의 두피·손과 드러난 발·다리에 광범위한 붉은 악창과 딱지 확인. 욥 포함 네 사람과 비어 있는 우리, 차가운 재 유지. 밝은 실사 톤과 인물 정체성 유지, 문자·가축·신의 형상·조기 회복 없음."
+    },
+    {
+      "id": 20,
+      "image": "job-c005-v008-016-right-context-v2.jpg",
+      "sha256": "93160182b49cfe3be9aa912a7aac9032f653a88aae45272cdb6412a271975bb7",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:39:47.331475+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-013-027-921ce5f2.jpg"
+      ],
+      "findings": "두 사람 사이 엘리바스의 열린 손과 위로받지 못한 욥의 눈빛, 두피·팔·다리의 넓은 붉은 악창과 균열 확인. 기존 인물·시대 의복·밝은 실사 톤 유지, 문자·복구된 가축·신의 형상 없음."
+    },
+    {
+      "id": 21,
+      "image": "job-c005-v017-023-right-context-v2.jpg",
+      "sha256": "1e3d6515d02a75f11ff827f370d53a821c7fd96be68d7b1bc57208d1be579357",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:38:46.602012+00:00",
+      "method": "actual full image and contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-009-022-fe90ac75.jpg",
+        "output/job/job-c005-v017-023-original-v2.png"
+      ],
+      "findings": "확대 검수에서 정수리와 뺨·목·팔의 큰 악창과 갈라진 딱지, 촉촉한 지친 눈과 힘겹게 벌어진 입술 확인. 친구 세 명과 말하는 엘리바스 손 정상. 밝은 실사 톤과 인물 정체성 유지, 문자·가축·신의 형상·조기 회복 없음."
+    },
+    {
+      "id": 22,
+      "image": "job-c005-v024-027-right-context-v2.jpg",
+      "sha256": "25f8e0ea4101c57be199fa179c3395a755eef60a7bc9eff50c901ac20f05ac45",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:38:46.661336+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-009-022-fe90ac75.jpg"
+      ],
+      "findings": "욥의 넓은 두피·팔 병변과 움츠린 통증 얼굴 확인. 미래 평안을 약속하는 엘리바스와 실제 비어 있는 현재 우리·문, 두 인물 유지. 밝은 실사 톤과 인물 정체성 유지, 문자·가축·신의 형상·조기 회복 없음."
+    },
+    {
+      "id": 23,
+      "image": "job-c006-v001-007-right-context-v2.jpg",
+      "sha256": "bfe31808699a3c7a2b73a361345de7af3bed061f72664a1e270fc3fe5405f45e",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:39:47.387932+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-013-027-921ce5f2.jpg"
+      ],
+      "findings": "가슴에 손을 대고 고통을 설명하는 욥, 눈가 긴장과 벌어진 입술, 두피·얼굴·양팔·손의 악창 확인. 청자 엘리바스와 손 자세 정상. 기존 인물·시대 의복·밝은 실사 톤 유지, 문자·복구된 가축·신의 형상 없음."
+    },
+    {
+      "id": 24,
+      "image": "job-c006-v008-013-right-context-v2.jpg",
+      "sha256": "671c8b531c1999b0e0d37ed0319671a83345f4238737d64d49ab56857a25b2c5",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:39:47.443179+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-013-027-921ce5f2.jpg"
+      ],
+      "findings": "두 손을 내려다보는 욥의 찡그린 눈·미간과 벌어진 입술, 손·팔·정수리의 부스럼과 갈라진 딱지 확인. 자해 도구 없음. 기존 인물·시대 의복·밝은 실사 톤 유지, 문자·복구된 가축·신의 형상 없음."
+    },
+    {
+      "id": 25,
+      "image": "job-c006-v014-020-right-context-v1.jpg",
+      "sha256": "6807891227711abf7479c12ad7d79081fabf6d2a6da061b6de0e3915016763e2",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:28:30.391529+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-017-027.jpg"
+      ],
+      "findings": "마른 하천에 도착한 여행자의 빈 물그릇과 실망한 자세 확인. 욥 자신이 여행하는 사건이 아닌 마른 시내 비유의 해석 장면으로 기록. 동물·시체·문자 없음, 현실적인 바위 하천과 낮빛 확인."
+    },
+    {
+      "id": 26,
+      "image": "job-c006-v021-027-right-context-v2.jpg",
+      "sha256": "f3ed3a6992f472d50a679c8d6120ba3287452accbd0d12828ce36578feb57690",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:39:47.498273+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-013-027-921ce5f2.jpg"
+      ],
+      "findings": "전경 붉은 어깨 엘리바스 포함 정확한 친구 셋, 열린 손과 괴로움을 호소하는 욥의 얼굴, 목·팔·두피 상처 확인. 왼쪽 전경 인물 때문에 읽기 여백은 제한됨. 기존 인물·시대 의복·밝은 실사 톤 유지, 문자·복구된 가축·신의 형상 없음."
+    },
+    {
+      "id": 27,
+      "image": "job-c006-v028-030-right-context-v3.jpg",
+      "sha256": "04f7a7fc4947673b1124d266af8ba21195197dd69813bd2fc8a41a5e73a3a1c8",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:39:47.553251+00:00",
+      "method": "actual full image and contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-013-027-921ce5f2.jpg",
+        "output/job/job-c006-v028-030-original-v3.png"
+      ],
+      "findings": "확대 검수에서 욥의 붉고 젖은 눈가, 미간·턱의 통증 긴장, 창백한 안색과 갈라진 입술 확인. 두피·뺨·목·팔에 넓은 악창과 딱지, 직접 눈을 맞추는 두 인물 일관. 근접 인물로 읽기 여백 제한. 기존 인물·시대 의복·밝은 실사 톤 유지, 문자·복구된 가축·신의 형상 없음."
+    },
+    {
+      "id": 28,
+      "image": "job-c007-v001-006-right-context-v2.jpg",
+      "sha256": "7391e5218917873d5b9928d40fddaa75b23e3554f8a34caaecc770b763e36416",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:39:47.608873+00:00",
+      "method": "actual full image and contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-028-030-d2aa5c01.jpg",
+        "output/job/job-c007-v001-006-original-v2.png"
+      ],
+      "findings": "확대 검수에서 눈을 뜬 채 잠 못 드는 욥의 찡그린 얼굴과 벌어진 입술, 두피·뺨·팔의 넓은 붉은 악창·딱지·피부 균열, 팔 상처 위 작은 벌레와 흙 표현 확인. 등잔·옆으로 누운 팔 자세·푸른 여명 정상. 본문7:5 해석으로 벌레가 표현되었으며 생물학적 진단을 주장하지 않음. 기존 인물·시대 의복·밝은 실사 톤 유지, 문자·복구된 가축·신의 형상 없음."
+    },
+    {
+      "id": 29,
+      "image": "job-c007-v007-010-right-context-v2.jpg",
+      "sha256": "8050fc0cf65085eb36852bcdabc104a0408b15a5d86e8846825dcf2d998987ae",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:39:47.664130+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-028-030-d2aa5c01.jpg"
+      ],
+      "findings": "빈 집 문을 바라보는 욥의 힘겨운 입술과 눈가, 두피·뺨·목·팔·다리에 넓은 병변과 딱지 확인. 조기 회복이나 유령 없음. 기존 인물·시대 의복·밝은 실사 톤 유지, 문자·복구된 가축·신의 형상 없음."
+    },
+    {
+      "id": 30,
+      "image": "job-c007-v011-016-right-context-v2.jpg",
+      "sha256": "81bd3ebe944cdd35b636baa971528f6017afb1b5e1ff8d5270ee4dbf32650428",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:39:47.720449+00:00",
+      "method": "actual contact sheet inspection",
+      "evidencePaths": [
+        "review/job-contact-sheets/scenes-028-030-d2aa5c01.jpg"
+      ],
+      "findings": "위로 향한 촉촉한 눈과 힘겹게 벌어진 입술, 정수리부터 목·팔의 큰 악창과 딱지 확인. 홀로 고통을 토로하는 자세와 밝은 환경 유지. 기존 인물·시대 의복·밝은 실사 톤 유지, 문자·복구된 가축·신의 형상 없음."
+    },
+    {
+      "id": 31,
+      "image": "job-c007-v017-021-right-context-v2.jpg",
+      "sha256": "a6bcdde2b639afbf676a95f72b53d62e1a471e4932ddb0713fd217c92354f7ab",
+      "status": "approved",
+      "reviewedAt": "2026-10-11T13:40:45.730450+00:00",
+      "method": "actual full image inspection",
+      "evidencePaths": [
+        "output/job/job-c007-v017-021-original-v2.png"
+      ],
+      "findings": "확대 검수에서 정수리·뺨·목·팔·손·드러난 다리의 광범위한 붉은 악창과 갈라진 딱지, 눈물 맺힌 눈과 힘겹게 벌어진 입술, 통증 중에 위로 향한 질문 확인. 열린 손과 다른 손의 자세 자연스러움. 밝은 여명과 빈 우리 유지, 신의 답변이나 회복 없음."
+    }
+  ],
+  "approved": 31,
+  "planned": 31
+}

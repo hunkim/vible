@@ -76,3 +76,13 @@ for(const [lang,reference] of [['ko','아가 1:1'],['en','Song of Songs 1:1'],['
  if(lang!=='ko')assert(page.includes(song.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} attribution`);
 }
 console.log('Song of Songs share pages render in all four languages with translation attribution.');
+for(const [book,ko,en,ja,zh,image] of [['1chronicles','역대상','1 Chronicles','歴代誌上','历代志上','1chronicles-001-right-v1.jpg'],['2chronicles','역대하','2 Chronicles','歴代誌下','历代志下','2chronicles-001-right-v1.jpg'],['ezra','에스라','Ezra','エズラ記','以斯拉记','ezra-001-right-v1.jpg'],['nehemiah','느헤미야','Nehemiah','ネヘミヤ記','尼希米记','nehemiah-001-right-v1.jpg'],['esther','에스더','Esther','エステル記','以斯帖记','esther-001-right-v1.jpg'],['job','욥기','Job','ヨブ記','约伯记','job-c001-v001-003-right-context-v1.jpg'],['ecclesiastes','전도서','Ecclesiastes','コヘレトの言葉','传道书','ecclesiastes-c001-v001-003-right-context-v1.jpg'],['daniel','다니엘','Daniel','ダニエル書','但以理书','daniel-c001-v001-002-right-context-v1.jpg'],['jonah','요나','Jonah','ヨナ書','约拿书','jonah-c001-v001-002-right-context-v1.jpg']]){
+ for(const [lang,name] of [['ko',ko],['en',en],['ja',ja],['zh',zh]]){
+  const shared=pick(`/share/${book}/1/1${lang==='ko'?'':`?lang=${lang}`}`),page=shareHTML(shared);
+  assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,image);assert(page.includes(shared.text));assert(page.includes(`book=${book}`));
+  if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} ${book} attribution`);
+ }
+}
+const bridgedShare=pick('/share/ecclesiastes/7/27/7/28?lang=zh');assert.equal(bridgedShare.reference,'传道书 7:27–28');assert(shareHTML(bridgedShare).includes(bridgedShare.text));
+const jonahFish=pick('/share/jonah/1/17/2/1?lang=ja');assert.equal(jonahFish.reference,'ヨナ書 1:17–2:1');assert.match(jonahFish.text,/魚/);
+console.log('Chronicles–Esther, Job, Ecclesiastes, Daniel and Jonah share pages render in all four languages with attribution, a bridged verse and a cross-chapter range.');

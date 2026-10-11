@@ -18,7 +18,7 @@ assert.throws(()=>applyTranslation(base,fixture('ja'),'en'),/language mismatch/)
 const root=await fs.mkdtemp(path.join(os.tmpdir(),'vible-language-tests-'));
 try{
  await fs.mkdir(path.join(root,'data'),{recursive:true});await fs.writeFile(path.join(root,'data/john.json'),JSON.stringify(base));
- for(const name of ['languages.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','proverbs-books.json','songofsongs-books.json','historical-books.json','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
+ for(const name of ['languages.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','proverbs-books.json','songofsongs-books.json','1chronicles-books.json','2chronicles-books.json','ezra-books.json','nehemiah-books.json','esther-books.json','job-books.json','ecclesiastes-books.json','daniel-books.json','jonah-books.json','historical-books.json','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','1chronicles-catalog.js','2chronicles-catalog.js','ezra-catalog.js','nehemiah-catalog.js','esther-catalog.js','job-catalog.js','ecclesiastes-catalog.js','daniel-catalog.js','jonah-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
  await fs.writeFile(path.join(root,'package.json'),JSON.stringify({type:'module'}));
  const {selection,shareParams}=await import(pathToFileURL(path.join(root,'share-data.mjs')));
  assert.throws(()=>selection(shareParams(new URL('https://vible.now/share/john/1/1?lang=en'))),/not available/);
@@ -47,13 +47,13 @@ assert.throws(()=>actualSelection(new URLSearchParams({book:'john',chapter:'5',v
 console.log('All catalogued real translations, translation attribution, combined verse sharing and modern omissions verified.');
 
 for(const lang of ['en','ja','zh']){
- assert.equal(actualCatalog[lang].books.length,42);
+ assert.equal(actualCatalog[lang].books.length,51);
  const closing=actualSelection(new URLSearchParams({book:'leviticus',chapter:'27',verse:'34',lang}));assert.equal(closing.lang,lang);assert(closing.text.trim());
  const psalm=actualSelection(new URLSearchParams({book:'psalms',chapter:'50',verse:'15',lang}));assert.equal(psalm.lang,lang);assert(psalm.text.trim());
 }
 const greeting=actualSelection(new URLSearchParams({book:'3john',chapter:'1',verse:'15',lang:'en'}));assert.equal(greeting.reference,'3 John 1:14–15');assert.match(greeting.text,/Peace to you/);
 const jpRange=actualSelection(new URLSearchParams({book:'numbers',chapter:'15',verse:'5',lang:'ja'}));assert.equal(jpRange.reference,'民数記 15:4–5');assert(jpRange.text.trim());
-console.log('All 126 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
+console.log('All 153 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
 
 for(const lang of ['ko','en','ja','zh']){const p=actualSelection(new URLSearchParams({book:'proverbs',chapter:'31',verse:'31',lang}));assert.equal(p.lang,lang);assert(p.text.trim());}
 const proverbBridge=actualSelection(new URLSearchParams({book:'proverbs',chapter:'26',verse:'19',lang:'zh'}));assert.equal(proverbBridge.reference,'箴言 26:18–19');assert(proverbBridge.text.trim());
@@ -64,3 +64,22 @@ for(const [lang,name] of [['ko','아가'],['en','Song of Songs'],['ja','雅歌']
  if(lang!=='ko')assert(shulammite.attribution);
 }
 console.log('Song of Songs: four-language final verse, shared range, KRV 6:13–14 versification and attribution verified.');
+
+// Chronicles–Esther, Job, Ecclesiastes, Daniel, Jonah: every book in all four languages, final verse, shared range, edition bridges and attribution.
+const otBatch={'1chronicles':['역대상','1 Chronicles','歴代誌上','历代志上',29,30],'2chronicles':['역대하','2 Chronicles','歴代誌下','历代志下',36,23],ezra:['에스라','Ezra','エズラ記','以斯拉记',10,44],nehemiah:['느헤미야','Nehemiah','ネヘミヤ記','尼希米记',13,31],esther:['에스더','Esther','エステル記','以斯帖记',10,3],job:['욥기','Job','ヨブ記','约伯记',42,17],ecclesiastes:['전도서','Ecclesiastes','コヘレトの言葉','传道书',12,14],daniel:['다니엘','Daniel','ダニエル書','但以理书',12,13],jonah:['요나','Jonah','ヨナ書','约拿书',4,11]};
+for(const [book,[ko,en,ja,zh,chapter,verse]] of Object.entries(otBatch)){
+ for(const [lang,name] of [['ko',ko],['en',en],['ja',ja],['zh',zh]]){
+  if(lang!=='ko')assert(actualCatalog[lang].books.includes(book),`${lang} ${book}`);
+  const last=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang}));assert.equal(last.lang,lang);assert.equal(last.reference,`${name} ${chapter}:${verse}`);assert(last.text.trim());
+  const range=actualSelection(new URLSearchParams({book,chapter:'1',verse:'1',endChapter:'1',endVerse:'3',lang}));assert.equal(range.lang,lang);assert(range.text.trim());
+  if(lang!=='ko')assert(last.attribution&&shareHTML(last).includes(last.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} ${book} attribution`);
+ }
+}
+// KRV keeps every verse; the 1955 Colloquial and OpenCCB print some as combined verses, shown as ranges without filling from another text.
+for(const [book,lang,chapter,verse,reference] of [['1chronicles','ja',16,13,'歴代誌上 16:12–13'],['1chronicles','zh',8,7,'历代志上 8:6–7'],['2chronicles','zh',3,12,'历代志下 3:11–13'],['ezra','zh',2,62,'以斯拉记 2:61–62'],['nehemiah','zh',7,64,'尼希米记 7:63–64'],['esther','zh',8,12,'以斯帖记 8:11–12'],['job','zh',38,40,'约伯记 38:39–40'],['ecclesiastes','zh',7,28,'传道书 7:27–28'],['daniel','zh',2,29,'但以理书 2:28–30']]){
+ const bridged=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang}));assert.equal(bridged.reference,reference);assert.equal(bridged.verses.length,1);assert(bridged.text.trim());
+ const korean=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang:'ko'}));assert.equal(korean.reference,`${otBatch[book][0]} ${chapter}:${verse}`);
+}
+// English versification boundaries match KRV in every edition (e.g. Jonah 1:17 fish, Daniel 4:1 decree, Ecclesiastes 5:1, Nehemiah 4:1, 1 Chronicles 6:1).
+for(const [book,chapter,verse,pattern] of [['jonah',1,17,{en:/great fish/,ja:/魚/,zh:/大鱼/}],['daniel',4,1,{en:/Nebuchadnezzar/,ja:/ネブカデネザル/,zh:/尼布甲尼撒/}],['nehemiah',4,1,{en:/Sanballat/,ja:/サンバラテ/,zh:/参巴拉/}],['1chronicles',6,1,{en:/Levi/,ja:/レビ/,zh:/利未/}],['ecclesiastes',5,1,{en:/house of God/,ja:/神の宮/,zh:/上帝的殿/}]])for(const lang of ['en','ja','zh'])assert.match(actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} ${book} ${chapter}:${verse}`);
+console.log('Chronicles–Esther, Job, Ecclesiastes, Daniel and Jonah: four-language final verses, shared ranges, edition bridges, versification boundaries and attribution verified.');

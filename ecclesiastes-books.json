@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ecclesiastes",
+    "name": "전도서",
+    "english": "Ecclesiastes",
+    "code": "ECC",
+    "chapters": 12,
+    "verseCount": 222
+  }
+]

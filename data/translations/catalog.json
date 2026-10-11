@@ -42,7 +42,16 @@
       "2kings",
       "psalms",
       "proverbs",
-      "songofsongs"
+      "songofsongs",
+      "1chronicles",
+      "2chronicles",
+      "ezra",
+      "nehemiah",
+      "esther",
+      "job",
+      "ecclesiastes",
+      "daniel",
+      "jonah"
     ],
     "licensedBooks": []
   },
@@ -89,7 +98,16 @@
       "2kings",
       "psalms",
       "proverbs",
-      "songofsongs"
+      "songofsongs",
+      "1chronicles",
+      "2chronicles",
+      "ezra",
+      "nehemiah",
+      "esther",
+      "job",
+      "ecclesiastes",
+      "daniel",
+      "jonah"
     ],
     "licensedBooks": [
       "john",
@@ -133,7 +151,16 @@
       "2kings",
       "psalms",
       "proverbs",
-      "songofsongs"
+      "songofsongs",
+      "1chronicles",
+      "2chronicles",
+      "ezra",
+      "nehemiah",
+      "esther",
+      "job",
+      "ecclesiastes",
+      "daniel",
+      "jonah"
     ]
   },
   "ja": {
@@ -179,7 +206,16 @@
       "2kings",
       "psalms",
       "proverbs",
-      "songofsongs"
+      "songofsongs",
+      "1chronicles",
+      "2chronicles",
+      "ezra",
+      "nehemiah",
+      "esther",
+      "job",
+      "ecclesiastes",
+      "daniel",
+      "jonah"
     ],
     "licensedBooks": [
       "john",
@@ -223,7 +259,16 @@
       "2kings",
       "psalms",
       "proverbs",
-      "songofsongs"
+      "songofsongs",
+      "1chronicles",
+      "2chronicles",
+      "ezra",
+      "nehemiah",
+      "esther",
+      "job",
+      "ecclesiastes",
+      "daniel",
+      "jonah"
     ]
   },
   "zh": {
@@ -269,7 +314,16 @@
       "2kings",
       "psalms",
       "proverbs",
-      "songofsongs"
+      "songofsongs",
+      "1chronicles",
+      "2chronicles",
+      "ezra",
+      "nehemiah",
+      "esther",
+      "job",
+      "ecclesiastes",
+      "daniel",
+      "jonah"
     ],
     "licensedBooks": [
       "john",
@@ -313,7 +367,16 @@
       "2kings",
       "psalms",
       "proverbs",
-      "songofsongs"
+      "songofsongs",
+      "1chronicles",
+      "2chronicles",
+      "ezra",
+      "nehemiah",
+      "esther",
+      "job",
+      "ecclesiastes",
+      "daniel",
+      "jonah"
     ]
   }
 }
