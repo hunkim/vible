@@ -41,7 +41,7 @@ export function annotations(context){
  $('close-note').onclick=()=>$('note-dialog').close();$('save-note').onclick=()=>{if(save({note:$('personal-note').value,highlight:true}))status(t().noteSaved);};
  $('personal-note').oninput=()=>{cardFile=null;$('share-card').disabled=true;$('download-card').disabled=true;clearTimeout(noteTimer);noteTimer=setTimeout(renderCard,250);};
  // Latin words stay whole; Korean, Japanese and Chinese wrap per character as before.
- const wrapToken=/[^\s\u2E80-\u9FFF\uAC00-\uD7A3\uF900-\uFAFF\uFF00-\uFFEF]+\s*|[\s\S]/gu;
+ const wrapToken=/[^\s\u2E80-\u9FFF\uAC00-\uD7A3\uF900-\uFAFF\uFF00-\uFFEF]+\s*|[\u300C\u300E\uFF08\u3008\u300A\u3010\u3014]*[\s\S][\u3001\u3002\uFF0C\uFF0E\uFF01\uFF1F\uFF09\u300D\u300F\u3009\u300B\u3011\u3015\uFF1A\uFF1B\u2026\u30FB\u30FC]*/gu; // CJK: closing punctuation never starts a line, opening brackets never end one
  function wrap(ctx,text,width){const lines=[];for(const paragraph of text.split('\n')){let line='';for(const token of paragraph.match(wrapToken)||[]){const pieces=ctx.measureText(token.trimEnd()).width>width?[...token]:[token];for(const piece of pieces){if(line.trim()&&ctx.measureText((line+piece).trimEnd()).width>width){lines.push(line.trimEnd());line=piece.trimStart();}else line+=piece;}}lines.push(line.trimEnd());}return lines;}
  async function renderCard(){const ticket=++revision;cardFile=null;$('card-preview').hidden=true;$('share-card').disabled=true;$('download-card').disabled=true;try{
  const {data}=context();const scene=data.scenes.find(s=>s.id===Number(selected[0].closest('.passage').dataset.id));const img=new Image();img.crossOrigin='anonymous';img.src=assetURL(scene.image);await img.decode();await document.fonts.ready;if(ticket!==revision)return;

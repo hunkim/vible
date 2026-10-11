@@ -380,6 +380,8 @@ body.touch-selection #reader p.is-selected .verse-text{background:#dfc78445;box-
 
 /* Keep scene sharing beside the scripture reference, with a full touch target. */
 .scene-reference{display:flex;align-items:center;gap:4px;min-width:0}
+/* Keep 44px touch targets but let them overlap so the three icons sit closer together. */
+.scene-reference>button{margin:0 -5px}.scene-reference>#explain{margin-left:0}
 #explain,#share-scene{display:inline-flex;align-items:center;justify-content:center;flex:none;width:44px;height:44px;padding:12px;border-radius:50%;color:#eee0c5;transition:background .15s}
 #explain svg,#share-scene svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 #explain:hover,#explain:active,#explain[aria-expanded="true"],#share-scene:hover,#share-scene:active{background:#ffffff20}

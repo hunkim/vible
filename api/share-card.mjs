@@ -7,8 +7,10 @@ import {cardLayout} from '../share-card-layout.mjs';
 const hosting=fs.readFile(new URL('../asset-hosting.json',import.meta.url),'utf8').then(JSON.parse);
 const font=fs.readFile(new URL('../fonts/NanumMyeongjo-Regular.ttf',import.meta.url));
 const h=(type,style,children)=>({type,props:{style,children}});
+// Japanese/Chinese wrap per character, but closing punctuation stays with the previous character and opening brackets with the next.
+const cjkUnit=/[^\s⺀-鿿가-힣豈-﫿＀-￯]+\s*|[「『（〈《【〔]*[\s\S][、。，．！？）」』〉》】〕：；…・ー]*/gu;
 export async function cardResponse(s){
- const {size,height,textWidth}=cardLayout(s);
+ const {size,height,textWidth}=cardLayout(s);const cjk=s.lang==='ja'||s.lang==='zh';
  const origin=process.env.VIBLE_ASSET_ORIGIN??(await hosting).origin;
  let bytes;
  if(s.image==='image-pending.svg')bytes=await fs.readFile(new URL('../assets/image-pending.svg',import.meta.url));
@@ -20,7 +22,7 @@ export async function cardResponse(s){
   h('div',{position:'absolute',top:0,left:0,width:'100%',height:'100%',backgroundImage:'linear-gradient(90deg,rgba(12,27,22,.94) 0%,rgba(12,27,22,.82) 38%,rgba(12,27,22,.25) 57%,rgba(12,27,22,0) 75%)'},null),
   h('div',{display:'flex',flexDirection:'column',justifyContent:'center',padding:'76px 0 90px 52px',width:textWidth+52,height:'100%'},[
    h('div',{fontSize:22,color:'#e7d5ac',marginBottom:22},s.reference),
-   h('div',{display:'flex',flexDirection:'column',fontSize:size,lineHeight:1.65,wordBreak:s.lang==='ja'||s.lang==='zh'?'break-all':'normal'},s.verses.map(v=>h('div',{marginBottom:s.verses.length>1?16:0},v.text)))
+   h('div',{display:'flex',flexDirection:'column',fontSize:size,lineHeight:1.65},s.verses.map(v=>cjk?h('div',{display:'flex',flexWrap:'wrap',marginBottom:s.verses.length>1?16:0},v.text.match(cjkUnit).map(u=>h('span',{whiteSpace:'pre'},u))):h('div',{marginBottom:s.verses.length>1?16:0},v.text)))
   ]),
   h('div',{position:'absolute',right:40,bottom:s.lang==='zh'?84:46,fontSize:20,color:'#fff9ed',backgroundColor:'rgba(12,27,22,.55)',padding:'10px 16px',borderRadius:8},'vible.now'),
   h('div',{position:'absolute',display:'flex',bottom:16,left:52,right:52,fontSize:13,lineHeight:1.4,color:'#e7d5ac',backgroundColor:s.lang==='zh'?'rgba(12,27,22,.88)':'transparent',padding:s.lang==='zh'?8:0},s.lang==='zh'?s.attribution+' · Scripture and this card: CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0/':s.translation||'성경전서 개역한글판')
