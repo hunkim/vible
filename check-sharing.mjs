@@ -2,8 +2,11 @@ import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import {passageURL} from './languages.js';
 import {assetURL} from './assets.js';
+import {text} from './i18n.js';
 import {readFile} from 'node:fs/promises';
-const source=(await readFile(new URL('./annotations.js',import.meta.url),'utf8')).replace(/^import .*;\n/gm,'').replace('export function','function');
+// The web platform adapter runs beside the reader code with the simulated browser globals.
+const platformSource=(await readFile(new URL('./platform.js',import.meta.url),'utf8')).replace(/^export /gm,'');
+const source=platformSource+(await readFile(new URL('./annotations.js',import.meta.url),'utf8')).replace(/^import .*;\n/gm,'').replace('export function','function');
 async function setup(nav={},touch=false,sceneVerses=false,language="ko"){
  const elements=new Map(),downloads=[],canvases=[],draws=[];let verseRect={top:400,bottom:430,left:200,right:400,width:200};
  const el=id=>{if(!elements.has(id))elements.set(id,{value:'',textContent:'',hidden:false,disabled:false,style:{},setAttribute(name,value){this[name]=value;},getBoundingClientRect(){return id==='reader'?{top:200,bottom:740}:{width:220,height:50};},addEventListener(type,fn){this[type==='close'?'onclose':type]=fn;},showModal(){this.open=true;},close(){this.open=false;},focus(){this.focused=true;},select(){this.selected=true;}});return elements.get(id);};
@@ -12,7 +15,7 @@ async function setup(nav={},touch=false,sceneVerses=false,language="ko"){
  const ctx={drawImage(...args){draws.push(args);},createLinearGradient(){return {addColorStop(){}};},fillRect(){},fillText(){},measureText(){return {width:10};}};
  el('reader').querySelectorAll=()=>sceneVerses?Array.from({length:4},(_,i)=>({...verse,dataset:{chapter:'5',verse:String(30+i)}})):[verse];
  const document={body:{classList:{add(){}}},getElementById:el,addEventListener(){},fonts:{ready:Promise.resolve()},createElement(tag){return tag==='canvas'?(()=>{const canvas={getContext:()=>ctx,toBlob:fn=>fn(new Blob(['png'],{type:'image/png'}))};canvases.push(canvas);return canvas;})():{click(){downloads.push(this);}};}};
- const api=vm.runInNewContext(source+`\nannotations(()=>({bookId:"john",language:${JSON.stringify(language)},data:{book:"요한복음",scenes:[{id:1,image:"scene.jpg"}]}}));`,{matchMedia:()=>({matches:touch}),passageURL,assetURL,document,navigator:nav,localStorage:{getItem:()=>null},window:{innerHeight:800,innerWidth:1280,addEventListener(){}},requestAnimationFrame:fn=>{fn();return 1;},cancelAnimationFrame(){},Image:class {width=1600;height=900;async decode(){}},File,Blob,URL,setTimeout,clearTimeout});
+ const api=vm.runInNewContext(source+`\nannotations(()=>({bookId:"john",language:${JSON.stringify(language)},data:{book:"요한복음",scenes:[{id:1,image:"scene.jpg"}]}}));`,{matchMedia:()=>({matches:touch}),passageURL,assetURL,text,document,navigator:nav,localStorage:{getItem:()=>null},window:{innerHeight:800,innerWidth:1280,addEventListener(){}},requestAnimationFrame:fn=>{fn();return 1;},cancelAnimationFrame(){},Image:class {width=1600;height=900;async decode(){}},File,Blob,URL,setTimeout,clearTimeout});
  el('reader').click({target:{closest:()=>({closest:()=>verse})}});
  assert.equal(el('selection-tools').style.top,'340px');assert.equal(el('selection-tools').style.left,'190px');
  verseRect={top:205,bottom:235,left:2,right:202,width:200};el('reader').scroll();assert.equal(el('selection-tools').style.top,'245px');assert.equal(el('selection-tools').style.left,'12px');
@@ -50,3 +53,11 @@ const sceneFallback=await setup({clipboard:{writeText:async text=>copied=text}},
 sceneFallback.el('note-dialog').close();await sceneFallback.api.shareScene({chapter:5,first:30,last:33});
 assert.equal(sceneFallback.el('note-dialog').open,true);assert.equal(copied,'https://vible.now/share/john/5/30/5/32');sceneFallback.el('note-dialog').close();sceneFallback.el('note-dialog').onclose();assert.equal(sceneFallback.el('selection-tools').hidden,true);
 console.log('Scene sharing verified: maximum three verses, single verse, selected language and clipboard/card fallback.');
+
+// Share cards keep English words whole while Korean, Japanese and Chinese wrap per character.
+const wrapSource=(await readFile(new URL('./annotations.js',import.meta.url),'utf8')).match(/const wrapToken=.*\n function wrap[^\n]*/)[0];
+const wrapLines=new Function(wrapSource.replace('const wrapToken','var wrapToken')+';return wrap;')(),measure={measureText:t=>({width:[...t].length*10})};
+assert.deepEqual(wrapLines(measure,'In the beginning was the Word, and the Word was with God',200),['In the beginning was','the Word, and the','Word was with God']);
+assert.deepEqual(wrapLines(measure,'태초에 말씀이 계시니라',100),['태초에 말씀이 계시','니라']);
+assert.deepEqual(wrapLines(measure,'太初有道，道与神同在',60),['太初有道，道','与神同在']);
+console.log('Share card wrapping keeps English words whole and preserves CJK wrapping.');

@@ -22,12 +22,15 @@ try{
  const b=body(),first=await post(b);assert.equal(first.status,201);assert.equal((await first.json()).id,b.requestId);
  assert.equal((await post(b)).status,200);assert.equal(records.size,1,'retry does not create a duplicate');
  assert.equal((await post({...b,message:'different'})).status,409);
+ const preflight=await fetch(origin,{method:'OPTIONS',headers:{Origin:'capacitor://localhost','Access-Control-Request-Method':'POST'}});assert.equal(preflight.status,204);assert.equal(preflight.headers.get('access-control-allow-origin'),'capacitor://localhost');
+ assert.equal((await fetch(origin,{method:'OPTIONS',headers:{Origin:'https://evil.example'}})).status,405);
+ for(const app of ['capacitor://localhost','https://localhost','tauri://localhost','http://tauri.localhost']){const response=await post(body(),{headers:{Origin:app}});assert.equal(response.status,201,app);assert.equal(response.headers.get('access-control-allow-origin'),app);}
  failed=true;assert.equal((await post(body())).status,503);failed=false;
- for(let i=1;i<20;i++)assert.equal((await post(body())).status,201);
+ for(let i=records.size;i<20;i++)assert.equal((await post(body())).status,201);
  assert.equal((await post(body())).status,429,'rate limiting persists in storage');
  assert.equal(records.size,20);
  for(const record of records.values()){assert(!('ip' in record));assert(!('imageData' in record));}
 }finally{await new Promise(resolve=>server.close(resolve));}
 const html=await fs.readFile(new URL('index.html',import.meta.url),'utf8'),build=await fs.readFile(new URL('build.mjs',import.meta.url),'utf8'),sw=await fs.readFile(new URL('sw.js',import.meta.url),'utf8');
 assert(html.indexOf('id="feedback-scene"')>html.indexOf('id="share-scene"'));assert(html.includes('maxlength="1200"'));assert(!html.includes('type="file"'));assert(build.includes("'feedback.js'"));assert(sw.includes("'./feedback.js'"));
-console.log('Feedback: canonical passage/image provenance, four languages, private receipt, idempotent retries, size/type/origin validation, storage failure and persisted abuse limits passed.');
+console.log('Feedback: canonical passage/image provenance, four languages, private receipt, idempotent retries, size/type/origin validation, store-app CORS, storage failure and persisted abuse limits passed.');

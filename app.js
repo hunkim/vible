@@ -7,10 +7,13 @@ import {psalmsBooks} from './psalms-catalog.js';
 import {historicalBooks} from './historical-catalog.js';
 import {renderScripture} from './jesus-words.js';
 import {annotations} from './annotations.js';
-import './install.js';
 import {scriptureSearch} from './search-ui.js';
 import {bookPicker} from './book-picker.js';
 import {sceneFeedback} from './feedback.js';
+import {isNative,SITE_ORIGIN} from './platform.js';
+import {text,localizeDocument} from './i18n.js';
+import {offlineImages,offlineImageURL} from './image-cache.js';
+import {localizeInstall} from './install.js';
 const $=id=>document.getElementById(id);
 const pad=n=>String(n).padStart(2,'0');
 const preview=new URLSearchParams(location.search).has('preview');
@@ -18,6 +21,7 @@ let data,bookId='john',loadVersion=0,current=0,view='read',scrollFrame=0,fontSiz
 let language='ko',catalog={ko:{books:[]}},preferredLanguage='ko';
 const picker=bookPicker(()=>({bookId,language}));
 const ui=()=>messages[language];
+const t=()=>text(language);
 const notes=annotations(()=>({data,bookId,language}));
 $('share-scene').onclick=()=>notes.shareScene(data.scenes[current]);
 const feedback=sceneFeedback(()=>({bookId,language,scene:data?.scenes[current],reference:data?reference(data.scenes[current]):''}));
@@ -37,12 +41,13 @@ function showView(next){view=next;window.scrollTo({top:0,behavior:'instant'});fo
 function remember(){if(preview||!data)return;try{localStorage.setItem(`visual-bible-${bookId}`,String(data.scenes[current].id));const s=data.scenes[current];localStorage.setItem(`vible-position-${bookId}`,JSON.stringify({chapter:s.chapter,verse:s.first}));}catch{}}
 function loadSceneImage(s,force=false){
  const img=$('visual'),status=$('image-loading'),src=image(s);
- if(!force&&img.getAttribute('src')===src)return;
+ if(!force&&(img.dataset?.source||img.getAttribute('src'))===src)return;
  const copy={ko:['그림을 불러오는 중입니다','그림을 불러오지 못했습니다','다시 시도'],en:['Loading image','Image could not load','Retry'],ja:['画像を読み込み中','画像を読み込めませんでした','再試行'],zh:['正在加载图片','图片加载失败','重试']}[language];
  status.textContent=copy[0];status.hidden=Boolean(s.imagePending);
  img.onload=()=>{status.hidden=true;};
  img.onerror=()=>{if(s.imagePending)return;status.hidden=false;status.textContent=copy[1]+' ';const retry=document.createElement('button');retry.textContent=copy[2];retry.onclick=()=>loadSceneImage(s,true);status.append(retry);};
- if(force)img.removeAttribute('src');img.src=src;
+ if(force)img.removeAttribute('src');
+ if(offlineImages){img.dataset.source=src;offlineImageURL(src).then(url=>{if(img.dataset.source===src)img.src=url;});}else img.src=src;
  if(img.complete&&img.naturalWidth)status.hidden=true;
 }
 function updateScene(index){
@@ -53,9 +58,9 @@ function updateScene(index){
  for(const [id,target] of [['reader-previous-chapter',s.chapter-1],['reader-next-chapter',s.chapter+1]]){
   const button=$(id),available=target>=1&&target<=data.chapters;
   button.disabled=!available;
-  button.querySelector('.chapter-target').textContent=available?ui().chapter(target):(target<1?'첫 장':'끝 장');
-  button.setAttribute('aria-label',available?`${target}장으로 이동`:(target<1?'이전 장 없음':'다음 장 없음'));
-  button.title=available?`${target}장 첫 말씀으로 이동`:(target<1?'첫 장입니다':'마지막 장입니다');
+  button.querySelector('.chapter-target').textContent=available?ui().chapter(target):(target<1?t().firstChapter:t().lastChapter);
+  button.setAttribute('aria-label',available?t().goToChapter(target):(target<1?t().noPreviousChapter:t().noNextChapter));
+  button.title=available?t().goToChapterStart(target):(target<1?t().atFirstChapter:t().atLastChapter);
  }
  const shareLabel=({ko:'이 장면 말씀 공유',en:'Share this scene',ja:'この場面を共有',zh:'分享这个场景'})[language];$('share-scene').setAttribute('aria-label',shareLabel);$('share-scene').title=shareLabel;
  feedback.localize();
@@ -80,7 +85,7 @@ function renderBook(){
  for(const s of data.scenes){
   const section=document.createElement('section');section.className='passage';section.dataset.id=s.id;
   if(s.chapter!==chapter){chapter=s.chapter;const marker=document.createElement('h2');marker.className='chapter-marker';marker.textContent=`${data.book} ${ui().chapter(chapter)}`;section.append(marker);}
-  const heading=document.createElement('h3');heading.textContent=`${s.first}–${s.last}절 · ${s.title}`;section.append(heading);
+  const heading=document.createElement('h3');heading.textContent=`${t().verseRange(s.first,s.last)} · ${s.title}`;section.append(heading);
   for(const v of s.verses){if(v.omitted)continue;const p=document.createElement('p');p.dataset.chapter=s.chapter;p.dataset.verse=v.verse;if(v.endVerse)p.dataset.endVerse=v.endVerse;const num=document.createElement('button');num.className='verse-number';num.textContent=v.endVerse?`${v.verse}–${v.endVerse}`:v.verse;num.setAttribute('aria-label',ui().selectVerse(s.chapter,v.verse));const text=document.createElement('span');text.className='verse-text';renderScripture(text,bookId,s.chapter,v.verse,language,v.text);p.append(num,text);section.append(p);}
   fragment.append(section);
  }
@@ -383,7 +388,7 @@ async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  const version=++loadVersion;
  $('book').disabled=true;$('language').disabled=true;$('open-language').disabled=true;remember();cancelAnimationFrame(scrollFrame);
  try{
- const response=await fetch(`data/${id}.json`);if(!response.ok)throw Error('성경 본문을 불러오지 못했습니다.');let next=await response.json();
+ const response=await fetch(`data/${id}.json`);if(!response.ok)throw Error(text(language).loadFailed);let next=await response.json();
  if(nextLanguage!=='ko'||catalog.ko?.licensedBooks?.includes(id)){
   const translated=await fetch(`data/translations/${nextLanguage}/${id}.json`);
   if(!translated.ok)throw Error(messages[nextLanguage].unavailable);
@@ -392,7 +397,7 @@ async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  next.language=nextLanguage;
  if(version!==loadVersion)return;
  data=next;bookId=id;language=nextLanguage;localizeHeader();current=0;document.body.dataset.book=id;document.body.dataset.letter=epistleBooks[id]?'true':'false';const config=books[id];
- $('book').value=id;document.title=`Vible — 비주얼 바이블 · ${data.book}`;
+ $('book').value=id;document.title=`${t().appTitle} · ${data.book}`;
  $('reading-book-label').textContent=config.english;$('reading-book-title').textContent=data.book;
  $('gallery-chapter').replaceChildren(new Option(ui().all,'0'));
  for(let c=1;c<=data.chapters;c++)$('gallery-chapter').append(new Option(ui().chapter(c),String(c)));
@@ -401,13 +406,13 @@ async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  $('story-title').textContent=config.storyTitle;$('story-copy').textContent=config.storyCopy;$('book-context').textContent=config.context;
  $('chapter-map-title').textContent=`${data.chapters}장의 흐름`;
  $('search').value='';$('search').placeholder=config.search;
- $('prompt-source').href=config.plan;$('prompt-source').textContent=`${data.sceneCount}장 제작 프롬프트 ↗`;
+ $('prompt-source').href=isNative?`${SITE_ORIGIN}/${config.plan}`:config.plan;$('prompt-source').textContent=t().imagePrompts(data.sceneCount);
  $('source-notes').textContent=id==='proverbs'?'잠언의 지혜와 가르침을 문맥에 따라 시각화했습니다. 본문은 개역한글 원본을 보존합니다.':id==='psalms'?`시편의 다섯 권 흐름과 각 시의 기도·비유를 따라 구성했습니다. 역사 회상은 장면 설명에서 구분하고, 어둠 속에서 끝나는 탄식에 임의의 밝은 결말을 덧붙이지 않습니다. 본문은 개역한글 원본 그대로 보존했습니다.${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:historicalBooks[id]?`${data.book}의 인물과 장소, 선택과 결과를 본문의 흐름에 따라 시각화했습니다. 회상과 비유는 현재 사건과 구분하며, 본문은 개역한글 원본을 보존합니다.${id==='joshua'?' 여호수아 2:12–13은 원본의 합절 표기를 따라 함께 표시합니다.':id==='1samuel'?' 사무엘상 30:30–31은 원본의 합절을 보존합니다.':''}`:pentateuchBooks[id]?`${data.book}의 서사와 규례를 본문에 따라 구분하여 시각화했습니다. 율법·제의·시적 약속을 설명하는 그림은 실제 사건으로 단정하지 않습니다. 본문은 개역한글 원본을 보존합니다.${id==='deuteronomy'?' 신명기 30:9–10은 개역한글의 합절 표기를 따라 함께 표시합니다.':''}${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:epistleBooks[id]?`${data.book}의 가르침과 관계를 시각적 비유와 편집 장면으로 표현했습니다. 과거 회상은 설명에서 구분하며, 본문은 개역한글 원본 그대로 보존했습니다.${id==='hebrews'?' 히브리서의 저자는 본문에서 이름을 밝히지 않습니다.':''}${data.partialRelease&&data.partialRelease.availableImages<data.sceneCount?` 그림 ${data.partialRelease.availableImages}장이 준비되었고, 나머지 그림은 제작 중입니다.`:''}`:['matthew','mark','luke'].includes(id)?'각 복음서의 서술 순서와 인물 수, 만남의 장소를 따라 구성했습니다. 비유와 꿈, 족보를 그린 장면은 설명에서 구분합니다. 본문의 괄호와 (없음) 표기도 원본대로 보존했습니다.':id==='genesis'?'창조의 장면은 본문의 의미를 돕는 시각화이며 과학적 시간표나 확정된 지리 복원이 아닙니다. 족보는 세대의 이어짐을 구성한 편집 장면으로, 꿈과 시적 축복은 실제 현장과 구분합니다. 의복·건물·인물의 모습도 시각적 해석입니다.':id==='revelation'?'요한계시록의 환상과 상징은 맥락을 이해하도록 시각화했습니다. 특정 현대 인물·국가·기술이나 종말의 시간표로 단정하지 않으며, 핵심 이미지를 선택한 편집 해석입니다.':id==='romans'?'로마서는 편지의 논증을 시각적 비유와 편집 장면으로 표현합니다. 아브라함 등의 과거 회상은 구분하며, 16:24의 (없음) 표기를 원본대로 보존했습니다.':id==='john'?'비유와 가르침을 그린 장면은 설명에서 구분합니다. 요한복음 5:3–4와 7:53–8:11의 본문 괄호도 원본대로 유지했습니다.':'환상과 설교 속 과거 이야기는 장면 설명에서 구분합니다. 사도행전의 (없음) 및 [25절과 같음] 표기도 전자 본문 원본대로 유지했습니다.';
- $('explanation').hidden=true;$('error').hidden=true;
+ $('explanation').hidden=true;$('explain').setAttribute('aria-expanded','false');$('error').hidden=true;
  renderBook();notes.refresh();renderStory();renderGallery();
  $('translation-attribution').textContent=data.attribution||'성경전서 개역한글판 © 대한성서공회 1961.';
  $('translation-edition').textContent=data.translation;
- $('translation-license').href=data.copyrightSource||'https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5';
+ $('text-data').href=data.textData||'https://github.com/yuhwan/Bible-krv';$('translation-license').href=data.copyrightSource||'https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5';
  if(language!=='ko'){
   $('gallery-title').textContent=`${data.book} · ${ui().gallery}`;$('gallery-description').textContent=ui().scenes(data.sceneCount);
   $('story-title').textContent=`${data.book} · ${ui().story}`;$('story-copy').textContent='';$('book-context').textContent='';$('chapter-map-title').textContent=ui().story;
@@ -461,8 +466,8 @@ async function init(){
   $('navigation-dialog').hidePopover();$('saved-notes-book').textContent=data.book;
   let saved={};try{saved=JSON.parse(localStorage.getItem(`vible-notes-${bookId}`)||'{}')||{};}catch{}
   const entries=data.scenes.flatMap(s=>s.verses.map(v=>({scene:s,verse:v,record:saved[`${s.chapter}:${v.verse}`]}))).filter(e=>e.record?.highlight||e.record?.note);
-  const cards=entries.map(({scene,verse,record})=>{const b=document.createElement('button');b.className='saved-note';const ref=document.createElement('strong');ref.textContent=`${data.book} ${scene.chapter}:${verse.verse}${record.highlight?' · 하이라이트':''}`;const text=document.createElement('span');text.textContent=verse.text;b.append(ref,text);if(record.note){const note=document.createElement('p');note.textContent=record.note;b.append(note);}b.onclick=()=>{$('saved-notes-dialog').close();goTo(scene.id-1);notes.editVerse(scene.chapter,verse.verse);};return b;});
-  if(!cards.length){const empty=document.createElement('p');empty.textContent='아직 저장한 말씀이 없습니다. 말씀을 선택해 하이라이트나 묵상을 남겨 보세요.';cards.push(empty);}
+  const cards=entries.map(({scene,verse,record})=>{const b=document.createElement('button');b.className='saved-note';const ref=document.createElement('strong');ref.textContent=`${data.book} ${scene.chapter}:${verse.verse}${record.highlight?` · ${t().highlight}`:''}`;const text=document.createElement('span');text.textContent=verse.text;b.append(ref,text);if(record.note){const note=document.createElement('p');note.textContent=record.note;b.append(note);}b.onclick=()=>{$('saved-notes-dialog').close();goTo(scene.id-1);notes.editVerse(scene.chapter,verse.verse);};return b;});
+  if(!cards.length){const empty=document.createElement('p');empty.textContent=t().noNotes;cards.push(empty);}
   $('saved-notes-list').replaceChildren(...cards);$('saved-notes-dialog').showModal();
  };
  $('close-saved-notes').onclick=()=>$('saved-notes-dialog').close();
@@ -472,7 +477,7 @@ async function init(){
  $('reader').addEventListener('scroll',scrollScene,{passive:true});$('previous').addEventListener('click',()=>goTo(current-1));$('next').addEventListener('click',()=>goTo(current+1));
  $('reader-previous-chapter').onclick=()=>goTo(data.scenes.findIndex(s=>s.chapter===data.scenes[current].chapter-1));
  $('reader-next-chapter').onclick=()=>goTo(data.scenes.findIndex(s=>s.chapter===data.scenes[current].chapter+1));
- $('explain').addEventListener('click',()=>{$('explanation').hidden=!$('explanation').hidden;});
+ $('explain').addEventListener('click',()=>{$('explanation').hidden=!$('explanation').hidden;$('explain').setAttribute('aria-expanded',String(!$('explanation').hidden));});
  $('source-button').addEventListener('click',()=>$('source-dialog').showModal());$('close-source').addEventListener('click',()=>$('source-dialog').close());
  function setFont(size){
   fontSize=Math.max(16,Math.min(31,Number(size)||19));
@@ -481,7 +486,7 @@ async function init(){
   const offset=anchor?anchor.getBoundingClientRect().top-top:0;
   document.documentElement.style.setProperty('--body-size',`${fontSize}px`);
   if(anchor)reader.scrollTop+=anchor.getBoundingClientRect().top-top-offset;
-  $('font-size').textContent=`글자 크기 ${fontSize}`;
+  $('font-size').textContent=t().textSize(fontSize);
   $('font-smaller').disabled=fontSize===16;$('font-larger').disabled=fontSize===31;
   try{localStorage.setItem('vible-font-size',String(fontSize));}catch{}
  }
@@ -506,7 +511,7 @@ async function init(){
 }
 function localizeHeader(){
  search.localize();
- document.documentElement.lang=language;
+ document.documentElement.lang=language;localizeDocument(language);localizeInstall();$('font-size').textContent=t().textSize(fontSize);
  const copy=interfaceCopy[language];
  for(const [id,key] of [['notes-tab','notes'],['save-note','saveNote'],['share-card','imageShare'],['share-link','linkShare'],['download-card','saveImage'],['copy-link','copyLink']])$(id).textContent=copy[key];
  document.querySelector('#navigation-dialog .menu-help').textContent=copy.help;

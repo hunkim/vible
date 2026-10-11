@@ -45,11 +45,13 @@ for(const {id,data} of books){
  }
 }
 // Validate all inputs before replacing a previous successful build.
-const output=path.join(root,'dist');
+// Store apps bundle the same reader without the service worker or web manifest.
+const native=process.argv.includes('--target=native');
+const output=path.join(root,native?'dist-native':'dist');
 await fs.rm(output,{recursive:true,force:true});
 await fs.mkdir(path.join(output,'assets'),{recursive:true});await fs.mkdir(path.join(output,'data'),{recursive:true});
-for(const file of ['index.html','assets.js','feedback.js','app.js','annotations.js','install.js','sw.js','manifest.webmanifest','style.css','share.css','share.js','languages.js','epistles-catalog.js','pentateuch-catalog.js','psalms-catalog.js','proverbs-catalog.js','historical-catalog.js','scripture-search.js','search-ui.js','book-picker.js','jesus-words.js','jesus-words-data.js',...books.flatMap(b=>[b.plan,`data/${b.id}.json`])])await fs.copyFile(path.join(root,file),path.join(output,file));
-for(const file of ['assets.js','sw.js']){const source=await fs.readFile(path.join(root,file),'utf8');await fs.writeFile(path.join(output,file),source.replace("const ASSET_ORIGIN=''",`const ASSET_ORIGIN=${JSON.stringify(hosting.origin)}`));}
+for(const file of ['index.html','assets.js','platform.js','i18n.js','image-cache.js','feedback.js','app.js','annotations.js','install.js',...(native?[]:['sw.js','manifest.webmanifest']),'style.css','share.css','share.js','languages.js','epistles-catalog.js','pentateuch-catalog.js','psalms-catalog.js','proverbs-catalog.js','historical-catalog.js','scripture-search.js','search-ui.js','book-picker.js','jesus-words.js','jesus-words-data.js',...books.flatMap(b=>[...(native?[]:[b.plan]),`data/${b.id}.json`])])await fs.copyFile(path.join(root,file),path.join(output,file));
+for(const file of native?['assets.js']:['assets.js','sw.js']){const source=await fs.readFile(path.join(root,file),'utf8');await fs.writeFile(path.join(output,file),source.replace("const ASSET_ORIGIN=''",`const ASSET_ORIGIN=${JSON.stringify(hosting.origin)}`));}
 await fs.cp(path.join(root,'icons'),path.join(output,'icons'),{recursive:true});
 await fs.cp(path.join(root,'data/translations'),path.join(output,'data/translations'),{recursive:true});
 await fs.writeFile(path.join(root,'data/translations/catalog.json'),JSON.stringify(catalog,null,2));
@@ -58,6 +60,7 @@ await fs.cp(path.join(root,'fonts'),path.join(output,'fonts'),{recursive:true});
 // Keep production readers lean; generation prompts and reference metadata stay in source.
 for(const {id,data} of books){const reader={...data,scenes:data.scenes.map(({prompt,referenceImages,cast,visual,...scene})=>scene)};await fs.writeFile(path.join(output,`data/${id}.json`),JSON.stringify(reader));}
 if(hosting.origin){const file=path.join(output,'index.html');const html=await fs.readFile(file,'utf8');await fs.writeFile(file,html.replace('</head>',`<link rel="preconnect" href="${hosting.origin}" crossorigin><link rel="dns-prefetch" href="${hosting.origin}"></head>`));}
+if(native){const file=path.join(output,'index.html');const html=await fs.readFile(file,'utf8');assert(html.includes('<link rel="manifest" href="manifest.webmanifest">'));await fs.writeFile(file,html.replace('<link rel="manifest" href="manifest.webmanifest">',''));}
 // Reuse storage on copy-on-write filesystems; unsupported systems fall back to ordinary copies.
 for(const {data} of books)for(const scene of data.scenes)if(!hosting.origin||scene.imagePending)await fs.copyFile(path.join(root,'assets',scene.image),path.join(output,'assets',scene.image),fsConstants.COPYFILE_FICLONE);
 for(const {data} of books)console.log(`Built ${data.book}: ${data.chapters} chapters, ${data.verseCount} unchanged verses, ${data.partialRelease?`${data.partialRelease.availableImages}/${data.sceneCount} images available`:data.sceneCount+' images'}.`);

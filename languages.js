@@ -35,7 +35,7 @@ export function applyTranslation(base,translation,lang){
   const translated=chapters.get(s.chapter)?.get(v.verse);if(!translated)throw Error(`Missing translation verse ${s.chapter}:${v.verse}`);
   return {verse:v.verse,text:translated.text,omitted:!!translated.omitted,...(translated.endVerse?{endVerse:translated.endVerse}:{}),...(translated.combinedWith?{combinedWith:translated.combinedWith}:{})};
  })}));
- return {...base,book:translation.book,translation:translation.translation,attribution:translation.attribution,source:translation.source,copyrightSource:translation.licenseSource,language:lang,scenes};
+ return {...base,book:translation.book,translation:translation.translation,attribution:translation.attribution,source:translation.source,copyrightSource:translation.licenseSource,textData:translation.downloadSource,language:lang,scenes};
 }
 export const interfaceCopy={
  ko:{notes:'나의 노트 · 하이라이트',help:'말씀을 선택하거나 절 번호를 누르면 하이라이트, 노트, URL·카드 공유 도구가 나타납니다.',hideText:'글씨 숨기고 그림만 보기',showText:'글씨 다시 보기',menu:'메뉴 열기',closeMenu:'메뉴 닫기',saveNote:'노트 저장',imageShare:'이미지 공유',linkShare:'링크 공유',saveImage:'이미지 저장',copyLink:'URL 복사',reflection:'나의 묵상',placeholder:'이 말씀을 통해 마음에 남은 것을 적어 보세요.',install:'Vible 앱 설치'},

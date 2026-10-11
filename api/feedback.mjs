@@ -5,6 +5,8 @@ import {bookNames} from '../languages.js';
 import {readFeedback,writeFeedback,listFeedback} from '../feedback-store.mjs';
 const hosting=JSON.parse(fs.readFileSync(new URL('../asset-hosting.json',import.meta.url),'utf8'));
 const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+// Store apps load bundled files from these local origins (Capacitor iOS/Android, Tauri macOS/Windows).
+export const appOrigins=new Set(['capacitor://localhost','https://localhost','tauri://localhost','http://tauri.localhost','https://tauri.localhost']);
 function fail(status){return Object.assign(Error('Invalid feedback'),{status});}
 export function feedbackRecord(body,now=new Date()){
  if(!body||typeof body!=='object'||!uuid.test(body.requestId||'')||typeof body.message!=='string'||!['ko','en','ja','zh'].includes(body.lang))throw fail(400);
@@ -15,11 +17,12 @@ export function feedbackRecord(body,now=new Date()){
 }
 export function createFeedbackHandler(storage={read:readFeedback,write:writeFeedback,list:listFeedback},secret=()=>process.env.BLOB_READ_WRITE_TOKEN){
  return async(req,res)=>{
-  const reply=(status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(data));};
+  const origin=req.headers.origin,cors=appOrigins.has(origin)?{'Access-Control-Allow-Origin':origin,'Vary':'Origin'}:{};
+  const reply=(status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff',...cors});res.end(JSON.stringify(data));};
+  if(req.method==='OPTIONS'&&cors['Access-Control-Allow-Origin']){res.writeHead(204,{...cors,'Access-Control-Allow-Methods':'POST','Access-Control-Allow-Headers':'Content-Type','Access-Control-Max-Age':'86400'});return res.end();}
   if(req.method!=='POST'){res.setHeader('Allow','POST');return reply(405,{ok:false});}
   try{
-   const origin=req.headers.origin,host=req.headers.host;
-   if(!origin||new URL(origin).host!==host||!['http:','https:'].includes(new URL(origin).protocol))throw fail(403);
+   if(!origin||(!appOrigins.has(origin)&&(new URL(origin).host!==req.headers.host||!['http:','https:'].includes(new URL(origin).protocol))))throw fail(403);
    if(!/^application\/json(?:;|$)/i.test(req.headers['content-type']||''))throw fail(415);
    let body=req.body;
    if(body===undefined){let text='';for await(const chunk of req){text+=chunk;if(Buffer.byteLength(text)>8192)throw fail(413);}try{body=JSON.parse(text);}catch{throw fail(400);}}

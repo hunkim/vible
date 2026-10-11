@@ -1,3 +1,4 @@
+import {apiURL} from './platform.js';
 export const feedbackCopy={
  ko:{title:'의견 보내기',label:'어떤 점을 고치면 좋을까요?',placeholder:'예: 손가락이 이상해요, 구절과 그림이 맞지 않아요',send:'보내기',sending:'보내는 중…',close:'닫기',thanks:'알려주셔서 감사합니다',received:'의견이 접수됐습니다. 말씀과 그림을 확인하고 개선하겠습니다.',error:'보내지 못했습니다. 입력한 내용은 남아 있어요. 다시 시도해 주세요.',offline:'인터넷에 연결한 후 다시 보내 주세요.',limit:'잠시 후 다시 보내 주세요.',empty:'발견한 문제나 의견을 적어 주세요.'},
  en:{title:'Send feedback',label:'What could we improve?',placeholder:'For example: the hand looks unusual, or the image does not match the passage',send:'Send',sending:'Sending…',close:'Close',thanks:'Thank you for letting us know',received:'Your feedback was received. We will review the passage and image.',error:'Could not send. Your text is still here. Please try again.',offline:'Connect to the internet and try again.',limit:'Please try again later.',empty:'Please describe the issue or your suggestion.'},
@@ -29,7 +30,7 @@ export function sceneFeedback(getContext){
   if(navigator.onLine===false){status.textContent=c.offline;return;}
   pending=true;send.disabled=true;$('close-feedback').disabled=true;send.textContent=c.sending;status.textContent='';
   try{
-   const response=await fetch('/api/feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({book:target.bookId,chapter:target.scene.chapter,verse:target.scene.first,lang:target.language,message,requestId}),signal:AbortSignal.timeout(15000)});
+   const response=await fetch(apiURL('/api/feedback'),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({book:target.bookId,chapter:target.scene.chapter,verse:target.scene.first,lang:target.language,message,requestId}),signal:AbortSignal.timeout(15000)});
    if(!response.ok){status.textContent=response.status===429?c.limit:c.error;return;}
    const receipt=await response.json();if(!receipt.ok||!receipt.id)throw Error('Missing receipt');
    form.hidden=true;$('feedback-success').hidden=false;input.value='';$('feedback-done').focus();

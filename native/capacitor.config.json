@@ -1,0 +1,13 @@
+{
+  "appId": "now.vible.app",
+  "appName": "VibleNow",
+  "webDir": "../dist-native",
+  "backgroundColor": "#f4f1e9",
+  "ios": {
+    "contentInset": "automatic",
+    "limitsNavigationsToAppBoundDomains": false
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

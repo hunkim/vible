@@ -1,7 +1,10 @@
 import {assetURL} from './assets.js';
 import {passageURL} from './languages.js';
+import {shareLink,shareFile,saveFile,canShareLink} from './platform.js';
+import {text} from './i18n.js';
 const $=id=>document.getElementById(id);
 export function annotations(context){
+ const t=()=>text(context().language||'ko');
  let sceneSharing=false,selected=[],selectionText='',cardFile=null,cardURL='',revision=0,selectionTimer,noteTimer,selectedRange=null,positionFrame;
  let touch=typeof matchMedia==='function'&&matchMedia('(pointer: coarse)').matches;
  $('reader').addEventListener('pointerdown',e=>{if(e.pointerType==='touch'){touch=true;document.body.classList.add('touch-selection');}});
@@ -28,16 +31,18 @@ export function annotations(context){
    pick(verses.slice(Math.min(first,last),Math.max(first,last)+1));
   }else pick([verse]);
  });
- function save(change){const notes=records();for(const p of selected)notes[key(p)]={...notes[key(p)],...change};try{localStorage.setItem(storageKey(),JSON.stringify(notes));paint();return true;}catch{status('저장 공간을 사용할 수 없습니다. 카드 다운로드는 가능합니다.');return false;}}
+ function save(change){const notes=records();for(const p of selected)notes[key(p)]={...notes[key(p)],...change};try{localStorage.setItem(storageKey(),JSON.stringify(notes));paint();return true;}catch{status(t().storageUnavailable);return false;}}
  $('highlight-selection').onclick=()=>{const notes=records();const highlighted=selected.every(p=>notes[key(p)]?.highlight);if(save({highlight:!highlighted}))$('highlight-selection').setAttribute('aria-pressed',String(!highlighted));};
  $('dismiss-selection').onclick=()=>{$('selection-tools').hidden=true;window.getSelection()?.removeAllRanges();selected=[];selectedRange=null;markSelection();};
  function ref(){const {data}=context();const first=selected[0],last=selected.at(-1);return `${data.book} ${key(first)}${first===last&&!first.dataset.endVerse?'':`–${first.dataset.chapter===last.dataset.chapter?(last.dataset.endVerse||last.dataset.verse):key(last)}`}`;}
  function link(){const first=selected[0],last=selected.at(-1),{bookId,language='ko'}=context();const path=passageURL(bookId,first.dataset.chapter,first.dataset.verse,last.dataset.chapter,last.dataset.endVerse||last.dataset.verse,language);return `https://vible.now${path}`;}
- function open(){if(!selected.length)return;$('selected-reference').textContent=ref();$('selected-scripture').textContent=selectionText;$('personal-note').value=records()[key(selected[0])]?.note||'';$('share-url').value=link();status('노트는 이 기기에 저장됩니다. 공유 버튼을 누를 때만 공유됩니다.');$('selection-tools').hidden=true;$('note-dialog').showModal();renderCard();}
+ function open(){if(!selected.length)return;$('selected-reference').textContent=ref();$('selected-scripture').textContent=selectionText;$('personal-note').value=records()[key(selected[0])]?.note||'';$('share-url').value=link();status(t().noteHint);$('selection-tools').hidden=true;$('note-dialog').showModal();renderCard();}
  $('note-selection').onclick=open;$('share-selection').onclick=open;$('note-dialog').addEventListener('close',()=>{if(sceneSharing){selected=[];selectedRange=null;sceneSharing=false;markSelection();}schedulePosition();});
- $('close-note').onclick=()=>$('note-dialog').close();$('save-note').onclick=()=>{if(save({note:$('personal-note').value,highlight:true}))status('말씀과 노트를 이 기기에 저장했습니다.');};
+ $('close-note').onclick=()=>$('note-dialog').close();$('save-note').onclick=()=>{if(save({note:$('personal-note').value,highlight:true}))status(t().noteSaved);};
  $('personal-note').oninput=()=>{cardFile=null;$('share-card').disabled=true;$('download-card').disabled=true;clearTimeout(noteTimer);noteTimer=setTimeout(renderCard,250);};
- function wrap(ctx,text,width){const lines=[];for(const paragraph of text.split('\n')){let line='';for(const ch of paragraph){if(line&&ctx.measureText(line+ch).width>width){lines.push(line);line=ch;}else line+=ch;}lines.push(line);}return lines;}
+ // Latin words stay whole; Korean, Japanese and Chinese wrap per character as before.
+ const wrapToken=/[^\s\u2E80-\u9FFF\uAC00-\uD7A3\uF900-\uFAFF\uFF00-\uFFEF]+\s*|[\s\S]/gu;
+ function wrap(ctx,text,width){const lines=[];for(const paragraph of text.split('\n')){let line='';for(const token of paragraph.match(wrapToken)||[]){const pieces=ctx.measureText(token.trimEnd()).width>width?[...token]:[token];for(const piece of pieces){if(line.trim()&&ctx.measureText((line+piece).trimEnd()).width>width){lines.push(line.trimEnd());line=piece.trimStart();}else line+=piece;}}lines.push(line.trimEnd());}return lines;}
  async function renderCard(){const ticket=++revision;cardFile=null;$('card-preview').hidden=true;$('share-card').disabled=true;$('download-card').disabled=true;try{
  const {data}=context();const scene=data.scenes.find(s=>s.id===Number(selected[0].closest('.passage').dataset.id));const img=new Image();img.crossOrigin='anonymous';img.src=assetURL(scene.image);await img.decode();await document.fonts.ready;if(ticket!==revision)return;
  const canvas=document.createElement('canvas'),c=canvas.getContext('2d');const width=1200,textWidth=460,note=$('personal-note').value.trim();
@@ -50,15 +55,15 @@ export function annotations(context){
  if(note){y+=20;c.fillStyle='#dccba3';c.fillRect(52,y,48,2);y+=38;c.fillStyle='#eee8d9';c.font=`${noteSize}px sans-serif`;for(const line of noteLines){c.fillText(line,52,y);y+=noteSize*1.6;}}
  c.fillStyle='#eeddb5';c.font='20px sans-serif';c.textAlign='right';c.fillText('vible.now',1160,height-(context().language==='zh'?84:38));
  if(context().language==='zh'){c.fillStyle='rgba(12,27,22,.88)';c.fillRect(0,height-64,width,64);c.textAlign='left';c.fillStyle='#e7d5ac';c.font='11px sans-serif';const notice=data.attribution+' · Scripture and this card: CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0/';wrap(c,notice,1096).forEach((line,i)=>c.fillText(line,52,height-30+i*14));}
- const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(ticket!==revision)return;if(!blob)throw Error('카드를 만들지 못했습니다.');if(cardURL)URL.revokeObjectURL(cardURL);cardURL=URL.createObjectURL(blob);$('card-preview').src=cardURL;$('card-preview').hidden=false;cardFile=new File([blob],`vible-${context().bookId}-${key(selected[0]).replace(':','-')}.png`,{type:'image/png'});$('download-card').disabled=false;$('share-card').disabled=false;
+ const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(ticket!==revision)return;if(!blob)throw Error(t().cardFailed);if(cardURL)URL.revokeObjectURL(cardURL);cardURL=URL.createObjectURL(blob);$('card-preview').src=cardURL;$('card-preview').hidden=false;cardFile=new File([blob],`vible-${context().bookId}-${key(selected[0]).replace(':','-')}.png`,{type:'image/png'});$('download-card').disabled=false;$('share-card').disabled=false;
  }catch(e){if(ticket===revision){$('card-preview').hidden=true;status(e.message);}}}
- function download(){if(!cardFile)return;const a=document.createElement('a');a.href=cardURL;a.download=cardFile.name;a.click();status('카드 이미지를 저장했습니다. 메신저나 SNS에서 사진으로 첨부해 주세요.');}
+ async function download(){if(!cardFile)return;try{await saveFile(cardFile,cardURL);status(t().cardSaved);}catch(e){if(e.name!=='AbortError')status(t().saveFailed);}}
  $('download-card').onclick=download;
- $('share-card').onclick=async()=>{if(!cardFile)return;try{const payload={files:[cardFile]};if(navigator.share&&navigator.canShare?.(payload)){await navigator.share(payload);}else{download();status('이미지를 저장했습니다. 메신저나 SNS에서 사진으로 첨부해 주세요.');}}catch(e){if(e.name!=='AbortError')status('이미지 공유 창을 열지 못했습니다. 이미지 저장 후 사진으로 첨부해 주세요.');}};
- async function copyLink(){try{await navigator.clipboard.writeText(link());status('말씀 URL을 복사했습니다. 메신저나 SNS에 붙여 넣어 주세요.');}catch{$('share-url').focus();$('share-url').select();status('아래 URL을 길게 누르거나 복사해서 메신저에 붙여 넣어 주세요.');}}
+ $('share-card').onclick=async()=>{if(!cardFile)return;try{if(!await shareFile(cardFile)){await download();}}catch(e){if(e.name!=='AbortError')status(t().shareImageFailed);}};
+ async function copyLink(){try{await navigator.clipboard.writeText(link());status(t().linkCopied);}catch{$('share-url').focus();$('share-url').select();status(t().copyManually);}}
  $('copy-link').onclick=copyLink;
- $('share-link').onclick=async()=>{try{if(navigator.share){await navigator.share({title:`${ref()} · Vible`,url:link()});}else{await copyLink();}}catch(e){if(e.name!=='AbortError'){if(!$('note-dialog').open)open();status('링크 공유 창을 열지 못했습니다. URL 복사 버튼을 이용해 주세요.');}}};
- $('share-url-selection').onclick=()=>{if(!navigator.share)open();return $('share-link').onclick();};
+ $('share-link').onclick=async()=>{try{if(!await shareLink({title:`${ref()} · Vible`,url:link()}))await copyLink();}catch(e){if(e.name!=='AbortError'){if(!$('note-dialog').open)open();status(t().shareLinkFailed);}}};
+ $('share-url-selection').onclick=()=>{if(!canShareLink())open();return $('share-link').onclick();};
  document.addEventListener('pointerdown',e=>{if(!e.target.closest('#reader, #selection-tools, #note-dialog')){selected=[];selectedRange=null;markSelection();$('selection-tools').hidden=true;}});
  return {shareScene(scene){const limit=Math.min(scene.last,scene.first+2);const nodes=[...$('reader').querySelectorAll('[data-verse]')].filter(p=>Number(p.dataset.chapter)===scene.chapter&&Number(p.dataset.verse)>=scene.first&&Number(p.dataset.endVerse||p.dataset.verse)<=limit);if(!nodes.length)return;pick(nodes);sceneSharing=true;$('selection-tools').hidden=true;return $('share-url-selection').onclick();},editVerse(chapter,verse){const p=$('reader').querySelector(`[data-chapter="${chapter}"][data-verse="${verse}"]`);if(p){pick([p]);open();}},refresh(){selected=[];selectedRange=null;markSelection();$('selection-tools').hidden=true;$('note-dialog').close();revision++;paint();}};
 }
