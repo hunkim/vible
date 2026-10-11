@@ -1,9 +1,9 @@
 {
   "date": "2026-10-11",
   "production": "https://vible.now",
-  "deployment": "https://vible-g4sjqnpyf-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_HCGJiJ8LhCsdHPiRTzSrcr4gyzt4",
-  "newImageFiles": 99,
+  "deployment": "https://vible-3a84fjb0n-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_B6XcvTYG9VdLZJvL1JMyqaVvZhwz",
+  "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -548,7 +548,8 @@
     "liveFourLanguageUI": "English reader on vible.now shows no Korean interface strings; privacy link and scene info button present; First Samuel CDN image loads",
     "cjkLineBreak": "Japanese/Chinese line breaking release: npm run check and check-offline passed in /private/tmp/vible-release-5dcae980f79f; live style, privacy, app-link file, data, admin 401 and app CORS verified. No new reviewed images were ready (2 Samuel generation still in progress, uncommitted).",
     "fullBleedReader": "Edge-to-edge reader release: npm run check and check-offline passed in /private/tmp/vible-release-0591c548126e; live stage has 0px side/bottom gap and square corners; reference, info, share and feedback share one row.",
-    "proverbs218": "Proverbs 1-218 released (98 new + replacements 97, 126, 160): review SHA-256 matched, 99 CDN files byte-verified, npm run check and check-offline passed in frozen source; live reader image, zh share page, ja PNG card and admin 401 verified."
+    "proverbs218": "Proverbs 1-218 released (98 new + replacements 97, 126, 160): review SHA-256 matched, 99 CDN files byte-verified, npm run check and check-offline passed in frozen source; live reader image, zh share page, ja PNG card and admin 401 verified.",
+    "appContentRefresh": "Store apps refresh /data from vible.now in the background (public CORS on /data); simulator test: an app bundled with Proverbs 1-120 showed scene 201 after one relaunch. Cold-start text alignment fixed. npm run check and check-offline passed in frozen source; live app.js, Proverbs 218, data CORS and admin 401 verified."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 41,
@@ -572,5 +573,5 @@
     "image": "psalms-c150-v006-006-right-context-finale-v3.jpg"
   },
   "frozenSource": "/private/tmp/vible-release-883d0ce71630",
-  "sourceCommit": "12e04ae9507e"
+  "sourceCommit": "9e92e35"
 }
