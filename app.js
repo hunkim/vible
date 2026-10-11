@@ -98,8 +98,12 @@ function goTo(index){
  updateScene(index);
  const section=$('reader').querySelector(`[data-id="${data.scenes[index].id}"]`);
  const reader=$('reader');
- reader.scrollTo({top:reader.scrollTop+section.getBoundingClientRect().top-reader.getBoundingClientRect().top-12,behavior:'instant'});
+ const align=()=>{reader.scrollTo({top:reader.scrollTop+section.getBoundingClientRect().top-reader.getBoundingClientRect().top-12,behavior:'instant'});return reader.scrollTop;};
+ let placed=align();
  requestAnimationFrame(()=>{manual=false;});
+ // Late layout (fonts, the image stage, a restored text size) can shift the text after a cold start; re-align until the reader scrolls.
+ const settle=()=>{if(current!==index||!section.isConnected||Math.abs(reader.scrollTop-placed)>2)return;if(Math.abs(section.getBoundingClientRect().top-reader.getBoundingClientRect().top-12)>2){manual=true;placed=align();requestAnimationFrame(()=>{manual=false;});}};
+ document.fonts?.ready.then(settle);for(const delay of [120,400,1000])setTimeout(settle,delay);
 }
 function setupSceneProgress(range,navigate,getIndex){
  let lastWheel=-Infinity;
