@@ -1,9 +1,9 @@
 {
   "date": "2026-10-11",
   "production": "https://vible.now",
-  "deployment": "https://vible-4qziy0yla-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_AsPsdyQ81m1tK2dhUJo34B3AvwGe",
-  "newImageFiles": 0,
+  "deployment": "https://vible-2raei3lm6-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_EuRFWwFbW5d4AqFfnxyneiRUNZWS",
+  "newImageFiles": 1619,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -17,7 +17,16 @@
     "2samuel": 239,
     "1kings": 275,
     "2kings": 282,
-    "songofsongs": 63
+    "songofsongs": 63,
+    "1chronicles": 338,
+    "2chronicles": 465,
+    "ezra": 126,
+    "nehemiah": 185,
+    "esther": 100,
+    "job": 221,
+    "ecclesiastes": 68,
+    "daniel": 83,
+    "jonah": 33
   },
   "releaseConfig": {
     "leviticus": 236,
@@ -64,7 +73,8 @@
     "proverbs705_2kings": "Proverbs 705/705 and 2 Kings 282/282: 399 CDN files byte-verified; frozen npm run check (with new check-shell) and check-offline passed. An intermediate deploy (dpl_3GMoK4gYxtEbiVCJYWPtXhLT4cF6) went out with a failing check and missing image-pending.svg for about 5 minutes; fixed by always shipping the placeholder. Live: all 70 SW pre-cache files 200, data counts, 2 Kings en card, admin 401.",
     "noteDialogClose": "UI-only: note dialog close button moved off the card preview. Frozen npm run check and check-offline passed. Before deploy, production dpl_FhSMxXc86LYM7VzwiCUtiDFFqVen (newer than the record) served files identical to cd35da7 (236 static files matched). Live: new markup/CSS/JS, placeholder 200, share page 200, admin 401.",
     "songofsongs": "New book Song of Songs (63/63 scenes, 118 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; 6:13-14 bridged in en/ja/zh (Korean has 6:14). 63 CDN files byte-verified against asset-hosting sha256. Frozen npm run check and check-offline passed. Before deploy, production dpl_CzUccPg4vjcUXyyF9aVsXZidjHc1 served files identical to e3da2c7. Live: SW vible-songofsongs-20261011, data 63 images, en/ja/zh translations, share pages ko/en/ja/zh incl. 2:10-13 and 6:13-14 with attribution, ja/zh cards 200, admin 401.",
-    "cjkCardBreaksAndIcons": "UI-only: CJK share cards keep closing punctuation off line starts (server and canvas); scene icons closer. Frozen npm run check and check-offline passed. Production dpl_51Yofrugq78N14P5pds3v8mEMJtx (Vercel git auto-deploy of c6ece1c) matched 5be5a01 files. Live: new CSS/JS, ja card 200, share page 200, placeholder 200, admin 401."
+    "cjkCardBreaksAndIcons": "UI-only: CJK share cards keep closing punctuation off line starts (server and canvas); scene icons closer. Frozen npm run check and check-offline passed. Production dpl_51Yofrugq78N14P5pds3v8mEMJtx (Vercel git auto-deploy of c6ece1c) matched 5be5a01 files. Live: new CSS/JS, ja card 200, share page 200, placeholder 200, admin 401.",
+    "otBatchAndBookRegistry": "Nine new books (1-2 Chronicles, Ezra, Nehemiah, Esther, Job, Ecclesiastes, Daniel, Jonah; 1619 scenes, 4314 verses) in ko/en/ja/zh with combined-verse ranges per translations.md; 66-book registry with coming-soon entries and data/books.json for apps. 1619 CDN files byte-verified. First deploy attempt rejected by Vercel (includeFiles >256 chars) and fixed with a *-books.json glob plus a guard in check-shell. Frozen npm run check and check-offline passed. Production dpl before deploy (Vercel git auto-deploy) matched 82bf1e9. Live: SW vible-ot-books66-20261012, books.json 43 configs/51 abbreviation sets, all nine books full images and en/ja/zh, share pages incl. Jonah 1:17-2:1 ja and Job 38:37-38 zh, ja card 200, admin 401."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 41,
@@ -88,5 +98,5 @@
     "image": "psalms-c150-v006-006-right-context-finale-v3.jpg"
   },
   "frozenSource": "/private/tmp/vible-release-883d0ce71630",
-  "sourceCommit": "82bf1e9"
+  "sourceCommit": "0e96867"
 }
