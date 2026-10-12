@@ -116,6 +116,12 @@ for(const [lang,name] of [['ko','예레미야'],['en','Jeremiah'],['ja','エレ�
   assert.equal(bridged.reference,lang==='zh'?`${name} ${chapter}:${first}–${end}`:`${name} ${chapter}:${end}`);
  }
 }
-assert.equal(actualSelection(new URLSearchParams({book:'jeremiah',chapter:'21',verse:'2',lang:'ko'})).text,'[1절과 같음]');
+assert.match(actualSelection(new URLSearchParams({book:'jeremiah',chapter:'21',verse:'2',lang:'ko'})).text,/느부갓네살이 우리를 치니/);
 assert.match(actualSelection(new URLSearchParams({book:'jeremiah',chapter:'21',verse:'2',lang:'en'})).text,/Nebuchadnezzar/);
 console.log('Jeremiah: four-language chapter-final verses for all 52 chapters, 8:22/9:1 boundary, shared range 31:31–34, OpenCCB combined verses and attribution verified.');
+// 개역한글 prints these pairs as one verse; the electronic text's "[n절과 같음]" placeholder is never shown as Scripture.
+for(const [book,chapter,first,name] of [['jeremiah',21,1,'예레미야'],['acts',15,25,'사도행전'],['romans',9,1,'로마서']])for(const verse of [first,first+1]){
+ const shared=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse)}));
+ assert.equal(shared.reference,`${name} ${chapter}:${first}–${first+1}`);assert.equal(shared.verses.length,1);assert.doesNotMatch(shared.text,/같음/);
+}
+console.log('Korean combined verses: Jeremiah 21:1–2, Acts 15:25–26 and Romans 9:1–2 display and share as one verse without the placeholder.');
