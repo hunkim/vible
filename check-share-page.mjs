@@ -111,3 +111,15 @@ for(const [lang,name] of [['ko','예레미야'],['en','Jeremiah'],['ja','エレ�
 const jerBridge=pick('/share/jeremiah/43/6?lang=zh');assert.equal(jerBridge.reference,'耶利米书 43:5–7');assert.match(jerBridge.text,/答比匿/);assert.equal(jerBridge.image,'jeremiah-c043-v001-007-right-context-v1.jpg');
 const jerCross=pick('/share/jeremiah/8/22/9/1?lang=en');assert.equal(jerCross.reference,'Jeremiah 8:22–9:1');assert.match(jerCross.text,/balm in Gilead/);assert.match(jerCross.text,/spring of water/);
 console.log('Jeremiah share pages render in all four languages with attribution, a shared range, an OpenCCB combined verse and a cross-chapter range.');
+for(const [book,names,first,range,rangeImage] of [['ezekiel',{ko:'에스겔',en:'Ezekiel',ja:'エゼキエル書',zh:'以西结书'},'ezekiel-c001-v001-003-right-context-v1.jpg','37/1/37/6','ezekiel-c037-v001-006-right-context-v1.jpg'],['hosea',{ko:'호세아',en:'Hosea',ja:'ホセア書',zh:'何西阿书'},'hosea-c001-v001-005-right-context-v1.jpg','6/1/6/3','hosea-c006-v001-003-right-context-v1.jpg']])for(const [lang,name] of Object.entries(names)){
+ const shared=pick(`/share/${book}/1/1${lang==='ko'?'':`?lang=${lang}`}`),page=shareHTML(shared);
+ assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,first);assert(page.includes(shared.text));assert(page.includes(`book=${book}`));
+ if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} ${book} attribution`);
+ const [c,v,ec,ev]=range.split('/'),ranged=pick(`/share/${book}/${range}${lang==='ko'?'':`?lang=${lang}`}`);assert.equal(ranged.reference,`${name} ${c}:${v}–${ev}`);assert.equal(ranged.image,rangeImage);assert(shareHTML(ranged).includes(ranged.text));
+}
+const ezkBridge=pick('/share/ezekiel/41/10?lang=zh');assert.equal(ezkBridge.reference,'以西结书 41:9–10');assert.match(ezkBridge.text,/厢房/);assert.equal(ezkBridge.image,'ezekiel-c041-v001-014-right-context-v1.jpg');
+const ezkKorean=pick('/share/ezekiel/24/5');assert.equal(ezkKorean.reference,'에스겔 24:4–5');assert.doesNotMatch(shareHTML(ezkKorean),/4절과 같음/);assert.equal(ezkKorean.image,'ezekiel-c024-v001-014-right-context-v1.jpg');
+const ezkCross=pick('/share/ezekiel/20/49/21/1?lang=ja');assert.equal(ezkCross.reference,'エゼキエル書 20:49–21:1');assert.match(ezkCross.text,/たとえ/);assert.match(ezkCross.text,/主の言葉がわたしに臨んだ/);
+const hosCross=pick('/share/hosea/1/11/2/1?lang=en');assert.equal(hosCross.reference,'Hosea 1:11–2:1');assert.match(hosCross.text,/Jezreel/);assert.match(hosCross.text,/My people/);
+const hosEnd=pick('/share/hosea/13/16/14/1?lang=zh');assert.equal(hosEnd.reference,'何西阿书 13:16–14:1');assert.match(hosEnd.text,/撒玛利亚/);assert.match(hosEnd.text,/归向你的上帝/);
+console.log('Ezekiel and Hosea share pages render in all four languages with attribution, shared ranges, OpenCCB and KRV combined verses and cross-chapter ranges at the Hebrew/English boundaries.');

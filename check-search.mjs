@@ -2,9 +2,9 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {createSearchIndex,findScripture,normalize,excerpt} from './scripture-search.js';
 import {applyTranslation} from './languages.js';
-const ids=['genesis',...(JSON.parse(await fs.readFile('pentateuch-books.json'))).map(b=>b.id),...(JSON.parse(await fs.readFile('historical-books.json'))).map(b=>b.id),'1chronicles','2chronicles','ezra','nehemiah','esther','job','ecclesiastes','daniel','jonah','jeremiah','lamentations','psalms','proverbs','songofsongs','matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
+const ids=['genesis',...(JSON.parse(await fs.readFile('pentateuch-books.json'))).map(b=>b.id),...(JSON.parse(await fs.readFile('historical-books.json'))).map(b=>b.id),'1chronicles','2chronicles','ezra','nehemiah','esther','job','ecclesiastes','daniel','jonah','jeremiah','lamentations','ezekiel','hosea','psalms','proverbs','songofsongs','matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
 const books=await Promise.all(ids.map(async id=>({id,data:JSON.parse(await fs.readFile(`data/${id}.json`))})));
-const index=createSearchIndex(books,'ko');assert.equal(index.books.length,53);assert.equal(index.verses.length,27530);
+const index=createSearchIndex(books,'ko');assert.equal(index.books.length,55);assert.equal(index.verses.length,28999);
 assert.equal(findScripture(index,'출 14:21').results[0].book,'exodus');
 assert.equal(findScripture(index,'레 19:18').results[0].book,'leviticus');
 assert.equal(findScripture(index,'민 6:24').results[0].book,'numbers');
@@ -24,7 +24,7 @@ const english=createSearchIndex([{id:'john',data:applyTranslation(books.find(b=>
 assert.equal(findScripture(english,'John 3:16').total,1);assert(findScripture(english,'love').total>0);assert.equal(findScripture(english,'사랑').total,0);assert.equal(findScripture(english,'창 1:1').total,0);
 assert(excerpt('x'.repeat(400)+'은혜'+'x'.repeat(400),'은혜').includes('은혜'));
 const unsafe=findScripture(index,'<script>');assert.equal(unsafe.total,0);
-console.log('Scripture search: all 53 books and 27530 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
+console.log('Scripture search: all 55 books and 28999 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
 
 // Run the actual search UI handlers, including uncommitted IME input.
 const {scriptureSearch}=await import('./search-ui.js');
@@ -93,3 +93,9 @@ assert.equal(findScripture(index,'렘 51').total,64);assert.equal(findScripture(
 assert.equal(findScripture(index,'예레미야애가 3:23').results[0].book,'lamentations');
 for(const [lang,query,word,chapter,verse] of [['en','Jeremiah 29:11','plans I have for you',29,11],['ja','エレミヤ書 31:31','新しい契約',31,31],['zh','耶 31:31','另立新约',31,31],['zh','耶利米书 11:22','亚拿突',11,21]]){const jer=createSearchIndex([{id:'jeremiah',data:applyTranslation(books.find(b=>b.id==='jeremiah').data,JSON.parse(await fs.readFile(`data/translations/${lang}/jeremiah.json`)),lang)}],lang);const found=findScripture(jer,query);assert.equal(found.results[0]?.book,'jeremiah',`${lang} ${query}`);assert.equal(found.results[0].chapter,chapter);assert.equal(found.results[0].verse,verse);assert(findScripture(jer,word).total>0,`${lang} text ${word}`);}
 console.log('Jeremiah: Korean abbreviation 렘 with chapter numbers, full names, OpenCCB combined verse lookup and English/Japanese/Chinese reference and text search verified.');
+for(const [query,book,chapter,verse] of [['겔 37:3','ezekiel',37,3],['에스겔 36:26','ezekiel',36,26],['겔 1:1','ezekiel',1,1],['호 6:6','hosea',6,6],['호세아 14:4','hosea',14,4],['호 11:12','hosea',11,12]]){const found=findScripture(index,query);assert.equal(found.total,1,query);assert.equal(found.results[0].book,book,query);assert.equal(found.results[0].chapter,chapter);assert.equal(found.results[0].verse,verse);}
+assert.equal(findScripture(index,'겔 37').total,28);assert.equal(findScripture(index,'겔 37').results[0].book,'ezekiel');assert.equal(findScripture(index,'호 2').total,23);assert.equal(findScripture(index,'호 2').results[0].book,'hosea');
+for(const query of ['겔','호','호 하나님','겔 마른 뼈'])assert.equal(findScripture(index,query).address,false,query);
+const potKo=findScripture(index,'겔 24:5');assert.equal(potKo.total,1);assert.equal(potKo.results[0].verse,4);assert.equal(potKo.results[0].endVerse,5);assert.equal(findScripture(index,'겔 24').total,26);assert.equal(findScripture(index,'4절과 같음').total,0);
+for(const [book,lang,query,word,chapter,verse] of [['ezekiel','en','Ezekiel 37:4','Dry bones',37,4],['ezekiel','ja','エゼキエル書 36:26','新しい心',36,26],['ezekiel','zh','结 37:3','骸骨',37,3],['ezekiel','zh','以西结书 41:10','厢房',41,9],['hosea','en','Hosea 6:6','mercy, not sacrifice',6,6],['hosea','ja','ホセア書 14:4','喜んでこれを愛する',14,4],['hosea','zh','何 6:6','怜悯',6,6]]){const translated=createSearchIndex([{id:book,data:applyTranslation(books.find(b=>b.id===book).data,JSON.parse(await fs.readFile(`data/translations/${lang}/${book}.json`)),lang)}],lang);const found=findScripture(translated,query);assert.equal(found.results[0]?.book,book,`${lang} ${query}`);assert.equal(found.results[0].chapter,chapter);assert.equal(found.results[0].verse,verse);assert(findScripture(translated,word).total>0,`${lang} text ${word}`);}
+console.log('Ezekiel and Hosea: Korean abbreviations 겔 and 호 only with chapter numbers, full names, KRV 24:4–5, OpenCCB combined verse lookup and English/Japanese/Chinese reference and text search verified.');

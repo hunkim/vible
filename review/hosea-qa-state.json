@@ -1,0 +1,511 @@
+{
+  "book": "hosea",
+  "images": [
+    {
+      "id": 1,
+      "image": "hosea-c001-v001-005-right-context-v1.jpg",
+      "sha256": "80426fa014ea5f8935fb08398fb450f32277de559e2bbd286965d6b02bc67589",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T09:56:39.025604+00:00",
+      "method": "full-size original visual inspection",
+      "evidencePaths": [
+        "output/hosea/hosea-c001-v001-005-original-v1.png"
+      ],
+      "findings": "Hosea left and Gomer right at limestone threshold, reciprocal restrained gaze, modest rose veil and coherent joined hands, bright tangible skin and linen, no sexualization."
+    },
+    {
+      "id": 2,
+      "image": "hosea-c001-v006-009-right-context-v1.jpg",
+      "sha256": "64b577127a9926f01d70fd48c88b93c40115c54730f4036203c389613e5a94dd",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.631247+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/002-018-f74bfb79.jpg"
+      ],
+      "findings": "Anchor couple with safely wrapped infant, restrained tender sorrow, reciprocal gaze, coherent supporting hands, modest domestic linen."
+    },
+    {
+      "id": 3,
+      "image": "hosea-c001-v010-011-right-context-v1.jpg",
+      "sha256": "29a9c6b418ff50f76a79aa84ac15f69ac323529ffb12fb292e4a6092da5b7696",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:00:28.207705+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/003-016-d4595406.jpg"
+      ],
+      "findings": "Returning Israelite/Judean gathering on a grounded path, hopeful faces, healthy clothed families and natural linen, no deity."
+    },
+    {
+      "id": 4,
+      "image": "hosea-c002-v001-007-right-context-v1.jpg",
+      "sha256": "265223ed38b0f6817abaf115bf414048d1c73c7bc41d90767c3888ed65a1265b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.865557+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/004-032-a0251508.jpg"
+      ],
+      "findings": "Gomer alone at thorn-blocked path, same rose-veiled face with anxious backward glance, modest dignified clothing and realistic skin."
+    },
+    {
+      "id": 5,
+      "image": "hosea-c002-v008-013-right-context-v1.jpg",
+      "sha256": "e13edf3fead4e055ad71100e47828d39c7fa34ee30ed55c432aa94693c96de18",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:00:28.208437+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/003-016-d4595406.jpg"
+      ],
+      "findings": "Brambles occupy neglected vineyard, empty basket and tipped jar foreground, modest adult woman grieving beyond; loss rather than erotic symbolism."
+    },
+    {
+      "id": 6,
+      "image": "hosea-c002-v014-020-right-context-v1.jpg",
+      "sha256": "9316045f66b54806642b7aa98f6c89fe2dfb22c3f2be4be79785b4365253818a",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.631880+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/002-018-f74bfb79.jpg"
+      ],
+      "findings": "Clothed woman in Achor-like green valley, quiet hopeful raised gaze, hands at chest, no divine spouse."
+    },
+    {
+      "id": 7,
+      "image": "hosea-c002-v021-023-right-context-v1.jpg",
+      "sha256": "6e46f26dbc67e9246cd1e3ab578e83d2861f84bb2dd36c3b469a281c08b20042",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.632387+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/002-018-f74bfb79.jpg"
+      ],
+      "findings": "Three farmers gratefully handle grain grapes and oil, spontaneous responsive eyes and plausible hands."
+    },
+    {
+      "id": 8,
+      "image": "hosea-c003-v001-003-right-context-v1.jpg",
+      "sha256": "cf8b24fb0a64f67f61b148d156040b3f3274b46436e3ba5df71cbe977d31b800",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.866197+00:00",
+      "method": "full-size original inspection",
+      "evidencePaths": [
+        "output/hosea/hosea-c003-v001-003-original-v1.png"
+      ],
+      "findings": "FULL original confirms irregular hacksilver fragments, not minted coins, beside barley sacks; anchor couple sorrowful and dignified, coherent hands. Number of fragments not asserted equal to silver weight units."
+    },
+    {
+      "id": 9,
+      "image": "hosea-c003-v004-005-right-context-v1.jpg",
+      "sha256": "e27301ae017514769162c9831d879f0863a6ae3bc9758d27ead5ed9332a2463f",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.632862+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/002-018-f74bfb79.jpg"
+      ],
+      "findings": "Returning modestly clothed family travelers look reverently toward distant worship setting, hopeful restraint, no divine David."
+    },
+    {
+      "id": 10,
+      "image": "hosea-c004-v001-006-right-context-v1.jpg",
+      "sha256": "69fae76713dcc2e1a207df1a4be13558429072967aaf17b1b0eb06f7e4c26083",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.866694+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/004-032-a0251508.jpg"
+      ],
+      "findings": "Consistent Hosea addresses troubled listeners with open hands, meaningful distress rather than staged anger."
+    },
+    {
+      "id": 11,
+      "image": "hosea-c004-v007-014-right-context-v1.jpg",
+      "sha256": "c71fcb2a997dc7b223449820e043d59bd3843b4bf464c34a663e7add20e95ba2",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.633450+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/002-018-f74bfb79.jpg"
+      ],
+      "findings": "Wooden idol and incense beneath broad tree, clothed uneasy worshipers, no erotic act."
+    },
+    {
+      "id": 12,
+      "image": "hosea-c004-v015-019-right-context-v1.jpg",
+      "sha256": "e4aa8bb1083ac55acd7aabd1c66578ae404c06b811b59325636625dbc0c439de",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:00:28.208993+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/003-016-d4595406.jpg"
+      ],
+      "findings": "Abandoned calf idol and ordinary cow on rocky slope, isolation and wind, no idol presented as living deity."
+    },
+    {
+      "id": 13,
+      "image": "hosea-c005-v001-007-right-context-v1.jpg",
+      "sha256": "1486a46c9fcbb70fca1a4a562940d0eb2f726168470f4bfc33db4550617df62e",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.633915+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/002-018-f74bfb79.jpg"
+      ],
+      "findings": "Priests lead sheep at empty sanctuary threshold, hollow ritual and anxious eyes, coherent animal and human anatomy."
+    },
+    {
+      "id": 14,
+      "image": "hosea-c005-v008-012-right-context-v1.jpg",
+      "sha256": "84b644fa84d463ba44a21826f268a7f0a23a87a57ba7db57a4b8d27603574a9e",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:00:28.209507+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/003-016-d4595406.jpg"
+      ],
+      "findings": "Ram-horn connects coherently to mouth and hand of alert watchman, grounded Gibeah wall and hurried road below."
+    },
+    {
+      "id": 15,
+      "image": "hosea-c005-v013-015-right-context-v1.jpg",
+      "sha256": "56bd386266f4c53a04b3d4d3cad69a912c0f20be88641c8cd25f27adbc23a8a0",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:00:28.209967+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/003-016-d4595406.jpg"
+      ],
+      "findings": "Petitioner faces aloof Assyrian ruler in tangible carved court; powerless appeal with sober eyes, readable hands."
+    },
+    {
+      "id": 16,
+      "image": "hosea-c006-v001-003-right-context-v1.jpg",
+      "sha256": "ca7398e548bae0f24b67f8c22ba2335e03216e3c4fae532d417004d17b0b22fc",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:00:28.210482+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/003-016-d4595406.jpg"
+      ],
+      "findings": "Three adults pray repentantly beside rain-wet soil at dawn, subdued renewal, natural hands and no divine body."
+    },
+    {
+      "id": 17,
+      "image": "hosea-c006-v004-006-right-context-v1.jpg",
+      "sha256": "910d60ecacc031f7c0422d72a92c7edfb04b2999617d05edee728c5348346948",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.634459+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/002-018-f74bfb79.jpg"
+      ],
+      "findings": "Bread exchanged tenderly between adult and elderly neighbor, readable caring faces, coherent four hands."
+    },
+    {
+      "id": 18,
+      "image": "hosea-c006-v007-011-right-context-v1.jpg",
+      "sha256": "6201f32dfcec972cf58054d781d692b20a845f8a3e4e751d199a7d6309eb1660",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.634959+00:00",
+      "method": "full-size inspection",
+      "evidencePaths": [
+        "assets/hosea-c006-v007-011-right-context-v1.jpg"
+      ],
+      "findings": "FULL-SIZE confirmed foreground is folded travel cloak over leather bag and round pottery jug, no human body under cloth; distant priest and empty path convey treachery aftermath."
+    },
+    {
+      "id": 19,
+      "image": "hosea-c007-v001-007-right-context-v1.jpg",
+      "sha256": "f60890df79786a35d9279a3f2c2dd9c552b65f0a5684c6d86afca46c0f80fad0",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.635333+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/019-030-ade9ca77.jpg"
+      ],
+      "findings": "Suspicious courtiers converse beside wine with ancient baker oven beyond; tangible lamp/daylight court, no attack."
+    },
+    {
+      "id": 20,
+      "image": "hosea-c007-v008-010-right-context-v1.jpg",
+      "sha256": "8e973e65036feed4d66c60b0ab0f0995a92a11b85b67376585bdd17471a0a56c",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.635772+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/019-030-ade9ca77.jpg"
+      ],
+      "findings": "Scorched flatbread with pale edge on coarse clay/stone baking surface, convincing ash and texture, metaphor of neglect."
+    },
+    {
+      "id": 21,
+      "image": "hosea-c007-v011-016-right-context-v1.jpg",
+      "sha256": "a4870b6c05f4bfe10636174f238a1476eeca9663a65fb3fd8376694d8a5aead8",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.636258+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/019-030-ade9ca77.jpg"
+      ],
+      "findings": "Dove above ordinary ground net at road fork, wings attach correctly, symbolic foreign-direction landscape not exact geography."
+    },
+    {
+      "id": 22,
+      "image": "hosea-c008-v001-006-right-context-v1.jpg",
+      "sha256": "f4d608698d112396213460820b0af744c4b2f903455dc58165cb56d210f4a86e",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.636803+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/019-030-ade9ca77.jpg"
+      ],
+      "findings": "Broken metal calf on pedestal with ashamed artisan, ordinary casting tools and natural posture."
+    },
+    {
+      "id": 23,
+      "image": "hosea-c008-v007-010-right-context-v1.jpg",
+      "sha256": "a65eb5827d7530b7ef30abf55a9318c35860fe5ee177e92896b980857af3b478",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.637271+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/019-030-ade9ca77.jpg"
+      ],
+      "findings": "Farmer holds empty pouch in failed crop field, expressive loss, wind and dust grounded."
+    },
+    {
+      "id": 24,
+      "image": "hosea-c008-v011-014-right-context-v1.jpg",
+      "sha256": "4565467492db69945e82da00ffeb0e658d4f8cac90c18171521056b6f9dc8090",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.637665+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/019-030-ade9ca77.jpg"
+      ],
+      "findings": "Adult official turns away from neglected rolled manuscript and offering vessels, no modern book; faint manuscript strokes are not Scripture captions."
+    },
+    {
+      "id": 25,
+      "image": "hosea-c009-v001-006-right-context-v1.jpg",
+      "sha256": "a6531516e199d743471f4cc2c830c72647b374c61699d0a660b4d1cf7a819a80",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.638351+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/019-030-ade9ca77.jpg"
+      ],
+      "findings": "Two exhausted farmers seated beside empty threshing floor and dry press, lost harvest and concern, no staged celebration."
+    },
+    {
+      "id": 26,
+      "image": "hosea-c009-v007-010-right-context-v1.jpg",
+      "sha256": "22d3f72dbcd8350f15e26b8cb5e559ebd7d4f1ba340d1b01b33bbe4a5659f609",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.638986+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/019-030-ade9ca77.jpg"
+      ],
+      "findings": "Grapes and first fig foreground against unattended idol shrine, tangible fruitful gift versus misplaced devotion."
+    },
+    {
+      "id": 27,
+      "image": "hosea-c009-v011-017-right-context-v1.jpg",
+      "sha256": "a47d848583bda6b17ed9230e628239d308afc2c06668d90f5323bd1841b47692",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.867193+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/004-032-a0251508.jpg"
+      ],
+      "findings": "Adult couple leaves empty home with travel bundles, sorrow and displacement, empty woven cradle in doorway, no harmed child."
+    },
+    {
+      "id": 28,
+      "image": "hosea-c010-v001-008-right-context-v1.jpg",
+      "sha256": "adf155eedb63b5516f4edf0376456c3f5710ce9ddd3b1cc534b704e8665adbbe",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.867808+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/004-032-a0251508.jpg"
+      ],
+      "findings": "Thorn-covered broken high-place shrine beside reflective water, ashamed adult and no violence."
+    },
+    {
+      "id": 29,
+      "image": "hosea-c010-v009-012-right-context-v1.jpg",
+      "sha256": "b90ba50b8cbd0b62ea0dbe09d5184fd1bbb4d99c23ccef744422ac4db7ed9d71",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.868426+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/004-032-a0251508.jpg"
+      ],
+      "findings": "Two oxen coherently yoked pull wood plow while adult farmer grips handles; hard soil and purposeful hopeful work."
+    },
+    {
+      "id": 30,
+      "image": "hosea-c010-v013-015-right-context-v1.jpg",
+      "sha256": "ebc0a3050d94901f106acce99a05a55e8f10ed0f0aade3e9fe153a635c032721",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:06:30.639426+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/019-030-ade9ca77.jpg"
+      ],
+      "findings": "Adult survivor seated by ruined wall at dawn, tearful grief and coherent folded hands, no harmed family."
+    },
+    {
+      "id": 31,
+      "image": "hosea-c011-v001-004-right-context-v1.jpg",
+      "sha256": "7e758cdad3e7f83a6786912d8ce485c8092425a71661858a826b7b5f4cd5debe",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.868875+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/004-032-a0251508.jpg"
+      ],
+      "findings": "Set-down wooden yoke and simple bread meal, tactile quiet metaphor of care without depicting God as human."
+    },
+    {
+      "id": 32,
+      "image": "hosea-c011-v005-007-right-context-v1.jpg",
+      "sha256": "d6e53e8e2d1ed1ebb4d01cf546f4ffc0419affc67161e054adccb20a734c2d3c",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.869404+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/004-032-a0251508.jpg"
+      ],
+      "findings": "Consistent Hosea reaches toward listeners turning away, sorrowful urgency and plausible gestures, no deity."
+    },
+    {
+      "id": 33,
+      "image": "hosea-c011-v008-012-right-context-v1.jpg",
+      "sha256": "8c84d71bf9e8bb6cad471cf46ab4658fbf09fbc2646361d8abbc97adb2e18f16",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.869906+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/033-042-72de600d.jpg"
+      ],
+      "findings": "Returning adults at familiar doorway with moist hopeful eyes and dove on roof, relief after exile, natural body weight."
+    },
+    {
+      "id": 34,
+      "image": "hosea-c012-v001-006-right-context-v1.jpg",
+      "sha256": "484c4e663d9ae3486105a5ccf3f64547519499f0d87cfc2af42a2c327648bb3a",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:15:46.180802+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/034-040-586f55a5.jpg"
+      ],
+      "findings": "Consistent Hosea earnestly teaches kindness and justice, natural listening shoulders foreground, hands and gaze coherent, no wrestling deity."
+    },
+    {
+      "id": 35,
+      "image": "hosea-c012-v007-011-right-context-v1.jpg",
+      "sha256": "72dbe308cca4e2cf7ab8cc88baa27f69d3a7f9b98e107025a5e1ce0d66b7fccc",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.870418+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/033-042-72de600d.jpg"
+      ],
+      "findings": "Merchant controls balance and holds concealed weight while elderly buyer watches uneasily, tangible dishonest trade."
+    },
+    {
+      "id": 36,
+      "image": "hosea-c012-v012-014-right-context-v1.jpg",
+      "sha256": "60f4acd3df30657f253d62a79ed62bb09dfe3d5fcc90b42b6e4f2c84622b12c5",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.870913+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/033-042-72de600d.jpg"
+      ],
+      "findings": "Modest desert tents, adult travelers and calm sheep, intimate memory of guidance, no identified Moses actor."
+    },
+    {
+      "id": 37,
+      "image": "hosea-c013-v001-006-right-context-v1.jpg",
+      "sha256": "6c4c5cb4cbc2b3a209a355c54dd6ed1a606f1493fdc5eb3e2aca43c3003d5e53",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.871374+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/033-042-72de600d.jpg"
+      ],
+      "findings": "Affluent man complacent at abundant bread fruit wine beside calf idol, moral neglect apparent."
+    },
+    {
+      "id": 38,
+      "image": "hosea-c013-v007-011-right-context-v1.jpg",
+      "sha256": "7346534b79aba9d52febc358616f344d7f8211418309cc288b9564d0f85e969f",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.872155+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/033-042-72de600d.jpg"
+      ],
+      "findings": "Empty royal seat and worried adult petitioner, earthly security gone, no predator attack."
+    },
+    {
+      "id": 39,
+      "image": "hosea-c013-v012-016-right-context-v1.jpg",
+      "sha256": "ee5c8b56b1e8c64c008c016b22fa901692c905ced6fbbdd6e8b9ee03c278850b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.872708+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/033-042-72de600d.jpg"
+      ],
+      "findings": "Dry stone well and abandoned broken vessels, adult woman grief in distance, no violence or injured child."
+    },
+    {
+      "id": 40,
+      "image": "hosea-c014-v001-003-right-context-v1.jpg",
+      "sha256": "f77565650b2afc0daa23a0abcccf427a931558edcff9a02302c8ce583113d59e",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:15:46.181372+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/034-040-586f55a5.jpg"
+      ],
+      "findings": "Consistent Hosea amid adult repentant prayer group, open supported hands and moist eyes, bright green hillside, no horses idols or human divine figure."
+    },
+    {
+      "id": 41,
+      "image": "hosea-c014-v004-007-right-context-v1.jpg",
+      "sha256": "e5e2317afcdbfe56b11f89f0eafb17b455cd20a38ab5f6f0cf4e538221b6662a",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.873440+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/033-042-72de600d.jpg"
+      ],
+      "findings": "Lilies, dew-green orchard, vines and olives frame two adults sharing grateful joy, no visible divine body."
+    },
+    {
+      "id": 42,
+      "image": "hosea-c014-v008-009-right-context-v1.jpg",
+      "sha256": "5eb78b554d7b9a5bd48617d3a16f38505952b97e26c1f864a33f382f0378d5a1",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:14:28.874229+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/hosea-contact-sheets/033-042-72de600d.jpg"
+      ],
+      "findings": "Adults walk together on firm orchard path, authentic gratitude and inviting depth, luminous final renewal."
+    }
+  ],
+  "approved": 42,
+  "planned": 42
+}

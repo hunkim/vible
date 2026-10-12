@@ -1,0 +1,1699 @@
+{
+  "book": "ezekiel",
+  "images": [
+    {
+      "id": 1,
+      "image": "ezekiel-c001-v001-003-right-context-v1.jpg",
+      "sha256": "a8892416920185b06328d54fd1c739ac3dd255d5801371251b91eefffbdac52c",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T09:56:38.959171+00:00",
+      "method": "full-size original visual inspection",
+      "evidencePaths": [
+        "output/ezekiel/ezekiel-c001-v001-003-original-v1.png"
+      ],
+      "findings": "Chebar canal and earthbrick setting, curly dark-haired actor with attentive awestruck eyes, real linen and skin, bright neutral daylight; no divine figure."
+    },
+    {
+      "id": 2,
+      "image": "ezekiel-c001-v004-014-right-context-v1.jpg",
+      "sha256": "e94a6052e7e0c7b0fec817e923c11aaf4d69c8ef35892179f7e00b23a844841a",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.680786+00:00",
+      "method": "full-size original visual inspection",
+      "evidencePaths": [
+        "output/ezekiel/ezekiel-c001-v004-014-original-v1.png"
+      ],
+      "findings": "Four distinct beings, each human/ox/lion/eagle face aspects and four wings, two covering body two extended; human hands below folds and bronze calf feet. Neighboring wingtip contact partly occluded."
+    },
+    {
+      "id": 3,
+      "image": "ezekiel-c001-v015-021-right-context-v1.jpg",
+      "sha256": "b0077343612486e622c657687b0d1392ac3a35dc6847fa3b73804dbebaf9cfc8",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.681355+00:00",
+      "method": "full-size original visual inspection",
+      "evidencePaths": [
+        "output/ezekiel/ezekiel-c001-v015-021-original-v1.png"
+      ],
+      "findings": "Intersecting beryl-like wheel with eye-rim details beside bronze calf foot; three distant assemblies, grounded canal shore, no modern engine."
+    },
+    {
+      "id": 4,
+      "image": "ezekiel-c001-v022-028-right-context-v2.jpg",
+      "sha256": "b7e9e0a1f05fcede42984bca79a033da724ec11ddf8e538ade0b844bb186ec0f",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.670826+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/004-121-92620329.jpg"
+      ],
+      "findings": "Prophet prostrate on Chebar bank beneath natural rainbow, glory outside frame; corrected visible anthropomorphic throne occupant, no divine body or face."
+    },
+    {
+      "id": 5,
+      "image": "ezekiel-c002-v001-007-right-context-v1.jpg",
+      "sha256": "e3f9ad250085456df8d41075e3085384a5e509d94b7eaf43374acb88e3601370",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.107348+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/004-009-459508ff.jpg"
+      ],
+      "findings": "Consistent young Ezekiel stands attentive to unseen calling by Chebar, real skin/linen and steady resolve."
+    },
+    {
+      "id": 6,
+      "image": "ezekiel-c002-v008-010-right-context-v2.jpg",
+      "sha256": "cba1066b9ec0771645c114410ee23e1ab006e4e0cc3df7f73f1d0f9b363f15e5",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.671589+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/004-121-92620329.jpg"
+      ],
+      "findings": "Scroll now bears subtle ink lines, same actor and supported hands; no assertion of readable exact Scripture."
+    },
+    {
+      "id": 7,
+      "image": "ezekiel-c003-v001-011-right-context-v1.jpg",
+      "sha256": "b1e243096994c4d59766eae2b879dac38be8d5a4ba130e854674ae5343a84653",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.108122+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/004-009-459508ff.jpg"
+      ],
+      "findings": "Consistent Ezekiel raises soft scroll edge to mouth with two coherent hands, visionary receiving of word, no divine feeder."
+    },
+    {
+      "id": 8,
+      "image": "ezekiel-c003-v012-015-right-context-v1.jpg",
+      "sha256": "c90daf95dff108c2cf1cf340bf9781841f084ca2dc0cfe8eb3de366a3adfc6b2",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.109073+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/004-009-459508ff.jpg"
+      ],
+      "findings": "Consistent Ezekiel sits withdrawn and stunned among exiles, seated natural weight and attentive ordinary neighbors."
+    },
+    {
+      "id": 9,
+      "image": "ezekiel-c003-v016-021-right-context-v1.jpg",
+      "sha256": "506c982e187842c94d6e3e85aedc24e0f7966e40c06ac7ae18c4127e40a9f7d4",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.110075+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/004-009-459508ff.jpg"
+      ],
+      "findings": "Ezekiel earnestly warns neighbor at exile house, varied listening expression and supported open hands."
+    },
+    {
+      "id": 10,
+      "image": "ezekiel-c003-v022-027-right-context-v1.jpg",
+      "sha256": "6de22183bab9a99e182ab7d0e3e00fc6b9db4a23c5d5acbdeb88585bd925d113",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.622458+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/010-023-c35c3122.jpg"
+      ],
+      "findings": "Closed doorway and silent prophet inside, restrained posture."
+    },
+    {
+      "id": 11,
+      "image": "ezekiel-c004-v001-003-right-context-v1.jpg",
+      "sha256": "77ecce1c8f9491dfcf9328bd3485c6369c0e2039c898ac968857e778c36809e9",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.623368+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/010-023-c35c3122.jpg"
+      ],
+      "findings": "Clay siege-city model and upright iron pan, two coherent hands, no live siege posed as historical action."
+    },
+    {
+      "id": 12,
+      "image": "ezekiel-c004-v004-008-right-context-v1.jpg",
+      "sha256": "a16920ef5a583e3b73ede47c181005a8c80a8453159db5e99395200f289d61d6",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.624341+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/010-023-c35c3122.jpg"
+      ],
+      "findings": "Fully clothed prophet lies on side beside tile model, supported body; passage includes both sides, view does not establish direction."
+    },
+    {
+      "id": 13,
+      "image": "ezekiel-c004-v009-017-right-context-v1.jpg",
+      "sha256": "dcbc3e138d501e62f286a2967411bae42b158b570fbacdedaac6c2f7058f3b0a",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.625497+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/010-023-c35c3122.jpg"
+      ],
+      "findings": "Ration grain balance, bread oven and clay water cup, limited provisions; exact shekel weight not asserted."
+    },
+    {
+      "id": 14,
+      "image": "ezekiel-c005-v001-004-right-context-v1.jpg",
+      "sha256": "cada09c04f7407efcc6456f74fe0bfd1bc24c75d4721469d25d97573fd750c92",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.626322+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/010-023-c35c3122.jpg"
+      ],
+      "findings": "Shaved scalp and beard, three hair tufts with cloth hem and sword on table, no injury."
+    },
+    {
+      "id": 15,
+      "image": "ezekiel-c005-v005-017-right-context-v1.jpg",
+      "sha256": "647a7fd8a478975a190aea788f20a7a3be026c8608ed7c41412f22ed5af810a6",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.642292+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/057-107-93085d54.jpg"
+      ],
+      "findings": "Empty ruined Jerusalem street and empty basket communicate judgment aftermath, no human violence."
+    },
+    {
+      "id": 16,
+      "image": "ezekiel-c006-v001-007-right-context-v1.jpg",
+      "sha256": "9fe0f7c810f4faceed799b855314e23e8c1aa4196d66ef796de8f7096b9ae1b9",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.681948+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/002-024-e90c8cc6.jpg"
+      ],
+      "findings": "Ruined high-place altar and broken sun/idol stone on Judah hillside, empty sober aftermath without bodies."
+    },
+    {
+      "id": 17,
+      "image": "ezekiel-c006-v008-014-right-context-v1.jpg",
+      "sha256": "5d8e438a38e989625c837a5ae74a0531a37857b0bdd3cca7cb5a773752fa0631",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.682433+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/002-024-e90c8cc6.jpg"
+      ],
+      "findings": "Two exiles pray remorsefully by canal, natural hands and restrained grief."
+    },
+    {
+      "id": 18,
+      "image": "ezekiel-c007-v001-013-right-context-v1.jpg",
+      "sha256": "4375bffa9e2879272736215bb0ecbb3ffbd90cf3b7d7d7c1d4a9424a182a8126",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.682964+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/002-024-e90c8cc6.jpg"
+      ],
+      "findings": "Fearful adult pair amid abandoned market, neglected balance, tangible period setting."
+    },
+    {
+      "id": 19,
+      "image": "ezekiel-c007-v014-019-right-context-v1.jpg",
+      "sha256": "c201949b3e8fa7c34f9c67fee7caa4c7bfeb577d0512062138fc3b0f820c1a2d",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.683418+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/002-024-e90c8cc6.jpg"
+      ],
+      "findings": "Irregular silver useless beside empty bowl; worried face and coherent hands."
+    },
+    {
+      "id": 20,
+      "image": "ezekiel-c007-v020-027-right-context-v1.jpg",
+      "sha256": "b817db659c31ec669b0a87954767fef2ed07b83813d841d65329ddb0b15464f5",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.683808+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/002-024-e90c8cc6.jpg"
+      ],
+      "findings": "Mortal ruler mourns on ordinary royal seat with anxious official; no divine figure."
+    },
+    {
+      "id": 21,
+      "image": "ezekiel-c008-v001-006-right-context-v1.jpg",
+      "sha256": "915f9f61afd50170cad01f02276454b0e3c185d977143dec701df669347560dc",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.627151+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/010-023-c35c3122.jpg"
+      ],
+      "findings": "Idol at temple gateway, prophet observes; generic sculptural form does not identify source idol as calf."
+    },
+    {
+      "id": 22,
+      "image": "ezekiel-c008-v007-012-right-context-v1.jpg",
+      "sha256": "d51250c09029cf1b51c3c66ec1ba652db84fd7b9c878deb4b07568865be2eaae",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.627903+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/010-023-c35c3122.jpg"
+      ],
+      "findings": "Incense in painted creature-wall chamber, readable lamp lighting; partial gathering does not assert exact seventy count."
+    },
+    {
+      "id": 23,
+      "image": "ezekiel-c008-v013-018-right-context-v1.jpg",
+      "sha256": "e6ead2d361dd08598d1c86568cadf026737178acd4d16adf20fe5342db24e515",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.628588+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/010-023-c35c3122.jpg"
+      ],
+      "findings": "Sun worshippers face dawn with backs toward temple, observer separate, no divine face."
+    },
+    {
+      "id": 24,
+      "image": "ezekiel-c009-v001-004-right-context-v1.jpg",
+      "sha256": "324a285c3911d5417a0f401b44c120c0cc037319be0d524f42dfdb3829019aed",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.684201+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/002-024-e90c8cc6.jpg"
+      ],
+      "findings": "Linen scribe gently marks forehead with reed brush and holds ink cup, coherent hands and grieving adult."
+    },
+    {
+      "id": 25,
+      "image": "ezekiel-c009-v005-011-right-context-v1.jpg",
+      "sha256": "d82d123194e29d71567178083567c3da7dfe29475d89d0bcf1022210d023ef66",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.656742+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/025-053-34cd82a2.jpg"
+      ],
+      "findings": "Prophet prostrate praying for remnant, no massacre shown."
+    },
+    {
+      "id": 26,
+      "image": "ezekiel-c010-v001-008-right-context-v1.jpg",
+      "sha256": "f7272ebdf422147248083f43f191c8a7c6d76ee1a78714481945c5adfcd629f8",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.684655+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/026-037-cd21b102.jpg"
+      ],
+      "findings": "Linen scribe receives ember light from cherub hand by temple cloud and eye-rimmed wheel; creature is not God, no burns."
+    },
+    {
+      "id": 27,
+      "image": "ezekiel-c010-v009-017-right-context-v2.jpg",
+      "sha256": "205362a88e49a23ee26ddaa3aa83475023707053e8f3af0d49e409496da3814f",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.640291+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/042-027-cced9305.jpg"
+      ],
+      "findings": "Four composite-faced winged beings with eye-rimmed wheels in temple courtyard; corrected single-face-per-creature error."
+    },
+    {
+      "id": 28,
+      "image": "ezekiel-c010-v018-022-right-context-v1.jpg",
+      "sha256": "c944d00092176ec056dbb2d5a64f7205e8769dc1324a653ed0d7b968f9518b3d",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.657645+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/025-053-34cd82a2.jpg"
+      ],
+      "findings": "Winged beings and wheels at temple eastern departure, awestruck prophet; no visible divine face."
+    },
+    {
+      "id": 29,
+      "image": "ezekiel-c011-v001-013-right-context-v1.jpg",
+      "sha256": "bdd493a1768445f0f4c08ef76ed93881b1f5d16b10cc5b10d5e05b395d17ec02",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.658575+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/025-053-34cd82a2.jpg"
+      ],
+      "findings": "Prophet warns leaders in Jerusalem vision gateway, consistent young actor."
+    },
+    {
+      "id": 30,
+      "image": "ezekiel-c011-v014-021-right-context-v1.jpg",
+      "sha256": "bd8ef3b6956fa03a6caf37e467584f942b714d320cdc0c2874d8f31ba7e893e0",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.685164+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/026-037-cd21b102.jpg"
+      ],
+      "findings": "Returnees remove small idols into sack beside home; coherent hands and solemn repentance."
+    },
+    {
+      "id": 31,
+      "image": "ezekiel-c011-v022-025-right-context-v1.jpg",
+      "sha256": "ee7638a3abd8426e5f730471a01f980bc83081ce3a92d32f13e53bab3c1178de",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.659558+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/025-053-34cd82a2.jpg"
+      ],
+      "findings": "Prophet returns to exile camp and explains vision to listeners."
+    },
+    {
+      "id": 32,
+      "image": "ezekiel-c012-v001-007-right-context-v1.jpg",
+      "sha256": "a0f13afd8222d00560873b8a4c7c360613317e0ddc76f2deb42f6cc6fccb593c",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.660439+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/025-053-34cd82a2.jpg"
+      ],
+      "findings": "Covered-face prophet moves bundle through hole in earthbrick wall at dusk, actual breach rather than doorway."
+    },
+    {
+      "id": 33,
+      "image": "ezekiel-c012-v008-016-right-context-v1.jpg",
+      "sha256": "61987e0c329c179c4fc0404c237be89d60d457330356b63257cd259732958307",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.685521+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/026-037-cd21b102.jpg"
+      ],
+      "findings": "Traveler carries bundle with covered face through damaged wall at dusk, exile sign without injury."
+    },
+    {
+      "id": 34,
+      "image": "ezekiel-c012-v017-028-right-context-v1.jpg",
+      "sha256": "c79c07c1b014b7135e67a7c5feb2cc2dcb00786c452e7cc6f1426910a9a61084",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.661256+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/025-053-34cd82a2.jpg"
+      ],
+      "findings": "Anxious bread and cup gestures with coherent hands."
+    },
+    {
+      "id": 35,
+      "image": "ezekiel-c013-v001-009-right-context-v1.jpg",
+      "sha256": "2529dcc48620928cc135f8a8969621f925396b528460849fc9c01918822238fc",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.685963+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/026-037-cd21b102.jpg"
+      ],
+      "findings": "Confident false prophets flatter ordinary listeners, contrast trust and moral emptiness."
+    },
+    {
+      "id": 36,
+      "image": "ezekiel-c013-v010-016-right-context-v1.jpg",
+      "sha256": "d77bf440f98ddf3c415376f4ab7b4c2703d257cc8796f8d7da3bec3c9ac30c39",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.686483+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/027-044-0ba728fa.jpg"
+      ],
+      "findings": "Whitewashed earthen wall collapses after rain while adults stand safely apart, no crushing."
+    },
+    {
+      "id": 37,
+      "image": "ezekiel-c013-v017-023-right-context-v1.jpg",
+      "sha256": "ab90f0a814d0a5a990a3f831b4d856b66a6b702236d5b8b77026235f1dfdd16b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.686918+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/026-037-cd21b102.jpg"
+      ],
+      "findings": "Adult removes divination wrist bands beside veils, sober release, natural skin and hands."
+    },
+    {
+      "id": 38,
+      "image": "ezekiel-c014-v001-011-right-context-v1.jpg",
+      "sha256": "e94c4ea32fddd4f3757f1da04136bf8ea1e56d733ebf53db8ffb8bb96a039279",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.662092+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/025-053-34cd82a2.jpg"
+      ],
+      "findings": "Prophet confronts elders about idolatry, no claim of fully visible concealed idol."
+    },
+    {
+      "id": 39,
+      "image": "ezekiel-c014-v012-023-right-context-v1.jpg",
+      "sha256": "f2a4a72e048a37605f4bd35821029961ee69aeb251a9be5f9cda44837923c4df",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.687397+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/027-044-0ba728fa.jpg"
+      ],
+      "findings": "Adult survivors arrive in Babylon with humble bundles, sorrow and consequences; no invented three righteous men cameo."
+    },
+    {
+      "id": 40,
+      "image": "ezekiel-c015-v001-005-right-context-v1.jpg",
+      "sha256": "aab2c775d86bbd26b27c55f163a5e95279e70a45dd380a46f716b1f9241caf2d",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.687999+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/027-044-0ba728fa.jpg"
+      ],
+      "findings": "Burned vine wood with charred ends/middle and cold hearth, tangible unusable branch."
+    },
+    {
+      "id": 41,
+      "image": "ezekiel-c015-v006-008-right-context-v1.jpg",
+      "sha256": "bc870f12440b3c5f226872738db9215595bc463b63c6df6752ade6f645f0d7e0",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.688862+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/027-044-0ba728fa.jpg"
+      ],
+      "findings": "Withered Judah vineyard and ruined hillside house, sobering absence."
+    },
+    {
+      "id": 42,
+      "image": "ezekiel-c016-v001-007-right-context-v2.jpg",
+      "sha256": "f6a146ad5304d858e4edcfb33aa9c825c1cc97046baaed9d88ed3807f0e8cccd",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.633779+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/042-027-cced9305.jpg"
+      ],
+      "findings": "Adult clothed Jerusalem personification on hilly Judean limestone street, hopeful gratitude; Babylon skyline removed."
+    },
+    {
+      "id": 43,
+      "image": "ezekiel-c016-v008-014-right-context-v2.jpg",
+      "sha256": "3afebc25ed11e29e8db03953a5bf90dcd725aff3afcd840f4c43218f3dd2840f",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.634589+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/042-027-cced9305.jpg"
+      ],
+      "findings": "Same adult woman in embroidered linen and modest jewelry amid Judean limestone, covenant gratitude."
+    },
+    {
+      "id": 44,
+      "image": "ezekiel-c016-v015-034-right-context-v2.jpg",
+      "sha256": "e150d179a2df2733c60804c75123879fd6b3b6f95b9d4e19fe553ca33559c87c",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.635329+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/042-027-cced9305.jpg"
+      ],
+      "findings": "Adult Jerusalem personification in anxiety and misguided attention, clothed, Judean setting."
+    },
+    {
+      "id": 45,
+      "image": "ezekiel-c016-v035-043-right-context-v2.jpg",
+      "sha256": "d9d436782c115df411655708895f60d42454dd0ac657d95f4bde1edaaefa2dcd",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.636181+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/042-027-cced9305.jpg"
+      ],
+      "findings": "Clothed adult woman with worried remorse in Jerusalem setting, no sexual act or assault."
+    },
+    {
+      "id": 46,
+      "image": "ezekiel-c016-v044-059-right-context-v2.jpg",
+      "sha256": "6f8447eefcb17aa4289bda496fb5b005a5b7e0881967029aa613cc9c45cb68ed",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.637121+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/042-027-cced9305.jpg"
+      ],
+      "findings": "Clothed adult women in sober reflection on limestone steps in Judean landscape."
+    },
+    {
+      "id": 47,
+      "image": "ezekiel-c016-v060-063-right-context-v2.jpg",
+      "sha256": "3c91348d164f4525220cc4f33b4c51c567cb21e395236e2afe4c62861c8639e9",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.638187+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/042-027-cced9305.jpg"
+      ],
+      "findings": "Same clothed adult woman seated in quiet remorse on Judean steps, no claim of literal bowing."
+    },
+    {
+      "id": 48,
+      "image": "ezekiel-c017-v001-010-right-context-v1.jpg",
+      "sha256": "86d5d3e9aede8e537b990f5f3dd89d17247427138cb5ca26c7da55659c40b894",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.689523+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/045-052-e7bd6a92.jpg"
+      ],
+      "findings": "Two eagles and low rooted vine beneath cedar, attached wings and tangible prophetic metaphor."
+    },
+    {
+      "id": 49,
+      "image": "ezekiel-c017-v011-021-right-context-v1.jpg",
+      "sha256": "bd0029f06ddb33f72c062b1b5efe9a6fb4ac951d4751528838f99ae14b83b91b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.689968+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/045-052-e7bd6a92.jpg"
+      ],
+      "findings": "Judah envoy hands treaty scroll to Babylon official, uneasy eyelines and real Mesopotamian court."
+    },
+    {
+      "id": 50,
+      "image": "ezekiel-c017-v022-024-right-context-v1.jpg",
+      "sha256": "f8b1977934cd02d1f13bd8936d32b3b9b447da158de74eebb39e6de95ccdc34e",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.690585+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/045-052-e7bd6a92.jpg"
+      ],
+      "findings": "Young cedar on stony mountain with birds, bright hope and natural rooted growth."
+    },
+    {
+      "id": 51,
+      "image": "ezekiel-c018-v001-009-right-context-v1.jpg",
+      "sha256": "acd3e4ca7283352e3817724c04ebb86d8d2ae96a4b20ebea30db24952624974b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.691146+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/045-052-e7bd6a92.jpg"
+      ],
+      "findings": "Adult shares bread and returns cloth to poor neighbor, caring faces and supported hands."
+    },
+    {
+      "id": 52,
+      "image": "ezekiel-c018-v010-020-right-context-v1.jpg",
+      "sha256": "4224f1b4496148907f7c6f4aec371bb034db6f7ca1271b36980a9012f7ae5699",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.691599+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/045-052-e7bd6a92.jpg"
+      ],
+      "findings": "Young adult turns from corrupt collector, coherent arm contact and moral independence."
+    },
+    {
+      "id": 53,
+      "image": "ezekiel-c018-v021-032-right-context-v1.jpg",
+      "sha256": "48de25c3a68135365cece6a0fa21f32be5abfb1d0f61693e18a362d2580083a5",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.662904+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/025-053-34cd82a2.jpg"
+      ],
+      "findings": "Urgent compassionate call to repentance, attentive neighboring listener."
+    },
+    {
+      "id": 54,
+      "image": "ezekiel-c019-v001-009-right-context-v1.jpg",
+      "sha256": "b799f7c7bd97a5bc2ff61a7fe5cda5e7ad78bc87e82d4a92f21cdc394427f7b8",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.692076+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/054-064-707f4102.jpg"
+      ],
+      "findings": "Adult lion safe in broad timber transport cage, captive power and solemn eyes, no injured animal."
+    },
+    {
+      "id": 55,
+      "image": "ezekiel-c019-v010-014-right-context-v1.jpg",
+      "sha256": "93a02f2482c50b1d3e27f5f994a46204df2e1e3309735a93225d61f51359c246",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.692638+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/054-064-707f4102.jpg"
+      ],
+      "findings": "Uprooted vine and dry branch with east-wind dust, loss of fruitfulness, no injured body."
+    },
+    {
+      "id": 56,
+      "image": "ezekiel-c020-v001-009-right-context-v1.jpg",
+      "sha256": "8da9d49e734d8abee3b80d7dfd270baa1dcc459293674e21d8a80c592af98a05",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.663687+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/056-071-71ffcb4c.jpg"
+      ],
+      "findings": "Adult elders consult prophet, sober listening and grounded exile setting."
+    },
+    {
+      "id": 57,
+      "image": "ezekiel-c020-v010-026-right-context-v2.jpg",
+      "sha256": "6712a1a876a1cd707ae6074c8b92378c7e75f64dd3c4af550f671db1b116a755",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.641196+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/057-107-93085d54.jpg"
+      ],
+      "findings": "Adults clearly rest in tent shade in wilderness, no Sabbath bread labor."
+    },
+    {
+      "id": 58,
+      "image": "ezekiel-c020-v027-039-right-context-v1.jpg",
+      "sha256": "68e8446c05f34d3fad01837f79bce873cfe013553e5ff1f8e7163cf80f860395",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.693108+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/054-064-707f4102.jpg"
+      ],
+      "findings": "Exile travelers and sheep on wilderness path, subdued accountability, healthy fully clothed families."
+    },
+    {
+      "id": 59,
+      "image": "ezekiel-c020-v040-049-right-context-v1.jpg",
+      "sha256": "97c7c9f6ec7ba709f04fc9681f14d043266f18467aa05d9d5b1b46a864c3054d",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.121380+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/059-103-dba18a57.jpg"
+      ],
+      "findings": "Returning offering bearers climb toward Jerusalem-like hilly sacred setting, gratitude and repentant hope, no visible deity."
+    },
+    {
+      "id": 60,
+      "image": "ezekiel-c021-v001-017-right-context-v1.jpg",
+      "sha256": "5512a457b4bac3286aab792d4c69366a240d7145bc8a42a0bd5d6417829c6ca0",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.664469+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/056-071-71ffcb4c.jpg"
+      ],
+      "findings": "Prophet bends in grief with hand on thigh and pained eyes."
+    },
+    {
+      "id": 61,
+      "image": "ezekiel-c021-v018-027-right-context-v1.jpg",
+      "sha256": "220dce1c21f9c913d66e6f94df092f23479d89d73057ceeacdb29898f04e622e",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.693586+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/054-064-707f4102.jpg"
+      ],
+      "findings": "Commander considers arrows at road fork, gravity and coherent hands, ordinary ancient divination objects."
+    },
+    {
+      "id": 62,
+      "image": "ezekiel-c021-v028-032-right-context-v1.jpg",
+      "sha256": "3027ca491396a7a2f2cc5fd8b74624de6a54c7fcd6f124f731c23b2a994ac1a9",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.694061+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/054-064-707f4102.jpg"
+      ],
+      "findings": "Sword returns into sheath with coherent connected hands, aftermath no stabbing."
+    },
+    {
+      "id": 63,
+      "image": "ezekiel-c022-v001-016-right-context-v2.jpg",
+      "sha256": "cbd684471dc432b67dbe9554cae27a3a8f0586dcbc119bf0d745f1ad0df2b7a7",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.639242+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/042-027-cced9305.jpg"
+      ],
+      "findings": "Corrupt bribe exchange at Jerusalem gate with Judean limestone hills, no Babylon canal."
+    },
+    {
+      "id": 64,
+      "image": "ezekiel-c022-v017-022-right-context-v1.jpg",
+      "sha256": "477f2213f8d80b77f5b595a511d8c903c8218f1ecc25c42453138f0972387841",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.694518+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/054-064-707f4102.jpg"
+      ],
+      "findings": "Worker tends molten mixed metal dross at charcoal crucible, no person in furnace."
+    },
+    {
+      "id": 65,
+      "image": "ezekiel-c022-v023-031-right-context-v1.jpg",
+      "sha256": "37e23a4f120fc49f576cea32556270e12ff556c5a542057ae496e86cba74b321",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.731628+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/065-074-2e04913f.jpg"
+      ],
+      "findings": "Empty breach in Jerusalem limestone wall overlooking hilly city, no invented hero fills the gap; tangible crumbled blocks and quiet loss."
+    },
+    {
+      "id": 66,
+      "image": "ezekiel-c023-v001-010-right-context-v1.jpg",
+      "sha256": "d318eaae2f8fd247ce5f7e9d19aec957254aa62880fd93c0e78950657e105d4f",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.732261+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/065-074-2e04913f.jpg"
+      ],
+      "findings": "Clothed symbolic Samaria woman looks toward prestigious Assyrian mounted officials at stone gate, political attraction with no erotic act."
+    },
+    {
+      "id": 67,
+      "image": "ezekiel-c023-v011-021-right-context-v2.jpg",
+      "sha256": "bc6b292770ce2c4625c9da754eced016466db14c5d1a55aec417a7e9963e2fab",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.643247+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/057-107-93085d54.jpg"
+      ],
+      "findings": "Clothed symbolic women admire painted nobles in Judean setting, no sexual depiction."
+    },
+    {
+      "id": 68,
+      "image": "ezekiel-c023-v022-035-right-context-v2.jpg",
+      "sha256": "1cfdb2c5b883f5f700fffd8915dc19e8ae468960abe0aaa033525dd800623f17",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.644066+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/057-107-93085d54.jpg"
+      ],
+      "findings": "Clothed woman holds large whole clay cup with coherent hands, sorrow in Judean courtyard."
+    },
+    {
+      "id": 69,
+      "image": "ezekiel-c023-v036-049-right-context-v2.jpg",
+      "sha256": "4b97ed6161d67584a6aadb73bfd09f1a5d516aa217d134b47ff076e342d1b218",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.644807+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/057-107-93085d54.jpg"
+      ],
+      "findings": "Two clothed adult women mourn quietly in Judean setting, no assault or mutilation."
+    },
+    {
+      "id": 70,
+      "image": "ezekiel-c024-v001-014-right-context-v1.jpg",
+      "sha256": "ba183c1319546054749f44b5952a1aa756aa4f0d9bde62d642de6e2975a2b9ad",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.733100+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/065-074-2e04913f.jpg"
+      ],
+      "findings": "Empty corroded bronze pot over contained charcoal/wood fire, realistic heavy metal residue, no human parts or gruesome cooking."
+    },
+    {
+      "id": 71,
+      "image": "ezekiel-c024-v015-024-right-context-v1.jpg",
+      "sha256": "3fa10749b70b6fef1da8a3c19951c0aca12bf96838c5a63c8c0b9530db27c576",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.665159+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/056-071-71ffcb4c.jpg"
+      ],
+      "findings": "Prophet stands with headwrap and dry eyes after wife’s unshown death, uncovered lips and empty mat; no corpse or mourning meal, sandals outside frame."
+    },
+    {
+      "id": 72,
+      "image": "ezekiel-c024-v025-027-right-context-v1.jpg",
+      "sha256": "74ca5b8ab35de68d62760f7631655465cedc829efca1aded0dbbeca1016a9d35",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.667564+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/108-096-f2af99fb.jpg"
+      ],
+      "findings": "Weary fugitive arrives at exile doorway and prophet responds."
+    },
+    {
+      "id": 73,
+      "image": "ezekiel-c025-v001-007-right-context-v1.jpg",
+      "sha256": "b8bac354f2680390307a92281345a2a6daf25acc8401c94cc2799cd49a7a2280",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.733603+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/065-074-2e04913f.jpg"
+      ],
+      "findings": "Abandoned Ammonite ruined court gives way to ordinary desert travel camp, solemn decline rather than violent conquest."
+    },
+    {
+      "id": 74,
+      "image": "ezekiel-c025-v008-017-right-context-v1.jpg",
+      "sha256": "ad2f65cf9a558dfbf35a85869d40b8a7804f5f31e23bd1ddea4864bf5a650c71",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.734163+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/065-074-2e04913f.jpg"
+      ],
+      "findings": "Ruined neighboring fortified road and fallen door planks amid arid hills, no bodies or modern flags."
+    },
+    {
+      "id": 75,
+      "image": "ezekiel-c026-v001-014-right-context-v1.jpg",
+      "sha256": "30b5e4927938ae1fe701827818377030848dfd1e78163fc92ecf089632964e6c",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.734839+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/075-083-e110f6ef.jpg"
+      ],
+      "findings": "Tyre sea wall collapsed into actual-looking sea with stone and timber, convincing water/material weight and no harm."
+    },
+    {
+      "id": 76,
+      "image": "ezekiel-c026-v015-021-right-context-v1.jpg",
+      "sha256": "80f9439dad349020600fbc8d8c742ef7cc1c791a4ee36f64893a961a65621b4f",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.735484+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/075-083-e110f6ef.jpg"
+      ],
+      "findings": "Maritime ruler sits grieving by shore with merchants and set-aside ornate mantle, sober authentic faces."
+    },
+    {
+      "id": 77,
+      "image": "ezekiel-c027-v001-011-right-context-v1.jpg",
+      "sha256": "83b42dfac27c866c7954158055d9ef715a6fbd149815bb8433211fff2837bc87",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.736166+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/075-083-e110f6ef.jpg"
+      ],
+      "findings": "Period timber merchant vessel with linen sail and connected oars at Tyre dock, coherent crew/ship scale and tactile wood."
+    },
+    {
+      "id": 78,
+      "image": "ezekiel-c027-v012-025-right-context-v1.jpg",
+      "sha256": "91e96601048bd2e2595106227d769f47aea48cf9e71c8641f3470e08595980e3",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.736725+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/075-083-e110f6ef.jpg"
+      ],
+      "findings": "Merchants exchange purple cloth beside jars and wool, natural hands and responsive proud trade faces."
+    },
+    {
+      "id": 79,
+      "image": "ezekiel-c027-v026-036-right-context-v1.jpg",
+      "sha256": "74a806771c41d9b43baf43d9f19112f2763fd5cb7e102cee83187a64de8364a7",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.737234+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/075-083-e110f6ef.jpg"
+      ],
+      "findings": "Sailors kneel grieving wreckage washing ashore, attached natural arms/hands and palpable rough sea, no drowned bodies."
+    },
+    {
+      "id": 80,
+      "image": "ezekiel-c028-v001-010-right-context-v1.jpg",
+      "sha256": "3095dd7db936550449a57266ed2cd6612b225175bea321d364cae33571e19b5b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.737694+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/075-083-e110f6ef.jpg"
+      ],
+      "findings": "Human Tyre ruler proud beside coastal window, ordinary physical complexion and earthly wealth, no divine radiance."
+    },
+    {
+      "id": 81,
+      "image": "ezekiel-c028-v011-019-right-context-v1.jpg",
+      "sha256": "2183f8c769231f7ffb8e5ce772406ca16f8612629a48fcece18f69c4bdfac89d",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.122581+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/059-103-dba18a57.jpg"
+      ],
+      "findings": "Empty precious-stone royal seat in lush symbolic garden, former splendor now unattended; no devil/Satan identification or divine face."
+    },
+    {
+      "id": 82,
+      "image": "ezekiel-c028-v020-026-right-context-v1.jpg",
+      "sha256": "e36d9b5731908e5cb30ee5a1b22f113d66364b2679dbcc6dc11bd273fd274d49",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:30:50.738249+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/075-083-e110f6ef.jpg"
+      ],
+      "findings": "Adults rebuild modest stone home and tend vineyard in hilly Judah, healthy family, grateful work and believable hands."
+    },
+    {
+      "id": 83,
+      "image": "ezekiel-c029-v001-009-right-context-v2.jpg",
+      "sha256": "cfd2dca6a13c5d68639415a4a7bda8102348b2dbca0f61e507fd4aa1bdebb9cd",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.645679+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/057-107-93085d54.jpg"
+      ],
+      "findings": "Crocodile and snapped reed at Nile papyrus floodplain, Egyptian setting rather than Mesopotamian canal."
+    },
+    {
+      "id": 84,
+      "image": "ezekiel-c029-v010-016-right-context-v1.jpg",
+      "sha256": "4df1f80e9a126ec38bc3118e78d423d64aaf3ad1c01b5d21d5ae4f27b3a3b123",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.111082+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/084-092-46f5285c.jpg"
+      ],
+      "findings": "Declining Egyptian mudbrick/pylon town and depleted canal, subdued clothed travelers, no active attack."
+    },
+    {
+      "id": 85,
+      "image": "ezekiel-c029-v017-021-right-context-v1.jpg",
+      "sha256": "0999ddf00540ca2652345d022daf7f0ba5f994a1723b2c1649bd78ecc7fbf7d9",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.123398+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/059-103-dba18a57.jpg"
+      ],
+      "findings": "Weary Babylon soldiers pause with siege tools by Tyre coast, labor disappointment and sober physical fatigue."
+    },
+    {
+      "id": 86,
+      "image": "ezekiel-c030-v001-012-right-context-v1.jpg",
+      "sha256": "afd70e5ba0050faac6f01c5e2783cf1280d72f76fc2fb9414bb2cecd411ab23b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.111894+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/084-092-46f5285c.jpg"
+      ],
+      "findings": "Empty canal barges and anxious adults before Egyptian pylon-like gate, lost power and sober daylight."
+    },
+    {
+      "id": 87,
+      "image": "ezekiel-c030-v013-019-right-context-v1.jpg",
+      "sha256": "52b20510c11924cacfea8485b600f5d1bbe66f10f29ba06cefb03bda9498ca3b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.112778+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/084-092-46f5285c.jpg"
+      ],
+      "findings": "Broken Egyptian cult statue head with abandoned temple, tactile stone and no bodies."
+    },
+    {
+      "id": 88,
+      "image": "ezekiel-c030-v020-026-right-context-v1.jpg",
+      "sha256": "0fade61c4d40492a37a6f7dbaeef53a822809f98a5f4831f9b2bad52c300bc8a",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.113772+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/084-092-46f5285c.jpg"
+      ],
+      "findings": "Humbled mortal Pharaoh in Egyptian linen/headdress sits with unused sword, grief without literal broken limb."
+    },
+    {
+      "id": 89,
+      "image": "ezekiel-c031-v001-009-right-context-v1.jpg",
+      "sha256": "053ee644f9b5e968cda7e9d22852e983cbf3d97b6881d9c47f65629ae0705c37",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.114955+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/084-092-46f5285c.jpg"
+      ],
+      "findings": "Monumental cedar sheltering birds and healthy animals by river, tactile bark and rooted weight; pride metaphor not literal Eden reconstruction."
+    },
+    {
+      "id": 90,
+      "image": "ezekiel-c031-v010-018-right-context-v1.jpg",
+      "sha256": "02fe6558fd2ecb268fd749371f30d959477c49a8d3010ca82b0174330abeaf69",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.116042+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/084-092-46f5285c.jpg"
+      ],
+      "findings": "Fallen enormous cedar and adults leaving former shade, broken limbs physically grounded, no crushed people."
+    },
+    {
+      "id": 91,
+      "image": "ezekiel-c032-v001-016-right-context-v1.jpg",
+      "sha256": "672459622a8826810ed2bd12ce5c6898f9171f05b1e47f2263af775a0cbda30e",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.116848+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/084-092-46f5285c.jpg"
+      ],
+      "findings": "Egyptian adult mourners by Nile and discarded royal headdress, restrained tears and no blood water."
+    },
+    {
+      "id": 92,
+      "image": "ezekiel-c032-v017-032-right-context-v1.jpg",
+      "sha256": "f6369151ce3566321d1cc33ff3a4befa2fba774bd4b1202971599dce0110b2fe",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.117826+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/084-092-46f5285c.jpg"
+      ],
+      "findings": "Respectful adults bow beside closed burial entrance with unused shields/swords, death shown by absence."
+    },
+    {
+      "id": 93,
+      "image": "ezekiel-c033-v001-009-right-context-v1.jpg",
+      "sha256": "5c70e34524116f5f067d6fc12ad63e6f3be691ffdc559ad811dc624f94c0c6b3",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.118542+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/093-099-f63d349a.jpg"
+      ],
+      "findings": "Unnamed watchman sounds horn coherently toward approaching dust, wall-height observer camera and responsible urgency."
+    },
+    {
+      "id": 94,
+      "image": "ezekiel-c033-v010-020-right-context-v1.jpg",
+      "sha256": "8f8f66dcd0aaf7091bb7ca2dc14b3cfdf759a6c5e41c2264fad817ae22221bc1",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.668278+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/108-096-f2af99fb.jpg"
+      ],
+      "findings": "Prophet compassionately urges adult listener to turn back, grounded eye contact and hands."
+    },
+    {
+      "id": 95,
+      "image": "ezekiel-c033-v021-029-right-context-v1.jpg",
+      "sha256": "df86dd90445bb3bc1daf90671345c776ca41d6e071673c436509ee9cc3d019dc",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.668994+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/108-096-f2af99fb.jpg"
+      ],
+      "findings": "Fugitive announces Jerusalem fallen, startled sorrow in prophet’s attentive face."
+    },
+    {
+      "id": 96,
+      "image": "ezekiel-c033-v030-033-right-context-v1.jpg",
+      "sha256": "a1f430ce5c77e823096f4f41a52cdb853f9af8b2ae647e3116173057d18090a2",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.669911+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/108-096-f2af99fb.jpg"
+      ],
+      "findings": "Pleasant but distracted listeners handle trade goods while prophet teaches."
+    },
+    {
+      "id": 97,
+      "image": "ezekiel-c034-v001-010-right-context-v1.jpg",
+      "sha256": "680fcacc1f30581fef6903589c298257fbbbe857e2c86793d307e0c41218a43b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.119384+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/093-099-f63d349a.jpg"
+      ],
+      "findings": "Negligent shepherd eats comfortably while thin uninjured flock wanders, moral indifference rather than monster imagery."
+    },
+    {
+      "id": 98,
+      "image": "ezekiel-c034-v011-016-right-context-v1.jpg",
+      "sha256": "4d76bc640d71e459173efd1b9a491596228426283f0fc8b9f3ab08256f50cec4",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.124298+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/059-103-dba18a57.jpg"
+      ],
+      "findings": "Lost sheep safe on green Judean-type slopes with gathered flock, living fur and credible terrain, no man impersonating God."
+    },
+    {
+      "id": 99,
+      "image": "ezekiel-c034-v017-031-right-context-v1.jpg",
+      "sha256": "686c64a36ae9890818cee75a13d7900b463191bc4cddf7208aa0dd6ea5957162",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.120295+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/093-099-f63d349a.jpg"
+      ],
+      "findings": "Adults and healthy family rest gratefully near tended flock and fertile water, ordinary unnamed shepherd, prophetic peace metaphor; no identified David or God impersonation."
+    },
+    {
+      "id": 100,
+      "image": "ezekiel-c035-v001-009-right-context-v1.jpg",
+      "sha256": "1ecba4e70582ef24783d7058d05108d19645126e7352935452b822afb3f83479",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.125316+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/059-103-dba18a57.jpg"
+      ],
+      "findings": "Seir red-rock mountains and ruined fortified gateway, empty Edomite grandeur in sober daylight."
+    },
+    {
+      "id": 101,
+      "image": "ezekiel-c035-v010-015-right-context-v1.jpg",
+      "sha256": "5df4143a1b1a9f48ffd724e10b9fa3c4361f14c0f911151b5e6256d20476c641",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.126242+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/059-103-dba18a57.jpg"
+      ],
+      "findings": "Adult Edom residents ashamed beside dry vineyard and barren red hills, quiet reversal without violence."
+    },
+    {
+      "id": 102,
+      "image": "ezekiel-c036-v001-015-right-context-v1.jpg",
+      "sha256": "af6426be13e1ddf41354055d0b7fd69a1db773fb01dc734a15ca120409180be3",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.127210+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/059-103-dba18a57.jpg"
+      ],
+      "findings": "Farmers examine new shoots in hilly Judah terrace, coherent gentle hands and responsive hope."
+    },
+    {
+      "id": 103,
+      "image": "ezekiel-c036-v016-023-right-context-v1.jpg",
+      "sha256": "f7925b3262e01890216ce8464e731a6567b2bfe83fff5c3dd5033be6b59b990d",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:24:09.128078+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/059-103-dba18a57.jpg"
+      ],
+      "findings": "Exiles turn from idols at foreign market with conscience and protection of family, no contemporary political symbol."
+    },
+    {
+      "id": 104,
+      "image": "ezekiel-c036-v024-032-right-context-v1.jpg",
+      "sha256": "b45b2af901e71cf92f7b837cd7a31adecd34ebe9599cdfa76fd192ef57a0b249",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.607819+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/104-115-36652054.jpg"
+      ],
+      "findings": "Adult returnee washes hands at Judean spring, hand at heart; embodied cleansing without divine figure."
+    },
+    {
+      "id": 105,
+      "image": "ezekiel-c036-v033-038-right-context-v1.jpg",
+      "sha256": "5d9d24b9688e8a8b6b1f1b1c948b3ed921b2e2a6440a3b1de30b1f5a8d7c7ddb",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.609057+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/104-115-36652054.jpg"
+      ],
+      "findings": "Hopeful adults rebuild modest home, physical stone and timber, restrained restoration joy."
+    },
+    {
+      "id": 106,
+      "image": "ezekiel-c037-v001-006-right-context-v1.jpg",
+      "sha256": "be9c30987f37feae12e4fc59e1e1757545930a2d636493f36a8e1f6c2b2c30ae",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:05:30.539385+00:00",
+      "method": "full-size original visual inspection",
+      "evidencePaths": [
+        "output/ezekiel/ezekiel-c037-v001-006-original-v1.png"
+      ],
+      "findings": "Same angular curly-haired Ezekiel visibly older with gray beard and facial lines; two coherent hands, palpable dry bleached bones and extensive real valley, no flesh or gore, wonder and grief, bright neutral light. Approximate cinematic age, not a source-specified birthday."
+    },
+    {
+      "id": 107,
+      "image": "ezekiel-c037-v007-008-right-context-v2.jpg",
+      "sha256": "412df208dbd9ba48ebb1f4cbf0105d64d5ab9530019d583d439c397215b9df6b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.646479+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/057-107-93085d54.jpg"
+      ],
+      "findings": "Joined ribcages, spines and pelvises lie flat on dry ground, aged prophet watches; before breath, no walking skeletons or flesh."
+    },
+    {
+      "id": 108,
+      "image": "ezekiel-c037-v009-014-right-context-v1.jpg",
+      "sha256": "0b2a9cec6b1af13d42e0244bf58d5d0ad9205dc3c33726510b0befd68d111acc",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.665974+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/108-096-f2af99fb.jpg"
+      ],
+      "findings": "Aged prophet and healthy fully clothed assembly express grateful awe in dry valley, no skeletons or weapons."
+    },
+    {
+      "id": 109,
+      "image": "ezekiel-c037-v015-023-right-context-v1.jpg",
+      "sha256": "dfb302a253fa1094a0518f524dbc646620a65a00e18cb57e5f765e3e0ba7df89",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.666762+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/108-096-f2af99fb.jpg"
+      ],
+      "findings": "Exactly two upright sticks held together in two coherent hands, subtle marks not readable Scripture."
+    },
+    {
+      "id": 110,
+      "image": "ezekiel-c037-v024-028-right-context-v1.jpg",
+      "sha256": "bb7b06b6eaec183891e926546e8d9b396c3a38c9b9d039a73987c4cd028c3187",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.609896+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/104-115-36652054.jpg"
+      ],
+      "findings": "Restored community shares peaceful meal with sanctuary distant; no invented visible David figure."
+    },
+    {
+      "id": 111,
+      "image": "ezekiel-c038-v001-013-right-context-v1.jpg",
+      "sha256": "402064123239d65cf54eddf23f9bf849e80701558d896d64dc2e4f2608fc0c62",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.610815+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/104-115-36652054.jpg"
+      ],
+      "findings": "Ancient army approaches peaceful Israel landscape; period equipment, no modern ruler identification."
+    },
+    {
+      "id": 112,
+      "image": "ezekiel-c038-v014-023-right-context-v1.jpg",
+      "sha256": "97c878e31f3f494b47f8ec96cd25aff4293f8186f29650687a5fbb631122a67c",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.611957+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/104-115-36652054.jpg"
+      ],
+      "findings": "Hailstorm over empty abandoned camp, observer intact; no divine archer or exposed victims."
+    },
+    {
+      "id": 113,
+      "image": "ezekiel-c039-v001-010-right-context-v1.jpg",
+      "sha256": "37ef94d07a2ace5a71e44e13f0e75a6c32b5db7d87b24ee7b3154711e21e65be",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.612872+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/104-115-36652054.jpg"
+      ],
+      "findings": "Adults gather and burn abandoned wooden weapons, no bodies."
+    },
+    {
+      "id": 114,
+      "image": "ezekiel-c039-v011-020-right-context-v1.jpg",
+      "sha256": "fccaa5f04264867cfc647260a0038dcaa00e9136e568c56a5929572db9034627",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.613849+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/104-115-36652054.jpg"
+      ],
+      "findings": "Closed burial ground with stone markers, no exposed remains."
+    },
+    {
+      "id": 115,
+      "image": "ezekiel-c039-v021-029-right-context-v1.jpg",
+      "sha256": "f3b1d71246c46b8334a6ce612eafddfa1a65a856cbbd56ad5aa842e3876dd47f",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.614685+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/104-115-36652054.jpg"
+      ],
+      "findings": "Grateful returnees at city gateway, readable relieved expressions."
+    },
+    {
+      "id": 116,
+      "image": "ezekiel-c040-v001-016-right-context-v1.jpg",
+      "sha256": "8fa245f97d4ea24bfb82b4602a9b8db7d8e7bbc4d82e9feff01a12db8275ca9d",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T10:23:34.764475+00:00",
+      "method": "full-size original inspection",
+      "evidencePaths": [
+        "output/ezekiel/ezekiel-c040-v001-016-original-v1.png"
+      ],
+      "findings": "Older sage-wrap Ezekiel LEFT watches distinctly different ivory-linen bronze-complexioned guide RIGHT; guide holds cord and marked long wooden reed, coherent grips, palm-carved gateway and luminous tangible limestone. Vision architecture illustrative, exact six-cubit metric scale not independently asserted."
+    },
+    {
+      "id": 117,
+      "image": "ezekiel-c040-v017-027-right-context-v1.jpg",
+      "sha256": "c1bedb1d31eb348006f4072db8470c159674a6e589fdee226e5cc7e194f06dcd",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.647194+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/117-125-60e57f90.jpg"
+      ],
+      "findings": "Consistent guide and aged prophet measure outer courtyard gate and stairs; exact dimensions not independently established."
+    },
+    {
+      "id": 118,
+      "image": "ezekiel-c040-v028-037-right-context-v1.jpg",
+      "sha256": "3fd0a60a9716a534546822ec510c555740dc92c9a8d591ef076805b595798fec",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.648060+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/117-125-60e57f90.jpg"
+      ],
+      "findings": "Guide and aged prophet at inner gateway staircase; eight steps specified by passage, exact count not verified from this view."
+    },
+    {
+      "id": 119,
+      "image": "ezekiel-c040-v038-049-right-context-v1.jpg",
+      "sha256": "bf9898a9b6e843654846739237b93aed787cdab90b067dc374eb2e55b81b931c",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.648930+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/117-125-60e57f90.jpg"
+      ],
+      "findings": "Preparation tables and priest chambers, guide gestures; no human remains."
+    },
+    {
+      "id": 120,
+      "image": "ezekiel-c041-v001-014-right-context-v1.jpg",
+      "sha256": "7a4118f2618ae25222b91dc9994fe42ed6174f9ce8e7febe80335652d04ddae7",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.649732+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/117-125-60e57f90.jpg"
+      ],
+      "findings": "Guide measures doorway while prophet stays outside, architectural view does not claim to show Most Holy interior."
+    },
+    {
+      "id": 121,
+      "image": "ezekiel-c041-v015-026-right-context-v2.jpg",
+      "sha256": "8a8dc0f03161ff1cfd1471c79ac79e74c25268b94239e784fd3e800bdd38439b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.672493+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/004-121-92620329.jpg"
+      ],
+      "findings": "Each carved cherub has one winged body with human and lion face aspects, palm trees between; corrected separate single-headed bodies."
+    },
+    {
+      "id": 122,
+      "image": "ezekiel-c042-v001-012-right-context-v1.jpg",
+      "sha256": "ecc1ebf9e3f26f08c2246dd1bf90a16a598dc3ac406bd83348dd0434d0550582",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.650416+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/117-125-60e57f90.jpg"
+      ],
+      "findings": "Three-story priest chamber block with narrowing upper storeys, same guide and aged prophet."
+    },
+    {
+      "id": 123,
+      "image": "ezekiel-c042-v013-020-right-context-v1.jpg",
+      "sha256": "3e05f10229aac087f33c26effe4d7ec5b6d669be4b006b9733bde55be29e8d90",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.651246+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/117-125-60e57f90.jpg"
+      ],
+      "findings": "Guide holds measuring cord along sanctuary boundary, outside land distinct from temple."
+    },
+    {
+      "id": 124,
+      "image": "ezekiel-c043-v001-009-right-context-v1.jpg",
+      "sha256": "caba3843e35bc76048753b7e290936628deaaa4a6fe6e86fbb2df6730737739a",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.652068+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/117-125-60e57f90.jpg"
+      ],
+      "findings": "Aged prophet prostrate before glory cloud entering temple gate, no visible divine face or body."
+    },
+    {
+      "id": 125,
+      "image": "ezekiel-c043-v010-012-right-context-v1.jpg",
+      "sha256": "681200ee844d7a8685c090e801a3c640125c4c3694ef86c61614d535df620323",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.652785+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/117-125-60e57f90.jpg"
+      ],
+      "findings": "Prophet presents ancient temple drawing on parchment to exile listeners, no modern book or readable invented caption."
+    },
+    {
+      "id": 126,
+      "image": "ezekiel-c043-v013-027-right-context-v1.jpg",
+      "sha256": "6ca575ba76929c512c015b36c9f2a8de6c2aaa295dcc4933b5848d8584b7ee78",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.615568+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/121-133-520f8ef2.jpg"
+      ],
+      "findings": "Stepped altar with corner structures and stairs, linen priests; illustrative temple vision, exact dimensions not established from frame."
+    },
+    {
+      "id": 127,
+      "image": "ezekiel-c044-v001-009-right-context-v1.jpg",
+      "sha256": "384810faf365b4ea3af151dca78587ac2453c6b6ef17f3fc5d0b380ae5839bad",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.653869+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/127-136-19c609c3.jpg"
+      ],
+      "findings": "Closed outer eastern gateway, aged prophet and guide show reverence; no visible deity."
+    },
+    {
+      "id": 128,
+      "image": "ezekiel-c044-v010-016-right-context-v1.jpg",
+      "sha256": "9a42774b30ffff3003bde682f924c911faa1a87a28aaf0f4a62e79d58084963e",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.616245+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/121-133-520f8ef2.jpg"
+      ],
+      "findings": "Linen-clothed priestly service in temple courtyard; no divine body."
+    },
+    {
+      "id": 129,
+      "image": "ezekiel-c044-v017-031-right-context-v1.jpg",
+      "sha256": "17b95459668300cda78b78a68ffc607be772b799cfa7d04ac6a1a1f3e22ef32d",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.616943+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/121-133-520f8ef2.jpg"
+      ],
+      "findings": "Linen caps and tunics, priests receive firstfruit flour with coherent hands."
+    },
+    {
+      "id": 130,
+      "image": "ezekiel-c045-v001-008-right-context-v1.jpg",
+      "sha256": "b6241bdfb7ba17418a3605d47e5f324c868617c7b7e966135cc9c19795eeb969",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.617991+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/121-133-520f8ef2.jpg"
+      ],
+      "findings": "Ordered farmland and central vision temple, illustrative allotment rather than exact scale map."
+    },
+    {
+      "id": 131,
+      "image": "ezekiel-c045-v009-017-right-context-v1.jpg",
+      "sha256": "e4c6e26e740d6b13cf1f0dcfa03c3932a014b1d8b5b3755d7b26312b418d70ce",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.618739+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/121-133-520f8ef2.jpg"
+      ],
+      "findings": "Honest grain balance and measure, grounded trade gestures."
+    },
+    {
+      "id": 132,
+      "image": "ezekiel-c045-v018-025-right-context-v1.jpg",
+      "sha256": "60d87a4dd1febed7bcf81662f98049e8b0686991e57e2ec6a557ab9957e9c3f0",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.619438+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/121-133-520f8ef2.jpg"
+      ],
+      "findings": "Feast flour and oil offerings, physical vessels and linen; no slaughter."
+    },
+    {
+      "id": 133,
+      "image": "ezekiel-c046-v001-012-right-context-v1.jpg",
+      "sha256": "91bab172c877018a08a81887d8c3fa521ea8207cf52a165cf4d417958718624b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.620188+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/121-133-520f8ef2.jpg"
+      ],
+      "findings": "Human prince worships at open inner gateway, no deity figure and no prince at altar."
+    },
+    {
+      "id": 134,
+      "image": "ezekiel-c046-v013-018-right-context-v1.jpg",
+      "sha256": "119dfda287818ace6e37b413ee73bdcca63f81051ae57ae3426089ac92919525",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.629463+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/134-141-3430ee70.jpg"
+      ],
+      "findings": "Human prince and farmer settle boundary fairly in temple vision, no exact geographical reconstruction claimed."
+    },
+    {
+      "id": 135,
+      "image": "ezekiel-c046-v019-024-right-context-v1.jpg",
+      "sha256": "032fdb8a360de4cb2fea39264be8f9aae7affb4ee60ba78bbd6ece0b54ed5534",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.620893+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/135-137-fe518ca1.jpg"
+      ],
+      "findings": "Corner kitchen with stone hearths and boiling pots, clothed workers, practical food preparation."
+    },
+    {
+      "id": 136,
+      "image": "ezekiel-c047-v001-005-right-context-v1.jpg",
+      "sha256": "b206abbe6ca4d6e2c5c53ac3c17ed149025f70b4efcf41a57853b72be8ee70be",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.655520+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/127-136-19c609c3.jpg"
+      ],
+      "findings": "Guide and prophet wade ankle-deep in temple stream, cord and reed, coherent two figures."
+    },
+    {
+      "id": 137,
+      "image": "ezekiel-c047-v006-012-right-context-v1.jpg",
+      "sha256": "72f633af078142aa7c8cfbdca6093b3655e3a3bdefbffdf1765df81cc32f9f9b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.621785+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/135-137-fe518ca1.jpg"
+      ],
+      "findings": "Fruitful river banks and fishermen with connected nets and plentiful fish, living restoration landscape."
+    },
+    {
+      "id": 138,
+      "image": "ezekiel-c047-v013-023-right-context-v1.jpg",
+      "sha256": "a6fc930bb2a425a85cc84769454120719ac1471bde65a75e64c77ffda1c19668",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.630300+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/134-141-3430ee70.jpg"
+      ],
+      "findings": "Foreign resident welcomed at shared farmland boundary, gratitude and belonging."
+    },
+    {
+      "id": 139,
+      "image": "ezekiel-c048-v001-014-right-context-v1.jpg",
+      "sha256": "a8b90e17236401c12bc23530cdc41b27754cf7e265b8ebbe2a81712e6e8dd58b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.631168+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/134-141-3430ee70.jpg"
+      ],
+      "findings": "Ordered agriculture around distant temple, visionary inheritance illustration not exact map."
+    },
+    {
+      "id": 140,
+      "image": "ezekiel-c048-v015-029-right-context-v1.jpg",
+      "sha256": "9fa5f29ea2ac4f2812733d726195f5d28e3bd90372dbdf59e48b8e40317129a4",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.631956+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/134-141-3430ee70.jpg"
+      ],
+      "findings": "Field work outside restored city, everyday gratitude and coherent tools."
+    },
+    {
+      "id": 141,
+      "image": "ezekiel-c048-v030-035-right-context-v1.jpg",
+      "sha256": "0e26f9827415b3a014d836daa6ef5188ab03c50e90fc6e5696044458ac97ef61",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T11:25:41.632822+00:00",
+      "method": "visual contact-sheet inspection",
+      "evidencePaths": [
+        "review/ezekiel-contact-sheets/134-141-3430ee70.jpg"
+      ],
+      "findings": "Peaceful families enter restored city with three visible gateway openings and distant sanctuary, no divine body or caption."
+    }
+  ],
+  "approved": 141,
+  "planned": 141
+}

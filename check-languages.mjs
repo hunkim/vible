@@ -18,7 +18,7 @@ assert.throws(()=>applyTranslation(base,fixture('ja'),'en'),/language mismatch/)
 const root=await fs.mkdtemp(path.join(os.tmpdir(),'vible-language-tests-'));
 try{
  await fs.mkdir(path.join(root,'data'),{recursive:true});await fs.writeFile(path.join(root,'data/john.json'),JSON.stringify(base));
- for(const name of ['asset-hosting.json','languages.js','bible-books.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','proverbs-books.json','songofsongs-books.json','1chronicles-books.json','2chronicles-books.json','ezra-books.json','nehemiah-books.json','esther-books.json','job-books.json','ecclesiastes-books.json','daniel-books.json','jonah-books.json','jeremiah-books.json','lamentations-books.json','historical-books.json','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','1chronicles-catalog.js','2chronicles-catalog.js','ezra-catalog.js','nehemiah-catalog.js','esther-catalog.js','job-catalog.js','ecclesiastes-catalog.js','daniel-catalog.js','jonah-catalog.js','jeremiah-catalog.js','lamentations-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
+ for(const name of ['asset-hosting.json','languages.js','bible-books.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','proverbs-books.json','songofsongs-books.json','1chronicles-books.json','2chronicles-books.json','ezra-books.json','nehemiah-books.json','esther-books.json','job-books.json','ecclesiastes-books.json','daniel-books.json','jonah-books.json','jeremiah-books.json','lamentations-books.json','ezekiel-books.json','hosea-books.json','historical-books.json','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','1chronicles-catalog.js','2chronicles-catalog.js','ezra-catalog.js','nehemiah-catalog.js','esther-catalog.js','job-catalog.js','ecclesiastes-catalog.js','daniel-catalog.js','jonah-catalog.js','jeremiah-catalog.js','lamentations-catalog.js','ezekiel-catalog.js','hosea-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
  await fs.writeFile(path.join(root,'package.json'),JSON.stringify({type:'module'}));
  const {selection,shareParams}=await import(pathToFileURL(path.join(root,'share-data.mjs')));
  assert.throws(()=>selection(shareParams(new URL('https://vible.now/share/john/1/1?lang=en'))),/not available/);
@@ -47,13 +47,13 @@ assert.throws(()=>actualSelection(new URLSearchParams({book:'john',chapter:'5',v
 console.log('All catalogued real translations, translation attribution, combined verse sharing and modern omissions verified.');
 
 for(const lang of ['en','ja','zh']){
- assert.equal(actualCatalog[lang].books.length,53);
+ assert.equal(actualCatalog[lang].books.length,55);
  const closing=actualSelection(new URLSearchParams({book:'leviticus',chapter:'27',verse:'34',lang}));assert.equal(closing.lang,lang);assert(closing.text.trim());
  const psalm=actualSelection(new URLSearchParams({book:'psalms',chapter:'50',verse:'15',lang}));assert.equal(psalm.lang,lang);assert(psalm.text.trim());
 }
 const greeting=actualSelection(new URLSearchParams({book:'3john',chapter:'1',verse:'15',lang:'en'}));assert.equal(greeting.reference,'3 John 1:14–15');assert.match(greeting.text,/Peace to you/);
 const jpRange=actualSelection(new URLSearchParams({book:'numbers',chapter:'15',verse:'5',lang:'ja'}));assert.equal(jpRange.reference,'民数記 15:4–5');assert(jpRange.text.trim());
-console.log('All 159 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
+console.log('All 165 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
 
 for(const lang of ['ko','en','ja','zh']){const p=actualSelection(new URLSearchParams({book:'proverbs',chapter:'31',verse:'31',lang}));assert.equal(p.lang,lang);assert(p.text.trim());}
 const proverbBridge=actualSelection(new URLSearchParams({book:'proverbs',chapter:'26',verse:'19',lang:'zh'}));assert.equal(proverbBridge.reference,'箴言 26:18–19');assert(proverbBridge.text.trim());
@@ -125,3 +125,30 @@ for(const [book,chapter,first,name] of [['jeremiah',21,1,'예레미야'],['acts'
  assert.equal(shared.reference,`${name} ${chapter}:${first}–${first+1}`);assert.equal(shared.verses.length,1);assert.doesNotMatch(shared.text,/같음/);
 }
 console.log('Korean combined verses: Jeremiah 21:1–2, Acts 15:25–26 and Romans 9:1–2 display and share as one verse without the placeholder.');
+// Ezekiel and Hosea: KRV follows the English chapter boundaries (Ezekiel 20:45–49 before 21:1; Hosea 1:10–11, 11:12 and 13:16 at chapter ends),
+// as do BSB, the 1955 Colloquial and OpenCCB, so no verse is moved. OpenCCB prints Ezekiel 16:56–57 and 41:9–10 as combined verses.
+const prophets={ezekiel:{names:{ko:'에스겔',en:'Ezekiel',ja:'エゼキエル書',zh:'以西结书'},counts:[28,10,27,17,17,14,27,18,11,22,25,28,23,23,8,63,24,32,14,49,32,31,49,27,17,21,36,26,21,26,18,32,33,31,15,38,28,23,29,49,26,20,27,31,25,24,23,35],
+ boundaries:[[20,45,{ko:/여호와의 말씀이 또 내게 임하여/,en:/word of the LORD came to me/,ja:/主の言葉がまたわたしに臨んだ/,zh:/耶和华对我说/}],[20,49,{ko:/비유로 말하는 자/,en:/parables/,ja:/たとえをもって語る者/,zh:/比喻/}],[21,5,{ko:/칼을 집에서 빼어낸/,en:/sword from its sheath/,ja:/つるぎをさやから抜き放った/,zh:/拔刀出鞘/}],[36,26,{ko:/새 마음/,en:/new heart/,ja:/新しい心/,zh:/新心/}]],
+ range:[37,3,37,4,{ko:/마른 뼈들아/,en:/Dry bones/,ja:/枯れた骨よ/,zh:/枯骨啊/}]},
+ hosea:{names:{ko:'호세아',en:'Hosea',ja:'ホセア書',zh:'何西阿书'},counts:[11,23,5,19,15,11,16,14,17,15,12,14,16,9],
+ boundaries:[[1,10,{ko:/바닷가의 모래/,en:/sand of the sea/,ja:/海の砂/,zh:/海沙/}],[2,1,{ko:/암미/,en:/My people/,ja:/アンミ/,zh:/阿米/}],[11,12,{ko:/에브라임은 거짓으로/,en:/Ephraim surrounds Me with lies/,ja:/エフライムは偽り/,zh:/以法莲用谎话/}],[12,1,{ko:/동풍/,en:/east wind/,ja:/東風/,zh:/东风/}],[13,16,{ko:/사마리아/,en:/Samaria/,ja:/サマリヤ/,zh:/撒玛利亚/}],[14,1,{ko:/돌아오라/,en:/Return, O Israel/,ja:/主に帰れ/,zh:/归向你的上帝/}]],
+ range:[6,1,6,3,{ko:/힘써 여호와를 알자/,en:/press on to know the LORD/,ja:/せつに主を知ることを求めよう/,zh:/竭力认识耶和华/}]}};
+for(const [book,{names,counts,boundaries,range}] of Object.entries(prophets))for(const [lang,name] of Object.entries(names)){
+ if(lang!=='ko')assert(actualCatalog[lang].books.includes(book),`${lang} ${book}`);
+ counts.forEach((count,index)=>{
+  const chapter=index+1,last=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
+  assert.throws(()=>actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count+1),lang})));
+ });
+ for(const [chapter,verse,pattern] of boundaries)assert.match(actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} ${book} ${chapter}:${verse}`);
+ const [chapter,verse,endChapter,endVerse,pattern]=range,shared=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),endChapter:String(endChapter),endVerse:String(endVerse),lang}));
+ assert.equal(shared.lang,lang);assert.equal(shared.reference,`${name} ${chapter}:${verse}–${endVerse}`);assert.equal(shared.verses.length,endVerse-verse+1);assert.match(shared.text,pattern[lang]);
+ if(lang!=='ko')assert(shared.attribution&&shareHTML(shared).includes(shared.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} ${book} attribution`);
+ for(const [chapter,first,end] of book==='ezekiel'?[[16,56,57],[41,9,10]]:[]){
+  const bridged=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(end),lang}));assert(bridged.text.trim());assert.equal(bridged.verses.length,1);
+  assert.equal(bridged.reference,lang==='zh'?`${name} ${chapter}:${first}–${end}`:`${name} ${chapter}:${end}`);
+ }
+}
+// 개역한글 prints Ezekiel 24:4–5 as one verse (electronic text: "[4절과 같음]"); the other editions keep verse 5 separate.
+for(const verse of [4,5]){const pot=actualSelection(new URLSearchParams({book:'ezekiel',chapter:'24',verse:String(verse)}));assert.equal(pot.reference,'에스겔 24:4–5');assert.equal(pot.verses.length,1);assert.match(pot.text,/가마 밑에 나무를 쌓아/);assert.doesNotMatch(pot.text,/같음/);}
+for(const [lang,pattern] of [['en',/choicest of the flock/],['ja',/羊の最も良いもの/],['zh',/上好的羊/]]){const pot=actualSelection(new URLSearchParams({book:'ezekiel',chapter:'24',verse:'5',lang}));assert.equal(pot.reference,`${prophets.ezekiel.names[lang]} 24:5`);assert.match(pot.text,pattern);}
+console.log('Ezekiel and Hosea: four-language chapter-final verses for all 48 and 14 chapters, Hebrew/English boundary verses, shared ranges, KRV 24:4–5, OpenCCB combined verses and attribution verified.');
