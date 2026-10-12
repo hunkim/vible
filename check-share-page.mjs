@@ -49,7 +49,7 @@ for(const s of [one,range,pick('/share/romans/8/28'),revelation,genesis,matthew,
  assert(html.includes('og:image:secure_url'));
  assert(html.includes('og:locale'));
  assert(!html.includes('preview='));
- assert(!html.includes('&amp;v='));assert.equal(layout.textWidth,460);
+ assert(/&amp;v=[a-f0-9]{24}/.test(html));assert.equal(layout.textWidth,460);
 }
 assert.equal(cardLayout(pick('/share/romans/8/28')).height,675);
 assert(cardLayout(range).height>675);
@@ -86,3 +86,11 @@ for(const [book,ko,en,ja,zh,image] of [['1chronicles','역대상','1 Chronicles'
 const bridgedShare=pick('/share/ecclesiastes/7/27/7/28?lang=zh');assert.equal(bridgedShare.reference,'传道书 7:27–28');assert(shareHTML(bridgedShare).includes(bridgedShare.text));
 const jonahFish=pick('/share/jonah/1/17/2/1?lang=ja');assert.equal(jonahFish.reference,'ヨナ書 1:17–2:1');assert.match(jonahFish.text,/魚/);
 console.log('Chronicles–Esther, Job, Ecclesiastes, Daniel and Jonah share pages render in all four languages with attribution, a bridged verse and a cross-chapter range.');
+
+// Card URLs must change when a scene is replaced, even for the same passage.
+const {cardVersion}=await import('./share-data.mjs');
+const psalm=pick('/share/psalms/150/6');
+assert.notEqual(cardVersion(psalm),cardVersion({...psalm,image:'psalms-c150-v006-006-right-context-finale-v3.jpg'}));
+assert.notEqual(cardVersion(psalm),cardVersion({...psalm,text:psalm.text+'!'}));
+assert.equal(cardVersion(psalm),cardVersion({...psalm}));
+console.log('Shared card identity changes with original image or Scripture; stable passage links preserved.');

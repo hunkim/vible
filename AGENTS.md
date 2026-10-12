@@ -47,7 +47,7 @@ Torah/Psalms content releases, must therefore come from a git commit:
 2. Commit only reviewed changes on a branch containing current `origin/main`.
    Extract a fresh `git archive <full SHA>` into `/private/tmp/vible-release-<sha>`.
    Set `VIBLE_SOURCE_COMMIT=<full SHA>` for local checks; never deploy a working
-   tree or reuse an older archive. Verify changed image CDN bytes and hashes.
+   tree or reuse an older archive. Verify changed image CDN bytes and hashes. Always give replacement images new versioned filenames and update their asset-hosting SHA-256. Shared-card URLs derive their version from the image hash and passage; never reuse a replacement filename. Shared HTML and legacy unversioned cards must revalidate rather than retain old art.
 3. Run the required tests there. Immediately before publishing, resolve production
    SHA again and run `node scripts/release-preflight.mjs REPO FULL_SHA ARCHIVE
    PRODUCTION_SHA`. This fetches main, rejects concurrent/unreleased changes and
