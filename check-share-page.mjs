@@ -123,3 +123,16 @@ const ezkCross=pick('/share/ezekiel/20/49/21/1?lang=ja');assert.equal(ezkCross.r
 const hosCross=pick('/share/hosea/1/11/2/1?lang=en');assert.equal(hosCross.reference,'Hosea 1:11–2:1');assert.match(hosCross.text,/Jezreel/);assert.match(hosCross.text,/My people/);
 const hosEnd=pick('/share/hosea/13/16/14/1?lang=zh');assert.equal(hosEnd.reference,'何西阿书 13:16–14:1');assert.match(hosEnd.text,/撒玛利亚/);assert.match(hosEnd.text,/归向你的上帝/);
 console.log('Ezekiel and Hosea share pages render in all four languages with attribution, shared ranges, OpenCCB and KRV combined verses and cross-chapter ranges at the Hebrew/English boundaries.');
+for(const [lang,name] of Object.entries({ko:'이사야',en:'Isaiah',ja:'イザヤ書',zh:'以赛亚书'})){
+ const q=lang==='ko'?'':`?lang=${lang}`,shared=pick(`/share/isaiah/1/1${q}`),page=shareHTML(shared);
+ assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,'isaiah-c001-v001-001-right-context-v1.jpg');assert(page.includes(shared.text));assert(page.includes('book=isaiah'));
+ if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} isaiah attribution`);
+ const ranged=pick(`/share/isaiah/9/1/9/2${q}`);assert.equal(ranged.reference,`${name} 9:1–2`);assert.equal(ranged.image,'isaiah-c009-v001-002-right-context-v1.jpg');assert(shareHTML(ranged).includes(ranged.text));
+ const cross=pick(`/share/isaiah/8/22/9/2${q}`);assert.equal(cross.reference,`${name} 8:22–9:2`);assert.equal(cross.verses.length,3);
+}
+const isaKorean=pick('/share/isaiah/7/9');assert.equal(isaKorean.reference,'이사야 7:8–9');assert.doesNotMatch(shareHTML(isaKorean),/8절과 같음/);assert.equal(isaKorean.image,'isaiah-c007-v005-009-right-context-v1.jpg');
+const isaKorean48=pick('/share/isaiah/48/2');assert.equal(isaKorean48.reference,'이사야 48:1–2');assert.doesNotMatch(shareHTML(isaKorean48),/1절과 같음/);assert.equal(isaKorean48.image,'isaiah-c048-v001-002-right-context-v1.jpg');
+const isaZh=pick('/share/isaiah/65/7?lang=zh');assert.equal(isaZh.reference,'以赛亚书 65:6–7');assert.match(isaZh.text,/烧香/);assert.equal(isaZh.image,'isaiah-c065-v006-007-right-context-v1.jpg');
+const isaJa=pick('/share/isaiah/4/4?lang=ja');assert.equal(isaJa.reference,'イザヤ書 4:3–4');assert.match(isaJa.text,/生命の書/);assert.equal(isaJa.image,'isaiah-c004-v002-004-right-context-v1.jpg');
+const isaCross=pick('/share/isaiah/63/19/64/1?lang=en');assert.equal(isaCross.reference,'Isaiah 63:19–64:1');assert.match(isaCross.text,/never ruled/);assert.match(isaCross.text,/rend the heavens/);
+console.log('Isaiah share pages render in all four languages with attribution, shared 9:1–2, cross-chapter 8:22–9:2 and 63:19–64:1, KRV, Japanese and OpenCCB combined verses.');
