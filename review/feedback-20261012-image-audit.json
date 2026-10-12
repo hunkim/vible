@@ -1,0 +1,207 @@
+{
+  "date": "2026-10-12",
+  "kind": "feedback-image-only",
+  "images": [
+    {
+      "old": "luke-220-right-v3.jpg",
+      "new": "luke-220-right-v3-feedback-20261012-v1.jpg",
+      "originalSha256": "693ca3713b5d7c36d6f61afb36fc080d4d25d05df926ea03b94437b3d9179114",
+      "sha256": "db8c54e3f7524f69eff6268aeb3d3069f0d0a4558833d613dfeaa3dfae5e6c90",
+      "generationMode": "edit",
+      "inspection": "밝은 낮 하늘을 밤과 횃불 조명으로 수정. 종의 얼굴·치유 손·귀 위치 유지, 예수 얼굴은 프레임 밖. 전경 두 팔/소매와 배경 횃불 지지, 올리브 숲·도시 야경 확인."
+    },
+    {
+      "old": "psalms-c106-v030-031-right-context-v1.jpg",
+      "new": "psalms-c106-v030-031-right-context-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "83ed148c2c67bc4f79ffa2b12121538a7c56a01bc3f21ccf5e2d20a4dc78e42f",
+      "sha256": "cad1776e2130f84715bff84ec436c38ff9f6a38326bc0a2c289f9932239debb6",
+      "generationMode": "edit",
+      "inspection": "전경 손과 혼동되던 오른쪽 머리띠 인물 두 손을 무릎으로 낮춤. 양손 각각 소매와 손목에 연결, 전경 붉은 옷 인물의 손과 분리. 보호받는 여성·어린이와 제지하는 지도자, 장막·기둥·배경 인물 보존."
+    },
+    {
+      "old": "psalms-c119-v175-175-right-context-v1.jpg",
+      "new": "psalms-c119-v175-175-right-context-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "e4a6357eebfba6700c71f604f2ee9f52b6454277d6cebf00ea9842ecb3718aaa",
+      "sha256": "6da56f6c9d95c1cb050371c4f63905aa638920d55e356bd40c66f34ffb6c813b",
+      "generationMode": "fresh",
+      "inspection": "겹친 두 팔을 단순한 침상 자세로 새로 구성. 남자의 오른손은 가슴, 왼손은 담요 옆, 서로 다른 어깨·소매에서 연결. 여성 한 손은 어깨, 다른 손은 자기 옆. 손가락·머리/목·침상 지지·감사 기도와 돌봄 확인."
+    },
+    {
+      "old": "proverbs-c021-v005-005-right-context-v1.jpg",
+      "new": "proverbs-c021-v005-005-right-context-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "61d4ee6d7d4aeedf3b6135c050b0f0562cf6e815e7a2939d590ffec76f13fb03",
+      "sha256": "e23a741b266ef75786a2a6b5b09975360a7a118240b959ad529c5d61f3d2fc6b",
+      "generationMode": "edit",
+      "inspection": "머리 근처에서 내려오는 혼란스러운 추와 줄 제거. 두 손은 석재를 지지하며 정상 연결, 바닥 석재와 배경 크레인 밧줄 지지 확인. 부지런한 기초공사 의미 보존."
+    },
+    {
+      "old": "1samuel-171-right-v1.jpg",
+      "new": "1samuel-171-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "5c6d5a53b7b38c5b4a81d686c75709f3b7d6e35588a18bfd8a031ab83cec5039",
+      "sha256": "9d1c2f7b25bfafdf0a1874335edf7f90bad7133ead382154e1f87b2f68fe3b07",
+      "generationMode": "edit",
+      "inspection": "벽에 박힌 창의 자유 끝 금속 날을 나무 꼬리로 수정, 오른쪽 창끝은 벽 안에 숨겨짐. 창과 다윗 몸은 분리, 다윗 도피·사울·밤·수금 유지. 팔·다리·문턱 접지 확인."
+    },
+    {
+      "old": "1samuel-185-right-v1.jpg",
+      "new": "1samuel-185-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "088073dda7e9b34adc5a4a7d30c238ab93ffa620663a26048bcd1c8bf97415b0",
+      "sha256": "1c895006f483db5197c6ac0b44de42ed48835afba1e2db9cbb5c4e484f757554",
+      "generationMode": "edit",
+      "inspection": "아이의 짐을 어깨끈으로 지지하고 뒤로 꺾인 팔 자세를 풀어 정상 보행. 양팔 각각 어깨와 연결, 손·팔꿈치·목·발 접지와 끈·화살집 중력 확인, 요나단 얼굴/자세 유지."
+    },
+    {
+      "old": "proverbs-c011-v012-012-right-context-v1.jpg",
+      "new": "proverbs-c011-v012-012-right-context-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "f93cc4f2aa2e94a6a5816a7158b2afdd08a86df07a187005ca3a84c4e2c1622a",
+      "sha256": "57c037c46fcbaca648923877ec52f70d422b1fd1d16e4268c8af01626b79c785",
+      "generationMode": "edit",
+      "inspection": "배경 지나가는 인물의 어색한 높은 손을 내림. 두 팔은 자기 옆, 전경 두 인물의 손/발과 위로·침묵 장면 유지. 군중과 거리·건축·광량 보존."
+    },
+    {
+      "old": "matthew-113-right-v1.jpg",
+      "new": "matthew-113-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "1a26c7b066cbc4772e3f6ddb22f9161ec53e7d1e2974f10551f584b5af67ce2c",
+      "sha256": "41c12070884b0c2bd34d00414f62e60dc0b3acc6897dd5651aa31992e402af83",
+      "generationMode": "edit",
+      "inspection": "오른쪽 배경 터번 인물 녹색 얼굴을 자연스러운 피부로 수정. 다른 얼굴과 인원, 전경 두 손의 바구니 지지·빵/생선 보존. 얼굴 범위를 확대하여 녹색 번짐 소멸 확인."
+    },
+    {
+      "old": "matthew-197-right-v1.jpg",
+      "new": "matthew-197-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "1e0904c8199b57225d4f4f8b19fa0844ed6402647ba790bfdee37f20c30a082a",
+      "sha256": "ab88b0f0a6512d50733d173f4675933b6bf079aeeee9a791ff2f102bd39ebe11",
+      "generationMode": "edit",
+      "inspection": "대제사장 녹색 피부를 자연스러운 노년 피부로 수정. 수염·눈·머리장식·앉은 자세 유지. 증인 양손과 공회 인물·밤 등불 유지, 예수는 뒷모습으로 얼굴 미노출."
+    },
+    {
+      "old": "luke-124-right-v1.jpg",
+      "new": "luke-124-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "7e409ffa631db71679175837216ba0d5122b32598d3c1f1035d35430187c4fda",
+      "sha256": "3aa3de52602fb8e3ab2a75e2f6ab26d47b66fd22a3149e4aadf8e5ebe473145b",
+      "generationMode": "edit",
+      "inspection": "원본 가지 위 참새 여섯 중 중앙 한 마리 제거하여 정확히 다섯 마리. 각 발은 가지에 지지, 숨은 추가 새 없음. 일반 성인 얼굴·목·어깨 및 풍경 보존."
+    },
+    {
+      "old": "2john-007-right-v1.jpg",
+      "new": "2john-007-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "356209168e5261888c75716789edf552d55f755356f35aa06340fd7a371adfee",
+      "sha256": "f4fa369aa96794fe94ae08862c3320d6b857507cdf705df6c765b6cd7bd818d1",
+      "generationMode": "edit",
+      "inspection": "삼각 덮개 봉투를 끈으로 묶은 파피루스 두루마리로 변경. 받는 여성 두 손과 전달자 손은 별도 소매 연결, 두루마리 양끝 지지. 문안과 얼굴·의복·주변 사람 보존."
+    },
+    {
+      "old": "1corinthians-053-right-v1.jpg",
+      "new": "1corinthians-053-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "422abc3d19a7012cc655cf6a2f648832207c8f47b8b88181bdf78d9f9d1e2629",
+      "sha256": "586592e53a4c8fdb6a66b1b7b7857cbbab6218950be9597f7b0616a6cf565497",
+      "generationMode": "edit",
+      "inspection": "현대 서류가방을 땅에 놓인 고대 천 주머니로 교체. 바닥 접촉/그림자, 먹는 두 성인 각각 두 손·빵 지지와 발 확인. 먹고 마실 권리 장면과 풍경 보존."
+    },
+    {
+      "old": "2corinthians-088-right-v1.jpg",
+      "new": "2corinthians-088-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "83bb0dd7b3029e0048b458cafbbfdb4a0843b6e7ae805e3743d1490657e402cb",
+      "sha256": "042c5e35877da7c177eeeff7a349294d5b112c25ce5113a7e1114b0802796749",
+      "generationMode": "edit",
+      "inspection": "금속 키스락 지갑을 가죽 끈주머니로 교체. 주머니와 동전은 탁자에 접촉, 나누는 그릇에 여성 두 손·남성 두 손이 각 소매에 연결. 여타 인물·음식·항구 보존."
+    },
+    {
+      "old": "matthew-045-right-v1.jpg",
+      "new": "matthew-045-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "13a480a4062dcad05cc78ad5076e4cedef70403b92fa06ee5a94553de19d85a8",
+      "sha256": "969c799347e9814f248517132ac31a4931e02b6059ffe53fbfd2b6658aaef304",
+      "generationMode": "fresh",
+      "inspection": "첫 편집에서 노인의 어깨 손이 추가로 나타나 탈락. 원본 얼굴만 잘라 정체성 참조로 쓰고, 두 사람과 두 손씩 분리된 구도로 새로 생성. 실제 최종본을 재검수해야 함. 최종 재생성: 노인 두 손은 각 무릎에 따로, 청년 두 손은 망치와 문 지지에 따로 연결. 전신과 실제 최종 손 확대 검수, 소매·팔꿈치·어깨·목·도구·문/벤치 접지 정상. 세 번째 손 없고 두 얼굴 정체성 유지, 신/예수 아님."
+    },
+    {
+      "old": "1corinthians-046-right-v1.jpg",
+      "new": "1corinthians-046-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "aa3ffbfd1b27c5bfab2ae3cd915c588619cbc551607a8b53df8bcd87f19967a2",
+      "sha256": "6cb0b80816bc902387ca02e818a85aa7bd324ef5f8206029ae4e92c64eb86a7c",
+      "generationMode": "edit",
+      "inspection": "노인의 아래 손을 자신의 무릎에 둬 중앙 남자의 맞잡은 두 손과 분리. 노인 위 손 다섯 손가락과 소매 연결, 중앙 두 손 교차는 정상. 세 얼굴·경청하는 여성·탁자·풍경 유지."
+    },
+    {
+      "old": "hebrews-083-right-v1.jpg",
+      "new": "hebrews-083-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "6d71bfe19a8ecfc5b4be57e947ba1616b4942e3b77df578e6dfdb79ecfc14bcb",
+      "sha256": "2a9390b844ff1f2b08292e3df173a5da3cc1c023d9f214195911570116dce935",
+      "generationMode": "edit",
+      "inspection": "축복받는 네 명의 모호함을 두 명으로 정리. 야곱은 지팡이 한 손과 머리 축복 한 손, 앞의 흰옷/줄무늬 두 아들만 무릎 꿇음. 옷·무릎·발·목 연결 및 시대 공간 유지."
+    },
+    {
+      "old": "acts-173.jpg",
+      "new": "acts-173-feedback-20261012-v1.jpg",
+      "originalSha256": "6a254846b3c4b90565b315cc787e20991eeeff1a1eb4e7f99ebea76f712b71c7",
+      "sha256": "ada2b1086d866e1467ba633abb1bff2cf40d6f9e2def8c25f23239f9a7242268",
+      "generationMode": "edit",
+      "inspection": "아테네 파르테논처럼 읽히는 먼 신전을 예루살렘 석회암 주거와 성벽으로 교체. 바울·장로들의 얼굴/손·짐·환영 장면 유지. 인물과 전경 건물 변화 없음."
+    },
+    {
+      "old": "matthew-175-right-v1.jpg",
+      "new": "matthew-175-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "3020703422fbae2ae8d9c86cd0860089ea01a4821703a380928ec0866162b87d",
+      "sha256": "41b872d8c38e9d32a69f10a98e32c0950880c5d54969688b8e47ef20a11d4e99",
+      "generationMode": "edit",
+      "inspection": "해·달의 식별 가능한 원반을 어둡게 하고 태양빛 줄기를 제거. 가운데 영광 구름의 희미한 비태양 광채는 30절 문맥으로 유지. 사람 수/몸·돌 접지·땅 광량 확인."
+    },
+    {
+      "old": "mark-104-right-v1.jpg",
+      "new": "mark-104-right-v1-feedback-20261012-v1.jpg",
+      "originalSha256": "1a583542cd8f49ce40737dc25e4394415e35fbcd9cf2182e04a10462ee0e2d3e",
+      "sha256": "27cde61e37e775f952a6f765bb5e715cc097bdf6be65f9f654ad8c59fb5cc20a",
+      "generationMode": "edit",
+      "inspection": "왼쪽 지평선 해와 오른쪽 달 원반을 어둡게 하고 수면 햇빛 반사 제거. 26절 구름 영광의 희미한 빛은 비태양 표현으로 구별. 관찰자 손·머리·옷·자세 보존."
+    },
+    {
+      "old": "jude-004-right-v3.jpg",
+      "new": "jude-004-right-v3-feedback-20261012-v1.jpg",
+      "originalSha256": "f1c66342d96066e6d4510afe4b6a30fa383baf0167668620b063d82c30de0b24",
+      "sha256": "a41a0953cc72744897425bdd2607738a4d7d2981d1fe3a058a1d0f3621ac437a",
+      "generationMode": "fresh",
+      "inspection": "밝은 해안 대신 흑암/결박을 나타내는 어두운 석실·잠긴 쇠문·고정된 쇠사슬의 상징 구도로 새로 생성. 천사/신체를 임의로 추가하지 않음. 벽 고리·문 고리·연속 사슬 링크와 바닥 두루마리 접지 검수."
+    },
+    {
+      "old": "acts-context-031.jpg",
+      "new": "acts-context-031-feedback-20261012-v1.jpg",
+      "originalSha256": "22d46db07eb22cef638af7f9f3e360d42b7f8e9c8388e38e1b81e555afad1cf9",
+      "sha256": "dd1002cb4aa106cccd9a60b3d9dd0834857bd4cb4417d5a47caa18aa86ceb629",
+      "generationMode": "edit",
+      "inspection": "창/문/배경의 콜로세움 실루엣을 고대 저층 지붕으로 교체. 바울과 모든 전경 인물·손·쇄사슬/창·의자/탁자·발 접지·얼굴 수·광량은 유지. 새 돔/랜드마크/워터마크 없음. https://colosseo.it/en/event/blood-and-the-arena/ 에서 개장80AD 확인."
+    },
+    {
+      "old": "acts-225.jpg",
+      "new": "acts-225-feedback-20261012-v1.jpg",
+      "originalSha256": "fa7891529dc871a7824a6820c754ddf451148ef6de30e71e51fd3381a56eb4fa",
+      "sha256": "eb39451352cb9f10f3ac057e2959be2436a5cc560248895f679ebc482da59c5a",
+      "generationMode": "edit",
+      "inspection": "창/문/배경의 콜로세움 실루엣을 고대 저층 지붕으로 교체. 바울과 모든 전경 인물·손·쇄사슬/창·의자/탁자·발 접지·얼굴 수·광량은 유지. 새 돔/랜드마크/워터마크 없음. https://colosseo.it/en/event/blood-and-the-arena/ 에서 개장80AD 확인."
+    },
+    {
+      "old": "acts-context-032.jpg",
+      "new": "acts-context-032-feedback-20261012-v1.jpg",
+      "originalSha256": "e2f7ee8034b5e92e9b3b88ea1b695ce6851c2839b62157198c90c0b90306d6ed",
+      "sha256": "710b35574dd949360b5bba8acfe7bd6d02d40d523d5b16670f8527c4a3d9d28b",
+      "generationMode": "edit",
+      "inspection": "창/문/배경의 콜로세움 실루엣을 고대 저층 지붕으로 교체. 바울과 모든 전경 인물·손·쇄사슬/창·의자/탁자·발 접지·얼굴 수·광량은 유지. 새 돔/랜드마크/워터마크 없음. https://colosseo.it/en/event/blood-and-the-arena/ 에서 개장80AD 확인."
+    },
+    {
+      "old": "acts-227.jpg",
+      "new": "acts-227-feedback-20261012-v1.jpg",
+      "originalSha256": "b0da559a8d94b9d39e03e4a85a93526095a932b4b878a6ffa66462ef642673ec",
+      "sha256": "5391e99917a49634c151cd31b7efb64da9991172be8e6ac14ea3a1cdb254064e",
+      "generationMode": "edit",
+      "inspection": "창/문/배경의 콜로세움 실루엣을 고대 저층 지붕으로 교체. 바울과 모든 전경 인물·손·쇄사슬/창·의자/탁자·발 접지·얼굴 수·광량은 유지. 새 돔/랜드마크/워터마크 없음. https://colosseo.it/en/event/blood-and-the-arena/ 에서 개장80AD 확인."
+    },
+    {
+      "old": "acts-224.jpg",
+      "new": "acts-224-feedback-20261012-v1.jpg",
+      "originalSha256": "940bdedd80f056692437fd3b2a52e311013a3df34bbb4a16c1e4c2cd9adb70cc",
+      "sha256": "8c4ddaebb79ddccb1bb25cd01c1c615ba5294564e1f2752488728a7a4412954d",
+      "generationMode": "edit",
+      "inspection": "창/문/배경의 콜로세움 실루엣을 고대 저층 지붕으로 교체. 바울과 모든 전경 인물·손·쇄사슬/창·의자/탁자·발 접지·얼굴 수·광량은 유지. 새 돔/랜드마크/워터마크 없음. https://colosseo.it/en/event/blood-and-the-arena/ 에서 개장80AD 확인."
+    }
+  ],
+  "preservation": "25 image replacements only. All existing images retained on CDN; no Scripture, translations or application changes."
+}
