@@ -76,6 +76,15 @@
           "value": "*"
         }
       ]
+    },
+    {
+      "source": "/release.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
     }
   ],
   "redirects": [
@@ -107,5 +116,6 @@
       "destination": "/share/:sharedBook/:sharedChapter/:sharedVerse",
       "permanent": false
     }
-  ]
+  ],
+  "ignoreCommand": "node scripts/ignore-record-only-build.mjs"
 }

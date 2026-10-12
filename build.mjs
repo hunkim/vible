@@ -1,3 +1,4 @@
+import {releaseIdentity} from './scripts/release-identity.mjs';
 import fs from 'node:fs/promises';
 import {constants as fsConstants} from 'node:fs';
 import path from 'node:path';
@@ -82,3 +83,6 @@ for(const lang of languages){
  }
  await fs.writeFile(path.join(output,`data/search/${lang}.json`),JSON.stringify(createSearchIndex(translated,lang)));
 }
+
+// Public release identity lets release checks verify the actual Git-built site.
+if(!native)await fs.writeFile(path.join(output,'release.json'),JSON.stringify(releaseIdentity()));
