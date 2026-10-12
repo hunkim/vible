@@ -1,9 +1,9 @@
 {
   "date": "2026-10-12",
   "production": "https://vible.now",
-  "deployment": "https://vible-8yfzyby7u-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_EQauVBougFFbGoqwwnPqMDW13yuK",
-  "newImageFiles": 35,
+  "deployment": "https://vible-4f1kzvl4c-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_93AcoQUnzSHsRN5hXaSNwmq3BY6L",
+  "newImageFiles": 213,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -27,7 +27,8 @@
     "ecclesiastes": 68,
     "daniel": 83,
     "jonah": 33,
-    "lamentations": 35
+    "lamentations": 35,
+    "jeremiah": 213
   },
   "releaseConfig": {
     "leviticus": 236,
@@ -80,7 +81,8 @@
     "psalm150FriendAndGitWorkflow": "Approved finale v4 preserves existing worshippers and adds friend in ancient clothing; exact CDN SHA-256 verified. Required npm check stages and offline check passed (initial build retried after temporary disk exhaustion). All 256 original data files preserved except approved image name. KO/EN/JA/ZH live mobile image, PNG cards, continue-reading and private admin verified. Preflight verified 3118 Git archive files and latest main. Production release.json equals source SHA. Git-only deployment and metadata-only skip guards tested.",
     "sharedCardCacheVersion": "Full npm run check and check-offline passed from Git archive. Card version derives from original filename/SHA-256 and passage; replacement changes only related card URL. Shared pages and unversioned legacy cards no-store; matching versioned cards cached. Existing CDN cache purged once for migration. KO/EN/JA/ZH live versioned card equals freshly rendered PNG byte-for-byte, original version response header and no-store headers verified. All content and approved finale v4 preserved.",
     "nativeImageDisplay": "App code: scene images load from the network immediately in store apps (offline copy saved after display, used on failure); slow loads dim the previous picture. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; deployed by Vercel Git integration. Live: release.json sourceCommit matches, new app.js/style.css, share page 200, books.json 200, admin 401. Verified in Mac app: Job to Psalms switch shows the new picture at once.",
-    "lamentations": "Lamentations (35/35 scenes, 154 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; identical versification, no combined verses. 35 CDN files byte-verified. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; deployed by Vercel Git integration. Live: release.json sourceCommit matches, data 35 images, en/ja/zh, books.json includes it, share pages ko/en/ja/zh incl. 3:22-23, ja card 200, admin 401."
+    "lamentations": "Lamentations (35/35 scenes, 154 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; identical versification, no combined verses. 35 CDN files byte-verified. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; deployed by Vercel Git integration. Live: release.json sourceCommit matches, data 35 images, en/ja/zh, books.json includes it, share pages ko/en/ja/zh incl. 3:22-23, ja card 200, admin 401.",
+    "jeremiah": "Jeremiah (213/213 scenes, 1364 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; 11 OpenCCB combined verses kept as ranges; KRV 21:2 source text is the edition marker [1절과 같음] as in Acts. 213 CDN files byte-verified. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; deployed by Vercel Git integration. Live: release.json sourceCommit matches, data 213 images, en/ja/zh, books.json, share pages ko/en/ja/zh incl. 31:31-34, 8:22-9:1 and zh 43:5-7, zh card 200, admin 401."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 51,
@@ -97,7 +99,7 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "52b5c89d8efbd64295f2cdcc123d8f5442cdcb3c",
+  "gitCommit": "832b9f0163fb896eec68e056bd4793c43c5e9e83",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
@@ -105,7 +107,7 @@
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
   "frozenSource": "/private/tmp/vible-release-3b6674c2f9c8",
-  "sourceCommit": "52b5c89d8efbd64295f2cdcc123d8f5442cdcb3c",
+  "sourceCommit": "832b9f0163fb896eec68e056bd4793c43c5e9e83",
   "latestFeedbackRelease": {
     "date": "2026-10-12",
     "correctedImages": 25,
