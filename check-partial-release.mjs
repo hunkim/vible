@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import {releaseData} from './release-data.mjs';
 const read=file=>JSON.parse(fs.readFileSync(new URL(file,import.meta.url),'utf8'));
 const partial=read('./partial-release.json'),hosting=read('./asset-hosting.json');if(process.env.VIBLE_ASSET_ORIGIN!==undefined)hosting.origin=process.env.VIBLE_ASSET_ORIGIN;
-const metadata=[...read('./epistles-books.json'),...read('./pentateuch-books.json'),...read('./psalms-books.json'),...read('./proverbs-books.json'),...read('./songofsongs-books.json'),...read('./1chronicles-books.json'),...read('./2chronicles-books.json'),...read('./ezra-books.json'),...read('./nehemiah-books.json'),...read('./esther-books.json'),...read('./job-books.json'),...read('./ecclesiastes-books.json'),...read('./daniel-books.json'),...read('./jonah-books.json'),...read('./historical-books.json')];
+const metadata=[...read('./epistles-books.json'),...read('./pentateuch-books.json'),...read('./psalms-books.json'),...read('./proverbs-books.json'),...read('./songofsongs-books.json'),...read('./1chronicles-books.json'),...read('./2chronicles-books.json'),...read('./ezra-books.json'),...read('./nehemiah-books.json'),...read('./esther-books.json'),...read('./job-books.json'),...read('./ecclesiastes-books.json'),...read('./daniel-books.json'),...read('./jonah-books.json'),...read('./lamentations-books.json'),...read('./historical-books.json')];
 for(const book of metadata){
  const source=read(`./data/${book.id}.json`),released=releaseData(book.id,source);
  const config=partial[book.id]??source.sceneCount,count=typeof config==='number'?config:config.count,withheld=new Set(typeof config==='number'?[]:config.withheld||[]);

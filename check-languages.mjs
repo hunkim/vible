@@ -18,7 +18,7 @@ assert.throws(()=>applyTranslation(base,fixture('ja'),'en'),/language mismatch/)
 const root=await fs.mkdtemp(path.join(os.tmpdir(),'vible-language-tests-'));
 try{
  await fs.mkdir(path.join(root,'data'),{recursive:true});await fs.writeFile(path.join(root,'data/john.json'),JSON.stringify(base));
- for(const name of ['asset-hosting.json','languages.js','bible-books.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','proverbs-books.json','songofsongs-books.json','1chronicles-books.json','2chronicles-books.json','ezra-books.json','nehemiah-books.json','esther-books.json','job-books.json','ecclesiastes-books.json','daniel-books.json','jonah-books.json','historical-books.json','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','1chronicles-catalog.js','2chronicles-catalog.js','ezra-catalog.js','nehemiah-catalog.js','esther-catalog.js','job-catalog.js','ecclesiastes-catalog.js','daniel-catalog.js','jonah-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
+ for(const name of ['asset-hosting.json','languages.js','bible-books.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','proverbs-books.json','songofsongs-books.json','1chronicles-books.json','2chronicles-books.json','ezra-books.json','nehemiah-books.json','esther-books.json','job-books.json','ecclesiastes-books.json','daniel-books.json','jonah-books.json','lamentations-books.json','historical-books.json','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','1chronicles-catalog.js','2chronicles-catalog.js','ezra-catalog.js','nehemiah-catalog.js','esther-catalog.js','job-catalog.js','ecclesiastes-catalog.js','daniel-catalog.js','jonah-catalog.js','lamentations-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
  await fs.writeFile(path.join(root,'package.json'),JSON.stringify({type:'module'}));
  const {selection,shareParams}=await import(pathToFileURL(path.join(root,'share-data.mjs')));
  assert.throws(()=>selection(shareParams(new URL('https://vible.now/share/john/1/1?lang=en'))),/not available/);
@@ -47,13 +47,13 @@ assert.throws(()=>actualSelection(new URLSearchParams({book:'john',chapter:'5',v
 console.log('All catalogued real translations, translation attribution, combined verse sharing and modern omissions verified.');
 
 for(const lang of ['en','ja','zh']){
- assert.equal(actualCatalog[lang].books.length,51);
+ assert.equal(actualCatalog[lang].books.length,52);
  const closing=actualSelection(new URLSearchParams({book:'leviticus',chapter:'27',verse:'34',lang}));assert.equal(closing.lang,lang);assert(closing.text.trim());
  const psalm=actualSelection(new URLSearchParams({book:'psalms',chapter:'50',verse:'15',lang}));assert.equal(psalm.lang,lang);assert(psalm.text.trim());
 }
 const greeting=actualSelection(new URLSearchParams({book:'3john',chapter:'1',verse:'15',lang:'en'}));assert.equal(greeting.reference,'3 John 1:14–15');assert.match(greeting.text,/Peace to you/);
 const jpRange=actualSelection(new URLSearchParams({book:'numbers',chapter:'15',verse:'5',lang:'ja'}));assert.equal(jpRange.reference,'民数記 15:4–5');assert(jpRange.text.trim());
-console.log('All 153 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
+console.log('All 156 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
 
 for(const lang of ['ko','en','ja','zh']){const p=actualSelection(new URLSearchParams({book:'proverbs',chapter:'31',verse:'31',lang}));assert.equal(p.lang,lang);assert(p.text.trim());}
 const proverbBridge=actualSelection(new URLSearchParams({book:'proverbs',chapter:'26',verse:'19',lang:'zh'}));assert.equal(proverbBridge.reference,'箴言 26:18–19');assert(proverbBridge.text.trim());
@@ -83,3 +83,16 @@ for(const [book,lang,chapter,verse,reference] of [['1chronicles','ja',16,13,'歴
 // English versification boundaries match KRV in every edition (e.g. Jonah 1:17 fish, Daniel 4:1 decree, Ecclesiastes 5:1, Nehemiah 4:1, 1 Chronicles 6:1).
 for(const [book,chapter,verse,pattern] of [['jonah',1,17,{en:/great fish/,ja:/魚/,zh:/大鱼/}],['daniel',4,1,{en:/Nebuchadnezzar/,ja:/ネブカデネザル/,zh:/尼布甲尼撒/}],['nehemiah',4,1,{en:/Sanballat/,ja:/サンバラテ/,zh:/参巴拉/}],['1chronicles',6,1,{en:/Levi/,ja:/レビ/,zh:/利未/}],['ecclesiastes',5,1,{en:/house of God/,ja:/神の宮/,zh:/上帝的殿/}]])for(const lang of ['en','ja','zh'])assert.match(actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} ${book} ${chapter}:${verse}`);
 console.log('Chronicles–Esther, Job, Ecclesiastes, Daniel and Jonah: four-language final verses, shared ranges, edition bridges, versification boundaries and attribution verified.');
+
+// Lamentations: five acrostic poems (22/22/66/22/22) with the same verse boundaries in all four editions; no bridges or omissions.
+for(const [lang,name] of [['ko','예레미야애가'],['en','Lamentations'],['ja','哀歌'],['zh','耶利米哀歌']]){
+ if(lang!=='ko')assert(actualCatalog[lang].books.includes('lamentations'),`${lang} lamentations`);
+ for(const [chapter,count] of [[1,22],[2,22],[3,66],[4,22],[5,22]]){
+  const last=actualSelection(new URLSearchParams({book:'lamentations',chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
+  assert.throws(()=>actualSelection(new URLSearchParams({book:'lamentations',chapter:String(chapter),verse:String(count+1),lang})));
+ }
+ const mercies=actualSelection(new URLSearchParams({book:'lamentations',chapter:'3',verse:'22',endChapter:'3',endVerse:'23',lang}));assert.equal(mercies.lang,lang);assert.equal(mercies.reference,`${name} 3:22–23`);assert.equal(mercies.verses.length,2);
+ assert.match(mercies.text,{ko:/아침마다 새로우니/,en:/new every morning/,ja:/朝ごとに新しく/,zh:/每天早晨/}[lang]);
+ if(lang!=='ko')assert(mercies.attribution&&shareHTML(mercies).includes(mercies.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} lamentations attribution`);
+}
+console.log('Lamentations: four-language chapter-final verses (22/22/66/22/22), shared range 3:22–23 and attribution verified.');

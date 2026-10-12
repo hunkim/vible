@@ -94,3 +94,11 @@ assert.notEqual(cardVersion(psalm),cardVersion({...psalm,image:'psalms-c150-v006
 assert.notEqual(cardVersion(psalm),cardVersion({...psalm,text:psalm.text+'!'}));
 assert.equal(cardVersion(psalm),cardVersion({...psalm}));
 console.log('Shared card identity changes with original image or Scripture; stable passage links preserved.');
+for(const [lang,name] of [['ko','예레미야애가'],['en','Lamentations'],['ja','哀歌'],['zh','耶利米哀歌']]){
+ const shared=pick(`/share/lamentations/1/1${lang==='ko'?'':`?lang=${lang}`}`),page=shareHTML(shared);
+ assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,'lamentations-c001-v001-003-right-context-v1.jpg');assert(page.includes(shared.text));assert(page.includes('book=lamentations'));
+ if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} lamentations attribution`);
+ const range=pick(`/share/lamentations/3/22/3/23${lang==='ko'?'':`?lang=${lang}`}`);assert.equal(range.reference,`${name} 3:22–23`);assert.equal(range.image,'lamentations-c003-v019-024-right-context-v1.jpg');assert(shareHTML(range).includes(range.text));
+}
+const lamentCross=pick('/share/lamentations/2/22/3/1?lang=en');assert.equal(lamentCross.reference,'Lamentations 2:22–3:1');assert.match(lamentCross.text,/affliction/);
+console.log('Lamentations share pages render in all four languages with attribution, a shared range and a cross-chapter range.');

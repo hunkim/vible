@@ -36357,6 +36357,146 @@
     "psalms-c150-v006-006-right-context-finale-v4.jpg": {
       "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a",
       "bytes": 482221
+    },
+    "lamentations-c001-v001-003-right-context-v1.jpg": {
+      "sha256": "408d8a7634d508227a05b150217f95e6ffe101d27397afaaebc583f4ae776f70",
+      "bytes": 558806
+    },
+    "lamentations-c001-v004-006-right-context-v1.jpg": {
+      "sha256": "b8615556923e82e6a086f8e8365aaf3b543ac0223be4d4de97a65f4d846cf8aa",
+      "bytes": 536658
+    },
+    "lamentations-c001-v007-011-right-context-v1.jpg": {
+      "sha256": "3f3fbedcee7f0d1e2ed4162242246c3fbb6f243dc27d6f7256fb0f802596198d",
+      "bytes": 433282
+    },
+    "lamentations-c001-v012-015-right-context-v1.jpg": {
+      "sha256": "1d99c620dc1a352fe5e0f24178d60fd2d16f4eb491a2262aabfe37b93497c2c4",
+      "bytes": 437604
+    },
+    "lamentations-c001-v016-017-right-context-v1.jpg": {
+      "sha256": "7e8c3bc3e537425895f5904ca599332981a8abbdf9ec249b3f6b53585082b745",
+      "bytes": 447141
+    },
+    "lamentations-c001-v018-022-right-context-v1.jpg": {
+      "sha256": "208e8acd04df15c10fc98b0eaac66bdca3503235c6c1be3b0e8a21943e6bde4f",
+      "bytes": 544208
+    },
+    "lamentations-c002-v001-005-right-context-v1.jpg": {
+      "sha256": "0a239098d5edf1b6721a2a800ce333d595815e09d921b451de0baf6860418446",
+      "bytes": 449272
+    },
+    "lamentations-c002-v006-009-right-context-v1.jpg": {
+      "sha256": "fb2a684633690f4e82e8c7eea0fa815fbbec5ece07863993b731297ba8c6cc66",
+      "bytes": 578244
+    },
+    "lamentations-c002-v010-010-right-context-v1.jpg": {
+      "sha256": "f9563597936b118809b33fb8747950bde7106fd30babf2fa164cce2b10d57c92",
+      "bytes": 569490
+    },
+    "lamentations-c002-v011-013-right-context-v1.jpg": {
+      "sha256": "2b4fa056ba3b6f844285d1763ee510682f35a407da14cb7d1ffb078595df6f41",
+      "bytes": 501085
+    },
+    "lamentations-c002-v014-017-right-context-v1.jpg": {
+      "sha256": "120256f259090b22d14a3b80875994a6ef5819baf7a70e8a14e59a9ad9934e93",
+      "bytes": 402833
+    },
+    "lamentations-c002-v018-019-right-context-v1.jpg": {
+      "sha256": "7eecc20778f8f48be97a274000f87222f53bf253cbfbcc703b5cb119880b26ee",
+      "bytes": 348887
+    },
+    "lamentations-c002-v020-022-right-context-v1.jpg": {
+      "sha256": "39bb0a9864030450b9058e1d63189f3420fbf2d1cb051fcb164aaf0da3072990",
+      "bytes": 582532
+    },
+    "lamentations-c003-v001-006-right-context-v1.jpg": {
+      "sha256": "bd72e813ca38ef9a3eb431bac5139b713b6a888a92389a5d3f5871f4ba7a73b9",
+      "bytes": 448054
+    },
+    "lamentations-c003-v007-012-right-context-v1.jpg": {
+      "sha256": "07fa61bf1ed5a47fdd685e03349323a8c032f2c16f260dc73c1339106d61f26b",
+      "bytes": 555948
+    },
+    "lamentations-c003-v013-018-right-context-v1.jpg": {
+      "sha256": "b3b9c07a119d198b360cd9e346cd5f7c31eed6d83c28bd42ebd399b4a688afe4",
+      "bytes": 428225
+    },
+    "lamentations-c003-v019-024-right-context-v1.jpg": {
+      "sha256": "77b12ca481b44c33c18ce2da191239c7885183142fd935bd6ca9f5b5ed71c693",
+      "bytes": 471051
+    },
+    "lamentations-c003-v025-030-right-context-v1.jpg": {
+      "sha256": "07650d93bffc6a462cabc35a1ecb230278ffc19850d6de36cc6d48a62a3dbf04",
+      "bytes": 409910
+    },
+    "lamentations-c003-v031-033-right-context-v1.jpg": {
+      "sha256": "7ca43f632e2e4caccd1db1dd10de465ced834f8881bcd130cab0bdb9b811ba3b",
+      "bytes": 465395
+    },
+    "lamentations-c003-v034-039-right-context-v1.jpg": {
+      "sha256": "34a754f691b610929e84d53615ce47a4df2469640240e6c290fc5d6b2fa63014",
+      "bytes": 417676
+    },
+    "lamentations-c003-v040-042-right-context-v1.jpg": {
+      "sha256": "922f49d3cadd8b3dbcfa4b325ee0b64453e19ded91995cb5f6b92fab242fe7e1",
+      "bytes": 474503
+    },
+    "lamentations-c003-v043-051-right-context-v1.jpg": {
+      "sha256": "b10154185c616b90c31165513374f9d82ea24ebdb4f5b47b6307f3a8e2a47eb3",
+      "bytes": 451524
+    },
+    "lamentations-c003-v052-057-right-context-v1.jpg": {
+      "sha256": "fbc41366a3d78ef01e357f45503f1aff0ad7db167e2f7fae82762ddeb5dbf21f",
+      "bytes": 492392
+    },
+    "lamentations-c003-v058-066-right-context-v1.jpg": {
+      "sha256": "cdc49c893c61713f3c20aa511dd9dce88f1b21b292f9591adad58d7adb931580",
+      "bytes": 460076
+    },
+    "lamentations-c004-v001-002-right-context-v1.jpg": {
+      "sha256": "f93f5e9466fd9c44b9ba3dfc5e4f3309e8ed12cee3d07e8aa0c3139a7d6cd402",
+      "bytes": 473423
+    },
+    "lamentations-c004-v003-006-right-context-v1.jpg": {
+      "sha256": "84c4da09f66043e2dca7c10653928e3ddb0b41b133b7fa445fb0d40fdb426e76",
+      "bytes": 486901
+    },
+    "lamentations-c004-v007-012-right-context-v1.jpg": {
+      "sha256": "e68c00e0b560d2639c0d170ea2dce12bedfa1df663457bbad4dd8397a2fda9eb",
+      "bytes": 500012
+    },
+    "lamentations-c004-v013-016-right-context-v1.jpg": {
+      "sha256": "3d2903ea92415a303bf5853379511d9ab718cb60a42feb7b57ba0b938a0eb65b",
+      "bytes": 533707
+    },
+    "lamentations-c004-v017-020-right-context-v1.jpg": {
+      "sha256": "d6743b04ccd05dbefe1234c44fc4c82c86b104fe694440a3d7823f4944790538",
+      "bytes": 419698
+    },
+    "lamentations-c004-v021-022-right-context-v1.jpg": {
+      "sha256": "16099e052b40ce2e31846a1b706bd213b189fbba20087f8b6e3b51c3d562b50f",
+      "bytes": 447934
+    },
+    "lamentations-c005-v001-006-right-context-v1.jpg": {
+      "sha256": "b19e2759a70b9bd205ae0453bdc627d97dd2a80fbe6b7325836071ab36bc5094",
+      "bytes": 493206
+    },
+    "lamentations-c005-v007-010-right-context-v1.jpg": {
+      "sha256": "da5d15aa354aebeb3dcc4d3e92f13a2f44d1d1fda1c8f6d302f54e635653e0c3",
+      "bytes": 487975
+    },
+    "lamentations-c005-v011-014-right-context-v1.jpg": {
+      "sha256": "cdc9641f41be8c28d9d6b48d56636c01df7ccfc9eaf27cb9f8f7d08e999eb2c2",
+      "bytes": 516480
+    },
+    "lamentations-c005-v015-018-right-context-v1.jpg": {
+      "sha256": "d7772c8e94888f7eb1b090220e9176adeda97bcc082ae9b5501f2a9335e5812b",
+      "bytes": 595842
+    },
+    "lamentations-c005-v019-022-right-context-v1.jpg": {
+      "sha256": "f01c79b94179d72943dc370a37d9ba0de147ac50335c6f69e5fa55f0e819011c",
+      "bytes": 517075
     }
   }
 }

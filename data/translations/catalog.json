@@ -51,7 +51,8 @@
       "job",
       "ecclesiastes",
       "daniel",
-      "jonah"
+      "jonah",
+      "lamentations"
     ],
     "licensedBooks": []
   },
@@ -107,7 +108,8 @@
       "job",
       "ecclesiastes",
       "daniel",
-      "jonah"
+      "jonah",
+      "lamentations"
     ],
     "licensedBooks": [
       "john",
@@ -160,7 +162,8 @@
       "job",
       "ecclesiastes",
       "daniel",
-      "jonah"
+      "jonah",
+      "lamentations"
     ]
   },
   "ja": {
@@ -215,7 +218,8 @@
       "job",
       "ecclesiastes",
       "daniel",
-      "jonah"
+      "jonah",
+      "lamentations"
     ],
     "licensedBooks": [
       "john",
@@ -268,7 +272,8 @@
       "job",
       "ecclesiastes",
       "daniel",
-      "jonah"
+      "jonah",
+      "lamentations"
     ]
   },
   "zh": {
@@ -323,7 +328,8 @@
       "job",
       "ecclesiastes",
       "daniel",
-      "jonah"
+      "jonah",
+      "lamentations"
     ],
     "licensedBooks": [
       "john",
@@ -376,7 +382,8 @@
       "job",
       "ecclesiastes",
       "daniel",
-      "jonah"
+      "jonah",
+      "lamentations"
     ]
   }
 }

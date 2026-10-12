@@ -1,0 +1,429 @@
+{
+  "book": "lamentations",
+  "images": [
+    {
+      "id": 1,
+      "image": "lamentations-c001-v001-003-right-context-v1.jpg",
+      "sha256": "408d8a7634d508227a05b150217f95e6ffe101d27397afaaebc583f4ae776f70",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.876339+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Widow-like clothed adult Zion personification, tearful loneliness at ruined gate; deserted city retains aftermath."
+    },
+    {
+      "id": 2,
+      "image": "lamentations-c001-v004-006-right-context-v1.jpg",
+      "sha256": "b8615556923e82e6a086f8e8365aaf3b543ac0223be4d4de97a65f4d846cf8aa",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.878404+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Two adult priests and woman watch empty festival road; worn garments and bright ruined limestone."
+    },
+    {
+      "id": 3,
+      "image": "lamentations-c001-v007-011-right-context-v1.jpg",
+      "sha256": "3f3fbedcee7f0d1e2ed4162242246c3fbb6f243dc27d6f7256fb0f802596198d",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.880015+00:00",
+      "method": "full original PNG and actual contact visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg",
+        "output/lamentations/lamentations-c001-v007-011-original-v1.png"
+      ],
+      "findings": "Full PNG: woman exchanges small ornament for grain/bread, merchant and elderly companion distinct, connected exchange hands."
+    },
+    {
+      "id": 4,
+      "image": "lamentations-c001-v012-015-right-context-v1.jpg",
+      "sha256": "1d99c620dc1a352fe5e0f24178d60fd2d16f4eb491a2262aabfe37b93497c2c4",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.881768+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Adult woman appeals to passing traveler, coherent extended hand and troubled face; grief without literal body destruction."
+    },
+    {
+      "id": 5,
+      "image": "lamentations-c001-v016-017-right-context-v1.jpg",
+      "sha256": "7e8c3bc3e537425895f5904ca599332981a8abbdf9ec249b3f6b53585082b745",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.887051+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Adult woman weeps with two raised palms, solitary broken wall and genuine anguish."
+    },
+    {
+      "id": 6,
+      "image": "lamentations-c001-v018-022-right-context-v1.jpg",
+      "sha256": "208e8acd04df15c10fc98b0eaac66bdca3503235c6c1be3b0e8a21943e6bde4f",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.889303+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Three adult survivors kneel confession, separate hands and worn faces, no triumph."
+    },
+    {
+      "id": 7,
+      "image": "lamentations-c002-v001-005-right-context-v1.jpg",
+      "sha256": "0a239098d5edf1b6721a2a800ce333d595815e09d921b451de0baf6860418446",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.891094+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Ruined walls under pale clouds, grieving adult foreground; no deity body."
+    },
+    {
+      "id": 8,
+      "image": "lamentations-c002-v006-009-right-context-v1.jpg",
+      "sha256": "fb2a684633690f4e82e8c7eea0fa815fbbec5ece07863993b731297ba8c6cc66",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.893128+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Broken buried gate and timber bar, empty temple altar beyond, adult priest mourning."
+    },
+    {
+      "id": 9,
+      "image": "lamentations-c002-v010-010-right-context-v1.jpg",
+      "sha256": "f9563597936b118809b33fb8747950bde7106fd30babf2fa164cce2b10d57c92",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.895043+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Three elderly men seated silently with ash hair and sackcloth, grief in bowed faces; adult women distant."
+    },
+    {
+      "id": 10,
+      "image": "lamentations-c002-v011-013-right-context-v1.jpg",
+      "sha256": "2b4fa056ba3b6f844285d1763ee510682f35a407da14cb7d1ffb078595df6f41",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.896638+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Two adult women with empty vessel/cloth and connected comforting hand, exhausted grief; no suffering child shown."
+    },
+    {
+      "id": 11,
+      "image": "lamentations-c002-v014-017-right-context-v1.jpg",
+      "sha256": "120256f259090b22d14a3b80875994a6ef5819baf7a70e8a14e59a9ad9934e93",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.898163+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Disillusioned adult survivor and departing false prophet, contrast of expressions conveys broken trust."
+    },
+    {
+      "id": 12,
+      "image": "lamentations-c002-v018-019-right-context-v1.jpg",
+      "sha256": "7eecc20778f8f48be97a274000f87222f53bf253cbfbcc703b5cb119880b26ee",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.900120+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Readable pre-dawn woman with two open raised hands at ruined wall, tears and pleading."
+    },
+    {
+      "id": 13,
+      "image": "lamentations-c002-v020-022-right-context-v1.jpg",
+      "sha256": "39bb0a9864030450b9058e1d63189f3420fbf2d1cb051fcb164aaf0da3072990",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.903979+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/001-013-21eb5f7b.jpg"
+      ],
+      "findings": "Two clothed adults wordlessly grieve beside empty mat, restrained unshown loss."
+    },
+    {
+      "id": 14,
+      "image": "lamentations-c003-v001-006-right-context-v1.jpg",
+      "sha256": "bd72e813ca38ef9a3eb431bac5139b713b6a888a92389a5d3f5871f4ba7a73b9",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.905454+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/014-024-b5b0f350.jpg"
+      ],
+      "findings": "Unnamed narrator maintains broad curly face and charcoal wrap, tired grief in shadowed passage."
+    },
+    {
+      "id": 15,
+      "image": "lamentations-c003-v007-012-right-context-v1.jpg",
+      "sha256": "07fa61bf1ed5a47fdd685e03349323a8c032f2c16f260dc73c1339106d61f26b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.907580+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/014-024-b5b0f350.jpg"
+      ],
+      "findings": "Narrator hand on blocking fallen stones, connected forearm, physical blocked path metaphor."
+    },
+    {
+      "id": 16,
+      "image": "lamentations-c003-v013-018-right-context-v1.jpg",
+      "sha256": "b3b9c07a119d198b360cd9e346cd5f7c31eed6d83c28bd42ebd399b4a688afe4",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.909078+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/014-024-b5b0f350.jpg"
+      ],
+      "findings": "Narrator bent at simple table with bitter herb and cup, worn grief; no literal arrow injury."
+    },
+    {
+      "id": 17,
+      "image": "lamentations-c003-v019-024-right-context-v1.jpg",
+      "sha256": "77b12ca481b44c33c18ce2da191239c7885183142fd935bd6ca9f5b5ed71c693",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:45:01.011289+00:00",
+      "method": "full original PNG visual review",
+      "evidencePaths": [
+        "output/lamentations/lamentations-c003-v019-024-original-v1.png"
+      ],
+      "findings": "Actual full PNG: mature unnamed narrator broad curly salt-pepper face, moist eyes and tears with restrained dawning hope; charcoal wrap, ruined city remains, small plant and morning sun, connected clasped hands. Not identified as Jeremiah or author."
+    },
+    {
+      "id": 18,
+      "image": "lamentations-c003-v025-030-right-context-v1.jpg",
+      "sha256": "07650d93bffc6a462cabc35a1ecb230278ffc19850d6de36cc6d48a62a3dbf04",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.910442+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/014-024-b5b0f350.jpg"
+      ],
+      "findings": "Young adult waiting alone on dusty ground, bowed face, age distinct from narrator."
+    },
+    {
+      "id": 19,
+      "image": "lamentations-c003-v031-033-right-context-v1.jpg",
+      "sha256": "7ca43f632e2e4caccd1db1dd10de465ced834f8881bcd130cab0bdb9b811ba3b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.912179+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/014-024-b5b0f350.jpg"
+      ],
+      "findings": "Narrator gently comforts adult woman, connected shoulder hand and sorrowful expressions."
+    },
+    {
+      "id": 20,
+      "image": "lamentations-c003-v034-039-right-context-v1.jpg",
+      "sha256": "34a754f691b610929e84d53615ce47a4df2469640240e6c290fc5d6b2fa63014",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.914202+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/014-024-b5b0f350.jpg"
+      ],
+      "findings": "Adult petitioner with open palm before seated magistrate at ancient gate, solemn injustice metaphor."
+    },
+    {
+      "id": 21,
+      "image": "lamentations-c003-v040-042-right-context-v1.jpg",
+      "sha256": "922f49d3cadd8b3dbcfa4b325ee0b64453e19ded91995cb5f6b92fab242fe7e1",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.916394+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/014-024-b5b0f350.jpg"
+      ],
+      "findings": "Four adults lift separate palms in confession amid ruins, sober faces."
+    },
+    {
+      "id": 22,
+      "image": "lamentations-c003-v043-051-right-context-v1.jpg",
+      "sha256": "b10154185c616b90c31165513374f9d82ea24ebdb4f5b47b6307f3a8e2a47eb3",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.919911+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/014-024-b5b0f350.jpg"
+      ],
+      "findings": "Narrator tears with clasped hands and adult women beyond, continuity with anchor."
+    },
+    {
+      "id": 23,
+      "image": "lamentations-c003-v052-057-right-context-v1.jpg",
+      "sha256": "fbc41366a3d78ef01e357f45503f1aff0ad7db167e2f7fae82762ddeb5dbf21f",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.921919+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/014-024-b5b0f350.jpg"
+      ],
+      "findings": "Narrator in rough stone pit looking toward opening, hand connected to wall, hopeful calling without drowning."
+    },
+    {
+      "id": 24,
+      "image": "lamentations-c003-v058-066-right-context-v1.jpg",
+      "sha256": "cdc49c893c61713f3c20aa511dd9dce88f1b21b292f9591adad58d7adb931580",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.923710+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/014-024-b5b0f350.jpg"
+      ],
+      "findings": "Narrator appeals with one open palm and other hand at chest, tears and resolve without revenge violence."
+    },
+    {
+      "id": 25,
+      "image": "lamentations-c004-v001-002-right-context-v1.jpg",
+      "sha256": "f93f5e9466fd9c44b9ba3dfc5e4f3309e8ed12cee3d07e8aa0c3139a7d6cd402",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.925387+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/025-035-0932b83a.jpg"
+      ],
+      "findings": "Dulled golden fragment and sanctuary stones, grieving adult beyond; no literal human gold body."
+    },
+    {
+      "id": 26,
+      "image": "lamentations-c004-v003-006-right-context-v1.jpg",
+      "sha256": "84c4da09f66043e2dca7c10653928e3ddb0b41b133b7fa445fb0d40fdb426e76",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.927144+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/025-035-0932b83a.jpg"
+      ],
+      "findings": "Two adult women beside empty basket and jar, weary lowered faces, no dying child."
+    },
+    {
+      "id": 27,
+      "image": "lamentations-c004-v007-012-right-context-v1.jpg",
+      "sha256": "e68c00e0b560d2639c0d170ea2dce12bedfa1df663457bbad4dd8397a2fda9eb",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.928934+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/025-035-0932b83a.jpg"
+      ],
+      "findings": "Faded-crimson former noble and adult caregiver offering water, sorrow and thin worn face treated respectfully."
+    },
+    {
+      "id": 28,
+      "image": "lamentations-c004-v013-016-right-context-v1.jpg",
+      "sha256": "3d2903ea92415a303bf5853379511d9ab718cb60a42feb7b57ba0b938a0eb65b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.930300+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/025-035-0932b83a.jpg"
+      ],
+      "findings": "Dusty priests uncertain in street and adult avoiding them, shame without graphic stained bodies."
+    },
+    {
+      "id": 29,
+      "image": "lamentations-c004-v017-020-right-context-v1.jpg",
+      "sha256": "d6743b04ccd05dbefe1234c44fc4c82c86b104fe694440a3d7823f4944790538",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.931785+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/025-035-0932b83a.jpg"
+      ],
+      "findings": "Two adult watchmen look toward empty road atop ruined wall, no arriving savior army."
+    },
+    {
+      "id": 30,
+      "image": "lamentations-c004-v021-022-right-context-v1.jpg",
+      "sha256": "16099e052b40ce2e31846a1b706bd213b189fbba20087f8b6e3b51c3d562b50f",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.935389+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/025-035-0932b83a.jpg"
+      ],
+      "findings": "Abandoned Edomite cup in road landscape, editorial judgment symbol, no naked intoxication."
+    },
+    {
+      "id": 31,
+      "image": "lamentations-c005-v001-006-right-context-v1.jpg",
+      "sha256": "b19e2759a70b9bd205ae0453bdc627d97dd2a80fbe6b7325836071ab36bc5094",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.937252+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/025-035-0932b83a.jpg"
+      ],
+      "findings": "Woman pays for water with elderly firewood carrier beyond, coherent paying hands and humility."
+    },
+    {
+      "id": 32,
+      "image": "lamentations-c005-v007-010-right-context-v1.jpg",
+      "sha256": "da5d15aa354aebeb3dcc4d3e92f13a2f44d1d1fda1c8f6d302f54e635653e0c3",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.939049+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/025-035-0932b83a.jpg"
+      ],
+      "findings": "Two adult laborers paused carrying sacks, connected supporting hands, physical weariness."
+    },
+    {
+      "id": 33,
+      "image": "lamentations-c005-v011-014-right-context-v1.jpg",
+      "sha256": "cdc9641f41be8c28d9d6b48d56636c01df7ccfc9eaf27cb9f8f7d08e999eb2c2",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.941004+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/025-035-0932b83a.jpg"
+      ],
+      "findings": "Clothed adult woman and elderly man seated quietly at empty gate, dignity and mutual support."
+    },
+    {
+      "id": 34,
+      "image": "lamentations-c005-v015-018-right-context-v1.jpg",
+      "sha256": "d7772c8e94888f7eb1b090220e9176adeda97bcc082ae9b5501f2a9335e5812b",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.942944+00:00",
+      "method": "actual contact sheet visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/025-035-0932b83a.jpg"
+      ],
+      "findings": "Narrator mourns near silent lyre/fallen wreath, fox far in deserted street, no celebrating dancers."
+    },
+    {
+      "id": 35,
+      "image": "lamentations-c005-v019-022-right-context-v1.jpg",
+      "sha256": "f01c79b94179d72943dc370a37d9ba0de147ac50335c6f69e5fa55f0e819011c",
+      "status": "approved",
+      "reviewedAt": "2026-10-12T07:47:22.944509+00:00",
+      "method": "full original PNG and actual contact visual review",
+      "evidencePaths": [
+        "review/lamentations-contact-sheets/025-035-0932b83a.jpg",
+        "output/lamentations/lamentations-c005-v019-022-original-v1.png"
+      ],
+      "findings": "Full PNG: three adult prayers with clearly connected open hands and tearful pleading, narrator continuity, city remains broken at dawn and conclusion unresolved."
+    }
+  ],
+  "approved": 35,
+  "planned": 35
+}
