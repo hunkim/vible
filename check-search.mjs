@@ -2,9 +2,9 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {createSearchIndex,findScripture,normalize,excerpt} from './scripture-search.js';
 import {applyTranslation} from './languages.js';
-const ids=['genesis',...(JSON.parse(await fs.readFile('pentateuch-books.json'))).map(b=>b.id),...(JSON.parse(await fs.readFile('historical-books.json'))).map(b=>b.id),'1chronicles','2chronicles','ezra','nehemiah','esther','job','ecclesiastes','daniel','jonah','lamentations','psalms','proverbs','songofsongs','matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
+const ids=['genesis',...(JSON.parse(await fs.readFile('pentateuch-books.json'))).map(b=>b.id),...(JSON.parse(await fs.readFile('historical-books.json'))).map(b=>b.id),'1chronicles','2chronicles','ezra','nehemiah','esther','job','ecclesiastes','daniel','jonah','jeremiah','lamentations','psalms','proverbs','songofsongs','matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
 const books=await Promise.all(ids.map(async id=>({id,data:JSON.parse(await fs.readFile(`data/${id}.json`))})));
-const index=createSearchIndex(books,'ko');assert.equal(index.books.length,52);assert.equal(index.verses.length,26169);
+const index=createSearchIndex(books,'ko');assert.equal(index.books.length,53);assert.equal(index.verses.length,27533);
 assert.equal(findScripture(index,'출 14:21').results[0].book,'exodus');
 assert.equal(findScripture(index,'레 19:18').results[0].book,'leviticus');
 assert.equal(findScripture(index,'민 6:24').results[0].book,'numbers');
@@ -24,7 +24,7 @@ const english=createSearchIndex([{id:'john',data:applyTranslation(books.find(b=>
 assert.equal(findScripture(english,'John 3:16').total,1);assert(findScripture(english,'love').total>0);assert.equal(findScripture(english,'사랑').total,0);assert.equal(findScripture(english,'창 1:1').total,0);
 assert(excerpt('x'.repeat(400)+'은혜'+'x'.repeat(400),'은혜').includes('은혜'));
 const unsafe=findScripture(index,'<script>');assert.equal(unsafe.total,0);
-console.log('Scripture search: all 52 books and 26169 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
+console.log('Scripture search: all 53 books and 27533 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
 
 // Run the actual search UI handlers, including uncommitted IME input.
 const {scriptureSearch}=await import('./search-ui.js');
@@ -87,3 +87,9 @@ assert.equal(findScripture(index,'애 3').total,66);assert.equal(findScripture(i
 assert.equal(findScripture(index,'애 하나님').address,false);assert.equal(findScripture(index,'애굽 땅').address,false);
 for(const [lang,query,word] of [['en','Lamentations 3:23','faithfulness'],['ja','哀歌 3:23','真実'],['zh','哀 3:23','信实']]){const lam=createSearchIndex([{id:'lamentations',data:applyTranslation(books.find(b=>b.id==='lamentations').data,JSON.parse(await fs.readFile(`data/translations/${lang}/lamentations.json`)),lang)}],lang);const found=findScripture(lam,query);assert.equal(found.results[0]?.book,'lamentations',`${lang} ${query}`);assert.equal(found.results[0].chapter,3);assert.equal(found.results[0].verse,23);assert(findScripture(lam,word).total>0,`${lang} text ${word}`);}
 console.log('Lamentations: Korean abbreviation 애 with chapter only, full names and English/Japanese/Chinese reference and text search verified.');
+
+for(const [query,chapter,verse] of [['렘 29:11',29,11],['예레미야 31:31',31,31],['렘 1:5',1,5]]){const found=findScripture(index,query);assert.equal(found.total,1,query);assert.equal(found.results[0].book,'jeremiah',query);assert.equal(found.results[0].chapter,chapter);assert.equal(found.results[0].verse,verse);}
+assert.equal(findScripture(index,'렘 51').total,64);assert.equal(findScripture(index,'렘 51').results[0].book,'jeremiah');
+assert.equal(findScripture(index,'예레미야애가 3:23').results[0].book,'lamentations');
+for(const [lang,query,word,chapter,verse] of [['en','Jeremiah 29:11','plans I have for you',29,11],['ja','エレミヤ書 31:31','新しい契約',31,31],['zh','耶 31:31','另立新约',31,31],['zh','耶利米书 11:22','亚拿突',11,21]]){const jer=createSearchIndex([{id:'jeremiah',data:applyTranslation(books.find(b=>b.id==='jeremiah').data,JSON.parse(await fs.readFile(`data/translations/${lang}/jeremiah.json`)),lang)}],lang);const found=findScripture(jer,query);assert.equal(found.results[0]?.book,'jeremiah',`${lang} ${query}`);assert.equal(found.results[0].chapter,chapter);assert.equal(found.results[0].verse,verse);assert(findScripture(jer,word).total>0,`${lang} text ${word}`);}
+console.log('Jeremiah: Korean abbreviation 렘 with chapter numbers, full names, OpenCCB combined verse lookup and English/Japanese/Chinese reference and text search verified.');

@@ -36497,6 +36497,858 @@
     "lamentations-c005-v019-022-right-context-v1.jpg": {
       "sha256": "f01c79b94179d72943dc370a37d9ba0de147ac50335c6f69e5fa55f0e819011c",
       "bytes": 517075
+    },
+    "jeremiah-c001-v001-003-right-context-v1.jpg": {
+      "sha256": "7f417f36630e69d3a4c5766559f7463138a1a74efb849f907063f15bbeec33d4",
+      "bytes": 480329
+    },
+    "jeremiah-c001-v004-010-right-context-v1.jpg": {
+      "sha256": "96e7ef59c9d72fe62a0da0e734a59b1e08348c20e856a09eac1dbf6193141a60",
+      "bytes": 475515
+    },
+    "jeremiah-c001-v011-012-right-context-v1.jpg": {
+      "sha256": "344797832219459518a98fc2dcffad07dcdabcfc4fc689d3173ae9f9eaf18188",
+      "bytes": 438172
+    },
+    "jeremiah-c001-v013-016-right-context-v1.jpg": {
+      "sha256": "d82f48b562bb858f106dba464893cef63ed6cbcec762f5abda925e5ebd85181c",
+      "bytes": 482077
+    },
+    "jeremiah-c001-v017-019-right-context-v1.jpg": {
+      "sha256": "bd5b76c556e4ee466187378d36e99106d9d57e8cc1d5658880bdf8ddc02b3b23",
+      "bytes": 458254
+    },
+    "jeremiah-c002-v001-008-right-context-v1.jpg": {
+      "sha256": "de5cbbc2a50abb26ede85db912eb2714648039848b9f4226159ff371d9318fcb",
+      "bytes": 454825
+    },
+    "jeremiah-c002-v009-013-right-context-v1.jpg": {
+      "sha256": "878bf5717cce6146f4bb34fce1861dafffb34ac32b7e49d6437fed23d4554c88",
+      "bytes": 624296
+    },
+    "jeremiah-c002-v014-019-right-context-v1.jpg": {
+      "sha256": "01ec35855c0633608d797764ac7ea32d81c5f13474435f352cab331b3b08d3ec",
+      "bytes": 508372
+    },
+    "jeremiah-c002-v020-028-right-context-v1.jpg": {
+      "sha256": "f4e4f1aee9672aaaf23f7faeccac31f74380aecf21b6bbfee700591e0c23a756",
+      "bytes": 527051
+    },
+    "jeremiah-c002-v029-037-right-context-v1.jpg": {
+      "sha256": "413abedab034c8f0afe91760f5b5cc194a4b6a73f135ff9696dfda64a45083e2",
+      "bytes": 419398
+    },
+    "jeremiah-c003-v001-010-right-context-v1.jpg": {
+      "sha256": "e4a0d1e76efcdf2ac0253f69282b09adc7a764c00977b995fd03e88b8b8a50f6",
+      "bytes": 449820
+    },
+    "jeremiah-c003-v011-018-right-context-v1.jpg": {
+      "sha256": "8b3b2a0780f60d89fe0e0bd37acedff358deb4e377edbba1d7ee642d0ee063a1",
+      "bytes": 460009
+    },
+    "jeremiah-c003-v019-025-right-context-v1.jpg": {
+      "sha256": "2a01f3e0940771c9fcf08a374cf78680b727b798ad6b3e70ef85e96f7b03ce22",
+      "bytes": 534072
+    },
+    "jeremiah-c004-v001-004-right-context-v1.jpg": {
+      "sha256": "89d0b8ad07a9811fabf361b1d5bde061f9da34aa80710e8816fd4df4cdd873ec",
+      "bytes": 547232
+    },
+    "jeremiah-c004-v005-013-right-context-v1.jpg": {
+      "sha256": "e189a9b6016ba74d613b337322ab98e82716ee0de146eca1f2aaaf66f5297da4",
+      "bytes": 483237
+    },
+    "jeremiah-c004-v014-022-right-context-v1.jpg": {
+      "sha256": "d6a1e3447623349ec356edcda97314ab81f9d0305b3439544d0f563ba7b0ee6f",
+      "bytes": 442889
+    },
+    "jeremiah-c004-v023-031-right-context-v1.jpg": {
+      "sha256": "845b558fa3b34243f9e4534abf9e81f5e88f278c20afab28e54cc9486900ccc5",
+      "bytes": 592249
+    },
+    "jeremiah-c005-v001-009-right-context-v1.jpg": {
+      "sha256": "2ce95d796d72b14fcd6fbda1a8d4006dff989bfe9996d7f511b29c9b996069be",
+      "bytes": 467411
+    },
+    "jeremiah-c005-v010-019-right-context-v1.jpg": {
+      "sha256": "b2d3090a53f7354513f36041a3afe88e8c6e9501f7fc5b543ed98677b402ae57",
+      "bytes": 551818
+    },
+    "jeremiah-c005-v020-025-right-context-v1.jpg": {
+      "sha256": "1abbe41cbefb56ca4b35b5ea1e557b015119031b0a5c685b6b7aa57babf5a0d3",
+      "bytes": 526625
+    },
+    "jeremiah-c005-v026-031-right-context-v1.jpg": {
+      "sha256": "76883e33b8bc4afc17bd836e31e2d500c2ca4d256866e7d18cda40584459d2a7",
+      "bytes": 471101
+    },
+    "jeremiah-c006-v001-008-right-context-v1.jpg": {
+      "sha256": "7ae454cdd290bffbdd85a71524f22b0e347db07056bf5158b3cad3eca7bfe8f7",
+      "bytes": 461995
+    },
+    "jeremiah-c006-v009-015-right-context-v1.jpg": {
+      "sha256": "8e26032eafaa93df780b348b37a0d1c54d825dc52ce410b09163840743f6e4ed",
+      "bytes": 499309
+    },
+    "jeremiah-c006-v016-021-right-context-v1.jpg": {
+      "sha256": "7a9a9a3eadb62fe893dcbfc642886ae6081f3a9d3419e770c1aa9aed82bb78ff",
+      "bytes": 563411
+    },
+    "jeremiah-c006-v022-030-right-context-v1.jpg": {
+      "sha256": "dc9fb6fcd2130412a563f8c4fc8b5886b4d6f617946f22db868044b6fe78f2af",
+      "bytes": 458113
+    },
+    "jeremiah-c007-v001-007-right-context-v1.jpg": {
+      "sha256": "62ee23feffac1b4c6f036b2a7e245aae532aa3b5dbbc06ee258e2b5dc0b08352",
+      "bytes": 449677
+    },
+    "jeremiah-c007-v008-015-right-context-v1.jpg": {
+      "sha256": "7484a00944ddea75e2eed7a6d66040b964683034bb975fdea0195cf54021571e",
+      "bytes": 466564
+    },
+    "jeremiah-c007-v016-020-right-context-v1.jpg": {
+      "sha256": "66c5bd87af4cdfd364bf6bfb7ccf8cbb03d2fc701194b143a0fed8ce3c8a33cb",
+      "bytes": 472296
+    },
+    "jeremiah-c007-v021-028-right-context-v1.jpg": {
+      "sha256": "297244c26d15c86f5973fcfd1baf4ddb4949d78def9347485741275feba506a3",
+      "bytes": 456210
+    },
+    "jeremiah-c007-v029-034-right-context-v1.jpg": {
+      "sha256": "0c67f9e5723ffe91c24895b0052f2a2ceb6affb2369ca67cb57624af155f0c29",
+      "bytes": 570363
+    },
+    "jeremiah-c008-v001-007-right-context-v1.jpg": {
+      "sha256": "a0e176a000845a69f125d4ffec83e29ddbaa30c104059dd378e538c761728dd2",
+      "bytes": 508258
+    },
+    "jeremiah-c008-v008-012-right-context-v1.jpg": {
+      "sha256": "7b0fe90f057db6f4eb78d8eaf4056435c5027d98fec78db6f3770b5448bc061c",
+      "bytes": 448392
+    },
+    "jeremiah-c008-v013-017-right-context-v1.jpg": {
+      "sha256": "daed66700925843dad1eb068a290aa9880ca4e30ddfae22e6cb076965f47a717",
+      "bytes": 643622
+    },
+    "jeremiah-c008-v018-022-right-context-v1.jpg": {
+      "sha256": "1f34ff42b668d80951f28ebcbfdaa18a68922c5459dc06c6bc1d833e855144b9",
+      "bytes": 521047
+    },
+    "jeremiah-c009-v001-006-right-context-v2.jpg": {
+      "sha256": "6a53a3b14475cec042a179c10e26f690d9f5bd0f5a9f5a4ac29d7251298411a4",
+      "bytes": 458059
+    },
+    "jeremiah-c009-v007-016-right-context-v1.jpg": {
+      "sha256": "a603df11c870e2279a0c06c21c1781861af364df2d52d650f126296742a542bc",
+      "bytes": 676560
+    },
+    "jeremiah-c009-v017-022-right-context-v1.jpg": {
+      "sha256": "965344192f4bc55c69428f01e788c25d32f94c3144f6124147a55001d86e2472",
+      "bytes": 502104
+    },
+    "jeremiah-c009-v023-026-right-context-v1.jpg": {
+      "sha256": "ebfb47c97101c911e95a3c1183f9b12311a83976c8cf5f37eb98afc8bec1ddf3",
+      "bytes": 459593
+    },
+    "jeremiah-c010-v001-005-right-context-v1.jpg": {
+      "sha256": "36d2635ed4461132337a5bb299968d85219a64936d94b3461e74bc562b07e619",
+      "bytes": 516605
+    },
+    "jeremiah-c010-v006-016-right-context-v1.jpg": {
+      "sha256": "d488fe4fcbd6be369d1f0746e6a694b2c92f0ada10a7addb5e9c7759f778fa40",
+      "bytes": 533798
+    },
+    "jeremiah-c010-v017-022-right-context-v1.jpg": {
+      "sha256": "b39360f4c36aef97c0d4b129b1aab5cc7c46976eee6c951f4c0e2181196b16a8",
+      "bytes": 490232
+    },
+    "jeremiah-c010-v023-025-right-context-v1.jpg": {
+      "sha256": "2ee1bbaa7534ef94306144c2c015910e5ad4d12820bf900f61779169aee313d0",
+      "bytes": 519989
+    },
+    "jeremiah-c011-v001-008-right-context-v1.jpg": {
+      "sha256": "f798366fd1446d72e25ca722577ef1ea39252aeb5665e0d1fa72002455a67267",
+      "bytes": 416230
+    },
+    "jeremiah-c011-v009-017-right-context-v1.jpg": {
+      "sha256": "6d82466d57cdf34b090ac0dc3dbd1dbb06c8411f369d7d926b25fd6d030d8112",
+      "bytes": 653293
+    },
+    "jeremiah-c011-v018-023-right-context-v1.jpg": {
+      "sha256": "ed9cb1e281f69840966937ece296088b814d7cdb9a790e3d101882601db6d63e",
+      "bytes": 444732
+    },
+    "jeremiah-c012-v001-006-right-context-v1.jpg": {
+      "sha256": "7445d982b42894e1c934d7dd893d2e76fa9a06f0e16e5dbb9c1346318d54bc78",
+      "bytes": 551773
+    },
+    "jeremiah-c012-v007-013-right-context-v1.jpg": {
+      "sha256": "6da0aac61a89a93ef3fb2536967b2382422db8b14a30c16dff8fc69c05cd551e",
+      "bytes": 588926
+    },
+    "jeremiah-c012-v014-017-right-context-v1.jpg": {
+      "sha256": "6086ed7756621665394775c32eb5b74b24cc255966e58685175485d08d9f6fb6",
+      "bytes": 513740
+    },
+    "jeremiah-c013-v001-005-right-context-v1.jpg": {
+      "sha256": "73dcbec613bb0615bf655f354fb0bb5c0f37db509d30e1d97a9ca74431e2d6ef",
+      "bytes": 563715
+    },
+    "jeremiah-c013-v006-011-right-context-v1.jpg": {
+      "sha256": "56b4137db02ebbae902c4591fdb2682ad2c125620d9510bc0ad504267fd350ac",
+      "bytes": 539634
+    },
+    "jeremiah-c013-v012-017-right-context-v1.jpg": {
+      "sha256": "28100026f1df14c7f26275fb733afd6a7ca084addebb386a31ae44696bfdd465",
+      "bytes": 483664
+    },
+    "jeremiah-c013-v018-027-right-context-v1.jpg": {
+      "sha256": "e7bd5c0e9f0a47450a350459383f7715e2834ef24d8ffb502baa90e22631f505",
+      "bytes": 492771
+    },
+    "jeremiah-c014-v001-006-right-context-v1.jpg": {
+      "sha256": "885506d6d4fa3dc527fda95bd70552a293298738f4d685bfa13a49e25aa1ef4a",
+      "bytes": 573206
+    },
+    "jeremiah-c014-v007-012-right-context-v1.jpg": {
+      "sha256": "e864a859f8600f21877b989b7319fe6d7e5f39ace76e97bd920190cb65de16ae",
+      "bytes": 501242
+    },
+    "jeremiah-c014-v013-018-right-context-v1.jpg": {
+      "sha256": "4f7903914f8e9a5a7e50d59adf374bde60620e0f7b8bffa000f378135a53778f",
+      "bytes": 490708
+    },
+    "jeremiah-c014-v019-022-right-context-v1.jpg": {
+      "sha256": "181e39ae38e4fe5583c91a3f7d0a3bb5e2e17fc32cecda8ce55d9f49792383c1",
+      "bytes": 499098
+    },
+    "jeremiah-c015-v001-009-right-context-v1.jpg": {
+      "sha256": "216ee42f2f774f227d26e4b979ddb20aab41ed1bacca303cd1c57e762d87c027",
+      "bytes": 421614
+    },
+    "jeremiah-c015-v010-014-right-context-v1.jpg": {
+      "sha256": "73505c0f74392814be3af175a9da3408677e56b0d89c5ec59bde682737ef8351",
+      "bytes": 456049
+    },
+    "jeremiah-c015-v015-018-right-context-v1.jpg": {
+      "sha256": "2b789edeb6ae246d8a28447bb94aa859640fe925e782dae070a4b751c06a8806",
+      "bytes": 433012
+    },
+    "jeremiah-c015-v019-021-right-context-v1.jpg": {
+      "sha256": "f43b5485be4182778f1d238d146f18a160cc74cc28c14e8c84d217c48aecf15b",
+      "bytes": 507110
+    },
+    "jeremiah-c016-v001-009-right-context-v1.jpg": {
+      "sha256": "35168c47a16e6ff27acd72cd7af6c0a610ca2b0c75d8e08bf81edaa080bf5ca5",
+      "bytes": 524185
+    },
+    "jeremiah-c016-v010-018-right-context-v1.jpg": {
+      "sha256": "b3f750eec086537c7e28c426949309dfe2bf480dc480df779cc6ddfc0b143852",
+      "bytes": 511215
+    },
+    "jeremiah-c016-v019-021-right-context-v1.jpg": {
+      "sha256": "8a896410a70f7bf2f101dd4d57eabe0ec4f3755216396776e0bd14aac57e6108",
+      "bytes": 477149
+    },
+    "jeremiah-c017-v001-004-right-context-v1.jpg": {
+      "sha256": "73fb722a8f363fe2d4445aeae23aeede2d0cd17948aafbbecb9df2f930f183fb",
+      "bytes": 457477
+    },
+    "jeremiah-c017-v005-006-right-context-v1.jpg": {
+      "sha256": "a6db0f71809dd63d12860d37b33748966c04925734ea7cbef958ed5f7437afc3",
+      "bytes": 534724
+    },
+    "jeremiah-c017-v007-008-right-context-v1.jpg": {
+      "sha256": "c93d756a1166959f5a1beebb85fec725ad6e0748d235a4a74e235408db14bfaf",
+      "bytes": 629053
+    },
+    "jeremiah-c017-v009-018-right-context-v1.jpg": {
+      "sha256": "d2eb63318927380a0741ecc5c66cc3dbf0287c2e253c30e36c861fc808da13c1",
+      "bytes": 460263
+    },
+    "jeremiah-c017-v019-027-right-context-v1.jpg": {
+      "sha256": "6f11f16958f277183fbd9ed8f89d6f61dfd758043b9675de6359f3841e340124",
+      "bytes": 474229
+    },
+    "jeremiah-c018-v001-006-right-context-v1.jpg": {
+      "sha256": "6848e487e4e77799eaaaf8e06639d57d6ae645b7c9e1d90a61e9e4725c7ca085",
+      "bytes": 492847
+    },
+    "jeremiah-c018-v007-017-right-context-v1.jpg": {
+      "sha256": "d436359e59960b0e8f6270ae3ac8883661fd9aa57514c0237bad2900904b737b",
+      "bytes": 433149
+    },
+    "jeremiah-c018-v018-023-right-context-v1.jpg": {
+      "sha256": "a44fbd8f41ca271f61755a82aa26b6ebcfee266a089a087dfdcc7847d8501cc5",
+      "bytes": 464700
+    },
+    "jeremiah-c019-v001-006-right-context-v1.jpg": {
+      "sha256": "147fa18dc076fd99e6ac6f98ffe4ab2e18f8a367ab7ae7ce433d3afdcf76f065",
+      "bytes": 555589
+    },
+    "jeremiah-c019-v007-013-right-context-v1.jpg": {
+      "sha256": "f0d33277afe9d1cdfd19f7367b8f9b7978a91d6798fd361ffa6ff7ce76c3fd1d",
+      "bytes": 478035
+    },
+    "jeremiah-c019-v014-015-right-context-v1.jpg": {
+      "sha256": "a26ffcf1cf3fd7ecb19906c00485b05667ba3d6e67acc502ad7459cd03be7aeb",
+      "bytes": 364308
+    },
+    "jeremiah-c020-v001-006-right-context-v1.jpg": {
+      "sha256": "b3f38fb60a0d01c30998ac09171c56c343e0e00ed581b566dccbb3f898cf31fc",
+      "bytes": 510240
+    },
+    "jeremiah-c020-v007-010-right-context-v1.jpg": {
+      "sha256": "a97309667673e89c1985614246f9d96333f3b7236a008b82435adcfb49d393be",
+      "bytes": 503659
+    },
+    "jeremiah-c020-v011-013-right-context-v1.jpg": {
+      "sha256": "50208b67b29f0e62fe6ce780eb0f073af522e21a2cfc64a842ad9b3bb86537a7",
+      "bytes": 477811
+    },
+    "jeremiah-c020-v014-018-right-context-v1.jpg": {
+      "sha256": "ef50ac284d3d12dc0eeaac08eea78509040d680428069b39d125ab93e47f4dbb",
+      "bytes": 428190
+    },
+    "jeremiah-c021-v001-007-right-context-v1.jpg": {
+      "sha256": "75e4967257ba168973deb9fa7945708b55d6c502da3b90d0bd77a65b78240def",
+      "bytes": 474540
+    },
+    "jeremiah-c021-v008-010-right-context-v1.jpg": {
+      "sha256": "5e53999923af13e10f70f3e50b334914ca28287bf89e6c98857fcfebab26f32d",
+      "bytes": 476694
+    },
+    "jeremiah-c021-v011-014-right-context-v1.jpg": {
+      "sha256": "3cc8bd196ad1dcdb69cb5d4525a3ebab950c827527751319d17d51dde1ceb0d4",
+      "bytes": 470979
+    },
+    "jeremiah-c022-v001-009-right-context-v1.jpg": {
+      "sha256": "cc0a8f3b8651095026563caaa34e42fea09def7da7f6aff0055c2392765cc528",
+      "bytes": 419175
+    },
+    "jeremiah-c022-v010-012-right-context-v1.jpg": {
+      "sha256": "8a06b399811737b36da2539a8e5082b423fdeb27242bfb7becd3af62603c1c70",
+      "bytes": 453797
+    },
+    "jeremiah-c022-v013-019-right-context-v1.jpg": {
+      "sha256": "856c023df23cb8b66f11c90a4ea0fdd4e2add0c9fef592a96caf88e7e187cec7",
+      "bytes": 420877
+    },
+    "jeremiah-c022-v020-030-right-context-v1.jpg": {
+      "sha256": "e7526283559fcf9d898a5313e6bbadbd3211f6d7befa9371aec1f9ba12a2c740",
+      "bytes": 455294
+    },
+    "jeremiah-c023-v001-008-right-context-v1.jpg": {
+      "sha256": "0e1098686c5e6dd7958300746f83f455fe1c729c69f760d616fed1391f4974ef",
+      "bytes": 522789
+    },
+    "jeremiah-c023-v009-015-right-context-v1.jpg": {
+      "sha256": "ab5b670ddf0fd274e5de0d34a271842f4c7079931e6528c6c5a424ce02520dc9",
+      "bytes": 471326
+    },
+    "jeremiah-c023-v016-024-right-context-v1.jpg": {
+      "sha256": "a8e9721898c0e74e8694ae921d1622329802891a62d6b55c7083df57b9197561",
+      "bytes": 464146
+    },
+    "jeremiah-c023-v025-032-right-context-v1.jpg": {
+      "sha256": "587c2bf8147883cdb9aa21937152ccb25ae96e949012723307a20b3511e02abf",
+      "bytes": 500764
+    },
+    "jeremiah-c023-v033-040-right-context-v1.jpg": {
+      "sha256": "a782437320b17afe3e57243a57debc34fb54755ab2affc8b96ce1cdfc803e6c4",
+      "bytes": 432299
+    },
+    "jeremiah-c024-v001-003-right-context-v1.jpg": {
+      "sha256": "824e1b8d10e1d312832e47f6f8eb409d5b3f5d9fa24128adfddfa899b8c817ab",
+      "bytes": 479853
+    },
+    "jeremiah-c024-v004-007-right-context-v1.jpg": {
+      "sha256": "d52bac7ce0de397d3e3ff6f4406fa4bead3006b800d5188c69d521f2c448e98a",
+      "bytes": 600192
+    },
+    "jeremiah-c024-v008-010-right-context-v1.jpg": {
+      "sha256": "89d3e221640f44afe9a65706e6a3e031ece5b72c6fcac75df7860dc2b6c25096",
+      "bytes": 473419
+    },
+    "jeremiah-c025-v001-007-right-context-v1.jpg": {
+      "sha256": "d99f71bc242bc107a879dd5a22cc3f958b6900eae2936b8953c8a494b64d0573",
+      "bytes": 432324
+    },
+    "jeremiah-c025-v008-014-right-context-v1.jpg": {
+      "sha256": "8d33d9c3014f0f7c1f27035716659328e0201ba2bfa9758b1a04c0bb03929b6a",
+      "bytes": 534947
+    },
+    "jeremiah-c025-v015-029-right-context-v1.jpg": {
+      "sha256": "93a75feb3d508480436db3f3fa444ab32d4a20a386d28713e342345bf6c71859",
+      "bytes": 389727
+    },
+    "jeremiah-c025-v030-038-right-context-v1.jpg": {
+      "sha256": "06c1604651e3bea72d263f6b5b87039e679e69018f53debcdd4585e90d8d7569",
+      "bytes": 523662
+    },
+    "jeremiah-c026-v001-006-right-context-v1.jpg": {
+      "sha256": "ca9f4e63ca7368c843827c62e4e28d2cce4bf8f6df3674df5faec0170de61158",
+      "bytes": 392743
+    },
+    "jeremiah-c026-v007-011-right-context-v1.jpg": {
+      "sha256": "e977368e3210bf089883c6f851e82b3e967123d5f524108eac31a3ea1afd2e22",
+      "bytes": 516173
+    },
+    "jeremiah-c026-v012-019-right-context-v1.jpg": {
+      "sha256": "aed4d21829431f4baaabeb5877d091a221f98ea21ebd228804fd684224964675",
+      "bytes": 458586
+    },
+    "jeremiah-c026-v020-024-right-context-v1.jpg": {
+      "sha256": "6db5f3f7ffabf9f91068ad3010175ef00f7e0d6a644b5fd3d057cd5c6cea8380",
+      "bytes": 491841
+    },
+    "jeremiah-c027-v001-011-right-context-v1.jpg": {
+      "sha256": "80b67f8de1095c661a3f1680140256f164d44c63dbec3458158c079dffeb57aa",
+      "bytes": 462579
+    },
+    "jeremiah-c027-v012-015-right-context-v1.jpg": {
+      "sha256": "ffdab823fb0e4374ef0634845e9b29c2e7dddf4c38a09c2fedb41d27a0860064",
+      "bytes": 515997
+    },
+    "jeremiah-c027-v016-022-right-context-v1.jpg": {
+      "sha256": "23675cb56cade7cac0d1ce7af702dd6a648d04e369fc1e1dacb1037ef92b42ba",
+      "bytes": 517994
+    },
+    "jeremiah-c028-v001-009-right-context-v1.jpg": {
+      "sha256": "5f09e4dce2a30dd2a274c20092dee717c08f491e3d7f6c9523ff34a9c39ab4dc",
+      "bytes": 516406
+    },
+    "jeremiah-c028-v010-011-right-context-v1.jpg": {
+      "sha256": "539f7edaa0585b04969b093da20613d342ed81274a2f30f111cef99f60992eb1",
+      "bytes": 560143
+    },
+    "jeremiah-c028-v012-017-right-context-v1.jpg": {
+      "sha256": "43fd2c6d4e23637e9344abeb458479210bf4cc3b1104f774d5763b136add1647",
+      "bytes": 527434
+    },
+    "jeremiah-c029-v001-003-right-context-v1.jpg": {
+      "sha256": "b12b8362a4dfd3dfb681e10e167315be8d5979b17fa19d5f487b6e82a498d9d9",
+      "bytes": 509535
+    },
+    "jeremiah-c029-v004-009-right-context-v1.jpg": {
+      "sha256": "6a680f3720b37a5c535b523b494d44a1063d3b4c26c7c79043400fa9966646ba",
+      "bytes": 544428
+    },
+    "jeremiah-c029-v010-014-right-context-v1.jpg": {
+      "sha256": "9b17a8acdf8df8d63031b3c3c0a6cb87cb784e6775d8d817f693641441828341",
+      "bytes": 481907
+    },
+    "jeremiah-c029-v015-023-right-context-v1.jpg": {
+      "sha256": "94a40a692a4a50817ba908529fec87baf85fa719ab4e2a856c840a5885c5d6d1",
+      "bytes": 504292
+    },
+    "jeremiah-c029-v024-032-right-context-v1.jpg": {
+      "sha256": "dba1685998bb1fbb23a6624f5f99bebead589031c5256745f594aeb17b3a3faa",
+      "bytes": 488405
+    },
+    "jeremiah-c030-v001-003-right-context-v1.jpg": {
+      "sha256": "068643e9eb92dd2f77e8dc033b7eb8e02aabaa812e4ba4c41d54ad3851b7683e",
+      "bytes": 522562
+    },
+    "jeremiah-c030-v004-011-right-context-v1.jpg": {
+      "sha256": "6d26350e84427f9d32eb45605787764cc84f3f97d201bcbf1615461dc2860289",
+      "bytes": 471580
+    },
+    "jeremiah-c030-v012-017-right-context-v1.jpg": {
+      "sha256": "03d1ca2dece1ef8fd4ac3144bf8a41675e2a0ca56c6bfa92b430559a6b287a5a",
+      "bytes": 551066
+    },
+    "jeremiah-c030-v018-024-right-context-v1.jpg": {
+      "sha256": "8babc66cc3cd057533ec90937a154d03b965b500c79f4ff14ce730cdaf71017d",
+      "bytes": 444663
+    },
+    "jeremiah-c031-v001-006-right-context-v1.jpg": {
+      "sha256": "fa72e87f27ee6de69095fadf527eb1d9138b204d0c98d48c15629222c3829a1c",
+      "bytes": 549260
+    },
+    "jeremiah-c031-v007-009-right-context-v1.jpg": {
+      "sha256": "09b6b87a97bc36c71a2e39b5916e309bd037d2ac44a6ae2e2723ac2a73c5b5d6",
+      "bytes": 539047
+    },
+    "jeremiah-c031-v010-014-right-context-v1.jpg": {
+      "sha256": "dae2edaf3a630c7176cc38882d8617d0451d9b82abf9d2364da09b4fcc40b173",
+      "bytes": 555917
+    },
+    "jeremiah-c031-v015-017-right-context-v1.jpg": {
+      "sha256": "09f29518cfc34bf14cf0a2881437c7c078e47e5e9aa3ed3165b221b7a0a2d99a",
+      "bytes": 411453
+    },
+    "jeremiah-c031-v018-022-right-context-v1.jpg": {
+      "sha256": "b4d6c35176ec24c9c6ae43482421cf0e7f2abf2ba1c6523d45b9237727283180",
+      "bytes": 473393
+    },
+    "jeremiah-c031-v023-030-right-context-v1.jpg": {
+      "sha256": "4e1863c6cfaaa8ca293c17dc3662f57283dbdf777c23d6b8207c474b5d6894ac",
+      "bytes": 467568
+    },
+    "jeremiah-c031-v031-034-right-context-v1.jpg": {
+      "sha256": "9cc9e26cbceb4522cb67cfbe04049414235d3fefc80277ae286dfb0b81fdf82e",
+      "bytes": 392740
+    },
+    "jeremiah-c031-v035-040-right-context-v1.jpg": {
+      "sha256": "537eaf3bebdaad23b624ef3a1bcac0fd1a514b89df04d6cc0e84fe176ad45f86",
+      "bytes": 527021
+    },
+    "jeremiah-c032-v001-005-right-context-v2.jpg": {
+      "sha256": "3f5c70f8f5b9756b4f4ca10081e3ce36ac76f2e783ef82db74252b15d225ac9a",
+      "bytes": 484002
+    },
+    "jeremiah-c032-v006-012-right-context-v2.jpg": {
+      "sha256": "1b6d8b7bcecbe9f140ef8b02a4ff0b4c4a5bb224ca92f9c5733a8fe2bab13c46",
+      "bytes": 486833
+    },
+    "jeremiah-c032-v013-015-right-context-v1.jpg": {
+      "sha256": "b42943491010591ee12055656b17f9234f6d57dc1b8803f3d760c8949daf5370",
+      "bytes": 541290
+    },
+    "jeremiah-c032-v016-025-right-context-v1.jpg": {
+      "sha256": "6f575b39cb950b261bfc655df0e9611a5b2bd6446275b75a85fab141aa4613b5",
+      "bytes": 457235
+    },
+    "jeremiah-c032-v026-035-right-context-v1.jpg": {
+      "sha256": "a2b7830668de89ec0352c40b4cf177cb2cc584184920d726673ad221307b9fbe",
+      "bytes": 478953
+    },
+    "jeremiah-c032-v036-044-right-context-v1.jpg": {
+      "sha256": "4885372b7856dd9ab05874a2a65d3615b8985db206ada9a5fe4589bc5c447732",
+      "bytes": 515667
+    },
+    "jeremiah-c033-v001-003-right-context-v1.jpg": {
+      "sha256": "75eedbfac454d9d3606bd4fdaa8c8df7ce25de59a60e5590fe7d2b4c9617441d",
+      "bytes": 471127
+    },
+    "jeremiah-c033-v004-009-right-context-v1.jpg": {
+      "sha256": "37df1a82de0fa40133c3bea98ba565ac0b8b9d253bf823ed7cfff8d0bd93753d",
+      "bytes": 511872
+    },
+    "jeremiah-c033-v010-013-right-context-v1.jpg": {
+      "sha256": "1773bdb2683da8cb09a6f3c548ab8813776d17a12a941896bd1f984704bbafd1",
+      "bytes": 566155
+    },
+    "jeremiah-c033-v014-018-right-context-v1.jpg": {
+      "sha256": "37f3ce0b706a20b9b5837f20ce6a726bc5a2e22ef4387d55207ba697ba8237ee",
+      "bytes": 488360
+    },
+    "jeremiah-c033-v019-026-right-context-v1.jpg": {
+      "sha256": "f96c6c827c27a5b74bd0a51dd1458dbcfabeb6906d5636cd2115511c78119054",
+      "bytes": 528556
+    },
+    "jeremiah-c034-v001-007-right-context-v1.jpg": {
+      "sha256": "83a7767f38a72587eb85d62b26b3a6ed1b4d14991221492b585315489458e04a",
+      "bytes": 481564
+    },
+    "jeremiah-c034-v008-011-right-context-v1.jpg": {
+      "sha256": "4eeb12bf26bbb36806a9a2abd8ec44032894a221e544085da5759474cc2dcbb4",
+      "bytes": 487992
+    },
+    "jeremiah-c034-v012-022-right-context-v1.jpg": {
+      "sha256": "ea082b318acb14ca38a4808f7bd1ebfc86a0d6bd20b4ad539b1fe4a629e031b4",
+      "bytes": 509212
+    },
+    "jeremiah-c035-v001-005-right-context-v1.jpg": {
+      "sha256": "c9e16948582f555ed8f63b97baf2e5f09b5f19487c287af524f860882d9b9680",
+      "bytes": 435941
+    },
+    "jeremiah-c035-v006-011-right-context-v1.jpg": {
+      "sha256": "752bc2b844a9e49f4ddbfb70247b51197bb7b0576023be84075feeaf6ec83bca",
+      "bytes": 505827
+    },
+    "jeremiah-c035-v012-019-right-context-v1.jpg": {
+      "sha256": "25610df42a80300792a3efcec9aa176cf1cc61ad0031b5e05432ae4913e6fd0f",
+      "bytes": 466082
+    },
+    "jeremiah-c036-v001-008-right-context-v1.jpg": {
+      "sha256": "cccc4b0244baefa6d40151433ecc7207546a04bed0f12ac8dd99cdc30220907a",
+      "bytes": 482548
+    },
+    "jeremiah-c036-v009-010-right-context-v1.jpg": {
+      "sha256": "522ca72e0d2cdbfa873b4b435c7f61536e1babd86b56cffa40acf5d8a70524c6",
+      "bytes": 358218
+    },
+    "jeremiah-c036-v011-019-right-context-v1.jpg": {
+      "sha256": "e1f019d680496277ef1d1b273143f51b5001a46a76d8c1ac8a0197a6c6a150b3",
+      "bytes": 420223
+    },
+    "jeremiah-c036-v020-026-right-context-v1.jpg": {
+      "sha256": "1f0b31c0baec1abbc7841e8ecf44e275fdbc281e798f125004a9ac730be4d620",
+      "bytes": 459372
+    },
+    "jeremiah-c036-v027-032-right-context-v1.jpg": {
+      "sha256": "b05e777c0e8c9e27fb058670b39faa9f48f03bea0155b91ca9e790bd85805c48",
+      "bytes": 470383
+    },
+    "jeremiah-c037-v001-010-right-context-v1.jpg": {
+      "sha256": "ac2edfba7ba8ddfa3b073f0db0a66291b0d3818159dc0b6217edb3bf2a628950",
+      "bytes": 477454
+    },
+    "jeremiah-c037-v011-016-right-context-v1.jpg": {
+      "sha256": "614f9fdada458d8b53d902eb3a7e3ee55b8005273ffb985ee3998663f29ee799",
+      "bytes": 474408
+    },
+    "jeremiah-c037-v017-021-right-context-v1.jpg": {
+      "sha256": "8d6ffc6bca9666dd8b6cbac9eff1dfe81af5bec831ae8673080d50f83c26716c",
+      "bytes": 465228
+    },
+    "jeremiah-c038-v001-006-right-context-v1.jpg": {
+      "sha256": "e947e6659cd4ca487a1e1ccf25ba97637e6b698da19808ea5d32852d883c764c",
+      "bytes": 554328
+    },
+    "jeremiah-c038-v007-010-right-context-v1.jpg": {
+      "sha256": "d2ccfc645bb27cd36fc8bbbb95bb58c061deddc3fcb2440450721cacd4de8750",
+      "bytes": 485060
+    },
+    "jeremiah-c038-v011-013-right-context-v3.jpg": {
+      "sha256": "8b911fa9c810b3cdee510559d4fe995c2b5f7f6ac6cee12a753c79360a9764af",
+      "bytes": 586506
+    },
+    "jeremiah-c038-v014-023-right-context-v1.jpg": {
+      "sha256": "1bee9df4fee98c970006997d767ca143a5ba7b98b9640b9cf49abbc23486e8c5",
+      "bytes": 518706
+    },
+    "jeremiah-c038-v024-028-right-context-v1.jpg": {
+      "sha256": "9f564d6d01a94fb098c7653b59e3590ad4888903f4a713a22ac758131c3cf4b4",
+      "bytes": 523558
+    },
+    "jeremiah-c039-v001-003-right-context-v1.jpg": {
+      "sha256": "8c88ce237c862830705a1cebb48f212698be08e2cf00b1136e943b1464596bcd",
+      "bytes": 522439
+    },
+    "jeremiah-c039-v004-007-right-context-v1.jpg": {
+      "sha256": "454c7efe71f7b4228c9ada486551528dd90214031bb63a92b5151e21a558e546",
+      "bytes": 449959
+    },
+    "jeremiah-c039-v008-010-right-context-v1.jpg": {
+      "sha256": "b8f2defde1537f67a85dd826e2df6ede94752ec1f526e6496527ca1d6d50a6ea",
+      "bytes": 471905
+    },
+    "jeremiah-c039-v011-014-right-context-v1.jpg": {
+      "sha256": "39deda2c59f663818c0f68858e54837c6b90b1e609279ee3e5242d22f18883d1",
+      "bytes": 481478
+    },
+    "jeremiah-c039-v015-018-right-context-v1.jpg": {
+      "sha256": "d0c208794866d96f86c6d6b8276e059080efb6c1b09fa67bfddb83e62eb1504b",
+      "bytes": 530974
+    },
+    "jeremiah-c040-v001-006-right-context-v1.jpg": {
+      "sha256": "906b16f5ec2861f3e34dd857cdbd1c62f703b4e1221f04fdf66947d9258f50d5",
+      "bytes": 516142
+    },
+    "jeremiah-c040-v007-012-right-context-v1.jpg": {
+      "sha256": "8fafc61af10c7d6fcd1412750caa0cce3766e5a714ed91054fc2591f8d800057",
+      "bytes": 497046
+    },
+    "jeremiah-c040-v013-016-right-context-v1.jpg": {
+      "sha256": "d5087fe45c840bff60e7c026eca56c558f5223e6afb520a09c22c1f595a90fde",
+      "bytes": 476519
+    },
+    "jeremiah-c041-v001-003-right-context-v1.jpg": {
+      "sha256": "5abb29905a90fb937d02bc6f32ad7a6d0777939bbb5ddfe3a2cbc3b0324de4aa",
+      "bytes": 447057
+    },
+    "jeremiah-c041-v004-010-right-context-v1.jpg": {
+      "sha256": "0362ed316165d032dad7693d3688f80969184f565fa82959d1436a027f51724b",
+      "bytes": 509459
+    },
+    "jeremiah-c041-v011-015-right-context-v1.jpg": {
+      "sha256": "1eff12d53c9a118a3fe9044cf224b99eace03066514c202e0028c673bc2aa884",
+      "bytes": 521112
+    },
+    "jeremiah-c041-v016-018-right-context-v1.jpg": {
+      "sha256": "1e422b04808be00c92fcd46cdc7cc596e707424bc6c94f039e517cc022f1a0a8",
+      "bytes": 505820
+    },
+    "jeremiah-c042-v001-006-right-context-v1.jpg": {
+      "sha256": "373c2d5cb0c7ede7726f12456cb30db03220d17cfbcf95b9588f69ef11c2b40f",
+      "bytes": 513786
+    },
+    "jeremiah-c042-v007-012-right-context-v1.jpg": {
+      "sha256": "ef7e7021c9d3af7ad099170855742ca5e45901227f73cb13fe1663b618ebfbbd",
+      "bytes": 469765
+    },
+    "jeremiah-c042-v013-018-right-context-v1.jpg": {
+      "sha256": "4bf21a741e607c87bc901f7e679b393d58b59709c0dd97c763f99ba2e0a76de4",
+      "bytes": 551727
+    },
+    "jeremiah-c042-v019-022-right-context-v1.jpg": {
+      "sha256": "55ef16713dd9f936235ea9f49b7d91144808c65737bc1874d3096e4bd07edae3",
+      "bytes": 497895
+    },
+    "jeremiah-c043-v001-007-right-context-v1.jpg": {
+      "sha256": "6bfe2cc6418095d5adce569ffa903868a6be990a110eafb618243a2b9deff34e",
+      "bytes": 528460
+    },
+    "jeremiah-c043-v008-010-right-context-v1.jpg": {
+      "sha256": "e2d2f66cf669b724cb0b734c181d59c552ad18f5e26ea89c39f075bd3a0dad83",
+      "bytes": 522992
+    },
+    "jeremiah-c043-v011-013-right-context-v1.jpg": {
+      "sha256": "e0b4f966197e0070a3b4b1d5541248acd926d0db61ae057226660507549135af",
+      "bytes": 469961
+    },
+    "jeremiah-c044-v001-014-right-context-v1.jpg": {
+      "sha256": "724b0aa252f5c3ba729cc42a53dd931b11bf62249ea7fb85e75f96d497b651c2",
+      "bytes": 452567
+    },
+    "jeremiah-c044-v015-019-right-context-v1.jpg": {
+      "sha256": "114af79901e534e511d839c9a1ad584d08d98ac6d92e53dd27e7107f343bdfac",
+      "bytes": 475278
+    },
+    "jeremiah-c044-v020-025-right-context-v1.jpg": {
+      "sha256": "c1e1693b1ae01eb1ba373af955f2fe69dbfea9c3ff8b907aca587628960f1a87",
+      "bytes": 483714
+    },
+    "jeremiah-c044-v026-030-right-context-v1.jpg": {
+      "sha256": "fb10ea2e1e88d4f5500c3d36892792e5d661dc96904e490a55893322f5dde64c",
+      "bytes": 528663
+    },
+    "jeremiah-c045-v001-003-right-context-v1.jpg": {
+      "sha256": "97264fa1b96e4dd27cafb3c66fb68c650ab9655da0d48840277ec9b9e255c613",
+      "bytes": 475369
+    },
+    "jeremiah-c045-v004-005-right-context-v1.jpg": {
+      "sha256": "33cddca28ab311b714141554d7de78a6d3018a3b5f0d536072352e8566eb9c0e",
+      "bytes": 532794
+    },
+    "jeremiah-c046-v001-006-right-context-v1.jpg": {
+      "sha256": "57f1e12eef52941d2bf7dfc4cf6af49b05a4e07668840926c5644561279da8f9",
+      "bytes": 504661
+    },
+    "jeremiah-c046-v007-012-right-context-v1.jpg": {
+      "sha256": "2e8f39f943a189cfe435002a87a9bf7e258ddde18bfca9068b52c8c6c7b928cc",
+      "bytes": 489677
+    },
+    "jeremiah-c046-v013-024-right-context-v1.jpg": {
+      "sha256": "786da9ef006aa8ea2f317d3464762d2ccc61824960ecaf4ffca4cc04d28fc3e6",
+      "bytes": 436168
+    },
+    "jeremiah-c046-v025-028-right-context-v1.jpg": {
+      "sha256": "da78a90a6558def9562a0ae6cc2ccf9417957e0341883ace04088eb0f88d51e2",
+      "bytes": 499718
+    },
+    "jeremiah-c047-v001-007-right-context-v1.jpg": {
+      "sha256": "9c40e58f952775da5b0e252563e1f2b4d2c1ba28c9c1fe2fa119612b2b7e9d8f",
+      "bytes": 510381
+    },
+    "jeremiah-c048-v001-010-right-context-v1.jpg": {
+      "sha256": "2d49ed7ac06097f9edef4852314ab76d69a48d27136b9b0db2c8dedc878d295b",
+      "bytes": 470411
+    },
+    "jeremiah-c048-v011-017-right-context-v1.jpg": {
+      "sha256": "277467a1769bb9c45abc30b4f9d9138aeb0dc89c86e9da31bf0ed4c7310493fd",
+      "bytes": 504321
+    },
+    "jeremiah-c048-v018-028-right-context-v1.jpg": {
+      "sha256": "fe0420efbf922e11dbbec59c21fff6c75b77839131d1036ce27d47ce6ec4d200",
+      "bytes": 431666
+    },
+    "jeremiah-c048-v029-039-right-context-v1.jpg": {
+      "sha256": "c86c57c5bbb0e8b1a400196e680cb90dad3d08729514750ba4fe79d1b15cc848",
+      "bytes": 528768
+    },
+    "jeremiah-c048-v040-047-right-context-v1.jpg": {
+      "sha256": "39da7a15235944470a95fa19ba41f1519252dea320dea4d44951ec16ecfcdae0",
+      "bytes": 563812
+    },
+    "jeremiah-c049-v001-006-right-context-v1.jpg": {
+      "sha256": "14e2603f03e9bb87552ad4e330228a108bfdbcc5dc06344ca993de9f322f8699",
+      "bytes": 467146
+    },
+    "jeremiah-c049-v007-013-right-context-v1.jpg": {
+      "sha256": "0e165a4261d4dd3484ec8739b393eed6ccb27b7ec6fa829ed6b3c29288f6d96f",
+      "bytes": 462484
+    },
+    "jeremiah-c049-v014-022-right-context-v1.jpg": {
+      "sha256": "bb47a1ffd923c1471a3a22daa50c566cbe6c53c8477d01bf555e1764d587cecd",
+      "bytes": 563442
+    },
+    "jeremiah-c049-v023-027-right-context-v1.jpg": {
+      "sha256": "0f597bdb895ab5124dfdf9083a7e53c10a780c4a68962e0b8a09d472207b9d59",
+      "bytes": 470792
+    },
+    "jeremiah-c049-v028-033-right-context-v1.jpg": {
+      "sha256": "dea45ce18bf29d5565b3d6db94ad0be7b1adba5cbebff54fdca49d4b4f8993bf",
+      "bytes": 516219
+    },
+    "jeremiah-c049-v034-039-right-context-v1.jpg": {
+      "sha256": "7c4064131c5acce7bd442febdf00ec4dd97407b134a0268fb7a7fe00a9b0cefe",
+      "bytes": 587711
+    },
+    "jeremiah-c050-v001-010-right-context-v1.jpg": {
+      "sha256": "5572735c3553404af43e93efa7b8a1035ed3cb0918ccb48a4bbd164b3565afad",
+      "bytes": 500974
+    },
+    "jeremiah-c050-v011-020-right-context-v1.jpg": {
+      "sha256": "ba188b257e15f8db3551867103e1eaf1145385a648fdccb0c4df8db499bf75f4",
+      "bytes": 552669
+    },
+    "jeremiah-c050-v021-032-right-context-v1.jpg": {
+      "sha256": "701c869d23517480aa3465050d9f8e627a7883e7ef909d0fd34f23790a80691b",
+      "bytes": 423293
+    },
+    "jeremiah-c050-v033-040-right-context-v1.jpg": {
+      "sha256": "2544a781d6c81c31f70985616c339c414938bfa60e3c289b48d7d67f308d3020",
+      "bytes": 512843
+    },
+    "jeremiah-c050-v041-046-right-context-v1.jpg": {
+      "sha256": "f97d0c3d053a793da166f256f27de3ab697ae70e6f5f5c1c171ac5ee2ee60371",
+      "bytes": 467506
+    },
+    "jeremiah-c051-v001-010-right-context-v1.jpg": {
+      "sha256": "ef7a8c40cb8d98fb5d0267ae697b7e06b58360bc5af0d39c41252b1984f50706",
+      "bytes": 472136
+    },
+    "jeremiah-c051-v011-019-right-context-v1.jpg": {
+      "sha256": "acae7234de49c6d2915bf6164a15c8f5710e542e2f25a18c72e6d26c29c48817",
+      "bytes": 496496
+    },
+    "jeremiah-c051-v020-033-right-context-v1.jpg": {
+      "sha256": "9127c1eb721432a26bf83f9e52c3a36140060126bb2ab315576e2e242d3a2268",
+      "bytes": 588202
+    },
+    "jeremiah-c051-v034-044-right-context-v1.jpg": {
+      "sha256": "f4e59ede1dc248f7289183f720cc3e497b17dae40c7b20f9d4cf6f5bdfd27e08",
+      "bytes": 507685
+    },
+    "jeremiah-c051-v045-053-right-context-v1.jpg": {
+      "sha256": "b41dd81d4a4049e0477ec73aa952ac0970c831a8ae3c99f62a4cdfff4363c22c",
+      "bytes": 514756
+    },
+    "jeremiah-c051-v054-058-right-context-v1.jpg": {
+      "sha256": "7fd4aa190eb69ba727e36b79ca9797441145f4f9f206ae60c87f9fdef674b216",
+      "bytes": 592547
+    },
+    "jeremiah-c051-v059-064-right-context-v1.jpg": {
+      "sha256": "75f167200302d5c52dce00cb6182c1379782d32f16bf37efc45d3f2473ed5596",
+      "bytes": 470830
+    },
+    "jeremiah-c052-v001-007-right-context-v1.jpg": {
+      "sha256": "4ae38b017072d715dae2de625727752f55d982e807657f613bfe911a705f74ea",
+      "bytes": 477117
+    },
+    "jeremiah-c052-v008-011-right-context-v1.jpg": {
+      "sha256": "351e2220f98f32acf01b27e9893c0e74c1cde78449cf9ebee73c938c137618fe",
+      "bytes": 443230
+    },
+    "jeremiah-c052-v012-016-right-context-v1.jpg": {
+      "sha256": "6d0f703cd68f70d82e1e90bb7f79352683b01efbd83f0437b360132a1ee8cdb5",
+      "bytes": 520695
+    },
+    "jeremiah-c052-v017-023-right-context-v1.jpg": {
+      "sha256": "946349205606c92b5688a2e8253094dc3141cb1796eb0594182c67f3636c32d2",
+      "bytes": 642632
+    },
+    "jeremiah-c052-v024-030-right-context-v1.jpg": {
+      "sha256": "df69c1c5ec4d858f513f452752e6272d786492cc62ef4a32fd686105b334eb7d",
+      "bytes": 456245
+    },
+    "jeremiah-c052-v031-034-right-context-v1.jpg": {
+      "sha256": "d86ada08d38b2fe42a0580a9fc025c116e61faec27cda3d6de74f1524055abe3",
+      "bytes": 378417
     }
   }
 }

@@ -102,3 +102,12 @@ for(const [lang,name] of [['ko','예레미야애가'],['en','Lamentations'],['ja
 }
 const lamentCross=pick('/share/lamentations/2/22/3/1?lang=en');assert.equal(lamentCross.reference,'Lamentations 2:22–3:1');assert.match(lamentCross.text,/affliction/);
 console.log('Lamentations share pages render in all four languages with attribution, a shared range and a cross-chapter range.');
+for(const [lang,name] of [['ko','예레미야'],['en','Jeremiah'],['ja','エレミヤ書'],['zh','耶利米书']]){
+ const shared=pick(`/share/jeremiah/1/1${lang==='ko'?'':`?lang=${lang}`}`),page=shareHTML(shared);
+ assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,'jeremiah-c001-v001-003-right-context-v1.jpg');assert(page.includes(shared.text));assert(page.includes('book=jeremiah'));
+ if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} jeremiah attribution`);
+ const range=pick(`/share/jeremiah/31/31/31/34${lang==='ko'?'':`?lang=${lang}`}`);assert.equal(range.reference,`${name} 31:31–34`);assert.equal(range.image,'jeremiah-c031-v031-034-right-context-v1.jpg');assert(shareHTML(range).includes(range.text));
+}
+const jerBridge=pick('/share/jeremiah/43/6?lang=zh');assert.equal(jerBridge.reference,'耶利米书 43:5–7');assert.match(jerBridge.text,/答比匿/);assert.equal(jerBridge.image,'jeremiah-c043-v001-007-right-context-v1.jpg');
+const jerCross=pick('/share/jeremiah/8/22/9/1?lang=en');assert.equal(jerCross.reference,'Jeremiah 8:22–9:1');assert.match(jerCross.text,/balm in Gilead/);assert.match(jerCross.text,/spring of water/);
+console.log('Jeremiah share pages render in all four languages with attribution, a shared range, an OpenCCB combined verse and a cross-chapter range.');

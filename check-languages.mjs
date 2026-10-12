@@ -18,7 +18,7 @@ assert.throws(()=>applyTranslation(base,fixture('ja'),'en'),/language mismatch/)
 const root=await fs.mkdtemp(path.join(os.tmpdir(),'vible-language-tests-'));
 try{
  await fs.mkdir(path.join(root,'data'),{recursive:true});await fs.writeFile(path.join(root,'data/john.json'),JSON.stringify(base));
- for(const name of ['asset-hosting.json','languages.js','bible-books.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','proverbs-books.json','songofsongs-books.json','1chronicles-books.json','2chronicles-books.json','ezra-books.json','nehemiah-books.json','esther-books.json','job-books.json','ecclesiastes-books.json','daniel-books.json','jonah-books.json','lamentations-books.json','historical-books.json','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','1chronicles-catalog.js','2chronicles-catalog.js','ezra-catalog.js','nehemiah-catalog.js','esther-catalog.js','job-catalog.js','ecclesiastes-catalog.js','daniel-catalog.js','jonah-catalog.js','lamentations-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
+ for(const name of ['asset-hosting.json','languages.js','bible-books.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','proverbs-books.json','songofsongs-books.json','1chronicles-books.json','2chronicles-books.json','ezra-books.json','nehemiah-books.json','esther-books.json','job-books.json','ecclesiastes-books.json','daniel-books.json','jonah-books.json','jeremiah-books.json','lamentations-books.json','historical-books.json','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','1chronicles-catalog.js','2chronicles-catalog.js','ezra-catalog.js','nehemiah-catalog.js','esther-catalog.js','job-catalog.js','ecclesiastes-catalog.js','daniel-catalog.js','jonah-catalog.js','jeremiah-catalog.js','lamentations-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
  await fs.writeFile(path.join(root,'package.json'),JSON.stringify({type:'module'}));
  const {selection,shareParams}=await import(pathToFileURL(path.join(root,'share-data.mjs')));
  assert.throws(()=>selection(shareParams(new URL('https://vible.now/share/john/1/1?lang=en'))),/not available/);
@@ -47,13 +47,13 @@ assert.throws(()=>actualSelection(new URLSearchParams({book:'john',chapter:'5',v
 console.log('All catalogued real translations, translation attribution, combined verse sharing and modern omissions verified.');
 
 for(const lang of ['en','ja','zh']){
- assert.equal(actualCatalog[lang].books.length,52);
+ assert.equal(actualCatalog[lang].books.length,53);
  const closing=actualSelection(new URLSearchParams({book:'leviticus',chapter:'27',verse:'34',lang}));assert.equal(closing.lang,lang);assert(closing.text.trim());
  const psalm=actualSelection(new URLSearchParams({book:'psalms',chapter:'50',verse:'15',lang}));assert.equal(psalm.lang,lang);assert(psalm.text.trim());
 }
 const greeting=actualSelection(new URLSearchParams({book:'3john',chapter:'1',verse:'15',lang:'en'}));assert.equal(greeting.reference,'3 John 1:14–15');assert.match(greeting.text,/Peace to you/);
 const jpRange=actualSelection(new URLSearchParams({book:'numbers',chapter:'15',verse:'5',lang:'ja'}));assert.equal(jpRange.reference,'民数記 15:4–5');assert(jpRange.text.trim());
-console.log('All 156 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
+console.log('All 159 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
 
 for(const lang of ['ko','en','ja','zh']){const p=actualSelection(new URLSearchParams({book:'proverbs',chapter:'31',verse:'31',lang}));assert.equal(p.lang,lang);assert(p.text.trim());}
 const proverbBridge=actualSelection(new URLSearchParams({book:'proverbs',chapter:'26',verse:'19',lang:'zh'}));assert.equal(proverbBridge.reference,'箴言 26:18–19');assert(proverbBridge.text.trim());
@@ -96,3 +96,26 @@ for(const [lang,name] of [['ko','예레미야애가'],['en','Lamentations'],['ja
  if(lang!=='ko')assert(mercies.attribution&&shareHTML(mercies).includes(mercies.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} lamentations attribution`);
 }
 console.log('Lamentations: four-language chapter-final verses (22/22/66/22/22), shared range 3:22–23 and attribution verified.');
+
+// Jeremiah: KRV 52 chapters / 1,364 verses. BSB and the 1955 Colloquial share every KRV boundary (8:22 balm, 9:1 "my head were waters");
+// OpenCCB prints 11 combined verses that stay explicit without filling the second number from another text.
+const jeremiahCounts=[19,37,25,31,31,30,34,22,26,25,23,17,27,22,21,21,27,23,15,18,14,30,40,10,38,24,22,17,32,24,40,44,26,22,19,32,21,28,18,16,18,22,13,30,5,28,7,47,39,46,64,34];
+const jeremiahBridges=[[11,21,22],[17,2,3],[19,1,2],[27,19,20],[29,1,2],[32,9,10],[34,18,19],[36,23,24],[41,13,14],[43,5,7],[51,59,60]];
+for(const [lang,name] of [['ko','예레미야'],['en','Jeremiah'],['ja','エレミヤ書'],['zh','耶利米书']]){
+ if(lang!=='ko')assert(actualCatalog[lang].books.includes('jeremiah'),`${lang} jeremiah`);
+ jeremiahCounts.forEach((count,index)=>{
+  const chapter=index+1,last=actualSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
+  assert.throws(()=>actualSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(count+1),lang})));
+ });
+ for(const [chapter,verse,pattern] of [[8,22,{ko:/길르앗에는 유향/,en:/balm in Gilead/,ja:/ギレアデに乳香/,zh:/基列没有药物/}],[9,1,{ko:/머리는 물이 되고/,en:/my head were a spring/,ja:/頭が水となり/,zh:/头是水泉/}],[29,11,{ko:/장래에 소망/,en:/plans I have for you/,ja:/平安を与えよう/,zh:/充满希望/}]])assert.match(actualSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} jeremiah ${chapter}:${verse}`);
+ const covenant=actualSelection(new URLSearchParams({book:'jeremiah',chapter:'31',verse:'31',endChapter:'31',endVerse:'34',lang}));assert.equal(covenant.lang,lang);assert.equal(covenant.reference,`${name} 31:31–34`);assert.equal(covenant.verses.length,4);
+ assert.match(covenant.text,{ko:/새 언약/,en:/new covenant/,ja:/新しい契約/,zh:/新约/}[lang]);
+ if(lang!=='ko')assert(covenant.attribution&&shareHTML(covenant).includes(covenant.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} jeremiah attribution`);
+ for(const [chapter,first,end] of jeremiahBridges){
+  const bridged=actualSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(end),lang}));assert(bridged.text.trim());
+  assert.equal(bridged.reference,lang==='zh'?`${name} ${chapter}:${first}–${end}`:`${name} ${chapter}:${end}`);
+ }
+}
+assert.equal(actualSelection(new URLSearchParams({book:'jeremiah',chapter:'21',verse:'2',lang:'ko'})).text,'[1절과 같음]');
+assert.match(actualSelection(new URLSearchParams({book:'jeremiah',chapter:'21',verse:'2',lang:'en'})).text,/Nebuchadnezzar/);
+console.log('Jeremiah: four-language chapter-final verses for all 52 chapters, 8:22/9:1 boundary, shared range 31:31–34, OpenCCB combined verses and attribution verified.');
