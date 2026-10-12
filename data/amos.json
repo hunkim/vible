@@ -1,0 +1,1383 @@
+{
+  "book": "아모스",
+  "translation": "개역한글",
+  "attribution": "성경전서 개역한글판 © 대한성서공회 1961.",
+  "source": "https://github.com/yuhwan/Bible-krv",
+  "verification": "https://www.bible.com/ko/bible/88/AMO.1.KRV",
+  "copyrightSource": "https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5",
+  "chapters": 9,
+  "verseCount": 146,
+  "sceneCount": 56,
+  "scenes": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "first": 1,
+      "last": 2,
+      "title": "드고아 목자의 부르심",
+      "kind": "narrative",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "유다 왕 웃시야의 시대 곧 이스라엘 왕 요아스의 아들 여로보암의 시대의 지진 전 이년에 드고아 목자 중 아모스가 이스라엘에 대하여 묵시 받은 말씀이라"
+        },
+        {
+          "verse": 2,
+          "text": "저가 가로되 여호와께서 시온에서부터 부르짖으시며 예루살렘에서부터 음성을 발하시리니 목자의 초장이 애통하며 갈멜 산 꼭대기가 마르리로다"
+        }
+      ],
+      "image": "amos-c001-v001-002-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 1:1–2.\nPrimary single moment: Amos with his small sheep flock on Tekoa hillside, sober attentive eyes toward distant Zion, pasture beginning to dry.\nPhysical camera: 50mm shepherd-eye-height.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n1 유다 왕 웃시야의 시대 곧 이스라엘 왕 요아스의 아들 여로보암의 시대의 지진 전 이년에 드고아 목자 중 아모스가 이스라엘에 대하여 묵시 받은 말씀이라\n2 저가 가로되 여호와께서 시온에서부터 부르짖으시며 예루살렘에서부터 음성을 발하시리니 목자의 초장이 애통하며 갈멜 산 꼭대기가 마르리로다",
+      "referenceImages": []
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "first": 3,
+      "last": 5,
+      "title": "다메섹의 폭학",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 3,
+          "text": "여호와께서 가라사대 다메섹의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 철 타작기로 타작하듯 길르앗을 압박하였음이라"
+        },
+        {
+          "verse": 4,
+          "text": "내가 하사엘의 집에 불을 보내리니 벤하닷의 궁궐들을 사르리라"
+        },
+        {
+          "verse": 5,
+          "text": "내가 다메섹 빗장을 꺾으며 아웬 골짜기에서 그 거민을 끊으며 벧에던에서 홀 잡은 자를 끊으리니 아람 백성이 사로잡혀 길에 이르리라 이는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c001-v003-005-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 1:3–5.\nPrimary single moment: EDITORIAL oracle aftermath: ruined Aramean palace gate and a displaced adult from Gilead with worn bundle, grief without literal threshing of people.\nPhysical camera: 40mm doorway-ground.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n3 여호와께서 가라사대 다메섹의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 철 타작기로 타작하듯 길르앗을 압박하였음이라\n4 내가 하사엘의 집에 불을 보내리니 벤하닷의 궁궐들을 사르리라\n5 내가 다메섹 빗장을 꺾으며 아웬 골짜기에서 그 거민을 끊으며 벧에던에서 홀 잡은 자를 끊으리니 아람 백성이 사로잡혀 길에 이르리라 이는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "first": 6,
+      "last": 8,
+      "title": "가사의 사로잡힌 사람들",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 6,
+          "text": "여호와께서 가라사대 가사의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 모든 사로잡은 자를 끌어 에돔에 붙였음이라"
+        },
+        {
+          "verse": 7,
+          "text": "내가 가사 성에 불을 보내리니 그 궁궐들을 사르리라"
+        },
+        {
+          "verse": 8,
+          "text": "내가 또 아스돗에서 그 거민과 아스글론에서 홀 잡은 자를 끊고 또 손을 돌이켜 에그론을 치리니 블레셋의 남아 있는 자가 멸망하리라 이는 주 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c001-v006-008-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 1:6–8.\nPrimary single moment: Dignified displaced adults at Gaza caravan gate, guarded departure, fearful faces, no slave auction or shackled children.\nPhysical camera: 50mm within travelers.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n6 여호와께서 가라사대 가사의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 모든 사로잡은 자를 끌어 에돔에 붙였음이라\n7 내가 가사 성에 불을 보내리니 그 궁궐들을 사르리라\n8 내가 또 아스돗에서 그 거민과 아스글론에서 홀 잡은 자를 끊고 또 손을 돌이켜 에그론을 치리니 블레셋의 남아 있는 자가 멸망하리라 이는 주 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "first": 9,
+      "last": 10,
+      "title": "두로의 깨어진 약속",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 9,
+          "text": "여호와께서 가라사대 두로의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 그 형제의 계약을 기억지 아니하고 모든 사로잡은 자를 에돔에 붙였음이라"
+        },
+        {
+          "verse": 10,
+          "text": "내가 두로 성에 불을 보내리니 그 궁궐들을 사르리라"
+        }
+      ],
+      "image": "amos-c001-v009-010-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 1:9–10.\nPrimary single moment: Phoenician harbor official turns away from anxious Judean adult travelers beside cargo ship, betrayal and cold indifference.\nPhysical camera: 65mm candid harbor two-shot.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n9 여호와께서 가라사대 두로의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 그 형제의 계약을 기억지 아니하고 모든 사로잡은 자를 에돔에 붙였음이라\n10 내가 두로 성에 불을 보내리니 그 궁궐들을 사르리라",
+      "referenceImages": []
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "first": 11,
+      "last": 12,
+      "title": "형제에게 긍휼을 버린 에돔",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 11,
+          "text": "여호와께서 가라사대 에돔의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저가 칼로 그 형제를 쫓아가며 긍휼을 버리며 노가 항상 맹렬하며 분을 끝없이 품었음이라"
+        },
+        {
+          "verse": 12,
+          "text": "내가 데만에 불을 보내리니 보스라의 궁궐들을 사르리라"
+        }
+      ],
+      "image": "amos-c001-v011-012-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 1:11–12.\nPrimary single moment: Edomite guard in rough highland gateway denies shelter to weary Judean adult traveler, tense estrangement, no stabbing.\nPhysical camera: 50mm threshold two-shot.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n11 여호와께서 가라사대 에돔의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저가 칼로 그 형제를 쫓아가며 긍휼을 버리며 노가 항상 맹렬하며 분을 끝없이 품었음이라\n12 내가 데만에 불을 보내리니 보스라의 궁궐들을 사르리라",
+      "referenceImages": []
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "first": 13,
+      "last": 15,
+      "title": "암몬의 교만과 몰락",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "여호와께서 가라사대 암몬 자손의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 자기 지경을 넓히고자 하여 길르앗의 아이 밴 여인의 배를 갈랐음이니라"
+        },
+        {
+          "verse": 14,
+          "text": "내가 랍바 성에 불을 놓아 그 궁궐들을 사르되 전쟁의 날에 외침과 회리바람 날에 폭풍으로 할 것이며"
+        },
+        {
+          "verse": 15,
+          "text": "저희의 왕은 그 방백들과 함께 사로잡혀 가리라 이는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c001-v013-015-right-context-v3.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 1:13–15.\nPrimary single moment: EDITORIAL aftermath: deserted Rabbah palace court with overturned plain royal chair and empty cradle distant, mourning adult woman fully clothed, no graphic attack or dead child.\nPhysical camera: 40mm respectful doorway.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n13 여호와께서 가라사대 암몬 자손의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 자기 지경을 넓히고자 하여 길르앗의 아이 밴 여인의 배를 갈랐음이니라\n14 내가 랍바 성에 불을 놓아 그 궁궐들을 사르되 전쟁의 날에 외침과 회리바람 날에 폭풍으로 할 것이며\n15 저희의 왕은 그 방백들과 함께 사로잡혀 가리라 이는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 7,
+      "chapter": 2,
+      "first": 1,
+      "last": 3,
+      "title": "모압의 죄와 심판",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "여호와께서 가라사대 모압의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저가 에돔 왕의 뼈를 불살라 회를 만들었음이라"
+        },
+        {
+          "verse": 2,
+          "text": "내가 모압에 불을 보내리니 그리욧 궁궐들을 사르리라 모압이 요란함과 외침과 나팔 소리 중에서 죽을 것이라"
+        },
+        {
+          "verse": 3,
+          "text": "내가 그 중에서 재판장을 멸하며 방백들을 저와 함께 죽이리라 이는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c002-v001-003-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.2.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 2:1–3.\nPrimary single moment: EDITORIAL abandoned Moabite royal courtyard with disturbed plain tomb stones and burned plaster, solemn moral horror, no bones or bodies.\nPhysical camera: 40mm human-height.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n1 여호와께서 가라사대 모압의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저가 에돔 왕의 뼈를 불살라 회를 만들었음이라\n2 내가 모압에 불을 보내리니 그리욧 궁궐들을 사르리라 모압이 요란함과 외침과 나팔 소리 중에서 죽을 것이라\n3 내가 그 중에서 재판장을 멸하며 방백들을 저와 함께 죽이리라 이는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 8,
+      "chapter": 2,
+      "first": 4,
+      "last": 5,
+      "title": "유다가 버린 율법",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "여호와께서 가라사대 유다의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 여호와의 율법을 멸시하며 그 율례를 지키지 아니하고 그 열조의 따라가던 거짓것에 미혹하였음이라"
+        },
+        {
+          "verse": 5,
+          "text": "내가 유다에 불을 보내리니 예루살렘의 궁궐들을 사르리라"
+        }
+      ],
+      "image": "amos-c002-v004-005-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.2.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 2:4–5.\nPrimary single moment: A closed neglected parchment beside idol in wealthy Judean house, uneasy adult elder turns away, no modern printed scripture.\nPhysical camera: 65mm tabletop and face.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n4 여호와께서 가라사대 유다의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 여호와의 율법을 멸시하며 그 율례를 지키지 아니하고 그 열조의 따라가던 거짓것에 미혹하였음이라\n5 내가 유다에 불을 보내리니 예루살렘의 궁궐들을 사르리라",
+      "referenceImages": []
+    },
+    {
+      "id": 9,
+      "chapter": 2,
+      "first": 6,
+      "last": 7,
+      "title": "가난한 자를 신 한 켤레에 팔다",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 6,
+          "text": "여호와께서 가라사대 이스라엘의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 은을 받고 의인을 팔며 신 한 켤레를 받고 궁핍한 자를 팔며"
+        },
+        {
+          "verse": 7,
+          "text": "가난한 자의 머리에 있는 티끌을 탐내며 겸손한 자의 길을 굽게하며 부자가 한 젊은 여인에게 다녀서 나의 거룩한 이름을 더럽히며"
+        }
+      ],
+      "image": "amos-c002-v006-007-right-context-v2.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.2.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 2:6–7.\nPrimary single moment: Impoverished adult petitioner stands before cold wealthy merchant counting weighed silver beside worn sandals, injustice visible in faces, no sexualized woman.\nPhysical camera: 65mm merchant-table-height.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n6 여호와께서 가라사대 이스라엘의 서너 가지 죄로 인하여 내가 그 벌을 돌이키지 아니하리니 이는 저희가 은을 받고 의인을 팔며 신 한 켤레를 받고 궁핍한 자를 팔며\n7 가난한 자의 머리에 있는 티끌을 탐내며 겸손한 자의 길을 굽게하며 부자가 한 젊은 여인에게 다녀서 나의 거룩한 이름을 더럽히며",
+      "referenceImages": []
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "first": 8,
+      "last": 8,
+      "title": "전당 잡은 옷 위의 향락",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 8,
+          "text": "모든 단 옆에서 전당 잡은 옷 위에 누우며 저희 신의 전에서 벌금으로 얻은 포도주를 마심이니라"
+        }
+      ],
+      "image": "amos-c002-v008-008-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.2.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 2:8–8.\nPrimary single moment: Wealthy adult man reclines on a poor man's worn pledged cloak near an idol altar and wine cup, careless luxury, empty moral warmth.\nPhysical camera: 50mm candid chamber.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n8 모든 단 옆에서 전당 잡은 옷 위에 누우며 저희 신의 전에서 벌금으로 얻은 포도주를 마심이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 11,
+      "chapter": 2,
+      "first": 9,
+      "last": 12,
+      "title": "잊은 광야의 은혜",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 9,
+          "text": "내가 아모리 사람을 저희 앞에서 멸하였나니 그 키는 백향목 높이와 같고 강하기는 상수리나무 같으나 내가 그 위의 열매와 그 아래의 뿌리를 진멸하지 아니하였느냐"
+        },
+        {
+          "verse": 10,
+          "text": "내가 너희를 애굽 땅에서 이끌어 내어 사십 년 동안 광야에서 인도하고 아모리 사람의 땅을 너희로 차지하게 하였고"
+        },
+        {
+          "verse": 11,
+          "text": "또 너희 아들 중에서 선지자를, 너희 청년 중에서 나시르 사람을 일으켰나니 이스라엘 자손들아 과연 그렇지 아니하냐 이는 여호와의 말씀이니라"
+        },
+        {
+          "verse": 12,
+          "text": "그러나 너희가 나시르 사람으로 포도주를 마시게 하며 또 선지자에게 명하여 예언하지 말라 하였느니라"
+        }
+      ],
+      "image": "amos-c002-v009-012-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.2.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 2:9–12.\nPrimary single moment: Amos confronts a complacent adult listener beside simple sheep pen, earnest moral witness; remembered exodus not literal montage.\nPhysical camera: 65mm eye-height dialogue.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n9 내가 아모리 사람을 저희 앞에서 멸하였나니 그 키는 백향목 높이와 같고 강하기는 상수리나무 같으나 내가 그 위의 열매와 그 아래의 뿌리를 진멸하지 아니하였느냐\n10 내가 너희를 애굽 땅에서 이끌어 내어 사십 년 동안 광야에서 인도하고 아모리 사람의 땅을 너희로 차지하게 하였고\n11 또 너희 아들 중에서 선지자를, 너희 청년 중에서 나시르 사람을 일으켰나니 이스라엘 자손들아 과연 그렇지 아니하냐 이는 여호와의 말씀이니라\n12 그러나 너희가 나시르 사람으로 포도주를 마시게 하며 또 선지자에게 명하여 예언하지 말라 하였느니라",
+      "referenceImages": []
+    },
+    {
+      "id": 12,
+      "chapter": 2,
+      "first": 13,
+      "last": 16,
+      "title": "곡식 단을 실은 무거운 수레",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "곡식 단을 가득히 실은 수레가 흙을 누름 같이 내가 너희 자리에 너희를 누르리니"
+        },
+        {
+          "verse": 14,
+          "text": "빨리 달음박질하는 자도 도망할 수 없으며 강한 자도 자기 힘을 낼 수 없으며 용사도 피할 수 없으며"
+        },
+        {
+          "verse": 15,
+          "text": "활을 가진 자도 설 수 없으며 발이 빠른 자도 피할 수 없으며 말타는 자도 피할 수 없고"
+        },
+        {
+          "verse": 16,
+          "text": "용사 중에 굳센 자는 그 날에 벌거벗고야 도망하리라 이는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c002-v013-016-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.2.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 2:13–16.\nPrimary single moment: EDITORIAL burden: overloaded wood grain cart presses deep ruts into earth beside anxious former warrior, no human crushed or nude fleeing.\nPhysical camera: 35mm wheel-height tangible weight.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n13 곡식 단을 가득히 실은 수레가 흙을 누름 같이 내가 너희 자리에 너희를 누르리니\n14 빨리 달음박질하는 자도 도망할 수 없으며 강한 자도 자기 힘을 낼 수 없으며 용사도 피할 수 없으며\n15 활을 가진 자도 설 수 없으며 발이 빠른 자도 피할 수 없으며 말타는 자도 피할 수 없고\n16 용사 중에 굳센 자는 그 날에 벌거벗고야 도망하리라 이는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 13,
+      "chapter": 3,
+      "first": 1,
+      "last": 2,
+      "title": "택하심에 따르는 책임",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "이스라엘 자손들아 여호와께서 너희를 쳐서 이르시는 이 말씀을 들으라 애굽 땅에서 인도하여 올리신 온 족속을 쳐서 이르시기를"
+        },
+        {
+          "verse": 2,
+          "text": "내가 땅의 모든 족속 중에 너희만 알았나니 그러므로 내가 너희 모든 죄악을 너희에게 보응하리라 하셨나니"
+        }
+      ],
+      "image": "amos-c003-v001-002-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.3.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 3:1–2.\nPrimary single moment: Amos addresses attentive Israelite adults at Samaria gate, grave compassion, listeners troubled by accountability.\nPhysical camera: 50mm inside audience.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n1 이스라엘 자손들아 여호와께서 너희를 쳐서 이르시는 이 말씀을 들으라 애굽 땅에서 인도하여 올리신 온 족속을 쳐서 이르시기를\n2 내가 땅의 모든 족속 중에 너희만 알았나니 그러므로 내가 너희 모든 죄악을 너희에게 보응하리라 하셨나니",
+      "referenceImages": []
+    },
+    {
+      "id": 14,
+      "chapter": 3,
+      "first": 3,
+      "last": 6,
+      "title": "동행과 경고의 뜻",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 3,
+          "text": "두 사람이 의합지 못하고야 어찌 동행하겠으며"
+        },
+        {
+          "verse": 4,
+          "text": "사자가 움킨 것이 없고야 어찌 수풀에서 부르짖겠으며 젊은 사자가 잡은 것이 없고야 어찌 굴에서 소리를 내겠느냐"
+        },
+        {
+          "verse": 5,
+          "text": "창애를 땅에 베풀지 아니하고야 새가 어찌 거기 치이겠으며 아무 잡힌 것이 없고야 창애가 어찌 땅에서 뛰겠느냐"
+        },
+        {
+          "verse": 6,
+          "text": "성읍에서 나팔을 불게 되고야 백성이 어찌 두려워하지 아니하겠으며 여호와의 시키심이 아니고야 재앙이 어찌 성읍에 임하겠느냐"
+        }
+      ],
+      "image": "amos-c003-v003-006-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.3.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 3:3–6.\nPrimary single moment: Two adult travelers halt together as distant city watchman sounds a ram horn, unease and shared attention, no literal attack by lion.\nPhysical camera: 40mm road-height.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n3 두 사람이 의합지 못하고야 어찌 동행하겠으며\n4 사자가 움킨 것이 없고야 어찌 수풀에서 부르짖겠으며 젊은 사자가 잡은 것이 없고야 어찌 굴에서 소리를 내겠느냐\n5 창애를 땅에 베풀지 아니하고야 새가 어찌 거기 치이겠으며 아무 잡힌 것이 없고야 창애가 어찌 땅에서 뛰겠느냐\n6 성읍에서 나팔을 불게 되고야 백성이 어찌 두려워하지 아니하겠으며 여호와의 시키심이 아니고야 재앙이 어찌 성읍에 임하겠느냐",
+      "referenceImages": []
+    },
+    {
+      "id": 15,
+      "chapter": 3,
+      "first": 7,
+      "last": 8,
+      "title": "부르짖는 소리와 예언",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "주 여호와께서는 자기의 비밀을 그 종 선지자들에게 보이지 아니하시고는 결코 행하심이 없으시리라"
+        },
+        {
+          "verse": 8,
+          "text": "사자가 부르짖은즉 누가 두려워하지 아니하겠느냐 주 여호와께서 말씀하신즉 누가 예언하지 아니하겠느냐"
+        }
+      ],
+      "image": "amos-c003-v007-008-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.3.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 3:7–8.\nPrimary single moment: Amos speaks with firm compelled courage, wind in simple mantle, frightened listener beside him, God unseen.\nPhysical camera: 85mm intimate profile.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n7 주 여호와께서는 자기의 비밀을 그 종 선지자들에게 보이지 아니하시고는 결코 행하심이 없으시리라\n8 사자가 부르짖은즉 누가 두려워하지 아니하겠느냐 주 여호와께서 말씀하신즉 누가 예언하지 아니하겠느냐",
+      "referenceImages": []
+    },
+    {
+      "id": 16,
+      "chapter": 3,
+      "first": 9,
+      "last": 12,
+      "title": "궁궐에 쌓인 약탈",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 9,
+          "text": "아스돗의 궁들과 애굽 땅 궁들에 광포하여 이르기를 너희는 사마리아 산들에 모여 그 성 중에서 얼마나 큰 요란함과 학대함이 있나 보라 하라"
+        },
+        {
+          "verse": 10,
+          "text": "자기 궁궐에서 포학과 겁탈을 쌓는 자들이 바른 일 행할 줄을 모르느니라 이는 여호와의 말씀이니라"
+        },
+        {
+          "verse": 11,
+          "text": "그러므로 주 여호와께서 가라사대 이 땅 사면에 대적이 있어 네 힘을 쇠하게 하며 네 궁궐을 약탈하리라"
+        },
+        {
+          "verse": 12,
+          "text": "여호와께서 가라사대 목자가 사자 입에서 양의 두 다리나 귀 조각을 건져냄과 같이 사마리아에서 침상 모퉁이에나 걸상에 비단 방석에 앉은 이스라엘 자손이 건져냄을 입으리라"
+        }
+      ],
+      "image": "amos-c003-v009-012-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.3.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 3:9–12.\nPrimary single moment: Empty lavish Samaria chamber holds stolen household bundles and ivory furniture fragments, weary adult servant looks distressed, no torn sheep limbs.\nPhysical camera: 40mm doorway.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n9 아스돗의 궁들과 애굽 땅 궁들에 광포하여 이르기를 너희는 사마리아 산들에 모여 그 성 중에서 얼마나 큰 요란함과 학대함이 있나 보라 하라\n10 자기 궁궐에서 포학과 겁탈을 쌓는 자들이 바른 일 행할 줄을 모르느니라 이는 여호와의 말씀이니라\n11 그러므로 주 여호와께서 가라사대 이 땅 사면에 대적이 있어 네 힘을 쇠하게 하며 네 궁궐을 약탈하리라\n12 여호와께서 가라사대 목자가 사자 입에서 양의 두 다리나 귀 조각을 건져냄과 같이 사마리아에서 침상 모퉁이에나 걸상에 비단 방석에 앉은 이스라엘 자손이 건져냄을 입으리라",
+      "referenceImages": []
+    },
+    {
+      "id": 17,
+      "chapter": 3,
+      "first": 13,
+      "last": 15,
+      "title": "무너질 제단과 궁전",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "주 여호와 만군의 하나님이 가라사대 너희는 듣고 야곱의 족속에게 증거하라"
+        },
+        {
+          "verse": 14,
+          "text": "내가 이스라엘의 모든 죄를 보응하는 날에 벧엘의 단들을 벌하여 그 단의 뿔들을 꺾어 땅에 떨어뜨리고"
+        },
+        {
+          "verse": 15,
+          "text": "겨울 궁과 여름 궁을 치리니 상아궁들이 파멸되며 큰 궁들이 결단나리라 이는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c003-v013-015-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.3.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 3:13–15.\nPrimary single moment: EDITORIAL judgment aftermath: broken Bethel altar horns on ground and damaged stone court, adult survivor mourns quietly, no divine human destroying it.\nPhysical camera: 40mm ground-eye.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n13 주 여호와 만군의 하나님이 가라사대 너희는 듣고 야곱의 족속에게 증거하라\n14 내가 이스라엘의 모든 죄를 보응하는 날에 벧엘의 단들을 벌하여 그 단의 뿔들을 꺾어 땅에 떨어뜨리고\n15 겨울 궁과 여름 궁을 치리니 상아궁들이 파멸되며 큰 궁들이 결단나리라 이는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 18,
+      "chapter": 4,
+      "first": 1,
+      "last": 3,
+      "title": "사마리아의 안일한 부유층",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "사마리아 산에 거하는 바산 암소들아 이 말을 들으라 너희는 가난한 자를 학대하며 궁핍한 자를 압제하며 가장에게 이르기를 술을 가져다가 우리로 마시게 하라 하는도다"
+        },
+        {
+          "verse": 2,
+          "text": "주 여호와께서 자기의 거룩함을 가리켜 맹세하시되 때가 너희에게 임할지라 사람이 갈고리로 너희를 끌어가며 낚시로 너희의 남은 자들을 그리하리라"
+        },
+        {
+          "verse": 3,
+          "text": "너희가 성 무너진 데로 말미암아 각기 앞으로 바로 나가서 하르몬에 던지우리라 이는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c004-v001-003-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.4.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 4:1–3.\nPrimary single moment: Original adult wealthy women in modest fine linen drink wine with indifference while poor adult servant waits, no animal-human hybrids, no private cameo faces.\nPhysical camera: 65mm unposed table-level.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n1 사마리아 산에 거하는 바산 암소들아 이 말을 들으라 너희는 가난한 자를 학대하며 궁핍한 자를 압제하며 가장에게 이르기를 술을 가져다가 우리로 마시게 하라 하는도다\n2 주 여호와께서 자기의 거룩함을 가리켜 맹세하시되 때가 너희에게 임할지라 사람이 갈고리로 너희를 끌어가며 낚시로 너희의 남은 자들을 그리하리라\n3 너희가 성 무너진 데로 말미암아 각기 앞으로 바로 나가서 하르몬에 던지우리라 이는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 19,
+      "chapter": 4,
+      "first": 4,
+      "last": 5,
+      "title": "죄를 더하는 의식",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "너희는 벧엘에 가서 범죄하며 길갈에 가서 죄를 더하며 아침마다 너희 희생을, 삼 일 마다 너희 십일조를 드리며"
+        },
+        {
+          "verse": 5,
+          "text": "누룩 넣은 것을 불살라 수은제로 드리며 낙헌제를 소리내어 광포하려무나 이스라엘 자손들아 이것이 너희의 기뻐하는 바니라 이는 주 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c004-v004-005-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.4.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 4:4–5.\nPrimary single moment: Bethel worshipers ostentatiously pile offerings beside calf shrine, showy indifference rather than sincere repentance, no graphic slaughter.\nPhysical camera: 40mm among worshipers.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n4 너희는 벧엘에 가서 범죄하며 길갈에 가서 죄를 더하며 아침마다 너희 희생을, 삼 일 마다 너희 십일조를 드리며\n5 누룩 넣은 것을 불살라 수은제로 드리며 낙헌제를 소리내어 광포하려무나 이스라엘 자손들아 이것이 너희의 기뻐하는 바니라 이는 주 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 20,
+      "chapter": 4,
+      "first": 6,
+      "last": 6,
+      "title": "양식이 끊겨도 돌아오지 않다",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 6,
+          "text": "또 내가 너희 모든 성읍에서 너희 이를 한가하게 하며 너희 각처에서 양식이 떨어지게 하였으나 너희가 내게로 돌아오지 아니하였느니라 이는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c004-v006-006-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.4.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 4:6–6.\nPrimary single moment: Ordinary adult sits beside empty bread bowl in northern Israel home, stubborn distant gaze.\nPhysical camera: 65mm domestic eye-level.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n6 또 내가 너희 모든 성읍에서 너희 이를 한가하게 하며 너희 각처에서 양식이 떨어지게 하였으나 너희가 내게로 돌아오지 아니하였느니라 이는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 21,
+      "chapter": 4,
+      "first": 7,
+      "last": 8,
+      "title": "비를 찾아 비틀거리는 사람들",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "또 추수하기 석 달 전에 내가 너희에게 비를 멈추어 어떤 성읍에는 내리고 어떤 성읍에는 내리지 않게 하였더니 땅 한 부분은 비를 얻고 한 부분은 비를 얻지 못하여 말랐으매"
+        },
+        {
+          "verse": 8,
+          "text": "두세 성읍 사람이 어떤 성읍으로 비틀거리며 물을 마시러 가서 만족히 마시지 못하였으나 너희가 내게로 돌아오지 아니하였느니라 이는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c004-v007-008-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.4.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 4:7–8.\nPrimary single moment: Exhausted adult travelers reach a nearly empty well, distant one patch of rain-fed green hills, relief incomplete.\nPhysical camera: 40mm well-height.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n7 또 추수하기 석 달 전에 내가 너희에게 비를 멈추어 어떤 성읍에는 내리고 어떤 성읍에는 내리지 않게 하였더니 땅 한 부분은 비를 얻고 한 부분은 비를 얻지 못하여 말랐으매\n8 두세 성읍 사람이 어떤 성읍으로 비틀거리며 물을 마시러 가서 만족히 마시지 못하였으나 너희가 내게로 돌아오지 아니하였느니라 이는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 22,
+      "chapter": 4,
+      "first": 9,
+      "last": 11,
+      "title": "거듭된 경고의 폐허",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 9,
+          "text": "내가 풍재와 깜부기 재앙으로 너희를 쳤으며 팟종이로 너희의 많은 동산과 포도원과 무화과나무와 감람나무를 다 먹게 하였으나 너희가 내게로 돌아오지 아니하였느니라 이는 여호와의 말씀이니라"
+        },
+        {
+          "verse": 10,
+          "text": "내가 너희 중에 염병이 임하게 하기를 애굽에서 한 것처럼 하였으며 칼로 너희 청년들을 죽엿으며 너희 말들을 노략하게 하며 너희 진의 악취로 코를 찌르게 하였으나 너희가 내게로 돌아오지 아니하였느니라 이는 여호와의 말씀이니라"
+        },
+        {
+          "verse": 11,
+          "text": "내가 너희 중의 성읍 무너뜨리기를 하나님 내가 소돔과 고모라를 무너뜨림 같이 하였으므로 너희가 불 붙는 가운데서 빼낸 나무 조각 같이 되었으나 너희가 내게로 돌아오지 아니하였느니라 이는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c004-v009-011-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.4.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 4:9–11.\nPrimary single moment: Sole adult survivor beside burned wooden beam and damaged orchard, stunned silence, no disease gore or bodies.\nPhysical camera: 50mm respectful medium.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n9 내가 풍재와 깜부기 재앙으로 너희를 쳤으며 팟종이로 너희의 많은 동산과 포도원과 무화과나무와 감람나무를 다 먹게 하였으나 너희가 내게로 돌아오지 아니하였느니라 이는 여호와의 말씀이니라\n10 내가 너희 중에 염병이 임하게 하기를 애굽에서 한 것처럼 하였으며 칼로 너희 청년들을 죽엿으며 너희 말들을 노략하게 하며 너희 진의 악취로 코를 찌르게 하였으나 너희가 내게로 돌아오지 아니하였느니라 이는 여호와의 말씀이니라\n11 내가 너희 중의 성읍 무너뜨리기를 하나님 내가 소돔과 고모라를 무너뜨림 같이 하였으므로 너희가 불 붙는 가운데서 빼낸 나무 조각 같이 되었으나 너희가 내게로 돌아오지 아니하였느니라 이는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 23,
+      "chapter": 4,
+      "first": 12,
+      "last": 13,
+      "title": "하나님 만나기를 준비하라",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 12,
+          "text": "그러므로 이스라엘아 내가 이와 같이 네게 행하리라 내가 이것을 네게 행하리니 이스라엘아 네 하나님 만나기를 예비하라"
+        },
+        {
+          "verse": 13,
+          "text": "대저 산들을 지으며 바람을 창조하며 자기 뜻을 사람에게 보이며 아침을 어둡게 하며 땅의 높은 데를 밟는 자는 그 이름이 만군의 하나님 여호와니라"
+        }
+      ],
+      "image": "amos-c004-v012-013-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.4.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 4:12–13.\nPrimary single moment: Amos stands beneath immense wind-driven mountains and dawn sky, humble gravity, no visible divine feet or body.\nPhysical camera: 28mm human-height monumental.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n12 그러므로 이스라엘아 내가 이와 같이 네게 행하리라 내가 이것을 네게 행하리니 이스라엘아 네 하나님 만나기를 예비하라\n13 대저 산들을 지으며 바람을 창조하며 자기 뜻을 사람에게 보이며 아침을 어둡게 하며 땅의 높은 데를 밟는 자는 그 이름이 만군의 하나님 여호와니라",
+      "referenceImages": []
+    },
+    {
+      "id": 24,
+      "chapter": 5,
+      "first": 1,
+      "last": 3,
+      "title": "이스라엘을 향한 애가",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "이스라엘 족속아 내가 너희에게 대하여 애가로 지은 이 말을 들으라"
+        },
+        {
+          "verse": 2,
+          "text": "처녀 이스라엘이 엎드러졌음이여 다시 일어나지 못하리로다 자기 땅에 던지움이여 일으킬 자 없으리로다"
+        },
+        {
+          "verse": 3,
+          "text": "주 여호와께서 가라사대 이스라엘 중에서 천 명이 나가던 성읍에는 백 명만 남고 백 명이 나가던 성읍에는 열 명만 남으리라 하셨느니라"
+        }
+      ],
+      "image": "amos-c005-v001-003-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.5.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 5:1–3.\nPrimary single moment: Amos sits at quiet city edge singing lament with tearful eyes, depleted adult community behind, no literal personified dead virgin.\nPhysical camera: 65mm seated close.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n1 이스라엘 족속아 내가 너희에게 대하여 애가로 지은 이 말을 들으라\n2 처녀 이스라엘이 엎드러졌음이여 다시 일어나지 못하리로다 자기 땅에 던지움이여 일으킬 자 없으리로다\n3 주 여호와께서 가라사대 이스라엘 중에서 천 명이 나가던 성읍에는 백 명만 남고 백 명이 나가던 성읍에는 열 명만 남으리라 하셨느니라",
+      "referenceImages": []
+    },
+    {
+      "id": 25,
+      "chapter": 5,
+      "first": 4,
+      "last": 6,
+      "title": "찾으라 그리하면 살리라",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "여호와께서 이스라엘 족속에게 이르시기를 너희는 나를 찾으라 그리하면 살리라"
+        },
+        {
+          "verse": 5,
+          "text": "벧엘을 찾지 말며 길갈로 들어가지 말며 브엘세바로도 나아가지 말라 길갈은 정녕 사로잡히겠고 벧엘은 허무하게 될 것임이라 하셨나니"
+        },
+        {
+          "verse": 6,
+          "text": "너희는 여호와를 찾으라 그리하면 살리라 염려컨대 저가 불 같이 요셉의 집에 내리사 멸하시리니 벧엘에서 그 불들을 끌 자가 없을까 하노라"
+        }
+      ],
+      "image": "amos-c005-v004-006-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.5.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 5:4–6.\nPrimary single moment: Ordinary adult turns from a distant idol sanctuary toward open prayer on hillside, earnest new resolve.\nPhysical camera: 50mm walking-eye.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n4 여호와께서 이스라엘 족속에게 이르시기를 너희는 나를 찾으라 그리하면 살리라\n5 벧엘을 찾지 말며 길갈로 들어가지 말며 브엘세바로도 나아가지 말라 길갈은 정녕 사로잡히겠고 벧엘은 허무하게 될 것임이라 하셨나니\n6 너희는 여호와를 찾으라 그리하면 살리라 염려컨대 저가 불 같이 요셉의 집에 내리사 멸하시리니 벧엘에서 그 불들을 끌 자가 없을까 하노라",
+      "referenceImages": []
+    },
+    {
+      "id": 26,
+      "chapter": 5,
+      "first": 7,
+      "last": 9,
+      "title": "밤에서 아침으로",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "공법을 인진으로 변하며 정의를 땅에 던지는 자들아"
+        },
+        {
+          "verse": 8,
+          "text": "묘성과 삼성을 만드시며 사망의 그늘로 아침이 되게 하시며 백주로 어두운 밤이 되게 하시며 바닷물을 불러 지면에 쏟으시는 자를 찾으라 그 이름이 여호와시니라"
+        },
+        {
+          "verse": 9,
+          "text": "저가 강한 자에게 홀연히 패망이 임하게 하신즉 그 패망이 산성에 미치느니라"
+        }
+      ],
+      "image": "amos-c005-v007-009-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.5.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 5:7–9.\nPrimary single moment: Natural stars fade above hills as dawn opens, small attentive prayerful adult in foreground, wonder at creation, no floating God.\nPhysical camera: 35mm human-ground sky.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n7 공법을 인진으로 변하며 정의를 땅에 던지는 자들아\n8 묘성과 삼성을 만드시며 사망의 그늘로 아침이 되게 하시며 백주로 어두운 밤이 되게 하시며 바닷물을 불러 지면에 쏟으시는 자를 찾으라 그 이름이 여호와시니라\n9 저가 강한 자에게 홀연히 패망이 임하게 하신즉 그 패망이 산성에 미치느니라",
+      "referenceImages": []
+    },
+    {
+      "id": 27,
+      "chapter": 5,
+      "first": 10,
+      "last": 13,
+      "title": "성문에서 밀려난 정의",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 10,
+          "text": "무리가 성문에서 책망하는 자를 미워하며 정직히 말하는 자를 싫어하는도다"
+        },
+        {
+          "verse": 11,
+          "text": "너희가 가난한 자를 밟고 저에게서 밀의 부당한 세를 취하였은즉 너희가 비록 다듬은 돌로 집을 건축하였으나 거기 거하지 못할 것이요 아름다운 포도원을 심었으나 그 포도주를 마시지 못하리라"
+        },
+        {
+          "verse": 12,
+          "text": "너희의 허물이 많고 죄악이 중함을 내가 아노라 너희는 의인을 학대하며 뇌물을 받고 성문에서 궁핍한 자를 억울하게 하는 자로다"
+        },
+        {
+          "verse": 13,
+          "text": "그러므로 이런 때에 지혜자가 잠잠하나니 이는 악한 때임이니라"
+        }
+      ],
+      "image": "amos-c005-v010-013-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.5.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 5:10–13.\nPrimary single moment: Poor adult farmer presenting small grain sack is ignored by bribed gate official, wealthy man passing discreet weighed silver, coherent separate hands.\nPhysical camera: 65mm within gate court.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n10 무리가 성문에서 책망하는 자를 미워하며 정직히 말하는 자를 싫어하는도다\n11 너희가 가난한 자를 밟고 저에게서 밀의 부당한 세를 취하였은즉 너희가 비록 다듬은 돌로 집을 건축하였으나 거기 거하지 못할 것이요 아름다운 포도원을 심었으나 그 포도주를 마시지 못하리라\n12 너희의 허물이 많고 죄악이 중함을 내가 아노라 너희는 의인을 학대하며 뇌물을 받고 성문에서 궁핍한 자를 억울하게 하는 자로다\n13 그러므로 이런 때에 지혜자가 잠잠하나니 이는 악한 때임이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 28,
+      "chapter": 5,
+      "first": 14,
+      "last": 15,
+      "title": "선을 사랑하고 공의를 세우라",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 14,
+          "text": "너희는 살기 위하여 선을 구하고 악을 구하지 말지어다 만군의 하나님 여호와께서 너희의 말과 같이 너희와 함께 하시리라"
+        },
+        {
+          "verse": 15,
+          "text": "너희는 악을 미워하고 선을 사랑하며 성문에서 공의를 세울지어다 만군의 하나님 여호와께서 혹시 요셉의 남은 자를 긍휼히 여기시리라"
+        }
+      ],
+      "image": "amos-c005-v014-015-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.5.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 5:14–15.\nPrimary single moment: Honest elder at gate listens closely to a poor adult claimant with fair grain measure between them, dignity and relief.\nPhysical camera: 65mm attentive human encounter.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n14 너희는 살기 위하여 선을 구하고 악을 구하지 말지어다 만군의 하나님 여호와께서 너희의 말과 같이 너희와 함께 하시리라\n15 너희는 악을 미워하고 선을 사랑하며 성문에서 공의를 세울지어다 만군의 하나님 여호와께서 혹시 요셉의 남은 자를 긍휼히 여기시리라",
+      "referenceImages": []
+    },
+    {
+      "id": 29,
+      "chapter": 5,
+      "first": 16,
+      "last": 17,
+      "title": "포도원마다 울리라",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 16,
+          "text": "그러므로 주 만군의 하나님 여호와께서 말씀하시기를 사람이 모든 광장에서 울겠고 모든 거리에서 오호라 오호라 하겠으며 농부를 불러다가 애곡하게 하며 울음꾼을 불러다가 울게 할 것이며"
+        },
+        {
+          "verse": 17,
+          "text": "모든 포도원에서도 울리니 이는 내가 너희 가운데로 지나갈 것임이니라 이는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c005-v016-017-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.5.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 5:16–17.\nPrimary single moment: Adult vineyard workers stand in silent mourning among vines, weathered expressive faces, no drunken feast.\nPhysical camera: 50mm within vineyard.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n16 그러므로 주 만군의 하나님 여호와께서 말씀하시기를 사람이 모든 광장에서 울겠고 모든 거리에서 오호라 오호라 하겠으며 농부를 불러다가 애곡하게 하며 울음꾼을 불러다가 울게 할 것이며\n17 모든 포도원에서도 울리니 이는 내가 너희 가운데로 지나갈 것임이니라 이는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 30,
+      "chapter": 5,
+      "first": 18,
+      "last": 20,
+      "title": "빛이 아닌 두려운 날",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 18,
+          "text": "화 있을진저 여호와의 날을 사모하는 자여 너희가 어찌하여 여호와의 날을 사모하느뇨 그 날은 어두움이요 빛이 아니라"
+        },
+        {
+          "verse": 19,
+          "text": "마치 사람이 사자를 피하다가 곰을 만나거나 혹 집에 들어가서 손을 벽에 대었다가 뱀에게 물림 같도다"
+        },
+        {
+          "verse": 20,
+          "text": "여호와의 날이 어찌 어두워서 빛이 없음이 아니며 캄캄하여 빛남이 없음이 아니냐"
+        }
+      ],
+      "image": "amos-c005-v018-020-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.5.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 5:18–20.\nPrimary single moment: Ordinary adult pauses fearfully in shadowed stone doorway as cloud-darkness fills street, no combined lion-bear-snake attack scene.\nPhysical camera: 50mm intimate doorway.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n18 화 있을진저 여호와의 날을 사모하는 자여 너희가 어찌하여 여호와의 날을 사모하느뇨 그 날은 어두움이요 빛이 아니라\n19 마치 사람이 사자를 피하다가 곰을 만나거나 혹 집에 들어가서 손을 벽에 대었다가 뱀에게 물림 같도다\n20 여호와의 날이 어찌 어두워서 빛이 없음이 아니며 캄캄하여 빛남이 없음이 아니냐",
+      "referenceImages": []
+    },
+    {
+      "id": 31,
+      "chapter": 5,
+      "first": 21,
+      "last": 23,
+      "title": "정의 없는 노래",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 21,
+          "text": "내가 너희 절기를 미워하여 멸시하며 너희 성회들을 기뻐하지 아니하나니"
+        },
+        {
+          "verse": 22,
+          "text": "너희가 내게 번제나 소제를 드릴지라도 내가 받지 아니할 것이요 너희 살진 희생의 화목제도 내가 돌아보지 아니하리라"
+        },
+        {
+          "verse": 23,
+          "text": "네 노랫소리를 내 앞에서 그칠지어다 네 비파 소리도 내가 듣지 아니하리라"
+        }
+      ],
+      "image": "amos-c005-v021-023-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.5.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 5:21–23.\nPrimary single moment: An unattended ancient lyre and offering bowls in empty court, hollow ceremony conveyed by absence, no worshiping crowd falsely joyful.\nPhysical camera: 65mm stone-level still-life.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n21 내가 너희 절기를 미워하여 멸시하며 너희 성회들을 기뻐하지 아니하나니\n22 너희가 내게 번제나 소제를 드릴지라도 내가 받지 아니할 것이요 너희 살진 희생의 화목제도 내가 돌아보지 아니하리라\n23 네 노랫소리를 내 앞에서 그칠지어다 네 비파 소리도 내가 듣지 아니하리라",
+      "referenceImages": []
+    },
+    {
+      "id": 32,
+      "chapter": 5,
+      "first": 24,
+      "last": 24,
+      "title": "공법을 물 같이 정의를 하수 같이",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 24,
+          "text": "오직 공법을 물 같이, 정의를 하수 같이 흘릴지로다"
+        }
+      ],
+      "image": "amos-c005-v024-024-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.5.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 5:24–24.\nPrimary single moment: EDITORIAL justice: vigorous clear stream flows beside ordinary adults sharing clean water fairly, relieved faces and spacious real landscape, no person made divine river.\nPhysical camera: 35mm bank-level.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n24 오직 공법을 물 같이, 정의를 하수 같이 흘릴지로다\nInput reference facial identity ONLY: authorized Sung female face for ONE unnamed ordinary adult sharing water fairly; no Yeonkyung, named prophet, God, angel, parent or spouse. Ancient opaque linen, preserve actual face, never copy reference setting or clothes.",
+      "referenceImages": [
+        "references/gospels/sung-woman-approved.png"
+      ]
+    },
+    {
+      "id": 33,
+      "chapter": 5,
+      "first": 25,
+      "last": 27,
+      "title": "다메섹 밖으로 사로잡힘",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 25,
+          "text": "이스라엘 족속아 너희가 사십 년 동안 광야에서 희생과 소제물을 내게 드렸느냐"
+        },
+        {
+          "verse": 26,
+          "text": "너희가 너희 왕 식굿과 너희 우상 기윤 곧 너희가 너희를 위하여 만들어서 신으로 삼은 별 형상을 지고 가리라"
+        },
+        {
+          "verse": 27,
+          "text": "내가 너희를 다메섹 밖으로 사로잡혀 가게 하리라 이는 만군의 하나님이라 일컫는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c005-v025-027-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.5.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 5:25–27.\nPrimary single moment: Adults leave northern Israel carrying household bundles and a small covered idol discarded beside road, grief and exile, no modern flags.\nPhysical camera: 40mm within walking group.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n25 이스라엘 족속아 너희가 사십 년 동안 광야에서 희생과 소제물을 내게 드렸느냐\n26 너희가 너희 왕 식굿과 너희 우상 기윤 곧 너희가 너희를 위하여 만들어서 신으로 삼은 별 형상을 지고 가리라\n27 내가 너희를 다메섹 밖으로 사로잡혀 가게 하리라 이는 만군의 하나님이라 일컫는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 34,
+      "chapter": 6,
+      "first": 1,
+      "last": 6,
+      "title": "요셉의 환난을 잊은 향락",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "화 있을진저 시온에서 안일한 자와 사마리아 산에서 마음이 든든한 자 곧 열국 중 우승하여 유명하므로 이스라엘 족속이 따르는 자들이여"
+        },
+        {
+          "verse": 2,
+          "text": "너희는 갈레에 건너가고 거기서 대 하맛으로 가고 또 블레셋 사람의 가드로 내려가 보라 그곳들이 이 나라들보다 나으냐 그 토지가 너희 토지보다 넓으냐"
+        },
+        {
+          "verse": 3,
+          "text": "너희는 흉한 날이 멀다 하여 강포한 자리로 가까워지게 하고"
+        },
+        {
+          "verse": 4,
+          "text": "상아 상에 누우며 침상에서 기지개 켜며 양떼에서 어린 양과 우리에서 송아지를 취하여 먹고"
+        },
+        {
+          "verse": 5,
+          "text": "비파에 맞추어 헛된 노래를 지절거리며 다윗처럼 자기를 위하여 악기를 제조하며"
+        },
+        {
+          "verse": 6,
+          "text": "대접으로 포도주를 마시며 귀한 기름을 몸에 바르면서 요셉의 환난을 인하여는 근심치 아니하는 자로다"
+        }
+      ],
+      "image": "amos-c006-v001-006-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.6.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 6:1–6.\nPrimary single moment: Wealthy original adults recline on ivory-inlaid benches sipping wine while lyre player performs, bored complacency, no private cameo faces.\nPhysical camera: 50mm candid room.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n1 화 있을진저 시온에서 안일한 자와 사마리아 산에서 마음이 든든한 자 곧 열국 중 우승하여 유명하므로 이스라엘 족속이 따르는 자들이여\n2 너희는 갈레에 건너가고 거기서 대 하맛으로 가고 또 블레셋 사람의 가드로 내려가 보라 그곳들이 이 나라들보다 나으냐 그 토지가 너희 토지보다 넓으냐\n3 너희는 흉한 날이 멀다 하여 강포한 자리로 가까워지게 하고\n4 상아 상에 누우며 침상에서 기지개 켜며 양떼에서 어린 양과 우리에서 송아지를 취하여 먹고\n5 비파에 맞추어 헛된 노래를 지절거리며 다윗처럼 자기를 위하여 악기를 제조하며\n6 대접으로 포도주를 마시며 귀한 기름을 몸에 바르면서 요셉의 환난을 인하여는 근심치 아니하는 자로다",
+      "referenceImages": []
+    },
+    {
+      "id": 35,
+      "chapter": 6,
+      "first": 7,
+      "last": 8,
+      "title": "앞서 사로잡히는 자들",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "그러므로 저희가 이제는 사로잡히는 자 중에 앞서 사로잡히리니 기지개 켜는 자의 떠드는 소리가 그치리라"
+        },
+        {
+          "verse": 8,
+          "text": "만군의 하나님 여호와께서 가라사대 주 여호와가 자기를 가리켜 맹세하였노라 내가 야곱의 영광을 싫어하며 그 궁궐들을 미워하므로 이 성읍과 거기 가득한 것을 대적에게 붙이리라 하셨느니라"
+        }
+      ],
+      "image": "amos-c006-v007-008-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.6.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 6:7–8.\nPrimary single moment: Former wealthy adults now walk humbly out of breached Samaria gate under distant guard, loss and shame, no cruelty closeup.\nPhysical camera: 40mm street-eye.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n7 그러므로 저희가 이제는 사로잡히는 자 중에 앞서 사로잡히리니 기지개 켜는 자의 떠드는 소리가 그치리라\n8 만군의 하나님 여호와께서 가라사대 주 여호와가 자기를 가리켜 맹세하였노라 내가 야곱의 영광을 싫어하며 그 궁궐들을 미워하므로 이 성읍과 거기 가득한 것을 대적에게 붙이리라 하셨느니라",
+      "referenceImages": []
+    },
+    {
+      "id": 36,
+      "chapter": 6,
+      "first": 9,
+      "last": 11,
+      "title": "큰 집과 작은 집의 붕괴",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 9,
+          "text": "한 집에 열 사람이 남는다 하여도 다 죽을 것이라"
+        },
+        {
+          "verse": 10,
+          "text": "죽은 사람의 친척 곧 그 시체를 불사를 자가 그 뼈를 집 밖으로 가져갈 때에 그 집 내실에 있는 자에게 묻기를 아직 너와 함께한 자가 있느냐 하여 대답하기를 아주 없다 하면 저가 또 말하기를 잠잠하라 우리가 여호와의 이름을 일컫지 못할 것이라 하리라"
+        },
+        {
+          "verse": 11,
+          "text": "보라 여호와께서 명하시므로 큰 집이 침을 받아 갈라지며 작은 집이 침을 받아 터지리라"
+        }
+      ],
+      "image": "amos-c006-v009-011-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.6.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 6:9–11.\nPrimary single moment: EDITORIAL empty collapsed stone houses and a mourning adult alone at doorway, meaningful absence, no funeral bodies.\nPhysical camera: 40mm near household.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n9 한 집에 열 사람이 남는다 하여도 다 죽을 것이라\n10 죽은 사람의 친척 곧 그 시체를 불사를 자가 그 뼈를 집 밖으로 가져갈 때에 그 집 내실에 있는 자에게 묻기를 아직 너와 함께한 자가 있느냐 하여 대답하기를 아주 없다 하면 저가 또 말하기를 잠잠하라 우리가 여호와의 이름을 일컫지 못할 것이라 하리라\n11 보라 여호와께서 명하시므로 큰 집이 침을 받아 갈라지며 작은 집이 침을 받아 터지리라",
+      "referenceImages": []
+    },
+    {
+      "id": 37,
+      "chapter": 6,
+      "first": 12,
+      "last": 14,
+      "title": "공의를 쓰게 바꾼 나라",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 12,
+          "text": "말들이 어찌 바위 위에서 달리겠으며 소가 어찌 거기 밭 갈겠느냐 그런데 너희는 공법을 쓸개로 변하며 정의의 열매를 인진으로 변하여"
+        },
+        {
+          "verse": 13,
+          "text": "허무한 것을 기뻐하며 이르기를 우리의 뿔은 우리 힘으로 취하지 아니하였느냐 하는 자로다"
+        },
+        {
+          "verse": 14,
+          "text": "만군의 하나님 여호와께서 가라사대 이스라엘 족속아 내가 한 나라를 일으켜 너희를 치리니 저희가 하맛 어귀에서부터 아라바 시내까지 너희를 학대하리라 하셨느니라"
+        }
+      ],
+      "image": "amos-c006-v012-014-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.6.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 6:12–14.\nPrimary single moment: EDITORIAL farmer stands helpless with ox beside rocky unusable ground and abandoned plow, obvious frustration, no ox forced to plow bare cliff.\nPhysical camera: 50mm grounded field.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n12 말들이 어찌 바위 위에서 달리겠으며 소가 어찌 거기 밭 갈겠느냐 그런데 너희는 공법을 쓸개로 변하며 정의의 열매를 인진으로 변하여\n13 허무한 것을 기뻐하며 이르기를 우리의 뿔은 우리 힘으로 취하지 아니하였느냐 하는 자로다\n14 만군의 하나님 여호와께서 가라사대 이스라엘 족속아 내가 한 나라를 일으켜 너희를 치리니 저희가 하맛 어귀에서부터 아라바 시내까지 너희를 학대하리라 하셨느니라",
+      "referenceImages": []
+    },
+    {
+      "id": 38,
+      "chapter": 7,
+      "first": 1,
+      "last": 3,
+      "title": "메뚜기 앞에서 간구하다",
+      "kind": "vision",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "주 여호와께서 내게 보이신 것이 이러하니라 왕이 풀을 벤 후 풀이 다시 움돋기 시작할 때에 주께서 황충을 지으시매"
+        },
+        {
+          "verse": 2,
+          "text": "황충이 땅의 풀을 다 먹은지라 내가 가로되 주 여호와여 청컨대 사하소서 야곱이 미약하오니 어떻게 서리이까 하매"
+        },
+        {
+          "verse": 3,
+          "text": "여호와께서 이에 대하여 뜻을 돌이켜 가라사대 이것이 이루지 아니하리라 하시니라"
+        }
+      ],
+      "image": "amos-c007-v001-003-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.7.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 7:1–3.\nPrimary single moment: Vision: Amos kneels pleading beside fresh grass threatened by real locusts, vulnerable Jacob represented by distant small village, God unseen.\nPhysical camera: 50mm kneeling-height.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n1 주 여호와께서 내게 보이신 것이 이러하니라 왕이 풀을 벤 후 풀이 다시 움돋기 시작할 때에 주께서 황충을 지으시매\n2 황충이 땅의 풀을 다 먹은지라 내가 가로되 주 여호와여 청컨대 사하소서 야곱이 미약하오니 어떻게 서리이까 하매\n3 여호와께서 이에 대하여 뜻을 돌이켜 가라사대 이것이 이루지 아니하리라 하시니라",
+      "referenceImages": []
+    },
+    {
+      "id": 39,
+      "chapter": 7,
+      "first": 4,
+      "last": 6,
+      "title": "불의 환상과 중보",
+      "kind": "vision",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "주 여호와께서 또 내게 보이신 것이 이러하니라 주 여호와께서 명하여 불로 징벌하게 하시니 불이 큰 바다를 삼키고 육지까지 먹으려 하는지라"
+        },
+        {
+          "verse": 5,
+          "text": "이에 내가 가로되 주 여호와여 청컨대 그치소서 야곱이 미약하오니 어떻게 서리이까 하매"
+        },
+        {
+          "verse": 6,
+          "text": "주 여호와께서 이에 대하여 뜻을 돌이켜 가라사대 이것도 이루지 아니하리라 하시니라"
+        }
+      ],
+      "image": "amos-c007-v004-006-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.7.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 7:4–6.\nPrimary single moment: Vision: Amos prayerful before distant scorched landscape and immense luminous smoke over horizon, no actual sea on fire or embodied God.\nPhysical camera: 35mm grounded distance.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n4 주 여호와께서 또 내게 보이신 것이 이러하니라 주 여호와께서 명하여 불로 징벌하게 하시니 불이 큰 바다를 삼키고 육지까지 먹으려 하는지라\n5 이에 내가 가로되 주 여호와여 청컨대 그치소서 야곱이 미약하오니 어떻게 서리이까 하매\n6 주 여호와께서 이에 대하여 뜻을 돌이켜 가라사대 이것도 이루지 아니하리라 하시니라",
+      "referenceImages": []
+    },
+    {
+      "id": 40,
+      "chapter": 7,
+      "first": 7,
+      "last": 9,
+      "title": "다림줄의 기준",
+      "kind": "vision",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "또 내게 보이신 것이 이러하니라 다림줄을 띄우고 쌓은 담 곁에 주께서 손에 다림줄을 잡고 서셨더니"
+        },
+        {
+          "verse": 8,
+          "text": "내게 이르시되 아모스야 네가 무엇을 보느냐 내가 대답하되 다림줄을 내 백성 이스라엘 가운데 베풀고 다시는 용서치 아니하리니"
+        },
+        {
+          "verse": 9,
+          "text": "이삭의 산당들이 황폐되며 이스라엘의 성소들이 훼파될 것이라 내가 일어나 칼로 여로보암의 집을 치리라 하시니라"
+        }
+      ],
+      "image": "amos-c007-v007-009-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.7.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 7:7–9.\nPrimary single moment: Vision: one plain bronze plumb bob hangs vertically from unseen support beside straight rough masonry wall, Amos studies it solemnly; NO divine hand or divine human.\nPhysical camera: 65mm plumb-line and face.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n7 또 내게 보이신 것이 이러하니라 다림줄을 띄우고 쌓은 담 곁에 주께서 손에 다림줄을 잡고 서셨더니\n8 내게 이르시되 아모스야 네가 무엇을 보느냐 내가 대답하되 다림줄을 내 백성 이스라엘 가운데 베풀고 다시는 용서치 아니하리니\n9 이삭의 산당들이 황폐되며 이스라엘의 성소들이 훼파될 것이라 내가 일어나 칼로 여로보암의 집을 치리라 하시니라",
+      "referenceImages": []
+    },
+    {
+      "id": 41,
+      "chapter": 7,
+      "first": 10,
+      "last": 11,
+      "title": "아마샤의 고발",
+      "kind": "narrative",
+      "verses": [
+        {
+          "verse": 10,
+          "text": "때에 벧엘의 제사장 아마샤가 이스라엘 왕 여로보암에게 기별하여 가로되 이스라엘 족속 중에 아모스가 왕을 모반하나니 그 모든 말을 이 땅이 견딜 수 없나이다"
+        },
+        {
+          "verse": 11,
+          "text": "아모스가 말하기를 여로보암은 칼에 죽겠고 이스라엘은 정녕 사로잡혀 그 땅에서 떠나겠다 하나이다 하고"
+        }
+      ],
+      "image": "amos-c007-v010-011-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.7.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 7:10–11.\nPrimary single moment: Original Bethel priest Amaziah dictates worried message to ordinary scribe in royal sanctuary, no Amos as conspiratorial soldier.\nPhysical camera: 50mm tabletop.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n10 때에 벧엘의 제사장 아마샤가 이스라엘 왕 여로보암에게 기별하여 가로되 이스라엘 족속 중에 아모스가 왕을 모반하나니 그 모든 말을 이 땅이 견딜 수 없나이다\n11 아모스가 말하기를 여로보암은 칼에 죽겠고 이스라엘은 정녕 사로잡혀 그 땅에서 떠나겠다 하나이다 하고",
+      "referenceImages": []
+    },
+    {
+      "id": 42,
+      "chapter": 7,
+      "first": 12,
+      "last": 13,
+      "title": "벧엘에서 예언하지 말라",
+      "kind": "narrative",
+      "verses": [
+        {
+          "verse": 12,
+          "text": "아마샤가 또 아모스에게 이르되 선견자야 너는 유다 땅으로 도망하여 가서 거기서나 떡을 먹으며 거기서나 예언하고"
+        },
+        {
+          "verse": 13,
+          "text": "다시는 벧엘에서 예언하지 말라 이는 왕의 성소요 왕의 궁임이니라"
+        }
+      ],
+      "image": "amos-c007-v012-013-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.7.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 7:12–13.\nPrimary single moment: Amaziah confronts Amos at Bethel entrance, authority against humble courage, distinct actors, no physical violence.\nPhysical camera: 65mm intense dialogue.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n12 아마샤가 또 아모스에게 이르되 선견자야 너는 유다 땅으로 도망하여 가서 거기서나 떡을 먹으며 거기서나 예언하고\n13 다시는 벧엘에서 예언하지 말라 이는 왕의 성소요 왕의 궁임이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 43,
+      "chapter": 7,
+      "first": 14,
+      "last": 15,
+      "title": "목자요 뽕나무를 기르던 사람",
+      "kind": "narrative",
+      "verses": [
+        {
+          "verse": 14,
+          "text": "아모스가 아마샤에게 대답하여 가로되 나는 선지자가 아니며 선지자의 아들도 아니요 나는 목자요 뽕나무를 배양하는 자로서"
+        },
+        {
+          "verse": 15,
+          "text": "양떼를 따를 때에 여호와께서 나를 데려다가 내게 이르시기를 가서 내 백성 이스라엘에게 예언하라 하셨나니"
+        }
+      ],
+      "image": "amos-c007-v014-015-right-context-v2.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.7.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 7:14–15.\nPrimary single moment: EDITORIAL remembrance: Amos tends sycamore figs beside his grazing flock, rough hardworking hands, humble calling, no visible divine recruiter.\nPhysical camera: 50mm orchard-eye.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n14 아모스가 아마샤에게 대답하여 가로되 나는 선지자가 아니며 선지자의 아들도 아니요 나는 목자요 뽕나무를 배양하는 자로서\n15 양떼를 따를 때에 여호와께서 나를 데려다가 내게 이르시기를 가서 내 백성 이스라엘에게 예언하라 하셨나니",
+      "referenceImages": []
+    },
+    {
+      "id": 44,
+      "chapter": 7,
+      "first": 16,
+      "last": 17,
+      "title": "끝까지 전하는 말씀",
+      "kind": "narrative",
+      "verses": [
+        {
+          "verse": 16,
+          "text": "이제 너는 여호와의 말씀을 들을지니라 네가 이르기를 이스라엘에 대하여 예언하지 말며 이삭의 집을 향하여 경계하지 말라 하므로"
+        },
+        {
+          "verse": 17,
+          "text": "여호와께서 말씀하시기를 네 아내는 성읍 중에서 창기가 될 것이요 네 자녀들은 칼에 엎드러지며 네 땅은 줄 띄워 나누일 것이며 너는 더러운 땅에서 죽을 것이요 이스라엘은 정녕 사로잡혀 그 본토에서 떠나리라 하셨느니라"
+        }
+      ],
+      "image": "amos-c007-v016-017-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.7.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 7:16–17.\nPrimary single moment: Amos faces Amaziah with grief and uncompromising resolve, plain cloth and troubled eyes, no depicting wife exploitation or harmed children.\nPhysical camera: 85mm close two-shot.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n16 이제 너는 여호와의 말씀을 들을지니라 네가 이르기를 이스라엘에 대하여 예언하지 말며 이삭의 집을 향하여 경계하지 말라 하므로\n17 여호와께서 말씀하시기를 네 아내는 성읍 중에서 창기가 될 것이요 네 자녀들은 칼에 엎드러지며 네 땅은 줄 띄워 나누일 것이며 너는 더러운 땅에서 죽을 것이요 이스라엘은 정녕 사로잡혀 그 본토에서 떠나리라 하셨느니라",
+      "referenceImages": []
+    },
+    {
+      "id": 45,
+      "chapter": 8,
+      "first": 1,
+      "last": 2,
+      "title": "여름 실과 광주리",
+      "kind": "vision",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "주 여호와께서 또 내게 여름 실과 한 광주리를 보이시며"
+        },
+        {
+          "verse": 2,
+          "text": "가라사대 아모스야 네가 무엇을 보느냐 내가 가로되 여름 실과 한 광주리니이다 하매 여호와께서 내게 이르시되 내 백성 이스라엘의 끝이 이르렀은즉 내가 다시는 저를 용서치 아니하리니"
+        }
+      ],
+      "image": "amos-c008-v001-002-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.8.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 8:1–2.\nPrimary single moment: Vision: ripe late-summer figs and grapes in one reed basket, Amos gazes with sober recognition at the harvest-ending metaphor, no floating God.\nPhysical camera: 65mm basket and face.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n1 주 여호와께서 또 내게 여름 실과 한 광주리를 보이시며\n2 가라사대 아모스야 네가 무엇을 보느냐 내가 가로되 여름 실과 한 광주리니이다 하매 여호와께서 내게 이르시되 내 백성 이스라엘의 끝이 이르렀은즉 내가 다시는 저를 용서치 아니하리니",
+      "referenceImages": []
+    },
+    {
+      "id": 46,
+      "chapter": 8,
+      "first": 3,
+      "last": 3,
+      "title": "노래가 애곡으로 변하다",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 3,
+          "text": "그 날에 궁전의 노래가 애곡으로 변할 것이며 시체가 많아서 사람이 잠잠히 처처에 내어버리리라 이는 주 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c008-v003-003-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.8.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 8:3–3.\nPrimary single moment: Silent palace musicians sit heads bowed beside idle lyre, grief and vacant space, no dead bodies.\nPhysical camera: 50mm eye-height.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n3 그 날에 궁전의 노래가 애곡으로 변할 것이며 시체가 많아서 사람이 잠잠히 처처에 내어버리리라 이는 주 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 47,
+      "chapter": 8,
+      "first": 4,
+      "last": 6,
+      "title": "거짓 저울과 잿밀",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 4,
+          "text": "궁핍한 자를 삼키며 땅의 가난한 자를 망케 하려는 자들아 이 말을 들으라"
+        },
+        {
+          "verse": 5,
+          "text": "너희가 이르기를 월삭이 언제나 지나서 우리로 곡식을 팔게 하며 안식일이 언제나 지나서 우리로 밀을 내게 할꼬 에바를 작게하여 세겔을 크게 하며 거짓 저울로 속이며"
+        },
+        {
+          "verse": 6,
+          "text": "은으로 가난한 자를 사며 신 한 켤레로 궁핍한 자를 사며 잿밀을 팔자 하는도다"
+        }
+      ],
+      "image": "amos-c008-v004-006-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.8.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 8:4–6.\nPrimary single moment: Corrupt grain merchant secretly uses false weight with poor adult customer, dusty inferior grain visible beside measure, coherent visible balance.\nPhysical camera: 65mm table-level.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n4 궁핍한 자를 삼키며 땅의 가난한 자를 망케 하려는 자들아 이 말을 들으라\n5 너희가 이르기를 월삭이 언제나 지나서 우리로 곡식을 팔게 하며 안식일이 언제나 지나서 우리로 밀을 내게 할꼬 에바를 작게하여 세겔을 크게 하며 거짓 저울로 속이며\n6 은으로 가난한 자를 사며 신 한 켤레로 궁핍한 자를 사며 잿밀을 팔자 하는도다",
+      "referenceImages": []
+    },
+    {
+      "id": 48,
+      "chapter": 8,
+      "first": 7,
+      "last": 10,
+      "title": "대낮의 어둠과 애통",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "여호와께서 야곱의 영광을 가리켜 맹세하시되 내가 저희의 모든 소위를 영영 잊지 아니하리라 하셨나니"
+        },
+        {
+          "verse": 8,
+          "text": "이로 인하여 땅이 떨지 않겠으며 그 가운데 모든 거민이 애통하지 않겠느냐 온 땅이 하수의 넘침 같이 솟아오르며 애굽 강 같이 뛰놀다가 낮아지리라"
+        },
+        {
+          "verse": 9,
+          "text": "주 여호와께서 가라사대 그 날에 내가 해로 대낮에 지게 하여 백주에 땅을 캄캄케 하며"
+        },
+        {
+          "verse": 10,
+          "text": "너희 절기를 애통으로, 너희 모든 노래를 애곡으로 변하며 모든 사람으로 굵은 베로 허리를 동이게 하며 모든 머리를 대머리 되게 하며 독자의 죽음을 인하여 애통하듯 하게 하며 그 결국으로 곤고한 날과 같게 하리라"
+        }
+      ],
+      "image": "amos-c008-v007-010-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.8.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 8:7–10.\nPrimary single moment: EDITORIAL daytime sky strangely obscured over mournful adults in sackcloth, faces clear in indirect light, no injured child or literal cosmology claim.\nPhysical camera: 40mm courtyard-eye.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n7 여호와께서 야곱의 영광을 가리켜 맹세하시되 내가 저희의 모든 소위를 영영 잊지 아니하리라 하셨나니\n8 이로 인하여 땅이 떨지 않겠으며 그 가운데 모든 거민이 애통하지 않겠느냐 온 땅이 하수의 넘침 같이 솟아오르며 애굽 강 같이 뛰놀다가 낮아지리라\n9 주 여호와께서 가라사대 그 날에 내가 해로 대낮에 지게 하여 백주에 땅을 캄캄케 하며\n10 너희 절기를 애통으로, 너희 모든 노래를 애곡으로 변하며 모든 사람으로 굵은 베로 허리를 동이게 하며 모든 머리를 대머리 되게 하며 독자의 죽음을 인하여 애통하듯 하게 하며 그 결국으로 곤고한 날과 같게 하리라",
+      "referenceImages": []
+    },
+    {
+      "id": 49,
+      "chapter": 8,
+      "first": 11,
+      "last": 12,
+      "title": "말씀을 듣지 못한 기갈",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 11,
+          "text": "주 여호와께서 가라사대 보라 날이 이를지라 내가 기근을 땅에 보내리니 양식이 없어 주림이 아니며 물이 없어 갈함이 아니요 여호와의 말씀을 듣지 못한 기갈이라"
+        },
+        {
+          "verse": 12,
+          "text": "사람이 이 바다에서 저 바다까지 북에서 동까지 비틀거리며 여호와의 말씀을 구하려고 달려 왕래하되 얻지 못하리니"
+        }
+      ],
+      "image": "amos-c008-v011-012-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.8.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 8:11–12.\nPrimary single moment: Weary adult seekers travel along barren coastal road, searching eyes and empty hands, no food famine falsely substituted as primary story.\nPhysical camera: 50mm within travelers.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n11 주 여호와께서 가라사대 보라 날이 이를지라 내가 기근을 땅에 보내리니 양식이 없어 주림이 아니며 물이 없어 갈함이 아니요 여호와의 말씀을 듣지 못한 기갈이라\n12 사람이 이 바다에서 저 바다까지 북에서 동까지 비틀거리며 여호와의 말씀을 구하려고 달려 왕래하되 얻지 못하리니",
+      "referenceImages": []
+    },
+    {
+      "id": 50,
+      "chapter": 8,
+      "first": 13,
+      "last": 14,
+      "title": "우상 앞의 지친 젊은이",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "그 날에 아름다운 처녀와 젊은 남자가 다 갈하여 피곤하리라"
+        },
+        {
+          "verse": 14,
+          "text": "무릇 사마리아의 죄된 우상을 가리켜 맹세하여 이르기를 단아 네 신의 생존을 가리켜 맹세하노라 하거나 브엘세바의 위하는 것의 생존을 가리켜 맹세하노라 하는 사람은 엎드러지고 다시 일어나지 못하리라"
+        }
+      ],
+      "image": "amos-c008-v013-014-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.8.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 8:13–14.\nPrimary single moment: Young adult man and adult woman sit exhausted near abandoned calf shrine, disappointment in false hope, fully clothed and alive.\nPhysical camera: 65mm intimate two-shot.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n13 그 날에 아름다운 처녀와 젊은 남자가 다 갈하여 피곤하리라\n14 무릇 사마리아의 죄된 우상을 가리켜 맹세하여 이르기를 단아 네 신의 생존을 가리켜 맹세하노라 하거나 브엘세바의 위하는 것의 생존을 가리켜 맹세하노라 하는 사람은 엎드러지고 다시 일어나지 못하리라",
+      "referenceImages": []
+    },
+    {
+      "id": 51,
+      "chapter": 9,
+      "first": 1,
+      "last": 4,
+      "title": "피할 수 없는 심판",
+      "kind": "vision",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "내가 보니 주께서 단 곁에 서서 이르시되 기둥 머리를 쳐서 문지방이 움직이게 하며 그것으로 부숴져서 무리의 머리에 떨어지게 하라 내가 그 남은 자를 칼로 살륙하리니 그 중에서 하나도 도망하지 못하며 그 중에서 하나도 피하지 못하리라"
+        },
+        {
+          "verse": 2,
+          "text": "저희가 파고 음부로 들어갈지라도 내 손이 거기서 취하여 낼 것이요 하늘로 올라갈지라도 내가 거기서 취하여 내리울 것이며"
+        },
+        {
+          "verse": 3,
+          "text": "갈멜 산 꼭대기에 숨을지라도 내가 거기서 찾아낼 것이요 내 눈을 피하여 바다 밑에 숨을지라도 내가 거기서 뱀을 명하여 물게 할 것이요"
+        },
+        {
+          "verse": 4,
+          "text": "그 원수 앞에 사로잡혀 갈지라도 내가 거기서 칼을 명하여 살륙하게 할 것이라 내가 저희에게 주목하여 화를 내리고 복을 내리지 아니하리라 하시니라"
+        }
+      ],
+      "image": "amos-c009-v001-004-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.9.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 9:1–4.\nPrimary single moment: Vision: damaged Bethel sanctuary with fallen column capital beside altar, Amos small in foreground awed, no God standing there, bodies or strike shown.\nPhysical camera: 35mm ground monumentality.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n1 내가 보니 주께서 단 곁에 서서 이르시되 기둥 머리를 쳐서 문지방이 움직이게 하며 그것으로 부숴져서 무리의 머리에 떨어지게 하라 내가 그 남은 자를 칼로 살륙하리니 그 중에서 하나도 도망하지 못하며 그 중에서 하나도 피하지 못하리라\n2 저희가 파고 음부로 들어갈지라도 내 손이 거기서 취하여 낼 것이요 하늘로 올라갈지라도 내가 거기서 취하여 내리울 것이며\n3 갈멜 산 꼭대기에 숨을지라도 내가 거기서 찾아낼 것이요 내 눈을 피하여 바다 밑에 숨을지라도 내가 거기서 뱀을 명하여 물게 할 것이요\n4 그 원수 앞에 사로잡혀 갈지라도 내가 거기서 칼을 명하여 살륙하게 할 것이라 내가 저희에게 주목하여 화를 내리고 복을 내리지 아니하리라 하시니라",
+      "referenceImages": []
+    },
+    {
+      "id": 52,
+      "chapter": 9,
+      "first": 5,
+      "last": 6,
+      "title": "땅과 바다를 다스리시는 분",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 5,
+          "text": "주 만군의 여호와는 땅을 만져 녹게 하사 무릇 거기 거한 자로 애통하게 하시며 그 온 땅으로 하수의 넘침 같이 솟아오르며 애굽 강 같이 낮아지게 하시는 자요"
+        },
+        {
+          "verse": 6,
+          "text": "그 전을 하늘에 세우시며 그 궁창의 기초를 땅에 두시며 바다 물을 불러 지면에 쏟으시는 자니 그 이름은 여호와시니라"
+        }
+      ],
+      "image": "amos-c009-v005-006-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.9.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 9:5–6.\nPrimary single moment: EDITORIAL powerful sea tide beneath vast dawn sky, small adult observer silent at rocky shoreline, no divine hands or palace floating in clouds.\nPhysical camera: 35mm physical shore-level.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n5 주 만군의 여호와는 땅을 만져 녹게 하사 무릇 거기 거한 자로 애통하게 하시며 그 온 땅으로 하수의 넘침 같이 솟아오르며 애굽 강 같이 낮아지게 하시는 자요\n6 그 전을 하늘에 세우시며 그 궁창의 기초를 땅에 두시며 바다 물을 불러 지면에 쏟으시는 자니 그 이름은 여호와시니라",
+      "referenceImages": []
+    },
+    {
+      "id": 53,
+      "chapter": 9,
+      "first": 7,
+      "last": 10,
+      "title": "체질되는 곡식",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "여호와께서 가라사대 이스라엘 자손들아 너희는 내게 구스 족속 같지 아니하냐 내가 이스라엘을 애굽 땅에서, 블레셋 사람을 갑돌에서, 아람 사람을 길에서 올라오게 하지 아니하였느냐"
+        },
+        {
+          "verse": 8,
+          "text": "보라 주 여호와 내가 범죄한 나라에 주목하여 지면에서 멸하리라 그러나 야곱의 집은 온전히 멸하지는 아니하리라 이는 여호와의 말씀이니라"
+        },
+        {
+          "verse": 9,
+          "text": "내가 명령하여 이스라엘 족속을 만국 중에 체질하기를 곡식을 체질함 같이 하려니와 그 한 알갱이도 땅에 떨어지지 아니하리라"
+        },
+        {
+          "verse": 10,
+          "text": "내 백성 중에서 말하기를 화가 우리에게 미치지 아니하며 임하지 아니하리라 하는 모든 죄인은 칼에 죽으리라"
+        }
+      ],
+      "image": "amos-c009-v007-010-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.9.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 9:7–10.\nPrimary single moment: EDITORIAL hands of ordinary farmer gently sift grain in reed sieve, intact kernels retained and dust falls, Amos watches soberly, not divine hands.\nPhysical camera: 65mm tactile hands-and-faces.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n7 여호와께서 가라사대 이스라엘 자손들아 너희는 내게 구스 족속 같지 아니하냐 내가 이스라엘을 애굽 땅에서, 블레셋 사람을 갑돌에서, 아람 사람을 길에서 올라오게 하지 아니하였느냐\n8 보라 주 여호와 내가 범죄한 나라에 주목하여 지면에서 멸하리라 그러나 야곱의 집은 온전히 멸하지는 아니하리라 이는 여호와의 말씀이니라\n9 내가 명령하여 이스라엘 족속을 만국 중에 체질하기를 곡식을 체질함 같이 하려니와 그 한 알갱이도 땅에 떨어지지 아니하리라\n10 내 백성 중에서 말하기를 화가 우리에게 미치지 아니하며 임하지 아니하리라 하는 모든 죄인은 칼에 죽으리라",
+      "referenceImages": []
+    },
+    {
+      "id": 54,
+      "chapter": 9,
+      "first": 11,
+      "last": 12,
+      "title": "무너진 천막을 다시 세우다",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 11,
+          "text": "그 날에 내가 다윗의 무너진 천막을 일으키고 그 틈을 막으며 그 퇴락한 것을 일으키고 옛적과 같이 세우고"
+        },
+        {
+          "verse": 12,
+          "text": "저희로 에돔의 남은 자와 내 이름으로 일컫는 만국을 기업으로 얻게 하리라 이는 이를 행하시는 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c009-v011-012-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.9.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 9:11–12.\nPrimary single moment: EDITORIAL promised restoration: ordinary adult workers repair a fallen tent and modest stone courtyard in David's land, humble renewed community, no resurrected David.\nPhysical camera: 40mm amidst rebuilding.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n11 그 날에 내가 다윗의 무너진 천막을 일으키고 그 틈을 막으며 그 퇴락한 것을 일으키고 옛적과 같이 세우고\n12 저희로 에돔의 남은 자와 내 이름으로 일컫는 만국을 기업으로 얻게 하리라 이는 이를 행하시는 여호와의 말씀이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 55,
+      "chapter": 9,
+      "first": 13,
+      "last": 13,
+      "title": "풍성한 수확의 약속",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 13,
+          "text": "여호와께서 가라사대 보라 날이 이를지라 그 때에 밭가는 자가 곡식 베는 자의 뒤를 이으며 포도를 밟는 자가 씨 뿌리는 자의 뒤를 이으며 산들은 단 포도주를 흘리며 작은 산들은 녹으리라"
+        }
+      ],
+      "image": "amos-c009-v013-013-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.9.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 9:13–13.\nPrimary single moment: EDITORIAL lush hillside barley harvest adjacent to a newly worked furrow and grape-treading vat, working adults joyful, no literal wine river or impossible combined action.\nPhysical camera: 35mm field-level abundant scale.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n13 여호와께서 가라사대 보라 날이 이를지라 그 때에 밭가는 자가 곡식 베는 자의 뒤를 이으며 포도를 밟는 자가 씨 뿌리는 자의 뒤를 이으며 산들은 단 포도주를 흘리며 작은 산들은 녹으리라",
+      "referenceImages": []
+    },
+    {
+      "id": 56,
+      "chapter": 9,
+      "first": 14,
+      "last": 15,
+      "title": "다시 뽑히지 않을 백성",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 14,
+          "text": "내가 내 백성 이스라엘의 사로잡힌 것을 돌이키리니 저희가 황무한 성읍을 건축하고 거하며 포도원들을 심고 그 포도주를 마시며 과원들을 만들고 그 과실을 먹으리라"
+        },
+        {
+          "verse": 15,
+          "text": "내가 저희를 그 본토에 심으리니 저희가 나의 준 땅에서 다시 뽑히지 아니하리라 이는 네 하나님 여호와의 말씀이니라"
+        }
+      ],
+      "image": "amos-c009-v014-015-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/AMO.9.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Eighth-century BCE Judah and northern Israel under Uzziah and JeroboamII; Tekoa shepherd landscape, Samaria and Bethel. Each foreign oracle uses relevant ancient Near Eastern city, no Greek/Roman columns.\nOriginal fictional cast where specified: Amos original fictional West Asian shepherd about42, sun-weathered olive skin, broad forehead, steady brown eyes, thick short curly dark hair and black beard, sturdy build, rough ivory linen and muted blue wool mantle. Amaziah original actor about55 narrow face trimmed gray beard fine cream linen; no modern face for any named person.\nPassage 아모스 9:14–15.\nPrimary single moment: EDITORIAL grateful adults plant vines beside rebuilt modest city homes, settled hopeful faces, one coherent hopeful final moment.\nPhysical camera: 35mm walking observer grand humane finale.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n14 내가 내 백성 이스라엘의 사로잡힌 것을 돌이키리니 저희가 황무한 성읍을 건축하고 거하며 포도원들을 심고 그 포도주를 마시며 과원들을 만들고 그 과실을 먹으리라\n15 내가 저희를 그 본토에 심으리니 저희가 나의 준 땅에서 다시 뽑히지 아니하리라 이는 네 하나님 여호와의 말씀이니라",
+      "referenceImages": []
+    }
+  ]
+}

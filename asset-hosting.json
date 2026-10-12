@@ -40249,6 +40249,1326 @@
     "isaiah-c066-v024-024-right-context-v1.jpg": {
       "sha256": "4d822af700e2dd7c6e7b08d849eaf5c2cd4ef01b4aaaea6404ac5294db7d323f",
       "bytes": 557494
+    },
+    "joel-c001-v001-003-right-context-v1.jpg": {
+      "sha256": "b598eacf44413a56f629107121d2a12414d99e44de29d1ef95c5f54a7f919501",
+      "bytes": 567167
+    },
+    "joel-c001-v004-004-right-context-v1.jpg": {
+      "sha256": "f695c20d412c6011b5c87aefb57d43e6e16d82e31055a1f08942217b037ca83d",
+      "bytes": 603616
+    },
+    "joel-c001-v005-007-right-context-v1.jpg": {
+      "sha256": "7a4e7bf98fddb61516a9992d022feddfa3248bfe1f0c65845acbd711cb72ed1c",
+      "bytes": 619300
+    },
+    "joel-c001-v008-009-right-context-v1.jpg": {
+      "sha256": "f780c0c15a21b763dbda70fac8652ec82d70009044722bb4a763cf52bcefcf67",
+      "bytes": 485139
+    },
+    "joel-c001-v010-012-right-context-v1.jpg": {
+      "sha256": "ef0eef92b2551d607f5fbdf4612acdaef4a6826d103fbf9f84704690f88982db",
+      "bytes": 767312
+    },
+    "joel-c001-v013-014-right-context-v1.jpg": {
+      "sha256": "c92b7bd327936772b981f69f14fb4f6d0bcbe0a1f9b9d38db6e8446fd9848d88",
+      "bytes": 556448
+    },
+    "joel-c001-v015-018-right-context-v1.jpg": {
+      "sha256": "f10297ee9b238a1e681341e2e59b9561d3e4038a00004665ee39b1cae4add3cf",
+      "bytes": 715675
+    },
+    "joel-c001-v019-020-right-context-v1.jpg": {
+      "sha256": "cd81c4a966eaa7a3e65f74d69ecec4fe621999b5ca0ef5f2274dbe2e492e2160",
+      "bytes": 672931
+    },
+    "joel-c002-v001-002-right-context-v1.jpg": {
+      "sha256": "67b19401219dddb79d8ab75b717fd4bc80f048711159378ef5bae4c9d9b846a4",
+      "bytes": 601884
+    },
+    "joel-c002-v003-005-right-context-v1.jpg": {
+      "sha256": "61c615ebc80805744d59e0e542bbe39a09dc1325401b0c419fdf8778bcde0bf4",
+      "bytes": 822213
+    },
+    "joel-c002-v006-009-right-context-v1.jpg": {
+      "sha256": "d78709476bf8d22d0e8ee4a7aeb7b57965c15ce7b29749258317d198936a12ca",
+      "bytes": 521684
+    },
+    "joel-c002-v010-011-right-context-v1.jpg": {
+      "sha256": "dcff278da7b077627b68de7f029cd9e03f89710dc67c0f278eaba36525a29ac6",
+      "bytes": 491966
+    },
+    "joel-c002-v012-014-right-context-v1.jpg": {
+      "sha256": "230dfe3401e8adb7bd9acbb58be7f228cc1d2d697e3d547f989ab9368129d65b",
+      "bytes": 488398
+    },
+    "joel-c002-v015-016-right-context-v1.jpg": {
+      "sha256": "0ce09f35a854b6c0781a7c68f26ea2663ea0c33bafd3b2cab42bedc1d715d34c",
+      "bytes": 534439
+    },
+    "joel-c002-v017-017-right-context-v1.jpg": {
+      "sha256": "112d3d94146a0aaac5c657eb725e0203ca6f6447fbec160159a11ec9f19d35d8",
+      "bytes": 484230
+    },
+    "joel-c002-v018-020-right-context-v1.jpg": {
+      "sha256": "da7ff8daa6cc6a00105ad93d01307dc992091fed933a194d9de236d0d3f686e8",
+      "bytes": 606656
+    },
+    "joel-c002-v021-022-right-context-v2.jpg": {
+      "sha256": "fb6519e67013ca525f446f3ba3392505bca0f1b325b1a21d53d90f8f72c6de4d",
+      "bytes": 578901
+    },
+    "joel-c002-v023-024-right-context-v1.jpg": {
+      "sha256": "69640192fb1ce7e18fbf34aac1339eb976b8a050ad8db4721ca1c9cae2c0dc0c",
+      "bytes": 606134
+    },
+    "joel-c002-v025-027-right-context-v1.jpg": {
+      "sha256": "96238f96e9a732347f2182d7245eb450039e2728e94bdde9cf7125d85e58f8e4",
+      "bytes": 564789
+    },
+    "joel-c002-v028-029-right-context-v1.jpg": {
+      "sha256": "8b85b4dfa7545e3694bf0a829c0567e2ca1c8c599f9cc733232aed72b5a956ff",
+      "bytes": 581942
+    },
+    "joel-c002-v030-031-right-context-v1.jpg": {
+      "sha256": "603a120a011a67eb9daf4016908ea7dffbc97c790d5bf1bddcc4c9d41a717802",
+      "bytes": 471877
+    },
+    "joel-c002-v032-032-right-context-v1.jpg": {
+      "sha256": "5ace0a7e7f125dc0f93a0e0b64b4665caf47dd5d2495466f7c97d39740cf930a",
+      "bytes": 525719
+    },
+    "joel-c003-v001-003-right-context-v1.jpg": {
+      "sha256": "63ae15faad5a832463de33466a5cc4142cded4c63fef9de36a033840f410ec58",
+      "bytes": 550968
+    },
+    "joel-c003-v004-006-right-context-v1.jpg": {
+      "sha256": "ed2b248b2a38dc3ea6ae6c2e2cdb21c9b9283ff9549f6ea9c0a3690b72f27916",
+      "bytes": 568304
+    },
+    "joel-c003-v007-008-right-context-v1.jpg": {
+      "sha256": "a343ce2a91a73bbfcb1f5e7c14e25afefb926818721b997efb35892eabc1e6e8",
+      "bytes": 563483
+    },
+    "joel-c003-v009-011-right-context-v1.jpg": {
+      "sha256": "b47f15cb27d1575d700619ec009eed3b8c45002678d8cb826ea84676229297c4",
+      "bytes": 571019
+    },
+    "joel-c003-v012-014-right-context-v1.jpg": {
+      "sha256": "9734a40ec395f2fe867556ff2c5bf8fe3015bdf75968a07ff4f0efbf1fef1fcf",
+      "bytes": 659799
+    },
+    "joel-c003-v015-017-right-context-v1.jpg": {
+      "sha256": "f44a5f675cc88cdd4247e49b089cec19e45897e374aa20c84df50e209a4fbc0f",
+      "bytes": 620928
+    },
+    "joel-c003-v018-019-right-context-v2.jpg": {
+      "sha256": "3aef9135d21e0127e25900720e46a3a454b620d2312c097eebf021f6d7d97458",
+      "bytes": 753945
+    },
+    "joel-c003-v020-021-right-context-v2.jpg": {
+      "sha256": "71391e8f124949d6de3704a28e08abd1536eef103769d98edcce0543d5cc1e3f",
+      "bytes": 641497
+    },
+    "amos-c001-v001-002-right-context-v1.jpg": {
+      "sha256": "717c5268b3e075050e80c9b958e3cf3b13c5384099e60636fbe8d082b03de1f8",
+      "bytes": 532111
+    },
+    "amos-c001-v003-005-right-context-v1.jpg": {
+      "sha256": "81b3cdd3c12f9b44b86383efed81671a92dbef2b3a4391cb1e068db9e3c44f8d",
+      "bytes": 539032
+    },
+    "amos-c001-v006-008-right-context-v1.jpg": {
+      "sha256": "939553b04f0f51d87634eebaa8596e5ce67ea83f7868fee222283e02060551c0",
+      "bytes": 552260
+    },
+    "amos-c001-v009-010-right-context-v1.jpg": {
+      "sha256": "e5693f6bad2e6da07d031e693ddf6d099aecdeaa7753ad1fa9c57b7aafe4bb92",
+      "bytes": 568050
+    },
+    "amos-c001-v011-012-right-context-v1.jpg": {
+      "sha256": "477e26c437db0bc0fa19dc6dd041a30651c8f7c46ae7a3304aa417bbc343953f",
+      "bytes": 625640
+    },
+    "amos-c001-v013-015-right-context-v3.jpg": {
+      "sha256": "b97c737e17c1c44b644d9dea0b5ada1d948e5bbd4ff6e412c58cf421fc052b48",
+      "bytes": 565629
+    },
+    "amos-c002-v001-003-right-context-v1.jpg": {
+      "sha256": "430591d8875cd5705428405e4cea4cb7a3c4f6005024188628974b78374a3a65",
+      "bytes": 634295
+    },
+    "amos-c002-v004-005-right-context-v1.jpg": {
+      "sha256": "a4cc6ba7869dfb22d41e4eaca0b1268fd243161ac005544fc1a89eec911bc921",
+      "bytes": 457188
+    },
+    "amos-c002-v006-007-right-context-v2.jpg": {
+      "sha256": "165a7a47f423c0cbf35e0163703e7443f2220b760684baf4907334e95b6bb71d",
+      "bytes": 550963
+    },
+    "amos-c002-v008-008-right-context-v1.jpg": {
+      "sha256": "dbcfbef6ac0fdecc2f1c0f458da5f77b161b49839ff4e7a5e223306db892d44f",
+      "bytes": 578598
+    },
+    "amos-c002-v009-012-right-context-v1.jpg": {
+      "sha256": "24fd7a00546e79329b3296cfea3fb7358114fbc96e49d5fab2357cf73dead7b2",
+      "bytes": 582280
+    },
+    "amos-c002-v013-016-right-context-v1.jpg": {
+      "sha256": "a9c176e2a6ba88725c7dc33539f8313eb5aa4fda3884f345f21005700717507d",
+      "bytes": 731502
+    },
+    "amos-c003-v001-002-right-context-v1.jpg": {
+      "sha256": "da4092628f040e738fdbebb1ee138a399ea4106b290b505f4fa86c043a44a950",
+      "bytes": 551462
+    },
+    "amos-c003-v003-006-right-context-v1.jpg": {
+      "sha256": "744d944768a4c9e850039f2d13e06404781b74a02ef8c840f6cc40fda7f52a48",
+      "bytes": 605203
+    },
+    "amos-c003-v007-008-right-context-v1.jpg": {
+      "sha256": "5c65fdee24d78e9435181d9a11abe1dc6dd924d8adbd1fe368e58c5064f4e29b",
+      "bytes": 492014
+    },
+    "amos-c003-v009-012-right-context-v1.jpg": {
+      "sha256": "11f981dec7b308ce185a3d592658214f4dd4f8f7d7b0fa2e1da8663b32de1acd",
+      "bytes": 516169
+    },
+    "amos-c003-v013-015-right-context-v1.jpg": {
+      "sha256": "325e91f6c3ba5ac319f91cd2bf8ee84b4e86ebc1285d8b782ac6121e64470f05",
+      "bytes": 606769
+    },
+    "amos-c004-v001-003-right-context-v1.jpg": {
+      "sha256": "df624f64cc658b59fd5cef983a3a127686d0ae6ba66b149e9a58af698bf85b3b",
+      "bytes": 609502
+    },
+    "amos-c004-v004-005-right-context-v1.jpg": {
+      "sha256": "b38ced2907f3965ed1a23586c94c9aa74cafed1b5be541b17b18d87f417ed05f",
+      "bytes": 570832
+    },
+    "amos-c004-v006-006-right-context-v1.jpg": {
+      "sha256": "44fccfe5a5cc4953964fd1520e7faa7e05800727aa1869cf32308ef109fae8c7",
+      "bytes": 482596
+    },
+    "amos-c004-v007-008-right-context-v1.jpg": {
+      "sha256": "686050618f6cfda0f6bee65a78b004681821bf2744244debd7e293954d36993b",
+      "bytes": 623281
+    },
+    "amos-c004-v009-011-right-context-v1.jpg": {
+      "sha256": "a55173ff8b7f1788237b41d913096a5fa05fc72aedde635b93b105a945eede6e",
+      "bytes": 665658
+    },
+    "amos-c004-v012-013-right-context-v1.jpg": {
+      "sha256": "386e54608dd4d5373362486c8f5cba99de3f6eea5a92f02ce8e8306da0eadbba",
+      "bytes": 475491
+    },
+    "amos-c005-v001-003-right-context-v1.jpg": {
+      "sha256": "1ee3ea6a384ecbfb54c033106e300b12bafb03f655e82d580694ed60edb25a8d",
+      "bytes": 626829
+    },
+    "amos-c005-v004-006-right-context-v1.jpg": {
+      "sha256": "13a7f5665a174ee1da62592fa5747512fb9c0c7c7b8382603f2338984f1d8c2d",
+      "bytes": 488845
+    },
+    "amos-c005-v007-009-right-context-v1.jpg": {
+      "sha256": "d4bdf5526bc8d31903d307f4d8176452860d30a32452562cfa48e19dce6fa283",
+      "bytes": 541643
+    },
+    "amos-c005-v010-013-right-context-v1.jpg": {
+      "sha256": "424c85aa6db7912071ee0f4c8d0f83894aa00226499ef8dca5c4a5efaa1cbb7b",
+      "bytes": 523679
+    },
+    "amos-c005-v014-015-right-context-v1.jpg": {
+      "sha256": "87a694cdfa3bbeabd8e86c43e820c00ee4ae949156380366706865c4368eb729",
+      "bytes": 558055
+    },
+    "amos-c005-v016-017-right-context-v1.jpg": {
+      "sha256": "327a7154f5207f19b9ae25b5e8f868c1584037eb2d84255b047e02b86e7644e1",
+      "bytes": 581628
+    },
+    "amos-c005-v018-020-right-context-v1.jpg": {
+      "sha256": "71d944d3f45b7fbe03871ee5bc00bf86ce17180aac5b88556423f5106906c731",
+      "bytes": 486628
+    },
+    "amos-c005-v021-023-right-context-v1.jpg": {
+      "sha256": "e68e4000dab8e59392a72fd0b03180f6dce1eb09fb407cefd9f3af1f699115fc",
+      "bytes": 543533
+    },
+    "amos-c005-v024-024-right-context-v1.jpg": {
+      "sha256": "c74d0026279167a82e0bc0ccc86ec095e3395dcc677b38bd0a38723987c5a137",
+      "bytes": 592729
+    },
+    "amos-c005-v025-027-right-context-v1.jpg": {
+      "sha256": "cd462b8bf3d15714e78be45778c911ee184dc9077bb3256ba32f0ed55aa2d277",
+      "bytes": 648634
+    },
+    "amos-c006-v001-006-right-context-v1.jpg": {
+      "sha256": "84caacbec4158c58924f328c885652939237702ec2450835202cabe86ce7473c",
+      "bytes": 608756
+    },
+    "amos-c006-v007-008-right-context-v1.jpg": {
+      "sha256": "65f4c797814f1d064381524c6545c8c3560d3f181af229456b5fe5c6227533b7",
+      "bytes": 603520
+    },
+    "amos-c006-v009-011-right-context-v1.jpg": {
+      "sha256": "11d4ee51952beddbca033e4c712bc38d719271df9c34421205fe3b04993ab8b2",
+      "bytes": 631739
+    },
+    "amos-c006-v012-014-right-context-v1.jpg": {
+      "sha256": "d99dd125c3070dc3fdb9e31dcb876ebac3ebb583cee9c5d1ad2a27de30f3aa4d",
+      "bytes": 730702
+    },
+    "amos-c007-v001-003-right-context-v1.jpg": {
+      "sha256": "bf957567d7b8a403231cf74b30af2b08b5c9c5771ff7a08b3dcc5dc480e1404f",
+      "bytes": 634948
+    },
+    "amos-c007-v004-006-right-context-v1.jpg": {
+      "sha256": "e2dece20751cd27c8f844519ac310f8fe5ae39e4f4056d5a6362ee1546ea7bdf",
+      "bytes": 530767
+    },
+    "amos-c007-v007-009-right-context-v1.jpg": {
+      "sha256": "075112a38662db290826c472f11b93e1a52a270c39aff7a289454569f1879d08",
+      "bytes": 545041
+    },
+    "amos-c007-v010-011-right-context-v1.jpg": {
+      "sha256": "aa2f6b195fc1511205cce93cc24fa34fb65c70ab4f9149cd400d6bed4bf6d064",
+      "bytes": 440599
+    },
+    "amos-c007-v012-013-right-context-v1.jpg": {
+      "sha256": "b445a957ebe05b6e31832f0638078544d55ed1f34b0cbcf52a5d7c0102f35494",
+      "bytes": 513863
+    },
+    "amos-c007-v014-015-right-context-v2.jpg": {
+      "sha256": "30f29b8ce4aeff1a95480ae175b074b43026589960fa756475f6163adcb0593f",
+      "bytes": 580001
+    },
+    "amos-c007-v016-017-right-context-v1.jpg": {
+      "sha256": "b35525cbfb129c80f02096457a5209e77b8855af95c2877982d2dad1d0a9b355",
+      "bytes": 448742
+    },
+    "amos-c008-v001-002-right-context-v1.jpg": {
+      "sha256": "5e13b277d69b327d3e15b6ced1fb945fddec842323d6ba95e89e2596963daee5",
+      "bytes": 564036
+    },
+    "amos-c008-v003-003-right-context-v1.jpg": {
+      "sha256": "cbe44cc15f452327f5868936309538f56fd2354823ce3629ff8517f18692c4a8",
+      "bytes": 551648
+    },
+    "amos-c008-v004-006-right-context-v1.jpg": {
+      "sha256": "7931b057054285a7828e9c976beb5e1d4470ef80714da0681915ef58a37f947a",
+      "bytes": 596407
+    },
+    "amos-c008-v007-010-right-context-v1.jpg": {
+      "sha256": "3088715e1cddab83b7151bff321e947821f13a4ee8eb45e80f79b368a183742d",
+      "bytes": 453947
+    },
+    "amos-c008-v011-012-right-context-v1.jpg": {
+      "sha256": "5283926cbe3ea2299a4357293b469b04b64be8acc6874d50dc93b47877c5800b",
+      "bytes": 527907
+    },
+    "amos-c008-v013-014-right-context-v1.jpg": {
+      "sha256": "c3dd748ec756c60881f23c25c1a639408bd88f419f057f0a199079e5727f5d41",
+      "bytes": 572685
+    },
+    "amos-c009-v001-004-right-context-v1.jpg": {
+      "sha256": "fdf1d8e0ceeb3d16ede9c23abff0fc9522daa609334363b403c56a83c97c7d60",
+      "bytes": 721200
+    },
+    "amos-c009-v005-006-right-context-v1.jpg": {
+      "sha256": "7b13574a0a3f7d34c38021e4dd485e92e09627806aceb66620b17b354ae9e049",
+      "bytes": 568642
+    },
+    "amos-c009-v007-010-right-context-v1.jpg": {
+      "sha256": "3c17218f71a6f5e6db48e81fa0fd0b436354daad19e2016be2e9938f130438a4",
+      "bytes": 597370
+    },
+    "amos-c009-v011-012-right-context-v1.jpg": {
+      "sha256": "88a51a536e0611ac5d9d79571ea5a9175d190b96286066f73a5c2f954f9a9d15",
+      "bytes": 647347
+    },
+    "amos-c009-v013-013-right-context-v1.jpg": {
+      "sha256": "ce018a06433f3465111d11271e8a8f7548aac3a622fbcd795538e1be0706c4a7",
+      "bytes": 854922
+    },
+    "amos-c009-v014-015-right-context-v1.jpg": {
+      "sha256": "811d23460e9c8c1ca1d62ccb31257efd27cc38755f3f81e308c5f870c993ca36",
+      "bytes": 693788
+    },
+    "obadiah-c001-v001-002-right-context-v1.jpg": {
+      "sha256": "8718333d1ac32f86f2b7a7514a42469de9c15b598c2509fc10c6a04056ffb7ad",
+      "bytes": 580185
+    },
+    "obadiah-c001-v003-004-right-context-v1.jpg": {
+      "sha256": "35f12657ec1d5b9abea9b3bb7f663491e19c1f3fead8a73c7a577f1a16d85c03",
+      "bytes": 646988
+    },
+    "obadiah-c001-v005-006-right-context-v2.jpg": {
+      "sha256": "2b3f4afef6e782799cec83aba6706f452fa48c8ae99c14a21cb077f319f4f5de",
+      "bytes": 520214
+    },
+    "obadiah-c001-v007-007-right-context-v1.jpg": {
+      "sha256": "60409640c209544f78e3e716cd09d747d86e0f5208276d0ec1d38016c527e854",
+      "bytes": 558543
+    },
+    "obadiah-c001-v008-009-right-context-v1.jpg": {
+      "sha256": "d3a863dd928807af11b57b62e0faef38ccc86152e789f530637203fe20deb98c",
+      "bytes": 545525
+    },
+    "obadiah-c001-v010-011-right-context-v1.jpg": {
+      "sha256": "ec8b0f2317c83171bf10ace39acc053f993b3ef0fc8c4ba3ecbe79d0cf7ce2d2",
+      "bytes": 676817
+    },
+    "obadiah-c001-v012-013-right-context-v1.jpg": {
+      "sha256": "7ed50fccc23c43e6fb591962e5d7ef44f881d202f6294db669353cf380e03c18",
+      "bytes": 545536
+    },
+    "obadiah-c001-v014-014-right-context-v1.jpg": {
+      "sha256": "94b1c7b08db968bd930cc496bfc51b68738e9cca88e654714ad105e4b6f145c7",
+      "bytes": 610502
+    },
+    "obadiah-c001-v015-016-right-context-v1.jpg": {
+      "sha256": "a2e8f1c50775e9edaf1aa18edf696d62249224499e4d7994df5e993c1887af3d",
+      "bytes": 564618
+    },
+    "obadiah-c001-v017-018-right-context-v1.jpg": {
+      "sha256": "d9d5bffcbc6951287fc7e098b1ac9e36736af9c1aae2a48d31cb86e2439bdd30",
+      "bytes": 522203
+    },
+    "obadiah-c001-v019-020-right-context-v1.jpg": {
+      "sha256": "9af9842f1230d0193c973b46dcabd4a0b961e981406c50d74faf9c2799f5b309",
+      "bytes": 751394
+    },
+    "obadiah-c001-v021-021-right-context-v2.jpg": {
+      "sha256": "5702312e6184cd23e605f9303353d9ea9fbc2c4f6a37b66435f9e1c875226c90",
+      "bytes": 638976
+    },
+    "micah-c001-v001-002-right-context-v1.jpg": {
+      "sha256": "9d7fb53d38eacb5c627b45fabaa980100ba4d0c80a366f04b8241c4d9c8677ff",
+      "bytes": 557023
+    },
+    "micah-c001-v003-004-right-context-v1.jpg": {
+      "sha256": "5b73c1985054787bcf8d045ba91ac7b9be87770596a551d17d18e9c61cec12c7",
+      "bytes": 622434
+    },
+    "micah-c001-v005-007-right-context-v1.jpg": {
+      "sha256": "1a5aa92727efdb656f947d29cd1f261744459423f67813491cc94d3720e64027",
+      "bytes": 655804
+    },
+    "micah-c001-v008-009-right-context-v1.jpg": {
+      "sha256": "75fb474f894bbe384bcd0633738f9744073c61cee8315f9ee4c3308757c72c55",
+      "bytes": 582156
+    },
+    "micah-c001-v010-013-right-context-v1.jpg": {
+      "sha256": "6f15cc7e900eb1984ecd5cd578e10e5e4659378ae12a383674fe05a3f3a50957",
+      "bytes": 562782
+    },
+    "micah-c001-v014-016-right-context-v1.jpg": {
+      "sha256": "e1a9f9853ca12efab71555bf23bac27ecfc6fdde4a8eeee0e73eabf8366ef5b9",
+      "bytes": 581132
+    },
+    "micah-c002-v001-002-right-context-v1.jpg": {
+      "sha256": "4c33d779af1af61681b37147bbd559c0d2d8dffa796e738193d7044be7b655d8",
+      "bytes": 622601
+    },
+    "micah-c002-v003-005-right-context-v1.jpg": {
+      "sha256": "ecfc71f4fcdcabb9b73223fee042dd2d6ed638d48cbd342bae6bc10d690831d5",
+      "bytes": 672260
+    },
+    "micah-c002-v006-007-right-context-v1.jpg": {
+      "sha256": "0eb69e326b338e8fb82ba984aa5c7a6aa109473a0ca478d821493717f3da3f02",
+      "bytes": 597442
+    },
+    "micah-c002-v008-010-right-context-v2.jpg": {
+      "sha256": "69922db08fa2579cb0cfb43efca9ec6f52543882ae03b8beff8fbc351f5623d5",
+      "bytes": 612271
+    },
+    "micah-c002-v011-011-right-context-v1.jpg": {
+      "sha256": "981ff5b19f5b9a460c8b7e7130c37bf26666a8f59f9f506192ed4c1eaa2fc107",
+      "bytes": 525539
+    },
+    "micah-c002-v012-013-right-context-v1.jpg": {
+      "sha256": "9a03509df4983f740ae98830486443bbd896d049d9e1729f3e258c15448976e0",
+      "bytes": 594696
+    },
+    "micah-c003-v001-004-right-context-v1.jpg": {
+      "sha256": "ee4212a4cce5f297bbd89acc617c64e5fc0f2346accaf3c00a825ea44f54ebe8",
+      "bytes": 587173
+    },
+    "micah-c003-v005-007-right-context-v1.jpg": {
+      "sha256": "95c60c29a9b747886e4b7cdefcee5e46bcad81cad3b20c21a969544616079ceb",
+      "bytes": 549706
+    },
+    "micah-c003-v008-008-right-context-v1.jpg": {
+      "sha256": "c299b6a4e14808552600d350f2e1d1e4c07c95f278dde280a9e05c27844cd28a",
+      "bytes": 488719
+    },
+    "micah-c003-v009-011-right-context-v2.jpg": {
+      "sha256": "ad062197d2c241f57fe66dc9cf943a1155db522937ceb76112bb30b70246bd09",
+      "bytes": 504660
+    },
+    "micah-c003-v012-012-right-context-v1.jpg": {
+      "sha256": "0a73404e3d0c2f2bae868189594b9b1d000b36be0d2c9181a39714e5ed352176",
+      "bytes": 860433
+    },
+    "micah-c004-v001-002-right-context-v2.jpg": {
+      "sha256": "34cf6f935190470f646ec622dd1d35309cc00e5f20302606c9cc47107ccf660b",
+      "bytes": 663747
+    },
+    "micah-c004-v003-003-right-context-v2.jpg": {
+      "sha256": "c26784018282d6b4845c436a0d06b6246cdf9fa8e47110c86e558e6a14330dc9",
+      "bytes": 545891
+    },
+    "micah-c004-v004-005-right-context-v1.jpg": {
+      "sha256": "40fa83fcdc7f1b94779abfa8f0c45925d002ee4faf5616407087c46b8994aca4",
+      "bytes": 643872
+    },
+    "micah-c004-v006-008-right-context-v1.jpg": {
+      "sha256": "47a0f4c9326beb5393b09b9461a386460dc90a25e3cb62885bd9c4f2d7a7ce26",
+      "bytes": 578632
+    },
+    "micah-c004-v009-010-right-context-v1.jpg": {
+      "sha256": "7d2a22ef2ee81a64e1eea32bc2933488cfcb510332f7b6fe4a6bf29de0d000c0",
+      "bytes": 597370
+    },
+    "micah-c004-v011-013-right-context-v1.jpg": {
+      "sha256": "a8a1d877ed47cc6c6cd7b277e13e8102530b9d96c609d92640a1c4d9b69496a8",
+      "bytes": 614491
+    },
+    "micah-c005-v001-001-right-context-v1.jpg": {
+      "sha256": "5018571b7cb6221c8220c9aaa43a4eb52b0bd01f1420a2de43b8f25874752b48",
+      "bytes": 529190
+    },
+    "micah-c005-v002-002-right-context-v1.jpg": {
+      "sha256": "9a7613313736ecf23c2c6f974bb7152a9182a81583b84759903aae67f98d4ec1",
+      "bytes": 564641
+    },
+    "micah-c005-v003-004-right-context-v1.jpg": {
+      "sha256": "36d1b1ae5e5331806b8e29ee2e0d843c618e571d7e9436fb32371ac573591a0b",
+      "bytes": 590133
+    },
+    "micah-c005-v005-006-right-context-v1.jpg": {
+      "sha256": "77614190e831fcc34c3a24ae17003f01113bdb7b6dda7041a8ce72cc2d47d6a7",
+      "bytes": 521216
+    },
+    "micah-c005-v007-009-right-context-v1.jpg": {
+      "sha256": "2901cc956baacacdbf2f3dad7fe2527ddcdb82519de3892d52ec054c65072945",
+      "bytes": 600857
+    },
+    "micah-c005-v010-015-right-context-v1.jpg": {
+      "sha256": "1a29a0d5def1f19b7724736912fb54bf8ff173a8209e583e267ef97396873312",
+      "bytes": 583175
+    },
+    "micah-c006-v001-002-right-context-v1.jpg": {
+      "sha256": "cb244d00d6616a3570863a04f5cbebcb3d32f39ebe53c9658c0b31afec528140",
+      "bytes": 528205
+    },
+    "micah-c006-v003-005-right-context-v1.jpg": {
+      "sha256": "53d7419d8b8234f5964eb2466a31c4eca91eb841f3826ccd39b90d84a401adbb",
+      "bytes": 566000
+    },
+    "micah-c006-v006-007-right-context-v1.jpg": {
+      "sha256": "740e35cce59b8deaca88e075e52fbd1c81b773849c8e145a75cfe17c95dcaa2b",
+      "bytes": 512828
+    },
+    "micah-c006-v008-008-right-context-v1.jpg": {
+      "sha256": "1a6ac501b692b5b4dbca9d7cd00a0fa2c4aef85017ae48dddc8cb7dd1b098fde",
+      "bytes": 576652
+    },
+    "micah-c006-v009-012-right-context-v1.jpg": {
+      "sha256": "efc4d882d744041c0c6c06d479322bd5983426adcdda290585f174b75f116f21",
+      "bytes": 636259
+    },
+    "micah-c006-v013-016-right-context-v1.jpg": {
+      "sha256": "122527604b6d3d237681b15b0979e09df05abf4d185c6d95d4efd28163f2f757",
+      "bytes": 743907
+    },
+    "micah-c007-v001-004-right-context-v1.jpg": {
+      "sha256": "998c41a9a50130413e056e70224f73a6e44fce7395e349496de5acb9881923e6",
+      "bytes": 670566
+    },
+    "micah-c007-v005-006-right-context-v2.jpg": {
+      "sha256": "a349be76fe4a3b691b0b080e4e1b7066b5dbe5d9d87a021ad9faad79d8579392",
+      "bytes": 579156
+    },
+    "micah-c007-v007-010-right-context-v1.jpg": {
+      "sha256": "abbeabdd18540a6784a4097ac45fc120d3c257a87d9dbce5f78d37a6c3f6f65d",
+      "bytes": 485764
+    },
+    "micah-c007-v011-013-right-context-v1.jpg": {
+      "sha256": "e5f8f059bf6615a86420e7c7c4e938bd1101560dc12163a5accc8c3eeed1e2e4",
+      "bytes": 642893
+    },
+    "micah-c007-v014-017-right-context-v1.jpg": {
+      "sha256": "4f5e5cc6054bc15a7dd43e6f97ccd40c50d1e39f3b8fd0957343fb9e4c1f0010",
+      "bytes": 638477
+    },
+    "micah-c007-v018-020-right-context-v1.jpg": {
+      "sha256": "430ebe50f46a306dd75fa1b23af0a2234646a29cebca3f1ae7a4f07ee1325682",
+      "bytes": 609508
+    },
+    "nahum-c001-v001-003-right-context-v1.jpg": {
+      "sha256": "b4073af6cca363a54d277edf3db4f65e947d84ced5885af8125b7379a8e911ba",
+      "bytes": 480805
+    },
+    "nahum-c001-v004-006-right-context-v1.jpg": {
+      "sha256": "5b46936650f3dd9b8f781acb049cf0e88d7b81e3af0b855e0a3ae43032b50dbd",
+      "bytes": 628945
+    },
+    "nahum-c001-v007-007-right-context-v1.jpg": {
+      "sha256": "e0030fd3f65350e4bfab57da61540eb4a7716c8f342c74b87d3b24119f2f0fb0",
+      "bytes": 492352
+    },
+    "nahum-c001-v008-011-right-context-v1.jpg": {
+      "sha256": "ebd6ee216591877f54b4a95083b5183f80e5b89775ba892d9e3ff7c35b4dd5a8",
+      "bytes": 502083
+    },
+    "nahum-c001-v012-014-right-context-v1.jpg": {
+      "sha256": "4d9887a4800ec118194a284b743e9b52c2b5d70369811f8d1746c2eb569a5548",
+      "bytes": 563713
+    },
+    "nahum-c001-v015-015-right-context-v2.jpg": {
+      "sha256": "ef39611971ca21e6dac026ed7a68ff8eecda046fe18d9828d46566ef1241a60a",
+      "bytes": 626978
+    },
+    "nahum-c002-v001-002-right-context-v1.jpg": {
+      "sha256": "a59fec8a9a9a970373b9d02d46cf9f5b7bdf854a5dbb76d323e7a73d99f3393f",
+      "bytes": 487038
+    },
+    "nahum-c002-v003-004-right-context-v1.jpg": {
+      "sha256": "a7d572af8e167e985012e913f21f8e141db0832df813d05a7040123a839abfad",
+      "bytes": 634616
+    },
+    "nahum-c002-v005-006-right-context-v1.jpg": {
+      "sha256": "e8cb318103f4afa3eb4aed6e66a06a0b93e3a0fe4cdea2fab8851e473a9de9b1",
+      "bytes": 677478
+    },
+    "nahum-c002-v007-008-right-context-v1.jpg": {
+      "sha256": "bc3280a2752e0303965cf8cdd6e030c74d374e577b2915ad4bf41ed65aa3ff87",
+      "bytes": 495860
+    },
+    "nahum-c002-v009-010-right-context-v1.jpg": {
+      "sha256": "e84770d35566b877e3c4a2010f3f838678d657ca7644eaa79ad777e85a82e2b7",
+      "bytes": 465109
+    },
+    "nahum-c002-v011-013-right-context-v1.jpg": {
+      "sha256": "fca494ea44eb921e59eec39a61d0cae656dd2ad810ea7fd90bc177a6c9deae2e",
+      "bytes": 669897
+    },
+    "nahum-c003-v001-003-right-context-v1.jpg": {
+      "sha256": "689afbee1950ccd145c57f52e40e2a4908afb3799afaf471953bab82225b29cb",
+      "bytes": 653763
+    },
+    "nahum-c003-v004-007-right-context-v1.jpg": {
+      "sha256": "4e5e8989c335a31405dde920b0fd4cde724868a6ecfb3aa6a0c625ebd5a9e890",
+      "bytes": 578242
+    },
+    "nahum-c003-v008-010-right-context-v1.jpg": {
+      "sha256": "d3ec14d44972017acebaa532221b97c1674206311f1dece172fbf9947d1ec61c",
+      "bytes": 575645
+    },
+    "nahum-c003-v011-013-right-context-v1.jpg": {
+      "sha256": "e6a7d76ce907a90e1cd3dfc6d9f2254c9165eb8f8fe40bcc324a4ef308aa9bee",
+      "bytes": 704839
+    },
+    "nahum-c003-v014-015-right-context-v1.jpg": {
+      "sha256": "2c653eb93d1caffa434c27b9ab2710e35eee53e707741f3a5d42395b560c60b5",
+      "bytes": 722431
+    },
+    "nahum-c003-v016-017-right-context-v1.jpg": {
+      "sha256": "07602d69bb44ac034a5e034902b50e8773bba0c7a6ba3f73feb529184a1b96ad",
+      "bytes": 575957
+    },
+    "nahum-c003-v018-019-right-context-v1.jpg": {
+      "sha256": "13745ec6f03dfd945478f276b81a621df8f713373a26c7a83e30d74809e6fa99",
+      "bytes": 541051
+    },
+    "habakkuk-c001-v001-004-right-context-v1.jpg": {
+      "sha256": "0ac10c2bc36fa44177124275e67a415bc4fee72883f1cde48497db82698d3994",
+      "bytes": 517755
+    },
+    "habakkuk-c001-v005-007-right-context-v1.jpg": {
+      "sha256": "5af44be63b68aca92b9a8a1248b5086e2153fdb918f8f697512fede7f50affc0",
+      "bytes": 642297
+    },
+    "habakkuk-c001-v008-011-right-context-v1.jpg": {
+      "sha256": "b3730f388c39c20e28bdb9dc618382a3447c2c26101603d07a8096520cf8a70c",
+      "bytes": 595966
+    },
+    "habakkuk-c001-v012-013-right-context-v1.jpg": {
+      "sha256": "d490b208f38d779ffec885dd6057472a32ce595f247d653018356692c1ed2695",
+      "bytes": 484173
+    },
+    "habakkuk-c001-v014-017-right-context-v1.jpg": {
+      "sha256": "b6b0353afb5500675ac95c791ac31991f258d8649e00b6646b6a306088d0c1c5",
+      "bytes": 693284
+    },
+    "habakkuk-c002-v001-001-right-context-v1.jpg": {
+      "sha256": "239343c6dd31f6515001360b7b0568ae2c99fbc4026552d13fb6d04a40c31865",
+      "bytes": 416430
+    },
+    "habakkuk-c002-v002-003-right-context-v1.jpg": {
+      "sha256": "7a246e95812c46d584ad6481ae33cdeff0e7d4675594c63a7dcc532150f3fe20",
+      "bytes": 533725
+    },
+    "habakkuk-c002-v004-004-right-context-v1.jpg": {
+      "sha256": "c9ccadc19ad4e6a5282b0e2db1dbe2eb878c7684a271c00d2f0890dbf574b5d8",
+      "bytes": 579315
+    },
+    "habakkuk-c002-v005-008-right-context-v1.jpg": {
+      "sha256": "8fd5078a15fa4799d8cead40c46ad390999b95530997fd4ae37de1bcd0e53022",
+      "bytes": 524783
+    },
+    "habakkuk-c002-v009-011-right-context-v1.jpg": {
+      "sha256": "a9ba292248b17691dbea522a7a57a41a5474547486012e40756a6f6f5bfbd919",
+      "bytes": 554259
+    },
+    "habakkuk-c002-v012-013-right-context-v1.jpg": {
+      "sha256": "36c3cd015b4c068f305b776b29e05089cf48ebefe770d089ad86e5331671150e",
+      "bytes": 541772
+    },
+    "habakkuk-c002-v014-014-right-context-v1.jpg": {
+      "sha256": "84102247127f7ca8b30d4aab6c3a9878c3cdce9bbda3f44e3c8fd829e60b1a83",
+      "bytes": 660905
+    },
+    "habakkuk-c002-v015-017-right-context-v1.jpg": {
+      "sha256": "e3724a77bb78785b1b1318734a8ebd8a08f789b27a043bac9c6b50c5d385a41a",
+      "bytes": 529861
+    },
+    "habakkuk-c002-v018-019-right-context-v1.jpg": {
+      "sha256": "8848c55d4a5c8543d8347dc7827b9a2be3fb57a475e3ce7daf539c64e3f53e36",
+      "bytes": 554625
+    },
+    "habakkuk-c002-v020-020-right-context-v1.jpg": {
+      "sha256": "982a12e09b6e9bda5e26065e6af7f0bae27929e67a10072cea13152eb8d008b5",
+      "bytes": 440048
+    },
+    "habakkuk-c003-v001-002-right-context-v1.jpg": {
+      "sha256": "b53dbf6cad02c632c17d66885ebc676defdeada9d94f79ecaed04983aff1a125",
+      "bytes": 508820
+    },
+    "habakkuk-c003-v003-007-right-context-v1.jpg": {
+      "sha256": "881ac54586b1dc995514d89f8faae55e42e07e3e53c5f14a4a6c1c6dc199333c",
+      "bytes": 544462
+    },
+    "habakkuk-c003-v008-011-right-context-v1.jpg": {
+      "sha256": "e7e01af3a0b41c43b0da2b05a7dad603baf65c91e15a818af6e3208545d732ad",
+      "bytes": 639151
+    },
+    "habakkuk-c003-v012-015-right-context-v1.jpg": {
+      "sha256": "5260b18f3e0b48523e8a4ee52969664683e3334afa6eba31ec0bcb8cc763b1ba",
+      "bytes": 497633
+    },
+    "habakkuk-c003-v016-016-right-context-v1.jpg": {
+      "sha256": "85f644785a2faa32c63bdf2a15f17f30085f5e92208b9d44196bc4f4077b27a6",
+      "bytes": 496795
+    },
+    "habakkuk-c003-v017-017-right-context-v1.jpg": {
+      "sha256": "72d145471e6de44dde7358700e6455031e3d1544fc4a73c30dd528078554b049",
+      "bytes": 628298
+    },
+    "habakkuk-c003-v018-018-right-context-v1.jpg": {
+      "sha256": "8a78083407e9438d4671c03ca57c52e4e394bd96bda0ffde0529e02bb29d9068",
+      "bytes": 472986
+    },
+    "habakkuk-c003-v019-019-right-context-v1.jpg": {
+      "sha256": "8c87a0b32e673ac331a5a1c80db1a07c8456e1b51f097c96541be5061143d322",
+      "bytes": 599252
+    },
+    "zephaniah-c001-v001-003-right-context-v1.jpg": {
+      "sha256": "89bf76b79667168cbd2b1764946088bfa2015865133f209aefd64428c8eae60d",
+      "bytes": 507420
+    },
+    "zephaniah-c001-v004-006-right-context-v1.jpg": {
+      "sha256": "da022f870361cb5a63cf4300fff758d672a819252721ba4dd49f2d1d06ed3354",
+      "bytes": 437908
+    },
+    "zephaniah-c001-v007-009-right-context-v1.jpg": {
+      "sha256": "aa618bd0af2a35deaf459795f4e061ccee5972fafc6c7f748fc27e3b30a81dc2",
+      "bytes": 511207
+    },
+    "zephaniah-c001-v010-011-right-context-v1.jpg": {
+      "sha256": "35acbffc9917e73b77a572bb7c3e9c2ef692f45e1c44168f17d70676c35dde47",
+      "bytes": 536165
+    },
+    "zephaniah-c001-v012-013-right-context-v1.jpg": {
+      "sha256": "7ccb9915339eef5717e77b610d7479024dd92df7514779ef3b118cae13298ccf",
+      "bytes": 431030
+    },
+    "zephaniah-c001-v014-016-right-context-v2.jpg": {
+      "sha256": "1f2cf019e4fc5ff025f0aed6f7a79105d5898a30d48dddf54e3c965935119ade",
+      "bytes": 504006
+    },
+    "zephaniah-c001-v017-018-right-context-v2.jpg": {
+      "sha256": "dd3c0ffbf3a3553c48460c5c3d986d2905b546221269aeeb9c7f6906e32dd2bc",
+      "bytes": 518159
+    },
+    "zephaniah-c002-v001-003-right-context-v2.jpg": {
+      "sha256": "556009b87866fdd356afa947594206d81fe09c25e9239cacb387206c42e1ccc8",
+      "bytes": 570554
+    },
+    "zephaniah-c002-v004-007-right-context-v1.jpg": {
+      "sha256": "81674a63fbf69c5ea57fbf2f9f7b6398ddbe0b738d436b3a93fc1cf98eb1ed91",
+      "bytes": 615965
+    },
+    "zephaniah-c002-v008-010-right-context-v1.jpg": {
+      "sha256": "dbed84ea46ea36cae3ecc556a28dccddd9d5f8923f3d6eda5128aa257711a1d2",
+      "bytes": 604021
+    },
+    "zephaniah-c002-v011-012-right-context-v1.jpg": {
+      "sha256": "d022cb92ad9920ff56ac4a6233ff155911bec4fbe14acdf3355823ca71e46eb3",
+      "bytes": 579654
+    },
+    "zephaniah-c002-v013-015-right-context-v1.jpg": {
+      "sha256": "9e29c7e712e333bb907750fe777e12c033839801b99cd7cbe44ad885dd8f222b",
+      "bytes": 845611
+    },
+    "zephaniah-c003-v001-004-right-context-v1.jpg": {
+      "sha256": "3aa2081f46916d7898641e134002a258a43d1f3f5dcf366c6ae62c89228d0da0",
+      "bytes": 456278
+    },
+    "zephaniah-c003-v005-007-right-context-v1.jpg": {
+      "sha256": "fe1b78171ee65255c0fef056c1273d676caf5058892e6d29fa608b8a0ae84593",
+      "bytes": 524223
+    },
+    "zephaniah-c003-v008-008-right-context-v1.jpg": {
+      "sha256": "27dd86ac5d17aca1c19bb5ac732192b80477ba05e0edc6cbb4d5e06101a2b273",
+      "bytes": 568676
+    },
+    "zephaniah-c003-v009-010-right-context-v1.jpg": {
+      "sha256": "e4a1d7e74d48c1ec4a759ffe83c56e45cb7dfc2edb22ea99e5561b65d6495f65",
+      "bytes": 482936
+    },
+    "zephaniah-c003-v011-013-right-context-v1.jpg": {
+      "sha256": "34fa668055157abab7ed580bb0acc7043718d5b1d835fd1d59c98140a4dccecd",
+      "bytes": 588672
+    },
+    "zephaniah-c003-v014-015-right-context-v1.jpg": {
+      "sha256": "e3ee1f49b430cfdb58d739b59bb85761ad4d674b04f74bead9ae7eb00411b9e6",
+      "bytes": 593209
+    },
+    "zephaniah-c003-v016-017-right-context-v1.jpg": {
+      "sha256": "bd7b09dfa5fb3661cefd707083df9b058bedfaaedde326e9388a434a5e1f5e7e",
+      "bytes": 517276
+    },
+    "zephaniah-c003-v018-019-right-context-v1.jpg": {
+      "sha256": "3a22d7f292ddf218716ea65c2ffe5b0f555a22afb82d6765b62d5abb4816fa7c",
+      "bytes": 554640
+    },
+    "zephaniah-c003-v020-020-right-context-v2.jpg": {
+      "sha256": "2d84dbb35ba34d462ebec504e1e2d09933b0a64f15c29780deb0f4350153abcb",
+      "bytes": 627833
+    },
+    "haggai-c001-v001-002-right-context-v1.jpg": {
+      "sha256": "9a23555ae8951554c6077792d969e1649a4a17222abc94eca29a96a2322738bc",
+      "bytes": 598012
+    },
+    "haggai-c001-v003-004-right-context-v1.jpg": {
+      "sha256": "1f6b61729a06e1db3bbd9dc3f076b9f887a9cccabbd3e37cd598daa5f72ea184",
+      "bytes": 558162
+    },
+    "haggai-c001-v005-006-right-context-v1.jpg": {
+      "sha256": "84dbcf778a74aa15bc3ef23cc2913bf830f15bac8802c930116fb3d714bd93ad",
+      "bytes": 577288
+    },
+    "haggai-c001-v007-008-right-context-v1.jpg": {
+      "sha256": "46981286f99459a0e97d9824b6bb88a566f7b65aca6e41d52110d2d250cd4987",
+      "bytes": 534504
+    },
+    "haggai-c001-v009-011-right-context-v1.jpg": {
+      "sha256": "ce8f103a4ce3880f62fd9db5d14ce7b1ee8dbd25043886286e2ce02479c42dbd",
+      "bytes": 675532
+    },
+    "haggai-c001-v012-013-right-context-v1.jpg": {
+      "sha256": "7dfc5a26b7bee46cde0ad9b7a209ef77d3abdab12485e4c927848ae66003dfc7",
+      "bytes": 530280
+    },
+    "haggai-c001-v014-015-right-context-v1.jpg": {
+      "sha256": "a32937fc73f402b7370d06f2e51638423f4c46047cd82b55796c174917f383af",
+      "bytes": 584708
+    },
+    "haggai-c002-v001-003-right-context-v1.jpg": {
+      "sha256": "cf31ad7ea71bb268e450b40cff2e47682b0bf95a95eb19fb5ec1fce2f5122005",
+      "bytes": 583625
+    },
+    "haggai-c002-v004-005-right-context-v1.jpg": {
+      "sha256": "5baf61f67c42da4c37fc5ce6c1969879669bb9409defa20047940b741d667e79",
+      "bytes": 530591
+    },
+    "haggai-c002-v006-009-right-context-v1.jpg": {
+      "sha256": "cbd017f65f6aa363b3ee01325783b26328a27e68efd3f3d0c64050d9344126a1",
+      "bytes": 540636
+    },
+    "haggai-c002-v010-012-right-context-v1.jpg": {
+      "sha256": "dd7701b8ce836572c66775a23337a2d657f15127862d2d5a01bf51257865ad85",
+      "bytes": 548094
+    },
+    "haggai-c002-v013-014-right-context-v1.jpg": {
+      "sha256": "50038a9e4eb1e34f0498af3e76b48923e8e184df7b6df6755f809b23f2f2a415",
+      "bytes": 549426
+    },
+    "haggai-c002-v015-017-right-context-v1.jpg": {
+      "sha256": "65160463d48157b9e1b52e33d39ee9536779912648ac14ab122ec42cbf0a48f4",
+      "bytes": 676319
+    },
+    "haggai-c002-v018-019-right-context-v1.jpg": {
+      "sha256": "59e4817b75a34ea8fa16d4d98201d15e20cad3120923d88cbc32f2c030184c38",
+      "bytes": 648996
+    },
+    "haggai-c002-v020-022-right-context-v1.jpg": {
+      "sha256": "dde2f8ee08f26eeb16606d783c404802bb6fb392fc3f250e86f1156f31930b4c",
+      "bytes": 634791
+    },
+    "haggai-c002-v023-023-right-context-v1.jpg": {
+      "sha256": "cbde04f974f939a474f42332de6e1395bcaf634fb69a8994c28c8673adc30c20",
+      "bytes": 534520
+    },
+    "zechariah-c001-v001-003-right-context-v1.jpg": {
+      "sha256": "a0d66c12d3cb1a495cfc93080bdc3d1047773c653f1f895661569817f0995681",
+      "bytes": 457470
+    },
+    "zechariah-c001-v004-006-right-context-v1.jpg": {
+      "sha256": "b35a919860da0f716ae6b531722e1bbf18829280e5ceaf5f89d5f5bfd909bc63",
+      "bytes": 557431
+    },
+    "zechariah-c001-v007-008-right-context-v2.jpg": {
+      "sha256": "6e10bf72a2f50af02054759d2410470acb4b818ce2478946ba3bea91f8e84568",
+      "bytes": 668701
+    },
+    "zechariah-c001-v009-011-right-context-v2.jpg": {
+      "sha256": "d4ce460423970ec58cca7436a56c0e4580c3ef1e8c1b0b632dfb1f2161c3cd67",
+      "bytes": 578617
+    },
+    "zechariah-c001-v012-013-right-context-v1.jpg": {
+      "sha256": "8389e75c57a78f804ae83c681e8358ccf3bc879d097466f55cbb2ec6adc8575b",
+      "bytes": 444268
+    },
+    "zechariah-c001-v014-017-right-context-v1.jpg": {
+      "sha256": "fff26225489bfe320191d2adf42bf4cb685c720c4e1d9388656a35448be05f2c",
+      "bytes": 589461
+    },
+    "zechariah-c001-v018-019-right-context-v1.jpg": {
+      "sha256": "1490130bf4e696e1877a20d557cf11b6b3be27b67310c52a77f60141162b7708",
+      "bytes": 634177
+    },
+    "zechariah-c001-v020-021-right-context-v2.jpg": {
+      "sha256": "3dc7510d83477423ed82a96bb333a755b63abc12c4efd81d5e7b623ac6eaba31",
+      "bytes": 625359
+    },
+    "zechariah-c002-v001-002-right-context-v1.jpg": {
+      "sha256": "1ed36ea6f7d15519f3c2ace4c4e39be5037c4d5531f85ee7fce1b67a11a22988",
+      "bytes": 578926
+    },
+    "zechariah-c002-v003-005-right-context-v1.jpg": {
+      "sha256": "5a23545bbe0086dc0d39c1c6e0623b10382985fa9a56968e304e8536777c718b",
+      "bytes": 554219
+    },
+    "zechariah-c002-v006-009-right-context-v1.jpg": {
+      "sha256": "2a0c150fa8603f6b5ad4055557c937149b8e7defde36b26492513e906ab86664",
+      "bytes": 620248
+    },
+    "zechariah-c002-v010-011-right-context-v1.jpg": {
+      "sha256": "f8978fa5ae911b7ad87be935cbd1ce3d4b1050535c316190ee86cdf4b93c8781",
+      "bytes": 564509
+    },
+    "zechariah-c002-v012-013-right-context-v1.jpg": {
+      "sha256": "f7852da833f837d20f234a8d3349746d4b8425234f6c802c934f1c53c4690bd2",
+      "bytes": 452613
+    },
+    "zechariah-c003-v001-003-right-context-v1.jpg": {
+      "sha256": "43a74adac6cfa3e0a885d238e94fed3b9e5de443721b8c736538c3ed66c4d92f",
+      "bytes": 436978
+    },
+    "zechariah-c003-v004-005-right-context-v1.jpg": {
+      "sha256": "bce4a7d2f1ebebb1cf185cf522985019919f226b2af56dd30c7e4ba51e475d02",
+      "bytes": 478414
+    },
+    "zechariah-c003-v006-007-right-context-v1.jpg": {
+      "sha256": "1e65bd1624cb50475f76879ea3307e9865d39a41319bc9009a4bc881b96af773",
+      "bytes": 439445
+    },
+    "zechariah-c003-v008-009-right-context-v1.jpg": {
+      "sha256": "b7de39e50482ea5193967055fc7a939c0d1a7eb25747b7537abe685929827565",
+      "bytes": 449302
+    },
+    "zechariah-c003-v010-010-right-context-v1.jpg": {
+      "sha256": "23b7a5e99fc2ac89c87d3846ea7b22c24426674b382b39c561d21c10a04a0892",
+      "bytes": 715841
+    },
+    "zechariah-c004-v001-003-right-context-v2.jpg": {
+      "sha256": "2e2fea37300962cdb543a380192641e4c3a69cc9ece7919da9ff2765d8380d6b",
+      "bytes": 603702
+    },
+    "zechariah-c004-v004-006-right-context-v1.jpg": {
+      "sha256": "7efebb21e2e0f95cca337a38b69803c31d6f72881aedb73dace5ffca01386344",
+      "bytes": 512946
+    },
+    "zechariah-c004-v007-007-right-context-v1.jpg": {
+      "sha256": "abff6f8ec74f98bea53922d8c5c12b1fedeadb808aa379173411d739f087b737",
+      "bytes": 621069
+    },
+    "zechariah-c004-v008-010-right-context-v1.jpg": {
+      "sha256": "33907bf9d0295b3542b6de45491b440a46d5e2fc97e0184eaf893c2084a012d2",
+      "bytes": 551835
+    },
+    "zechariah-c004-v011-014-right-context-v1.jpg": {
+      "sha256": "e394bac2e071e7123d7ee2767c82746d6bf88b7601550324752a6fa36fd66fdc",
+      "bytes": 597445
+    },
+    "zechariah-c005-v001-002-right-context-v1.jpg": {
+      "sha256": "4377dd3a310f6e003c4807b9708b21d951c116149a1d49ec19fd7df899812f7b",
+      "bytes": 468877
+    },
+    "zechariah-c005-v003-004-right-context-v1.jpg": {
+      "sha256": "eb9feb70fee513684d76d03b36c3995b13f2621e679b2b187009a7b0a7813b2d",
+      "bytes": 606409
+    },
+    "zechariah-c005-v005-008-right-context-v1.jpg": {
+      "sha256": "937582286f915a03e5881fb57bc25128a8cd8e93bd1c33e4a05f041e4a1b32ea",
+      "bytes": 532229
+    },
+    "zechariah-c005-v009-009-right-context-v2.jpg": {
+      "sha256": "fc12c7d0562015b339c5f283c66f15dfd9b45432eff0192626473bd1798f0584",
+      "bytes": 475944
+    },
+    "zechariah-c005-v010-011-right-context-v1.jpg": {
+      "sha256": "1fed7e48297e6ab8ede0f42a32eaf19fa60e3f3dcbcadb9462aae9c086c05d5b",
+      "bytes": 471920
+    },
+    "zechariah-c006-v001-003-right-context-v1.jpg": {
+      "sha256": "0c48a6e4d56f0203cbc257527e9e703f5978ccf685d33b997eeb5c2ee3162bcf",
+      "bytes": 633325
+    },
+    "zechariah-c006-v004-005-right-context-v1.jpg": {
+      "sha256": "3a4857922c9e2dfc389f993993f136e046479efde4358f94fc174a5c87e018ad",
+      "bytes": 639690
+    },
+    "zechariah-c006-v006-008-right-context-v1.jpg": {
+      "sha256": "f9ca79952d484327c3c73b1c73fdb98e146d1de365968b82fe21c0206ecd8c9e",
+      "bytes": 599939
+    },
+    "zechariah-c006-v009-011-right-context-v1.jpg": {
+      "sha256": "c938ac1336808ee680aef6c916df5e2a555ee3d2a73b1e0673775efb57e95051",
+      "bytes": 530015
+    },
+    "zechariah-c006-v012-013-right-context-v1.jpg": {
+      "sha256": "a933ae94de66bdcf6fe91b1a415615e4ff236af2ac9ca0b514e1dd845d7fd21c",
+      "bytes": 487481
+    },
+    "zechariah-c006-v014-015-right-context-v1.jpg": {
+      "sha256": "0c01f3714bbab395fa99fa531570eb0afebcbaf4004e5930bfcb061a35b8de0f",
+      "bytes": 602810
+    },
+    "zechariah-c007-v001-003-right-context-v1.jpg": {
+      "sha256": "8bc35ab6ac6410c5a0a0927c26a0d57dbbcabd6fa5b656ffa6a3514abad14e7f",
+      "bytes": 554375
+    },
+    "zechariah-c007-v004-007-right-context-v1.jpg": {
+      "sha256": "87d3f3f1e837993f71c26cf210ed365be8fd0740d2b04f661017c7c46fcc1a23",
+      "bytes": 561574
+    },
+    "zechariah-c007-v008-010-right-context-v1.jpg": {
+      "sha256": "1cd0205f15ca469f51a646d1d35739afb5360f34313b40c4709ca05449cca4e4",
+      "bytes": 611977
+    },
+    "zechariah-c007-v011-012-right-context-v1.jpg": {
+      "sha256": "7e9a33a1f1a10b1795e894f2c2e1d531185854758c8d87c58b0d1ac5f9e9f5b2",
+      "bytes": 546717
+    },
+    "zechariah-c007-v013-014-right-context-v1.jpg": {
+      "sha256": "171759b5651ea19234b6ee03067f36f42dbaaf9821158e4b8d115e9922243850",
+      "bytes": 694927
+    },
+    "zechariah-c008-v001-003-right-context-v2.jpg": {
+      "sha256": "efb3b0fbc5827da5e5a7c4bac1652e21eaf732fedda35c51717c9bf49b602392",
+      "bytes": 588751
+    },
+    "zechariah-c008-v004-005-right-context-v1.jpg": {
+      "sha256": "7adf04cd687c6f88fe475923f2ab3121d43f7a7020206e6d7ee8db5060473343",
+      "bytes": 595210
+    },
+    "zechariah-c008-v006-008-right-context-v1.jpg": {
+      "sha256": "37e2e9b54304c09049c6b912761fda054ff6688f477414f8a3ce8e5bf3f38824",
+      "bytes": 582711
+    },
+    "zechariah-c008-v009-013-right-context-v1.jpg": {
+      "sha256": "8bbc8307ef048f8b97af7e77948d353be9ab161f0f019495c9fb015ac36b1a56",
+      "bytes": 611816
+    },
+    "zechariah-c008-v014-017-right-context-v1.jpg": {
+      "sha256": "6269b5c335ee7fde2dca787a06661743367602186e5f0368d14f0b4dc89a664f",
+      "bytes": 540027
+    },
+    "zechariah-c008-v018-019-right-context-v2.jpg": {
+      "sha256": "4e7123c2b5b6263d771a8034f1a7a51d2dab021c524514bc3131b889ec0401d4",
+      "bytes": 535556
+    },
+    "zechariah-c008-v020-022-right-context-v2.jpg": {
+      "sha256": "400e31348a2b5f817c4bbc158f80a62be60513f4ce3bc1f156b84456f8aab44d",
+      "bytes": 561341
+    },
+    "zechariah-c008-v023-023-right-context-v1.jpg": {
+      "sha256": "97cf2b986b97a6a832dbf3d35dd172504331d226f109efe2a0b2e78b2b5ab455",
+      "bytes": 633712
+    },
+    "zechariah-c009-v001-004-right-context-v1.jpg": {
+      "sha256": "17dd5b53c77ff8deb1224c8fbb82e9e468f71e2ffc1499b9a6d27be8adedaf37",
+      "bytes": 607360
+    },
+    "zechariah-c009-v005-008-right-context-v2.jpg": {
+      "sha256": "3868e2152bd99c882650653d693b91736d2720b2dcaa22a2a32e13e32970d9b7",
+      "bytes": 648206
+    },
+    "zechariah-c009-v009-009-right-context-v1.jpg": {
+      "sha256": "8da1f1a20f6eaae9b3cc21bfe5a546a6246957ee611a6276ebc3c66b4c900f54",
+      "bytes": 596785
+    },
+    "zechariah-c009-v010-010-right-context-v2.jpg": {
+      "sha256": "5927e3da0fe684a8334375075dee5c2ac2ecf9f2fc613c1245dadd6d2d4d9648",
+      "bytes": 662300
+    },
+    "zechariah-c009-v011-012-right-context-v1.jpg": {
+      "sha256": "2d11ca20aa23d860ae1c74514d5cbaeb231604d5371a4fcdc1ddc4ad930972f9",
+      "bytes": 551057
+    },
+    "zechariah-c009-v013-015-right-context-v1.jpg": {
+      "sha256": "c30572d98fe65aea9901c4fedb7caec7b9dd373069798f96afd4d7668c742c59",
+      "bytes": 603040
+    },
+    "zechariah-c009-v016-017-right-context-v1.jpg": {
+      "sha256": "a8848fd6d5d21d837b94027f1a07980b78b81d8db7bb64957eaa9ae009086148",
+      "bytes": 576774
+    },
+    "zechariah-c010-v001-001-right-context-v1.jpg": {
+      "sha256": "b830def85bcb1ecbfc5177fa08ece52453f8f54fbe1640dd118109ca81850b4c",
+      "bytes": 661961
+    },
+    "zechariah-c010-v002-002-right-context-v1.jpg": {
+      "sha256": "e3ac8dcf9dd7206cf0747754910e81c4d821077b3652699c6e52358cb5181af2",
+      "bytes": 568720
+    },
+    "zechariah-c010-v003-005-right-context-v1.jpg": {
+      "sha256": "0ecf1ae5006179603827e9b32807b3a041f876499f7ce74fddb882353840bf78",
+      "bytes": 590505
+    },
+    "zechariah-c010-v006-007-right-context-v1.jpg": {
+      "sha256": "0e06b930d36f5636ec97563c3a66e34bcb98d86d298b19dc936a4002468a3b5e",
+      "bytes": 585351
+    },
+    "zechariah-c010-v008-010-right-context-v1.jpg": {
+      "sha256": "ae008699c7da253e0ea0e7d4667387c78e730ba6dd4481474bea24fa7a7b6316",
+      "bytes": 680893
+    },
+    "zechariah-c010-v011-012-right-context-v1.jpg": {
+      "sha256": "a462b566e7a95c21d169ecf04ad36b8f8cb92a5b5ffc1288978399c008e79be3",
+      "bytes": 591871
+    },
+    "zechariah-c011-v001-003-right-context-v1.jpg": {
+      "sha256": "fa4b44a197a3a6c07a9ce4ae0be61c7b49b0b06ea708f587516b9d575c64b6d0",
+      "bytes": 693662
+    },
+    "zechariah-c011-v004-006-right-context-v1.jpg": {
+      "sha256": "ec1aaee10a14b258c3c677b9b054fa4cac7b90adde8711a414497ebee72c65c7",
+      "bytes": 603739
+    },
+    "zechariah-c011-v007-007-right-context-v1.jpg": {
+      "sha256": "32b15d4b250fec687ad1d3dfdec7e0d5429a38b931c73685d30c942e9dd6f247",
+      "bytes": 549665
+    },
+    "zechariah-c011-v008-011-right-context-v1.jpg": {
+      "sha256": "b303c10ffc1f291560ba69728db4fbc199dca83e9a501729babdfe69f52c32cb",
+      "bytes": 581773
+    },
+    "zechariah-c011-v012-013-right-context-v1.jpg": {
+      "sha256": "7aec447f9a3d02a9da235600d7f814cff558d38285c460d876917d210a6682f6",
+      "bytes": 517526
+    },
+    "zechariah-c011-v014-014-right-context-v1.jpg": {
+      "sha256": "a27a88ac7c646cb91f3b06177d516ce9abe1a4b57ea57dd7ffc4b8b720351c03",
+      "bytes": 576618
+    },
+    "zechariah-c011-v015-017-right-context-v2.jpg": {
+      "sha256": "99287a15f4f9c6731c8105dd1c60f40fb14355c8ad3b1e3816d2ff7056764be5",
+      "bytes": 664150
+    },
+    "zechariah-c012-v001-003-right-context-v1.jpg": {
+      "sha256": "165bd0ca6c426b54543f92bbbf9ddfb7f5b34bdba8e87c588aecccf09a83652f",
+      "bytes": 685425
+    },
+    "zechariah-c012-v004-006-right-context-v1.jpg": {
+      "sha256": "270b95dcce442c86a354923ac5d97e9234dc848f0cbe408fd115a3519ce324b4",
+      "bytes": 611146
+    },
+    "zechariah-c012-v007-009-right-context-v1.jpg": {
+      "sha256": "5669349c4a2ffddfe79fab093b78bdfc2a2a13eadc77bba6a4bc19ea468f0189",
+      "bytes": 536642
+    },
+    "zechariah-c012-v010-011-right-context-v2.jpg": {
+      "sha256": "8f388bad6658ea1190043fd860e791225582dbe2159c41c43ca9d15eae156827",
+      "bytes": 530583
+    },
+    "zechariah-c012-v012-014-right-context-v1.jpg": {
+      "sha256": "259ce86305668a89404f45852328d21842594b8a2e5abbd057d11407e8cd29c2",
+      "bytes": 608344
+    },
+    "zechariah-c013-v001-001-right-context-v1.jpg": {
+      "sha256": "e6551c22f5d63b6c1d9400497d10d7ab6d4d78808e665279c5570f00d1059883",
+      "bytes": 575021
+    },
+    "zechariah-c013-v002-003-right-context-v1.jpg": {
+      "sha256": "9bbf84e92125feae5bcc2ec092b3092b58cbd4e5e00d940455cfad484f8a49ec",
+      "bytes": 622281
+    },
+    "zechariah-c013-v004-006-right-context-v1.jpg": {
+      "sha256": "2c485944f18b00612222a88d6dc0a505af1659cf47d36acabf52ca29edde8bae",
+      "bytes": 502740
+    },
+    "zechariah-c013-v007-008-right-context-v1.jpg": {
+      "sha256": "0df88a5a9afaba19994c02961c29afdc6f3cb51f1b7f0e61fe0070de36df34c8",
+      "bytes": 670518
+    },
+    "zechariah-c013-v009-009-right-context-v1.jpg": {
+      "sha256": "37754bf0445bbfdb1e106a6591917ab06d1ea3ee2e75c480dbd98aa62931638b",
+      "bytes": 533994
+    },
+    "zechariah-c014-v001-002-right-context-v1.jpg": {
+      "sha256": "90469fdc1645d8650118dc52e90d2cdce29d785a457502c6ba2ee6490d08abae",
+      "bytes": 585306
+    },
+    "zechariah-c014-v003-005-right-context-v1.jpg": {
+      "sha256": "e807e5899fb2cc3f73e7f5687748a273e5931cc2abd35dbfeb40f5ff9d9b7d88",
+      "bytes": 772078
+    },
+    "zechariah-c014-v006-007-right-context-v1.jpg": {
+      "sha256": "6f29dfe65ef33b69e9b80fac662979a8098310db3a5a8cbe276d5b8e8f9efae6",
+      "bytes": 426121
+    },
+    "zechariah-c014-v008-008-right-context-v1.jpg": {
+      "sha256": "c2ad0621b8d20fe69fb0eb41075edc736f044886d881a002ce879a61d8ac4177",
+      "bytes": 706896
+    },
+    "zechariah-c014-v009-011-right-context-v1.jpg": {
+      "sha256": "53a0adb245e1de45aa927d66a59d9aa330aa46664c6a1f44f6aeb8e455d32349",
+      "bytes": 683653
+    },
+    "zechariah-c014-v012-015-right-context-v1.jpg": {
+      "sha256": "4fee2d8cb79298bd1361dd89f29752c7e98a1d2fd66e905e5967c62086ca0caa",
+      "bytes": 615704
+    },
+    "zechariah-c014-v016-016-right-context-v1.jpg": {
+      "sha256": "6502b8d1a128a2b4c7e3302fd009fc37cbbd6367aeac3ce063992bfca29e2ed8",
+      "bytes": 662819
+    },
+    "zechariah-c014-v017-019-right-context-v1.jpg": {
+      "sha256": "5671b2ebb98adf14fcdcf6636462d5b4828b45fe209a26cfcdee24161fe7b31f",
+      "bytes": 562642
+    },
+    "zechariah-c014-v020-021-right-context-v1.jpg": {
+      "sha256": "ee62cf4db3905ea9f18ea0089f0fa0aac469c55838277dfd52500f1fa4c36a14",
+      "bytes": 610236
+    },
+    "malachi-c001-v001-002-right-context-v2.jpg": {
+      "sha256": "9c336108bf5741446b8e72667d40c25f4423ddfbe88c29a261b26aba224fdca3",
+      "bytes": 479211
+    },
+    "malachi-c001-v003-005-right-context-v1.jpg": {
+      "sha256": "ea4c1d685d155c14c6987a7502e9ae4f9619c025fc8fa3fde9fb044722eb78f7",
+      "bytes": 567009
+    },
+    "malachi-c001-v006-007-right-context-v1.jpg": {
+      "sha256": "c19a91c486f3c27770ffa62dd831d0c9e51545c0a9a53fdebd5426597ae016ae",
+      "bytes": 439206
+    },
+    "malachi-c001-v008-010-right-context-v1.jpg": {
+      "sha256": "d22fc64ddd4ca7876843ad7c856ea0e049a0674db0dbbbb3d9425f1d36a71f06",
+      "bytes": 522686
+    },
+    "malachi-c001-v011-011-right-context-v2.jpg": {
+      "sha256": "d97524132bbaa5ee57c4c17eff439c615119a837d30241e6dc90aaf7d742fb4b",
+      "bytes": 540046
+    },
+    "malachi-c001-v012-014-right-context-v1.jpg": {
+      "sha256": "0b234c228107dba52db1c09e0da8b835f97cb7aa47ca4d0f9496baace60b9693",
+      "bytes": 542119
+    },
+    "malachi-c002-v001-003-right-context-v1.jpg": {
+      "sha256": "f0a67bee1e32de539c652486d3dd2882babbfb0f2ee4da12b320e39b53645da4",
+      "bytes": 452345
+    },
+    "malachi-c002-v004-007-right-context-v1.jpg": {
+      "sha256": "9cd8d1a2374a7046feec915401b96cb2ac90d536ab2406eb7bb6c4523f65e508",
+      "bytes": 540866
+    },
+    "malachi-c002-v008-009-right-context-v1.jpg": {
+      "sha256": "86e35f7492d581a58b7d66e74efa2f97b5e24d5c55275830ba7a1eca665e7e81",
+      "bytes": 499239
+    },
+    "malachi-c002-v010-012-right-context-v2.jpg": {
+      "sha256": "c8e83665674c0ef088bce2abce7311cd1b063a3bff372ba80af08e012c5e4664",
+      "bytes": 598078
+    },
+    "malachi-c002-v013-016-right-context-v1.jpg": {
+      "sha256": "8b12c3ec67c4475c8262dad3ce905415d6867ae3fa9b24495aa47a1ab2b01a24",
+      "bytes": 465320
+    },
+    "malachi-c002-v017-017-right-context-v2.jpg": {
+      "sha256": "f937d8a915d503bbf49011ffe04c9d5442a52a9b577d4bea110c8d95b41df0b5",
+      "bytes": 460875
+    },
+    "malachi-c003-v001-001-right-context-v1.jpg": {
+      "sha256": "cb767a04118d1cd74dd8bff2bd7df55ad6a6d5a2db1cbbfeb57a7e43ecbffdf5",
+      "bytes": 514655
+    },
+    "malachi-c003-v002-003-right-context-v2.jpg": {
+      "sha256": "eb6c2c1fde459efd81fd24ce37489df0fae4454b9e5e25da8667e6d51a933466",
+      "bytes": 540791
+    },
+    "malachi-c003-v004-005-right-context-v1.jpg": {
+      "sha256": "5827fd264dc4d2ff78ee5d8df35992170da933ac475d698a53b7f7773314a71f",
+      "bytes": 579766
+    },
+    "malachi-c003-v006-007-right-context-v1.jpg": {
+      "sha256": "522021bf1185b6390e84d7ca792dc12666f76509835b2e166ffbd581b0298720",
+      "bytes": 453007
+    },
+    "malachi-c003-v008-009-right-context-v1.jpg": {
+      "sha256": "e6877cee1d242eb6e0ba01d6acf168d4c1149c3b7f7002b1fe687c6f43538c00",
+      "bytes": 503422
+    },
+    "malachi-c003-v010-010-right-context-v1.jpg": {
+      "sha256": "74872c86b1a300f91a08144cbc16dcb7186c1d7046bd162ec2bf9fa7299d53a0",
+      "bytes": 494080
+    },
+    "malachi-c003-v011-012-right-context-v2.jpg": {
+      "sha256": "61b4c027371887a22563a1a38d4a46433c108f99ee5ea2f7dcc5bf4f1eefb3a2",
+      "bytes": 558167
+    },
+    "malachi-c003-v013-015-right-context-v1.jpg": {
+      "sha256": "da94d56ab90a028a9191556887468a25f0021d84b422ccca379fe3c3d1690b47",
+      "bytes": 525113
+    },
+    "malachi-c003-v016-016-right-context-v2.jpg": {
+      "sha256": "84e15eabf978a8c29a4fef592c78b95ef9648e8393c21c8480a8fd055d78f010",
+      "bytes": 530913
+    },
+    "malachi-c003-v017-018-right-context-v1.jpg": {
+      "sha256": "67d4555c6fe98f1edbd5508a54f071c54153ab24abe233e9e7ca9537b62de0cc",
+      "bytes": 502260
+    },
+    "malachi-c004-v001-001-right-context-v1.jpg": {
+      "sha256": "9acd5755122ac2dbc75d50bc2f9f572ac304e0904ce37aa99e7641ce171885ec",
+      "bytes": 492292
+    },
+    "malachi-c004-v002-003-right-context-v1.jpg": {
+      "sha256": "281e3c987e653aea027c6f1213948fce544fa9074d0799ba4eb840f5ade01934",
+      "bytes": 637765
+    },
+    "malachi-c004-v004-004-right-context-v1.jpg": {
+      "sha256": "d26cc5e1f2847210248c457dbdfc536aba6b02b85e923279a0c6acc08d5eccaa",
+      "bytes": 515875
+    },
+    "malachi-c004-v005-006-right-context-v1.jpg": {
+      "sha256": "1853cd5831f73396f6f12ff093504f93b10d4251c97701978434927ea0ced8e1",
+      "bytes": 597836
     }
   }
 }

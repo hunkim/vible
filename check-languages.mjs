@@ -18,7 +18,7 @@ assert.throws(()=>applyTranslation(base,fixture('ja'),'en'),/language mismatch/)
 const root=await fs.mkdtemp(path.join(os.tmpdir(),'vible-language-tests-'));
 try{
  await fs.mkdir(path.join(root,'data'),{recursive:true});await fs.writeFile(path.join(root,'data/john.json'),JSON.stringify(base));
- for(const name of ['asset-hosting.json','languages.js','bible-books.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','proverbs-books.json','songofsongs-books.json','1chronicles-books.json','2chronicles-books.json','ezra-books.json','nehemiah-books.json','esther-books.json','job-books.json','ecclesiastes-books.json','daniel-books.json','jonah-books.json','jeremiah-books.json','lamentations-books.json','ezekiel-books.json','hosea-books.json','isaiah-books.json','historical-books.json','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','1chronicles-catalog.js','2chronicles-catalog.js','ezra-catalog.js','nehemiah-catalog.js','esther-catalog.js','job-catalog.js','ecclesiastes-catalog.js','daniel-catalog.js','jonah-catalog.js','jeremiah-catalog.js','lamentations-catalog.js','ezekiel-catalog.js','hosea-catalog.js','isaiah-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
+ for(const name of ['asset-hosting.json','languages.js','bible-books.js','epistles-catalog.js','pentateuch-catalog.js','epistles-books.json','pentateuch-books.json','psalms-books.json','proverbs-books.json','songofsongs-books.json','1chronicles-books.json','2chronicles-books.json','ezra-books.json','nehemiah-books.json','esther-books.json','job-books.json','ecclesiastes-books.json','daniel-books.json','jonah-books.json','jeremiah-books.json','lamentations-books.json','ezekiel-books.json','hosea-books.json','isaiah-books.json','minorprophets-books.json','historical-books.json','psalms-catalog.js','proverbs-catalog.js','songofsongs-catalog.js','1chronicles-catalog.js','2chronicles-catalog.js','ezra-catalog.js','nehemiah-catalog.js','esther-catalog.js','job-catalog.js','ecclesiastes-catalog.js','daniel-catalog.js','jonah-catalog.js','jeremiah-catalog.js','lamentations-catalog.js','ezekiel-catalog.js','hosea-catalog.js','isaiah-catalog.js','minorprophets-catalog.js','historical-catalog.js','share-data.mjs','release-data.mjs','partial-release.json'])await fs.copyFile(new URL(name,import.meta.url),path.join(root,name));
  await fs.writeFile(path.join(root,'package.json'),JSON.stringify({type:'module'}));
  const {selection,shareParams}=await import(pathToFileURL(path.join(root,'share-data.mjs')));
  assert.throws(()=>selection(shareParams(new URL('https://vible.now/share/john/1/1?lang=en'))),/not available/);
@@ -47,13 +47,13 @@ assert.throws(()=>actualSelection(new URLSearchParams({book:'john',chapter:'5',v
 console.log('All catalogued real translations, translation attribution, combined verse sharing and modern omissions verified.');
 
 for(const lang of ['en','ja','zh']){
- assert.equal(actualCatalog[lang].books.length,56);
+ assert.equal(actualCatalog[lang].books.length,66);
  const closing=actualSelection(new URLSearchParams({book:'leviticus',chapter:'27',verse:'34',lang}));assert.equal(closing.lang,lang);assert(closing.text.trim());
  const psalm=actualSelection(new URLSearchParams({book:'psalms',chapter:'50',verse:'15',lang}));assert.equal(psalm.lang,lang);assert(psalm.text.trim());
 }
 const greeting=actualSelection(new URLSearchParams({book:'3john',chapter:'1',verse:'15',lang:'en'}));assert.equal(greeting.reference,'3 John 1:14–15');assert.match(greeting.text,/Peace to you/);
 const jpRange=actualSelection(new URLSearchParams({book:'numbers',chapter:'15',verse:'5',lang:'ja'}));assert.equal(jpRange.reference,'民数記 15:4–5');assert(jpRange.text.trim());
-console.log('All 168 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
+console.log('All 198 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
 
 for(const lang of ['ko','en','ja','zh']){const p=actualSelection(new URLSearchParams({book:'proverbs',chapter:'31',verse:'31',lang}));assert.equal(p.lang,lang);assert(p.text.trim());}
 const proverbBridge=actualSelection(new URLSearchParams({book:'proverbs',chapter:'26',verse:'19',lang:'zh'}));assert.equal(proverbBridge.reference,'箴言 26:18–19');assert(proverbBridge.text.trim());
@@ -176,3 +176,51 @@ for(const [lang,name] of Object.entries(isaiah.names)){
 }
 for(const [chapter,verse,pattern] of [[7,9,/만일 너희가 믿지 아니하면/],[30,2,/애굽으로 내려갔으되/],[48,2,/거룩한 성 백성이라/]]){const ko=actualSelection(new URLSearchParams({book:'isaiah',chapter:String(chapter),verse:String(verse)}));assert.match(ko.text,pattern);assert.doesNotMatch(ko.text,/같음/);}
 console.log('Isaiah: four-language chapter-final verses for all 66 chapters, Hebrew/English boundary verses (8:22–9:2, 63:19–64:1), shared 9:1–2, KRV 7:8–9, 30:1–2 and 48:1–2, Japanese and OpenCCB combined verses and attribution verified.');
+// Joel–Malachi: KRV, BSB, the 1955 Colloquial and OpenCCB all follow the English chapter and verse boundaries where the Hebrew numbering differs
+// (Joel 2:28–32 = Hebrew 3:1–5 and 3:1–21 = 4:1–21; Micah 5:1 = 4:14; Nahum 1:15 = 2:1; Zechariah 1:18–21 = 2:1–4; Malachi 4:1–6 = 3:19–24),
+// so no verse is moved. OpenCCB prints Zephaniah 2:1–2 and 2:8–9 as combined verses; no other edition combines or omits a verse in these books.
+const minorProphets={
+ joel:{names:{ko:'요엘',en:'Joel',ja:'ヨエル書',zh:'约珥书'},counts:[20,32,21],cross:[2,32,3,1],
+  boundaries:[[2,28,{ko:/내 신을 만민에게 부어/,en:/pour out My Spirit/,ja:/わが霊をすべての肉なる者に注ぐ/,zh:/将我的灵浇灌/}],[2,32,{ko:/여호와의 이름을 부르는 자/,en:/calls on the name of the LORD/,ja:/主の名を呼ぶ者は救われる/,zh:/求告耶和华之名/}],[3,1,{ko:/사로잡힌 자를 돌아오게/,en:/restore Judah and Jerusalem/,ja:/ユダとエルサレムとの幸福/,zh:/被掳的人返乡/}],[3,21,{ko:/시온에 거함/,en:/dwells in Zion/,ja:/シオンに住まわれる/,zh:/住在锡安/}]]},
+ amos:{names:{ko:'아모스',en:'Amos',ja:'アモス書',zh:'阿摩司书'},counts:[15,16,15,13,27,14,17,14,15],cross:[7,9,7,10],
+  boundaries:[[5,24,{ko:/공법을 물 같이/,en:/justice roll on like a river/,ja:/公道を水のように/,zh:/公正如江河/}],[7,8,{ko:/다림줄/,en:/plumb line/,ja:/測りなわ/,zh:/准绳/}]]},
+ obadiah:{names:{ko:'오바댜',en:'Obadiah',ja:'オバデヤ書',zh:'俄巴底亚书'},counts:[21],
+  boundaries:[[1,21,{ko:/나라가 여호와께 속하리라/,en:/kingdom will belong to the LORD/,ja:/王国は主のものとなる/,zh:/耶和华必做王掌权/}]]},
+ micah:{names:{ko:'미가',en:'Micah',ja:'ミカ書',zh:'弥迦书'},counts:[16,13,12,13,15,16,20],cross:[4,13,5,1],
+  boundaries:[[4,13,{ko:/딸 시온이여 일어나서 칠지어다/,en:/Rise and thresh/,ja:/立って打ちこなせ/,zh:/起来打谷/}],[5,1,{ko:/딸 군대여/,en:/daughter of troops/,ja:/壁でとりまかれている/,zh:/调集军队/}],[5,2,{ko:/베들레헴 에브라다/,en:/Bethlehem Ephrathah/,ja:/ベツレヘム・エフラタ/,zh:/伯利恒/}],[6,8,{ko:/겸손히 네 하나님과 함께 행하는 것/,en:/walk humbly with your God/,ja:/へりくだってあなたの神と共に歩む/,zh:/谦卑地与你们的上帝同行/}]]},
+ nahum:{names:{ko:'나훔',en:'Nahum',ja:'ナホム書',zh:'那鸿书'},counts:[15,13,19],cross:[1,15,2,1],
+  boundaries:[[1,15,{ko:/화평을 전하는 자의 발/,en:/brings good news/,ja:/良きおとずれを伝える者の足/,zh:/传喜讯/}],[2,1,{ko:/파괴하는 자가/,en:/One who scatters/,ja:/撃ち破る者/,zh:/攻击者/}]]},
+ habakkuk:{names:{ko:'하박국',en:'Habakkuk',ja:'ハバクク書',zh:'哈巴谷书'},counts:[17,20,19],cross:[2,20,3,1],
+  boundaries:[[2,4,{ko:/의인은 믿음으로 말미암아 살리라/,en:/righteous will live by faith/,ja:/義人はその信仰によって生きる/,zh:/义人必靠信心而活/}]]},
+ zephaniah:{names:{ko:'스바냐',en:'Zephaniah',ja:'ゼファニヤ書',zh:'西番雅书'},counts:[18,15,20],cross:[2,15,3,1],bridges:{zh:[[2,1,2],[2,8,9]]},
+  boundaries:[[3,17,{ko:/기쁨을 이기지 못하여/,en:/rejoice over you/,ja:/喜び楽しみ/,zh:/欢然歌唱/}]]},
+ haggai:{names:{ko:'학개',en:'Haggai',ja:'ハガイ書',zh:'哈该书'},counts:[15,23],cross:[1,15,2,1],
+  boundaries:[[2,23,{ko:/스룹바벨/,en:/Zerubbabel/,ja:/ゼルバベル/,zh:/所罗巴伯/}]]},
+ zechariah:{names:{ko:'스가랴',en:'Zechariah',ja:'ゼカリヤ書',zh:'撒迦利亚书'},counts:[21,13,10,14,11,15,14,23,17,12,17,14,9,21],cross:[1,21,2,1],
+  boundaries:[[1,18,{ko:/네 뿔/,en:/four horns/,ja:/四つの角/,zh:/四个角/}],[1,21,{ko:/공장들/,en:/craftsmen/,ja:/四人の者/,zh:/工匠/}],[2,1,{ko:/척량줄/,en:/measuring line/,ja:/測りなわ/,zh:/准绳/}],[4,6,{ko:/나의 신으로 되느니라/,en:/by My Spirit/,ja:/わたしの霊による/,zh:/乃靠我的灵/}],[9,9,{ko:/나귀/,en:/donkey/,ja:/ろば/,zh:/驴/}]]},
+ malachi:{names:{ko:'말라기',en:'Malachi',ja:'マラキ書',zh:'玛拉基书'},counts:[14,17,18,6],cross:[3,18,4,1],
+  boundaries:[[3,18,{ko:/의인과 악인/,en:/righteous and the wicked/,ja:/義人と悪人/,zh:/义人与恶人/}],[4,1,{ko:/풀무불 같은 날/,en:/burning like a furnace/,ja:/炉のように燃える日/,zh:/烧红的火炉/}],[4,6,{ko:/아비의 마음을 자녀에게로/,en:/hearts of the fathers/,ja:/父の心をその子供たち/,zh:/父亲的心转向儿女/}]]}};
+for(const [book,{names,counts,boundaries,cross,bridges={}}] of Object.entries(minorProphets))for(const [lang,name] of Object.entries(names)){
+ if(lang!=='ko')assert(actualCatalog[lang].books.includes(book),`${lang} ${book}`);
+ counts.forEach((count,index)=>{
+  const chapter=index+1,last=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
+  assert.throws(()=>actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count+1),lang})));
+ });
+ for(const [chapter,verse,pattern] of boundaries)assert.match(actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} ${book} ${chapter}:${verse}`);
+ if(cross){
+  const [chapter,verse,endChapter,endVerse]=cross,shared=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),endChapter:String(endChapter),endVerse:String(endVerse),lang}));
+  assert.equal(shared.lang,lang);assert.equal(shared.reference,chapter===endChapter?`${name} ${chapter}:${verse}–${endVerse}`:`${name} ${chapter}:${verse}–${endChapter}:${endVerse}`);assert.equal(shared.verses.length,2);assert(shared.text.trim());
+  for(const [c,v,p] of boundaries)if((c===chapter&&v===verse)||(c===endChapter&&v===endVerse))assert.match(shared.text,p[lang],`${lang} ${book} shared ${c}:${v}`);
+  if(lang!=='ko')assert(shared.attribution&&shareHTML(shared).includes(shared.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} ${book} attribution`);
+ }
+ const bridged=new Set((bridges[lang]||[]).map(([c,f])=>`${c}:${f}`));
+ for(const [chapter,first,end] of Object.values(bridges).flat())for(const verse of [first,end]){
+  const picked=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang}));assert(picked.text.trim());assert.equal(picked.verses.length,1);
+  assert.equal(picked.reference,bridged.has(`${chapter}:${first}`)?`${name} ${chapter}:${first}–${end}`:`${name} ${chapter}:${verse}`,`${lang} ${book} ${chapter}:${verse}`);
+ }
+}
+const zepRange=actualSelection(new URLSearchParams({book:'zephaniah',chapter:'2',verse:'1',endChapter:'2',endVerse:'3',lang:'zh'}));assert.equal(zepRange.reference,'西番雅书 2:1–3');assert.equal(zepRange.verses.length,2);assert.match(zepRange.text,/聚集/);assert.match(zepRange.text,/谦卑/);
+console.log('Joel–Malachi: four-language chapter-final verses for all 10 books, Hebrew/English boundary verses (Joel 2:28–3:1, Micah 4:13–5:2, Nahum 1:15–2:1, Zechariah 1:18–2:1, Malachi 3:18–4:6), cross-chapter shared ranges, OpenCCB Zephaniah 2:1–2 and 2:8–9 and attribution verified.');
+const zepCross=actualSelection(new URLSearchParams({book:'zephaniah',chapter:'1',verse:'18',endChapter:'2',endVerse:'1',lang:'zh'}));assert.equal(zepCross.reference,'西番雅书 1:18–2:2');assert.equal(zepCross.verses.length,2);
+for(const lang of ['ko','en','ja'])assert.equal(actualSelection(new URLSearchParams({book:'zephaniah',chapter:'1',verse:'18',endChapter:'2',endVerse:'1',lang})).verses.length,2);
+for(const book of Object.keys(minorProphets))for(const lang of ['ko','en','ja','zh'])assert.doesNotMatch(JSON.stringify(actualSelection(new URLSearchParams({book,chapter:'1',verse:'1',lang}))),/절과 같음/);

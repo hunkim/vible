@@ -1,0 +1,465 @@
+{
+  "approvedFiles": {
+    "1": {
+      "image": "amos-c001-v001-002-right-context-v1.jpg",
+      "sha256": "717c5268b3e075050e80c9b958e3cf3b13c5384099e60636fbe8d082b03de1f8",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.563309+00:00"
+    },
+    "2": {
+      "image": "amos-c001-v003-005-right-context-v1.jpg",
+      "sha256": "81b3cdd3c12f9b44b86383efed81671a92dbef2b3a4391cb1e068db9e3c44f8d",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.563891+00:00"
+    },
+    "3": {
+      "image": "amos-c001-v006-008-right-context-v1.jpg",
+      "sha256": "939553b04f0f51d87634eebaa8596e5ce67ea83f7868fee222283e02060551c0",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.564180+00:00"
+    },
+    "4": {
+      "image": "amos-c001-v009-010-right-context-v1.jpg",
+      "sha256": "e5693f6bad2e6da07d031e693ddf6d099aecdeaa7753ad1fa9c57b7aafe4bb92",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.564494+00:00"
+    },
+    "5": {
+      "image": "amos-c001-v011-012-right-context-v1.jpg",
+      "sha256": "477e26c437db0bc0fa19dc6dd041a30651c8f7c46ae7a3304aa417bbc343953f",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.564850+00:00"
+    },
+    "7": {
+      "image": "amos-c002-v001-003-right-context-v1.jpg",
+      "sha256": "430591d8875cd5705428405e4cea4cb7a3c4f6005024188628974b78374a3a65",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.565165+00:00"
+    },
+    "8": {
+      "image": "amos-c002-v004-005-right-context-v1.jpg",
+      "sha256": "a4cc6ba7869dfb22d41e4eaca0b1268fd243161ac005544fc1a89eec911bc921",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.565427+00:00"
+    },
+    "10": {
+      "image": "amos-c002-v008-008-right-context-v1.jpg",
+      "sha256": "dbcfbef6ac0fdecc2f1c0f458da5f77b161b49839ff4e7a5e223306db892d44f",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.565968+00:00"
+    },
+    "11": {
+      "image": "amos-c002-v009-012-right-context-v1.jpg",
+      "sha256": "24fd7a00546e79329b3296cfea3fb7358114fbc96e49d5fab2357cf73dead7b2",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.566347+00:00"
+    },
+    "12": {
+      "image": "amos-c002-v013-016-right-context-v1.jpg",
+      "sha256": "a9c176e2a6ba88725c7dc33539f8313eb5aa4fda3884f345f21005700717507d",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.566764+00:00"
+    },
+    "13": {
+      "image": "amos-c003-v001-002-right-context-v1.jpg",
+      "sha256": "da4092628f040e738fdbebb1ee138a399ea4106b290b505f4fa86c043a44a950",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.567069+00:00"
+    },
+    "14": {
+      "image": "amos-c003-v003-006-right-context-v1.jpg",
+      "sha256": "744d944768a4c9e850039f2d13e06404781b74a02ef8c840f6cc40fda7f52a48",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.567379+00:00"
+    },
+    "15": {
+      "image": "amos-c003-v007-008-right-context-v1.jpg",
+      "sha256": "5c65fdee24d78e9435181d9a11abe1dc6dd924d8adbd1fe368e58c5064f4e29b",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.567628+00:00"
+    },
+    "17": {
+      "image": "amos-c003-v013-015-right-context-v1.jpg",
+      "sha256": "325e91f6c3ba5ac319f91cd2bf8ee84b4e86ebc1285d8b782ac6121e64470f05",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.567932+00:00"
+    },
+    "18": {
+      "image": "amos-c004-v001-003-right-context-v1.jpg",
+      "sha256": "df624f64cc658b59fd5cef983a3a127686d0ae6ba66b149e9a58af698bf85b3b",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.568233+00:00"
+    },
+    "19": {
+      "image": "amos-c004-v004-005-right-context-v1.jpg",
+      "sha256": "b38ced2907f3965ed1a23586c94c9aa74cafed1b5be541b17b18d87f417ed05f",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.568557+00:00"
+    },
+    "20": {
+      "image": "amos-c004-v006-006-right-context-v1.jpg",
+      "sha256": "44fccfe5a5cc4953964fd1520e7faa7e05800727aa1869cf32308ef109fae8c7",
+      "finding": "Source context, photographic emotion/materials, visible coherent arms and clean corners checked; ordinary actors, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:25:32.568809+00:00"
+    },
+    "16": {
+      "image": "amos-c003-v009-012-right-context-v1.jpg",
+      "sha256": "11f981dec7b308ce185a3d592658214f4dd4f8f7d7b0fa2e1da8663b32de1acd",
+      "finding": "Hands naturally support recovered household chest; original scene grief and stolen belongings context, corners clean.",
+      "review": "Actual full native plus contact and four-corner review",
+      "reviewedUtc": "2026-10-12T21:27:58.146791+00:00"
+    },
+    "21": {
+      "image": "amos-c004-v007-008-right-context-v1.jpg",
+      "sha256": "686050618f6cfda0f6bee65a78b004681821bf2744244debd7e293954d36993b",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.963308+00:00"
+    },
+    "22": {
+      "image": "amos-c004-v009-011-right-context-v1.jpg",
+      "sha256": "a55173ff8b7f1788237b41d913096a5fa05fc72aedde635b93b105a945eede6e",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.964007+00:00"
+    },
+    "23": {
+      "image": "amos-c004-v012-013-right-context-v1.jpg",
+      "sha256": "386e54608dd4d5373362486c8f5cba99de3f6eea5a92f02ce8e8306da0eadbba",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.964302+00:00"
+    },
+    "25": {
+      "image": "amos-c005-v004-006-right-context-v1.jpg",
+      "sha256": "13a7f5665a174ee1da62592fa5747512fb9c0c7c7b8382603f2338984f1d8c2d",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.964567+00:00"
+    },
+    "26": {
+      "image": "amos-c005-v007-009-right-context-v1.jpg",
+      "sha256": "d4bdf5526bc8d31903d307f4d8176452860d30a32452562cfa48e19dce6fa283",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.964854+00:00"
+    },
+    "27": {
+      "image": "amos-c005-v010-013-right-context-v1.jpg",
+      "sha256": "424c85aa6db7912071ee0f4c8d0f83894aa00226499ef8dca5c4a5efaa1cbb7b",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.965112+00:00"
+    },
+    "28": {
+      "image": "amos-c005-v014-015-right-context-v1.jpg",
+      "sha256": "87a694cdfa3bbeabd8e86c43e820c00ee4ae949156380366706865c4368eb729",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.965410+00:00"
+    },
+    "29": {
+      "image": "amos-c005-v016-017-right-context-v1.jpg",
+      "sha256": "327a7154f5207f19b9ae25b5e8f868c1584037eb2d84255b047e02b86e7644e1",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.965688+00:00"
+    },
+    "30": {
+      "image": "amos-c005-v018-020-right-context-v1.jpg",
+      "sha256": "71d944d3f45b7fbe03871ee5bc00bf86ce17180aac5b88556423f5106906c731",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.965925+00:00"
+    },
+    "31": {
+      "image": "amos-c005-v021-023-right-context-v1.jpg",
+      "sha256": "e68e4000dab8e59392a72fd0b03180f6dce1eb09fb407cefd9f3af1f699115fc",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.966214+00:00"
+    },
+    "32": {
+      "image": "amos-c005-v024-024-right-context-v1.jpg",
+      "sha256": "c74d0026279167a82e0bc0ccc86ec095e3395dcc677b38bd0a38723987c5a137",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.966503+00:00"
+    },
+    "33": {
+      "image": "amos-c005-v025-027-right-context-v1.jpg",
+      "sha256": "cd462b8bf3d15714e78be45778c911ee184dc9077bb3256ba32f0ed55aa2d277",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.966822+00:00"
+    },
+    "34": {
+      "image": "amos-c006-v001-006-right-context-v1.jpg",
+      "sha256": "84caacbec4158c58924f328c885652939237702ec2450835202cabe86ce7473c",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.967149+00:00"
+    },
+    "35": {
+      "image": "amos-c006-v007-008-right-context-v1.jpg",
+      "sha256": "65f4c797814f1d064381524c6545c8c3560d3f181af229456b5fe5c6227533b7",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.967501+00:00"
+    },
+    "36": {
+      "image": "amos-c006-v009-011-right-context-v1.jpg",
+      "sha256": "11d4ee51952beddbca033e4c712bc38d719271df9c34421205fe3b04993ab8b2",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.967878+00:00"
+    },
+    "37": {
+      "image": "amos-c006-v012-014-right-context-v1.jpg",
+      "sha256": "d99dd125c3070dc3fdb9e31dcb876ebac3ebb583cee9c5d1ad2a27de30f3aa4d",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.968292+00:00"
+    },
+    "38": {
+      "image": "amos-c007-v001-003-right-context-v1.jpg",
+      "sha256": "bf957567d7b8a403231cf74b30af2b08b5c9c5771ff7a08b3dcc5dc480e1404f",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.968662+00:00"
+    },
+    "39": {
+      "image": "amos-c007-v004-006-right-context-v1.jpg",
+      "sha256": "e2dece20751cd27c8f844519ac310f8fe5ae39e4f4056d5a6362ee1546ea7bdf",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.968974+00:00"
+    },
+    "40": {
+      "image": "amos-c007-v007-009-right-context-v1.jpg",
+      "sha256": "075112a38662db290826c472f11b93e1a52a270c39aff7a289454569f1879d08",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.969265+00:00"
+    },
+    "41": {
+      "image": "amos-c007-v010-011-right-context-v1.jpg",
+      "sha256": "aa2f6b195fc1511205cce93cc24fa34fb65c70ab4f9149cd400d6bed4bf6d064",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.969495+00:00"
+    },
+    "42": {
+      "image": "amos-c007-v012-013-right-context-v1.jpg",
+      "sha256": "b445a957ebe05b6e31832f0638078544d55ed1f34b0cbcf52a5d7c0102f35494",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.969772+00:00"
+    },
+    "44": {
+      "image": "amos-c007-v016-017-right-context-v1.jpg",
+      "sha256": "b35525cbfb129c80f02096457a5209e77b8855af95c2877982d2dad1d0a9b355",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.970012+00:00"
+    },
+    "45": {
+      "image": "amos-c008-v001-002-right-context-v1.jpg",
+      "sha256": "5e13b277d69b327d3e15b6ced1fb945fddec842323d6ba95e89e2596963daee5",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.970364+00:00"
+    },
+    "46": {
+      "image": "amos-c008-v003-003-right-context-v1.jpg",
+      "sha256": "cbe44cc15f452327f5868936309538f56fd2354823ce3629ff8517f18692c4a8",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.970686+00:00"
+    },
+    "48": {
+      "image": "amos-c008-v007-010-right-context-v1.jpg",
+      "sha256": "3088715e1cddab83b7151bff321e947821f13a4ee8eb45e80f79b368a183742d",
+      "finding": "Original source situation, photographic human emotion and clean corners; no embodied God or literal metaphor monsters, visible hands/props coherent.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:28:36.971105+00:00"
+    },
+    "24": {
+      "image": "amos-c005-v001-003-right-context-v1.jpg",
+      "sha256": "1ee3ea6a384ecbfb54c033106e300b12bafb03f655e82d580694ed60edb25a8d",
+      "finding": "Five natural fingers and coherent connected hands/grips confirmed; source context and clean corners preserved.",
+      "review": "Actual full native, contact and four-corner review",
+      "reviewedUtc": "2026-10-12T21:29:41.412713+00:00"
+    },
+    "47": {
+      "image": "amos-c008-v004-006-right-context-v1.jpg",
+      "sha256": "7931b057054285a7828e9c976beb5e1d4470ef80714da0681915ef58a37f947a",
+      "finding": "Five natural fingers and coherent connected hands/grips confirmed; source context and clean corners preserved.",
+      "review": "Actual full native, contact and four-corner review",
+      "reviewedUtc": "2026-10-12T21:29:41.413498+00:00"
+    },
+    "49": {
+      "image": "amos-c008-v011-012-right-context-v1.jpg",
+      "sha256": "5283926cbe3ea2299a4357293b469b04b64be8acc6874d50dc93b47877c5800b",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.431198+00:00"
+    },
+    "50": {
+      "image": "amos-c008-v013-014-right-context-v1.jpg",
+      "sha256": "c3dd748ec756c60881f23c25c1a639408bd88f419f057f0a199079e5727f5d41",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.431752+00:00"
+    },
+    "52": {
+      "image": "amos-c009-v005-006-right-context-v1.jpg",
+      "sha256": "7b13574a0a3f7d34c38021e4dd485e92e09627806aceb66620b17b354ae9e049",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.432044+00:00"
+    },
+    "53": {
+      "image": "amos-c009-v007-010-right-context-v1.jpg",
+      "sha256": "3c17218f71a6f5e6db48e81fa0fd0b436354daad19e2016be2e9938f130438a4",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.432409+00:00"
+    },
+    "54": {
+      "image": "amos-c009-v011-012-right-context-v1.jpg",
+      "sha256": "88a51a536e0611ac5d9d79571ea5a9175d190b96286066f73a5c2f954f9a9d15",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.432787+00:00"
+    },
+    "55": {
+      "image": "amos-c009-v013-013-right-context-v1.jpg",
+      "sha256": "ce018a06433f3465111d11271e8a8f7548aac3a622fbcd795538e1be0706c4a7",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.433188+00:00"
+    },
+    "56": {
+      "image": "amos-c009-v014-015-right-context-v1.jpg",
+      "sha256": "811d23460e9c8c1ca1d62ccb31257efd27cc38755f3f81e308c5f870c993ca36",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.433517+00:00"
+    },
+    "51": {
+      "image": "amos-c009-v001-004-right-context-v1.jpg",
+      "sha256": "fdf1d8e0ceeb3d16ede9c23abff0fc9522daa609334363b403c56a83c97c7d60",
+      "finding": "Collapsed plain Bethel sanctuary, simple stone shafts and rosette-style decoration seen; no actual Greek pediment/fluting or divine person. Source judgment vision and coherent human figure, clean corners.",
+      "review": "Actual full native, contact and four-corner review",
+      "reviewedUtc": "2026-10-12T21:38:45.971051+00:00"
+    },
+    "9": {
+      "image": "amos-c002-v006-007-right-context-v2.jpg",
+      "sha256": "165a7a47f423c0cbf35e0163703e7443f2220b760684baf4907334e95b6bb71d",
+      "finding": "Actual native and corner review: uniform minted coin stacks replaced by varied rough weighed silver fragments; merchant balance, petitioner hands and worn sandals preserved, corners clean.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T21:44:36.891343+00:00"
+    },
+    "43": {
+      "image": "amos-c007-v014-015-right-context-v2.jpg",
+      "sha256": "30f29b8ce4aeff1a95480ae175b074b43026589960fa756475f6163adcb0593f",
+      "finding": "Actual native and corner review: upper-right white outlined logo removed and natural fig leaves restored; harvesting hands and whole photographed scene preserved.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T21:44:36.965694+00:00"
+    },
+    "6": {
+      "image": "amos-c001-v013-015-right-context-v3.jpg",
+      "sha256": "b97c737e17c1c44b644d9dea0b5ada1d948e5bbd4ff6e412c58cf421fc052b48",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark. Bottom-left bird-outline ghost fully removed in v3; v1 and rejected v2 preserved.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:16.380760+00:00"
+    }
+  },
+  "nativeReviewed": [
+    16,
+    32,
+    24,
+    47,
+    51,
+    9,
+    43,
+    6
+  ],
+  "cornerReviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    16,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    44,
+    45,
+    46,
+    48,
+    24,
+    47,
+    49,
+    50,
+    52,
+    53,
+    54,
+    55,
+    56,
+    51,
+    9,
+    43,
+    6
+  ],
+  "pendingCorrections": {}
+}

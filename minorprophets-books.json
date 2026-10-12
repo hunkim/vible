@@ -1,0 +1,82 @@
+[
+  {
+    "id": "joel",
+    "name": "요엘",
+    "english": "Joel",
+    "code": "JOL",
+    "chapters": 3,
+    "verseCount": 73
+  },
+  {
+    "id": "amos",
+    "name": "아모스",
+    "english": "Amos",
+    "code": "AMO",
+    "chapters": 9,
+    "verseCount": 146
+  },
+  {
+    "id": "obadiah",
+    "name": "오바댜",
+    "english": "Obadiah",
+    "code": "OBA",
+    "chapters": 1,
+    "verseCount": 21
+  },
+  {
+    "id": "micah",
+    "name": "미가",
+    "english": "Micah",
+    "code": "MIC",
+    "chapters": 7,
+    "verseCount": 105
+  },
+  {
+    "id": "nahum",
+    "name": "나훔",
+    "english": "Nahum",
+    "code": "NAM",
+    "chapters": 3,
+    "verseCount": 47
+  },
+  {
+    "id": "habakkuk",
+    "name": "하박국",
+    "english": "Habakkuk",
+    "code": "HAB",
+    "chapters": 3,
+    "verseCount": 56
+  },
+  {
+    "id": "zephaniah",
+    "name": "스바냐",
+    "english": "Zephaniah",
+    "code": "ZEP",
+    "chapters": 3,
+    "verseCount": 53
+  },
+  {
+    "id": "haggai",
+    "name": "학개",
+    "english": "Haggai",
+    "code": "HAG",
+    "chapters": 2,
+    "verseCount": 38
+  },
+  {
+    "id": "zechariah",
+    "name": "스가랴",
+    "english": "Zechariah",
+    "code": "ZEC",
+    "chapters": 14,
+    "verseCount": 211
+  },
+  {
+    "id": "malachi",
+    "name": "말라기",
+    "english": "Malachi",
+    "code": "MAL",
+    "chapters": 4,
+    "verseCount": 55
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "approvedFiles": {
+    "1": {
+      "image": "obadiah-c001-v001-002-right-context-v1.jpg",
+      "sha256": "8718333d1ac32f86f2b7a7514a42469de9c15b598c2509fc10c6a04056ffb7ad",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.501930+00:00"
+    },
+    "2": {
+      "image": "obadiah-c001-v003-004-right-context-v1.jpg",
+      "sha256": "35f12657ec1d5b9abea9b3bb7f663491e19c1f3fead8a73c7a577f1a16d85c03",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.502611+00:00"
+    },
+    "4": {
+      "image": "obadiah-c001-v007-007-right-context-v1.jpg",
+      "sha256": "60409640c209544f78e3e716cd09d747d86e0f5208276d0ec1d38016c527e854",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.502935+00:00"
+    },
+    "5": {
+      "image": "obadiah-c001-v008-009-right-context-v1.jpg",
+      "sha256": "d3a863dd928807af11b57b62e0faef38ccc86152e789f530637203fe20deb98c",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.503233+00:00"
+    },
+    "6": {
+      "image": "obadiah-c001-v010-011-right-context-v1.jpg",
+      "sha256": "ec8b0f2317c83171bf10ace39acc053f993b3ef0fc8c4ba3ecbe79d0cf7ce2d2",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.503561+00:00"
+    },
+    "7": {
+      "image": "obadiah-c001-v012-013-right-context-v1.jpg",
+      "sha256": "7ed50fccc23c43e6fb591962e5d7ef44f881d202f6294db669353cf380e03c18",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.503820+00:00"
+    },
+    "8": {
+      "image": "obadiah-c001-v014-014-right-context-v1.jpg",
+      "sha256": "94b1c7b08db968bd930cc496bfc51b68738e9cca88e654714ad105e4b6f145c7",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.504113+00:00"
+    },
+    "9": {
+      "image": "obadiah-c001-v015-016-right-context-v1.jpg",
+      "sha256": "a2e8f1c50775e9edaf1aa18edf696d62249224499e4d7994df5e993c1887af3d",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.504426+00:00"
+    },
+    "11": {
+      "image": "obadiah-c001-v019-020-right-context-v1.jpg",
+      "sha256": "9af9842f1230d0193c973b46dcabd4a0b961e981406c50d74faf9c2799f5b309",
+      "finding": "Photographic human emotion and physical materials, faithful selected source context, clean corners and coherent visible anatomy; no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner review",
+      "reviewedUtc": "2026-10-12T21:35:37.504802+00:00"
+    },
+    "10": {
+      "image": "obadiah-c001-v017-018-right-context-v1.jpg",
+      "sha256": "d9d5bffcbc6951287fc7e098b1ac9e36736af9c1aae2a48d31cb86e2439bdd30",
+      "finding": "Yeonkyung authorized face retained as ordinary unnamed adult; five natural fingers and bundle grip, no Sung female, no assigned biblical/spouse/parent role; clean corners.",
+      "review": "Actual full native, contact and four-corner review",
+      "reviewedUtc": "2026-10-12T21:38:45.897135+00:00"
+    },
+    "3": {
+      "image": "obadiah-c001-v005-006-right-context-v2.jpg",
+      "sha256": "2b3f4afef6e782799cec83aba6706f452fa48c8ae99c14a21cb077f319f4f5de",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:16.449624+00:00"
+    },
+    "12": {
+      "image": "obadiah-c001-v021-021-right-context-v2.jpg",
+      "sha256": "5702312e6184cd23e605f9303353d9ea9fbc2c4f6a37b66435f9e1c875226c90",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:16.517994+00:00"
+    }
+  },
+  "nativeReviewed": [
+    10,
+    3,
+    12
+  ],
+  "cornerReviewed": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    10,
+    3,
+    12
+  ],
+  "pendingCorrections": {}
+}

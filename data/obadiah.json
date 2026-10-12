@@ -1,0 +1,267 @@
+{
+  "book": "오바댜",
+  "translation": "개역한글",
+  "attribution": "성경전서 개역한글판 © 대한성서공회 1961.",
+  "source": "https://github.com/yuhwan/Bible-krv",
+  "verification": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+  "copyrightSource": "https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5",
+  "chapters": 1,
+  "verseCount": 21,
+  "sceneCount": 12,
+  "scenes": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "first": 1,
+      "last": 2,
+      "title": "에돔에 대한 말씀",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 1,
+          "text": "오바댜의 묵시라 주 여호와께서 에돔에 대하여 이같이 말씀하시니라 우리가 여호와께로 말미암아 소식을 들었나니 곧 사자가 열국 중에 보내심을 받고 이르기를 너희는 일어날지어다 우리가 일어나서 그로 더불어 싸우자 하는 것이니라"
+        },
+        {
+          "verse": 2,
+          "text": "여호와께서 가라사대 내가 너를 열국 중에 미약하게 하였으므로 네가 크게 멸시를 받느니라"
+        }
+      ],
+      "image": "obadiah-c001-v001-002-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:1–2.\nPrimary single moment: Original adult herald arrives near Edomite highland fortress with solemn news, sober distant guards, no prophet identity invented.\nPhysical camera: 40mm road-height.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n1 오바댜의 묵시라 주 여호와께서 에돔에 대하여 이같이 말씀하시니라 우리가 여호와께로 말미암아 소식을 들었나니 곧 사자가 열국 중에 보내심을 받고 이르기를 너희는 일어날지어다 우리가 일어나서 그로 더불어 싸우자 하는 것이니라\n2 여호와께서 가라사대 내가 너를 열국 중에 미약하게 하였으므로 네가 크게 멸시를 받느니라",
+      "referenceImages": []
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "first": 3,
+      "last": 4,
+      "title": "높은 바위의 교만",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 3,
+          "text": "바위 틈에 거하며 높은 곳에 사는 자여 네가 중심에 이르기를 누가 능히 나를 땅에 끌어내리겠느냐 하니 너의 중심의 교만이 너를 속였도다"
+        },
+        {
+          "verse": 4,
+          "text": "네가 독수리처럼 높이 오르며 별 사이에 깃들일지라도 내가 거기서 너를 끌어내리리라 나 여호와가 말하였느니라"
+        }
+      ],
+      "image": "obadiah-c001-v003-004-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:3–4.\nPrimary single moment: Edomite adult elite stands complacently above steep sandstone ravine beside modest rough hilltop fortress, eagle distant, NO Roman Petra facade or dwelling among literal stars.\nPhysical camera: 35mm human-height cliff-edge.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n3 바위 틈에 거하며 높은 곳에 사는 자여 네가 중심에 이르기를 누가 능히 나를 땅에 끌어내리겠느냐 하니 너의 중심의 교만이 너를 속였도다\n4 네가 독수리처럼 높이 오르며 별 사이에 깃들일지라도 내가 거기서 너를 끌어내리리라 나 여호와가 말하였느니라",
+      "referenceImages": []
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "first": 5,
+      "last": 6,
+      "title": "숨긴 보물의 끝",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 5,
+          "text": "혹시 도적이 네게 이르렀으며 강도가 밤중에 네게 이르렀을지라도 그 마음에 만족하게 취하면 그치지 아니하였겠느냐 혹시 포도를 따는 자가 네게 이르렀을지라도 그것을 얼마쯤 남기지 아니하였겠느냐 네가 어찌 그리 망하였는고"
+        },
+        {
+          "verse": 6,
+          "text": "에서가 어찌 그리 수탐되었으며 그 감춘 보물이 어찌 그리 수탐되었는고"
+        }
+      ],
+      "image": "obadiah-c001-v005-006-right-context-v2.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:5–6.\nPrimary single moment: Abandoned Edomite storeroom with opened jars and scattered irregular silver, anxious adult former owner at doorway, no treasure adventure fantasy.\nPhysical camera: 50mm doorway.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n5 혹시 도적이 네게 이르렀으며 강도가 밤중에 네게 이르렀을지라도 그 마음에 만족하게 취하면 그치지 아니하였겠느냐 혹시 포도를 따는 자가 네게 이르렀을지라도 그것을 얼마쯤 남기지 아니하였겠느냐 네가 어찌 그리 망하였는고\n6 에서가 어찌 그리 수탐되었으며 그 감춘 보물이 어찌 그리 수탐되었는고",
+      "referenceImages": []
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "first": 7,
+      "last": 7,
+      "title": "믿었던 동맹의 배신",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 7,
+          "text": "너와 약조한 자들이 다 너를 쫓아 변경에 이르게 하며 너와 화목하던 자들이 너를 속이고 이기며 네 식물을 먹는 자들이 네 아래 함정을 베푸니 네 마음에 지각이 없음이로다"
+        }
+      ],
+      "image": "obadiah-c001-v007-007-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:7–7.\nPrimary single moment: Original Edomite emissary refused entry by former ally's guards at plain border gate, anguish and betrayal, no violence.\nPhysical camera: 65mm tense encounter.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n7 너와 약조한 자들이 다 너를 쫓아 변경에 이르게 하며 너와 화목하던 자들이 너를 속이고 이기며 네 식물을 먹는 자들이 네 아래 함정을 베푸니 네 마음에 지각이 없음이로다",
+      "referenceImages": []
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "first": 8,
+      "last": 9,
+      "title": "드만의 두려움",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 8,
+          "text": "나 여호와가 말하노라 그 날에 내가 에돔에서 지혜 있는 자를 멸하며 에서의 산에서 지각 있는 자를 멸하지 아니하겠느냐"
+        },
+        {
+          "verse": 9,
+          "text": "드만아 네 용사들이 놀랄 것이라 이로 인하여 에서의 산의 거민이 살륙을 당하여 다 멸절되리라"
+        }
+      ],
+      "image": "obadiah-c001-v008-009-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:8–9.\nPrimary single moment: Adult Edomite elder and guard exchange shaken looks in silent highland courtyard, abandoned council stools, no slaughter bodies.\nPhysical camera: 50mm within courtyard.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n8 나 여호와가 말하노라 그 날에 내가 에돔에서 지혜 있는 자를 멸하며 에서의 산에서 지각 있는 자를 멸하지 아니하겠느냐\n9 드만아 네 용사들이 놀랄 것이라 이로 인하여 에서의 산의 거민이 살륙을 당하여 다 멸절되리라",
+      "referenceImages": []
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "first": 10,
+      "last": 11,
+      "title": "형제의 고난을 바라보다",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 10,
+          "text": "네가 네 형제 야곱에게 행한 포학을 인하여 수욕을 입고 영원히 멸절되리라"
+        },
+        {
+          "verse": 11,
+          "text": "네가 멀리 섰던 날 곧 이방인이 그의 재물을 늑탈하며 외국인이 그의 성문에 들어가서 예루살렘을 얻기 위하여 제비뽑던 날에 너도 그들 중 한 사람 같았었느니라"
+        }
+      ],
+      "image": "obadiah-c001-v010-011-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:10–11.\nPrimary single moment: Judean refugees pass damaged Jerusalem gateway while distant Edomite observers remain cold and aloof, condemnation of indifference, no celebration by sympathetic protagonists.\nPhysical camera: 40mm amongst displaced adults.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n10 네가 네 형제 야곱에게 행한 포학을 인하여 수욕을 입고 영원히 멸절되리라\n11 네가 멀리 섰던 날 곧 이방인이 그의 재물을 늑탈하며 외국인이 그의 성문에 들어가서 예루살렘을 얻기 위하여 제비뽑던 날에 너도 그들 중 한 사람 같았었느니라",
+      "referenceImages": []
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "first": 12,
+      "last": 13,
+      "title": "고난에 더한 약탈",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 12,
+          "text": "네가 형제의 날 곧 그 재앙의 날에 방관할 것이 아니며 유다 자손의 패망하는 날에 기뻐할 것이 아니며 그 고난의 날에 네가 입을 크게 벌릴 것이 아니라"
+        },
+        {
+          "verse": 13,
+          "text": "내 백성이 환난을 당하는 날에 네가 그 성문에 들어가지 않을 것이며 환난을 당하는 날에 네가 그 고난을 방관하지 않을 것이며 환난을 당하는 날에 네가 그 재물에 손을 대지 않을 것이며"
+        }
+      ],
+      "image": "obadiah-c001-v012-013-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:12–13.\nPrimary single moment: Edomite adult looter takes an ordinary grain jar from empty damaged Judah household while mournful owner watches helplessly, no graphic threat.\nPhysical camera: 50mm doorway-eye.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n12 네가 형제의 날 곧 그 재앙의 날에 방관할 것이 아니며 유다 자손의 패망하는 날에 기뻐할 것이 아니며 그 고난의 날에 네가 입을 크게 벌릴 것이 아니라\n13 내 백성이 환난을 당하는 날에 네가 그 성문에 들어가지 않을 것이며 환난을 당하는 날에 네가 그 고난을 방관하지 않을 것이며 환난을 당하는 날에 네가 그 재물에 손을 대지 않을 것이며",
+      "referenceImages": []
+    },
+    {
+      "id": 8,
+      "chapter": 1,
+      "first": 14,
+      "last": 14,
+      "title": "도망하는 자를 막지 말라",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 14,
+          "text": "사거리에 서서 그 도망하는 자를 막지 않을 것이며 고난의 날에 그 남은 자를 대적에게 붙이지 않을 것이니라"
+        }
+      ],
+      "image": "obadiah-c001-v014-014-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:14–14.\nPrimary single moment: Edomite guard blocks weary Judean adults at road fork, intimidated distressed faces, no chained children or assault.\nPhysical camera: 50mm road-level human.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n14 사거리에 서서 그 도망하는 자를 막지 않을 것이며 고난의 날에 그 남은 자를 대적에게 붙이지 않을 것이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 9,
+      "chapter": 1,
+      "first": 15,
+      "last": 16,
+      "title": "행한 대로 받을 심판",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 15,
+          "text": "여호와의 만국을 벌할 날이 가까웠나니 너의 행한 대로 너도 받을 것인즉 너의 행한 것이 네 머리로 돌아갈 것이라"
+        },
+        {
+          "verse": 16,
+          "text": "너희가 내 성산에서 마신 것 같이 만국인이 항상 마시리니 곧 마시고 삼켜서 본래 없던 것 같이 되리라"
+        }
+      ],
+      "image": "obadiah-c001-v015-016-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:15–16.\nPrimary single moment: EDITORIAL empty highland fortress court and overturned cup beside former proud official now alone and humbled, moral reckoning, no embodied divine judge.\nPhysical camera: 65mm seated-eye.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n15 여호와의 만국을 벌할 날이 가까웠나니 너의 행한 대로 너도 받을 것인즉 너의 행한 것이 네 머리로 돌아갈 것이라\n16 너희가 내 성산에서 마신 것 같이 만국인이 항상 마시리니 곧 마시고 삼켜서 본래 없던 것 같이 되리라",
+      "referenceImages": []
+    },
+    {
+      "id": 10,
+      "chapter": 1,
+      "first": 17,
+      "last": 18,
+      "title": "시온의 피난처",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 17,
+          "text": "오직 시온 산에서 피할 자가 있으리니 그 산이 거룩할 것이요 야곱 족속은 자기 기업을 누릴 것이며"
+        },
+        {
+          "verse": 18,
+          "text": "야곱 족속은 불이 될 것이요 요셉 족속은 불꽃이 될 것이며 에서 족속은 초개가 될 것이라 그들이 그의 위에 붙어서 그를 사를 것인즉 에서 족속에 남은 자가 없으리니 이는 여호와께서 말씀하셨음이니라"
+        }
+      ],
+      "image": "obadiah-c001-v017-018-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:17–18.\nPrimary single moment: EDITORIAL ordinary Judean adults reach Zion refuge gate, relieved tearful gratitude, no literal people turning into fire or burning enemy.\nPhysical camera: 50mm entering-gate-eye.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n17 오직 시온 산에서 피할 자가 있으리니 그 산이 거룩할 것이요 야곱 족속은 자기 기업을 누릴 것이며\n18 야곱 족속은 불이 될 것이요 요셉 족속은 불꽃이 될 것이며 에서 족속은 초개가 될 것이라 그들이 그의 위에 붙어서 그를 사를 것인즉 에서 족속에 남은 자가 없으리니 이는 여호와께서 말씀하셨음이니라\nInput reference facial identity ONLY: authorized Yeonkyung face for ONE unnamed ordinary adult reaching Zion refuge; no Sung female, named prophet, God, angel, parent or spouse. Ancient opaque linen, preserve actual face, never copy reference setting or clothes.",
+      "referenceImages": [
+        "references/epistles/yeonkyung-authorized.png"
+      ]
+    },
+    {
+      "id": 11,
+      "chapter": 1,
+      "first": 19,
+      "last": 20,
+      "title": "사로잡힌 자의 기업",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 19,
+          "text": "남방 사람은 에서의 산을 얻을 것이며 평지 사람은 블레셋을 얻을 것이요 또 그들이 에브라임의 들과 사마리아의 들을 얻을 것이며 베냐민은 길르앗을 얻을 것이며"
+        },
+        {
+          "verse": 20,
+          "text": "사로잡혔던 이스라엘의 뭇 자손은 가나안 사람에게 속한 땅을 사르밧까지 얻을 것이며 예루살렘의 사로잡혔던 자 곧 스바랏에 있는 자는 남방의 성읍들을 얻을 것이니라"
+        }
+      ],
+      "image": "obadiah-c001-v019-020-right-context-v1.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:19–20.\nPrimary single moment: EDITORIAL returning adult Judeans walk through green southern hills toward humble rebuilt homes, renewed belonging, no modern territorial map.\nPhysical camera: 35mm walking-ground landscape.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n19 남방 사람은 에서의 산을 얻을 것이며 평지 사람은 블레셋을 얻을 것이요 또 그들이 에브라임의 들과 사마리아의 들을 얻을 것이며 베냐민은 길르앗을 얻을 것이며\n20 사로잡혔던 이스라엘의 뭇 자손은 가나안 사람에게 속한 땅을 사르밧까지 얻을 것이며 예루살렘의 사로잡혔던 자 곧 스바랏에 있는 자는 남방의 성읍들을 얻을 것이니라",
+      "referenceImages": []
+    },
+    {
+      "id": 12,
+      "chapter": 1,
+      "first": 21,
+      "last": 21,
+      "title": "나라가 여호와께 속하리라",
+      "kind": "metaphor",
+      "verses": [
+        {
+          "verse": 21,
+          "text": "구원자들이 시온 산에 올라와서 에서의 산을 심판하리니 나라가 여호와께 속하리라"
+        }
+      ],
+      "image": "obadiah-c001-v021-021-right-context-v2.jpg",
+      "source": "https://www.bible.com/ko/bible/88/OBA.1.KRV",
+      "prompt": "Use case: historical-scene. A NEW 16:9 wide actual LIVE-ACTION photographic biblical epic movie frame, as if a human observer is physically present. Bright luminous natural neutral daylight with real shadows, unless scene specifies night. Authentic uneven skin pores, hair, woven linen, weighty chipped limestone, clay, wood and earth; subtle film grain and optical depth, emotionally candid humanity. Ivory, sage, pale blue, terracotta and restrained gold, not orange sepia. No illustration, painting, etched texture, waxy skin, CGI, poster, collage, HDR, fantasy armor, Roman/medieval/modern objects. Reader composition: quieter environment left40%, crucial people/hands right-center above bottom18%. Anatomically coherent two arms attached at shoulders, natural five-finger hands and credible grips. God always UNSEEN: no divine body, face, human likeness or severed hands. No invented angels. Prophetic visions are reverent editorial interpretations, never claims of literal detailed reconstruction. All people modestly clothed; anguish through faces and meaningful absence, no graphic violence or sexual scenes. Entire picture clean including four corners: no letters, captions, logo, signature, watermark, UI, frame or black bars.\nEra/location: Ancient Edom rocky highlands and Judah; Edomite rough limestone houses and plain rectangular gates, NO Nabataean Petra classical carved facades.\nOriginal fictional cast where specified: \nPassage 오바댜 1:21–21.\nPrimary single moment: EDITORIAL final humble adult community ascends Zion road for prayer, immense luminous Jerusalem hillside, gratitude and reverence, NO divine human king.\nPhysical camera: 35mm participant walking-height.\nOriginal Scripture context (DO NOT draw words, do not combine all events):\n21 구원자들이 시온 산에 올라와서 에서의 산을 심판하리니 나라가 여호와께 속하리라",
+      "referenceImages": []
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import {filterBooks,bookPicker} from './book-picker.js';
 import {bookNames} from './languages.js';
+import {bibleBooks} from './bible-books.js';
+import fs from 'node:fs';
 const books=Object.entries(bookNames.ko).map(([id,name])=>({id,name}));
 assert.deepEqual(new Set(filterBooks(books,'요').map(book=>book.id)),new Set(['john','1john','2john','3john','revelation','joel','jonah']));
 for(const lang of ['ko','en','ja','zh'])assert.equal(Object.keys(bookNames[lang]).length,66,`${lang}: all 66 book names are bundled for coming-soon listing`);
@@ -37,7 +39,15 @@ try{
  assert.equal(enter.defaultPrevented,false,'IME confirmation is not intercepted as book selection');
  input.dispatchEvent(new Event('compositionend'));assert.equal(names().length,7);
  input.value='';input.dispatchEvent(new Event('input'));assert.equal(new Set(names()).size,books.length);
- ids.book.options.find(option=>option.value==='jonah').disabled=true;input.value='요나';input.dispatchEvent(new Event('input'));
- const soon=ids['book-results'].querySelectorAll().find(button=>button.textContent==='요나');assert(soon.disabled&&soon.className==='book-soon'&&soon.children[0].textContent==='준비 중'&&!soon.onclick,'Unreleased books are listed as coming soon and cannot be opened');
+ // All 66 books are released; a fixture option (not a real book id) keeps the coming-soon path covered for future catalogs.
+ ids.book.options.push({value:'fixture-unreleased',textContent:'준비중테스트',disabled:true});input.value='준비중테스트';input.dispatchEvent(new Event('input'));
+ const soon=ids['book-results'].querySelectorAll().find(button=>button.textContent==='준비중테스트');assert(soon.disabled&&soon.className==='book-soon'&&soon.children[0].textContent==='준비 중'&&!soon.onclick,'Unreleased books are listed as coming soon and cannot be opened');
+ ids.book.options.pop();
 }finally{Object.assign(globalThis,saved);}
 console.log('Book picker IME: live Korean composition, confirmation key and clearing verified.');
+// All 66 books are released in every language: the bundled picker lists them in canon order and none falls back to coming soon.
+const canon=bibleBooks.map(book=>book.id),released=JSON.parse(fs.readFileSync(new URL('./data/translations/catalog.json',import.meta.url),'utf8'));
+for(const lang of ['ko','en','ja','zh'])assert.deepEqual(new Set(released[lang].books),new Set(canon),`${lang}: every book released`);
+const html=fs.readFileSync(new URL('./index.html',import.meta.url),'utf8'),select=html.slice(html.indexOf('<select id="book"'),html.indexOf('</select>',html.indexOf('<select id="book"')));
+assert.deepEqual([...select.matchAll(/<option value="([^"]+)"/g)].map(match=>match[1]),canon,'Bundled book options follow canon order');
+console.log('Book picker: all 66 books released in four languages and bundled in canon order; coming soon verified with a fixture.');

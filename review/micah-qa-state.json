@@ -1,0 +1,347 @@
+{
+  "approvedFiles": {
+    "1": {
+      "image": "micah-c001-v001-002-right-context-v1.jpg",
+      "sha256": "9d7fb53d38eacb5c627b45fabaa980100ba4d0c80a366f04b8241c4d9c8677ff",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.414070+00:00"
+    },
+    "2": {
+      "image": "micah-c001-v003-004-right-context-v1.jpg",
+      "sha256": "5b73c1985054787bcf8d045ba91ac7b9be87770596a551d17d18e9c61cec12c7",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.414689+00:00"
+    },
+    "3": {
+      "image": "micah-c001-v005-007-right-context-v1.jpg",
+      "sha256": "1a5aa92727efdb656f947d29cd1f261744459423f67813491cc94d3720e64027",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.415053+00:00"
+    },
+    "4": {
+      "image": "micah-c001-v008-009-right-context-v1.jpg",
+      "sha256": "75fb474f894bbe384bcd0633738f9744073c61cee8315f9ee4c3308757c72c55",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.415340+00:00"
+    },
+    "5": {
+      "image": "micah-c001-v010-013-right-context-v1.jpg",
+      "sha256": "6f15cc7e900eb1984ecd5cd578e10e5e4659378ae12a383674fe05a3f3a50957",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.415621+00:00"
+    },
+    "6": {
+      "image": "micah-c001-v014-016-right-context-v1.jpg",
+      "sha256": "e1a9f9853ca12efab71555bf23bac27ecfc6fdde4a8eeee0e73eabf8366ef5b9",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.415909+00:00"
+    },
+    "8": {
+      "image": "micah-c002-v003-005-right-context-v1.jpg",
+      "sha256": "ecfc71f4fcdcabb9b73223fee042dd2d6ed638d48cbd342bae6bc10d690831d5",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.416266+00:00"
+    },
+    "9": {
+      "image": "micah-c002-v006-007-right-context-v1.jpg",
+      "sha256": "0eb69e326b338e8fb82ba984aa5c7a6aa109473a0ca478d821493717f3da3f02",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.416607+00:00"
+    },
+    "12": {
+      "image": "micah-c002-v012-013-right-context-v1.jpg",
+      "sha256": "9a03509df4983f740ae98830486443bbd896d049d9e1729f3e258c15448976e0",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.416914+00:00"
+    },
+    "13": {
+      "image": "micah-c003-v001-004-right-context-v1.jpg",
+      "sha256": "ee4212a4cce5f297bbd89acc617c64e5fc0f2346accaf3c00a825ea44f54ebe8",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.417491+00:00"
+    },
+    "14": {
+      "image": "micah-c003-v005-007-right-context-v1.jpg",
+      "sha256": "95c60c29a9b747886e4b7cdefcee5e46bcad81cad3b20c21a969544616079ceb",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.417930+00:00"
+    },
+    "15": {
+      "image": "micah-c003-v008-008-right-context-v1.jpg",
+      "sha256": "c299b6a4e14808552600d350f2e1d1e4c07c95f278dde280a9e05c27844cd28a",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.418252+00:00"
+    },
+    "17": {
+      "image": "micah-c003-v012-012-right-context-v1.jpg",
+      "sha256": "0a73404e3d0c2f2bae868189594b9b1d000b36be0d2c9181a39714e5ed352176",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.418713+00:00"
+    },
+    "21": {
+      "image": "micah-c004-v006-008-right-context-v1.jpg",
+      "sha256": "47a0f4c9326beb5393b09b9461a386460dc90a25e3cb62885bd9c4f2d7a7ce26",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.419029+00:00"
+    },
+    "22": {
+      "image": "micah-c004-v009-010-right-context-v1.jpg",
+      "sha256": "7d2a22ef2ee81a64e1eea32bc2933488cfcb510332f7b6fe4a6bf29de0d000c0",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.419329+00:00"
+    },
+    "23": {
+      "image": "micah-c004-v011-013-right-context-v1.jpg",
+      "sha256": "a8a1d877ed47cc6c6cd7b277e13e8102530b9d96c609d92640a1c4d9b69496a8",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.419620+00:00"
+    },
+    "24": {
+      "image": "micah-c005-v001-001-right-context-v1.jpg",
+      "sha256": "5018571b7cb6221c8220c9aaa43a4eb52b0bd01f1420a2de43b8f25874752b48",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.419876+00:00"
+    },
+    "25": {
+      "image": "micah-c005-v002-002-right-context-v1.jpg",
+      "sha256": "9a7613313736ecf23c2c6f974bb7152a9182a81583b84759903aae67f98d4ec1",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.420149+00:00"
+    },
+    "26": {
+      "image": "micah-c005-v003-004-right-context-v1.jpg",
+      "sha256": "36d1b1ae5e5331806b8e29ee2e0d843c618e571d7e9436fb32371ac573591a0b",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.420439+00:00"
+    },
+    "27": {
+      "image": "micah-c005-v005-006-right-context-v1.jpg",
+      "sha256": "77614190e831fcc34c3a24ae17003f01113bdb7b6dda7041a8ce72cc2d47d6a7",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.420692+00:00"
+    },
+    "28": {
+      "image": "micah-c005-v007-009-right-context-v1.jpg",
+      "sha256": "2901cc956baacacdbf2f3dad7fe2527ddcdb82519de3892d52ec054c65072945",
+      "finding": "Source context, real historical photographic texture/emotion, clean corners and coherent visible arms; God unseen, no literal violent metaphor.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:46:58.420979+00:00"
+    },
+    "7": {
+      "image": "micah-c002-v001-002-right-context-v1.jpg",
+      "sha256": "4c33d779af1af61681b37147bbd559c0d2d8dffa796e738193d7044be7b655d8",
+      "finding": "Boundary dispute: official holds a plain dark writing tablet with no printed book pages or modern UI; all pointing/support hands coherent, source context and clean corners.",
+      "review": "Actual full native, contact and four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:52:19.964631+00:00"
+    },
+    "11": {
+      "image": "micah-c002-v011-011-right-context-v1.jpg",
+      "sha256": "981ff5b19f5b9a460c8b7e7130c37bf26666a8f59f9f506192ed4c1eaa2fc107",
+      "finding": "Flattering false teacher wears distinct ornate clothing and shorter swept hair, indulgent listening officials and wine jars; natural five-finger gestures, no modern face or divine role, corners clean.",
+      "review": "Actual full native, contact and four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:52:19.965227+00:00"
+    },
+    "20": {
+      "image": "micah-c004-v004-005-right-context-v1.jpg",
+      "sha256": "40fa83fcdc7f1b94779abfa8f0c45925d002ee4faf5616407087c46b8994aca4",
+      "finding": "Yeonkyung authorized face as solo ordinary adult resting under fig shade, coherent five-finger fig grip and resting hand; no Sung female, named prophet or spouse/parent assignment, clean corners.",
+      "review": "Actual full native, contact and four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:52:19.965638+00:00"
+    },
+    "29": {
+      "image": "micah-c005-v010-015-right-context-v1.jpg",
+      "sha256": "1a29a0d5def1f19b7724736912fb54bf8ff173a8209e583e267ef97396873312",
+      "finding": "Broken stylized ancient idol figures and abandoned chariot wheel; no exact cult/deity identification claimed. Ordinary adult turns away with two coherent arms/hands, clean corners, source oracle context.",
+      "review": "Actual full native, contact and four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:52:19.966022+00:00"
+    },
+    "30": {
+      "image": "micah-c006-v001-002-right-context-v1.jpg",
+      "sha256": "cb244d00d6616a3570863a04f5cbebcb3d32f39ebe53c9658c0b31afec528140",
+      "finding": "Selected source context, photographic emotion and physical materials, clean corners and coherent visible anatomy, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:55:56.465458+00:00"
+    },
+    "31": {
+      "image": "micah-c006-v003-005-right-context-v1.jpg",
+      "sha256": "53d7419d8b8234f5964eb2466a31c4eca91eb841f3826ccd39b90d84a401adbb",
+      "finding": "Selected source context, photographic emotion and physical materials, clean corners and coherent visible anatomy, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:55:56.466364+00:00"
+    },
+    "32": {
+      "image": "micah-c006-v006-007-right-context-v1.jpg",
+      "sha256": "740e35cce59b8deaca88e075e52fbd1c81b773849c8e145a75cfe17c95dcaa2b",
+      "finding": "Selected source context, photographic emotion and physical materials, clean corners and coherent visible anatomy, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:55:56.467054+00:00"
+    },
+    "34": {
+      "image": "micah-c006-v009-012-right-context-v1.jpg",
+      "sha256": "efc4d882d744041c0c6c06d479322bd5983426adcdda290585f174b75f116f21",
+      "finding": "Selected source context, photographic emotion and physical materials, clean corners and coherent visible anatomy, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:55:56.467836+00:00"
+    },
+    "35": {
+      "image": "micah-c006-v013-016-right-context-v1.jpg",
+      "sha256": "122527604b6d3d237681b15b0979e09df05abf4d185c6d95d4efd28163f2f757",
+      "finding": "Selected source context, photographic emotion and physical materials, clean corners and coherent visible anatomy, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:55:56.468680+00:00"
+    },
+    "36": {
+      "image": "micah-c007-v001-004-right-context-v1.jpg",
+      "sha256": "998c41a9a50130413e056e70224f73a6e44fce7395e349496de5acb9881923e6",
+      "finding": "Selected source context, photographic emotion and physical materials, clean corners and coherent visible anatomy, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:55:56.469506+00:00"
+    },
+    "38": {
+      "image": "micah-c007-v007-010-right-context-v1.jpg",
+      "sha256": "abbeabdd18540a6784a4097ac45fc120d3c257a87d9dbce5f78d37a6c3f6f65d",
+      "finding": "Selected source context, photographic emotion and physical materials, clean corners and coherent visible anatomy, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:55:56.470125+00:00"
+    },
+    "39": {
+      "image": "micah-c007-v011-013-right-context-v1.jpg",
+      "sha256": "e5f8f059bf6615a86420e7c7c4e938bd1101560dc12163a5accc8c3eeed1e2e4",
+      "finding": "Selected source context, photographic emotion and physical materials, clean corners and coherent visible anatomy, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:55:56.470883+00:00"
+    },
+    "40": {
+      "image": "micah-c007-v014-017-right-context-v1.jpg",
+      "sha256": "4f5e5cc6054bc15a7dd43e6f97ccd40c50d1e39f3b8fd0957343fb9e4c1f0010",
+      "finding": "Selected source context, photographic emotion and physical materials, clean corners and coherent visible anatomy, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:55:56.471579+00:00"
+    },
+    "41": {
+      "image": "micah-c007-v018-020-right-context-v1.jpg",
+      "sha256": "430ebe50f46a306dd75fa1b23af0a2234646a29cebca3f1ae7a4f07ee1325682",
+      "finding": "Selected source context, photographic emotion and physical materials, clean corners and coherent visible anatomy, no divine body.",
+      "review": "Actual contact-board and native-resolution four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:55:56.472296+00:00"
+    },
+    "33": {
+      "image": "micah-c006-v008-008-right-context-v1.jpg",
+      "sha256": "1a6ac501b692b5b4dbca9d7cd00a0fa2c4aef85017ae48dddc8cb7dd1b098fde",
+      "finding": "Native bread handoff: coherent two arms per adult, natural partly occluded fingers, sincere kindness, original virtue context and clean corners.",
+      "review": "Actual full native, contact and four-corner inspection",
+      "reviewedUtc": "2026-10-12T21:57:42.214347+00:00"
+    },
+    "10": {
+      "image": "micah-c002-v008-010-right-context-v2.jpg",
+      "sha256": "69922db08fa2579cb0cfb43efca9ec6f52543882ae03b8beff8fbc351f5623d5",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark. Previously missing output now depicts dignified adult departure and sorrow; original Scripture unchanged.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:16.588665+00:00"
+    },
+    "16": {
+      "image": "micah-c003-v009-011-right-context-v2.jpg",
+      "sha256": "ad062197d2c241f57fe66dc9cf943a1155db522937ceb76112bb30b70246bd09",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:16.657586+00:00"
+    },
+    "18": {
+      "image": "micah-c004-v001-002-right-context-v2.jpg",
+      "sha256": "34cf6f935190470f646ec622dd1d35309cc00e5f20302606c9cc47107ccf660b",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:16.724809+00:00"
+    },
+    "19": {
+      "image": "micah-c004-v003-003-right-context-v2.jpg",
+      "sha256": "c26784018282d6b4845c436a0d06b6246cdf9fa8e47110c86e558e6a14330dc9",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:16.792691+00:00"
+    },
+    "37": {
+      "image": "micah-c007-v005-006-right-context-v2.jpg",
+      "sha256": "a349be76fe4a3b691b0b080e4e1b7066b5dbe5d9d87a021ad9faad79d8579392",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:16.859231+00:00"
+    }
+  },
+  "nativeReviewed": [
+    7,
+    11,
+    20,
+    29,
+    33,
+    10,
+    16,
+    18,
+    19,
+    37
+  ],
+  "cornerReviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    12,
+    13,
+    14,
+    15,
+    17,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    7,
+    11,
+    20,
+    29,
+    30,
+    31,
+    32,
+    34,
+    35,
+    36,
+    38,
+    39,
+    40,
+    41,
+    33,
+    10,
+    16,
+    18,
+    19,
+    37
+  ],
+  "pendingCorrections": {}
+}

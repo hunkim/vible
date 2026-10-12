@@ -136,3 +136,28 @@ const isaZh=pick('/share/isaiah/65/7?lang=zh');assert.equal(isaZh.reference,'以
 const isaJa=pick('/share/isaiah/4/4?lang=ja');assert.equal(isaJa.reference,'イザヤ書 4:3–4');assert.match(isaJa.text,/生命の書/);assert.equal(isaJa.image,'isaiah-c004-v002-004-right-context-v1.jpg');
 const isaCross=pick('/share/isaiah/63/19/64/1?lang=en');assert.equal(isaCross.reference,'Isaiah 63:19–64:1');assert.match(isaCross.text,/never ruled/);assert.match(isaCross.text,/rend the heavens/);
 console.log('Isaiah share pages render in all four languages with attribution, shared 9:1–2, cross-chapter 8:22–9:2 and 63:19–64:1, KRV, Japanese and OpenCCB combined verses.');
+const minorShare={joel:[{ko:'요엘',en:'Joel',ja:'ヨエル書',zh:'约珥书'},'joel-c001-v001-003-right-context-v1.jpg','2/28/2/29','joel-c002-v028-029-right-context-v1.jpg'],
+ amos:[{ko:'아모스',en:'Amos',ja:'アモス書',zh:'阿摩司书'},'amos-c001-v001-002-right-context-v1.jpg','7/7/7/9','amos-c007-v007-009-right-context-v1.jpg'],
+ obadiah:[{ko:'오바댜',en:'Obadiah',ja:'オバデヤ書',zh:'俄巴底亚书'},'obadiah-c001-v001-002-right-context-v1.jpg','1/1/1/2','obadiah-c001-v001-002-right-context-v1.jpg'],
+ micah:[{ko:'미가',en:'Micah',ja:'ミカ書',zh:'弥迦书'},'micah-c001-v001-002-right-context-v1.jpg','5/2/5/2','micah-c005-v002-002-right-context-v1.jpg'],
+ nahum:[{ko:'나훔',en:'Nahum',ja:'ナホム書',zh:'那鸿书'},'nahum-c001-v001-003-right-context-v1.jpg','1/1/1/3','nahum-c001-v001-003-right-context-v1.jpg'],
+ habakkuk:[{ko:'하박국',en:'Habakkuk',ja:'ハバクク書',zh:'哈巴谷书'},'habakkuk-c001-v001-004-right-context-v1.jpg','1/2/1/4','habakkuk-c001-v001-004-right-context-v1.jpg'],
+ zephaniah:[{ko:'스바냐',en:'Zephaniah',ja:'ゼファニヤ書',zh:'西番雅书'},'zephaniah-c001-v001-003-right-context-v1.jpg','1/2/1/3','zephaniah-c001-v001-003-right-context-v1.jpg'],
+ haggai:[{ko:'학개',en:'Haggai',ja:'ハガイ書',zh:'哈该书'},'haggai-c001-v001-002-right-context-v1.jpg','1/1/1/2','haggai-c001-v001-002-right-context-v1.jpg'],
+ zechariah:[{ko:'스가랴',en:'Zechariah',ja:'ゼカリヤ書',zh:'撒迦利亚书'},'zechariah-c001-v001-003-right-context-v1.jpg','4/4/4/6','zechariah-c004-v004-006-right-context-v1.jpg'],
+ malachi:[{ko:'말라기',en:'Malachi',ja:'マラキ書',zh:'玛拉基书'},'malachi-c001-v001-002-right-context-v2.jpg','4/5/4/6','malachi-c004-v005-006-right-context-v1.jpg']};
+for(const [book,[names,first,range,rangeImage]] of Object.entries(minorShare))for(const [lang,name] of Object.entries(names)){
+ const q=lang==='ko'?'':`?lang=${lang}`,shared=pick(`/share/${book}/1/1${q}`),page=shareHTML(shared);
+ assert.equal(shared.lang,lang);assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,first);assert(page.includes(shared.text));assert(page.includes(`book=${book}`));
+ if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} ${book} attribution`);
+ const [c,v,,ev]=range.split('/'),ranged=pick(`/share/${book}/${range}${q}`);assert.equal(ranged.reference,v===ev?`${name} ${c}:${v}`:`${name} ${c}:${v}–${ev}`);assert.equal(ranged.image,rangeImage);assert(shareHTML(ranged).includes(ranged.text));
+}
+const joelCross=pick('/share/joel/2/32/3/1?lang=ja');assert.equal(joelCross.reference,'ヨエル書 2:32–3:1');assert.match(joelCross.text,/主の名を呼ぶ者/);assert.match(joelCross.text,/ユダとエルサレム/);
+const micCross=pick('/share/micah/4/13/5/2?lang=en');assert.equal(micCross.reference,'Micah 4:13–5:2');assert.equal(micCross.verses.length,3);assert.match(micCross.text,/daughter of troops/);assert.match(micCross.text,/Bethlehem Ephrathah/);
+const nahCross=pick('/share/nahum/1/15/2/1?lang=zh');assert.equal(nahCross.reference,'那鸿书 1:15–2:1');assert.match(nahCross.text,/传喜讯/);assert.match(nahCross.text,/攻击者/);
+const zecCross=pick('/share/zechariah/1/21/2/1');assert.equal(zecCross.reference,'스가랴 1:21–2:1');assert.match(zecCross.text,/공장들/);assert.match(zecCross.text,/척량줄/);
+const malCross=pick('/share/malachi/3/18/4/1?lang=en');assert.equal(malCross.reference,'Malachi 3:18–4:1');assert.match(malCross.text,/righteous and the wicked/);assert.match(malCross.text,/furnace/);
+const zepZh=pick('/share/zephaniah/2/2?lang=zh');assert.equal(zepZh.reference,'西番雅书 2:1–2');assert.match(zepZh.text,/聚集/);assert.equal(zepZh.image,'zephaniah-c002-v001-003-right-context-v2.jpg');
+const zepZh9=pick('/share/zephaniah/2/9?lang=zh');assert.equal(zepZh9.reference,'西番雅书 2:8–9');assert.match(zepZh9.text,/摩押/);assert.equal(zepZh9.image,'zephaniah-c002-v008-010-right-context-v1.jpg');
+const zepKo=pick('/share/zephaniah/2/2');assert.equal(zepKo.reference,'스바냐 2:2');assert.match(zepKo.text,/명령이 시행되기 전/);
+console.log('Joel–Malachi share pages render in all four languages with attribution, shared ranges, cross-chapter ranges at the Hebrew/English boundaries and OpenCCB Zephaniah 2:1–2 and 2:8–9.');

@@ -1,0 +1,227 @@
+{
+  "approvedFiles": {
+    "2": {
+      "image": "malachi-c001-v003-005-right-context-v1.jpg",
+      "sha256": "ea4c1d685d155c14c6987a7502e9ae4f9619c025fc8fa3fde9fb044722eb78f7",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.503300+00:00"
+    },
+    "3": {
+      "image": "malachi-c001-v006-007-right-context-v1.jpg",
+      "sha256": "c19a91c486f3c27770ffa62dd831d0c9e51545c0a9a53fdebd5426597ae016ae",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.504132+00:00"
+    },
+    "4": {
+      "image": "malachi-c001-v008-010-right-context-v1.jpg",
+      "sha256": "d22fc64ddd4ca7876843ad7c856ea0e049a0674db0dbbbb3d9425f1d36a71f06",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.504832+00:00"
+    },
+    "6": {
+      "image": "malachi-c001-v012-014-right-context-v1.jpg",
+      "sha256": "0b234c228107dba52db1c09e0da8b835f97cb7aa47ca4d0f9496baace60b9693",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.505421+00:00"
+    },
+    "7": {
+      "image": "malachi-c002-v001-003-right-context-v1.jpg",
+      "sha256": "f0a67bee1e32de539c652486d3dd2882babbfb0f2ee4da12b320e39b53645da4",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.506082+00:00"
+    },
+    "8": {
+      "image": "malachi-c002-v004-007-right-context-v1.jpg",
+      "sha256": "9cd8d1a2374a7046feec915401b96cb2ac90d536ab2406eb7bb6c4523f65e508",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.506745+00:00"
+    },
+    "9": {
+      "image": "malachi-c002-v008-009-right-context-v1.jpg",
+      "sha256": "86e35f7492d581a58b7d66e74efa2f97b5e24d5c55275830ba7a1eca665e7e81",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.507264+00:00"
+    },
+    "11": {
+      "image": "malachi-c002-v013-016-right-context-v1.jpg",
+      "sha256": "8b12c3ec67c4475c8262dad3ce905415d6867ae3fa9b24495aa47a1ab2b01a24",
+      "finding": "Original fictional adults convey marital grief; coherent clasped hands, no authorized cameo in spouse role.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.507506+00:00"
+    },
+    "13": {
+      "image": "malachi-c003-v001-001-right-context-v1.jpg",
+      "sha256": "cb767a04118d1cd74dd8bff2bd7df55ad6a6d5a2db1cbbfeb57a7e43ecbffdf5",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.508119+00:00"
+    },
+    "15": {
+      "image": "malachi-c003-v004-005-right-context-v1.jpg",
+      "sha256": "5827fd264dc4d2ff78ee5d8df35992170da933ac475d698a53b7f7773314a71f",
+      "finding": "Basket handoff and wage exchange have coherent adult hands and physical grips.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.508429+00:00"
+    },
+    "16": {
+      "image": "malachi-c003-v006-007-right-context-v1.jpg",
+      "sha256": "522021bf1185b6390e84d7ca792dc12666f76509835b2e166ffbd581b0298720",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.508998+00:00"
+    },
+    "17": {
+      "image": "malachi-c003-v008-009-right-context-v1.jpg",
+      "sha256": "e6877cee1d242eb6e0ba01d6acf168d4c1149c3b7f7002b1fe687c6f43538c00",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.509446+00:00"
+    },
+    "18": {
+      "image": "malachi-c003-v010-010-right-context-v1.jpg",
+      "sha256": "74872c86b1a300f91a08144cbc16dcb7186c1d7046bd162ec2bf9fa7299d53a0",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.510145+00:00"
+    },
+    "20": {
+      "image": "malachi-c003-v013-015-right-context-v1.jpg",
+      "sha256": "da94d56ab90a028a9191556887468a25f0021d84b422ccca379fe3c3d1690b47",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.510721+00:00"
+    },
+    "22": {
+      "image": "malachi-c003-v017-018-right-context-v1.jpg",
+      "sha256": "67d4555c6fe98f1edbd5508a54f071c54153ab24abe233e9e7ca9537b62de0cc",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.511345+00:00"
+    },
+    "23": {
+      "image": "malachi-c004-v001-001-right-context-v1.jpg",
+      "sha256": "9acd5755122ac2dbc75d50bc2f9f572ac304e0904ce37aa99e7641ce171885ec",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.511880+00:00"
+    },
+    "24": {
+      "image": "malachi-c004-v002-003-right-context-v1.jpg",
+      "sha256": "281e3c987e653aea027c6f1213948fce544fa9074d0799ba4eb840f5ade01934",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.512559+00:00"
+    },
+    "25": {
+      "image": "malachi-c004-v004-004-right-context-v1.jpg",
+      "sha256": "d26cc5e1f2847210248c457dbdfc536aba6b02b85e923279a0c6acc08d5eccaa",
+      "finding": "Live-action photographic scene and source context coherent, God unseen, corners clean.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.513176+00:00"
+    },
+    "26": {
+      "image": "malachi-c004-v005-006-right-context-v1.jpg",
+      "sha256": "1853cd5831f73396f6f12ff093504f93b10d4251c97701978434927ea0ced8e1",
+      "finding": "Original adult father/son reconciliation; coherent embrace and five-finger hands, no authorized faces assigned parent roles.",
+      "review": "Actual contact scenes and four native corner crops inspected, with full native anatomy views for scenes11,15,26",
+      "reviewedUtc": "2026-10-12T22:59:36.513514+00:00"
+    },
+    "1": {
+      "image": "malachi-c001-v001-002-right-context-v2.jpg",
+      "sha256": "9c336108bf5741446b8e72667d40c25f4423ddfbe88c29a261b26aba224fdca3",
+      "finding": "Actual full native output and all four native corners inspected: hilltop sanctuary now plain Judah masonry with two bronze entrance pillars; people, natural hands, emotions and bright photographic realism preserved; no corner marks.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:03:09.783386+00:00"
+    },
+    "5": {
+      "image": "malachi-c001-v011-011-right-context-v2.jpg",
+      "sha256": "d97524132bbaa5ee57c4c17eff439c615119a837d30241e6dc90aaf7d742fb4b",
+      "finding": "Actual full native output and all four native corners inspected: hilltop sanctuary now plain Judah masonry with two bronze entrance pillars; people, natural hands, emotions and bright photographic realism preserved; no corner marks.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:03:09.853294+00:00"
+    },
+    "10": {
+      "image": "malachi-c002-v010-012-right-context-v2.jpg",
+      "sha256": "c8e83665674c0ef088bce2abce7311cd1b063a3bff372ba80af08e012c5e4664",
+      "finding": "Actual full native output and all four native corners inspected: hilltop sanctuary now plain Judah masonry with two bronze entrance pillars; people, natural hands, emotions and bright photographic realism preserved; no corner marks.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:03:09.926943+00:00"
+    },
+    "12": {
+      "image": "malachi-c002-v017-017-right-context-v2.jpg",
+      "sha256": "f937d8a915d503bbf49011ffe04c9d5442a52a9b577d4bea110c8d95b41df0b5",
+      "finding": "Actual full native output and all four native corners inspected: hilltop sanctuary now plain Judah masonry with two bronze entrance pillars; people, natural hands, emotions and bright photographic realism preserved; no corner marks.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:03:10.003645+00:00"
+    },
+    "14": {
+      "image": "malachi-c003-v002-003-right-context-v2.jpg",
+      "sha256": "eb6c2c1fde459efd81fd24ce37489df0fae4454b9e5e25da8667e6d51a933466",
+      "finding": "Actual full native output and all four native corners inspected: hilltop sanctuary now plain Judah masonry with two bronze entrance pillars; people, natural hands, emotions and bright photographic realism preserved; no corner marks.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:03:10.073160+00:00"
+    },
+    "19": {
+      "image": "malachi-c003-v011-012-right-context-v2.jpg",
+      "sha256": "61b4c027371887a22563a1a38d4a46433c108f99ee5ea2f7dcc5bf4f1eefb3a2",
+      "finding": "Actual full native output and all four native corners inspected: hilltop sanctuary now plain Judah masonry with two bronze entrance pillars; people, natural hands, emotions and bright photographic realism preserved; no corner marks.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:03:10.143448+00:00"
+    },
+    "21": {
+      "image": "malachi-c003-v016-016-right-context-v2.jpg",
+      "sha256": "84e15eabf978a8c29a4fef592c78b95ef9648e8393c21c8480a8fd055d78f010",
+      "finding": "Actual full native output and all four native corners inspected: hilltop sanctuary now plain Judah masonry with two bronze entrance pillars; people, natural hands, emotions and bright photographic realism preserved; no corner marks. Authorized Sung female ordinary adult community conversation, two natural five-finger hands, no Yeonkyung or marital/parent/divine role.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:03:10.211402+00:00"
+    }
+  },
+  "nativeReviewed": [
+    11,
+    15,
+    26,
+    1,
+    5,
+    10,
+    12,
+    14,
+    19,
+    21
+  ],
+  "cornerReviewed": [
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    15,
+    16,
+    17,
+    18,
+    20,
+    22,
+    23,
+    24,
+    25,
+    26,
+    1,
+    5,
+    10,
+    12,
+    14,
+    19,
+    21
+  ],
+  "pendingCorrections": {}
+}

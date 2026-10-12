@@ -1,0 +1,714 @@
+{
+  "approvedFiles": {
+    "1": {
+      "image": "zechariah-c001-v001-003-right-context-v1.jpg",
+      "sha256": "a0d66c12d3cb1a495cfc93080bdc3d1047773c653f1f895661569817f0995681",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.940965+00:00"
+    },
+    "2": {
+      "image": "zechariah-c001-v004-006-right-context-v1.jpg",
+      "sha256": "b35a919860da0f716ae6b531722e1bbf18829280e5ceaf5f89d5f5bfd909bc63",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.941922+00:00"
+    },
+    "5": {
+      "image": "zechariah-c001-v012-013-right-context-v1.jpg",
+      "sha256": "8389e75c57a78f804ae83c681e8358ccf3bc879d097466f55cbb2ec6adc8575b",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.942625+00:00"
+    },
+    "6": {
+      "image": "zechariah-c001-v014-017-right-context-v1.jpg",
+      "sha256": "fff26225489bfe320191d2adf42bf4cb685c720c4e1d9388656a35448be05f2c",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.943330+00:00"
+    },
+    "9": {
+      "image": "zechariah-c002-v001-002-right-context-v1.jpg",
+      "sha256": "1ed36ea6f7d15519f3c2ace4c4e39be5037c4d5531f85ee7fce1b67a11a22988",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.945070+00:00"
+    },
+    "10": {
+      "image": "zechariah-c002-v003-005-right-context-v1.jpg",
+      "sha256": "5a23545bbe0086dc0d39c1c6e0623b10382985fa9a56968e304e8536777c718b",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.946005+00:00"
+    },
+    "11": {
+      "image": "zechariah-c002-v006-009-right-context-v1.jpg",
+      "sha256": "2a0c150fa8603f6b5ad4055557c937149b8e7defde36b26492513e906ab86664",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.946874+00:00"
+    },
+    "12": {
+      "image": "zechariah-c002-v010-011-right-context-v1.jpg",
+      "sha256": "f8978fa5ae911b7ad87be935cbd1ce3d4b1050535c316190ee86cdf4b93c8781",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.947574+00:00"
+    },
+    "13": {
+      "image": "zechariah-c002-v012-013-right-context-v1.jpg",
+      "sha256": "f7852da833f837d20f234a8d3349746d4b8425234f6c802c934f1c53c4690bd2",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.948192+00:00"
+    },
+    "14": {
+      "image": "zechariah-c003-v001-003-right-context-v1.jpg",
+      "sha256": "43a74adac6cfa3e0a885d238e94fed3b9e5de443721b8c736538c3ed66c4d92f",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.948812+00:00"
+    },
+    "16": {
+      "image": "zechariah-c003-v006-007-right-context-v1.jpg",
+      "sha256": "1e65bd1624cb50475f76879ea3307e9865d39a41319bc9009a4bc881b96af773",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.950107+00:00"
+    },
+    "18": {
+      "image": "zechariah-c003-v010-010-right-context-v1.jpg",
+      "sha256": "23b7a5e99fc2ac89c87d3846ea7b22c24426674b382b39c561d21c10a04a0892",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.951351+00:00"
+    },
+    "20": {
+      "image": "zechariah-c004-v004-006-right-context-v1.jpg",
+      "sha256": "7efebb21e2e0f95cca337a38b69803c31d6f72881aedb73dace5ffca01386344",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.951943+00:00"
+    },
+    "7": {
+      "image": "zechariah-c001-v018-019-right-context-v1.jpg",
+      "sha256": "1490130bf4e696e1877a20d557cf11b6b3be27b67310c52a77f60141162b7708",
+      "finding": "Exactly four horns; natural hand on stone.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.944262+00:00"
+    },
+    "15": {
+      "image": "zechariah-c003-v004-005-right-context-v1.jpg",
+      "sha256": "bce4a7d2f1ebebb1cf185cf522985019919f226b2af56dd30c7e4ba51e475d02",
+      "finding": "Two attendants natural turban-adjusting grips, Joshua crossed hands coherent.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.949316+00:00"
+    },
+    "17": {
+      "image": "zechariah-c003-v008-009-right-context-v1.jpg",
+      "sha256": "b7de39e50482ea5193967055fc7a939c0d1a7eb25747b7537abe685929827565",
+      "finding": "Exactly seven eye carvings on one stone; no divine body.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.950579+00:00"
+    },
+    "21": {
+      "image": "zechariah-c004-v007-007-right-context-v1.jpg",
+      "sha256": "abff6f8ec74f98bea53922d8c5c12b1fedeadb808aa379173411d739f087b737",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.952646+00:00"
+    },
+    "22": {
+      "image": "zechariah-c004-v008-010-right-context-v1.jpg",
+      "sha256": "33907bf9d0295b3542b6de45491b440a46d5e2fc97e0184eaf893c2084a012d2",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.953368+00:00"
+    },
+    "23": {
+      "image": "zechariah-c004-v011-014-right-context-v1.jpg",
+      "sha256": "e394bac2e071e7123d7ee2767c82746d6bf88b7601550324752a6fa36fd66fdc",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.953997+00:00"
+    },
+    "24": {
+      "image": "zechariah-c005-v001-002-right-context-v1.jpg",
+      "sha256": "4377dd3a310f6e003c4807b9708b21d951c116149a1d49ec19fd7df899812f7b",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.954822+00:00"
+    },
+    "25": {
+      "image": "zechariah-c005-v003-004-right-context-v1.jpg",
+      "sha256": "eb9feb70fee513684d76d03b36c3995b13f2621e679b2b187009a7b0a7813b2d",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.955641+00:00"
+    },
+    "26": {
+      "image": "zechariah-c005-v005-008-right-context-v1.jpg",
+      "sha256": "937582286f915a03e5881fb57bc25128a8cd8e93bd1c33e4a05f041e4a1b32ea",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.956355+00:00"
+    },
+    "28": {
+      "image": "zechariah-c005-v010-011-right-context-v1.jpg",
+      "sha256": "1fed7e48297e6ab8ede0f42a32eaf19fa60e3f3dcbcadb9462aae9c086c05d5b",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.957054+00:00"
+    },
+    "29": {
+      "image": "zechariah-c006-v001-003-right-context-v1.jpg",
+      "sha256": "0c48a6e4d56f0203cbc257527e9e703f5978ccf685d33b997eeb5c2ee3162bcf",
+      "finding": "Four distinct chariots with red, black, white and dappled horse pairs, coherent anatomy.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.957653+00:00"
+    },
+    "30": {
+      "image": "zechariah-c006-v004-005-right-context-v1.jpg",
+      "sha256": "3a4857922c9e2dfc389f993993f136e046479efde4358f94fc174a5c87e018ad",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.958316+00:00"
+    },
+    "31": {
+      "image": "zechariah-c006-v006-008-right-context-v1.jpg",
+      "sha256": "f9ca79952d484327c3c73b1c73fdb98e146d1de365968b82fe21c0206ecd8c9e",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.959023+00:00"
+    },
+    "32": {
+      "image": "zechariah-c006-v009-011-right-context-v1.jpg",
+      "sha256": "c938ac1336808ee680aef6c916df5e2a555ee3d2a73b1e0673775efb57e95051",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.959580+00:00"
+    },
+    "33": {
+      "image": "zechariah-c006-v012-013-right-context-v1.jpg",
+      "sha256": "a933ae94de66bdcf6fe91b1a415615e4ff236af2ac9ca0b514e1dd845d7fd21c",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.960551+00:00"
+    },
+    "34": {
+      "image": "zechariah-c006-v014-015-right-context-v1.jpg",
+      "sha256": "0c01f3714bbab395fa99fa531570eb0afebcbaf4004e5930bfcb061a35b8de0f",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.961176+00:00"
+    },
+    "35": {
+      "image": "zechariah-c007-v001-003-right-context-v1.jpg",
+      "sha256": "8bc35ab6ac6410c5a0a0927c26a0d57dbbcabd6fa5b656ffa6a3514abad14e7f",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.961939+00:00"
+    },
+    "36": {
+      "image": "zechariah-c007-v004-007-right-context-v1.jpg",
+      "sha256": "87d3f3f1e837993f71c26cf210ed365be8fd0740d2b04f661017c7c46fcc1a23",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.962567+00:00"
+    },
+    "37": {
+      "image": "zechariah-c007-v008-010-right-context-v1.jpg",
+      "sha256": "1cd0205f15ca469f51a646d1d35739afb5360f34313b40c4709ca05449cca4e4",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.963189+00:00"
+    },
+    "38": {
+      "image": "zechariah-c007-v011-012-right-context-v1.jpg",
+      "sha256": "7e9a33a1f1a10b1795e894f2c2e1d531185854758c8d87c58b0d1ac5f9e9f5b2",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.963933+00:00"
+    },
+    "39": {
+      "image": "zechariah-c007-v013-014-right-context-v1.jpg",
+      "sha256": "171759b5651ea19234b6ee03067f36f42dbaaf9821158e4b8d115e9922243850",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.964620+00:00"
+    },
+    "41": {
+      "image": "zechariah-c008-v004-005-right-context-v1.jpg",
+      "sha256": "7adf04cd687c6f88fe475923f2ab3121d43f7a7020206e6d7ee8db5060473343",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.965267+00:00"
+    },
+    "42": {
+      "image": "zechariah-c008-v006-008-right-context-v1.jpg",
+      "sha256": "37e2e9b54304c09049c6b912761fda054ff6688f477414f8a3ce8e5bf3f38824",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.966011+00:00"
+    },
+    "43": {
+      "image": "zechariah-c008-v009-013-right-context-v1.jpg",
+      "sha256": "8bbc8307ef048f8b97af7e77948d353be9ab161f0f019495c9fb015ac36b1a56",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.966742+00:00"
+    },
+    "44": {
+      "image": "zechariah-c008-v014-017-right-context-v1.jpg",
+      "sha256": "6269b5c335ee7fde2dca787a06661743367602186e5f0368d14f0b4dc89a664f",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.967502+00:00"
+    },
+    "47": {
+      "image": "zechariah-c008-v023-023-right-context-v1.jpg",
+      "sha256": "97cf2b986b97a6a832dbf3d35dd172504331d226f109efe2a0b2e78b2b5ab455",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.968302+00:00"
+    },
+    "48": {
+      "image": "zechariah-c009-v001-004-right-context-v1.jpg",
+      "sha256": "17dd5b53c77ff8deb1224c8fbb82e9e468f71e2ffc1499b9a6d27be8adedaf37",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.969055+00:00"
+    },
+    "50": {
+      "image": "zechariah-c009-v009-009-right-context-v1.jpg",
+      "sha256": "8da1f1a20f6eaae9b3cc21bfe5a546a6246957ee611a6276ebc3c66b4c900f54",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.969814+00:00"
+    },
+    "52": {
+      "image": "zechariah-c009-v011-012-right-context-v1.jpg",
+      "sha256": "2d11ca20aa23d860ae1c74514d5cbaeb231604d5371a4fcdc1ddc4ad930972f9",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.970441+00:00"
+    },
+    "53": {
+      "image": "zechariah-c009-v013-015-right-context-v1.jpg",
+      "sha256": "c30572d98fe65aea9901c4fedb7caec7b9dd373069798f96afd4d7668c742c59",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.971204+00:00"
+    },
+    "54": {
+      "image": "zechariah-c009-v016-017-right-context-v1.jpg",
+      "sha256": "a8848fd6d5d21d837b94027f1a07980b78b81d8db7bb64957eaa9ae009086148",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.971829+00:00"
+    },
+    "55": {
+      "image": "zechariah-c010-v001-001-right-context-v1.jpg",
+      "sha256": "b830def85bcb1ecbfc5177fa08ece52453f8f54fbe1640dd118109ca81850b4c",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.972578+00:00"
+    },
+    "56": {
+      "image": "zechariah-c010-v002-002-right-context-v1.jpg",
+      "sha256": "e3ac8dcf9dd7206cf0747754910e81c4d821077b3652699c6e52358cb5181af2",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.973139+00:00"
+    },
+    "57": {
+      "image": "zechariah-c010-v003-005-right-context-v1.jpg",
+      "sha256": "0ecf1ae5006179603827e9b32807b3a041f876499f7ce74fddb882353840bf78",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.973802+00:00"
+    },
+    "58": {
+      "image": "zechariah-c010-v006-007-right-context-v1.jpg",
+      "sha256": "0e06b930d36f5636ec97563c3a66e34bcb98d86d298b19dc936a4002468a3b5e",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.974575+00:00"
+    },
+    "59": {
+      "image": "zechariah-c010-v008-010-right-context-v1.jpg",
+      "sha256": "ae008699c7da253e0ea0e7d4667387c78e730ba6dd4481474bea24fa7a7b6316",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.975281+00:00"
+    },
+    "60": {
+      "image": "zechariah-c010-v011-012-right-context-v1.jpg",
+      "sha256": "a462b566e7a95c21d169ecf04ad36b8f8cb92a5b5ffc1288978399c008e79be3",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.975926+00:00"
+    },
+    "61": {
+      "image": "zechariah-c011-v001-003-right-context-v1.jpg",
+      "sha256": "fa4b44a197a3a6c07a9ce4ae0be61c7b49b0b06ea708f587516b9d575c64b6d0",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.976647+00:00"
+    },
+    "62": {
+      "image": "zechariah-c011-v004-006-right-context-v1.jpg",
+      "sha256": "ec1aaee10a14b258c3c677b9b054fa4cac7b90adde8711a414497ebee72c65c7",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.977313+00:00"
+    },
+    "63": {
+      "image": "zechariah-c011-v007-007-right-context-v1.jpg",
+      "sha256": "32b15d4b250fec687ad1d3dfdec7e0d5429a38b931c73685d30c942e9dd6f247",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.977962+00:00"
+    },
+    "64": {
+      "image": "zechariah-c011-v008-011-right-context-v1.jpg",
+      "sha256": "b303c10ffc1f291560ba69728db4fbc199dca83e9a501729babdfe69f52c32cb",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.978585+00:00"
+    },
+    "65": {
+      "image": "zechariah-c011-v012-013-right-context-v1.jpg",
+      "sha256": "7aec447f9a3d02a9da235600d7f814cff558d38285c460d876917d210a6682f6",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.979170+00:00"
+    },
+    "66": {
+      "image": "zechariah-c011-v014-014-right-context-v1.jpg",
+      "sha256": "a27a88ac7c646cb91f3b06177d516ce9abe1a4b57ea57dd7ffc4b8b720351c03",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.979731+00:00"
+    },
+    "68": {
+      "image": "zechariah-c012-v001-003-right-context-v1.jpg",
+      "sha256": "165bd0ca6c426b54543f92bbbf9ddfb7f5b34bdba8e87c588aecccf09a83652f",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.980397+00:00"
+    },
+    "69": {
+      "image": "zechariah-c012-v004-006-right-context-v1.jpg",
+      "sha256": "270b95dcce442c86a354923ac5d97e9234dc848f0cbe408fd115a3519ce324b4",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.981003+00:00"
+    },
+    "70": {
+      "image": "zechariah-c012-v007-009-right-context-v1.jpg",
+      "sha256": "5669349c4a2ffddfe79fab093b78bdfc2a2a13eadc77bba6a4bc19ea468f0189",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.981615+00:00"
+    },
+    "72": {
+      "image": "zechariah-c012-v012-014-right-context-v1.jpg",
+      "sha256": "259ce86305668a89404f45852328d21842594b8a2e5abbd057d11407e8cd29c2",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.982369+00:00"
+    },
+    "73": {
+      "image": "zechariah-c013-v001-001-right-context-v1.jpg",
+      "sha256": "e6551c22f5d63b6c1d9400497d10d7ab6d4d78808e665279c5570f00d1059883",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.982695+00:00"
+    },
+    "74": {
+      "image": "zechariah-c013-v002-003-right-context-v1.jpg",
+      "sha256": "9bbf84e92125feae5bcc2ec092b3092b58cbd4e5e00d940455cfad484f8a49ec",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.983355+00:00"
+    },
+    "75": {
+      "image": "zechariah-c013-v004-006-right-context-v1.jpg",
+      "sha256": "2c485944f18b00612222a88d6dc0a505af1659cf47d36acabf52ca29edde8bae",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.983899+00:00"
+    },
+    "76": {
+      "image": "zechariah-c013-v007-008-right-context-v1.jpg",
+      "sha256": "0df88a5a9afaba19994c02961c29afdc6f3cb51f1b7f0e61fe0070de36df34c8",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.984680+00:00"
+    },
+    "77": {
+      "image": "zechariah-c013-v009-009-right-context-v1.jpg",
+      "sha256": "37754bf0445bbfdb1e106a6591917ab06d1ea3ee2e75c480dbd98aa62931638b",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.985444+00:00"
+    },
+    "78": {
+      "image": "zechariah-c014-v001-002-right-context-v1.jpg",
+      "sha256": "90469fdc1645d8650118dc52e90d2cdce29d785a457502c6ba2ee6490d08abae",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.986221+00:00"
+    },
+    "79": {
+      "image": "zechariah-c014-v003-005-right-context-v1.jpg",
+      "sha256": "e807e5899fb2cc3f73e7f5687748a273e5931cc2abd35dbfeb40f5ff9d9b7d88",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.987251+00:00"
+    },
+    "80": {
+      "image": "zechariah-c014-v006-007-right-context-v1.jpg",
+      "sha256": "6f29dfe65ef33b69e9b80fac662979a8098310db3a5a8cbe276d5b8e8f9efae6",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.987829+00:00"
+    },
+    "81": {
+      "image": "zechariah-c014-v008-008-right-context-v1.jpg",
+      "sha256": "c2ad0621b8d20fe69fb0eb41075edc736f044886d881a002ce879a61d8ac4177",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.988611+00:00"
+    },
+    "82": {
+      "image": "zechariah-c014-v009-011-right-context-v1.jpg",
+      "sha256": "53a0adb245e1de45aa927d66a59d9aa330aa46664c6a1f44f6aeb8e455d32349",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.989354+00:00"
+    },
+    "83": {
+      "image": "zechariah-c014-v012-015-right-context-v1.jpg",
+      "sha256": "4fee2d8cb79298bd1361dd89f29752c7e98a1d2fd66e905e5967c62086ca0caa",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.990029+00:00"
+    },
+    "84": {
+      "image": "zechariah-c014-v016-016-right-context-v1.jpg",
+      "sha256": "6502b8d1a128a2b4c7e3302fd009fc37cbbd6367aeac3ce063992bfca29e2ed8",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.990747+00:00"
+    },
+    "85": {
+      "image": "zechariah-c014-v017-019-right-context-v1.jpg",
+      "sha256": "5671b2ebb98adf14fcdcf6636462d5b4828b45fe209a26cfcdee24161fe7b31f",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.991373+00:00"
+    },
+    "86": {
+      "image": "zechariah-c014-v020-021-right-context-v1.jpg",
+      "sha256": "ee62cf4db3905ea9f18ea0089f0fa0aac469c55838277dfd52500f1fa4c36a14",
+      "finding": "Bright photographic period scene, coherent visible anatomy and context; all corners clean.",
+      "review": "Actual contact sheet and four native corner crops inspected; critical props and cameo inspected full-size where indicated",
+      "reviewedUtc": "2026-10-12T22:46:22.992022+00:00"
+    },
+    "8": {
+      "image": "zechariah-c001-v020-021-right-context-v2.jpg",
+      "sha256": "3dc7510d83477423ed82a96bb333a755b63abc12c4efd81d5e7b623ac6eaba31",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:17.285462+00:00"
+    },
+    "19": {
+      "image": "zechariah-c004-v001-003-right-context-v2.jpg",
+      "sha256": "2e2fea37300962cdb543a380192641e4c3a69cc9ece7919da9ff2765d8380d6b",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:17.358125+00:00"
+    },
+    "40": {
+      "image": "zechariah-c008-v001-003-right-context-v2.jpg",
+      "sha256": "efb3b0fbc5827da5e5a7c4bac1652e21eaf732fedda35c51717c9bf49b602392",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:17.433223+00:00"
+    },
+    "45": {
+      "image": "zechariah-c008-v018-019-right-context-v2.jpg",
+      "sha256": "4e7123c2b5b6263d771a8034f1a7a51d2dab021c524514bc3131b889ec0401d4",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:17.507494+00:00"
+    },
+    "46": {
+      "image": "zechariah-c008-v020-022-right-context-v2.jpg",
+      "sha256": "400e31348a2b5f817c4bbc158f80a62be60513f4ce3bc1f156b84456f8aab44d",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:17.583043+00:00"
+    },
+    "49": {
+      "image": "zechariah-c009-v005-008-right-context-v2.jpg",
+      "sha256": "3868e2152bd99c882650653d693b91736d2720b2dcaa22a2a32e13e32970d9b7",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:17.656695+00:00"
+    },
+    "51": {
+      "image": "zechariah-c009-v010-010-right-context-v2.jpg",
+      "sha256": "5927e3da0fe684a8334375075dee5c2ac2ecf9f2fc613c1245dadd6d2d4d9648",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:17.730427+00:00"
+    },
+    "67": {
+      "image": "zechariah-c011-v015-017-right-context-v2.jpg",
+      "sha256": "99287a15f4f9c6731c8105dd1c60f40fb14355c8ad3b1e3816d2ff7056764be5",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:17.806230+00:00"
+    },
+    "71": {
+      "image": "zechariah-c012-v010-011-right-context-v2.jpg",
+      "sha256": "8f388bad6658ea1190043fd860e791225582dbe2159c41c43ca9d15eae156827",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:17.884015+00:00"
+    },
+    "3": {
+      "image": "zechariah-c001-v007-008-right-context-v2.jpg",
+      "sha256": "6e10bf72a2f50af02054759d2410470acb4b818ce2478946ba3bea91f8e84568",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:17.958117+00:00"
+    },
+    "4": {
+      "image": "zechariah-c001-v009-011-right-context-v2.jpg",
+      "sha256": "d4ce460423970ec58cca7436a56c0e4580c3ef1e8c1b0b632dfb1f2161c3cd67",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:18.031823+00:00"
+    },
+    "27": {
+      "image": "zechariah-c005-v009-009-right-context-v2.jpg",
+      "sha256": "fc12c7d0562015b339c5f283c66f15dfd9b45432eff0192626473bd1798f0584",
+      "finding": "Actual full native output and all four native corner crops inspected: targeted correction achieved, physical anatomy and photographic scene preserved, no added corner mark. Two stork wings per woman visibly rooted in upper back, four coherent carrying hands and closed lead-lid basket.",
+      "review": "Actual full native output and all four corners inspected before selecting correction",
+      "reviewedUtc": "2026-10-12T23:01:18.104242+00:00"
+    }
+  },
+  "nativeReviewed": [
+    7,
+    15,
+    17,
+    29,
+    73,
+    8,
+    19,
+    40,
+    45,
+    46,
+    49,
+    51,
+    67,
+    71,
+    3,
+    4,
+    27
+  ],
+  "cornerReviewed": [
+    1,
+    2,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    18,
+    20,
+    7,
+    15,
+    17,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    41,
+    42,
+    43,
+    44,
+    47,
+    48,
+    50,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    68,
+    69,
+    70,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    8,
+    19,
+    40,
+    45,
+    46,
+    49,
+    51,
+    67,
+    71,
+    3,
+    4,
+    27
+  ],
+  "pendingCorrections": {}
+}
