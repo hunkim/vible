@@ -36253,6 +36253,110 @@
     "jonah-c004-v011-011-right-context-v2.jpg": {
       "sha256": "96696492ab3ea35ba778b55e6748bfe8b3da4ac49377ade94a3413f2498ccf86",
       "bytes": 557121
+    },
+    "luke-220-right-v3-feedback-20261012-v1.jpg": {
+      "sha256": "db8c54e3f7524f69eff6268aeb3d3069f0d0a4558833d613dfeaa3dfae5e6c90",
+      "bytes": 320588
+    },
+    "psalms-c106-v030-031-right-context-v1-feedback-20261012-v1.jpg": {
+      "sha256": "cad1776e2130f84715bff84ec436c38ff9f6a38326bc0a2c289f9932239debb6",
+      "bytes": 345403
+    },
+    "psalms-c119-v175-175-right-context-v1-feedback-20261012-v1.jpg": {
+      "sha256": "6da56f6c9d95c1cb050371c4f63905aa638920d55e356bd40c66f34ffb6c813b",
+      "bytes": 332495
+    },
+    "proverbs-c021-v005-005-right-context-v1-feedback-20261012-v1.jpg": {
+      "sha256": "e23a741b266ef75786a2a6b5b09975360a7a118240b959ad529c5d61f3d2fc6b",
+      "bytes": 376887
+    },
+    "1samuel-171-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "9d1c2f7b25bfafdf0a1874335edf7f90bad7133ead382154e1f87b2f68fe3b07",
+      "bytes": 305933
+    },
+    "1samuel-185-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "1c895006f483db5197c6ac0b44de42ed48835afba1e2db9cbb5c4e484f757554",
+      "bytes": 440716
+    },
+    "proverbs-c011-v012-012-right-context-v1-feedback-20261012-v1.jpg": {
+      "sha256": "57c037c46fcbaca648923877ec52f70d422b1fd1d16e4268c8af01626b79c785",
+      "bytes": 380737
+    },
+    "matthew-113-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "41c12070884b0c2bd34d00414f62e60dc0b3acc6897dd5651aa31992e402af83",
+      "bytes": 286354
+    },
+    "matthew-197-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "ab88b0f0a6512d50733d173f4675933b6bf079aeeee9a791ff2f102bd39ebe11",
+      "bytes": 289413
+    },
+    "luke-124-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "3aa3de52602fb8e3ab2a75e2f6ab26d47b66fd22a3149e4aadf8e5ebe473145b",
+      "bytes": 307947
+    },
+    "2john-007-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "f4fa369aa96794fe94ae08862c3320d6b857507cdf705df6c765b6cd7bd818d1",
+      "bytes": 362437
+    },
+    "1corinthians-053-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "586592e53a4c8fdb6a66b1b7b7857cbbab6218950be9597f7b0616a6cf565497",
+      "bytes": 393200
+    },
+    "2corinthians-088-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "042c5e35877da7c177eeeff7a349294d5b112c25ce5113a7e1114b0802796749",
+      "bytes": 325725
+    },
+    "matthew-045-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "969c799347e9814f248517132ac31a4931e02b6059ffe53fbfd2b6658aaef304",
+      "bytes": 420440
+    },
+    "1corinthians-046-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "6cb0b80816bc902387ca02e818a85aa7bd324ef5f8206029ae4e92c64eb86a7c",
+      "bytes": 378543
+    },
+    "hebrews-083-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "2a9390b844ff1f2b08292e3df173a5da3cc1c023d9f214195911570116dce935",
+      "bytes": 372178
+    },
+    "acts-173-feedback-20261012-v1.jpg": {
+      "sha256": "ada2b1086d866e1467ba633abb1bff2cf40d6f9e2def8c25f23239f9a7242268",
+      "bytes": 431561
+    },
+    "matthew-175-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "41b872d8c38e9d32a69f10a98e32c0950880c5d54969688b8e47ef20a11d4e99",
+      "bytes": 289856
+    },
+    "mark-104-right-v1-feedback-20261012-v1.jpg": {
+      "sha256": "27cde61e37e775f952a6f765bb5e715cc097bdf6be65f9f654ad8c59fb5cc20a",
+      "bytes": 272444
+    },
+    "jude-004-right-v3-feedback-20261012-v1.jpg": {
+      "sha256": "a41a0953cc72744897425bdd2607738a4d7d2981d1fe3a058a1d0f3621ac437a",
+      "bytes": 267640
+    },
+    "acts-context-031-feedback-20261012-v1.jpg": {
+      "sha256": "dd1002cb4aa106cccd9a60b3d9dd0834857bd4cb4417d5a47caa18aa86ceb629",
+      "bytes": 337582
+    },
+    "acts-225-feedback-20261012-v1.jpg": {
+      "sha256": "eb39451352cb9f10f3ac057e2959be2436a5cc560248895f679ebc482da59c5a",
+      "bytes": 356100
+    },
+    "acts-context-032-feedback-20261012-v1.jpg": {
+      "sha256": "710b35574dd949360b5bba8acfe7bd6d02d40d523d5b16670f8527c4a3d9d28b",
+      "bytes": 370429
+    },
+    "acts-227-feedback-20261012-v1.jpg": {
+      "sha256": "5391e99917a49634c151cd31b7efb64da9991172be8e6ac14ea3a1cdb254064e",
+      "bytes": 334113
+    },
+    "acts-224-feedback-20261012-v1.jpg": {
+      "sha256": "8c4ddaebb79ddccb1bb25cd01c1c615ba5294564e1f2752488728a7a4412954d",
+      "bytes": 495763
+    },
+    "psalms-c150-v006-006-right-context-finale-v4.jpg": {
+      "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a",
+      "bytes": 482221
     }
   }
 }

@@ -1,7 +1,7 @@
 import {assetURL} from '../assets.js';
 import {ImageResponse} from '@vercel/og';
 import fs from 'node:fs/promises';
-import {selection} from '../share-data.mjs';
+import {selection,cardVersion} from '../share-data.mjs';
 import {cardLayout} from '../share-card-layout.mjs';
 
 const hosting=fs.readFile(new URL('../asset-hosting.json',import.meta.url),'utf8').then(JSON.parse);
@@ -30,8 +30,9 @@ export async function cardResponse(s){
 }
 export default async function handler(req,res){
  try{
-  const s=selection(new URL(req.url,'https://vible.now').searchParams),image=await cardResponse(s);
+  const params=new URL(req.url,'https://vible.now').searchParams,s=selection(params),image=await cardResponse(s);
+  const version=cardVersion(s),cache=params.get('v')===version?'public, max-age=86400, s-maxage=604800':'no-store';
   const png=Buffer.from(await image.arrayBuffer());
-  res.writeHead(200,{'Content-Type':'image/png','Cache-Control':'public, max-age=86400, s-maxage=604800','X-Content-Type-Options':'nosniff'});res.end(png);
+  res.writeHead(200,{'Content-Type':'image/png','Cache-Control':cache,'X-Vible-Card-Version':version,'X-Content-Type-Options':'nosniff'});res.end(png);
  }catch(e){console.error('Shared card:',e.message);res.writeHead(400,{'Content-Type':'text/plain; charset=utf-8'});res.end('말씀 카드를 만들지 못했습니다. 말씀 주소를 확인해 주세요.');}
 }

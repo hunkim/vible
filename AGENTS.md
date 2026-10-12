@@ -39,21 +39,34 @@ session shipped in the meantime (on 2026-10-11 a Torah image release removed
 `/admin_feedback` this way). Every production deploy, including image-only and
 Torah/Psalms content releases, must therefore come from a git commit:
 
-1. `git fetch origin`, then commit the reviewed release changes on a branch
-   whose history contains the current `origin/main`. Merge `origin/main` first;
-   do not deploy until it is an ancestor of the release commit
-   (`git merge-base --is-ancestor origin/main HEAD`).
-2. Build the frozen source with `git archive <commit>` into a new folder named
-   after the commit (for example `/private/tmp/vible-release-<sha>`), add
-   `.vercel/project.json`, run the required checks there, and deploy from it.
-   Never deploy from the working tree or reuse an older `/private/tmp` copy.
-3. Immediately before deploying, compare the current production deployment with
-   `production-release.json` (`vercel ls vible --prod`). If production is newer
-   than the record, find the commit for it in `origin/main`; if it is not there,
-   stop and reconcile it into git instead of overwriting it.
-4. After verifying the live site, record the deployment URL and ID in
-   `production-release.json`, commit, and push the release commit to
-   `origin/main` as a fast-forward. Never force-push `main`.
+1. Fetch `origin/main` and resolve the current production Git SHA from
+   `https://vible.now/release.json`. During the first migration, use the current
+   Vercel Git deployment build log instead. Its SHA must be in `origin/main`;
+   differences from production to main may contain only `production-release.json`.
+   If another content release is building, wait and verify it before proceeding.
+2. Commit only reviewed changes on a branch containing current `origin/main`.
+   Extract a fresh `git archive <full SHA>` into `/private/tmp/vible-release-<sha>`.
+   Set `VIBLE_SOURCE_COMMIT=<full SHA>` for local checks; never deploy a working
+   tree or reuse an older archive. Verify changed image CDN bytes and hashes. Always give replacement images new versioned filenames and update their asset-hosting SHA-256. Shared-card URLs derive their version from the image hash and passage; never reuse a replacement filename. Shared HTML and legacy unversioned cards must revalidate rather than retain old art.
+3. Run the required tests there. Immediately before publishing, resolve production
+   SHA again and run `node scripts/release-preflight.mjs REPO FULL_SHA ARCHIVE
+   PRODUCTION_SHA`. This fetches main, rejects concurrent/unreleased changes and
+   verifies every archived tracked file against the exact commit.
+4. Push the tested commit to `origin/main` as a fast-forward. Use the existing
+   **Vercel Git integration as the only production deployment path**; do not also
+   run `vercel deploy --prod`, promote an older preview, or force-push. A rejected
+   push means main advanced: merge it, archive and recheck the resulting commit.
+5. Wait for the Git deployment and require `/release.json.sourceCommit` to equal
+   the tested SHA. Verify live reader/share paths, then write the URL, deployment
+   ID and the same full SHA to `production-release.json`. `sourceCommit` is the
+   canonical source identity; keep legacy `gitCommit` equal to it. A metadata-only
+   record commit must contain only `production-release.json`; fast-forward push
+   it. `ignoreCommand` compares against Vercel's last successful Git deployment
+   and skips only record-only changes, avoiding a second deployment.
+6. Before creating the record commit, fetch main again. If unrelated commits
+   appeared, preserve them and do not attribute their deployment to this release.
+   Update `review/latest-production-release.json` only as a local mirror; the
+   tracked `production-release.json` is the authoritative release record.
 
 ## Feedback
 
