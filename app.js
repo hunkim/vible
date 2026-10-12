@@ -27,7 +27,7 @@ import {annotations} from './annotations.js';
 import {scriptureSearch} from './search-ui.js';
 import {bookPicker} from './book-picker.js';
 import {sceneFeedback} from './feedback.js';
-import {isNative,SITE_ORIGIN,fetchContent} from './platform.js';
+import {isNative,SITE_ORIGIN,fetchContent,canRateApp,canPromptReview,requestReview,openReviewPage} from './platform.js';
 import {text,localizeDocument} from './i18n.js';
 import {offlineImages,keepOffline,cachedImageURL} from './image-cache.js';
 import {localizeInstall} from './install.js';
@@ -73,9 +73,19 @@ function loadSceneImage(s,force=false){
  img.src=src;
  if(img.complete&&img.naturalWidth)done();
 }
+// When a reader reaches the end of a book, the iOS app may ask for a rating. Apple decides whether the prompt appears
+// (it is not shown to people who already rated); here it is also skipped for 120 days and after the menu's rate link was used.
+function considerReview(index){
+ if(!canPromptReview||preview||index!==data.scenes.length-1)return;
+ let state={asked:0,rated:false};try{state={...state,...JSON.parse(localStorage.getItem('vible-review')||'{}')};}catch{}
+ if(state.rated||Date.now()-state.asked<120*864e5||view!=='read'||document.querySelector('dialog[open]'))return;
+ state.asked=Date.now();try{localStorage.setItem('vible-review',JSON.stringify(state));}catch{}
+ setTimeout(()=>requestReview().catch(()=>{}),1500);
+}
+function markRated(){let state={};try{state=JSON.parse(localStorage.getItem('vible-review')||'{}');}catch{}try{localStorage.setItem('vible-review',JSON.stringify({...state,rated:true}));}catch{}}
 function updateScene(index){
  if(index<0||index>=data.scenes.length)return;
- current=index;const s=data.scenes[index];
+ const changed=current!==index;current=index;const s=data.scenes[index];if(changed)considerReview(index);
  $('chapter-title').textContent=`${data.book} ${ui().chapter(s.chapter)}`;
  $('reader-chapter').textContent=ui().chapter(s.chapter);
  for(const [id,target] of [['reader-previous-chapter',s.chapter-1],['reader-next-chapter',s.chapter+1]]){
@@ -508,6 +518,7 @@ async function init(){
  $('reader-previous-chapter').onclick=()=>goTo(data.scenes.findIndex(s=>s.chapter===data.scenes[current].chapter-1));
  $('reader-next-chapter').onclick=()=>goTo(data.scenes.findIndex(s=>s.chapter===data.scenes[current].chapter+1));
  $('explain').addEventListener('click',()=>{$('explanation').hidden=!$('explanation').hidden;$('explain').setAttribute('aria-expanded',String(!$('explanation').hidden));});
+ $('rate-app').hidden=!canRateApp;$('rate-app').onclick=()=>{$('navigation-dialog').hidePopover?.();markRated();Promise.resolve(openReviewPage()).catch(()=>{});};
  $('source-button').addEventListener('click',()=>$('source-dialog').showModal());$('close-source').addEventListener('click',()=>$('source-dialog').close());
  function setFont(size){
   fontSize=Math.max(16,Math.min(31,Number(size)||19));

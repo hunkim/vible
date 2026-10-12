@@ -88,3 +88,19 @@ const perms=JSON.parse(await fs.readFile(path.join(root,'native/desktop/src-taur
  seen.length=0;await web.fetchContent('data/john.json',{fetchImpl,store});assert.deepEqual(seen,['data/john.json'],'the website fetches its own files directly');}
 const vercelConfig=JSON.parse(await fs.readFile(path.join(root,'vercel.json'),'utf8'));assert(vercelConfig.headers.some(h=>h.source==='/data/(.*)'&&h.headers.some(x=>x.key==='Access-Control-Allow-Origin'&&x.value==='*')),'apps can read public release data');
 console.log(`Store app bundle verified (${(bytes/1e6).toFixed(1)} MB, ${catalog.ko.books.length} books, 4 languages, no service worker); Capacitor share/files/links/app links, Android back, Tauri save/open and frameless desktop windows and background content refresh verified.`);
+{
+ // iOS rating prompt: only when the last scene of a book is reached in the reader, not again for 120 days, never after the menu rate link.
+ const vm=await import('node:vm');const source=(await import('node:fs')).readFileSync('app.js','utf8');
+ const fn=source.slice(source.indexOf('function considerReview('),source.indexOf('function updateScene('));
+ const store=new Map(),asked=[];let now=Date.parse('2026-10-01T09:00:00Z');
+ const ctx={canPromptReview:true,preview:false,view:'read',data:{scenes:new Array(10)},document:{querySelector:()=>null},localStorage:{getItem:k=>store.get(k)??null,setItem:(k,v)=>store.set(k,v)},requestReview:async()=>asked.push(now),setTimeout:f=>f(),Date:{now:()=>now},JSON};
+ const {considerReview,markRated}=vm.runInNewContext(fn+';({considerReview,markRated})',ctx);
+ for(let i=0;i<9;i++)considerReview(i);assert.equal(asked.length,0,'no prompt before the end of a book');
+ considerReview(9);assert.equal(asked.length,1,'prompt when a book is finished');
+ now+=30*864e5;considerReview(9);assert.equal(asked.length,1,'not again within 120 days');
+ ctx.view='gallery';now+=121*864e5;considerReview(9);assert.equal(asked.length,1,'only while reading');
+ ctx.view='read';considerReview(9);assert.equal(asked.length,2,'eligible again after 120 days');
+ markRated();now+=200*864e5;considerReview(9);assert.equal(asked.length,2,'never after the reader used the rate link');
+ store.clear();ctx.canPromptReview=false;considerReview(9);assert.equal(asked.length,2,'web and other platforms never prompt');
+ console.log('Rating prompt: iOS only, when a book is finished, at most once per 120 days and never after the rate link was used.');
+}

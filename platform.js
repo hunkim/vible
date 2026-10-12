@@ -35,6 +35,12 @@ export function openExternal(url){
  if(capacitor)return plugin('Browser','open',{url});
  window.open(url,'_blank','noopener');
 }
+// App Store rating for the Apple apps: iOS can show Apple's own prompt; iOS and Mac open the write-review page from the menu.
+const MAC_REVIEW='macappstore://apps.apple.com/app/id6821509962?action=write-review';
+export const canRateApp=platform==='ios'||Boolean(tauri&&/Mac/.test(navigator.userAgent));
+export const canPromptReview=platform==='ios';
+export async function requestReview(){if(!canPromptReview)return false;await plugin('Review','request');return true;}
+export function openReviewPage(){if(platform==='ios')return plugin('Review','openStore');if(canRateApp)return tauri.opener.openUrl(MAC_REVIEW);}
 // Keep links to other sites out of the app webview (custom app schemes have an opaque origin, so compare scheme and host).
 if(isNative)document.addEventListener('click',e=>{const a=e.target.closest?.('a[href]');if(!a||a.hasAttribute('download'))return;const url=new URL(a.href,location.href),here=new URL(location.href);if(url.protocol===here.protocol&&url.host===here.host)return;e.preventDefault();openExternal(url.href);});
 // vible.now links (Universal Links / App Links) open the same passage in the bundled reader.
