@@ -1,9 +1,9 @@
 {
   "date": "2026-10-12",
   "production": "https://vible.now",
-  "deployment": "https://vible-4f1kzvl4c-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_93AcoQUnzSHsRN5hXaSNwmq3BY6L",
-  "newImageFiles": 213,
+  "deployment": "https://vible-7ep32ih9f-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_2omzzhnZzjRBgzb2rZgHU38rj4sX",
+  "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -82,7 +82,8 @@
     "sharedCardCacheVersion": "Full npm run check and check-offline passed from Git archive. Card version derives from original filename/SHA-256 and passage; replacement changes only related card URL. Shared pages and unversioned legacy cards no-store; matching versioned cards cached. Existing CDN cache purged once for migration. KO/EN/JA/ZH live versioned card equals freshly rendered PNG byte-for-byte, original version response header and no-store headers verified. All content and approved finale v4 preserved.",
     "nativeImageDisplay": "App code: scene images load from the network immediately in store apps (offline copy saved after display, used on failure); slow loads dim the previous picture. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; deployed by Vercel Git integration. Live: release.json sourceCommit matches, new app.js/style.css, share page 200, books.json 200, admin 401. Verified in Mac app: Job to Psalms switch shows the new picture at once.",
     "lamentations": "Lamentations (35/35 scenes, 154 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; identical versification, no combined verses. 35 CDN files byte-verified. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; deployed by Vercel Git integration. Live: release.json sourceCommit matches, data 35 images, en/ja/zh, books.json includes it, share pages ko/en/ja/zh incl. 3:22-23, ja card 200, admin 401.",
-    "jeremiah": "Jeremiah (213/213 scenes, 1364 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; 11 OpenCCB combined verses kept as ranges; KRV 21:2 source text is the edition marker [1절과 같음] as in Acts. 213 CDN files byte-verified. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; deployed by Vercel Git integration. Live: release.json sourceCommit matches, data 213 images, en/ja/zh, books.json, share pages ko/en/ja/zh incl. 31:31-34, 8:22-9:1 and zh 43:5-7, zh card 200, admin 401."
+    "jeremiah": "Jeremiah (213/213 scenes, 1364 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; 11 OpenCCB combined verses kept as ranges; KRV 21:2 source text is the edition marker [1절과 같음] as in Acts. 213 CDN files byte-verified. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; deployed by Vercel Git integration. Live: release.json sourceCommit matches, data 213 images, en/ja/zh, books.json, share pages ko/en/ja/zh incl. 31:31-34, 8:22-9:1 and zh 43:5-7, zh card 200, admin 401.",
+    "koreanCombinedVerses": "Korean Jeremiah 21:1-2, Acts 15:25-26 and Romans 9:1-2 shown and shared as combined verses (placeholder [n절과 같음] no longer displayed); other languages unchanged. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, share titles 예레미야 21:1–2 / 사도행전 15:25–26 / 로마서 9:1–2, English Jeremiah 21:2 unchanged, admin 401."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 51,
@@ -99,7 +100,7 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "832b9f0163fb896eec68e056bd4793c43c5e9e83",
+  "gitCommit": "cc1461b8ea65a687462434fb41b44d1f08bbf4ba",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
@@ -107,7 +108,7 @@
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
   "frozenSource": "/private/tmp/vible-release-3b6674c2f9c8",
-  "sourceCommit": "832b9f0163fb896eec68e056bd4793c43c5e9e83",
+  "sourceCommit": "cc1461b8ea65a687462434fb41b44d1f08bbf4ba",
   "latestFeedbackRelease": {
     "date": "2026-10-12",
     "correctedImages": 25,
