@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "production": "https://vible.now",
-  "deployment": "https://vible-2raei3lm6-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_EuRFWwFbW5d4AqFfnxyneiRUNZWS",
-  "newImageFiles": 1619,
+  "deployment": "https://vible-f7vweryd4-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_WJ3yVxLYrsRJyRizKU65Vp29cyJN",
+  "newImageFiles": 25,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -74,10 +74,11 @@
     "noteDialogClose": "UI-only: note dialog close button moved off the card preview. Frozen npm run check and check-offline passed. Before deploy, production dpl_FhSMxXc86LYM7VzwiCUtiDFFqVen (newer than the record) served files identical to cd35da7 (236 static files matched). Live: new markup/CSS/JS, placeholder 200, share page 200, admin 401.",
     "songofsongs": "New book Song of Songs (63/63 scenes, 118 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; 6:13-14 bridged in en/ja/zh (Korean has 6:14). 63 CDN files byte-verified against asset-hosting sha256. Frozen npm run check and check-offline passed. Before deploy, production dpl_CzUccPg4vjcUXyyF9aVsXZidjHc1 served files identical to e3da2c7. Live: SW vible-songofsongs-20261011, data 63 images, en/ja/zh translations, share pages ko/en/ja/zh incl. 2:10-13 and 6:13-14 with attribution, ja/zh cards 200, admin 401.",
     "cjkCardBreaksAndIcons": "UI-only: CJK share cards keep closing punctuation off line starts (server and canvas); scene icons closer. Frozen npm run check and check-offline passed. Production dpl_51Yofrugq78N14P5pds3v8mEMJtx (Vercel git auto-deploy of c6ece1c) matched 5be5a01 files. Live: new CSS/JS, ja card 200, share page 200, placeholder 200, admin 401.",
-    "otBatchAndBookRegistry": "Nine new books (1-2 Chronicles, Ezra, Nehemiah, Esther, Job, Ecclesiastes, Daniel, Jonah; 1619 scenes, 4314 verses) in ko/en/ja/zh with combined-verse ranges per translations.md; 66-book registry with coming-soon entries and data/books.json for apps. 1619 CDN files byte-verified. First deploy attempt rejected by Vercel (includeFiles >256 chars) and fixed with a *-books.json glob plus a guard in check-shell. Frozen npm run check and check-offline passed. Production dpl before deploy (Vercel git auto-deploy) matched 82bf1e9. Live: SW vible-ot-books66-20261012, books.json 43 configs/51 abbreviation sets, all nine books full images and en/ja/zh, share pages incl. Jonah 1:17-2:1 ja and Job 38:37-38 zh, ja card 200, admin 401."
+    "otBatchAndBookRegistry": "Nine new books (1-2 Chronicles, Ezra, Nehemiah, Esther, Job, Ecclesiastes, Daniel, Jonah; 1619 scenes, 4314 verses) in ko/en/ja/zh with combined-verse ranges per translations.md; 66-book registry with coming-soon entries and data/books.json for apps. 1619 CDN files byte-verified. First deploy attempt rejected by Vercel (includeFiles >256 chars) and fixed with a *-books.json glob plus a guard in check-shell. Frozen npm run check and check-offline passed. Production dpl before deploy (Vercel git auto-deploy) matched 82bf1e9. Live: SW vible-ot-books66-20261012, books.json 43 configs/51 abbreviation sets, all nine books full images and en/ja/zh, share pages incl. Jonah 1:17-2:1 ja and Job 38:37-38 zh, ja card 200, admin 401.",
+    "feedback20261012": "25 selected images individually inspected, body/hand detail crops rechecked; one failed hand edit discarded and freshly regenerated using only identity portraits. Private before/after SHA-256 comparisons preserved. 25 CDN exact byte/hash/MIME matches. All 256 Scripture/translation JSON files preserved, 51 books and four languages. Frozen npm run check and check-offline passed. Local and live mobile readers, share pages and real 1200px PNG cards passed for every replacement across ko/en/ja/zh. All 12 affected live book JSON files match frozen compiled data; admin endpoint 401."
   },
   "newTranslationFiles": 21,
-  "translationBooksPerLanguage": 41,
+  "translationBooksPerLanguage": 51,
   "features": {
     "feedback": {
       "storage": "vible-feedback",
@@ -91,12 +92,23 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "883d0ce71630c8d54fe42387b1678bff5684e884",
+  "gitCommit": "972c4f10773a0357515b820bcaf7888137f794f2",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v3.jpg"
   },
-  "frozenSource": "/private/tmp/vible-release-883d0ce71630",
-  "sourceCommit": "0e96867"
+  "frozenSource": "/private/tmp/vible-release-972c4f10773a",
+  "sourceCommit": "972c4f10773a0357515b820bcaf7888137f794f2",
+  "latestFeedbackRelease": {
+    "date": "2026-10-12",
+    "correctedImages": 25,
+    "identityDecisionsPending": 2,
+    "qa": "review/feedback-20261012-image-audit.json",
+    "generationMode": {
+      "edit": 22,
+      "fresh": 3
+    },
+    "existingArtRetained": true
+  }
 }
