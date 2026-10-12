@@ -448,3 +448,5 @@ html.desktop-app .immersive .reading-workspace{height:100dvh}
 
 /* Books not yet released stay visible in the picker so apps list them before release. */
 .book-grid button.book-soon,.book-grid button.book-soon:hover{display:flex;flex-direction:column;align-items:flex-start;gap:1px;opacity:.5;cursor:default;background:transparent}.book-grid button.book-soon small{font-size:10px;line-height:1.2}
+/* A scene image still loading after a moment dims the previous picture so a slow switch is visible. */
+#visual{transition:opacity .2s}#visual.is-loading{opacity:.35;transition:opacity .3s .3s}

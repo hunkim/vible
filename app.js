@@ -24,7 +24,7 @@ import {bookPicker} from './book-picker.js';
 import {sceneFeedback} from './feedback.js';
 import {isNative,SITE_ORIGIN,fetchContent} from './platform.js';
 import {text,localizeDocument} from './i18n.js';
-import {offlineImages,offlineImageURL} from './image-cache.js';
+import {offlineImages,keepOffline,cachedImageURL} from './image-cache.js';
 import {localizeInstall} from './install.js';
 const $=id=>document.getElementById(id);
 const pad=n=>String(n).padStart(2,'0');
@@ -53,14 +53,20 @@ function showView(next){view=next;window.scrollTo({top:0,behavior:'instant'});fo
 function remember(){if(preview||!data)return;try{localStorage.setItem(`visual-bible-${bookId}`,String(data.scenes[current].id));const s=data.scenes[current];localStorage.setItem(`vible-position-${bookId}`,JSON.stringify({chapter:s.chapter,verse:s.first}));}catch{}}
 function loadSceneImage(s,force=false){
  const img=$('visual'),status=$('image-loading'),src=image(s);
- if(!force&&(img.dataset?.source||img.getAttribute('src'))===src)return;
+ if(!force&&img.dataset.source===src)return;
  const copy={ko:['그림을 불러오는 중입니다','그림을 불러오지 못했습니다','다시 시도'],en:['Loading image','Image could not load','Retry'],ja:['画像を読み込み中','画像を読み込めませんでした','再試行'],zh:['正在加载图片','图片加载失败','重试']}[language];
  status.textContent=copy[0];status.hidden=Boolean(s.imagePending);
- img.onload=()=>{status.hidden=true;};
- img.onerror=()=>{if(s.imagePending)return;status.hidden=false;status.textContent=copy[1]+' ';const retry=document.createElement('button');retry.textContent=copy[2];retry.onclick=()=>loadSceneImage(s,true);status.append(retry);};
+ img.dataset.source=src;img.classList.add('is-loading');
+ const done=()=>{status.hidden=true;img.classList.remove('is-loading');};
+ img.onload=()=>{if(img.dataset.source!==src)return;done();if(offlineImages&&!img.src.startsWith('blob:'))keepOffline(src);};
+ img.onerror=async()=>{
+  if(offlineImages&&!img.src.startsWith('blob:')){const cached=await cachedImageURL(src);if(cached&&img.dataset.source===src){img.src=cached;return;}}
+  if(img.dataset.source!==src)return;img.classList.remove('is-loading');if(s.imagePending)return;
+  status.hidden=false;status.textContent=copy[1]+' ';const retry=document.createElement('button');retry.textContent=copy[2];retry.onclick=()=>loadSceneImage(s,true);status.append(retry);
+ };
  if(force)img.removeAttribute('src');
- if(offlineImages){img.dataset.source=src;offlineImageURL(src).then(url=>{if(img.dataset.source===src)img.src=url;});}else img.src=src;
- if(img.complete&&img.naturalWidth)status.hidden=true;
+ img.src=src;
+ if(img.complete&&img.naturalWidth)done();
 }
 function updateScene(index){
  if(index<0||index>=data.scenes.length)return;
