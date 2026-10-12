@@ -1,6 +1,6 @@
 {
   "name": "vible-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Store app shells (Capacitor for iOS/Android, Tauri for macOS/Windows) around the web build in ../dist-native",
   "scripts": {
