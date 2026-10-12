@@ -1,8 +1,8 @@
 {
   "date": "2026-10-12",
   "production": "https://vible.now",
-  "deployment": "https://vible-7fvhxmlg9-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_9u1pgLW8J7u2VeK2vH3pCgriaSc5",
+  "deployment": "https://vible-gml86eub6-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_8PuhJ3FrjN5iLpaMEmYroLZRvjR7",
   "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
@@ -77,7 +77,8 @@
     "otBatchAndBookRegistry": "Nine new books (1-2 Chronicles, Ezra, Nehemiah, Esther, Job, Ecclesiastes, Daniel, Jonah; 1619 scenes, 4314 verses) in ko/en/ja/zh with combined-verse ranges per translations.md; 66-book registry with coming-soon entries and data/books.json for apps. 1619 CDN files byte-verified. First deploy attempt rejected by Vercel (includeFiles >256 chars) and fixed with a *-books.json glob plus a guard in check-shell. Frozen npm run check and check-offline passed. Production dpl before deploy (Vercel git auto-deploy) matched 82bf1e9. Live: SW vible-ot-books66-20261012, books.json 43 configs/51 abbreviation sets, all nine books full images and en/ja/zh, share pages incl. Jonah 1:17-2:1 ja and Job 38:37-38 zh, ja card 200, admin 401.",
     "feedback20261012": "25 selected images individually inspected, body/hand detail crops rechecked; one failed hand edit discarded and freshly regenerated using only identity portraits. Private before/after SHA-256 comparisons preserved. 25 CDN exact byte/hash/MIME matches. All 256 Scripture/translation JSON files preserved, 51 books and four languages. Frozen npm run check and check-offline passed. Local and live mobile readers, share pages and real 1200px PNG cards passed for every replacement across ko/en/ja/zh. All 12 affected live book JSON files match frozen compiled data; admin endpoint 401.",
     "psalm150FriendAndGitWorkflow": "Approved finale v4 preserves existing worshippers and adds friend in ancient clothing; exact CDN SHA-256 verified. Required npm check stages and offline check passed (initial build retried after temporary disk exhaustion). All 256 original data files preserved except approved image name. KO/EN/JA/ZH live mobile image, PNG cards, continue-reading and private admin verified. Preflight verified 3118 Git archive files and latest main. Production release.json equals source SHA. Git-only deployment and metadata-only skip guards tested.",
-    "sharedCardCacheVersion": "Full npm run check and check-offline passed from Git archive. Card version derives from original filename/SHA-256 and passage; replacement changes only related card URL. Shared pages and unversioned legacy cards no-store; matching versioned cards cached. Existing CDN cache purged once for migration. KO/EN/JA/ZH live versioned card equals freshly rendered PNG byte-for-byte, original version response header and no-store headers verified. All content and approved finale v4 preserved."
+    "sharedCardCacheVersion": "Full npm run check and check-offline passed from Git archive. Card version derives from original filename/SHA-256 and passage; replacement changes only related card URL. Shared pages and unversioned legacy cards no-store; matching versioned cards cached. Existing CDN cache purged once for migration. KO/EN/JA/ZH live versioned card equals freshly rendered PNG byte-for-byte, original version response header and no-store headers verified. All content and approved finale v4 preserved.",
+    "nativeImageDisplay": "App code: scene images load from the network immediately in store apps (offline copy saved after display, used on failure); slow loads dim the previous picture. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; deployed by Vercel Git integration. Live: release.json sourceCommit matches, new app.js/style.css, share page 200, books.json 200, admin 401. Verified in Mac app: Job to Psalms switch shows the new picture at once."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 51,
@@ -94,7 +95,7 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "3b6674c2f9c89eaf99cc03e9f2f3e89a9627e94b",
+  "gitCommit": "442bc08b570d1e7972497477a9b6977075b83c08",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
@@ -102,7 +103,7 @@
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
   "frozenSource": "/private/tmp/vible-release-3b6674c2f9c8",
-  "sourceCommit": "3b6674c2f9c89eaf99cc03e9f2f3e89a9627e94b",
+  "sourceCommit": "442bc08b570d1e7972497477a9b6977075b83c08",
   "latestFeedbackRelease": {
     "date": "2026-10-12",
     "correctedImages": 25,
