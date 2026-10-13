@@ -51,7 +51,7 @@
     "macOS": {
       "minimumSystemVersion": "11.0",
       "entitlements": "Entitlements.plist",
-      "bundleVersion": "5"
+      "bundleVersion": "6"
     }
   }
 }

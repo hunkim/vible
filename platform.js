@@ -42,6 +42,7 @@ export const canPromptReview=platform==='ios';
 export async function requestReview(){if(!canPromptReview)return false;await plugin('Review','request');return true;}
 export function openReviewPage(){if(platform==='ios')return plugin('Review','openStore');if(canRateApp)return tauri.opener.openUrl(MAC_REVIEW);}
 // Mac App Store apps update only through the App Store, so the app menu gets a "Check for Updates…" item that opens it.
+// The label follows the macOS language like the system's own menu items, not the reading language.
 let updateItem=null;
 export async function setupUpdateMenu(label){
  if(!tauri?.menu||!/Mac/.test(navigator.userAgent))return;

@@ -554,7 +554,7 @@ async function init(){
 }
 function localizeHeader(){
  search.localize();
- document.documentElement.lang=language;localizeDocument(language);setupUpdateMenu(text(language).checkUpdates);localizeInstall();$('font-size').textContent=t().textSize(fontSize);
+ document.documentElement.lang=language;localizeDocument(language);setupUpdateMenu(text(normalizeLanguage(navigator.language)||'en').checkUpdates);localizeInstall();$('font-size').textContent=t().textSize(fontSize);
  const copy=interfaceCopy[language];
  for(const [id,key] of [['notes-tab','notes'],['save-note','saveNote'],['share-card','imageShare'],['share-link','linkShare'],['download-card','saveImage'],['copy-link','copyLink']])$(id).textContent=copy[key];
  document.querySelector('#navigation-dialog .menu-help').textContent=copy.help;
