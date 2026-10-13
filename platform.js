@@ -40,6 +40,9 @@ const MAC_REVIEW='macappstore://apps.apple.com/app/id6821509962?action=write-rev
 export const canRateApp=platform==='ios'||Boolean(tauri&&/Mac/.test(navigator.userAgent));
 export const canPromptReview=platform==='ios';
 export async function requestReview(){if(!canPromptReview)return false;await plugin('Review','request');return true;}
+// iOS updates come from the App Store; the menu link opens the app's page there.
+export const canOpenStorePage=platform==='ios';
+export function openStorePage(){if(canOpenStorePage)return plugin('Review','openStore',{review:false});}
 export function openReviewPage(){if(platform==='ios')return plugin('Review','openStore');if(canRateApp)return tauri.opener.openUrl(MAC_REVIEW);}
 // Mac App Store apps update only through the App Store, so the app menu gets a "Check for Updates…" item that opens it.
 // The label follows the macOS language like the system's own menu items, not the reading language.

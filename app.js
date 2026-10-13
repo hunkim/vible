@@ -28,7 +28,7 @@ import {annotations} from './annotations.js';
 import {scriptureSearch} from './search-ui.js';
 import {bookPicker} from './book-picker.js';
 import {sceneFeedback} from './feedback.js';
-import {isNative,SITE_ORIGIN,fetchContent,canRateApp,canPromptReview,requestReview,openReviewPage,setupUpdateMenu} from './platform.js';
+import {isNative,SITE_ORIGIN,fetchContent,canRateApp,canPromptReview,requestReview,openReviewPage,setupUpdateMenu,canOpenStorePage,openStorePage} from './platform.js';
 import {text,localizeDocument} from './i18n.js';
 import {offlineImages,keepOffline,cachedImageURL} from './image-cache.js';
 import {localizeInstall} from './install.js';
@@ -519,6 +519,7 @@ async function init(){
  $('reader-previous-chapter').onclick=()=>goTo(data.scenes.findIndex(s=>s.chapter===data.scenes[current].chapter-1));
  $('reader-next-chapter').onclick=()=>goTo(data.scenes.findIndex(s=>s.chapter===data.scenes[current].chapter+1));
  $('explain').addEventListener('click',()=>{$('explanation').hidden=!$('explanation').hidden;$('explain').setAttribute('aria-expanded',String(!$('explanation').hidden));});
+ $('check-updates').hidden=!canOpenStorePage;$('check-updates').onclick=()=>{$('navigation-dialog').hidePopover?.();Promise.resolve(openStorePage()).catch(()=>{});};
  $('rate-app').hidden=!canRateApp;$('rate-app').onclick=()=>{$('navigation-dialog').hidePopover?.();markRated();Promise.resolve(openReviewPage()).catch(()=>{});};
  $('source-button').addEventListener('click',()=>$('source-dialog').showModal());$('close-source').addEventListener('click',()=>$('source-dialog').close());
  function setFont(size){

@@ -31,7 +31,7 @@ class AppViewController: CAPBridgeViewController {
     }
 }
 
-// App Store rating: Apple's prompt (Apple decides whether and how often it appears) and the write-review page.
+// App Store: Apple's rating prompt (Apple decides whether and how often it appears), and the app's page or its write-review page.
 @objc(ReviewPlugin)
 public class ReviewPlugin: CAPPlugin, CAPBridgedPlugin {
     public let identifier = "ReviewPlugin"
@@ -52,7 +52,8 @@ public class ReviewPlugin: CAPPlugin, CAPBridgedPlugin {
 
     @objc func openStore(_ call: CAPPluginCall) {
         DispatchQueue.main.async {
-            guard let url = URL(string: "itms-apps://apps.apple.com/app/id6821509962?action=write-review") else { return call.reject("Invalid URL") }
+            let page = call.getBool("review", true) ? "?action=write-review" : ""
+            guard let url = URL(string: "itms-apps://apps.apple.com/app/id6821509962" + page) else { return call.reject("Invalid URL") }
             UIApplication.shared.open(url) { opened in opened ? call.resolve() : call.reject("App Store unavailable") }
         }
     }
