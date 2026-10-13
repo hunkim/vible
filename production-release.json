@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "production": "https://vible.now",
-  "deployment": "https://vible-a6au99ql5-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_Da5j61XPX1wg1n61XYArSYfXzw9J",
-  "newImageFiles": 330,
+  "deployment": "https://vible-6g4vjpzj8-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_E8otjCVoCd53KH4UBFBpttam3Mkn",
+  "newImageFiles": 55,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -100,7 +100,8 @@
     "ezekielHosea": "Ezekiel (141 scenes, 1273 verses) and Hosea (42 scenes, 197 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; all editions use English chapter boundaries; OpenCCB combined Ezekiel 16:56-57 and 41:9-10; Korean Ezekiel 24:4-5 combined (placeholder hidden). 183 CDN files byte-verified. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, data full images, en/ja/zh, books.json, share pages incl. 24:4-5, 20:49-21:1, Hosea 11:12-12:1 ja, zh combined verse, ja card 200, admin 401.",
     "isaiah": "Isaiah (542 scenes, 1292 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; same chapter boundaries in all editions; Korean 7:8-9, 30:1-2, 48:1-2 combined (placeholders hidden); ja 4:3-4 and zh 4:3-4, 10:1-2, 65:6-7 combined. 542 CDN files byte-verified (R2 bucket about 5.4 GB). Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, data 542 images, en/ja/zh, books.json, share pages incl. 7:8-9, 9:1-2 en, ja 4:3-4, zh card 200, admin 401.",
     "appRating": "App code: iOS rating prompt at the end of a book (120-day limit, skipped after the rate link), Rate VibleNow menu link on iOS/Mac; store apps bumped to 1.0.1. Web unchanged (rate button hidden). Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, rate button hidden on web, share 200, admin 401.",
-    "all66": "Joel-Malachi (330 scenes, 805 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; all editions use English boundaries (Joel 2:28/3:1, Micah 5:1, Nahum 1:15, Zech 1:18, Mal 4:1 checked); OpenCCB combined Zephaniah 2:1-2 and 2:8-9. All 66 books released. 330 CDN files byte-verified. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, all ten books full images and en/ja/zh, share pages incl. zh 2:1-2 and Zech 1:21-2:1, ja card 200, admin 401."
+    "all66": "Joel-Malachi (330 scenes, 805 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; all editions use English boundaries (Joel 2:28/3:1, Micah 5:1, Nahum 1:15, Zech 1:18, Mal 4:1 checked); OpenCCB combined Zephaniah 2:1-2 and 2:8-9. All 66 books released. 330 CDN files byte-verified. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, all ten books full images and en/ja/zh, share pages incl. zh 2:1-2 and Zech 1:21-2:1, ja card 200, admin 401.",
+    "feedback20261013": "156 new reports independently checked against original art, actual Scripture and image-plan intent. 55 selected edits enlarged/reviewed; a failed Jonah foreground identity replacement discarded and revised by removal. All before/after thumbnails and JPEG hashes retained privately. 55 CDN exact bytes/SHA-256/MIME matches. All 66 books and ko/en/ja/zh text preserved; only reviewed image filenames changed. Frozen npm run check and check-offline passed; preflight verified 3235 tracked archive files. Every replacement passed live mobile reader, exact translated verse, original-hash versioned 1200px PNG card, continue-reading and source SHA tests across four languages; private admin 401. No global cache purge: only replaced original-derived card URLs change."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 51,
@@ -117,24 +118,28 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "ef9fc6a7e6b68032df3264853d693e44582bd50c",
+  "gitCommit": "6a895a5d761c052569cafd02d6ddefa769ddf0af",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v4.jpg",
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
-  "frozenSource": "/private/tmp/vible-release-3b6674c2f9c8",
-  "sourceCommit": "ef9fc6a7e6b68032df3264853d693e44582bd50c",
+  "frozenSource": "/private/tmp/vible-release-6a895a5d761c",
+  "sourceCommit": "6a895a5d761c052569cafd02d6ddefa769ddf0af",
   "latestFeedbackRelease": {
-    "date": "2026-10-12",
-    "correctedImages": 25,
-    "identityDecisionsPending": 2,
-    "qa": "review/feedback-20261012-image-audit.json",
+    "date": "2026-10-13",
+    "correctedImages": 55,
+    "newReportsReviewed": 156,
+    "rejectedWithEvidence": 63,
+    "newNeedsInfo": 38,
+    "existingNeedsInfoUnchanged": 2,
+    "qa": "review/feedback-20261013-image-audit.json",
     "generationMode": {
-      "edit": 22,
-      "fresh": 3
+      "edit": 55,
+      "fresh": 0
     },
-    "existingArtRetained": true
+    "existingArtRetained": true,
+    "privateBeforeAfterComparisons": true
   }
 }
