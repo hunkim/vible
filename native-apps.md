@@ -59,8 +59,8 @@ python3 resources/generate.py   # 아이콘·스플래시 재생성
 
 | 플랫폼 | 상태 | 빌드 |
 |---|---|---|
-| iOS·iPadOS | 1.0 출시(2026-10-12), 1.0.1 심사 대기 | 1.0.1 (7) |
-| macOS (Mac App Store) | 1.0.0 출시, 1.0.1 심사 대기 | 1.0.1 (3), universal, App Sandbox |
+| iOS·iPadOS | 1.0.1 출시(2026-10-13), 1.0.2 심사 대기 | 1.0.2 (8) |
+| macOS (Mac App Store) | 1.0.0 출시, 1.0.1 심사 중, 1.0.2 업로드됨 | 1.0.1 (3) · 1.0.2 (4), universal, App Sandbox |
 | Android | Play Console 본인 인증 대기 | AAB 1.0.0 (1) 준비 |
 | Windows | 미빌드 (Windows 환경 필요) | — |
 
