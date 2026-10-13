@@ -1,8 +1,8 @@
 {
   "date": "2026-10-13",
   "production": "https://vible.now",
-  "deployment": "https://vible-ohnauzspr-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_39y4sy6vjBGvcpdwdDNLieEoas8Q",
+  "deployment": "https://vible-6nl51y88r-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_5DxvbsWpFnuia285cNhqsCDRVa5y",
   "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
@@ -102,7 +102,7 @@
     "appRating": "App code: iOS rating prompt at the end of a book (120-day limit, skipped after the rate link), Rate VibleNow menu link on iOS/Mac; store apps bumped to 1.0.1. Web unchanged (rate button hidden). Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, rate button hidden on web, share 200, admin 401.",
     "all66": "Joel-Malachi (330 scenes, 805 verses) in ko 개역한글 1961, en BSB, ja 口語訳1955, zh OpenCCB 2022; all editions use English boundaries (Joel 2:28/3:1, Micah 5:1, Nahum 1:15, Zech 1:18, Mal 4:1 checked); OpenCCB combined Zephaniah 2:1-2 and 2:8-9. All 66 books released. 330 CDN files byte-verified. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, all ten books full images and en/ja/zh, share pages incl. zh 2:1-2 and Zech 1:21-2:1, ja card 200, admin 401.",
     "feedback20261013": "156 new reports independently checked against original art, actual Scripture and image-plan intent. 55 selected edits enlarged/reviewed; a failed Jonah foreground identity replacement discarded and revised by removal. All before/after thumbnails and JPEG hashes retained privately. 55 CDN exact bytes/SHA-256/MIME matches. All 66 books and ko/en/ja/zh text preserved; only reviewed image filenames changed. Frozen npm run check and check-offline passed; preflight verified 3235 tracked archive files. Every replacement passed live mobile reader, exact translated verse, original-hash versioned 1200px PNG card, continue-reading and source SHA tests across four languages; private admin 401. No global cache purge: only replaced original-derived card URLs change.",
-    "nextBookButton": "UI: end-of-book \"Continue to <next book>\" button in ko/en/ja/zh (browser-tested Malachi to Matthew). Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment; preserves feedback corrections from 6a895a5. Live: release.json sourceCommit matches, new app.js, admin 401."
+    "nextBookButton": "UI: end-of-book \"Continue to <next book>\" button on its own line below the note, ko/en/ja/zh (browser-tested Malachi to Matthew). Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, new style.css, admin 401."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 51,
@@ -119,7 +119,7 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "3a3afae61dd29d49b9c86105b794f282ae970f4e",
+  "gitCommit": "0782d2c4f0cdb9db51c31eaa2feb6bf47abd98d8",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
@@ -127,7 +127,7 @@
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
   "frozenSource": "/private/tmp/vible-release-6a895a5d761c",
-  "sourceCommit": "3a3afae61dd29d49b9c86105b794f282ae970f4e",
+  "sourceCommit": "0782d2c4f0cdb9db51c31eaa2feb6bf47abd98d8",
   "latestFeedbackRelease": {
     "date": "2026-10-13",
     "correctedImages": 55,
