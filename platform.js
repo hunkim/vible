@@ -41,6 +41,18 @@ export const canRateApp=platform==='ios'||Boolean(tauri&&/Mac/.test(navigator.us
 export const canPromptReview=platform==='ios';
 export async function requestReview(){if(!canPromptReview)return false;await plugin('Review','request');return true;}
 export function openReviewPage(){if(platform==='ios')return plugin('Review','openStore');if(canRateApp)return tauri.opener.openUrl(MAC_REVIEW);}
+// Mac App Store apps update only through the App Store, so the app menu gets a "Check for Updates…" item that opens it.
+let updateItem=null;
+export async function setupUpdateMenu(label){
+ if(!tauri?.menu||!/Mac/.test(navigator.userAgent))return;
+ try{
+  if(updateItem){await updateItem.setText(label);return;}
+  const {Menu,MenuItem,PredefinedMenuItem}=tauri.menu,menu=await Menu.default(),[appMenu]=await menu.items();
+  updateItem=await MenuItem.new({id:'check-updates',text:label,action:()=>tauri.opener.openUrl('macappstore://apps.apple.com/app/id6821509962')});
+  await appMenu.insert([updateItem,await PredefinedMenuItem.new({item:'Separator'})],1);
+  await menu.setAsAppMenu();
+ }catch{}
+}
 // Keep links to other sites out of the app webview (custom app schemes have an opaque origin, so compare scheme and host).
 if(isNative)document.addEventListener('click',e=>{const a=e.target.closest?.('a[href]');if(!a||a.hasAttribute('download'))return;const url=new URL(a.href,location.href),here=new URL(location.href);if(url.protocol===here.protocol&&url.host===here.host)return;e.preventDefault();openExternal(url.href);});
 // vible.now links (Universal Links / App Links) open the same passage in the bundled reader.

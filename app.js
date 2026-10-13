@@ -28,7 +28,7 @@ import {annotations} from './annotations.js';
 import {scriptureSearch} from './search-ui.js';
 import {bookPicker} from './book-picker.js';
 import {sceneFeedback} from './feedback.js';
-import {isNative,SITE_ORIGIN,fetchContent,canRateApp,canPromptReview,requestReview,openReviewPage} from './platform.js';
+import {isNative,SITE_ORIGIN,fetchContent,canRateApp,canPromptReview,requestReview,openReviewPage,setupUpdateMenu} from './platform.js';
 import {text,localizeDocument} from './i18n.js';
 import {offlineImages,keepOffline,cachedImageURL} from './image-cache.js';
 import {localizeInstall} from './install.js';
@@ -554,7 +554,7 @@ async function init(){
 }
 function localizeHeader(){
  search.localize();
- document.documentElement.lang=language;localizeDocument(language);localizeInstall();$('font-size').textContent=t().textSize(fontSize);
+ document.documentElement.lang=language;localizeDocument(language);setupUpdateMenu(text(language).checkUpdates);localizeInstall();$('font-size').textContent=t().textSize(fontSize);
  const copy=interfaceCopy[language];
  for(const [id,key] of [['notes-tab','notes'],['save-note','saveNote'],['share-card','imageShare'],['share-link','linkShare'],['download-card','saveImage'],['copy-link','copyLink']])$(id).textContent=copy[key];
  document.querySelector('#navigation-dialog .menu-help').textContent=copy.help;
