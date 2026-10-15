@@ -58,6 +58,7 @@ await fs.cp(path.join(root,'icons'),path.join(output,'icons'),{recursive:true});
 await fs.cp(path.join(root,'data/translations'),path.join(output,'data/translations'),{recursive:true});
 await fs.writeFile(path.join(root,'data/translations/catalog.json'),JSON.stringify(catalog,null,2));
 await fs.writeFile(path.join(output,'data/translations/catalog.json'),JSON.stringify(catalog));
+await fs.copyFile(path.join(root,'data/app-version.json'),path.join(output,'data/app-version.json'));
 // Apps built earlier learn about books released since then from this file (titles, chapter names, search abbreviations).
 const catalogBooks=Object.assign({},...await Promise.all((await fs.readdir(root)).filter(file=>file.endsWith('-catalog.js')).map(async file=>Object.fromEntries(Object.entries(await import(path.join(root,file))).filter(([name])=>name.endsWith('Books')).flatMap(([,value])=>Object.entries(value))))));
 await fs.writeFile(path.join(output,'data/books.json'),JSON.stringify({books:Object.fromEntries(books.filter(b=>catalogBooks[b.id]).map(b=>[b.id,catalogBooks[b.id]])),abbreviations:Object.fromEntries(books.map(b=>[b.id,abbreviations[b.id]||[]]))}));

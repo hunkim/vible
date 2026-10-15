@@ -104,3 +104,13 @@ console.log(`Store app bundle verified (${(bytes/1e6).toFixed(1)} MB, ${catalog.
  store.clear();ctx.canPromptReview=false;considerReview(9);assert.equal(asked.length,2,'web and other platforms never prompt');
  console.log('Rating prompt: iOS only, when a book is finished, at most once per 120 days and never after the rate link was used.');
 }
+{
+ // Store update pill: shown only when the live store version (data/app-version.json) is newer than the installed app.
+ const {newerVersion,storeUpdateAvailable}=await import('./platform.js');
+ assert.equal(newerVersion('1.0.4','1.0.3'),true);assert.equal(newerVersion('1.1','1.0.9'),true);assert.equal(newerVersion('1.0.3','1.0.3'),false);
+ assert.equal(newerVersion('1.0.2','1.0.10'),false);assert.equal(newerVersion(null,'1.0.0'),false);assert.equal(newerVersion('2.0.0','1.9'),true);
+ assert.equal(await storeUpdateAvailable(async()=>{throw Error('web must not fetch');}),false,'the website never shows the store update pill');
+ const versions=JSON.parse((await import('node:fs')).readFileSync('data/app-version.json','utf8'));
+ for(const key of ['ios','macos','android'])assert(key in versions&&(versions[key]===null||/^\d+(\.\d+)+$/.test(versions[key])),`app-version.json ${key}`);
+ console.log('Store update pill: version comparison, web never prompts, app-version.json format.');
+}

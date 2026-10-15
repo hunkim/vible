@@ -57,6 +57,23 @@ export async function setupUpdateMenu(label){
   await menu.setAsAppMenu();
  }catch{}
 }
+// Store apps compare their own version with the latest live store version (data/app-version.json, updated only
+// after a release is live) and offer an update; the store itself installs it.
+const storePlatform=platform==='ios'?'ios':platform==='android'?'android':tauri&&/Mac/.test(navigator.userAgent)?'macos':null;
+export const newerVersion=(latest,current)=>{const a=String(latest||'').split('.').map(Number),b=String(current||'').split('.').map(Number);for(let i=0;i<Math.max(a.length,b.length);i++){if((a[i]||0)!==(b[i]||0))return (a[i]||0)>(b[i]||0);}return false;};
+export async function storeUpdateAvailable(fetchImpl=globalThis.fetch){
+ if(!storePlatform)return false;
+ try{
+  const current=capacitor?(await plugin('App','getInfo')).version:await tauri.app.getVersion();
+  const response=await fetchImpl(`${SITE_ORIGIN}/data/app-version.json`,{cache:'no-store'});if(!response.ok)return false;
+  return newerVersion((await response.json())[storePlatform],current);
+ }catch{return false;}
+}
+export function openStoreUpdate(){
+ if(storePlatform==='ios')return plugin('Review','openStore',{review:false});
+ if(storePlatform==='macos')return tauri.opener.openUrl('macappstore://apps.apple.com/app/id6821509962');
+ if(storePlatform==='android')return plugin('Browser','open',{url:'https://play.google.com/store/apps/details?id=now.vible.app'});
+}
 // Keep links to other sites out of the app webview (custom app schemes have an opaque origin, so compare scheme and host).
 if(isNative)document.addEventListener('click',e=>{const a=e.target.closest?.('a[href]');if(!a||a.hasAttribute('download'))return;const url=new URL(a.href,location.href),here=new URL(location.href);if(url.protocol===here.protocol&&url.host===here.host)return;e.preventDefault();openExternal(url.href);});
 // vible.now links (Universal Links / App Links) open the same passage in the bundled reader.
