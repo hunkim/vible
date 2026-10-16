@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-16",
   "production": "https://vible.now",
-  "deployment": "https://vible-5ablrwgf8-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_RSGEfXbTbBkCYSkH1PUnPcEURxsL",
-  "newImageFiles": 0,
+  "deployment": "https://vible-vhs7elo2r-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_Lf6pegKFkmdqfyp66ZJBmKJsG3hd",
+  "newImageFiles": 4,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -104,7 +104,8 @@
     "feedback20261013": "156 new reports independently checked against original art, actual Scripture and image-plan intent. 55 selected edits enlarged/reviewed; a failed Jonah foreground identity replacement discarded and revised by removal. All before/after thumbnails and JPEG hashes retained privately. 55 CDN exact bytes/SHA-256/MIME matches. All 66 books and ko/en/ja/zh text preserved; only reviewed image filenames changed. Frozen npm run check and check-offline passed; preflight verified 3235 tracked archive files. Every replacement passed live mobile reader, exact translated verse, original-hash versioned 1200px PNG card, continue-reading and source SHA tests across four languages; private admin 401. No global cache purge: only replaced original-derived card URLs change.",
     "nextBookButton": "UI: end-of-book \"Continue to <next book>\" button on its own line below the note, ko/en/ja/zh (browser-tested Malachi to Matthew). Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, new style.css, admin 401.",
     "appStoreInstall": "Web install dialog on iPhone/iPad/Mac links to the App Store app (ko/en/ja/zh); other platforms keep browser install. Includes app-only commits (update menus, rating). Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, install.js has the App Store link, share 200, admin 401.",
-    "storeUpdatePill": "Store apps: update pill above scene controls when data/app-version.json (ios 1.0.3, macos 1.0.1, android null) is newer than the installed app; web never shows it. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, /data/app-version.json 200 with CORS *, admin 401."
+    "storeUpdatePill": "Store apps: update pill above scene controls when data/app-version.json (ios 1.0.3, macos 1.0.1, android null) is newer than the installed app; web never shows it. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, /data/app-version.json 200 with CORS *, admin 401.",
+    "feedback20261016": "Four selected localized edits: Psalm138 idol removal after admin direction (prior winged-motif evidence corrected); Psalm144 separated archery hands; Mark9 prophet relaxed wrist; Zechariah6 circlet seated around turban. All actual whole frames and visible hands/contact regions enlarged and compared with Scripture; identities, Jesus back-only face rule, and background retained. Private before/after matching JPEG hashes preserved. Four exact CDN bytes/hash/MIME checks. All 332 data files preserved except four image filename substitutions; all 66 books and ko/en/ja/zh retained. Frozen npm run check and offline passed; preflight verified 3236 Git archive files. All four live mobile reader images/exact translated verses/versioned 1200px PNG cards/continue-reading passed across four languages; release SHA matches and private admin401. No global cache flush."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 51,
@@ -121,25 +122,23 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "51bab0f0f6f5963b498b19e453863efaa1707228",
+  "gitCommit": "80fa8790f8817b30ce7c9dd1ff758af13abbb3cd",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v4.jpg",
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
-  "frozenSource": "/private/tmp/vible-release-6a895a5d761c",
-  "sourceCommit": "51bab0f0f6f5963b498b19e453863efaa1707228",
+  "frozenSource": "/private/tmp/vible-release-80fa8790f881",
+  "sourceCommit": "80fa8790f8817b30ce7c9dd1ff758af13abbb3cd",
   "latestFeedbackRelease": {
-    "date": "2026-10-13",
-    "correctedImages": 55,
-    "newReportsReviewed": 156,
-    "rejectedWithEvidence": 63,
-    "newNeedsInfo": 38,
-    "existingNeedsInfoUnchanged": 2,
-    "qa": "review/feedback-20261013-image-audit.json",
+    "date": "2026-10-16",
+    "correctedImages": 4,
+    "newReportsReviewed": 2,
+    "adminRereviews": 2,
+    "qa": "review/feedback-20261016-image-audit.json",
     "generationMode": {
-      "edit": 55,
+      "edit": 4,
       "fresh": 0
     },
     "existingArtRetained": true,
