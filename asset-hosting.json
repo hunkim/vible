@@ -41789,6 +41789,22 @@
     "proverbs-c016-v014-014-right-context-v1-feedback-20261013-v1.jpg": {
       "sha256": "551e95583d5e87a66e991b8f8c6be24add66b7b724accb0f935f251d40c76925",
       "bytes": 462381
+    },
+    "psalms-c138-v001-002-right-context-v1-feedback-20261016-v1.jpg": {
+      "sha256": "75243c30685ee51516b84648098e0c89002c1469ed0150cc382755b5908cd457",
+      "bytes": 372016
+    },
+    "psalms-c144-v001-002-right-context-v1-feedback-20261016-v1.jpg": {
+      "sha256": "98e001dcbd991b9f98907c8440b6b3ee05db22426edb775850c78d1ba44f36a3",
+      "bytes": 410717
+    },
+    "mark-067-right-v1-feedback-20261016-v1.jpg": {
+      "sha256": "e670b0cfb058a216015cf3c118bf26ff94610892e5580a8f7d4b60f0763ff6eb",
+      "bytes": 375810
+    },
+    "zechariah-c006-v012-013-right-context-v1-feedback-20261016-v1.jpg": {
+      "sha256": "cfbea667025f6971ae24181f5516c8449980807f546d293b9e36f81caf600f08",
+      "bytes": 356336
     }
   }
 }
