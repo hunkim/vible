@@ -55,7 +55,7 @@ try{
  assert.equal(resume.textContent,'이어 읽기 · 23장 →');assert.equal(numbers.length,150,'Psalms shows all 150 chapters');assert.equal(numbers[22].className,'chapter-current');
  numbers[118].onclick();resume.onclick();assert.deepEqual(opened,[['psalms',119,null],['psalms',23,null]]);
  ids['book-results'].querySelectorAll().find(button=>button.textContent==='시편').onclick();assert(!ids['book-results'].querySelectorAll().some(button=>button.className==='chapter-resume'),'Tapping the book again collapses its chapters');
- ids['book-results'].querySelectorAll().find(button=>button.textContent==='룻기').onclick();assert.equal(ids['book-results'].querySelectorAll().find(button=>button.className==='chapter-resume').textContent,'1장부터 →','Unread books start at chapter 1');
+ ids['book-results'].querySelectorAll().find(button=>button.textContent==='룻기').onclick();assert(!ids['book-results'].querySelectorAll().some(button=>button.className==='chapter-resume'),'Unread books show only the chapter numbers');ids['book-results'].querySelectorAll().find(button=>button.className==='chapter-panel-title').onclick();assert.deepEqual(opened.at(-1),['ruth',1,null],'The book name in the panel opens chapter 1');
  input.value='시 23';input.dispatchEvent(new Event('input'));const jump=ids['book-results'].querySelectorAll().find(button=>button.className==='chapter-jump-result');assert.equal(jump.textContent,'시편 23장 →');jump.onclick();assert.deepEqual(opened.at(-1),['psalms',23,null]);
 }finally{Object.assign(globalThis,saved);}
 console.log('Book picker IME: live Korean composition, confirmation key and clearing verified.');

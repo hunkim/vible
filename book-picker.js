@@ -22,11 +22,14 @@ export function bookPicker(getContext,{openChapter=()=>{},lastChapter=()=>null}=
  function choose(id){go(id,lastChapter(id)||1);}
  function chapterPanel(book){
   const panel=document.createElement('div');panel.className='chapter-panel';
-  const head=document.createElement('div');head.className='chapter-panel-head';const title=document.createElement('strong');title.textContent=book.name;const count=document.createElement('small');count.textContent=c().chapters(chapterCount[book.id]||0);head.append(title,count);
-  const last=lastChapter(book.id),resume=document.createElement('button');resume.type='button';resume.className='chapter-resume';resume.textContent=`${last?c().resume(last):c().start} →`;resume.onclick=()=>go(book.id,last||1);
+  // One header line: the book name (opens the last-read chapter or chapter 1) and either "Continue · N" or the chapter count.
+  const head=document.createElement('div');head.className='chapter-panel-head';const last=lastChapter(book.id);
+  const title=document.createElement('button');title.type='button';title.className='chapter-panel-title';title.textContent=book.name;title.onclick=()=>go(book.id,last||1);head.append(title);
+  if(last){const resume=document.createElement('button');resume.type='button';resume.className='chapter-resume';resume.textContent=`${c().resume(last)} →`;resume.onclick=()=>go(book.id,last);head.append(resume);}
+  else{const count=document.createElement('small');count.textContent=c().chapters(chapterCount[book.id]||0);head.append(count);}
   const grid=document.createElement('div');grid.className='chapter-grid';
   for(let n=1;n<=(chapterCount[book.id]||0);n++){const button=document.createElement('button');button.type='button';button.textContent=String(n);button.setAttribute('aria-label',c().go(book.name,n));if(n===last)button.className='chapter-current';button.onclick=()=>go(book.id,n);grid.append(button);}
-  panel.append(head,resume,grid);return panel;
+  panel.append(head,grid);return panel;
  }
  function showSide(book){if(!book)return side.replaceChildren();side.replaceChildren(chapterPanel(book));}
  function group(title,items){
