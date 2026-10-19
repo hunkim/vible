@@ -1,8 +1,8 @@
 {
   "date": "2026-10-16",
   "production": "https://vible.now",
-  "deployment": "https://vible-al6n9gyxq-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_Cwwiq8MNi7ffbJHJmC4KaF5XQDC1",
+  "deployment": "https://vible-18ds7n4fy-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_8h6tHLLXm2QRymV46YjvetQdQSDF",
   "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
@@ -109,7 +109,8 @@
     "chapterPicker": "UI: book picker chapter grid (tap-to-expand on touch/narrow, side panel on wide hover), resume/1장부터, search jumps (창 12, Gen 12, 요 3:16), reader chapter label opens current book chapters; includes main feedback corrections 80fa879. Browser-tested mobile and wide; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, new book-picker.js, admin 401.",
     "chapterPanelHeader": "UI: chapter panel header holds book name (opens last-read or chapter 1) and Continue or chapter count; app-version.json macos 1.0.2 (live since 2026-10-15). Browser-tested mobile; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, app-version.json updated, admin 401.",
     "chapterPickerInline": "UI: chapters expand under the chosen book on all screens (side panel removed); no duplicate panel for recent books. Browser-tested wide; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, admin 401.",
-    "chapterPickerHoverIntent": "UI: wide-screen chapter side panel restored with 250 ms hover intent (holds when pointer enters panel); touch/narrow keep tap-to-expand; no duplicate panels. Browser-tested pass-over case; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches."
+    "chapterPickerHoverIntent": "UI: wide-screen chapter side panel restored with 250 ms hover intent (holds when pointer enters panel); touch/narrow keep tap-to-expand; no duplicate panels. Browser-tested pass-over case; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches.",
+    "koreanEditionRegistry": "Structure for more than one Korean edition (data/translations/editions.json with krv only; selector hidden; ed= share param; per-edition search index) with no unlicensed text; check-languages now runs after build. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, editions.json 200, share pages with and without ed=krv 200, admin 401."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 51,
@@ -126,7 +127,7 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "317ae9923a2a9564c4890ce53771d630f2568254",
+  "gitCommit": "714ce462d5df5de433f249a83f4c8ff0482eb830",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
@@ -134,7 +135,7 @@
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
   "frozenSource": "/private/tmp/vible-release-80fa8790f881",
-  "sourceCommit": "317ae9923a2a9564c4890ce53771d630f2568254",
+  "sourceCommit": "714ce462d5df5de433f249a83f4c8ff0482eb830",
   "latestFeedbackRelease": {
     "date": "2026-10-16",
     "correctedImages": 4,
