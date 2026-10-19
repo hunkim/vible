@@ -456,7 +456,7 @@ html.desktop-app .immersive .reading-workspace{height:100dvh}
 .next-book-button{display:flex;width:fit-content;align-items:center;margin-top:14px;padding:10px 18px;border:1px solid #e6d8bb80;border-radius:999px;background:#0000002e;color:#f4ead2;font-size:14px;font-weight:600;cursor:pointer;transition:background .15s}.next-book-button:hover{background:#ffffff1f}
 /* Store apps: a newer store version is live; the pill floats above the scene controls like a messenger update prompt. */
 .app-update-pill{position:absolute;left:50%;bottom:calc(100% + 12px);transform:translateX(-50%);z-index:5;padding:11px 24px;border:0;border-radius:999px;background:linear-gradient(135deg,#6f9be0,#4f7fd1);color:#fff;font-size:15px;font-weight:600;white-space:nowrap;box-shadow:0 6px 20px #0005;cursor:pointer}.app-update-pill:hover{filter:brightness(1.06)}.app-update-pill[hidden]{display:none}
-/* Book picker: chapter numbers expand under the tapped book (touch/narrow) or show beside the list (wide with a mouse). */
+/* Book picker: chapter numbers expand directly under the chosen book. */
 .chapter-panel{grid-column:1/-1;margin:2px 0 8px;padding:10px 10px 12px;border-radius:12px;background:#ecefe7}
 .chapter-panel-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 2px 8px;min-height:34px}.chapter-panel-title{padding:4px 2px;font-size:14px;font-weight:600;color:#283c34;text-align:left}.chapter-panel-head small{font-size:11px;color:#778471}
 .chapter-resume,.chapter-jump-result{display:inline-flex;align-items:center;margin:0;padding:7px 13px;border-radius:999px;background:#283c34;color:#f8f7f1;font-size:13px;font-weight:600}
@@ -465,10 +465,4 @@ html.desktop-app .immersive .reading-workspace{height:100dvh}
 .chapter-grid button{min-height:40px;border:1px solid #d3d9cd;border-radius:8px;background:#fbfaf5;font-size:14px;color:#283c34}.chapter-grid button:hover{background:#e4e9df}
 .chapter-grid button.chapter-current{background:#dde7f5;border-color:#7d9cc9;color:#1f4f8f;font-weight:600}
 .chapter-all-books{margin:10px 4px 0;padding:6px 4px;font-size:13px;color:#5a6b5c}
-#book-picker-dialog.two-pane[open]{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);grid-template-rows:auto auto minmax(0,1fr)}
-#book-picker-dialog.two-pane .book-picker-heading{grid-column:1/-1}
-#book-picker-dialog.two-pane #book-query{grid-column:1;width:calc(100% - 28px);margin-right:12px}
-#book-picker-dialog.two-pane #book-results{grid-column:1;grid-row:3}
-#book-picker-dialog.two-pane .book-chapters{grid-column:2;grid-row:2/4;overflow:auto;padding:4px 16px 16px 4px}
-#book-picker-dialog.two-pane .chapter-panel{margin:0;min-height:100%}
 #reader-chapter{cursor:pointer;border-bottom:1px dashed #ffffff55}#reader-chapter:hover{border-bottom-color:#fff}
