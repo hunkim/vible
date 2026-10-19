@@ -1,8 +1,8 @@
 {
   "date": "2026-10-16",
   "production": "https://vible.now",
-  "deployment": "https://vible-bacqul6ci-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_38cRNtEUGYoq1v8xqf3KaZYknehN",
+  "deployment": "https://vible-al6n9gyxq-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_Cwwiq8MNi7ffbJHJmC4KaF5XQDC1",
   "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
@@ -108,7 +108,8 @@
     "feedback20261016": "Four selected localized edits: Psalm138 idol removal after admin direction (prior winged-motif evidence corrected); Psalm144 separated archery hands; Mark9 prophet relaxed wrist; Zechariah6 circlet seated around turban. All actual whole frames and visible hands/contact regions enlarged and compared with Scripture; identities, Jesus back-only face rule, and background retained. Private before/after matching JPEG hashes preserved. Four exact CDN bytes/hash/MIME checks. All 332 data files preserved except four image filename substitutions; all 66 books and ko/en/ja/zh retained. Frozen npm run check and offline passed; preflight verified 3236 Git archive files. All four live mobile reader images/exact translated verses/versioned 1200px PNG cards/continue-reading passed across four languages; release SHA matches and private admin401. No global cache flush.",
     "chapterPicker": "UI: book picker chapter grid (tap-to-expand on touch/narrow, side panel on wide hover), resume/1장부터, search jumps (창 12, Gen 12, 요 3:16), reader chapter label opens current book chapters; includes main feedback corrections 80fa879. Browser-tested mobile and wide; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, new book-picker.js, admin 401.",
     "chapterPanelHeader": "UI: chapter panel header holds book name (opens last-read or chapter 1) and Continue or chapter count; app-version.json macos 1.0.2 (live since 2026-10-15). Browser-tested mobile; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, app-version.json updated, admin 401.",
-    "chapterPickerInline": "UI: chapters expand under the chosen book on all screens (side panel removed); no duplicate panel for recent books. Browser-tested wide; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, admin 401."
+    "chapterPickerInline": "UI: chapters expand under the chosen book on all screens (side panel removed); no duplicate panel for recent books. Browser-tested wide; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, admin 401.",
+    "chapterPickerHoverIntent": "UI: wide-screen chapter side panel restored with 250 ms hover intent (holds when pointer enters panel); touch/narrow keep tap-to-expand; no duplicate panels. Browser-tested pass-over case; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 51,
@@ -125,7 +126,7 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "e956ac837b79cc9afefb075785191dfcc3f604d6",
+  "gitCommit": "317ae9923a2a9564c4890ce53771d630f2568254",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
@@ -133,7 +134,7 @@
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
   "frozenSource": "/private/tmp/vible-release-80fa8790f881",
-  "sourceCommit": "e956ac837b79cc9afefb075785191dfcc3f604d6",
+  "sourceCommit": "317ae9923a2a9564c4890ce53771d630f2568254",
   "latestFeedbackRelease": {
     "date": "2026-10-16",
     "correctedImages": 4,
