@@ -16,7 +16,7 @@ import {hoseaBooks} from './hosea-catalog.js';
 import {isaiahBooks} from './isaiah-catalog.js';
 import {minorprophetsBooks} from './minorprophets-catalog.js';
 import {assetURL} from './assets.js';
-import {initialLanguage,normalizeLanguage,languageNames,bookNames,messages,applyTranslation,interfaceCopy} from './languages.js';
+import {initialLanguage,normalizeLanguage,languageNames,bookNames,messages,applyTranslation,interfaceCopy,EDITIONS_FILE,noEditions,validateEditions,findEdition,editionList,activeEdition,searchIndexFile,shareEditionId,savedEdition,saveEdition,editionMenu,loadEditionText} from './languages.js';
 import {epistleBooks} from './epistles-catalog.js';
 import {pentateuchBooks} from './pentateuch-catalog.js';
 import {psalmsBooks} from './psalms-catalog.js';
@@ -37,6 +37,11 @@ const pad=n=>String(n).padStart(2,'0');
 const preview=new URLSearchParams(location.search).has('preview');
 let data,bookId='john',loadVersion=0,current=0,view='read',scrollFrame=0,fontSize=19,manual=false;
 let language='ko',catalog={ko:{books:[]}},preferredLanguage='ko';
+// Bible editions (data/translations/editions.json): a shared link's `ed` applies for this visit, otherwise the saved choice or the default.
+let editions=noEditions;const editionChoice={};
+function storage(){try{return localStorage;}catch{return null;}}
+const preferredEdition=lang=>editionChoice[lang]??savedEdition(storage(),lang);
+const nonBaseEdition=()=>Boolean(data?.edition&&!findEdition(editions,language,data.edition)?.base);
 // The picker opens a book at a chosen chapter, or at the chapter last read there.
 let pendingChapter=null;
 const sceneAt=(chapter,verse)=>data.scenes.findIndex(s=>s.chapter===chapter&&(!verse||s.first<=verse&&s.last>=verse));
@@ -49,10 +54,10 @@ function lastChapter(id){try{return JSON.parse(localStorage.getItem(`vible-posit
 const picker=bookPicker(()=>({bookId,language}),{openChapter,lastChapter});
 const ui=()=>messages[language];
 const t=()=>text(language);
-const notes=annotations(()=>({data,bookId,language}));
+const notes=annotations(()=>({data,bookId,language,edition:shareEditionId(editions,language,bookId,data?.edition),editionNotice:nonBaseEdition()?data.attribution:''}));
 $('share-scene').onclick=()=>notes.shareScene(data.scenes[current]);
 const feedback=sceneFeedback(()=>({bookId,language,scene:data?.scenes[current],reference:data?reference(data.scenes[current]):''}));
-const search=scriptureSearch(()=>({ready:Boolean(data),bookId,language,name:data?.book||bookNames[language][bookId]}),async verse=>{
+const search=scriptureSearch(()=>({ready:Boolean(data),bookId,language,name:data?.book||bookNames[language][bookId],searchIndex:searchIndexFile(language,activeEdition(editions,language,preferredEdition(language)))}),async verse=>{
  if(bookId!==verse.book||language!==verse.language)await loadBook(verse.book,verse.language,true);
  const index=data.scenes.findIndex(s=>s.chapter===verse.chapter&&s.first<=verse.verse&&s.last>=verse.verse);
  if(index<0)throw Error('Verse unavailable');goTo(index);
@@ -436,15 +441,18 @@ async function loadReleasedBooks(){try{const response=await fetchContent('data/b
 async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  if(!books[id])id='john';
  const version=++loadVersion;
- $('book').disabled=true;$('language').disabled=true;$('open-language').disabled=true;remember();cancelAnimationFrame(scrollFrame);
+ $('book').disabled=true;$('language').disabled=true;$('open-language').disabled=true;$('edition').disabled=true;remember();cancelAnimationFrame(scrollFrame);
  try{
  const response=await fetchContent(`data/${id}.json`);if(!response.ok)throw Error(text(language).loadFailed);let next=await response.json();
- if(nextLanguage!=='ko'||catalog.ko?.licensedBooks?.includes(id)){
+ // Another edition replaces the whole book when it has it; otherwise the usual text below is shown.
+ const editionText=await loadEditionText(next,{registry:editions,lang:nextLanguage,book:id,preferred:preferredEdition(nextLanguage),fetchImpl:fetchContent});
+ if(editionText)next=editionText;
+ else if(nextLanguage!=='ko'||catalog.ko?.licensedBooks?.includes(id)){
   const translated=await fetchContent(`data/translations/${nextLanguage}/${id}.json`);
   if(!translated.ok)throw Error(messages[nextLanguage].unavailable);
   next=applyTranslation(next,await translated.json(),nextLanguage);
  }
- next.language=nextLanguage;
+ next.language=nextLanguage;next.edition??=editionList(editions,nextLanguage).find(edition=>edition.base)?.id||'';
  if(version!==loadVersion)return;
  data=next;bookId=id;language=nextLanguage;localizeHeader();current=0;document.body.dataset.book=id;document.body.dataset.letter=epistleBooks[id]?'true':'false';const config=books[id];
  $('book').value=id;document.title=`${t().appTitle} · ${data.book}`;
@@ -462,7 +470,8 @@ async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  renderBook();notes.refresh();renderStory();renderGallery();
  $('translation-attribution').textContent=data.attribution||'성경전서 개역한글판 © 대한성서공회 1961.';
  $('translation-edition').textContent=data.translation;
- $('text-data').href=data.textData||'https://github.com/yuhwan/Bible-krv';$('translation-license').href=data.copyrightSource||'https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5';
+ $('text-data').href=data.textData||data.source||'https://github.com/yuhwan/Bible-krv';
+ if(nonBaseEdition())$('source-notes').textContent=$('source-notes').textContent.replaceAll('개역한글',data.translation);$('translation-license').href=data.copyrightSource||'https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5';
  if(language!=='ko'){
   $('gallery-title').textContent=`${data.book} · ${ui().gallery}`;$('gallery-description').textContent=ui().scenes(data.sceneCount);
   $('story-title').textContent=`${data.book} · ${ui().story}`;$('story-copy').textContent='';$('book-context').textContent='';$('chapter-map-title').textContent=ui().story;
@@ -470,7 +479,7 @@ async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  }
  let saved=0;try{if(!preview){saved=Number(localStorage.getItem(`visual-bible-${id}`))-1;const position=JSON.parse(localStorage.getItem(`vible-position-${id}`)||'null');if(position)saved=data.scenes.findIndex(s=>s.chapter===position.chapter&&s.first<=position.verse&&s.last>=position.verse);localStorage.setItem('visual-bible-book',id);}}catch{}
  const params=new URLSearchParams(location.search);const linked=params.get('book')===id?data.scenes.findIndex(s=>s.chapter===Number(params.get('chapter'))&&s.first<=Number(params.get('verse'))&&s.last>=Number(params.get('verse'))):-1;const chosen=pendingChapter?.id===id?sceneAt(pendingChapter.chapter,pendingChapter.verse):-1;pendingChapter=null;goTo(startAtBeginning?0:chosen>=0?chosen:linked>=0?linked:Number.isInteger(saved)&&saved>=0&&saved<data.scenes.length?saved:0);
- }finally{if(version===loadVersion){$('book').disabled=false;$('language').disabled=false;$('open-language').disabled=false;}}
+ }finally{if(version===loadVersion){$('book').disabled=false;$('language').disabled=false;$('open-language').disabled=false;$('edition').disabled=false;}}
 }
 function popoverOpen(element){return typeof element.showPopover==='function'&&!element.dataset.fallback?element.matches(':popover-open'):element.dataset.fallbackOpen==='true';}
 function supportPopovers(){
@@ -495,6 +504,12 @@ async function init(){
   const requested=$('language').value;
   if(!catalog[requested]?.books.includes(bookId)){$('language-status').textContent=messages[requested].unavailable;$('language').value=language;return;}
   try{await loadBook(bookId,requested);preferredLanguage=requested;try{localStorage.setItem('vible-language',requested);}catch{}const url=new URL(location.href);url.searchParams.set('lang',requested);history.replaceState(null,'',url);$('language-status').textContent='';}catch(e){showError(e);$('language').value=language;}
+ };
+ $('edition').onchange=async()=>{
+  const lang=language,id=$('edition').value,scene=data.scenes[current];editionChoice[lang]=id;saveEdition(storage(),lang,id);
+  const url=new URL(location.href);if(url.searchParams.has('ed')){url.searchParams.delete('ed');history.replaceState(null,'',url);}
+  pendingChapter={id:bookId,chapter:scene.chapter,verse:scene.first};
+  try{await loadBook(bookId,lang);}catch(e){showError(e);}
  };
  for(const key of ['read','story','gallery'])$(`${key}-tab`).addEventListener('click',()=>{$('navigation-dialog').hidePopover();showView(key);if(key==='gallery')renderGallery();});
  const menu=$('navigation-dialog'),menuButton=$('open-menu');
@@ -560,6 +575,8 @@ async function init(){
  preferredLanguage=initialLanguage({url:params.get('lang'),saved:storedLanguage,locales:navigator.languages||[navigator.language]});
  await loadReleasedBooks();
  const catalogResponse=await fetchContent('data/translations/catalog.json');if(!catalogResponse.ok)throw Error('Language catalog unavailable');catalog=await catalogResponse.json();
+ try{const response=await fetchContent(EDITIONS_FILE);if(response.ok)editions=validateEditions(await response.json());}catch{editions=noEditions;}
+ const linkedEdition=params.get('ed'),linkedLanguage=normalizeLanguage(params.get('lang'))||'ko';if(linkedEdition&&findEdition(editions,linkedLanguage,linkedEdition))editionChoice[linkedLanguage]=linkedEdition;
  let initial=params.get('book');try{if(!initial&&!preview)initial=localStorage.getItem('visual-bible-book');}catch{}const firstBook=books[initial]?initial:'john';const ready=catalog[preferredLanguage]?.books.includes(firstBook);
  if(!ready)$('language-status').textContent=messages[preferredLanguage].unavailable;
  await loadBook(firstBook,ready?preferredLanguage:'ko');
@@ -576,6 +593,8 @@ function localizeHeader(){
  $('language-flag').textContent={ko:'🇰🇷',en:'🇺🇸',ja:'🇯🇵',zh:'🇨🇳'}[language];$('open-language').setAttribute('aria-label',`${ui().language}: ${languageNames[language]}`);$('open-language').title=ui().language;
  for(const button of document.querySelectorAll('[data-language]')){button.setAttribute('aria-checked',String(button.dataset.language===language));button.querySelector('small').textContent=catalog[button.dataset.language]?.books.includes(bookId)?'':{ko:'준비 중',en:'Coming soon',ja:'準備中',zh:'准备中'}[button.dataset.language];}$('language').value=language;$('language').setAttribute('aria-label',ui().language);
  for(const option of $('book').options)option.textContent=bookNames[language][option.value];picker.localize();
+ const choice=language==='ko'?editionMenu(editions,language,bookId,data?.edition):{visible:false,options:[]};$('edition-setting').hidden=!choice.visible;
+ if(choice.visible){$('edition').replaceChildren(...choice.options.map(o=>{const option=new Option(o.disabled?`${o.label} · ${t().editionComingSoon}`:o.label,o.id);option.disabled=o.disabled;return option;}));$('edition').value=choice.value;}
  for(const [id,key] of [['read-tab','read'],['story-tab','story'],['gallery-tab','gallery'],['source-button','source']])$(id).textContent=ui()[key];
  $('previous').querySelector('.step-label').textContent=ui().previous;$('next').querySelector('.step-label').textContent=ui().next;
  $('font-smaller').textContent=language==='ko'?'가−':language==='en'?'A−':'字−';$('font-larger').textContent=language==='ko'?'가+':language==='en'?'A+':'字+';

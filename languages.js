@@ -24,9 +24,11 @@ export const languages=['ko','en','ja','zh'];
 export const languageNames={ko:'한국어',en:'English',ja:'日本語',zh:'中文'};
 export function normalizeLanguage(value){const code=String(value||'').toLowerCase().split(/[-_]/)[0];return languages.includes(code)?code:null;}
 export function initialLanguage({url='',saved='',locales=[]}={}){return normalizeLanguage(url)||normalizeLanguage(saved)||locales.map(normalizeLanguage).find(Boolean)||'ko';}
-export function passageURL(book,chapter,verse,endChapter=chapter,endVerse=verse,lang='ko'){
+// `edition` is added only for an edition other than the language's default, so existing links stay unchanged.
+export function passageURL(book,chapter,verse,endChapter=chapter,endVerse=verse,lang='ko',edition=''){
  const start=`/share/${book}/${chapter}/${verse}`,path=Number(chapter)===Number(endChapter)&&Number(verse)===Number(endVerse)?start:`${start}/${endChapter}/${endVerse}`;
- return lang==='ko'?path:`${path}?lang=${lang}`;
+ const query=new URLSearchParams();if(lang!=='ko')query.set('lang',lang);if(edition)query.set('ed',edition);
+ return String(query)?`${path}?${query}`:path;
 }
 export const bookNames={ko:{'1corinthians':'고린도전서',matthew:'마태복음',mark:'마가복음',luke:'누가복음',genesis:'창세기',john:'요한복음',acts:'사도행전',romans:'로마서',revelation:'요한계시록'},en:{'1corinthians':'1 Corinthians',matthew:'Matthew',mark:'Mark',luke:'Luke',genesis:'Genesis',john:'John',acts:'Acts',romans:'Romans',revelation:'Revelation'},ja:{'1corinthians':'コリントの信徒への手紙一',matthew:'マタイによる福音書',mark:'マルコによる福音書',luke:'ルカによる福音書',genesis:'創世記',john:'ヨハネによる福音書',acts:'使徒言行録',romans:'ローマの信徒への手紙',revelation:'ヨハネの黙示録'},zh:{'1corinthians':'哥林多前书',matthew:'马太福音',mark:'马可福音',luke:'路加福音',genesis:'创世记',john:'约翰福音',acts:'使徒行传',romans:'罗马书',revelation:'启示录'}};
 for(const lang of languages)Object.assign(bookNames[lang],pentateuchNames[lang],historicalNames[lang],psalmsNames[lang],proverbsNames[lang],songofsongsNames[lang],firstChroniclesNames[lang],secondChroniclesNames[lang],ezraNames[lang],nehemiahNames[lang],estherNames[lang],jobNames[lang],ecclesiastesNames[lang],danielNames[lang],jonahNames[lang],jeremiahNames[lang],lamentationsNames[lang],ezekielNames[lang],hoseaNames[lang],isaiahNames[lang],minorprophetsNames[lang],epistleNames[lang]);
@@ -61,3 +63,58 @@ export const interfaceCopy={
  ja:{notes:'ノート・ハイライト',help:'本文を選択するか節番号を押すと、ハイライト、ノート、リンク・カード共有ができます。',hideText:'本文を隠して絵を見る',showText:'本文を表示',menu:'メニューを開く',closeMenu:'メニューを閉じる',saveNote:'ノートを保存',imageShare:'画像を共有',linkShare:'リンクを共有',saveImage:'画像を保存',copyLink:'リンクをコピー',reflection:'私の黙想',placeholder:'このみことばから心に残ったことを書いてください。',install:'Vibleをインストール'},
  zh:{notes:'我的笔记与标记',help:'选择经文或点击节号，即可标记、写笔记、分享链接或经文卡片。',hideText:'隐藏文字，欣赏图片',showText:'显示经文',menu:'打开菜单',closeMenu:'关闭菜单',saveNote:'保存笔记',imageShare:'分享图片',linkShare:'分享链接',saveImage:'保存图片',copyLink:'复制链接',reflection:'我的默想',placeholder:'记下这段经文带给你的感动。',install:'安装 Vible'}
 };
+
+// Bible editions per reading language (data/translations/editions.json). The base edition is the text the app has always
+// shown (Korean: data/<book>.json, 개역한글 1961); another edition lives in data/translations/<lang>-<id>/<book>.json in the
+// translation-file format and covers only the books it lists. A whole book always comes from one edition.
+export const EDITIONS_FILE='data/translations/editions.json';
+export const noEditions={version:1,languages:{}};
+const editionText=value=>typeof value==='string'&&value.trim().length>0;
+export function validateEditions(registry){
+ if(!registry||registry.version!==1||!registry.languages||typeof registry.languages!=='object')throw Error('Invalid edition registry');
+ for(const [lang,entry] of Object.entries(registry.languages)){
+  if(!languages.includes(lang))throw Error(`Unknown edition language: ${lang}`);
+  const list=entry?.editions;if(!Array.isArray(list)||!list.length)throw Error(`${lang}: no editions`);
+  const ids=new Set();
+  for(const edition of list){
+   if(!/^[a-z0-9]{2,24}$/.test(edition?.id||'')||ids.has(edition.id))throw Error(`${lang}: invalid or duplicate edition id ${edition?.id}`);ids.add(edition.id);
+   for(const name of languages)if(!editionText(edition.names?.[name]))throw Error(`${lang}/${edition.id}: missing ${name} name`);
+   for(const key of ['translation','attribution','source','licenseSource'])if(!editionText(edition[key]))throw Error(`${lang}/${edition.id}: missing ${key}`);
+   if(edition.base){if(edition.path!==undefined||edition.books!==undefined)throw Error(`${lang}/${edition.id}: the base edition uses the existing text files`);continue;}
+   if(edition.path!==`${lang}-${edition.id}`)throw Error(`${lang}/${edition.id}: path must be ${lang}-${edition.id}`);
+   if(!Array.isArray(edition.books)||!edition.books.length||new Set(edition.books).size!==edition.books.length||!edition.books.every(book=>/^[a-z0-9]+$/.test(book)))throw Error(`${lang}/${edition.id}: books must list the covered books`);
+   if(!edition.permissions?.display||!edition.permissions?.shareCards)throw Error(`${lang}/${edition.id}: display and card-sharing permissions are required`);
+  }
+  if(list.filter(edition=>edition.base).length!==1)throw Error(`${lang}: exactly one base edition is required`);
+  if(!ids.has(entry.default))throw Error(`${lang}: unknown default edition ${entry.default}`);
+ }
+ return registry;
+}
+export const editionList=(registry,lang)=>registry?.languages?.[lang]?.editions||[];
+export const findEdition=(registry,lang,id)=>editionList(registry,lang).find(edition=>edition.id===id)||null;
+export const editionCovers=(edition,book)=>Boolean(edition&&(edition.base||edition.books?.includes(book)));
+// The chosen (or default) edition when it has this book, otherwise the base text; null when the language lists no editions.
+export function editionForBook(registry,lang,book,preferred=null){
+ const list=editionList(registry,lang);if(!list.length)return null;
+ const chosen=findEdition(registry,lang,preferred)||findEdition(registry,lang,registry.languages[lang].default);
+ return editionCovers(chosen,book)?chosen:list.find(edition=>edition.base);
+}
+export const activeEdition=(registry,lang,preferred=null)=>findEdition(registry,lang,preferred)||findEdition(registry,lang,registry?.languages?.[lang]?.default);
+export const editionFile=(edition,book)=>edition&&!edition.base?`data/translations/${edition.path}/${book}.json`:null;
+export const searchIndexFile=(lang,edition)=>edition&&!edition.base?`data/search/${edition.path}.json`:`data/search/${lang}.json`;
+// Share links name the edition only when it differs from what the link would show without it.
+export function shareEditionId(registry,lang,book,shown){const fallback=editionForBook(registry,lang,book);return shown&&fallback&&shown!==fallback.id?shown:'';}
+export const editionStorageKey=lang=>`vible-edition-${lang}`;
+export function savedEdition(storage,lang){try{return storage?.getItem(editionStorageKey(lang))||null;}catch{return null;}}
+export function saveEdition(storage,lang,id){try{storage?.setItem(editionStorageKey(lang),id);}catch{}}
+// The ☰ menu offers editions only when the reading language has two or more.
+export function editionMenu(registry,lang,book,shown){
+ const list=editionList(registry,lang);if(list.length<2)return {visible:false,options:[],value:''};
+ return {visible:true,value:shown||'',options:list.map(edition=>({id:edition.id,label:edition.names[lang]||edition.names.ko,disabled:!editionCovers(edition,book)}))};
+}
+// Reads the edition's file for the book; returns null when it has no file for it (the caller then shows the base text).
+export async function loadEditionText(base,{registry,lang,book,preferred,fetchImpl}){
+ const edition=editionForBook(registry,lang,book,preferred),file=editionFile(edition,book);
+ if(!file)return null;
+ try{const response=await fetchImpl(file);if(!response?.ok)return null;return {...applyTranslation(base,await response.json(),lang),edition:edition.id};}catch{return null;}
+}

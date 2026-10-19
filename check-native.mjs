@@ -11,7 +11,7 @@ const exists=async file=>fs.access(path.join(out,file)).then(()=>true,()=>false)
 for(const file of ['sw.js','manifest.webmanifest'])assert.equal(await exists(file),false,`${file} must not ship in store apps`);
 assert.deepEqual((await fs.readdir(out)).filter(f=>f.endsWith('-image-plan.json')),[],'prompt plans stay on vible.now');
 const html=await fs.readFile(path.join(out,'index.html'),'utf8');assert(!html.includes('manifest.webmanifest'));assert(html.includes('src="app.js"'));
-for(const file of ['platform.js','app.js','assets.js','assets/image-pending.svg','data/translations/catalog.json'])assert(await exists(file),file);
+for(const file of ['platform.js','app.js','assets.js','assets/image-pending.svg','data/translations/catalog.json','data/translations/editions.json'])assert(await exists(file),file);
 assert.match(await fs.readFile(path.join(out,'assets.js'),'utf8'),/ASSET_ORIGIN="https:\/\/images\.vible\.now"/);
 const catalog=JSON.parse(await fs.readFile(path.join(out,'data/translations/catalog.json'),'utf8'));
 for(const id of catalog.ko.books)assert(await exists(`data/${id}.json`),id);
@@ -84,6 +84,12 @@ const perms=JSON.parse(await fs.readFile(path.join(root,'native/desktop/src-taur
  await new Promise(r=>setTimeout(r,10));assert(stores.has('https://vible.now/data/proverbs.json'),'remote copy cached in background');
  assert.equal((await (await mobile.fetchContent('data/proverbs.json',{fetchImpl,store})).json()).v,'remote','next open uses the refreshed release');
  online=false;assert.equal((await (await mobile.fetchContent('data/proverbs.json',{fetchImpl,store})).json()).v,'remote','offline keeps the last refreshed release');
+ // A Korean edition switched on after this app build: the bundled registry is refreshed from vible.now, and its book
+ // files and search index, absent from the bundle, come from vible.now and are kept for offline reading.
+ online=true;const editionFetch=async u=>u.startsWith('https://')?new Response(`{"v":"remote ${u.slice(18)}"}`):new Response('',{status:404});
+ assert.equal((await (await mobile.fetchContent('data/translations/editions.json',{fetchImpl,store})).json()).v,'bundled');await new Promise(r=>setTimeout(r,10));
+ assert.equal((await (await mobile.fetchContent('data/translations/editions.json',{fetchImpl,store})).json()).v,'remote','the next open sees the deployed registry');
+ for(const file of ['data/translations/ko-test/john.json','data/search/ko-test.json'])assert.equal((await (await mobile.fetchContent(file,{fetchImpl:editionFetch,store})).json()).v,`remote ${file}`,file);
  const web=vm.runInNewContext(source,{document:{addEventListener(){}},navigator:{},location:{href:'https://vible.now/'},URL,URLSearchParams});
  seen.length=0;await web.fetchContent('data/john.json',{fetchImpl,store});assert.deepEqual(seen,['data/john.json'],'the website fetches its own files directly');}
 const vercelConfig=JSON.parse(await fs.readFile(path.join(root,'vercel.json'),'utf8'));assert(vercelConfig.headers.some(h=>h.source==='/data/(.*)'&&h.headers.some(x=>x.key==='Access-Control-Allow-Origin'&&x.value==='*')),'apps can read public release data');

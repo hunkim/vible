@@ -6,7 +6,7 @@ import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {createSearchIndex} from './scripture-search.js';
 import {releaseData} from './release-data.mjs';
-import {applyTranslation,languages} from './languages.js';
+import {applyTranslation,languages,validateEditions,editionList} from './languages.js';
 import {abbreviations} from './scripture-search.js';
 const root=path.dirname(new URL(import.meta.url).pathname);
 const read=async file=>JSON.parse(await fs.readFile(path.join(root,file),'utf8'));
@@ -46,6 +46,23 @@ for(const {id,data} of books){
   if(lang!=='ko')catalog[lang].books.push(id);catalog[lang].licensedBooks.push(id);
  }
 }
+// Edition registry: the base edition must describe the text already shipped; another edition must have exactly the listed
+// book files, with the registry's translation, attribution and license, complete for every verse position.
+const editions=validateEditions(await read('data/translations/editions.json'));
+const editionTexts=[];
+for(const lang of Object.keys(editions.languages))for(const edition of editionList(editions,lang)){
+ if(edition.base){if(lang==='ko')for(const {id,data} of books)for(const [key,value] of [['translation',edition.translation],['attribution',edition.attribution],['copyrightSource',edition.licenseSource]])assert.equal(data[key],value,`${id}: base edition ${edition.id} ${key}`);continue;}
+ let files=[];try{files=(await fs.readdir(path.join(root,'data/translations',edition.path))).filter(file=>file.endsWith('.json')).map(file=>file.slice(0,-5));}catch(error){if(error.code!=='ENOENT')throw error;}
+ assert.deepEqual(files.sort(),[...edition.books].sort(),`data/translations/${edition.path} must contain exactly the books listed for ${lang}/${edition.id}`);
+ const texts=new Map();
+ for(const id of edition.books){
+  const book=books.find(b=>b.id===id);assert(book,`${lang}/${edition.id}: ${id} is not a released book`);
+  const file=await read(`data/translations/${edition.path}/${id}.json`);
+  for(const [key,value] of [['translation',edition.translation],['attribution',edition.attribution],['licenseSource',edition.licenseSource]])assert.equal(file[key],value,`${edition.path}/${id}: ${key} must match the registry`);
+  texts.set(id,applyTranslation(book.data,file,lang));
+ }
+ editionTexts.push({lang,edition,texts});
+}
 // Validate all inputs before replacing a previous successful build.
 // Store apps bundle the same reader without the service worker or web manifest.
 const native=process.argv.includes('--target=native');
@@ -76,13 +93,20 @@ for(const {data} of books)for(const scene of data.scenes)if(!hosting.origin||sce
 for(const {data} of books)console.log(`Built ${data.book}: ${data.chapters} chapters, ${data.verseCount} unchanged verses, ${data.partialRelease?`${data.partialRelease.availableImages}/${data.sceneCount} images available`:data.sceneCount+' images'}.`);
 
 await fs.mkdir(path.join(output,'data/search'),{recursive:true});
+const searchBooks={};
 for(const lang of languages){
  const translated=[];
  for(const {id,data} of books){
   if(!catalog[lang].books.includes(id))continue;
   translated.push({id,data:catalog[lang].licensedBooks.includes(id)?applyTranslation(data,await read(`data/translations/${lang}/${id}.json`),lang):data});
  }
+ searchBooks[lang]=translated;
  await fs.writeFile(path.join(output,`data/search/${lang}.json`),JSON.stringify(createSearchIndex(translated,lang)));
+}
+// Each further edition gets its own index: its text for the books it covers, the base text the reader shows for the rest.
+for(const {lang,edition,texts} of editionTexts){
+ await fs.writeFile(path.join(output,`data/search/${edition.path}.json`),JSON.stringify(createSearchIndex(searchBooks[lang].map(({id,data})=>({id,data:texts.get(id)||data})),lang)));
+ console.log(`Built ${lang} edition ${edition.id}: ${texts.size} books and its search index.`);
 }
 
 // Public release identity lets release checks verify the actual Git-built site.

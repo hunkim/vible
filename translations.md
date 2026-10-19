@@ -46,6 +46,22 @@ Include every chapter and every verse position used by the current scene boundar
 
 After imports, run `npm run check`. The build generates the availability catalog from validated files and copies all translation files. Test each language in reading, switching at the current verse, sharing a range, viewing OG images, and checking copyright notices before deployment. Share pages reject a requested language that has no text rather than changing its language silently. Existing Korean-only share URLs remain compatible.
 
+## Korean editions
+
+The reader can offer more than one Korean edition. `data/translations/editions.json` is the registry (validated by `build.mjs`, pre-cached by the service worker and fetched by the store apps through `fetchContent` with background refresh, so a new edition reaches existing app builds that contain this feature after a web deploy alone). Today it lists only 개역한글 (1961, id `krv`, `base: true`, default), whose text is `data/<book>.json`; with one edition the ☰ menu shows no edition choice and everything behaves as before.
+
+**『성경전서 개역개정판』 is not included.** Permission was requested from the Korean Bible Society (kbscopyright@bskorea.or.kr, 2026-10-19) and has not been granted. Do not add, download or paste its text — not even a sample verse or test fixture — until written permission covering app display, search and share pages/cards (with the required notice) is on file.
+
+### Adding another Korean edition
+
+1. **License first.** Get written permission from the copyright holder for reading display, search and distributing share pages and verse-card images, and the exact attribution wording. Record where it is kept.
+2. **Files.** Put one file per covered book at `data/translations/ko-<id>/<book>.json` in the import format above (`"language": "ko"`, `translation`, `attribution`, `source`, `licenseSource`, `permissions`, every chapter and every 개역한글 verse position; omitted verses marked `omitted`, bridges with `endVerse`/`combinedWith` as for other translations). Copy the authorized text verbatim. Never fill a missing verse from 개역한글. Scene titles stay Korean editorial titles.
+3. **Registry.** Add an entry to `languages.ko.editions`: `id` (lowercase letters/digits), `path` (`ko-<id>`), `names` in ko/en/ja/zh, `translation`, `attribution` and `licenseSource` exactly as in its book files, `source`, `permissions: {"display": true, "shareCards": true}`, and `books` listing exactly the files present. Keep `krv` as the base; change `default` only if the user asks.
+4. **Build.** `node build.mjs` rejects a registry or file mismatch, checks every verse position and writes `dist/data/search/ko-<id>.json` (that edition for its books, 개역한글 for the rest).
+5. **Verify.** `npm run check` and `node check-offline.mjs`. With Korean reading: the ☰ menu shows 한국어 성경 with both editions; choosing one reloads the same passage, persists (`vible-edition-ko`), falls back to 개역한글 for books it lacks, search uses its index, share links carry `?ed=<id>`, and share pages and cards show its attribution. Other languages show no choice.
+6. **Attribution.** The source dialog, reader heading, share page footer and both share cards use the shown edition's attribution and license link; confirm the wording against the permission.
+7. **Deploy** through the Git release process in `AGENTS.md`; no app update is needed. Existing links without `ed` keep showing the default edition.
+
 Joshua is included with authorized BSB English, 1955 Japanese Colloquial and
 2022 Open Chinese Contemporary texts. All 24 chapters remain readable while
 unavailable illustrations show the existing pending-art placeholder.

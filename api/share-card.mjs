@@ -9,6 +9,8 @@ const font=fs.readFile(new URL('../fonts/NanumMyeongjo-Regular.ttf',import.meta.
 const h=(type,style,children)=>({type,props:{style,children}});
 // Japanese/Chinese wrap per character, but closing punctuation stays with the previous character and opening brackets with the next.
 const cjkUnit=/[^\s⺀-鿿가-힣豈-﫿＀-￯]+\s*|[「『（〈《【〔]*[\s\S][、。，．！？）」』〉》】〕：；…・ー]*/gu;
+// Footer notice: another edition carries its full attribution; Chinese OpenCCB its CC BY-SA notice; otherwise the edition name.
+export const cardNotice=s=>s.edition?s.attribution:s.lang==='zh'?s.attribution+' · Scripture and this card: CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0/':s.translation||'성경전서 개역한글판';
 export async function cardResponse(s){
  const {size,height,textWidth}=cardLayout(s);const cjk=s.lang==='ja'||s.lang==='zh';
  const origin=process.env.VIBLE_ASSET_ORIGIN??(await hosting).origin;
@@ -25,7 +27,7 @@ export async function cardResponse(s){
    h('div',{display:'flex',flexDirection:'column',fontSize:size,lineHeight:1.65},s.verses.map(v=>cjk?h('div',{display:'flex',flexWrap:'wrap',marginBottom:s.verses.length>1?16:0},v.text.match(cjkUnit).map(u=>h('span',{whiteSpace:'pre'},u))):h('div',{marginBottom:s.verses.length>1?16:0},v.text)))
   ]),
   h('div',{position:'absolute',right:40,bottom:s.lang==='zh'?84:46,fontSize:20,color:'#fff9ed',backgroundColor:'rgba(12,27,22,.55)',padding:'10px 16px',borderRadius:8},'vible.now'),
-  h('div',{position:'absolute',display:'flex',bottom:16,left:52,right:52,fontSize:13,lineHeight:1.4,color:'#e7d5ac',backgroundColor:s.lang==='zh'?'rgba(12,27,22,.88)':'transparent',padding:s.lang==='zh'?8:0},s.lang==='zh'?s.attribution+' · Scripture and this card: CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0/':s.translation||'성경전서 개역한글판')
+  h('div',{position:'absolute',display:'flex',bottom:16,left:52,right:52,fontSize:13,lineHeight:1.4,color:'#e7d5ac',backgroundColor:s.lang==='zh'?'rgba(12,27,22,.88)':'transparent',padding:s.lang==='zh'?8:0},cardNotice(s))
  ]),{width:1200,height,fonts:[{name:'Scripture',data:await font,weight:400,style:'normal'}]});
 }
 export default async function handler(req,res){

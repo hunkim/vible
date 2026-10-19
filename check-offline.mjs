@@ -31,3 +31,8 @@ const searchURL=new Request(scope+'data/search/ko.json');offline=false;const ind
 assert.equal(await (await event('fetch',cdnRequest)).text(),cdnRequest.url);console.log('CDN images remain available offline; unrelated origins are not intercepted.');
 
 offline=false;const translatedRequest=new Request(scope+'data/translations/ja/leviticus.json');assert(await event('fetch',translatedRequest));offline=true;assert.equal(await (await event('fetch',translatedRequest)).text(),translatedRequest.url);console.log('New translations cache on first reading and remain available offline.');
+
+offline=false;assert(await shell.match(scope+'data/translations/editions.json'),'the edition registry is part of the shell like catalog.json');
+for(const file of ['data/translations/ko-test/john.json','data/search/ko-test.json']){const request=new Request(scope+file);assert(await event('fetch',request));offline=true;assert.equal(await (await event('fetch',request)).text(),request.url,file);offline=false;}
+assert.equal(await event('fetch',new Request(scope+'data/translations/ko-test/../../secret.json')),undefined);assert.equal(await event('fetch',new Request(scope+'data/translations/kor/john.json')),undefined);
+console.log('Edition registry is pre-cached; further edition texts and their search indexes cache on first use and stay available offline.');

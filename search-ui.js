@@ -9,9 +9,9 @@ const copy={
 };
 export function scriptureSearch(getContext,openVerse){
  const $=id=>document.getElementById(id),dialog=$('scripture-search'),input=$('scripture-query'),results=$('scripture-results'),status=$('scripture-status'),cache=new Map();
- let index=null,scope='',limit=30,generation=0,timer,composing=false,lang='ko',returnToReader=false,navigating=false,headerComposing=false,live=false;
+ let index=null,scope='',limit=30,generation=0,timer,composing=false,lang='ko',indexFile='data/search/ko.json',returnToReader=false,navigating=false,headerComposing=false,live=false;
  const c=()=>copy[lang];
- function message(title,detail='',retry=false){results.replaceChildren();const box=document.createElement('div');box.className='search-message';const heading=document.createElement('strong');heading.textContent=title;const p=document.createElement('p');p.textContent=detail;box.append(heading,p);if(retry){const b=document.createElement('button');b.textContent=c().retry;b.onclick=()=>{cache.delete(lang);load();};box.append(b);}results.append(box);}
+ function message(title,detail='',retry=false){results.replaceChildren();const box=document.createElement('div');box.className='search-message';const heading=document.createElement('strong');heading.textContent=title;const p=document.createElement('p');p.textContent=detail;box.append(heading,p);if(retry){const b=document.createElement('button');b.textContent=c().retry;b.onclick=()=>{cache.delete(indexFile);load();};box.append(b);}results.append(box);}
  function render(){
   $('clear-scripture-query').hidden=!input.value;$('search-more').hidden=true;results.scrollTop=0;
   if(!index)return;
@@ -33,15 +33,15 @@ export function scriptureSearch(getContext,openVerse){
  async function load(){
   const ticket=++generation;index=null;status.textContent=c().loading;message(c().loading);results.setAttribute('aria-busy','true');
   try{
-   if(!cache.has(lang))cache.set(lang,fetchContent(`data/search/${lang}.json`).then(async r=>{if(!r.ok)throw Error('Search unavailable');return r.json();}));
-   const next=await cache.get(lang);if(ticket!==generation||!dialog.open)return;index=next;$('search-all').textContent=`${c().all} · ${index.books.length}`;render();
-  }catch{if(ticket===generation&&dialog.open){cache.delete(lang);status.textContent='';message(c().error,'',true);}}
+   if(!cache.has(indexFile))cache.set(indexFile,fetchContent(indexFile).then(async r=>{if(!r.ok)throw Error('Search unavailable');return r.json();}));
+   const next=await cache.get(indexFile);if(ticket!==generation||!dialog.open)return;index=next;$('search-all').textContent=`${c().all} · ${index.books.length}`;render();
+  }catch{if(ticket===generation&&dialog.open){cache.delete(indexFile);status.textContent='';message(c().error,'',true);}}
   finally{if(ticket===generation)results.setAttribute('aria-busy','false');}
  }
  function open(options={}){
   if(getContext().ready===false)return;
   if(dialog.open){if(!live)input.focus();return;}
-  live=options.live===true;dialog.classList.toggle('live-search',live);const context=getContext();lang=context.language;scope='';limit=30;returnToReader=false;input.value=$('header-query').value;
+  live=options.live===true;dialog.classList.toggle('live-search',live);const context=getContext();lang=context.language;indexFile=context.searchIndex||`data/search/${lang}.json`;scope='';limit=30;returnToReader=false;input.value=$('header-query').value;
   $('scripture-search-title').textContent=c().title;input.placeholder=c().placeholder;input.setAttribute('aria-label',c().open);$('close-scripture-search').setAttribute('aria-label',c().close);$('clear-scripture-query').setAttribute('aria-label',c().clear);$('search-all').textContent=c().all;$('search-current').textContent=context.name;$('search-more').textContent=c().more;
   $('search-all').setAttribute('aria-pressed','true');$('search-current').setAttribute('aria-pressed','false');if(live)dialog.setAttribute('open','');else{dialog.showModal();input.focus();}fitViewport();load();
  }

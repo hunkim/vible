@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {pathToFileURL} from 'node:url';
+import {execFileSync} from 'node:child_process';
 import {initialLanguage,passageURL,applyTranslation} from './languages.js';
 import {shareHTML} from './api/share.mjs';
 assert.equal(initialLanguage({locales:['fr-FR','ja-JP']}),'ja');
@@ -224,3 +225,92 @@ console.log('Joel–Malachi: four-language chapter-final verses for all 10 books
 const zepCross=actualSelection(new URLSearchParams({book:'zephaniah',chapter:'1',verse:'18',endChapter:'2',endVerse:'1',lang:'zh'}));assert.equal(zepCross.reference,'西番雅书 1:18–2:2');assert.equal(zepCross.verses.length,2);
 for(const lang of ['ko','en','ja'])assert.equal(actualSelection(new URLSearchParams({book:'zephaniah',chapter:'1',verse:'18',endChapter:'2',endVerse:'1',lang})).verses.length,2);
 for(const book of Object.keys(minorProphets))for(const lang of ['ko','en','ja','zh'])assert.doesNotMatch(JSON.stringify(actualSelection(new URLSearchParams({book,chapter:'1',verse:'1',lang}))),/절과 같음/);
+
+const {cardNotice}=await import('./api/share-card.mjs'),{findScripture}=await import('./scripture-search.js');
+// Korean editions. The shipped registry has only 개역한글 (base), so the menu stays hidden and nothing changes.
+{
+ const lang=await import('./languages.js');
+ const shipped=lang.validateEditions(JSON.parse(await fs.readFile(new URL('./data/translations/editions.json',import.meta.url),'utf8')));
+ assert.deepEqual(lang.editionList(shipped,'ko').map(e=>[e.id,!!e.base]),[['krv',true]]);assert.equal(shipped.languages.ko.default,'krv');
+ for(const l of ['en','ja','zh'])assert.deepEqual(lang.editionList(shipped,l),[],`${l} keeps its single translation`);
+ for(const book of actualCatalog.ko.books){assert.equal(lang.editionForBook(shipped,'ko',book,'krv').id,'krv');assert.equal(lang.editionMenu(shipped,'ko',book,'krv').visible,false);}
+ assert.equal(lang.searchIndexFile('ko',lang.activeEdition(shipped,'ko',null)),'data/search/ko.json');
+ assert.equal(lang.searchIndexFile('ko',lang.activeEdition(shipped,'ko','unknown')),'data/search/ko.json');
+ assert.equal(await lang.loadEditionText({},{registry:shipped,lang:'ko',book:'john',preferred:'krv',fetchImpl:()=>assert.fail('no extra file is read')}),null);
+ const plain=actualSelection(new URLSearchParams({book:'john',chapter:'3',verse:'16'}));
+ assert.equal(plain.path,'/share/john/3/16');assert.equal(plain.edition,undefined);assert.equal(plain.editionParam,undefined);assert.equal(cardNotice(plain),'개역한글');
+ assert.equal(actualSelection(new URLSearchParams({book:'john',chapter:'3',verse:'16',ed:'krv'})).path,'/share/john/3/16');
+ assert.deepEqual(actualSelection(new URLSearchParams({book:'john',chapter:'3',verse:'16',ed:'missing'})),plain,'an unknown edition falls back to the usual text');
+ assert(!shareHTML(plain).includes('ed='));
+ assert.equal(actualSelection(new URLSearchParams({book:'john',chapter:'3',verse:'16',lang:'en',ed:'krv'})).path,'/share/john/3/16?lang=en');
+ const html=await fs.readFile(new URL('./index.html',import.meta.url),'utf8'),app=await fs.readFile(new URL('./app.js',import.meta.url),'utf8');
+ assert.match(html,/<label id="edition-setting" class="menu-edition" hidden>/);for(const call of ['editionMenu(','loadEditionText(','searchIndexFile(','shareEditionId(','saveEdition('])assert(app.includes(call),call);
+ const base={id:'krv',base:true,names:{ko:'가',en:'A',ja:'あ',zh:'甲'},translation:'T',attribution:'A',source:'https://example.com',licenseSource:'https://example.com/l'};
+ const extra={...base,id:'test',base:undefined,path:'ko-test',books:['john'],permissions:{display:true,shareCards:true}};
+ const registry=editions=>({version:1,languages:{ko:{default:'krv',editions}}});
+ lang.validateEditions(registry([base,extra]));
+ for(const bad of [registry([base,{...extra,path:'ko'}]),registry([base,{...extra,permissions:{display:true}}]),registry([base,{...base,id:'other'}]),registry([extra]),{version:1,languages:{ko:{default:'none',editions:[base]}}},registry([base,{...extra,names:{ko:'가'}}]),registry([base,{...extra,books:[]}]),{version:1,languages:{xx:{default:'krv',editions:[base]}}}])assert.throws(()=>lang.validateEditions(bad));
+ console.log('Edition registry: only 개역한글 ships; the menu is hidden, links, share pages, cards and search are unchanged; invalid registries are rejected.');
+}
+
+// A synthetic second Korean edition (placeholder text only, temporary copy) turns everything on after a web build alone.
+{
+ const repo=path.dirname(new URL(import.meta.url).pathname),copy=await fs.mkdtemp(path.join(os.tmpdir(),'vible-edition-tests-'));
+ try{
+  for(const entry of await fs.readdir(repo,{withFileTypes:true})){
+   if(['assets','node_modules'].includes(entry.name))await fs.symlink(path.join(repo,entry.name),path.join(copy,entry.name));
+   else if(entry.isFile()||['data','fonts','icons','.well-known','scripts','api'].includes(entry.name))await fs.cp(path.join(repo,entry.name),path.join(copy,entry.name),{recursive:true});
+  }
+  const john=JSON.parse(await fs.readFile(path.join(repo,'data/john.json'),'utf8')),meta={translation:'TEST-EDITION',attribution:'TEST-EDITION attribution © placeholder',source:'https://example.com/test-edition',licenseSource:'https://example.com/test-edition/license'};
+  const chapters=[];for(const s of john.scenes)for(const v of s.verses){let c=chapters.find(c=>c.chapter===s.chapter);if(!c)chapters.push(c={chapter:s.chapter,verses:[]});c.verses.push({verse:v.verse,text:`TEST-EDITION ${s.chapter}:${v.verse}`});}
+  await fs.mkdir(path.join(copy,'data/translations/ko-test'));
+  await fs.writeFile(path.join(copy,'data/translations/ko-test/john.json'),JSON.stringify({language:'ko',book:john.book,...meta,permissions:{display:true,shareCards:true},chapters}));
+  const registryFile=path.join(copy,'data/translations/editions.json'),registry=JSON.parse(await fs.readFile(registryFile,'utf8'));
+  registry.languages.ko.editions.push({id:'test',names:{ko:'테스트판',en:'Test edition',ja:'テスト版',zh:'测试版'},...meta,path:'ko-test',books:['john'],permissions:{display:true,shareCards:true}});
+  await fs.writeFile(registryFile,JSON.stringify(registry));
+  execFileSync(process.execPath,['build.mjs'],{cwd:copy,stdio:'ignore',env:{...process.env,VIBLE_SOURCE_COMMIT:''}});
+  const dist=file=>fs.readFile(path.join(copy,'dist',file),'utf8');
+  assert.equal(await dist('data/search/ko.json'),await fs.readFile(path.join(repo,'dist/data/search/ko.json'),'utf8'),'the 개역한글 index is unchanged');
+  const index=JSON.parse(await dist('data/search/ko-test.json')),baseIndex=JSON.parse(await dist('data/search/ko.json'));
+  assert.equal(index.verses.length,baseIndex.verses.length);
+  assert.deepEqual(index.verses.filter(r=>r[0]!=='john'),baseIndex.verses.filter(r=>r[0]!=='john'),'books the edition lacks keep 개역한글 in its index');
+  assert(index.verses.filter(r=>r[0]==='john').every(r=>r[3]===`TEST-EDITION ${r[1]}:${r[2]}`));
+  assert.equal(findScripture(index,'TEST-EDITION').total,john.verseCount);assert.equal(findScripture(baseIndex,'TEST-EDITION').total,0);
+  assert.equal(findScripture(index,'요 3:16').results[0].text,'TEST-EDITION 3:16');
+  const shipped=JSON.parse(await dist('data/translations/editions.json'));
+  const {validateEditions,editionMenu,loadEditionText,searchIndexFile,activeEdition,savedEdition,saveEdition,editionStorageKey,shareEditionId}=await import('./languages.js');
+  validateEditions(shipped);
+  // Reader: the ☰ menu lists both editions only for Korean; the choice persists and applies per book.
+  const menu=editionMenu(shipped,'ko','john','krv');assert.equal(menu.visible,true);assert.deepEqual(menu.options.map(o=>[o.id,o.label,o.disabled]),[['krv','개역한글 (1961)',false],['test','테스트판',false]]);
+  assert.equal(editionMenu(shipped,'ko','genesis','krv').options[1].disabled,true,'an edition without this book cannot be chosen there');
+  assert.equal(editionMenu(shipped,'en','john','').visible,false);
+  const stored=new Map(),storage={getItem:k=>stored.get(k)??null,setItem:(k,v)=>stored.set(k,v)};
+  assert.equal(savedEdition(storage,'ko'),null);saveEdition(storage,'ko','test');assert.equal(stored.get('vible-edition-ko'),'test');assert.equal(editionStorageKey('ko'),'vible-edition-ko');assert.equal(savedEdition(storage,'ko'),'test');
+  assert.equal(savedEdition({getItem(){throw Error('blocked');}},'ko'),null);
+  const fetchImpl=async file=>{try{return new Response(await dist(file));}catch{return new Response('',{status:404});}};
+  const baseJohn=JSON.parse(await dist('data/john.json')),baseGenesis=JSON.parse(await dist('data/genesis.json'));
+  const chosen=await loadEditionText(baseJohn,{registry:shipped,lang:'ko',book:'john',preferred:savedEdition(storage,'ko'),fetchImpl});
+  assert.equal(chosen.edition,'test');assert.equal(chosen.translation,'TEST-EDITION');assert.equal(chosen.attribution,meta.attribution);assert.equal(chosen.copyrightSource,meta.licenseSource);
+  assert.equal(chosen.scenes[0].verses[0].text,'TEST-EDITION 1:1');assert.equal(chosen.scenes[0].title,baseJohn.scenes[0].title);assert.deepEqual(chosen.scenes.map(s=>s.image),baseJohn.scenes.map(s=>s.image));
+  assert.equal(chosen.scenes.flatMap(s=>s.verses).length,baseJohn.verseCount);
+  assert.equal(await loadEditionText(baseGenesis,{registry:shipped,lang:'ko',book:'genesis',preferred:'test',fetchImpl}),null,'books the edition lacks show 개역한글');
+  assert.equal(await loadEditionText(baseJohn,{registry:shipped,lang:'ko',book:'john',preferred:'krv',fetchImpl}),null);
+  assert.equal(await loadEditionText(baseJohn,{registry:shipped,lang:'ko',book:'john',preferred:'test',fetchImpl:async()=>new Response('',{status:404})}),null,'an unreachable edition file falls back to the whole base book');
+  assert.equal(searchIndexFile('ko',activeEdition(shipped,'ko','test')),'data/search/ko-test.json');assert.equal(searchIndexFile('ko',activeEdition(shipped,'ko',null)),'data/search/ko.json');
+  assert.equal(shareEditionId(shipped,'ko','john','test'),'test');assert.equal(shareEditionId(shipped,'ko','john','krv'),'');
+  // Share pages and cards: `ed` selects the edition and its attribution; anything unavailable shows 개역한글 and drops `ed`.
+  const {selection,shareParams}=await import(pathToFileURL(path.join(copy,'share-data.mjs')));const {shareHTML:copyHTML}=await import(pathToFileURL(path.join(copy,'api/share.mjs')));
+  const pick=url=>selection(shareParams(new URL(url,'https://vible.now')));
+  const shared=pick('/share/john/3/16/3/17?ed=test'),page=copyHTML(shared);
+  assert.equal(shared.text,'TEST-EDITION 3:16\nTEST-EDITION 3:17');assert.equal(shared.path,'/share/john/3/16/3/17?ed=test');assert.equal(shared.edition,'test');
+  assert.equal(shared.attribution,meta.attribution);assert.equal(cardNotice(shared),meta.attribution);
+  assert(page.includes(meta.attribution));assert(page.includes('TEST-EDITION')&&page.includes('lang=ko&amp;ed=test&amp;v='),'the card URL keeps the edition');assert(page.includes('&read=1&lang=ko&ed=test'));assert(page.includes('https://vible.now/share/john/3/16/3/17?ed=test'));
+  assert.equal(pick('/api/share?book=john&chapter=3&verse=16&ed=test').text,'TEST-EDITION 3:16');
+  const original=pick('/share/john/3/16');assert.equal(original.path,'/share/john/3/16');assert(!original.text.includes('TEST-EDITION'));assert.equal(cardNotice(original),'개역한글');
+  for(const url of ['/share/genesis/1/1?ed=test','/share/john/3/16?ed=unknown']){const s=pick(url);assert(!s.text.includes('TEST-EDITION'),url);assert(!s.path.includes('ed='),url);assert.equal(s.attribution,'성경전서 개역한글판 © 대한성서공회 1961.');}
+  const english=pick('/share/john/3/16?lang=en&ed=test');assert.equal(english.lang,'en');assert.equal(english.path,'/share/john/3/16?lang=en');assert.match(english.text,/God so loved/);
+  // The service worker caches the registry, edition texts and edition search indexes for offline reading.
+  const sw=await dist('sw.js');assert(sw.includes("'./data/translations/editions.json'"));
+  console.log('Synthetic second Korean edition: build validation and its own search index, menu, persisted choice, per-book fallback, share links, pages and card attribution verified.');
+ }finally{await fs.rm(copy,{recursive:true,force:true});}
+}

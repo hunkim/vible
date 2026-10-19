@@ -46,8 +46,8 @@ const globals={document:globalThis.document,window:globalThis.window,innerWidth:
 try{
  globalThis.document=Object.assign(new EventTarget(),{getElementById:get,createElement:()=>new SearchElement(),createTextNode:text=>({textContent:text})});
  globalThis.window={addEventListener(){}};globalThis.innerWidth=375;globalThis.innerHeight=700;
- globalThis.fetch=async()=>({ok:true,json:async()=>index});
- scriptureSearch(()=>({ready:true,language:'ko',bookId:'genesis',name:'창세기'}),async()=>{});
+ const fetched=[],searchContext={};globalThis.fetch=async url=>{fetched.push(String(url));return {ok:true,json:async()=>index};};
+ scriptureSearch(()=>({ready:true,language:'ko',bookId:'genesis',name:'창세기',...searchContext}),async()=>{});
  const header=get('header-query');header.focus();header.dispatchEvent(new Event('compositionstart'));header.value='사랑';header.dispatchEvent(new Event('input'));
  await new Promise(resolve=>setTimeout(resolve,160));
  assert(get('scripture-search').open);assert.equal(document.activeElement,header,'Live results preserve IME focus');assert.equal(get('scripture-results').querySelectorAll().length,30);
@@ -58,6 +58,9 @@ try{
  header.value='';header.dispatchEvent(new Event('input'));await Promise.resolve();assert(!get('scripture-search').open);assert.equal(document.activeElement,header,'Clearing keeps typing available');
  header.value='은혜';header.dispatchEvent(new Event('input'));await new Promise(resolve=>setTimeout(resolve,160));
  get('close-header-search').onclick();await Promise.resolve();assert(!get('scripture-search').open);assert.equal(header.value,'');assert.equal(document.activeElement,get('reader'));
+ // The reader names the index of the active Korean edition; each index is fetched once.
+ searchContext.searchIndex='data/search/ko-test.json';header.value='사랑';header.dispatchEvent(new Event('input'));await new Promise(resolve=>setTimeout(resolve,160));
+ assert.deepEqual(fetched,['data/search/ko.json','data/search/ko-test.json'],'search follows the active edition index');get('close-header-search').onclick();await Promise.resolve();
 }finally{Object.assign(globalThis,globals);}
 console.log('Live search: composing input, focus preservation, latest query, empty input and mobile X collapse verified.');
 
