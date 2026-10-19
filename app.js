@@ -37,7 +37,16 @@ const pad=n=>String(n).padStart(2,'0');
 const preview=new URLSearchParams(location.search).has('preview');
 let data,bookId='john',loadVersion=0,current=0,view='read',scrollFrame=0,fontSize=19,manual=false;
 let language='ko',catalog={ko:{books:[]}},preferredLanguage='ko';
-const picker=bookPicker(()=>({bookId,language}));
+// The picker opens a book at a chosen chapter, or at the chapter last read there.
+let pendingChapter=null;
+const sceneAt=(chapter,verse)=>data.scenes.findIndex(s=>s.chapter===chapter&&(!verse||s.first<=verse&&s.last>=verse));
+function openChapter(id,chapter,verse=null){
+ if(id===bookId&&data){const index=sceneAt(chapter,verse);if(index>=0)goTo(index);return;}
+ pendingChapter={id,chapter,verse};$('book').value=id;$('book').dispatchEvent(new Event('change'));
+ const url=new URL(location.href);if(url.searchParams.has('book')){url.searchParams.set('book',id);url.searchParams.delete('chapter');url.searchParams.delete('verse');history.replaceState(null,'',url);}
+}
+function lastChapter(id){try{return JSON.parse(localStorage.getItem(`vible-position-${id}`)||'null')?.chapter||null;}catch{return null;}}
+const picker=bookPicker(()=>({bookId,language}),{openChapter,lastChapter});
 const ui=()=>messages[language];
 const t=()=>text(language);
 const notes=annotations(()=>({data,bookId,language}));
@@ -460,7 +469,7 @@ async function loadBook(id,nextLanguage=language,startAtBeginning=false){
   $('search').placeholder=data.book;$('source-notes').textContent='';$('explanation').textContent='';
  }
  let saved=0;try{if(!preview){saved=Number(localStorage.getItem(`visual-bible-${id}`))-1;const position=JSON.parse(localStorage.getItem(`vible-position-${id}`)||'null');if(position)saved=data.scenes.findIndex(s=>s.chapter===position.chapter&&s.first<=position.verse&&s.last>=position.verse);localStorage.setItem('visual-bible-book',id);}}catch{}
- const params=new URLSearchParams(location.search);const linked=params.get('book')===id?data.scenes.findIndex(s=>s.chapter===Number(params.get('chapter'))&&s.first<=Number(params.get('verse'))&&s.last>=Number(params.get('verse'))):-1;goTo(startAtBeginning?0:linked>=0?linked:Number.isInteger(saved)&&saved>=0&&saved<data.scenes.length?saved:0);
+ const params=new URLSearchParams(location.search);const linked=params.get('book')===id?data.scenes.findIndex(s=>s.chapter===Number(params.get('chapter'))&&s.first<=Number(params.get('verse'))&&s.last>=Number(params.get('verse'))):-1;const chosen=pendingChapter?.id===id?sceneAt(pendingChapter.chapter,pendingChapter.verse):-1;pendingChapter=null;goTo(startAtBeginning?0:chosen>=0?chosen:linked>=0?linked:Number.isInteger(saved)&&saved>=0&&saved<data.scenes.length?saved:0);
  }finally{if(version===loadVersion){$('book').disabled=false;$('language').disabled=false;$('open-language').disabled=false;}}
 }
 function popoverOpen(element){return typeof element.showPopover==='function'&&!element.dataset.fallback?element.matches(':popover-open'):element.dataset.fallbackOpen==='true';}
@@ -516,6 +525,7 @@ async function init(){
  setupSceneProgress($('progress'),goTo,()=>current);
  setupBookContinuation($('reader'),()=>!!data&&view==='read'&&!manual&&!$('book').disabled&&!!nextBookId()&&!document.body.classList.contains('image-only')&&!document.querySelector('dialog[open]')&&getSelection()?.isCollapsed!==false,()=>continueToNextBook().catch(showError));
  $('reader').addEventListener('scroll',scrollScene,{passive:true});$('previous').addEventListener('click',()=>goTo(current-1));$('next').addEventListener('click',()=>goTo(current+1));
+ $('reader-chapter').onclick=()=>picker.openChapters(bookId);$('reader-chapter').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();picker.openChapters(bookId);}};
  $('reader-previous-chapter').onclick=()=>goTo(data.scenes.findIndex(s=>s.chapter===data.scenes[current].chapter-1));
  $('reader-next-chapter').onclick=()=>goTo(data.scenes.findIndex(s=>s.chapter===data.scenes[current].chapter+1));
  $('explain').addEventListener('click',()=>{$('explanation').hidden=!$('explanation').hidden;$('explain').setAttribute('aria-expanded',String(!$('explanation').hidden));});

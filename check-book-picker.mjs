@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {filterBooks,bookPicker} from './book-picker.js';
+import {filterBooks,bookPicker,chapterQuery} from './book-picker.js';
 import {bookNames} from './languages.js';
 import {bibleBooks} from './bible-books.js';
 import fs from 'node:fs';
@@ -10,6 +10,10 @@ assert.deepEqual(filterBooks(books,'고전').map(book=>book.id),['1corinthians']
 assert.deepEqual(filterBooks(books,'로마').map(book=>book.id),['romans']);
 assert.deepEqual(filterBooks(books,'ｊｏｈｎ').map(book=>book.id).sort(),['1john','2john','3john','john']);
 assert.equal(filterBooks(books,'없는책123').length,0);assert.equal(filterBooks(books,'').length,books.length);
+// Search box jumps: book abbreviations or names in any language plus a chapter (and optional verse).
+for(const [query,id,chapter,verse] of [['창 12','genesis',12,null],['창세기12','genesis',12,null],['시편 119편','psalms',119,null],['Gen 12','genesis',12,null],['요 3:16','john',3,16],['John 3:16','john',3,16],['ヨハネ 3','john',3,null],['约翰福音 3','john',3,null]]){const jump=chapterQuery(books,query);assert(jump,query);assert.deepEqual([jump.book.id,jump.chapter,jump.verse],[id,chapter,verse],query);}
+console.log('Book picker chapters: tap-to-expand grid, resume and chapter 1 start, collapse, search jumps in four languages.');
+for(const query of ['창 99','요 22','사랑','12','',' 3'])assert.equal(chapterQuery(books,query),null,`no jump for ${query}`);
 console.log('Book picker: Korean prefixes, aliases, multilingual names, full-width typing, empty query and no-match state verified.');
 
 // Exercise the real input handlers while the Korean IME still owns the text.
@@ -43,6 +47,16 @@ try{
  ids.book.options.push({value:'fixture-unreleased',textContent:'준비중테스트',disabled:true});input.value='준비중테스트';input.dispatchEvent(new Event('input'));
  const soon=ids['book-results'].querySelectorAll().find(button=>button.textContent==='준비중테스트');assert(soon.disabled&&soon.className==='book-soon'&&soon.children[0].textContent==='준비 중'&&!soon.onclick,'Unreleased books are listed as coming soon and cannot be opened');
  ids.book.options.pop();
+ // Tapping a book expands its chapter numbers under it (touch/narrow layout); a number or the resume button opens that chapter.
+ const opened=[];bookPicker(()=>({bookId:'romans',language:'ko'}),{openChapter:(id,chapter,verse)=>opened.push([id,chapter,verse]),lastChapter:id=>id==='psalms'?23:null});
+ ids['book-picker-dialog'].close=()=>{};input.value='';input.dispatchEvent(new Event('input'));
+ ids['book-results'].querySelectorAll().find(button=>button.textContent==='시편').onclick();
+ const all=ids['book-results'].querySelectorAll(),resume=all.find(button=>button.className==='chapter-resume'),numbers=all.filter(button=>/^\d+$/.test(button.textContent));
+ assert.equal(resume.textContent,'이어 읽기 · 23장 →');assert.equal(numbers.length,150,'Psalms shows all 150 chapters');assert.equal(numbers[22].className,'chapter-current');
+ numbers[118].onclick();resume.onclick();assert.deepEqual(opened,[['psalms',119,null],['psalms',23,null]]);
+ ids['book-results'].querySelectorAll().find(button=>button.textContent==='시편').onclick();assert(!ids['book-results'].querySelectorAll().some(button=>button.className==='chapter-resume'),'Tapping the book again collapses its chapters');
+ ids['book-results'].querySelectorAll().find(button=>button.textContent==='룻기').onclick();assert.equal(ids['book-results'].querySelectorAll().find(button=>button.className==='chapter-resume').textContent,'1장부터 →','Unread books start at chapter 1');
+ input.value='시 23';input.dispatchEvent(new Event('input'));const jump=ids['book-results'].querySelectorAll().find(button=>button.className==='chapter-jump-result');assert.equal(jump.textContent,'시편 23장 →');jump.onclick();assert.deepEqual(opened.at(-1),['psalms',23,null]);
 }finally{Object.assign(globalThis,saved);}
 console.log('Book picker IME: live Korean composition, confirmation key and clearing verified.');
 // All 66 books are released in every language: the bundled picker lists them in canon order and none falls back to coming soon.
