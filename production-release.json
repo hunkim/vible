@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-19",
   "production": "https://vible.now",
-  "deployment": "https://vible-18ds7n4fy-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_8h6tHLLXm2QRymV46YjvetQdQSDF",
-  "newImageFiles": 0,
+  "deployment": "https://vible-abry0jjlj-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_3Ru3D7pf4sxzfTsXrUMJVzQAkNgm",
+  "newImageFiles": 225,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -110,7 +110,8 @@
     "chapterPanelHeader": "UI: chapter panel header holds book name (opens last-read or chapter 1) and Continue or chapter count; app-version.json macos 1.0.2 (live since 2026-10-15). Browser-tested mobile; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, app-version.json updated, admin 401.",
     "chapterPickerInline": "UI: chapters expand under the chosen book on all screens (side panel removed); no duplicate panel for recent books. Browser-tested wide; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, admin 401.",
     "chapterPickerHoverIntent": "UI: wide-screen chapter side panel restored with 250 ms hover intent (holds when pointer enters panel); touch/narrow keep tap-to-expand; no duplicate panels. Browser-tested pass-over case; frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches.",
-    "koreanEditionRegistry": "Structure for more than one Korean edition (data/translations/editions.json with krv only; selector hidden; ed= share param; per-edition search index) with no unlicensed text; check-languages now runs after build. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, editions.json 200, share pages with and without ed=krv 200, admin 401."
+    "koreanEditionRegistry": "Structure for more than one Korean edition (data/translations/editions.json with krv only; selector hidden; ed= share param; per-edition search index) with no unlicensed text; check-languages now runs after build. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, editions.json 200, share pages with and without ed=krv 200, admin 401.",
+    "feedback20261019": "225 selected revisions (220 localized edits, 5 fresh compositions) actually reviewed with body/hand/support/identity/Scripture checks. All 227 private before/after comparison hashes preserved. 225 CDN JPEG exact byte/hash/MIME matches; all 333 input data files preserved except approved image names, all 66 books and ko/en/ja/zh retained. Frozen npm run check and offline passed; preflight verified 3237 archive files; Git-only fast-forward deployment. Exact live compiled data and app CORS passed for 42 changed books; all 225 affected share pages and versioned 1200px PNGs passed across rotating ko/en/ja/zh. Browser verified four-language reader originals and shared-card continue-reading. Production release SHA matches and admin remains 401. New filenames/card versions affect only replaced art; no global cache purge."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 51,
@@ -127,26 +128,30 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "714ce462d5df5de433f249a83f4c8ff0482eb830",
+  "gitCommit": "50cb01c1ec0d7aba3dbeaa76495dd1bda7a6658c",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v4.jpg",
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
-  "frozenSource": "/private/tmp/vible-release-80fa8790f881",
-  "sourceCommit": "714ce462d5df5de433f249a83f4c8ff0482eb830",
+  "frozenSource": "/private/tmp/vible-release-50cb01c1ec0d",
+  "sourceCommit": "50cb01c1ec0d7aba3dbeaa76495dd1bda7a6658c",
   "latestFeedbackRelease": {
-    "date": "2026-10-16",
-    "correctedImages": 4,
-    "newReportsReviewed": 2,
-    "adminRereviews": 2,
-    "qa": "review/feedback-20261016-image-audit.json",
+    "date": "2026-10-19",
+    "correctedImages": 225,
+    "reviewedReports": 464,
+    "fixedReports": 227,
+    "retainedExistingFixes": 93,
+    "noNewCorrection": 142,
+    "systemTests": 2,
+    "qa": "review/feedback-full-20261019/validation.json",
     "generationMode": {
-      "edit": 4,
-      "fresh": 0
+      "edit": 220,
+      "fresh": 5
     },
     "existingArtRetained": true,
     "privateBeforeAfterComparisons": true
-  }
+  },
+  "replacementImages": 225
 }
