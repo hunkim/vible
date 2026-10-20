@@ -42705,6 +42705,18 @@
     "isaiah-c025-v006-007-right-context-v1-feedback-20261019-v2.jpg": {
       "sha256": "04ff66d5d10a651a9f2924d801edddb9a4dde35216f0d8a71b7cc045ed903f9d",
       "bytes": 704536
+    },
+    "isaiah-c011-v008-009-right-context-v1-feedback-20261020-v2.jpg": {
+      "sha256": "ea02553614e2fe49500c9686cb9dcdd37360b5ae82c629a1e83cce5d649f1e33",
+      "bytes": 645081
+    },
+    "1chronicles-065-right-v1-feedback-20261020-v1.jpg": {
+      "sha256": "52d907ec7703f51264e4151ad4211ca8e48e8ab3cc18919ab5b296e6cf616a7a",
+      "bytes": 537444
+    },
+    "1chronicles-217-right-v1-feedback-20261020-v1.jpg": {
+      "sha256": "fce767d221539bd266d5cf002be583122333081b8944d3d9a5032fafde8ebb07",
+      "bytes": 600498
     }
   }
 }
