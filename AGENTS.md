@@ -68,6 +68,24 @@ Torah/Psalms content releases, must therefore come from a git commit:
    Update `review/latest-production-release.json` only as a local mirror; the
    tracked `production-release.json` is the authoritative release record.
 
+## UI changes: verify clicks at every layout (2026-10-25)
+
+On 2026-10-24 an accessibility polish enlarged header hit areas with `::after`
+overlays but left `#open-search` unpositioned on desktop widths. The overlay
+covered the header, so clicking the book picker opened search on the web, Mac
+and iPad, and the bug shipped in the 1.0.5 store builds. Passing tests and a
+phone-width check did not catch it.
+
+- Any CSS that changes hit areas, overlays, `position`, `z-index` or header
+  layout must be clicked through at both desktop (≥1200px) and phone (≤700px)
+  widths: book picker, search, font, language and menu buttons each open their
+  own UI. Use `document.elementFromPoint` on each control's centre.
+- An enlarged hit area's control must be positioned at every width, not only in
+  one `@media` block. `check-hit-areas.mjs` enforces this in `npm run check`.
+- Store apps bundle the web code, so a UI regression needs a new app build. Do
+  not build or submit store apps from a commit whose header clicks were not
+  verified at Mac/iPad widths.
+
 ## Feedback
 
 Keep the scene feedback button and private intake working in future releases.
