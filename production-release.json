@@ -1,8 +1,8 @@
 {
   "date": "2026-10-24",
   "production": "https://vible.now",
-  "deployment": "https://vercel.com/hunkims-projects/vible/19TNuXgaf8efzT4HGuKWkcZHfVc7",
-  "deploymentId": "dpl_19TNuXgaf8efzT4HGuKWkcZHfVc7",
+  "deployment": "https://vercel.com/hunkims-projects/vible/BeH5pZLvHo8XiQosdMEdyTgGxdXK",
+  "deploymentId": "dpl_BeH5pZLvHo8XiQosdMEdyTgGxdXK",
   "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
@@ -130,15 +130,15 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "032dc5272a352c5649828481e1b0a1c51b6ea362",
+  "gitCommit": "45b1ee6c0b51c45838c394987851ba1bfb75f706",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v4.jpg",
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
-  "frozenSource": "/private/tmp/vible-release-403a5ac866ae",
-  "sourceCommit": "032dc5272a352c5649828481e1b0a1c51b6ea362",
+  "frozenSource": "/private/tmp/vible-release-45b1ee6c0b51c45838c394987851ba1bfb75f706",
+  "sourceCommit": "45b1ee6c0b51c45838c394987851ba1bfb75f706",
   "latestFeedbackRelease": {
     "date": "2026-10-21",
     "correctedImages": 1,
@@ -189,5 +189,20 @@
       "appStoreSubmitted": false
     },
     "iOS": "Shared cache code fixed; a new iOS binary still needs a separate release."
+  },
+  "accessibilityPolish": {
+    "date": "2026-10-24",
+    "sourceCommit": "45b1ee6c0b51c45838c394987851ba1bfb75f706",
+    "changes": [
+      "--muted 4.8:1 on paper",
+      "phone meta labels 11-12px",
+      "enlarged header and source-button hit areas"
+    ],
+    "checks": [
+      "npm run check on frozen source",
+      "node check-offline.mjs",
+      "release preflight (3239 files)",
+      "live release.json, stylesheet, reader at 375px, share, privacy, data paths"
+    ]
   }
 }
