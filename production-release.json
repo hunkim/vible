@@ -1,8 +1,8 @@
 {
   "date": "2026-10-24",
   "production": "https://vible.now",
-  "deployment": "https://vercel.com/hunkims-projects/vible/BeH5pZLvHo8XiQosdMEdyTgGxdXK",
-  "deploymentId": "dpl_BeH5pZLvHo8XiQosdMEdyTgGxdXK",
+  "deployment": "https://vercel.com/hunkims-projects/vible/5yzPqRs99gGY2xvwmAnWwQBWiQLX",
+  "deploymentId": "dpl_5yzPqRs99gGY2xvwmAnWwQBWiQLX",
   "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
@@ -130,15 +130,15 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "45b1ee6c0b51c45838c394987851ba1bfb75f706",
+  "gitCommit": "75ccb5a83c8d7e5d687c6763643a40d0ec231d43",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v4.jpg",
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
-  "frozenSource": "/private/tmp/vible-release-45b1ee6c0b51c45838c394987851ba1bfb75f706",
-  "sourceCommit": "45b1ee6c0b51c45838c394987851ba1bfb75f706",
+  "frozenSource": "/private/tmp/vible-release-75ccb5a83c8d7e5d687c6763643a40d0ec231d43",
+  "sourceCommit": "75ccb5a83c8d7e5d687c6763643a40d0ec231d43",
   "latestFeedbackRelease": {
     "date": "2026-10-21",
     "correctedImages": 1,
@@ -204,5 +204,31 @@
       "release preflight (3239 files)",
       "live release.json, stylesheet, reader at 375px, share, privacy, data paths"
     ]
+  },
+  "storeSubmission1_0_5": {
+    "date": "2026-10-24",
+    "appSourceCommit": "c7f161460e2812af21e1279148629f49d5887bb1",
+    "iOS": {
+      "version": "1.0.5",
+      "build": "16",
+      "status": "Waiting for Review"
+    },
+    "macOS": {
+      "version": "1.0.5",
+      "build": "12",
+      "arch": "universal",
+      "sandbox": true,
+      "status": "Waiting for Review"
+    },
+    "release": "automatic after approval",
+    "releaseNotes": "ko/en/ja/zh-Hans",
+    "checks": [
+      "npm run check and check-offline on frozen source",
+      "iOS simulator launch and scene navigation",
+      "sandboxed Mac app launch",
+      "live release.json, reader, share, privacy, data, admin 401"
+    ],
+    "appVersionJson": "update after 1.0.5 is live (currently ios 1.0.3, macos 1.0.2 although iOS 1.0.4 and macOS 1.0.3 are live)",
+    "android": "Play developer account restricted 2026-10-13; needs Korean payments profile, ID and proof of address"
   }
 }
