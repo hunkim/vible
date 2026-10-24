@@ -473,3 +473,14 @@ html.desktop-app .immersive .reading-workspace{height:100dvh}
 #book-picker-dialog.two-pane .book-chapters{grid-column:2;grid-row:2/4;overflow:auto;padding:4px 16px 16px 4px}
 #book-picker-dialog.two-pane .chapter-panel{margin:0;min-height:100%}
 #reader-chapter{cursor:pointer;border-bottom:1px dashed #ffffff55}#reader-chapter:hover{border-bottom-color:#fff}
+
+/* Accessibility polish (UI/UX Pro Max audit): 4.5:1 secondary text, no meta text under 11px on phones, and larger hit areas for compact header and source controls without moving the layout. */
+:root{--muted:#646c63}
+.search-shortcut{color:var(--muted)}
+#source-button,.topbar :is(.brand,#font-smaller,#font-larger,#open-language,#open-menu){position:relative}
+#source-button::after,.topbar :is(.brand,#open-search,#font-smaller,#font-larger,#open-language,#open-menu)::after{content:"";position:absolute;inset:-6px -3px}
+#source-button::after{inset:-10px -6px}
+@media(max-width:700px){
+ body :is(#chapter-title,#translation-edition,#source-button,#current-reference),.reader-progress #scene-position,#install-label+small{font-size:11px}
+ .scene-controls .chapter-jump span{font-size:12px}
+}
