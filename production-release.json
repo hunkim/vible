@@ -1,8 +1,8 @@
 {
   "date": "2026-10-24",
   "production": "https://vible.now",
-  "deployment": "https://vercel.com/hunkims-projects/vible/AwbvijjRBmtVtZUEShvZdeBMjRJn",
-  "deploymentId": "dpl_AwbvijjRBmtVtZUEShvZdeBMjRJn",
+  "deployment": "https://vercel.com/hunkims-projects/vible/19TNuXgaf8efzT4HGuKWkcZHfVc7",
+  "deploymentId": "dpl_19TNuXgaf8efzT4HGuKWkcZHfVc7",
   "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
@@ -130,7 +130,7 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "c922e18d3c2c90bbf5afb865c2aa1e3a9d04dfd8",
+  "gitCommit": "032dc5272a352c5649828481e1b0a1c51b6ea362",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
@@ -138,7 +138,7 @@
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
   "frozenSource": "/private/tmp/vible-release-403a5ac866ae",
-  "sourceCommit": "c922e18d3c2c90bbf5afb865c2aa1e3a9d04dfd8",
+  "sourceCommit": "032dc5272a352c5649828481e1b0a1c51b6ea362",
   "latestFeedbackRelease": {
     "date": "2026-10-21",
     "correctedImages": 1,
@@ -168,5 +168,26 @@
     ],
     "permissionEvidenceConfirmed": false,
     "verification": "korean-text-verification.json"
+  },
+  "nativeContentRevalidation": {
+    "behavior": "ETag/Last-Modified conditional validation before display; HTTP 304 returns cached body; changed content appears on first open; offline/server-error/3-second timeout uses cache then bundle",
+    "sourceCommit": "032dc5272a352c5649828481e1b0a1c51b6ea362",
+    "checks": [
+      "npm run check on frozen source",
+      "node check-offline.mjs",
+      "Mac and iOS regression cases",
+      "live zero-body HTTP 304, stale-validator HTTP 200, app CORS preflight, reader and share pages"
+    ],
+    "macPreview": {
+      "version": "1.0.4",
+      "build": "11",
+      "arch": "arm64",
+      "file": "VibleNow-1.0.4-mac-arm64.dmg",
+      "sha256": "fff6b24eab345a7d4a915756c6f1083dfabdffa0c731b1eb670e1c14d55df506",
+      "developerIdSignatureVerified": true,
+      "notarized": false,
+      "appStoreSubmitted": false
+    },
+    "iOS": "Shared cache code fixed; a new iOS binary still needs a separate release."
   }
 }
