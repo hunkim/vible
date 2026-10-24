@@ -55,13 +55,13 @@ python3 resources/generate.py   # 아이콘·스플래시 재생성
 
 자동 검사: `npm run check`에 `check-i18n.mjs`, `check-native.mjs` 추가. `node check-offline.mjs` 통과.
 
-## 스토어 상태 (2026-10-11)
+## 스토어 상태 (2026-10-24)
 
 | 플랫폼 | 상태 | 빌드 |
 |---|---|---|
-| iOS·iPadOS | 1.0.2 출시(2026-10-14), 1.0.3 심사 대기 | 1.0.3 (9) |
-| macOS (Mac App Store) | 1.0.1 출시(2026-10-14), 1.0.2 심사 대기 | 1.0.2 (6), universal, App Sandbox |
-| Android | Play Console 본인 인증 대기 | AAB 1.0.0 (1) 준비 |
+| iOS·iPadOS | 1.0.4 출시(2026-10-19), 1.0.5 심사 대기(2026-10-24) | 1.0.5 (16) |
+| macOS (Mac App Store) | 1.0.3 출시, 1.0.5 심사 대기(2026-10-24) | 1.0.5 (12), universal, App Sandbox |
+| Android | 개발자 계정 제한(2026-10-13, 본인 인증 실패). 한국 결제 프로필·신분증·90일 내 주소 증명 재제출 필요 | AAB 1.0.3 (1) 준비 |
 | Windows | 미빌드 (Windows 환경 필요) | — |
 
 App Store Connect 앱 ID 6821509962, 175개국 무료, 연령 13+. 업로드: `xcodebuild -exportArchive`
