@@ -28,7 +28,7 @@ assert(!marked('ko','john','7:29').includes('하신대'));
 assert(!marked('ko','acts','1:5').includes('하셨느니라'));
 assert.equal(marked('ko','john','1:38'),'무엇을 구하느냐');
 assert.equal(marked('ko','john','21:15'),'요한의 아들 시몬아 네가 이 사람들보다 나를 더 사랑하느냐 내 어린 양을 먹이라');
-assert.equal(marked('ko','john','12:28'),'아버지여 아버지의 이름을 영광스럽게 하옵소서');
+assert.equal(marked('ko','john','12:28'),'아버지여, 아버지의 이름을 영광스럽게 하옵소서');
 assert.equal(marked('ko','acts','20:35'),'주는 것이 받는 것보다 복이 있다');
 assert(!marked('ko','revelation','22:20').includes('아멘'));
 for(const lang of Object.keys(texts)){

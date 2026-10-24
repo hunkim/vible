@@ -2,22 +2,22 @@
   "version": 1,
   "languages": {
     "ko": {
-      "default": "krv",
+      "default": "nkrv",
       "editions": [
         {
-          "id": "krv",
+          "id": "nkrv",
           "base": true,
           "names": {
-            "ko": "개역한글 (1961)",
-            "en": "Korean Revised Version (1961)",
-            "ja": "韓国語 改訳ハングル版（1961年）",
-            "zh": "韩文 改译韩文版（1961年）"
+            "ko": "개역개정 (1998)",
+            "en": "New Korean Revised Version (1998)",
+            "ja": "韓国語 改訳改訂版（1998年）",
+            "zh": "韩文 改译修订版（1998年）"
           },
-          "translation": "개역한글",
-          "attribution": "성경전서 개역한글판 © 대한성서공회 1961.",
-          "source": "https://github.com/yuhwan/Bible-krv",
+          "translation": "개역개정",
+          "attribution": "성경전서 개역개정판 © 대한성서공회 1998.",
+          "source": "https://www.bskorea.or.kr/",
           "licenseSource": "https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5",
-          "year": 1961
+          "year": 1998
         }
       ]
     }

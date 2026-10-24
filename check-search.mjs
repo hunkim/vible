@@ -4,7 +4,7 @@ import {createSearchIndex,findScripture,normalize,excerpt} from './scripture-sea
 import {applyTranslation} from './languages.js';
 const ids=['genesis',...(JSON.parse(await fs.readFile('pentateuch-books.json'))).map(b=>b.id),...(JSON.parse(await fs.readFile('historical-books.json'))).map(b=>b.id),'1chronicles','2chronicles','ezra','nehemiah','esther','job','ecclesiastes','daniel','jonah','jeremiah','lamentations','ezekiel','hosea','psalms','proverbs','songofsongs','isaiah',...(JSON.parse(await fs.readFile('minorprophets-books.json'))).map(b=>b.id),'matthew','mark','luke','john','acts','romans',...(JSON.parse(await fs.readFile('epistles-books.json'))).map(b=>b.id),'revelation'];
 const books=await Promise.all(ids.map(async id=>({id,data:JSON.parse(await fs.readFile(`data/${id}.json`))})));
-const index=createSearchIndex(books,'ko');assert.equal(index.books.length,66);assert.equal(index.verses.length,31093);
+const index=createSearchIndex(books,'ko');assert.equal(index.books.length,66);assert.equal(index.verses.length,31088);
 assert.equal(findScripture(index,'출 14:21').results[0].book,'exodus');
 assert.equal(findScripture(index,'레 19:18').results[0].book,'leviticus');
 assert.equal(findScripture(index,'민 6:24').results[0].book,'numbers');
@@ -17,14 +17,14 @@ assert.equal(findScripture(index,'계22:21').results[0].book,'revelation');
 assert.equal(findScripture(index,'요 999:999').total,0);
 assert.equal(findScripture(index,'').total,0);
 assert.equal(findScripture(index,'존재하지않는검색어123XYZ').total,0);
-const phrase=findScripture(index,'두려워 말라');assert(phrase.total>0);assert(normalize(phrase.results[0].text).includes('두려워말라'));assert(phrase.results.every(v=>normalize(v.text).includes('두려워')&&normalize(v.text).includes('말라')));
+const phrase=findScripture(index,'두려워하지 말라');assert(phrase.total>0);assert(normalize(phrase.results[0].text).includes('두려워하지말라'));assert(phrase.results.every(v=>normalize(v.text).includes('두려워')&&normalize(v.text).includes('말라')));
 const love=findScripture(index,'사랑',{book:'ephesians',limit:2});assert(love.total>2);assert.equal(love.results.length,2);assert(love.results.every(v=>v.book==='ephesians'));
 for(const result of findScripture(index,'은혜',{limit:1000}).results){const data=books.find(b=>b.id===result.book).data;const scene=data.scenes[result.scene-1];assert.equal(scene.chapter,result.chapter);assert(scene.verses.some(v=>v.verse===result.verse&&v.text===result.text));assert(index.books.find(b=>b.id===result.book).images[result.scene-1]===scene.image);}
 const english=createSearchIndex([{id:'john',data:applyTranslation(books.find(b=>b.id==='john').data,JSON.parse(await fs.readFile('data/translations/en/john.json')),'en')}],'en');
 assert.equal(findScripture(english,'John 3:16').total,1);assert(findScripture(english,'love').total>0);assert.equal(findScripture(english,'사랑').total,0);assert.equal(findScripture(english,'창 1:1').total,0);
 assert(excerpt('x'.repeat(400)+'은혜'+'x'.repeat(400),'은혜').includes('은혜'));
 const unsafe=findScripture(index,'<script>');assert.equal(unsafe.total,0);
-console.log('Scripture search: all 66 books and 31093 entries, KRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
+console.log('Scripture search: all 66 books and 31088 entries, NKRV combined verses, multilingual references, chapter/range lookup, phrase matching, book scope, limits, exact scene targets and translated text verified.');
 
 // Run the actual search UI handlers, including uncommitted IME input.
 const {scriptureSearch}=await import('./search-ui.js');
@@ -103,9 +103,9 @@ const potKo=findScripture(index,'겔 24:5');assert.equal(potKo.total,1);assert.e
 for(const [book,lang,query,word,chapter,verse] of [['ezekiel','en','Ezekiel 37:4','Dry bones',37,4],['ezekiel','ja','エゼキエル書 36:26','新しい心',36,26],['ezekiel','zh','结 37:3','骸骨',37,3],['ezekiel','zh','以西结书 41:10','厢房',41,9],['hosea','en','Hosea 6:6','mercy, not sacrifice',6,6],['hosea','ja','ホセア書 14:4','喜んでこれを愛する',14,4],['hosea','zh','何 6:6','怜悯',6,6]]){const translated=createSearchIndex([{id:book,data:applyTranslation(books.find(b=>b.id===book).data,JSON.parse(await fs.readFile(`data/translations/${lang}/${book}.json`)),lang)}],lang);const found=findScripture(translated,query);assert.equal(found.results[0]?.book,book,`${lang} ${query}`);assert.equal(found.results[0].chapter,chapter);assert.equal(found.results[0].verse,verse);assert(findScripture(translated,word).total>0,`${lang} text ${word}`);}
 console.log('Ezekiel and Hosea: Korean abbreviations 겔 and 호 only with chapter numbers, full names, KRV 24:4–5, OpenCCB combined verse lookup and English/Japanese/Chinese reference and text search verified.');
 for(const [query,chapter,verse] of [['사 9:6',9,6],['이사야 53:5',53,5],['사 40:31',40,31],['사 9:1',9,1],['사 64:1',64,1],['사 1:18',1,18]]){const found=findScripture(index,query);assert.equal(found.total,1,query);assert.equal(found.results[0].book,'isaiah',query);assert.equal(found.results[0].chapter,chapter);assert.equal(found.results[0].verse,verse);}
-assert.equal(findScripture(index,'사 53').total,12);assert.equal(findScripture(index,'사 53').results[0].book,'isaiah');assert.equal(findScripture(index,'사 7').total,24);assert.equal(findScripture(index,'사 66').total,24);
-const isaBridge=findScripture(index,'사 7:9');assert.equal(isaBridge.total,1);assert.equal(isaBridge.results[0].verse,8);assert.equal(isaBridge.results[0].endVerse,9);
-for(const [query,verse] of [['사 30:2',1],['사 48:2',1]]){const found=findScripture(index,query);assert.equal(found.total,1,query);assert.equal(found.results[0].verse,verse);assert.equal(found.results[0].endVerse,2);}
+assert.equal(findScripture(index,'사 53').total,12);assert.equal(findScripture(index,'사 53').results[0].book,'isaiah');assert.equal(findScripture(index,'사 7').total,25);assert.equal(findScripture(index,'사 66').total,24);
+const isaBridge=findScripture(index,'사 7:9');assert.equal(isaBridge.total,1);assert.equal(isaBridge.results[0].verse,9);assert.equal(isaBridge.results[0].endVerse,9);
+for(const [query,verse] of [['사 30:2',2],['사 48:2',2]]){const found=findScripture(index,query);assert.equal(found.total,1,query);assert.equal(found.results[0].verse,verse);assert.equal(found.results[0].endVerse,2);}
 for(const query of ['8절과 같음','1절과 같음'])assert.equal(findScripture(index,query).total,0,query);
 // The abbreviation 사 only resolves before a chapter number; ordinary words starting with 사 remain text searches.
 for(const query of ['사','사 하나님','사랑','사람','사도','사랑 3'])assert.equal(findScripture(index,query).address,false,query);

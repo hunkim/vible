@@ -3,6 +3,7 @@ import {selection,shareParams} from './share-data.mjs';
 import {cardLayout} from './share-card-layout.mjs';
 import {shareHTML} from './api/share.mjs';
 
+const escapeText=text=>text.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const pick=path=>selection(shareParams(new URL(path,'https://vible.now')));
 const one=pick('/share/acts/4/32'),html=shareHTML(one);
 assert.equal(one.verses.length,1);
@@ -79,7 +80,7 @@ console.log('Song of Songs share pages render in all four languages with transla
 for(const [book,ko,en,ja,zh,image] of [['1chronicles','역대상','1 Chronicles','歴代誌上','历代志上','1chronicles-001-right-v1.jpg'],['2chronicles','역대하','2 Chronicles','歴代誌下','历代志下','2chronicles-001-right-v1.jpg'],['ezra','에스라','Ezra','エズラ記','以斯拉记','ezra-001-right-v1.jpg'],['nehemiah','느헤미야','Nehemiah','ネヘミヤ記','尼希米记','nehemiah-001-right-v1.jpg'],['esther','에스더','Esther','エステル記','以斯帖记','esther-001-right-v1.jpg'],['job','욥기','Job','ヨブ記','约伯记','job-c001-v001-003-right-context-v1.jpg'],['ecclesiastes','전도서','Ecclesiastes','コヘレトの言葉','传道书','ecclesiastes-c001-v001-003-right-context-v1.jpg'],['daniel','다니엘','Daniel','ダニエル書','但以理书','daniel-c001-v001-002-right-context-v1.jpg'],['jonah','요나','Jonah','ヨナ書','约拿书','jonah-c001-v001-002-right-context-v1.jpg']]){
  for(const [lang,name] of [['ko',ko],['en',en],['ja',ja],['zh',zh]]){
   const shared=pick(`/share/${book}/1/1${lang==='ko'?'':`?lang=${lang}`}`),page=shareHTML(shared);
-  assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,image);assert(page.includes(shared.text));assert(page.includes(`book=${book}`));
+  assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,image);assert(page.includes(escapeText(shared.text)));assert(page.includes(`book=${book}`));
   if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} ${book} attribution`);
  }
 }
@@ -96,7 +97,7 @@ assert.equal(cardVersion(psalm),cardVersion({...psalm}));
 console.log('Shared card identity changes with original image or Scripture; stable passage links preserved.');
 for(const [lang,name] of [['ko','예레미야애가'],['en','Lamentations'],['ja','哀歌'],['zh','耶利米哀歌']]){
  const shared=pick(`/share/lamentations/1/1${lang==='ko'?'':`?lang=${lang}`}`),page=shareHTML(shared);
- assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,'lamentations-c001-v001-003-right-context-v1.jpg');assert(page.includes(shared.text));assert(page.includes('book=lamentations'));
+ assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,'lamentations-c001-v001-003-right-context-v1.jpg');assert(page.includes(escapeText(shared.text)));assert(page.includes('book=lamentations'));
  if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} lamentations attribution`);
  const range=pick(`/share/lamentations/3/22/3/23${lang==='ko'?'':`?lang=${lang}`}`);assert.equal(range.reference,`${name} 3:22–23`);assert.equal(range.image,'lamentations-c003-v019-024-right-context-v1.jpg');assert(shareHTML(range).includes(range.text));
 }
@@ -104,7 +105,7 @@ const lamentCross=pick('/share/lamentations/2/22/3/1?lang=en');assert.equal(lame
 console.log('Lamentations share pages render in all four languages with attribution, a shared range and a cross-chapter range.');
 for(const [lang,name] of [['ko','예레미야'],['en','Jeremiah'],['ja','エレミヤ書'],['zh','耶利米书']]){
  const shared=pick(`/share/jeremiah/1/1${lang==='ko'?'':`?lang=${lang}`}`),page=shareHTML(shared);
- assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,'jeremiah-c001-v001-003-right-context-v1.jpg');assert(page.includes(shared.text));assert(page.includes('book=jeremiah'));
+ assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,'jeremiah-c001-v001-003-right-context-v1.jpg');assert(page.includes(escapeText(shared.text)));assert(page.includes('book=jeremiah'));
  if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} jeremiah attribution`);
  const range=pick(`/share/jeremiah/31/31/31/34${lang==='ko'?'':`?lang=${lang}`}`);assert.equal(range.reference,`${name} 31:31–34`);assert.equal(range.image,'jeremiah-c031-v031-034-right-context-v1.jpg');assert(shareHTML(range).includes(range.text));
 }
@@ -113,9 +114,9 @@ const jerCross=pick('/share/jeremiah/8/22/9/1?lang=en');assert.equal(jerCross.re
 console.log('Jeremiah share pages render in all four languages with attribution, a shared range, an OpenCCB combined verse and a cross-chapter range.');
 for(const [book,names,first,range,rangeImage] of [['ezekiel',{ko:'에스겔',en:'Ezekiel',ja:'エゼキエル書',zh:'以西结书'},'ezekiel-c001-v001-003-right-context-v1.jpg','37/1/37/6','ezekiel-c037-v001-006-right-context-v1.jpg'],['hosea',{ko:'호세아',en:'Hosea',ja:'ホセア書',zh:'何西阿书'},'hosea-c001-v001-005-right-context-v1.jpg','6/1/6/3','hosea-c006-v001-003-right-context-v1.jpg']])for(const [lang,name] of Object.entries(names)){
  const shared=pick(`/share/${book}/1/1${lang==='ko'?'':`?lang=${lang}`}`),page=shareHTML(shared);
- assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,first);assert(page.includes(shared.text));assert(page.includes(`book=${book}`));
+ assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,first);assert(page.includes(escapeText(shared.text)));assert(page.includes(`book=${book}`));
  if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} ${book} attribution`);
- const [c,v,ec,ev]=range.split('/'),ranged=pick(`/share/${book}/${range}${lang==='ko'?'':`?lang=${lang}`}`);assert.equal(ranged.reference,`${name} ${c}:${v}–${ev}`);assert.equal(ranged.image,rangeImage);assert(shareHTML(ranged).includes(ranged.text));
+ const [c,v,ec,ev]=range.split('/'),ranged=pick(`/share/${book}/${range}${lang==='ko'?'':`?lang=${lang}`}`);assert.equal(ranged.reference,`${name} ${c}:${v}–${ev}`);assert.equal(ranged.image,rangeImage);assert(shareHTML(ranged).includes(escapeText(ranged.text)));
 }
 const ezkBridge=pick('/share/ezekiel/41/10?lang=zh');assert.equal(ezkBridge.reference,'以西结书 41:9–10');assert.match(ezkBridge.text,/厢房/);assert.equal(ezkBridge.image,'ezekiel-c041-v001-014-right-context-v1.jpg');
 const ezkKorean=pick('/share/ezekiel/24/5');assert.equal(ezkKorean.reference,'에스겔 24:4–5');assert.doesNotMatch(shareHTML(ezkKorean),/4절과 같음/);assert.equal(ezkKorean.image,'ezekiel-c024-v001-014-right-context-v1.jpg');
@@ -125,13 +126,13 @@ const hosEnd=pick('/share/hosea/13/16/14/1?lang=zh');assert.equal(hosEnd.referen
 console.log('Ezekiel and Hosea share pages render in all four languages with attribution, shared ranges, OpenCCB and KRV combined verses and cross-chapter ranges at the Hebrew/English boundaries.');
 for(const [lang,name] of Object.entries({ko:'이사야',en:'Isaiah',ja:'イザヤ書',zh:'以赛亚书'})){
  const q=lang==='ko'?'':`?lang=${lang}`,shared=pick(`/share/isaiah/1/1${q}`),page=shareHTML(shared);
- assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,'isaiah-c001-v001-001-right-context-v1.jpg');assert(page.includes(shared.text));assert(page.includes('book=isaiah'));
+ assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,'isaiah-c001-v001-001-right-context-v1.jpg');assert(page.includes(escapeText(shared.text)));assert(page.includes('book=isaiah'));
  if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} isaiah attribution`);
- const ranged=pick(`/share/isaiah/9/1/9/2${q}`);assert.equal(ranged.reference,`${name} 9:1–2`);assert.equal(ranged.image,'isaiah-c009-v001-002-right-context-v1.jpg');assert(shareHTML(ranged).includes(ranged.text));
+ const ranged=pick(`/share/isaiah/9/1/9/2${q}`);assert.equal(ranged.reference,`${name} 9:1–2`);assert.equal(ranged.image,'isaiah-c009-v001-002-right-context-v1.jpg');assert(shareHTML(ranged).includes(escapeText(ranged.text)));
  const cross=pick(`/share/isaiah/8/22/9/2${q}`);assert.equal(cross.reference,`${name} 8:22–9:2`);assert.equal(cross.verses.length,3);
 }
-const isaKorean=pick('/share/isaiah/7/9');assert.equal(isaKorean.reference,'이사야 7:8–9');assert.doesNotMatch(shareHTML(isaKorean),/8절과 같음/);assert.equal(isaKorean.image,'isaiah-c007-v005-009-right-context-v1.jpg');
-const isaKorean48=pick('/share/isaiah/48/2');assert.equal(isaKorean48.reference,'이사야 48:1–2');assert.doesNotMatch(shareHTML(isaKorean48),/1절과 같음/);assert.equal(isaKorean48.image,'isaiah-c048-v001-002-right-context-v1.jpg');
+const isaKorean=pick('/share/isaiah/7/9');assert.equal(isaKorean.reference,'이사야 7:9');assert.doesNotMatch(shareHTML(isaKorean),/8절과 같음/);assert.equal(isaKorean.image,'isaiah-c007-v005-009-right-context-v1.jpg');
+const isaKorean48=pick('/share/isaiah/48/2');assert.equal(isaKorean48.reference,'이사야 48:2');assert.doesNotMatch(shareHTML(isaKorean48),/1절과 같음/);assert.equal(isaKorean48.image,'isaiah-c048-v001-002-right-context-v1.jpg');
 const isaZh=pick('/share/isaiah/65/7?lang=zh');assert.equal(isaZh.reference,'以赛亚书 65:6–7');assert.match(isaZh.text,/烧香/);assert.equal(isaZh.image,'isaiah-c065-v006-007-right-context-v1.jpg');
 const isaJa=pick('/share/isaiah/4/4?lang=ja');assert.equal(isaJa.reference,'イザヤ書 4:3–4');assert.match(isaJa.text,/生命の書/);assert.equal(isaJa.image,'isaiah-c004-v002-004-right-context-v1.jpg');
 const isaCross=pick('/share/isaiah/63/19/64/1?lang=en');assert.equal(isaCross.reference,'Isaiah 63:19–64:1');assert.match(isaCross.text,/never ruled/);assert.match(isaCross.text,/rend the heavens/);
@@ -148,16 +149,16 @@ const minorShare={joel:[{ko:'요엘',en:'Joel',ja:'ヨエル書',zh:'约珥书'}
  malachi:[{ko:'말라기',en:'Malachi',ja:'マラキ書',zh:'玛拉基书'},'malachi-c001-v001-002-right-context-v2.jpg','4/5/4/6','malachi-c004-v005-006-right-context-v1.jpg']};
 for(const [book,[names,first,range,rangeImage]] of Object.entries(minorShare))for(const [lang,name] of Object.entries(names)){
  const q=lang==='ko'?'':`?lang=${lang}`,shared=pick(`/share/${book}/1/1${q}`),page=shareHTML(shared);
- assert.equal(shared.lang,lang);assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,first);assert(page.includes(shared.text));assert(page.includes(`book=${book}`));
+ assert.equal(shared.lang,lang);assert.equal(shared.reference,`${name} 1:1`);assert.equal(shared.image,first);assert(page.includes(escapeText(shared.text)));assert(page.includes(`book=${book}`));
  if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} ${book} attribution`);
- const [c,v,,ev]=range.split('/'),ranged=pick(`/share/${book}/${range}${q}`);assert.equal(ranged.reference,v===ev?`${name} ${c}:${v}`:`${name} ${c}:${v}–${ev}`);assert.equal(ranged.image,rangeImage);assert(shareHTML(ranged).includes(ranged.text));
+ const [c,v,,ev]=range.split('/'),ranged=pick(`/share/${book}/${range}${q}`);assert.equal(ranged.reference,v===ev?`${name} ${c}:${v}`:`${name} ${c}:${v}–${ev}`);assert.equal(ranged.image,rangeImage);assert(shareHTML(ranged).includes(escapeText(ranged.text)));
 }
 const joelCross=pick('/share/joel/2/32/3/1?lang=ja');assert.equal(joelCross.reference,'ヨエル書 2:32–3:1');assert.match(joelCross.text,/主の名を呼ぶ者/);assert.match(joelCross.text,/ユダとエルサレム/);
 const micCross=pick('/share/micah/4/13/5/2?lang=en');assert.equal(micCross.reference,'Micah 4:13–5:2');assert.equal(micCross.verses.length,3);assert.match(micCross.text,/daughter of troops/);assert.match(micCross.text,/Bethlehem Ephrathah/);
 const nahCross=pick('/share/nahum/1/15/2/1?lang=zh');assert.equal(nahCross.reference,'那鸿书 1:15–2:1');assert.match(nahCross.text,/传喜讯/);assert.match(nahCross.text,/攻击者/);
-const zecCross=pick('/share/zechariah/1/21/2/1');assert.equal(zecCross.reference,'스가랴 1:21–2:1');assert.match(zecCross.text,/공장들/);assert.match(zecCross.text,/척량줄/);
+const zecCross=pick('/share/zechariah/1/21/2/1');assert.equal(zecCross.reference,'스가랴 1:21–2:1');assert.match(zecCross.text,/대장장이들/);assert.match(zecCross.text,/측량줄/);
 const malCross=pick('/share/malachi/3/18/4/1?lang=en');assert.equal(malCross.reference,'Malachi 3:18–4:1');assert.match(malCross.text,/righteous and the wicked/);assert.match(malCross.text,/furnace/);
 const zepZh=pick('/share/zephaniah/2/2?lang=zh');assert.equal(zepZh.reference,'西番雅书 2:1–2');assert.match(zepZh.text,/聚集/);assert.equal(zepZh.image,'zephaniah-c002-v001-003-right-context-v2.jpg');
 const zepZh9=pick('/share/zephaniah/2/9?lang=zh');assert.equal(zepZh9.reference,'西番雅书 2:8–9');assert.match(zepZh9.text,/摩押/);assert.equal(zepZh9.image,'zephaniah-c002-v008-010-right-context-v1.jpg');
-const zepKo=pick('/share/zephaniah/2/2');assert.equal(zepKo.reference,'스바냐 2:2');assert.match(zepKo.text,/명령이 시행되기 전/);
+const zepKo=pick('/share/zephaniah/2/2');assert.equal(zepKo.reference,'스바냐 2:2');assert.match(zepKo.text,/명령이 시행되어/);
 console.log('Joel–Malachi share pages render in all four languages with attribution, shared ranges, cross-chapter ranges at the Hebrew/English boundaries and OpenCCB Zephaniah 2:1–2 and 2:8–9.');

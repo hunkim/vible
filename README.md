@@ -40,13 +40,22 @@ python3 check.py luke
 
 `check.py`에는 Python Pillow가 필요합니다. 빌드는 Node.js 기본 라이브러리만 사용합니다. 빌드는 원본 본문과 절 번호의 일치, 28권의 310장 범위, 2,392개 그림 파일을 확인한 뒤 실제 사용하는 그림만 `dist/`에 담습니다.
 
+## 한국어 본문 교체 (2026-10-24)
+
+최신 main의 기존 66권 장면·장절 위치를 유지하면서 사용자가 제공한 `개역개정-한글.zip`의 HWP 본문을 장·절로 매핑했습니다. 영·일·중 본문과 이미지 파일은 변경하지 않습니다. 합절과 생략은 별도 표기로 유지하고, 아가 6:14는 이 HWP의 6:13에 포함되므로 기존 위치를 6:13에 연결합니다.
+
+개역개정의 저작권자는 대한성서공회입니다. 파일 제공과 저작권 표기만으로 앱·웹 재배포 권한이 확인되는 것은 아닙니다. 이번 작업에서 프로젝트에 대한 사용 허가 증빙은 확인하지 못했습니다. 공개 서비스 및 공유 카드의 허가 범위는 별도로 확인해야 합니다.
+
+- 공식 저작권 안내: https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_4_1
+- 공식 앱·웹 허가 조건: https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_4_3
+- 장·절 검증 기록: `korean-text-verification.json`
+
 ## 본문과 그림
 
-성경전서 개역한글판 © 대한성서공회 1961.
+성경전서 개역개정판 © 대한성서공회 1998.
 
-- 전자 본문 데이터: https://github.com/yuhwan/Bible-krv
-- 사도행전 본문 대조: https://www.bible.com/ko/bible/88/ACT.1.KRV
-- 본문 대조: https://www.bible.com/ko/bible/88/JHN.1.KRV
+- 전자 본문 데이터: 사용자가 제공한 `개역개정-한글.zip`의 66권 HWP 파일
+- 발행처: https://www.bskorea.or.kr/
 - 역본 사용 안내: https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5
 - 사도행전 구조 참고: https://bibleproject.com/guides/book-of-acts/
 - 구조 참고: https://bibleproject.com/guides/book-of-john/

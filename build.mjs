@@ -19,7 +19,7 @@ for(const [id,chapters,count,plan] of [['john',21,879,'image-plan.json'],['acts'
  assert.deepEqual(data.scenes.map(s=>s.id),Array.from({length:data.sceneCount},(_,i)=>i+1));
  for(const chapter of source.chapters){
   const verses=data.scenes.filter(s=>s.chapter===chapter.chapter).flatMap(s=>s.verses);
-  assert.deepEqual(['deuteronomy','psalms','joshua','1samuel','isaiah','jeremiah','ezekiel','acts','romans'].includes(id)?verses.map(({omitted,combinedWith,endVerse,...original})=>original):verses,chapter.verses,`${id} chapter ${chapter.chapter}`);
+  assert.deepEqual(verses.map(({omitted,combinedWith,endVerse,...original})=>original),chapter.verses,`${id} chapter ${chapter.chapter}`);
  }
  assert.equal(data.verseCount,count);assert.equal(data.scenes.flatMap(s=>s.verses).length,count);
  const prompts=await read(plan);assert.deepEqual(prompts.images.map(s=>s.image),data.scenes.map(s=>s.image));

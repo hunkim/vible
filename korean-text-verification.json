@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-24",
+  "archive_sha256": "1b1d52fa1b146c64a204449f1198a64ef3f17630a037f45d49a61a39bb456968",
+  "books": [
+    {
+      "id": "genesis",
+      "name": "창세기",
+      "chapters": 50,
+      "verse_positions": 1533,
+      "source_entries": 1533,
+      "combined_positions": 0,
+      "hwp_sha256": "07ae43f51a9c8e5596135e7d3bf4f8d0a82b65e2735cbc78bd2d24a671c3ee94",
+      "errors": []
+    },
+    {
+      "id": "exodus",
+      "name": "출애굽기",
+      "chapters": 40,
+      "verse_positions": 1213,
+      "source_entries": 1213,
+      "combined_positions": 0,
+      "hwp_sha256": "d22ed55c8780305df23881ea5c3bcb70cf74284d458c28371a6feb087bc15c06",
+      "errors": []
+    },
+    {
+      "id": "leviticus",
+      "name": "레위기",
+      "chapters": 27,
+      "verse_positions": 859,
+      "source_entries": 859,
+      "combined_positions": 0,
+      "hwp_sha256": "cb5e685ac9475761a87cbdc9f4e62f47c8984365c251d4790fbb5f07e5e64053",
+      "errors": []
+    },
+    {
+      "id": "numbers",
+      "name": "민수기",
+      "chapters": 36,
+      "verse_positions": 1288,
+      "source_entries": 1288,
+      "combined_positions": 0,
+      "hwp_sha256": "749ba66374ae16aafacfe0e85045056ca408e92f515900ecf74d9c86393254b2",
+      "errors": []
+    },
+    {
+      "id": "deuteronomy",
+      "name": "신명기",
+      "chapters": 34,
+      "verse_positions": 959,
+      "source_entries": 956,
+      "combined_positions": 3,
+      "hwp_sha256": "c7a1230fb3dd94aced466543951ff74a67f21697b23bebdffaded2777d2e5043",
+      "errors": []
+    },
+    {
+      "id": "joshua",
+      "name": "여호수아",
+      "chapters": 24,
+      "verse_positions": 658,
+      "source_entries": 658,
+      "combined_positions": 0,
+      "hwp_sha256": "adb1ffa9085a3849426f1e6ec2be9d8938a2a50f316dc32502105f585e17740d",
+      "errors": []
+    },
+    {
+      "id": "judges",
+      "name": "사사기",
+      "chapters": 21,
+      "verse_positions": 618,
+      "source_entries": 618,
+      "combined_positions": 0,
+      "hwp_sha256": "c142c9e28c387580d58226f03797d321f0d3c3506a777d911c66e435aaccb631",
+      "errors": []
+    },
+    {
+      "id": "ruth",
+      "name": "룻기",
+      "chapters": 4,
+      "verse_positions": 85,
+      "source_entries": 85,
+      "combined_positions": 0,
+      "hwp_sha256": "7b1821b72005eca21576873b279f5d0bc85dbce41dbe80cba14bcbc9d99bdb55",
+      "errors": []
+    },
+    {
+      "id": "1samuel",
+      "name": "사무엘상",
+      "chapters": 31,
+      "verse_positions": 810,
+      "source_entries": 810,
+      "combined_positions": 0,
+      "hwp_sha256": "3023aa863e5a5ff77ec1c1a14827e0d1f548fc11d7a4a615f5988bce9aef174f",
+      "errors": []
+    },
+    {
+      "id": "2samuel",
+      "name": "사무엘하",
+      "chapters": 24,
+      "verse_positions": 695,
+      "source_entries": 695,
+      "combined_positions": 0,
+      "hwp_sha256": "e1ce379978a941291088301e73a40760ddfeb5ecd3137947c5399008ccf82780",
+      "errors": []
+    },
+    {
+      "id": "1kings",
+      "name": "열왕기상",
+      "chapters": 22,
+      "verse_positions": 816,
+      "source_entries": 816,
+      "combined_positions": 0,
+      "hwp_sha256": "7eab56582c39e7e280ad3b49341f680ca89257f987c274b386ca43d6b78cea77",
+      "errors": []
+    },
+    {
+      "id": "2kings",
+      "name": "열왕기하",
+      "chapters": 25,
+      "verse_positions": 719,
+      "source_entries": 719,
+      "combined_positions": 0,
+      "hwp_sha256": "cd725ce079f6b4118bd7e3b8565954b69373a14d2830239ef28b42fad1a2d8df",
+      "errors": []
+    },
+    {
+      "id": "1chronicles",
+      "name": "역대상",
+      "chapters": 29,
+      "verse_positions": 942,
+      "source_entries": 941,
+      "combined_positions": 1,
+      "hwp_sha256": "b399798d134ec61919045534b14b65e4e36815e5e7acbdf8f521d1c8c75c29d1",
+      "errors": []
+    },
+    {
+      "id": "2chronicles",
+      "name": "역대하",
+      "chapters": 36,
+      "verse_positions": 822,
+      "source_entries": 822,
+      "combined_positions": 0,
+      "hwp_sha256": "ce9b0908e6a9d96d8b0048d1892e35e2b05cc0c1ccfa743caf42a47b0f8f185e",
+      "errors": []
+    },
+    {
+      "id": "ezra",
+      "name": "에스라",
+      "chapters": 10,
+      "verse_positions": 280,
+      "source_entries": 280,
+      "combined_positions": 0,
+      "hwp_sha256": "c6ebdb01a93ef41e47ccf7c0bbade7b738a0314e9cdcfe076a32f55890c6b76f",
+      "errors": []
+    },
+    {
+      "id": "nehemiah",
+      "name": "느헤미야",
+      "chapters": 13,
+      "verse_positions": 406,
+      "source_entries": 406,
+      "combined_positions": 0,
+      "hwp_sha256": "e4ac47fe41659877f1fcdb66868e12aa5e6b260fc971c5060f9f29ebbe1ee58a",
+      "errors": []
+    },
+    {
+      "id": "esther",
+      "name": "에스더",
+      "chapters": 10,
+      "verse_positions": 167,
+      "source_entries": 167,
+      "combined_positions": 0,
+      "hwp_sha256": "69237a398f427f5f00f5aa96ebeb1b3474cec75abdf92d1716865d0c31645a1a",
+      "errors": []
+    },
+    {
+      "id": "job",
+      "name": "욥기",
+      "chapters": 42,
+      "verse_positions": 1070,
+      "source_entries": 1070,
+      "combined_positions": 0,
+      "hwp_sha256": "4e0ba37da83ab70ee6c8b143f77b076a66824f2b20e76d7a0cd1d62c9265789c",
+      "errors": []
+    },
+    {
+      "id": "psalms",
+      "name": "시편",
+      "chapters": 150,
+      "verse_positions": 2461,
+      "source_entries": 2458,
+      "combined_positions": 3,
+      "hwp_sha256": "e249831c83ac08ca942e5fe16af4dce34bfdd7aa8fd16cc54ccce0369c999922",
+      "errors": []
+    },
+    {
+      "id": "proverbs",
+      "name": "잠언",
+      "chapters": 31,
+      "verse_positions": 915,
+      "source_entries": 915,
+      "combined_positions": 0,
+      "hwp_sha256": "6b82d84bbd2ee95508bd93a0b7b1dd799052eaeaee23fef425cc8b7d27b51f75",
+      "errors": []
+    },
+    {
+      "id": "ecclesiastes",
+      "name": "전도서",
+      "chapters": 12,
+      "verse_positions": 222,
+      "source_entries": 222,
+      "combined_positions": 0,
+      "hwp_sha256": "3898b0a36a404f754c1b0d65339de2928655d3a12b478ccba58bd3eedeaaf3c2",
+      "errors": []
+    },
+    {
+      "id": "songofsongs",
+      "name": "아가",
+      "chapters": 8,
+      "verse_positions": 118,
+      "source_entries": 117,
+      "combined_positions": 1,
+      "hwp_sha256": "657d683971ff6331002f20df428a37bccc01141b4b5c8c3aa3c9c2ded32ce101",
+      "errors": []
+    },
+    {
+      "id": "isaiah",
+      "name": "이사야",
+      "chapters": 66,
+      "verse_positions": 1292,
+      "source_entries": 1292,
+      "combined_positions": 0,
+      "hwp_sha256": "ae58209e7712d920a2de4983b34b36e1b9eb9cf51499df6a5875f7d6bd714572",
+      "errors": []
+    },
+    {
+      "id": "jeremiah",
+      "name": "예레미야",
+      "chapters": 52,
+      "verse_positions": 1364,
+      "source_entries": 1361,
+      "combined_positions": 3,
+      "hwp_sha256": "d10ba918ce441f418bf59f2a97272982efc4290f365e9d927167c165fdd33e31",
+      "errors": []
+    },
+    {
+      "id": "lamentations",
+      "name": "예레미야애가",
+      "chapters": 5,
+      "verse_positions": 154,
+      "source_entries": 154,
+      "combined_positions": 0,
+      "hwp_sha256": "b700351d2a662f82c6eb007693bba2204a90e75867d4b55895aa9bb7a9737d56",
+      "errors": []
+    },
+    {
+      "id": "ezekiel",
+      "name": "에스겔",
+      "chapters": 48,
+      "verse_positions": 1273,
+      "source_entries": 1272,
+      "combined_positions": 1,
+      "hwp_sha256": "33a168454404e0d5088da7708b78c4acd1805577198777df41882a60a922d3d0",
+      "errors": []
+    },
+    {
+      "id": "daniel",
+      "name": "다니엘",
+      "chapters": 12,
+      "verse_positions": 357,
+      "source_entries": 357,
+      "combined_positions": 0,
+      "hwp_sha256": "b496074cb46731db097fa3703b0ee4e2b12c4c5da4d7a465c689299565d5b2fc",
+      "errors": []
+    },
+    {
+      "id": "hosea",
+      "name": "호세아",
+      "chapters": 14,
+      "verse_positions": 197,
+      "source_entries": 197,
+      "combined_positions": 0,
+      "hwp_sha256": "a87a00aad183c88dc9ec7c15dbf78c09bfd4b84f6d781924e53b4b1481753da0",
+      "errors": []
+    },
+    {
+      "id": "joel",
+      "name": "요엘",
+      "chapters": 3,
+      "verse_positions": 73,
+      "source_entries": 73,
+      "combined_positions": 0,
+      "hwp_sha256": "8d2f614ad850946ea0f6effb37967a942839655184fd659f3fac55de18a035bf",
+      "errors": []
+    },
+    {
+      "id": "amos",
+      "name": "아모스",
+      "chapters": 9,
+      "verse_positions": 146,
+      "source_entries": 146,
+      "combined_positions": 0,
+      "hwp_sha256": "c1817f704027cda7595bd7c4b9a96a0d962bf2c226bfe9018b9f562e10b109b7",
+      "errors": []
+    },
+    {
+      "id": "obadiah",
+      "name": "오바댜",
+      "chapters": 1,
+      "verse_positions": 21,
+      "source_entries": 21,
+      "combined_positions": 0,
+      "hwp_sha256": "8d2447d6e3dfe85af81ee6fe3e07034fc3cd581812dc00afb5bbfcebd82b4853",
+      "errors": []
+    },
+    {
+      "id": "jonah",
+      "name": "요나",
+      "chapters": 4,
+      "verse_positions": 48,
+      "source_entries": 48,
+      "combined_positions": 0,
+      "hwp_sha256": "3cbf6686b8fd3713cdfd8b72d8f20a0104b8356dd9e127af3155cb4856426656",
+      "errors": []
+    },
+    {
+      "id": "micah",
+      "name": "미가",
+      "chapters": 7,
+      "verse_positions": 105,
+      "source_entries": 105,
+      "combined_positions": 0,
+      "hwp_sha256": "27860e95e8a3926fdf25fb3286ca15a0def3cdffa49374fe5979a95f0adcfe50",
+      "errors": []
+    },
+    {
+      "id": "nahum",
+      "name": "나훔",
+      "chapters": 3,
+      "verse_positions": 47,
+      "source_entries": 47,
+      "combined_positions": 0,
+      "hwp_sha256": "56706dbf999138e571b96007f95b8f81af4efde8aeb9bdd67a5586952e093e5d",
+      "errors": []
+    },
+    {
+      "id": "habakkuk",
+      "name": "하박국",
+      "chapters": 3,
+      "verse_positions": 56,
+      "source_entries": 56,
+      "combined_positions": 0,
+      "hwp_sha256": "844bf569766ad714de8dc95fcb34d0dc8c69e9c0bdd0364d0aaf256c0e4bba85",
+      "errors": []
+    },
+    {
+      "id": "zephaniah",
+      "name": "스바냐",
+      "chapters": 3,
+      "verse_positions": 53,
+      "source_entries": 53,
+      "combined_positions": 0,
+      "hwp_sha256": "4d28eb1f75d20628fa8f59d2b4c06fdba5b11a5237d7a8c35099b71eb185fe3f",
+      "errors": []
+    },
+    {
+      "id": "haggai",
+      "name": "학개",
+      "chapters": 2,
+      "verse_positions": 38,
+      "source_entries": 38,
+      "combined_positions": 0,
+      "hwp_sha256": "f1b4350eb74b7ff8564098568e3f7c372339b19f07e06c5e39c7b21ff9f84749",
+      "errors": []
+    },
+    {
+      "id": "zechariah",
+      "name": "스가랴",
+      "chapters": 14,
+      "verse_positions": 211,
+      "source_entries": 211,
+      "combined_positions": 0,
+      "hwp_sha256": "92f6d847a2b8f357049db36d742dc68eebe0b322b691ab0c5a76a1a3ef45a4c9",
+      "errors": []
+    },
+    {
+      "id": "malachi",
+      "name": "말라기",
+      "chapters": 4,
+      "verse_positions": 55,
+      "source_entries": 55,
+      "combined_positions": 0,
+      "hwp_sha256": "78c8f038adf8c88c76e6e60499201d9e07640a0b9d960a8cf16c8a4ce9cb58cf",
+      "errors": []
+    },
+    {
+      "id": "matthew",
+      "name": "마태복음",
+      "chapters": 28,
+      "verse_positions": 1071,
+      "source_entries": 1071,
+      "combined_positions": 0,
+      "hwp_sha256": "44a52e87eb6001001d233aea5eb74555dd61d909861a10815d345d5de53e0a10",
+      "errors": []
+    },
+    {
+      "id": "mark",
+      "name": "마가복음",
+      "chapters": 16,
+      "verse_positions": 678,
+      "source_entries": 678,
+      "combined_positions": 0,
+      "hwp_sha256": "25f2c87bbf56f4ee766bff496989d0d72ef94c4993a74346f79946bfcc1b2063",
+      "errors": []
+    },
+    {
+      "id": "luke",
+      "name": "누가복음",
+      "chapters": 24,
+      "verse_positions": 1151,
+      "source_entries": 1151,
+      "combined_positions": 0,
+      "hwp_sha256": "752d498c31f7aae1cde0ad4e01691bbbadb282fcef815ca8d03a7ec89f047aaf",
+      "errors": []
+    },
+    {
+      "id": "john",
+      "name": "요한복음",
+      "chapters": 21,
+      "verse_positions": 879,
+      "source_entries": 879,
+      "combined_positions": 0,
+      "hwp_sha256": "a42e2cacd81e60cad32f9a3b313b7508991dfa92dabdf044b267da88cb6280c7",
+      "errors": []
+    },
+    {
+      "id": "acts",
+      "name": "사도행전",
+      "chapters": 28,
+      "verse_positions": 1007,
+      "source_entries": 1005,
+      "combined_positions": 1,
+      "hwp_sha256": "ca9ee6df55f494f49fa9038557c37a5d59539ac2c779416b84e11387b1864889",
+      "errors": []
+    },
+    {
+      "id": "romans",
+      "name": "로마서",
+      "chapters": 16,
+      "verse_positions": 433,
+      "source_entries": 432,
+      "combined_positions": 1,
+      "hwp_sha256": "ab1943e380442f1df39036cec118ff2326f020fa0b920cf4a969de7d1c7a0596",
+      "errors": []
+    },
+    {
+      "id": "1corinthians",
+      "name": "고린도전서",
+      "chapters": 16,
+      "verse_positions": 437,
+      "source_entries": 437,
+      "combined_positions": 0,
+      "hwp_sha256": "78ad184d34e44c9662f5d52267aa03bcef9c04a12f81b9c3de2819db8b0ddce9",
+      "errors": []
+    },
+    {
+      "id": "2corinthians",
+      "name": "고린도후서",
+      "chapters": 13,
+      "verse_positions": 256,
+      "source_entries": 256,
+      "combined_positions": 0,
+      "hwp_sha256": "c8031096b48e67d0afcd2735810651bed9668c3a1efef668cbd442b325ac0a28",
+      "errors": []
+    },
+    {
+      "id": "galatians",
+      "name": "갈라디아서",
+      "chapters": 6,
+      "verse_positions": 149,
+      "source_entries": 149,
+      "combined_positions": 0,
+      "hwp_sha256": "bfc132ba5ddc966c798aec6436328d86dc2a0c9380853315dd4fa44bbc6c36be",
+      "errors": []
+    },
+    {
+      "id": "ephesians",
+      "name": "에베소서",
+      "chapters": 6,
+      "verse_positions": 155,
+      "source_entries": 155,
+      "combined_positions": 0,
+      "hwp_sha256": "2a077d13f5daee3f2fee1e065b724f23abff90c31584923df5430fd1f1b40de9",
+      "errors": []
+    },
+    {
+      "id": "philippians",
+      "name": "빌립보서",
+      "chapters": 4,
+      "verse_positions": 104,
+      "source_entries": 104,
+      "combined_positions": 0,
+      "hwp_sha256": "3adb03a632d6051b64d5f14536dd58ae54ff0c23109e60256e9a236ae9560e50",
+      "errors": []
+    },
+    {
+      "id": "colossians",
+      "name": "골로새서",
+      "chapters": 4,
+      "verse_positions": 95,
+      "source_entries": 95,
+      "combined_positions": 0,
+      "hwp_sha256": "8c8f83871a59763ec61f85c13948242188551dbd75e83f46ee9cc791fa630cb0",
+      "errors": []
+    },
+    {
+      "id": "1thessalonians",
+      "name": "데살로니가전서",
+      "chapters": 5,
+      "verse_positions": 89,
+      "source_entries": 89,
+      "combined_positions": 0,
+      "hwp_sha256": "a0db8d916c2d5e8d1a7d7393f1d676155b9337b437b30c5edc6b32dbe188ecfd",
+      "errors": []
+    },
+    {
+      "id": "2thessalonians",
+      "name": "데살로니가후서",
+      "chapters": 3,
+      "verse_positions": 47,
+      "source_entries": 47,
+      "combined_positions": 0,
+      "hwp_sha256": "27366789ffb026edfa5cec9eaf8880c3a2c22d24a12f3f9a0d04327132061fb0",
+      "errors": []
+    },
+    {
+      "id": "1timothy",
+      "name": "디모데전서",
+      "chapters": 6,
+      "verse_positions": 113,
+      "source_entries": 113,
+      "combined_positions": 0,
+      "hwp_sha256": "8d9fc02dd9e543fd5269965f0a1ec7f84dfa2df15afafe70e8d21d13bf1344a5",
+      "errors": []
+    },
+    {
+      "id": "2timothy",
+      "name": "디모데후서",
+      "chapters": 4,
+      "verse_positions": 83,
+      "source_entries": 83,
+      "combined_positions": 0,
+      "hwp_sha256": "e608b99df716e617920e6e58eb008b9b78d667d87d4cc9ec920044ad6b868643",
+      "errors": []
+    },
+    {
+      "id": "titus",
+      "name": "디도서",
+      "chapters": 3,
+      "verse_positions": 46,
+      "source_entries": 46,
+      "combined_positions": 0,
+      "hwp_sha256": "7e487afc5a6bbb9772255c0a7061e607b3fc41007c8b737fdc39d62089a340f1",
+      "errors": []
+    },
+    {
+      "id": "philemon",
+      "name": "빌레몬서",
+      "chapters": 1,
+      "verse_positions": 25,
+      "source_entries": 25,
+      "combined_positions": 0,
+      "hwp_sha256": "7e2023003b8eb268c210a3bd7dd5adc913f87489c758fb33bb0c84287f0d0425",
+      "errors": []
+    },
+    {
+      "id": "hebrews",
+      "name": "히브리서",
+      "chapters": 13,
+      "verse_positions": 303,
+      "source_entries": 303,
+      "combined_positions": 0,
+      "hwp_sha256": "62adad812d6c88b0abd18f827f235132a9e7731bfa7d9ae286e266292296e4f3",
+      "errors": []
+    },
+    {
+      "id": "james",
+      "name": "야고보서",
+      "chapters": 5,
+      "verse_positions": 108,
+      "source_entries": 108,
+      "combined_positions": 0,
+      "hwp_sha256": "09a0994e80c721acdaea90bcba7368759a5b10f46c42d7879f035d63de7630b5",
+      "errors": []
+    },
+    {
+      "id": "1peter",
+      "name": "베드로전서",
+      "chapters": 5,
+      "verse_positions": 105,
+      "source_entries": 105,
+      "combined_positions": 0,
+      "hwp_sha256": "6eb88cb4b0ddae923dc42eb1b3d52a61ca453ccfb5d387a204e9e3b7ef841119",
+      "errors": []
+    },
+    {
+      "id": "2peter",
+      "name": "베드로후서",
+      "chapters": 3,
+      "verse_positions": 61,
+      "source_entries": 61,
+      "combined_positions": 0,
+      "hwp_sha256": "043f266ae1c9af3065f1331ec216091fdd264a37f71c38b9a488ec7296a28952",
+      "errors": []
+    },
+    {
+      "id": "2john",
+      "name": "요한이서",
+      "chapters": 1,
+      "verse_positions": 13,
+      "source_entries": 13,
+      "combined_positions": 0,
+      "hwp_sha256": "43d69c4b7ba487b7f97a0594fa3dccd7a18f2ef40caa9a8d28a7933024e8b764",
+      "errors": []
+    },
+    {
+      "id": "3john",
+      "name": "요한삼서",
+      "chapters": 1,
+      "verse_positions": 15,
+      "source_entries": 15,
+      "combined_positions": 0,
+      "hwp_sha256": "84aaa6e38d83720f1705a445ec612ea4be42545aa3d517c433cfa1d98cc2868c",
+      "errors": []
+    },
+    {
+      "id": "1john",
+      "name": "요한일서",
+      "chapters": 5,
+      "verse_positions": 105,
+      "source_entries": 105,
+      "combined_positions": 0,
+      "hwp_sha256": "e3e4b84295722a3945450301ed055aae257631a9b1be0a6ffc55edb6104763b6",
+      "errors": []
+    },
+    {
+      "id": "jude",
+      "name": "유다서",
+      "chapters": 1,
+      "verse_positions": 25,
+      "source_entries": 25,
+      "combined_positions": 0,
+      "hwp_sha256": "b4ff2dd0e0524dc5f2ead09ddeff5bd7c6a47192bae0468592a258409c53735b",
+      "errors": []
+    },
+    {
+      "id": "revelation",
+      "name": "요한계시록",
+      "chapters": 22,
+      "verse_positions": 404,
+      "source_entries": 404,
+      "combined_positions": 0,
+      "hwp_sha256": "50ea115d52d6fa5723a798aeb467158311fb6de42fbf6d6aef5fbffe09a23299",
+      "errors": []
+    }
+  ],
+  "unintegrated_books": [],
+  "errors": [],
+  "totals": {
+    "books": 66,
+    "chapters": 1189,
+    "verse_positions": 31103,
+    "errors": 0,
+    "not_integrated": 0
+  },
+  "base_commit": "ea823ebe3b99be238764b0c2a6f7a8c1640d7c15",
+  "source_archive": "개역개정-한글.zip",
+  "permission_status": "Project-specific web/app and share-card permission evidence was not confirmed. Attribution and user upload are not license grants.",
+  "copyright_sources": [
+    "https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_4_1",
+    "https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_4_3"
+  ],
+  "preserved": [
+    "All 198 English, Japanese and Chinese translation files unchanged",
+    "Scene IDs, chapter/verse positions, scene titles, image references and image files unchanged",
+    "Combined HWP verses are explicit; Acts 24:7 omitted; legacy Song 6:14 maps to HWP 6:13"
+  ],
+  "checks": {
+    "npm run check": "passed",
+    "HWP book/chapter/verse mapping": "66 books, 1189 chapters, 31103 retained positions, 31088 source entries; 0 errors",
+    "other languages and artwork": "git diff confirms no changes"
+  }
+}

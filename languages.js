@@ -65,7 +65,7 @@ export const interfaceCopy={
 };
 
 // Bible editions per reading language (data/translations/editions.json). The base edition is the text the app has always
-// shown (Korean: data/<book>.json, 개역한글 1961); another edition lives in data/translations/<lang>-<id>/<book>.json in the
+// shown (Korean: data/<book>.json, 개역개정 1998); another edition lives in data/translations/<lang>-<id>/<book>.json in the
 // translation-file format and covers only the books it lists. A whole book always comes from one edition.
 export const EDITIONS_FILE='data/translations/editions.json';
 export const noEditions={version:1,languages:{}};
