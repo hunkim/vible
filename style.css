@@ -477,7 +477,7 @@ html.desktop-app .immersive .reading-workspace{height:100dvh}
 /* Accessibility polish (UI/UX Pro Max audit): 4.5:1 secondary text, no meta text under 11px on phones, and larger hit areas for compact header and source controls without moving the layout. */
 :root{--muted:#646c63}
 .search-shortcut{color:var(--muted)}
-#source-button,.topbar :is(.brand,#font-smaller,#font-larger,#open-language,#open-menu){position:relative}
+#source-button,.topbar :is(.brand,#open-search,#font-smaller,#font-larger,#open-language,#open-menu){position:relative}
 #source-button::after,.topbar :is(.brand,#open-search,#font-smaller,#font-larger,#open-language,#open-menu)::after{content:"";position:absolute;inset:-6px -3px}
 #source-button::after{inset:-10px -6px}
 @media(max-width:700px){
