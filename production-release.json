@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-24",
   "production": "https://vible.now",
-  "deployment": "https://vible-2cef5v23v-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_DkpUuuLBkYkcAV7zfNxJYEaEM793",
-  "newImageFiles": 1,
+  "deployment": "https://vercel.com/hunkims-projects/vible/AwbvijjRBmtVtZUEShvZdeBMjRJn",
+  "deploymentId": "dpl_AwbvijjRBmtVtZUEShvZdeBMjRJn",
+  "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -130,7 +130,7 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "403a5ac866aeb05dda9fb87f3332d33f498dab18",
+  "gitCommit": "c922e18d3c2c90bbf5afb865c2aa1e3a9d04dfd8",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
@@ -138,7 +138,7 @@
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
   "frozenSource": "/private/tmp/vible-release-403a5ac866ae",
-  "sourceCommit": "403a5ac866aeb05dda9fb87f3332d33f498dab18",
+  "sourceCommit": "c922e18d3c2c90bbf5afb865c2aa1e3a9d04dfd8",
   "latestFeedbackRelease": {
     "date": "2026-10-21",
     "correctedImages": 1,
@@ -152,5 +152,21 @@
     "existingArtRetained": true,
     "privateBeforeAfterComparisons": true
   },
-  "replacementImages": 1
+  "replacementImages": 1,
+  "koreanTextReplacement": {
+    "source": "개역개정-한글.zip",
+    "books": 66,
+    "chapters": 1189,
+    "retainedVersePositions": 31103,
+    "sourceEntries": 31088,
+    "mappingErrors": 0,
+    "otherTranslationsUnchanged": 198,
+    "checks": [
+      "npm run check on frozen source passed",
+      "node check-offline.mjs passed",
+      "live release source SHA, reader, Korean attribution and ko/en/ja/zh share pages passed"
+    ],
+    "permissionEvidenceConfirmed": false,
+    "verification": "korean-text-verification.json"
+  }
 }
