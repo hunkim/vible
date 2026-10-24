@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "production": "https://vible.now",
-  "deployment": "https://vercel.com/hunkims-projects/vible/5yzPqRs99gGY2xvwmAnWwQBWiQLX",
-  "deploymentId": "dpl_5yzPqRs99gGY2xvwmAnWwQBWiQLX",
+  "deployment": "https://vercel.com/hunkims-projects/vible/HsEzBGqsy6SPYSgpBstimS5My47f",
+  "deploymentId": "dpl_HsEzBGqsy6SPYSgpBstimS5My47f",
   "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
@@ -130,15 +130,15 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "75ccb5a83c8d7e5d687c6763643a40d0ec231d43",
+  "gitCommit": "9d9bd949ddc4188bfc561235c98d72fd27f600ec",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v4.jpg",
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
-  "frozenSource": "/private/tmp/vible-release-75ccb5a83c8d7e5d687c6763643a40d0ec231d43",
-  "sourceCommit": "75ccb5a83c8d7e5d687c6763643a40d0ec231d43",
+  "frozenSource": "/private/tmp/vible-release-9d9bd949ddc4188bfc561235c98d72fd27f600ec",
+  "sourceCommit": "9d9bd949ddc4188bfc561235c98d72fd27f600ec",
   "latestFeedbackRelease": {
     "date": "2026-10-21",
     "correctedImages": 1,
@@ -152,7 +152,7 @@
     "existingArtRetained": true,
     "privateBeforeAfterComparisons": true
   },
-  "replacementImages": 1,
+  "replacementImages": 0,
   "koreanTextReplacement": {
     "source": "개역개정-한글.zip",
     "books": 66,
@@ -230,5 +230,18 @@
     ],
     "appVersionJson": "update after 1.0.5 is live (currently ios 1.0.3, macos 1.0.2 although iOS 1.0.4 and macOS 1.0.3 are live)",
     "android": "Play developer account restricted 2026-10-13; needs Korean payments profile, ID and proof of address"
+  },
+  "headerHitAreaFix": {
+    "date": "2026-10-25",
+    "sourceCommit": "9d9bd949ddc4188bfc561235c98d72fd27f600ec",
+    "bug": "Desktop widths (>700px): the search button's enlarged ::after hit area was unpositioned and covered the header, so clicking the book picker opened search. Introduced by 45b1ee6 (accessibility polish).",
+    "fix": "#open-search gets position:relative with the other enlarged-hit-area controls.",
+    "checks": [
+      "npm run check",
+      "node check-offline.mjs",
+      "release-preflight",
+      "live 1400px: book picker opens book dialog, search stays closed"
+    ],
+    "apps": "Mac/iOS 1.0.5 bundle the bug (iPad and Mac widths); fixed in 1.0.6."
   }
 }
