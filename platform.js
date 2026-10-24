@@ -120,16 +120,22 @@ export function desktopChrome(doc=document,ua=navigator.userAgent){
  return os;
 }
 if(tauri)desktopChrome();
-// Store apps read Scripture and image-release data from the bundle first, so they open instantly and offline,
-// then refresh it from vible.now in the background; newly released images appear on the next open without an app update.
+// Validate native content before showing it: unchanged releases reuse the cached body (304),
+// changed releases appear on this open. Offline or slow requests fall back to cache, then bundle.
 const CONTENT_CACHE='vible-content';
 export async function fetchContent(path,{fetchImpl=globalThis.fetch,store=globalThis.caches,refresh=true}={}){
- if(!isNative||!store)return fetchImpl(path);
+ if(!isNative)return fetchImpl(path);
  const url=`${SITE_ORIGIN}/${path}`;let cache=null,cached=null;
- try{cache=await store.open(CONTENT_CACHE);cached=await cache.match(url);}catch{}
- const update=refresh?Promise.resolve().then(async()=>{const r=await fetchImpl(url,{cache:'no-cache',signal:globalThis.AbortSignal?.timeout?.(15000)});if(r.ok&&cache)await cache.put(url,r.clone());return r;}).catch(()=>null):Promise.resolve(null);
+ try{cache=await store?.open(CONTENT_CACHE);cached=await cache?.match(url);}catch{}
+ if(refresh)try{
+  const headers={},etag=cached?.headers.get('ETag'),modified=cached?.headers.get('Last-Modified');
+  if(etag)headers['If-None-Match']=etag;else if(modified)headers['If-Modified-Since']=modified;
+  const response=await fetchImpl(url,{headers,cache:'no-store',signal:globalThis.AbortSignal?.timeout?.(3000)});
+  if(response.status===304&&cached)return cached;
+  if(response.ok){try{await cache?.put(url,response.clone());}catch{}return response;}
+ }catch{}
  if(cached)return cached;
  const local=await fetchImpl(path).catch(()=>null);
  if(local?.ok)return local;
- return (await update)||local||cached;
+ return local||cached;
 }

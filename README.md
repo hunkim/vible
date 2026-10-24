@@ -117,3 +117,7 @@ Take Heart 제작 기록과 승인된 인물 참조를 확인해 성킴과 승�
 중단 후에는 `python3 review/epistles-pending.py`로 아직 저장되지 않은 장면만 찾습니다. `python3 review/gospels-contact-sheet.py 책ID`로 검수 시트를 갱신하고, `python3 review/epistles-review-ready.py 책ID`로 실제 파일이 준비된 미검수 장면과 참조 얼굴 확대 검수 대상을 확인합니다. `review/*-qa-state.json`에 검수와 수정 대상을 보존하며, 각 책의 검수·본문 대조를 마친 뒤 `python3 review/release-epistles.py 책ID`로 로컬 앱에서 그림을 사용할 수 있게 합니다. 전체 완료는 `python3 review/check-epistles-complete.py`의 실제 파일·중복·본문·시각 검수·브라우저 검증 결과로 확인합니다.
 
 `npm run check`는 공유·설치·언어·모바일·장면 이동 바·부분 공개 경계와 본문 보존 검사를 실행하고 전체 앱을 빌드합니다. `node check-offline.mjs`는 전체 본문과 제작 중 배경의 오프라인 동작을 확인합니다.
+
+## 앱 본문 갱신
+
+Mac·iOS·Android 앱은 책을 열 때 서버에 ETag(없으면 Last-Modified)로 변경 여부를 확인합니다. 변경이 없으면 304 응답으로 저장된 본문을 재사용하고, 변경이 있으면 내려받은 본문을 그 자리에서 표시합니다. 검색 색인과 역본 목록도 같은 방식으로 확인합니다. 오프라인·서버 오류·3초 이상 지연 시에는 마지막 캐시, 없으면 앱에 포함된 본문을 사용합니다. 캐시를 사용할 수 없거나 저장 공간이 부족해도 온라인 본문을 표시합니다. 이 동작은 새 앱 빌드부터 적용되며, 설치된 이전 앱의 코드는 웹 배포만으로 바뀌지 않습니다.

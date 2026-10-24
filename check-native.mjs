@@ -77,22 +77,53 @@ assert.equal(mobile.desktopChrome(fakeDoc(),'Windows'),null,'phones and tablets 
 const conf=JSON.parse(await fs.readFile(path.join(root,'native/desktop/src-tauri/tauri.conf.json'),'utf8')).app.windows[0],winConf=JSON.parse(await fs.readFile(path.join(root,'native/desktop/src-tauri/tauri.windows.conf.json'),'utf8')).app.windows[0];
 assert.equal(conf.titleBarStyle,'Overlay');assert.equal(conf.hiddenTitle,true);assert.equal(winConf.decorations,false);
 const perms=JSON.parse(await fs.readFile(path.join(root,'native/desktop/src-tauri/capabilities/default.json'),'utf8')).permissions;for(const p of ['core:window:allow-start-dragging','core:window:allow-minimize','core:window:allow-toggle-maximize','core:window:allow-close'])assert(perms.includes(p),p);
-// Content refresh: bundled data first (instant, offline), vible.now copy cached in the background and used next time.
-{const stores=new Map(),store={open:async()=>({match:async u=>stores.get(u)?.clone(),put:async(u,r)=>{stores.set(u,r);}})};const seen=[];let online=true;
- const fetchImpl=async(u)=>{seen.push(u);if(u.startsWith('https://')){if(!online)throw new TypeError('offline');return new Response('{"v":"remote"}');}return new Response('{"v":"bundled"}');};
- const first=await mobile.fetchContent('data/proverbs.json',{fetchImpl,store});assert.equal((await first.json()).v,'bundled','first open uses the bundle');
- await new Promise(r=>setTimeout(r,10));assert(stores.has('https://vible.now/data/proverbs.json'),'remote copy cached in background');
- assert.equal((await (await mobile.fetchContent('data/proverbs.json',{fetchImpl,store})).json()).v,'remote','next open uses the refreshed release');
- online=false;assert.equal((await (await mobile.fetchContent('data/proverbs.json',{fetchImpl,store})).json()).v,'remote','offline keeps the last refreshed release');
- // A Korean edition switched on after this app build: the bundled registry is refreshed from vible.now, and its book
- // files and search index, absent from the bundle, come from vible.now and are kept for offline reading.
- online=true;const editionFetch=async u=>u.startsWith('https://')?new Response(`{"v":"remote ${u.slice(18)}"}`):new Response('',{status:404});
- assert.equal((await (await mobile.fetchContent('data/translations/editions.json',{fetchImpl,store})).json()).v,'bundled');await new Promise(r=>setTimeout(r,10));
- assert.equal((await (await mobile.fetchContent('data/translations/editions.json',{fetchImpl,store})).json()).v,'remote','the next open sees the deployed registry');
- for(const file of ['data/translations/ko-test/john.json','data/search/ko-test.json'])assert.equal((await (await mobile.fetchContent(file,{fetchImpl:editionFetch,store})).json()).v,`remote ${file}`,file);
- const web=vm.runInNewContext(source,{document:{addEventListener(){}},navigator:{},location:{href:'https://vible.now/'},URL,URLSearchParams});
- seen.length=0;await web.fetchContent('data/john.json',{fetchImpl,store});assert.deepEqual(seen,['data/john.json'],'the website fetches its own files directly');}
+// Both native shells must display the server's current book on the first open, reuse 304 bodies,
+// and preserve offline reading without letting cache failures hide a successful response.
+for(const [name,adapter] of [['iOS',mobile],['Mac',desktop]]){
+ const entries=new Map(),requests=[];let writes=0,version=1,mode='online';
+ const store={open:async()=>({match:async url=>entries.get(url)?.clone(),put:async(url,response)=>{writes++;entries.set(url,response);}})};
+ const fetchImpl=async(url,options)=>{
+  requests.push({url,...options});
+  if(!url.startsWith('https://'))return new Response('{"v":"bundled"}');
+  if(mode==='offline')throw new TypeError('offline');
+  if(mode==='timeout')throw new DOMException('timed out','TimeoutError');
+  if(mode==='error')return new Response('',{status:503});
+  const etag=`"release-${version}"`;
+  if(options?.headers?.['If-None-Match']===etag)return new Response(null,{status:304});
+  return new Response(JSON.stringify({v:version}),{headers:{ETag:etag}});
+ };
+ const open=async(book='numbers')=>(await adapter.fetchContent(`data/${book}.json`,{fetchImpl,store})).json();
+ assert.equal((await open()).v,1,`${name}: first open uses the live book, not bundled Scripture`);
+ assert.equal(writes,1);assert.equal(requests[0].cache,'no-store');
+ assert.equal((await open()).v,1);assert.equal(requests.at(-1).headers['If-None-Match'],'"release-1"');
+ assert.equal(writes,1,`${name}: 304 reuses the stored body without rewriting it`);
+ version=2;assert.equal((await open()).v,2,`${name}: changed book appears without reload`);
+ assert.equal(writes,2);assert.equal((await open('2samuel')).v,2,`${name}: switching to a new book is current on its first open`);
+ for(mode of ['offline','timeout','error']){
+  assert.equal((await open()).v,2,`${name}: ${mode} keeps the latest cached book`);
+  assert.equal((await open('genesis')).v,'bundled',`${name}: ${mode} falls back to the bundle when no cache exists`);
+ }
+ mode='online';requests.length=0;
+ assert.equal((await (await adapter.fetchContent('data/numbers.json',{fetchImpl,store,refresh:false})).json()).v,2);
+ assert.equal(requests.length,0,'explicit offline access does not contact the server');
+ const brokenStore={open:async()=>{throw Error('cache unavailable');}};
+ assert.equal((await (await adapter.fetchContent('data/john.json',{fetchImpl,store:brokenStore})).json()).v,2);
+ const fullStore={open:async()=>({match:async()=>null,put:async()=>{throw Error('quota exceeded');}})};
+ assert.equal((await (await adapter.fetchContent('data/john.json',{fetchImpl,store:fullStore})).json()).v,2,'cache write failure still returns fresh content');
+ const modified='Sat, 24 Oct 2026 00:00:00 GMT';
+ entries.set('https://vible.now/data/acts.json',new Response('{"v":"modified"}',{headers:{'Last-Modified':modified}}));
+ const lastModifiedFetch=async(url,options)=>{assert.equal(options.headers['If-Modified-Since'],modified);return new Response(null,{status:304});};
+ assert.equal((await (await adapter.fetchContent('data/acts.json',{fetchImpl:lastModifiedFetch,store})).json()).v,'modified');
+ // Registry, translation files and search indexes use the same first-open validation.
+ for(const file of ['data/translations/editions.json','data/translations/ko-test/john.json','data/search/ko-test.json']){
+  assert.equal((await (await adapter.fetchContent(file,{fetchImpl,store})).json()).v,2,`${name}: ${file}`);
+ }
+}
+const web=vm.runInNewContext(source,{document:{addEventListener(){}},navigator:{},location:{href:'https://vible.now/'},URL,URLSearchParams});
+{const seen=[];await web.fetchContent('data/john.json',{fetchImpl:async url=>{seen.push(url);return new Response('{}');}});assert.deepEqual(seen,['data/john.json'],'web uses its own normal fetch');}
+console.log('Mac/iOS content: first-open updates, ETag/304 reuse, book switching, offline/timeout/server-error fallback, cache failures and Last-Modified validation verified.');
 const vercelConfig=JSON.parse(await fs.readFile(path.join(root,'vercel.json'),'utf8'));assert(vercelConfig.headers.some(h=>h.source==='/data/(.*)'&&h.headers.some(x=>x.key==='Access-Control-Allow-Origin'&&x.value==='*')),'apps can read public release data');
+for(const key of ['Access-Control-Allow-Methods','Access-Control-Allow-Headers','Access-Control-Expose-Headers'])assert(vercelConfig.headers.find(h=>h.source==='/data/(.*)').headers.some(h=>h.key===key),'conditional app requests require '+key);
 console.log(`Store app bundle verified (${(bytes/1e6).toFixed(1)} MB, ${catalog.ko.books.length} books, 4 languages, no service worker); Capacitor share/files/links/app links, Android back, Tauri save/open and frameless desktop windows and background content refresh verified.`);
 {
  // iOS rating prompt: only when the last scene of a book is reached in the reader, not again for 120 days, never after the menu rate link.

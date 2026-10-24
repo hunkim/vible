@@ -74,6 +74,18 @@
         {
           "key": "Access-Control-Allow-Origin",
           "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, HEAD, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "If-None-Match, If-Modified-Since"
+        },
+        {
+          "key": "Access-Control-Expose-Headers",
+          "value": "ETag, Last-Modified"
         }
       ]
     },
