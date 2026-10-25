@@ -211,14 +211,14 @@
     "iOS": {
       "version": "1.0.5",
       "build": "16",
-      "status": "Waiting for Review"
+      "status": "Ready for Distribution (approved; contains desktop-width book-picker bug)"
     },
     "macOS": {
       "version": "1.0.5",
       "build": "12",
       "arch": "universal",
       "sandbox": true,
-      "status": "Waiting for Review"
+      "status": "Ready for Distribution (approved; contains desktop-width book-picker bug)"
     },
     "release": "automatic after approval",
     "releaseNotes": "ko/en/ja/zh-Hans",
@@ -252,5 +252,24 @@
         "macOS": "1.0.6 (13)"
       }
     }
+  },
+  "storeSubmission1_0_6": {
+    "date": "2026-10-25",
+    "appSourceCommit": "eb942151039e79c7e9dacb72197ec63774a2c5f8",
+    "reason": "Book picker opened search at Mac/iPad widths (headerHitAreaFix)",
+    "iOS": {
+      "version": "1.0.6",
+      "build": "17",
+      "status": "Waiting for Review"
+    },
+    "macOS": {
+      "version": "1.0.6",
+      "build": "13",
+      "arch": "universal",
+      "sandbox": true,
+      "status": "Waiting for Review"
+    },
+    "release": "automatic after approval",
+    "releaseNotes": "ko/en/ja/zh-Hans"
   }
 }
