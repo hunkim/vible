@@ -308,7 +308,7 @@
       "chapter": 2,
       "first": 1,
       "last": 3,
-      "image": "proverbs-c002-v001-003-right-context-v1.jpg",
+      "image": "proverbs-c002-v001-003-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 1,
@@ -324,7 +324,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing, plastic or glass hurricane lamps. Ancient oil lamps are clay or bronze with a real wick. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 2:1–3\n1. 내 아들아 네가 만일 나의 말을 받으며 나의 계명을 네게 간직하며\n2. 네 귀를 지혜에 기울이며 네 마음을 명철에 두며\n3. 지식을 불러 구하며 명철을 얻으려고 소리를 높이며\n\nPRIMARY SCENE, decisive visual instruction: A thoughtful adult attentively listening and carefully preserving a closed teaching roll in a simple chest inside an immense calm learning court.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c002-v001-003-right-context-v1.jpg",
+        "sourceSha256": "9f5cf050dd495f5bbf52ddac0cd02d83e92d75ea42d67db256a6829a3cc20086",
+        "sha256": "3ad2c5f074910d6732b71562bacb4270977fce995c9d1ca11096cf7a6d3dfecf",
+        "reason": "배경의 고전기 열주 장식을 단순한 석재·목재 현관으로 단순화하는 전달력 개선.",
+        "prompt": "Use case: precise-object-edit. Asset: Vible cinematic biblical illustration. Supplied image is the edit target, preserve FULL original 16:9 frame. Change ONLY the ornate classical Corinthian portico in the middle background into a modest ancient Near Eastern stone and cedar courtyard porch: plain square supports, flat timber lintels, rough pale stone, no Corinthian capitals, balustrades or Greco-Roman entablature. Preserve all foreground people and books/scrolls, their hands, exact faces, offerings and original scene. Preserve exact original faces and identity, every unaffected hand, finger silhouette, wrist/elbow/shoulder and leg connection, pose, physical support, garments, camera position, visual tone and lighting. No extra people, no God/Holy Spirit body or face, no Jesus face newly exposed, no readable text, caption, logo, corner mark or watermark. Local correction only."
+      }
     },
     {
       "id": 17,
@@ -764,7 +773,7 @@
       "chapter": 3,
       "first": 31,
       "last": 32,
-      "image": "proverbs-c003-v031-032-right-context-v1.jpg",
+      "image": "proverbs-c003-v031-032-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 31,
@@ -776,14 +785,23 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing, plastic or glass hurricane lamps. Ancient oil lamps are clay or bronze with a real wick. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 3:31–32\n31. 포학한 자를 부러워하지 말며 그 아무 행위든지 좇지 말라\n32. 대저 패역한 자는 여호와의 미워하심을 입거니와 정직한 자에게는 그의 교통하심이 있으며\n\nPRIMARY SCENE, decisive visual instruction: An ordinary adult turns from a swaggering violent crowd toward honest humble companionship in a vast civic courtyard; weapons remain lowered, no attack.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c003-v031-032-right-context-v1.jpg",
+        "sourceSha256": "439af3d27772dc06728aa19a86d864d9da00c0426dff52c17d51db7fadf1f95b",
+        "sha256": "776af52e272364e41ef33c6753fe745c736475c3c307e6df91cba7076e039a39",
+        "reason": "로마식 분절 어깨갑옷·근육 흉갑 등 식별 가능한 후대 복장 요소를 단순화. 인물 정체성·역할·몸 보존.",
+        "prompt": "Use case: precise-object-edit. Asset: Vible cinematic biblical illustration. Supplied image is the edit target, preserve FULL original 16:9 frame. Correct ONLY the soldiers'/officer's late Greco-Roman costume cues: replace anatomically sculpted muscle cuirasses, segmented Roman shoulder plates, pteruges leather-strip skirts and Roman officer motifs with restrained ancient Near Eastern protection: plain padded linen tunic, modest leather/overlapping bronze scale vest and simple head protection. Keep all same people, faces, ages, body poses, hand positions and natural joints; keep existing spears, round shields, cloth capes and footwear physically supported. Do not change the king's identity, messengers, captive, peasants or story roles. Keep architecture and every unaffected detail unchanged. Preserve exact original faces and identity, every unaffected hand, finger silhouette, wrist/elbow/shoulder and leg connection, pose, physical support, garments, camera position, visual tone and lighting. No extra people, no God/Holy Spirit body or face, no Jesus face newly exposed, no readable text, caption, logo, corner mark or watermark. Local correction only."
+      }
     },
     {
       "id": 39,
       "chapter": 3,
       "first": 33,
       "last": 35,
-      "image": "proverbs-c003-v033-035-right-context-v1.jpg",
+      "image": "proverbs-c003-v033-035-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 33,
@@ -799,7 +817,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing, plastic or glass hurricane lamps. Ancient oil lamps are clay or bronze with a real wick. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 3:33–35\n33. 악인의 집에는 여호와의 저주가 있거니와 의인의 집에는 복이 있느니라\n34. 진실로 그는 거만한 자를 비웃으시며 겸손한 자에게 은혜를 베푸시나니\n35. 지혜로운 자는 영광을 기업으로 받거니와 미련한 자의 현달함은 욕이 되느니라\n\nPRIMARY SCENE, decisive visual instruction: A modest honest household shares a meal and welcome while a distant opulent dishonest estate remains closed and lonely, one coherent perspective, no split panel or guaranteed riches.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c003-v033-035-right-context-v1.jpg",
+        "sourceSha256": "c21f52665655cd837a68cc7e9b06908487e05f8b2ba63e72bf9e0d8c301de0a4",
+        "sha256": "592a1bb4752cc20f84dca23dd771fcf733253171d8dfc683212bd5251cb591f2",
+        "reason": "발코니 난간·기와·장식 아치 등 후대 저택 요소를 단순한 고대 주택으로 국소 교체. 폐허/가옥의 본문 역할 보존.",
+        "prompt": "Use case: precise-object-edit. Asset: Vible cinematic biblical illustration. Supplied image is the edit target, preserve FULL original 16:9 frame. Change ONLY the large ornate Renaissance/modern Mediterranean villa (or its ruined remains) in the background/right side into a plausible ancient Near Eastern wealthy courtyard residence of roughly the SAME scale and same intact/ruined state as the original: heavy pale stone and mudbrick walls, flat timber roofs or exposed broken timber where already ruined, simple rectangular openings with stone lintels, plain low parapets and wooden doors/gates. Remove turned balusters, ornate arches, tiled Italian villa roof, classical capitals and iron-gate flourishes. Preserve the contrast between wealth and the humble foreground/aftermath. Remove all modern enclosed glass lanterns on that building and replace only those with small open oil lamps on stable ledges. Preserve all humans, faces, poses, hands, feet, carried loads, donkeys, existing vegetation, landscape and light. Preserve exact original faces and identity, every unaffected hand, finger silhouette, wrist/elbow/shoulder and leg connection, pose, physical support, garments, camera position, visual tone and lighting. No extra people, no God/Holy Spirit body or face, no Jesus face newly exposed, no readable text, caption, logo, corner mark or watermark. Local correction only."
+      }
     },
     {
       "id": 40,
@@ -1137,7 +1164,7 @@
       "chapter": 5,
       "first": 9,
       "last": 10,
-      "image": "proverbs-c005-v009-010-right-context-v1.jpg",
+      "image": "proverbs-c005-v009-010-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 9,
@@ -1149,7 +1176,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing, plastic or glass hurricane lamps. Ancient oil lamps are clay or bronze with a real wick. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 5:9–10\n9. 두렵건대 네 존영이 남에게 잃어버리게 되며 네 수한이 잔포자에게 빼앗기게 될까 하노라\n10. 두렵건대 타인이 네 재물로 충족하게 되며 네 수고한 것이 외인의 집에 있게 될까 하노라\n\nPRIMARY SCENE, decisive visual instruction: An ordinary adult notices their hard-earned goods being taken to another wealthy estate, regretful expression and restrained distant carriers, no assault.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c005-v009-010-right-context-v1.jpg",
+        "sourceSha256": "6954296fbcb457daacf2d6346082bcdbf3908b1adb15343e72fdb0e1ed1b61c9",
+        "sha256": "1a4e0369c128d297114d2e93aeeb9d10df8453885889cebc32c40f8c56825d61",
+        "reason": "발코니 난간·기와·장식 아치 등 후대 저택 요소를 단순한 고대 주택으로 국소 교체. 폐허/가옥의 본문 역할 보존.",
+        "prompt": "Use case: precise-object-edit. Asset: Vible cinematic biblical illustration. Supplied image is the edit target, preserve FULL original 16:9 frame. Change ONLY the large ornate Renaissance/modern Mediterranean villa (or its ruined remains) in the background/right side into a plausible ancient Near Eastern wealthy courtyard residence of roughly the SAME scale and same intact/ruined state as the original: heavy pale stone and mudbrick walls, flat timber roofs or exposed broken timber where already ruined, simple rectangular openings with stone lintels, plain low parapets and wooden doors/gates. Remove turned balusters, ornate arches, tiled Italian villa roof, classical capitals and iron-gate flourishes. Preserve the contrast between wealth and the humble foreground/aftermath. Remove all modern enclosed glass lanterns on that building and replace only those with small open oil lamps on stable ledges. Preserve all humans, faces, poses, hands, feet, carried loads, donkeys, existing vegetation, landscape and light. Preserve exact original faces and identity, every unaffected hand, finger silhouette, wrist/elbow/shoulder and leg connection, pose, physical support, garments, camera position, visual tone and lighting. No extra people, no God/Holy Spirit body or face, no Jesus face newly exposed, no readable text, caption, logo, corner mark or watermark. Local correction only."
+      }
     },
     {
       "id": 58,
@@ -1430,7 +1466,7 @@
       "chapter": 6,
       "first": 18,
       "last": 18,
-      "image": "proverbs-c006-v018-018-right-context-v1.jpg",
+      "image": "proverbs-c006-v018-018-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 18,
@@ -1438,7 +1474,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing, plastic or glass hurricane lamps. Ancient oil lamps are clay or bronze with a real wick. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 6:18–18\n18. 악한 계교를 꾀하는 마음과 빨리 악으로 달려가는 발과\n\nPRIMARY SCENE, decisive visual instruction: An ordinary adult recognizes a concealed harmful plan on a workbench and stops before acting, tied bundles and an empty trap suggest intent without violence.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c006-v018-018-right-context-v1.jpg",
+        "sourceSha256": "8c1f53be5dcf4fe4605e3ce7c846662c135fe1039088c2811f6225e4f0e8a74f",
+        "sha256": "3aaedd8396cf1f5b1f7c4c454c66ddaece8cc0113b6924728dec1aeae4c5d277",
+        "reason": "Local correction preserving composition and identity.",
+        "prompt": "Use case: precise-object-edit. Asset: Vible historical biblical illustration, full 16:9 landscape. Edit target: the supplied original. Replace ONLY the modern steel spring-jaw bear trap in the lower foreground on the worktable with a small simple ancient rope snare: one loose loop of coarse natural cord beside a short wooden peg, both resting flat on the tabletop, no metal jaws, springs or machinery. Proverbs 6:18 warns of scheming harm. Preserve the man's face, contemplative pose, each hand and sleeve, map, bundled cloth, donkey, background and lighting exactly. Do not add text. Preserve photoreal cinematic style and every unaffected detail; no collage, captions, watermark or modern objects."
+      }
     },
     {
       "id": 73,
@@ -1738,7 +1783,7 @@
       "chapter": 7,
       "first": 21,
       "last": 21,
-      "image": "proverbs-c007-v021-021-right-context-v1-feedback-20261013-v1.jpg",
+      "image": "proverbs-c007-v021-021-right-context-v1-feedback-20261013-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 21,
@@ -1746,7 +1791,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing, plastic or glass hurricane lamps. Ancient oil lamps are clay or bronze with a real wick. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 7:21–21\n21. 여러가지 고운 말로 혹하게 하며 입술의 호리는 말로 꾀므로\n\nPRIMARY SCENE, decisive visual instruction: An inexperienced ordinary adult listens uncertainly to flattering invitation beside a luxurious doorway, original adults fully clothed and physically separate, vast cold city depth.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c007-v021-021-right-context-v1-feedback-20261013-v1.jpg",
+        "sourceSha256": "427fc42bd813709041925ad6153054b0697659336bb8bbfd0abeb7ad5623d5cc",
+        "sha256": "59a329049a96eee6cb931dc46d398e44cf64029edc31a36fa358fe6deb6d40e8",
+        "reason": "언덕의 파르테논형 열주 신전을 단순한 고대 성소로 국소 교체. 두 인물과 유혹 장면 보존.",
+        "prompt": "Use case: precise-object-edit. Asset: Vible cinematic biblical illustration. Supplied image is the edit target, preserve FULL original 16:9 frame. Change ONLY the classical Greek-looking sanctuary/temple architecture (including the distant hilltop sanctuary where present): replace its peripteral rows of many fluted Corinthian/Ionic columns, classical pediment/balustrade details with a restrained ancient Israelite/Near Eastern solid-walled rectangular sanctuary, flat cedar roof, plain limestone walls and a modest entrance porch with ONLY TWO plain bronze columns. Preserve the original location, footprint and perspective, surrounding city and stone walls, approach, existing worship/altar smoke. No cross, Greek pediment, marble balustrades or ornate Corinthian capitals. Do not alter people, poses, hands, faces, clothing, offerings, animals or the natural landscape. This is a clarity edit, not a claim of definitive archaeological reconstruction. Preserve exact original faces and identity, every unaffected hand, finger silhouette, wrist/elbow/shoulder and leg connection, pose, physical support, garments, camera position, visual tone and lighting. No extra people, no God/Holy Spirit body or face, no Jesus face newly exposed, no readable text, caption, logo, corner mark or watermark. Local correction only."
+      }
     },
     {
       "id": 87,
@@ -1887,7 +1941,7 @@
       "chapter": 8,
       "first": 12,
       "last": 13,
-      "image": "proverbs-c008-v012-013-right-context-v1.jpg",
+      "image": "proverbs-c008-v012-013-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 12,
@@ -1899,7 +1953,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing, plastic or glass hurricane lamps. Ancient oil lamps are clay or bronze with a real wick. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 8:12–13\n12. 나 지혜는 명철로 주소를 삼으며 지식과 근신을 찾아 얻나니\n13. 여호와를 경외하는 것은 악을 미워하는 것이라 나는 교만과 거만과 악한 행실과 패역한 입을 미워하느니라\n\nPRIMARY SCENE, decisive visual instruction: An ordinary adult firmly refuses a proud corrupt merchant offer, calm expression and fair tools in an enormous cool civic room, moral strength without aggression.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c008-v012-013-right-context-v1.jpg",
+        "sourceSha256": "66e4c3e42141fb056e72ad0f3d03b8c8ae67c6d5d82d5b46f1fa7903a0ed60c3",
+        "sha256": "aac0a58f3516cf206cf7641b856963cc902173e3d6582fcba30fe7532e8237c1",
+        "reason": "사용자 승인에 따른 모호한 궁전 부수 장식 단순화. 성막·성전의 본문상 그룹은 대상이 아님.",
+        "prompt": "Use case: precise-object-edit. Asset: Vible cinematic biblical illustration. Supplied image is the edit target, preserve FULL original 16:9 frame. Simplify ONLY the large secondary winged human-headed bull guardian relief behind the two main men into a plain geometric palmette/rosette relief on the same stone panel, shallow carved and ancient Near Eastern. This is ancillary palace decoration, not the tabernacle ark or veil, and should no longer resemble a specific foreign deity/lamassu. Preserve all main faces, both men's exact separate hands and gestures, money bag, weighing scale, scrolls, architecture and cloth banners. Preserve exact original faces and identity, every unaffected hand, finger silhouette, wrist/elbow/shoulder and leg connection, pose, physical support, garments, camera position, visual tone and lighting. No extra people, no God/Holy Spirit body or face, no Jesus face newly exposed, no readable text, caption, logo, corner mark or watermark. Local correction only."
+      }
     },
     {
       "id": 94,
@@ -1929,7 +1992,7 @@
       "chapter": 8,
       "first": 17,
       "last": 17,
-      "image": "proverbs-c008-v017-017-right-context-v1.jpg",
+      "image": "proverbs-c008-v017-017-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 17,
@@ -1937,7 +2000,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing, plastic or glass hurricane lamps. Ancient oil lamps are clay or bronze with a real wick. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 8:17–17\n17. 나를 사랑하는 자들이 나의 사랑을 입으며 나를 간절히 찾는 자가 나를 만날 것이니라\n\nPRIMARY SCENE, decisive visual instruction: An ordinary adult patiently seeks wise counsel at an open learning doorway at blue dawn, immense architectural depth and sincere anticipation.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c008-v017-017-right-context-v1.jpg",
+        "sourceSha256": "06485769dcb242b59445888406625ffe7f72140143c9e8aaa2578660899e32ad",
+        "sha256": "7336c5da251cdb95af50c8d9dd03f39944c697131c0508c8d5c1b8056fee1d3c",
+        "reason": "구약 배경의 책등·종이 뭉치가 있는 제본책을 원본에서 확인. 두루마리로 국소 교체.",
+        "prompt": "Use case: precise-object-edit. Edit target: supplied Vible biblical Old Testament illustration. Correct the period props ONLY: replace every bound codex/book with a spine and stacked pages (on shelves, on table, or held) with a tied rolled papyrus/parchment scroll, or a single partially unrolled sheet where necessary for the existing grip. Remove all visible book spines and page-blocks. Keep existing scrolls. There must be no modern bound books. Preserve exact people/faces/identity/age, count, hand positions and natural fingers, connected wrists, sleeves, body posture, tools and architecture, wide camera and golden light. Ensure replacement scrolls physically rest on shelves or the table or within the same person's separated fingers; do not merge fingers. No readable text, labels or watermarks. Full original 16:9 frame, photoreal cinema."
+      }
     },
     {
       "id": 96,
@@ -2516,7 +2588,7 @@
       "chapter": 10,
       "first": 19,
       "last": 19,
-      "image": "proverbs-c010-v019-019-right-context-v1.jpg",
+      "image": "proverbs-c010-v019-019-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 19,
@@ -2524,7 +2596,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing or plastic. Lighting fixtures must be ancient open clay or bronze oil dishes with visible exposed wicks; hanging lights are shallow bronze bowls on chains. Absolutely no enclosed lanterns, glass-sided lanterns, glass chimneys, hurricane lamps or candle lanterns, including tiny background props. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 10:19–19\n19. 말이 많으면 허물을 면키 어려우나 그 입술을 제어하는 자는 지혜가 있느니라\n\nPRIMARY SCENE, decisive visual instruction: An ordinary adult pauses thoughtfully before replying to a worried neighbor, restrained natural lips and attentive eyes, deep cool civic hall.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c010-v019-019-right-context-v1.jpg",
+        "sourceSha256": "3a62ecfa01d37855f9fae7b40298e2190c3c271e06e41cb1da04737e506863e4",
+        "sha256": "44d4b2d01c77ff9f3b0ac6f8c3f8c3fb81ba418e0287ceae98ed0af9e0ba414a",
+        "reason": "유스티티아로 읽히는 법정 보조 부조를 기하학 문양으로 단순화. 인물과 말의 절제라는 본문 의미 보존.",
+        "prompt": "Use case: precise-object-edit. Asset: Vible cinematic biblical illustration. Supplied image is the edit target, preserve FULL original 16:9 frame. Replace ONLY the toga-clad person holding scales in the upper-right wall relief, and its tiny label, with a simple ancient Near Eastern geometric rosette and palm border carved into the same panel. No human deity, Roman Justice figure or readable inscription. Preserve both foreground men, their exact faces and every hand and arm, all other people, scales if present elsewhere, architecture and lighting. Preserve exact original faces and identity, every unaffected hand, finger silhouette, wrist/elbow/shoulder and leg connection, pose, physical support, garments, camera position, visual tone and lighting. No extra people, no God/Holy Spirit body or face, no Jesus face newly exposed, no readable text, caption, logo, corner mark or watermark. Local correction only."
+      }
     },
     {
       "id": 129,
@@ -3041,7 +3122,7 @@
       "chapter": 11,
       "first": 22,
       "last": 22,
-      "image": "proverbs-c011-v022-022-right-context-v1.jpg",
+      "image": "proverbs-c011-v022-022-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 22,
@@ -3049,7 +3130,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing or plastic. Lighting fixtures must be ancient open clay or bronze oil dishes with visible exposed wicks; hanging lights are shallow bronze bowls on chains. Absolutely no enclosed lanterns, glass-sided lanterns, glass chimneys, hurricane lamps or candle lanterns, including tiny background props. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 11:22–22\n22. 아름다운 여인이 삼가지 아니하는 것은 마치 돼지 코에 금고리 같으니라\n\nPRIMARY SCENE, decisive visual instruction: A small unused gold ring lies beside a living ordinary pig in a rustic ancient yard, incongruity as literary metaphor, no woman-pig transformation.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c011-v022-022-right-context-v1.jpg",
+        "sourceSha256": "58427a156ba9f9b0fd800ac1f03cba48d273e89db7a9cdb96e043fab125e330a",
+        "sha256": "a9ded446c1bdf65d4d4db606e9d7922237bcc2d1a561e2773d9573b3dffdee3d",
+        "reason": "Local correction preserving composition and identity.",
+        "prompt": "Use case: precise-object-edit. Asset: Vible historical biblical illustration, full 16:9 landscape. Edit target: the supplied original. Clarity correction for Proverbs11:22: relocate the single gold ring currently resting on the ground in front of the pig to a loose gold ring around the pig's snout, naturally visible from this camera angle. A non-injurious decorative hoop, no wound or blood. Remove the old ground ring; exactly one ring. Keep pig's face and body anatomy, two ears, four naturally connected legs and cloven hooves, rural setting, chicken, wide composition and light unchanged. No text. Preserve photoreal cinematic style and every unaffected detail; no collage, captions, watermark or modern objects."
+      }
     },
     {
       "id": 164,
@@ -3521,7 +3611,7 @@
       "chapter": 12,
       "first": 23,
       "last": 23,
-      "image": "proverbs-c012-v023-023-right-context-v1.jpg",
+      "image": "proverbs-c012-v023-023-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 23,
@@ -3529,7 +3619,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing or plastic. Lighting fixtures must be ancient open clay or bronze oil dishes with visible exposed wicks; hanging lights are shallow bronze bowls on chains. Absolutely no enclosed lanterns, glass-sided lanterns, glass chimneys, hurricane lamps or candle lanterns, including tiny background props. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 12:23–23\n23. 슬기로운 자는 지식을 감추어 두어도 미련한 자의 마음은 미련한 것을 전파하느니라\n\nPRIMARY SCENE, decisive visual instruction: A prudent ordinary adult preserves a closed learning roll while a boastful speaker distracts nearby patrons, immense quiet ancient library.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c012-v023-023-right-context-v1.jpg",
+        "sourceSha256": "7a990814ea0a816867d759881345427d053721ce3365c4c859696795b5712680",
+        "sha256": "a35a96e69e068276ce05d15b74f6f8bdb9a8ba85a441f718696b304908d59816",
+        "reason": "구약 배경의 책등·종이 뭉치가 있는 제본책을 원본에서 확인. 두루마리로 국소 교체.",
+        "prompt": "Use case: precise-object-edit. Edit target: supplied Vible biblical Old Testament illustration. Correct the period props ONLY: replace every bound codex/book with a spine and stacked pages (on shelves, on table, or held) with a tied rolled papyrus/parchment scroll, or a single partially unrolled sheet where necessary for the existing grip. Remove all visible book spines and page-blocks. Keep existing scrolls. There must be no modern bound books. Preserve exact people/faces/identity/age, count, hand positions and natural fingers, connected wrists, sleeves, body posture, tools and architecture, wide camera and golden light. Ensure replacement scrolls physically rest on shelves or the table or within the same person's separated fingers; do not merge fingers. No readable text, labels or watermarks. Full original 16:9 frame, photoreal cinema."
+      }
     },
     {
       "id": 196,
@@ -4875,7 +4974,7 @@
       "chapter": 15,
       "first": 25,
       "last": 25,
-      "image": "proverbs-c015-v025-025-right-context-v1.jpg",
+      "image": "proverbs-c015-v025-025-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 25,
@@ -4883,7 +4982,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing or plastic. Lighting fixtures must be ancient open clay or bronze oil dishes with visible exposed wicks; hanging lights are shallow bronze bowls on chains. Absolutely no enclosed lanterns, glass-sided lanterns, glass chimneys, hurricane lamps or candle lanterns, including tiny background props. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 15:25–25\n25. 여호와는 교만한 자의 집을 허시며 과부의 지계를 정하시느니라\n\nPRIMARY SCENE, decisive visual instruction: A dignified original widow stands beside securely reset plain boundary stones in her small field while an abandoned proud estate looms distant; no visible divine hand.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c015-v025-025-right-context-v1.jpg",
+        "sourceSha256": "d42b23704fa75161813eb4e12890ac9ef87274c0ac39050ec97688598d0aaa79",
+        "sha256": "6bd4f59e153bf7ede7412f45819d96a9658a32fb7b06106edd9c061fca1e3160",
+        "reason": "발코니 난간·기와·장식 아치 등 후대 저택 요소를 단순한 고대 주택으로 국소 교체. 폐허/가옥의 본문 역할 보존.",
+        "prompt": "Use case: precise-object-edit. Asset: Vible cinematic biblical illustration. Supplied image is the edit target, preserve FULL original 16:9 frame. Change ONLY the large ornate Renaissance/modern Mediterranean villa (or its ruined remains) in the background/right side into a plausible ancient Near Eastern wealthy courtyard residence of roughly the SAME scale and same intact/ruined state as the original: heavy pale stone and mudbrick walls, flat timber roofs or exposed broken timber where already ruined, simple rectangular openings with stone lintels, plain low parapets and wooden doors/gates. Remove turned balusters, ornate arches, tiled Italian villa roof, classical capitals and iron-gate flourishes. Preserve the contrast between wealth and the humble foreground/aftermath. Remove all modern enclosed glass lanterns on that building and replace only those with small open oil lamps on stable ledges. Preserve all humans, faces, poses, hands, feet, carried loads, donkeys, existing vegetation, landscape and light. Preserve exact original faces and identity, every unaffected hand, finger silhouette, wrist/elbow/shoulder and leg connection, pose, physical support, garments, camera position, visual tone and lighting. No extra people, no God/Holy Spirit body or face, no Jesus face newly exposed, no readable text, caption, logo, corner mark or watermark. Local correction only."
+      }
     },
     {
       "id": 286,
@@ -5733,7 +5841,7 @@
       "chapter": 17,
       "first": 16,
       "last": 16,
-      "image": "proverbs-c017-v016-016-right-context-v1.jpg",
+      "image": "proverbs-c017-v016-016-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 16,
@@ -5741,7 +5849,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing or plastic. Lighting fixtures must be ancient open clay or bronze oil dishes with visible exposed wicks; hanging lights are shallow bronze bowls on chains. Absolutely no enclosed lanterns, glass-sided lanterns, glass chimneys, hurricane lamps or candle lanterns, including tiny background props. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 17:16–16\n16. 미련한 자는 무지하거늘 손에 값을 가지고 지혜를 사려 함은 어찜인고\n\nPRIMARY SCENE, decisive visual instruction: An impatient ordinary adult offers silver without listening while a wise teacher patiently points to the unfinished learning task, vast cool archive.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c017-v016-016-right-context-v1.jpg",
+        "sourceSha256": "076350e39ff37f09a3522d13ba2d2b78e08ef77f8a0a35441ec4f2e648ab6959",
+        "sha256": "1e04178d2d3d572e50dd8f2b2f64c69db8de76e979546b3718d2167ea60b5ab1",
+        "reason": "구약 배경의 책등·종이 뭉치가 있는 제본책을 원본에서 확인. 두루마리로 국소 교체.",
+        "prompt": "Use case: precise-object-edit. Edit target: supplied Vible biblical Old Testament illustration. Correct the period props ONLY: replace every bound codex/book with a spine and stacked pages (on shelves, on table, or held) with a tied rolled papyrus/parchment scroll, or a single partially unrolled sheet where necessary for the existing grip. Remove all visible book spines and page-blocks. Keep existing scrolls. There must be no modern bound books. Preserve exact people/faces/identity/age, count, hand positions and natural fingers, connected wrists, sleeves, body posture, tools and architecture, wide camera and golden light. Ensure replacement scrolls physically rest on shelves or the table or within the same person's separated fingers; do not merge fingers. No readable text, labels or watermarks. Full original 16:9 frame, photoreal cinema."
+      }
     },
     {
       "id": 343,
@@ -7101,7 +7218,7 @@
       "chapter": 20,
       "first": 26,
       "last": 26,
-      "image": "proverbs-c020-v026-026-right-context-v1.jpg",
+      "image": "proverbs-c020-v026-026-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 26,
@@ -7109,7 +7226,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing or plastic. Lighting fixtures must be ancient open clay or bronze oil dishes with visible exposed wicks; hanging lights are shallow bronze bowls on chains. Absolutely no enclosed lanterns, glass-sided lanterns, glass chimneys, hurricane lamps or candle lanterns, including tiny background props. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 20:26–26\n26. 지혜로운 왕은 악인을 키질하며 타작하는 바퀴로 그 위에 굴리느니라\n\nPRIMARY SCENE, decisive visual instruction: An original wise king hears wrongdoing evidence near a real agricultural winnowing basket and safely parked threshing wheel, immense civic field; metaphor, never people under machinery.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c020-v026-026-right-context-v1.jpg",
+        "sourceSha256": "4992bf015b499234aa25c814e3bb78113e424dbe5e8d819504c317f66b4d5bd2",
+        "sha256": "ed640b51f210b920c319cf9202de7b6c60abda4104e82474ab3789f45504628c",
+        "reason": "원본에서 상단 스프링 집게가 확인된 클립보드의 금속 클립만 가죽끈으로 교체.",
+        "prompt": "Use case: precise-object-edit. Asset: Vible cinematic biblical illustration. Supplied image is the edit target, preserve FULL original 16:9 frame. Remove ONLY the modern spring metal clipboard clip at the upper edge of the standing attendant's writing board, replacing it with a simple narrow leather tie holding a single papyrus sheet against plain wood. Keep exact board size and angle and all his fingers. Preserve king, kneeling man, every visible hand, crown and lion banner, throne, threshing scene and landscape. Preserve exact original faces and identity, every unaffected hand, finger silhouette, wrist/elbow/shoulder and leg connection, pose, physical support, garments, camera position, visual tone and lighting. No extra people, no God/Holy Spirit body or face, no Jesus face newly exposed, no readable text, caption, logo, corner mark or watermark. Local correction only."
+      }
     },
     {
       "id": 434,
@@ -9914,7 +10040,7 @@
       "chapter": 28,
       "first": 7,
       "last": 7,
-      "image": "proverbs-c028-v007-007-right-context-v1.jpg",
+      "image": "proverbs-c028-v007-007-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 7,
@@ -9922,7 +10048,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing or plastic. Lighting fixtures must be ancient open clay or bronze oil dishes with visible exposed wicks; hanging lights are shallow bronze bowls on chains. Absolutely no enclosed lanterns, glass-sided lanterns, glass chimneys, hurricane lamps or candle lanterns, including tiny background props. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 28:7–7\n7. 율법을 지키는 자는 지혜로운 아들이요 탐식자를 사귀는 자는 아비를 욕되게 하는 자니라\n\nPRIMARY SCENE, decisive visual instruction: An ordinary adult child chooses useful instruction rather than a wasteful excessive banquet, an original parent watches gratefully across an immense courtyard.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c028-v007-007-right-context-v1.jpg",
+        "sourceSha256": "2819de363b39369dd5abc480d48cec0d1e3c2cb608544ed23c00021a0a016c68",
+        "sha256": "dbe8e56a5ca6370c7665467f3ba7de725a0667b691b729c581edc8d0e97d5238",
+        "reason": "구약 배경의 제본 책등·페이지 뭉치를 확인하여 두루마리로 국소 교체. 인물·의미 보존.",
+        "prompt": "Use case: precise-object-edit. Supplied image is the edit target, a Vible Old Testament scene. Replace ONLY the visible bound codex book(s) with a single ancient parchment/papyrus scroll of similar size, tied rolled when closed or partially unrolled when being read. No page blocks, book spine or hardcover. Preserve every person, exact face/identity/age/expression, hand anatomy and wrist-elbow connections, pose, clothing, furnishings and landscape, the same light/color and full 16:9 camera composition. No readable writing, symbols, captions, logos or watermark; remove any faint corner watermark. This is a local prop correction, not a new scene."
+      }
     },
     {
       "id": 608,
@@ -10574,7 +10709,7 @@
       "chapter": 29,
       "first": 23,
       "last": 23,
-      "image": "proverbs-c029-v023-023-right-context-v1.jpg",
+      "image": "proverbs-c029-v023-023-right-context-v1-feedback-20261030-v1.jpg",
       "verses": [
         {
           "verse": 23,
@@ -10582,7 +10717,16 @@
         }
       ],
       "prompt": "Use case: historical-scene. Asset type: Vible Scripture reading image. One breathtaking photorealistic cinematic 16:9 ancient scene, immense environmental scale and emotionally truthful small human gestures. Materials feel real: limestone, living water, woven linen, soil, bronze and wood. Natural ivory, sage, indigo, terracotta and restrained gold. Keep the LEFT 42 percent calm and low-detail for app-rendered Scripture. Put the principal tactile subject and emotional action in the RIGHT 55–88 percent; keep important faces and hands above the bottom 18 percent. Use a coherent scene with natural perspective, accurate anatomy and grounded physics. No collage, raster letters, captions, logos, watermark, modern clothing or plastic. Lighting fixtures must be ancient open clay or bronze oil dishes with visible exposed wicks; hanging lights are shallow bronze bowls on chains. Absolutely no enclosed lanterns, glass-sided lanterns, glass chimneys, hurricane lamps or candle lanterns, including tiny background props. No visible God, divine face, body, disembodied hand, eyes, giant silhouette, invented angel or human-animal hybrid. Poetic images remain intelligible real-world metaphors. Vary civic courts, workrooms, fields, household life, roads, weather and nature according to the passage. Wisdom sayings guide life; avoid automatic luxury, healing or immunity spectacles. Original unnamed adults may personify wisdom; supplied private references never become Wisdom, God, named Bible characters, monarchs, angels or spouses. Any child is original, safely supervised and unharmed. Never depict child beating. Preserve the exact Scripture source separately; do not render Scripture in the pixels.\n\nScripture context only, never raster text: Proverbs 29:23–23\n23. 사람이 교만하면 낮아지게 되겠고 마음이 겸손하면 영예를 얻으리라\n\nPRIMARY SCENE, decisive visual instruction: A humble ordinary worker gratefully receives quiet civic respect after service while unused proud ornaments remain aside, monumental public court.",
-      "referenceImages": []
+      "referenceImages": [],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "edit",
+        "sourceImage": "proverbs-c029-v023-023-right-context-v1.jpg",
+        "sourceSha256": "a163a084cda2f68a3efd6d19f953be961ed59dd74a91bd3881c2331eb65f490d",
+        "sha256": "c9c085c39999fda76fbc39ef451cd641c22aadd0f543d7633d248565f95f9fa4",
+        "reason": "원본의 유리 창·금속 케이지 또는 굴뚝을 갖춘 후대 랜턴을 확인. 개방형 토기 등잔으로 국소 교체.",
+        "prompt": "Use case: precise-object-edit. Input image is the edit target, a Vible biblical historical illustration. Replace ONLY all the modern enclosed glass-and-metal lanterns in this frame with simple period-appropriate open shallow terracotta oil lamps, small real flames and visible wick, NO glass globe, window panes, chimney, cage, modern fixture or kerosene. If currently wall mounted or hanging, support the clay lamp on a small plain stone/wood shelf attached naturally at that same location. Keep the light level and warm color matching original. Preserve ALL people, exact faces and ages, hands and fingers, arms, poses, feet, clothing, objects and landscape and camera composition. For the tent keep its existing fully open side and man visible. Do not add a person, deity or symbol. Preserve cinematic photorealism and full landscape aspect ratio. No captions or watermark."
+      }
     },
     {
       "id": 652,

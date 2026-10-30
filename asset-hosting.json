@@ -42721,6 +42721,342 @@
     "isaiah-c011-v008-009-feedback-20261021-v4.jpg": {
       "sha256": "bfe71b652933f988c5b45e36c41a6dacca8b196c2052a425ecdd0f8f99e9f213",
       "bytes": 687210
+    },
+    "deuteronomy-026-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "2c449d52c5a20af950758f1e705c0735fa99ffb1d61ad168ce66a449b4feb03f",
+      "bytes": 597454
+    },
+    "deuteronomy-077-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "da8491497617d87abd6c788a7733a01f3f06d0ee98f70f66635325bab79d449b",
+      "bytes": 714728
+    },
+    "deuteronomy-097-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "5355f400396ea2d8178e77de82563c293e576bd18a61090b08eadfc0f8e0152e",
+      "bytes": 558260
+    },
+    "deuteronomy-108-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "ff330087e4ae8a1739d8bb22ecae3da6bba70649f368701f548d2b39576f0ac4",
+      "bytes": 598216
+    },
+    "deuteronomy-117-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "af689afb8a7f84b1c1ba78be2e95518601dc922ff0c23baf86db79e1e7c0d839",
+      "bytes": 552825
+    },
+    "deuteronomy-119-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "b5f079561bb6d846a32181cdd776eb64a8582cb6bc75cf82e4fa96ca2246612d",
+      "bytes": 557518
+    },
+    "deuteronomy-134-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "01200358d52e73994af7aad1884509cc25b4aca9db35ee707d64234ace493fc4",
+      "bytes": 638619
+    },
+    "deuteronomy-147-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "a55a351c5ffdd81a877892b2f3dc5e9befd9e7460a6b3dc255a5252d46c44691",
+      "bytes": 548094
+    },
+    "deuteronomy-184-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "8d5360f6475bb4484924310383370be3b1c1abb3fdb3c7975bf9681d0fd91fb0",
+      "bytes": 618571
+    },
+    "deuteronomy-204-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "1bd9bd5eeb995e22b703dcefbd744b613d5d6c69abe6fbe51d3f9d8f40965874",
+      "bytes": 539312
+    },
+    "deuteronomy-274-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "26898e53175d00a91bc0e83f55f669f0310c3b2deaef900b46fe08bcd122a7d7",
+      "bytes": 541976
+    },
+    "exodus-033-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "bedc5a8958b0306bdaa331e8b6bca99ec3173cf0dcb43801f408572f1fb12b29",
+      "bytes": 531867
+    },
+    "exodus-172-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "545978e07e5df08f66bce18b495f9128e2ece38af5412a7debb2d3fe9a03213f",
+      "bytes": 551326
+    },
+    "exodus-282-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "f82413d5f771b2904ef855fb342bd9e414aab185df45f780e14ef6381864d365",
+      "bytes": 558207
+    },
+    "genesis-044-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "7caefd92cc038903f26bb59f7850df971f14e6ff666c6207c11c1d1c959cb0cf",
+      "bytes": 511076
+    },
+    "genesis-046-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "e2a6cbab4e83c2c0bb91911ab787bfb71ec797698c7ced5534723d327fb5e7a1",
+      "bytes": 528342
+    },
+    "genesis-050-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "c9b3cc36ca87f522d388ea9663b235e4e31e72ccf92bd609616f5a54ae5e360e",
+      "bytes": 534740
+    },
+    "genesis-151-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "aeea0e071b5e8816c5d27ae8a8a9e9a143a45dd9527991d4eae2d648ff295375",
+      "bytes": 485868
+    },
+    "genesis-234-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "ebb07b3d533c8be2dcf11461b81516c197a593f1ea514765a03c034674f51d1a",
+      "bytes": 500157
+    },
+    "leviticus-015-right-v2-feedback-20261030-v2.jpg": {
+      "sha256": "0576c1c8c3489c873426a985abaa94c6a6f77cbe17f856811de92898fdebf931",
+      "bytes": 535993
+    },
+    "leviticus-077-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "e344e8b62af4175b6c65aff555f53a370f7f6499ef959fd2cca4e1cd5457ff27",
+      "bytes": 553375
+    },
+    "leviticus-158-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "8fb2f9f4b22c02a7f300c39f9462fa289928d2955d50d357b2db05be52278ad5",
+      "bytes": 521433
+    },
+    "leviticus-161-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "0cf4fbd5fbe3a054f55df42ff5b5f22650065ce9cb13cb155a6440e4646c588d",
+      "bytes": 469404
+    },
+    "leviticus-195-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "189fb35cbfe93d907fa74b8df446aeb847e85b241e877d4037cc266e691d69bb",
+      "bytes": 436702
+    },
+    "leviticus-203-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "f5ef779b68437793235a76b9b618ee6c4c0419349b1c5d98484f98d56ce28ed8",
+      "bytes": 544562
+    },
+    "leviticus-226-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "2022a1040335a2062abca6ddc5ce997f6be3cbc5d79357e90ed0deef76eb67b0",
+      "bytes": 520120
+    },
+    "leviticus-231-right-v1-feedback-20261030-v2.jpg": {
+      "sha256": "6b6a903a2674a4c42a9bd443564471126d88836054c6968668036dc5578d465c",
+      "bytes": 571701
+    },
+    "numbers-002-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "47f1d3d60433507b9469f6435b86236a9d7494153a201ab594d56394395675f6",
+      "bytes": 623730
+    },
+    "numbers-035-right-v2-feedback-20261030-v1.jpg": {
+      "sha256": "b08f11d2ae40842a307202f036b477ab53ad866901d702f01adedb90fd19dba9",
+      "bytes": 505390
+    },
+    "numbers-059-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "47024fbb6e59e81a68b792083ad2946fbe77eca4436e172c58ad16af25fc2735",
+      "bytes": 529391
+    },
+    "numbers-142-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "10d59d47071a80bff19a196342d5cc05a8771edff4f80d295f3178fd4371d7e3",
+      "bytes": 584411
+    },
+    "numbers-189-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "8676c1865c4bd45ffb28e7d39810e2f2e2d85f8f3b84b682f2b14b3e5b8d60d4",
+      "bytes": 590310
+    },
+    "numbers-202-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "97fff0652d1642240707d2d8d61d85adcb0dd63fd97a8d84d29a739846d48f50",
+      "bytes": 634986
+    },
+    "numbers-269-right-v1-feedback-20261030-v1.jpg": {
+      "sha256": "823a60ddba018f1ffdb8733065f1116018e8145e531306c5349b6fa203d66fd9",
+      "bytes": 457680
+    },
+    "proverbs-c002-v001-003-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "3ad2c5f074910d6732b71562bacb4270977fce995c9d1ca11096cf7a6d3dfecf",
+      "bytes": 527769
+    },
+    "proverbs-c003-v031-032-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "776af52e272364e41ef33c6753fe745c736475c3c307e6df91cba7076e039a39",
+      "bytes": 545908
+    },
+    "proverbs-c003-v033-035-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "592a1bb4752cc20f84dca23dd771fcf733253171d8dfc683212bd5251cb591f2",
+      "bytes": 604385
+    },
+    "proverbs-c005-v009-010-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "1a4e0369c128d297114d2e93aeeb9d10df8453885889cebc32c40f8c56825d61",
+      "bytes": 604478
+    },
+    "proverbs-c006-v018-018-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "3aaedd8396cf1f5b1f7c4c454c66ddaece8cc0113b6924728dec1aeae4c5d277",
+      "bytes": 464786
+    },
+    "proverbs-c007-v021-021-right-context-v1-feedback-20261013-v1-feedback-20261030-v1.jpg": {
+      "sha256": "59a329049a96eee6cb931dc46d398e44cf64029edc31a36fa358fe6deb6d40e8",
+      "bytes": 494316
+    },
+    "proverbs-c008-v012-013-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "aac0a58f3516cf206cf7641b856963cc902173e3d6582fcba30fe7532e8237c1",
+      "bytes": 462127
+    },
+    "proverbs-c008-v017-017-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "7336c5da251cdb95af50c8d9dd03f39944c697131c0508c8d5c1b8056fee1d3c",
+      "bytes": 582875
+    },
+    "proverbs-c010-v019-019-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "44d4b2d01c77ff9f3b0ac6f8c3f8c3fb81ba418e0287ceae98ed0af9e0ba414a",
+      "bytes": 447899
+    },
+    "proverbs-c011-v022-022-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "a9ded446c1bdf65d4d4db606e9d7922237bcc2d1a561e2773d9573b3dffdee3d",
+      "bytes": 519412
+    },
+    "proverbs-c012-v023-023-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "a35a96e69e068276ce05d15b74f6f8bdb9a8ba85a441f718696b304908d59816",
+      "bytes": 484916
+    },
+    "proverbs-c015-v025-025-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "6bd4f59e153bf7ede7412f45819d96a9658a32fb7b06106edd9c061fca1e3160",
+      "bytes": 500413
+    },
+    "proverbs-c017-v016-016-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "1e04178d2d3d572e50dd8f2b2f64c69db8de76e979546b3718d2167ea60b5ab1",
+      "bytes": 470021
+    },
+    "proverbs-c020-v026-026-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "ed640b51f210b920c319cf9202de7b6c60abda4104e82474ab3789f45504628c",
+      "bytes": 519414
+    },
+    "proverbs-c028-v007-007-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "dbe8e56a5ca6370c7665467f3ba7de725a0667b691b729c581edc8d0e97d5238",
+      "bytes": 561635
+    },
+    "proverbs-c029-v023-023-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "c9c085c39999fda76fbc39ef451cd641c22aadd0f543d7633d248565f95f9fa4",
+      "bytes": 469639
+    },
+    "psalms-c010-v002-004-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "27a33c82bd4cf3b12b66b0161c412174813ff0e697dea491c360486e27c4f93d",
+      "bytes": 455100
+    },
+    "psalms-c018-v043-045-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "5abe8cff3afbacf79ee9dd16440a6f09b03f9a9c6c10805c870559d06f7cc9f3",
+      "bytes": 509247
+    },
+    "psalms-c020-v001-002-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "68b675006596659f3501a7fc010e42d34dba65338f5c63a7e6137fa168708b71",
+      "bytes": 472456
+    },
+    "psalms-c042-v002-002-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "7a628d1bd2c7df73d3c48879d07a94f00bc348d816595ed68edd31b614c487c8",
+      "bytes": 548073
+    },
+    "psalms-c043-v002-002-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "a6568701cab30d3e7915e36259c7aaf197b650332877662754dfd69d211c98ab",
+      "bytes": 503970
+    },
+    "psalms-c047-v008-008-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "bb75aef66e51df2533f1d508d6384bd97be56f4d9f1b52ab4e6de819883c616f",
+      "bytes": 516176
+    },
+    "psalms-c048-v001-003-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "a5f972c4b21b08b3c32a32186616b064932a604851e23eac14fbaded9d419099",
+      "bytes": 594508
+    },
+    "psalms-c048-v008-008-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "33115d4696a7e0ce88231a11f25ead5da7ec8c913070e071978fa2ed1b4b24d0",
+      "bytes": 504237
+    },
+    "psalms-c051-v018-019-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "537b95250d8a1c764a07576b6b4a95675c4f5c9a840339526d1c6be2d9a8483a",
+      "bytes": 506045
+    },
+    "psalms-c056-v001-002-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "e2244f9193177c020b7991da95701167197fe3bb669376cc49c9aa44409b5acb",
+      "bytes": 459908
+    },
+    "psalms-c061-v004-004-right-context-feedback-v2-feedback-20261030-v1.jpg": {
+      "sha256": "ff998d331c4b96526c178395ab982cddfea34f7983424e9062bdc2585edf9763",
+      "bytes": 555497
+    },
+    "psalms-c073-v027-027-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "9e3124e90db4af8bff19564138c2abb249b75511923e8ee68fe2145a5c963b22",
+      "bytes": 592855
+    },
+    "psalms-c074-v020-021-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "129a227849f0a270066f06fb8e71f8b660336162296e7c85d42952765d9f6b95",
+      "bytes": 445553
+    },
+    "psalms-c079-v002-003-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "208cf70ee464ec9978f15cd198534089613b153645238a1c9c5c59d7213c71ad",
+      "bytes": 555109
+    },
+    "psalms-c082-v006-007-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "8d113ec8f709237782e4b3fa533d3972c89bf111fcc85bc1a5af9791b82ef7f8",
+      "bytes": 465693
+    },
+    "psalms-c089-v033-034-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "5c0902b501f3e859fe2eabad0881728b2a3618d77a27d82e3f5644e576789b9f",
+      "bytes": 406298
+    },
+    "psalms-c094-v008-009-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "1b36d3043a94af14314d44c40fa07986845efd749871b94643c795100ad2c456",
+      "bytes": 480339
+    },
+    "psalms-c099-v009-009-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "05f8baaf83d965666573514b3ab52c1cf1289ad1203ed4aba71b3762ef03cd74",
+      "bytes": 636847
+    },
+    "psalms-c104-v016-016-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "843c506da3264a1a2ea451bf43284f96a4d49b3eff136fadea35c69a300997ed",
+      "bytes": 884157
+    },
+    "psalms-c107-v031-032-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "e012ad3941aae1cd728b4e940b8ccb4191bb9965011fe450f582a2348ff52bad",
+      "bytes": 541133
+    },
+    "psalms-c110-v005-006-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "001cdce80358db3c43037b1fc70b0783e37f26526d5e8af5488d6cc61c750fb5",
+      "bytes": 520823
+    },
+    "psalms-c111-v007-008-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "c533ba41ea0766bc693a3a88b52f5e5af2e2c3bdd66cb3dcd34f7751e4996cf7",
+      "bytes": 563437
+    },
+    "psalms-c111-v010-010-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "ace9e022f2d9a1b70cbc5042e61c8f0db3d9daa821196089fe0278ef8ac28ce7",
+      "bytes": 431772
+    },
+    "psalms-c119-v069-070-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "e8fd0ddfa3a5f4a128c1071b489857d4557a4b3e5db7636e5c3fee7391b61a52",
+      "bytes": 458757
+    },
+    "psalms-c119-v072-072-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "52f3fb2fc3a55f4407e1853617ddc8eb6727db7cd989b77c74e377295314bb12",
+      "bytes": 495851
+    },
+    "psalms-c119-v103-103-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "a6956d1115e46e72d6881c9555db17bae2b1cb493e457a766c066441d369e205",
+      "bytes": 435665
+    },
+    "psalms-c119-v133-134-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "d7f252fa9a7987114ce04601b523be3d596a184f0635c8dbbbb5651a506101dc",
+      "bytes": 570636
+    },
+    "psalms-c119-v141-142-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "71d97267bfd94a9da46a28782a97df4d35b23164aca58d501a874d9006f10576",
+      "bytes": 441091
+    },
+    "psalms-c119-v147-148-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "64edf0f2e8b191a4f9d548477dd4284e97b1ed2cc9df81bedc9a4f6260fce6b3",
+      "bytes": 376723
+    },
+    "psalms-c119-v159-160-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "a2cb00c7b46f2f1f40b4b2cb188c0eb41e7aa1c187435da9a9c833aa6c738ad3",
+      "bytes": 430314
+    },
+    "psalms-c119-v162-162-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "675a8723ef13be58635e4d8d40a4b778bf3f3022aa3fd83d59d1f6b4001a4aaa",
+      "bytes": 482910
+    },
+    "psalms-c125-v001-001-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "55ef25a1942da10b28be8724a632b3f10352d0113e447896599c292115a3eb80",
+      "bytes": 630161
+    },
+    "psalms-c136-v009-009-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "6fe525b467dd250466dde34305fd95c5d13c11b58cdeec44829b7e2de3c51f2b",
+      "bytes": 510939
+    },
+    "psalms-c136-v017-018-right-context-v1-feedback-20261030-v1.jpg": {
+      "sha256": "019b551f04d42e67c773aaa016d862033dacb439e2c0b5ec03367e984629b1d3",
+      "bytes": 495702
     }
   }
 }
