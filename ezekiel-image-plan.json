@@ -1201,7 +1201,7 @@
         "output/ezekiel/ezekiel-c001-v001-003-original-v1.png"
       ],
       "cast": "E",
-      "image": "ezekiel-c010-v018-022-right-context-v1-feedback-20261019-v2.jpg",
+      "image": "ezekiel-c010-v018-022-right-context-v1-feedback-20261019-v2-feedback-20261030-recheck-v2.jpg",
       "verses": [
         {
           "verse": 18,
@@ -1223,7 +1223,16 @@
           "verse": 22,
           "text": "그 얼굴의 형상은 내가 그발 강 가에서 보던 얼굴이며 그 모양과 몸뚱이도 그러하며 각기 곧게 앞으로 행하더라"
         }
-      ]
+      ],
+      "imageRevision": {
+        "date": "2026-10-30",
+        "generationMode": "fresh",
+        "sourceImage": "ezekiel-c010-v018-022-right-context-v1-feedback-20261019-v2.jpg",
+        "sourceSha256": "a3cf695ac911a4a30e2e5e4d070d765148b90ea52db3f7c7bc6b3f92721c31cc",
+        "sha256": "12ec6bdd3d6ee4d2b62b784b95710c8514e21aa0e58216ba6aae7f24b21b8d7d",
+        "reason": "이전 수정본도 네 얼굴을 네 생물에 나누어 잘못 표현하므로 오류 있는 전체 그림을 참조하지 않고 구절 중심 새 구도로 재생성. 첨부는 에스겔 얼굴 정체성만 참조.",
+        "prompt": "Use case: historical-scene. Generate a NEW 16:9 photoreal cinematic Bible vision frame for Ezekiel 10:18–22, not an edit of an old scene. Attached cropped portrait is ONLY Ezekiel's actor identity: same angular olive face, curly dark hair, square short beard, ivory tunic, sage wrap. Compose Ezekiel small at LOWER RIGHT in astonished side profile, hands below frame. The Jerusalem temple EAST gate occupies middle ground. Above it the luminous glory cloud is departing. FOUR distinct whole cherubim lift off side by side, each with its own four-winged body and its own wheel; FOUR beings total. CRUCIAL do NOT distribute different faces across different beings. EACH OF THE FOUR cherubim has ALL FOUR face aspects joined on ONE unified four-sided head cluster: human face forward, lion face facing left, ox face facing right, eagle face toward back/up (eagle profile visibly projects above/behind human). Repeat this same FOUR-face cluster on EVERY body; show all four aspects legibly with a slightly elevated view. Each body has exactly FOUR attached wings (two spread, two folded lower), two straight legs and small human hands below wings. Four eye-rimmed wheels each with intersecting inner ring beside their corresponding body, neither flying saucers nor halos. Arrange beings large enough to read the composite heads; do not hide the heads in clouds. Natural ivory-stone/sage/blue/terracotta and restrained warm radiance, realistic linen, real carved temple, luminous clouds, reverent awe and loss rather than battle horror. Visionary anatomy is explicitly the scriptural four-face/four-wing form, not Greek angels, heraldic eagle statues, four separate one-faced animals or metallic robot people. Glory is radiant cloud only: NO divine human figure, face or disembodied hand. No text, no collage, no logo, no watermark."
+      }
     },
     {
       "id": 29,
