@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-30",
   "production": "https://vible.now",
-  "deployment": "https://vercel.com/hunkims-projects/vible/3fuNBecT9ywPr6i8X7nHP5rVfhcU",
-  "deploymentId": "dpl_3fuNBecT9ywPr6i8X7nHP5rVfhcU",
-  "newImageFiles": 0,
+  "deployment": "https://vible-abbfyjb5v-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_D35dnuYXFZpRPMqqSmtj7GUH7H1W",
+  "newImageFiles": 84,
   "releasedImages": {
     "leviticus": 236,
     "numbers": 343,
@@ -113,7 +113,8 @@
     "koreanEditionRegistry": "Structure for more than one Korean edition (data/translations/editions.json with krv only; selector hidden; ed= share param; per-edition search index) with no unlicensed text; check-languages now runs after build. Frozen checks with VIBLE_SOURCE_COMMIT and release-preflight passed; Vercel Git deployment. Live: release.json sourceCommit matches, editions.json 200, share pages with and without ed=krv 200, admin 401.",
     "feedback20261019": "225 selected revisions (220 localized edits, 5 fresh compositions) actually reviewed with body/hand/support/identity/Scripture checks. All 227 private before/after comparison hashes preserved. 225 CDN JPEG exact byte/hash/MIME matches; all 333 input data files preserved except approved image names, all 66 books and ko/en/ja/zh retained. Frozen npm run check and offline passed; preflight verified 3237 archive files; Git-only fast-forward deployment. Exact live compiled data and app CORS passed for 42 changed books; all 225 affected share pages and versioned 1200px PNGs passed across rotating ko/en/ja/zh. Browser verified four-language reader originals and shared-card continue-reading. Production release SHA matches and admin remains 401. New filenames/card versions affect only replaced art; no global cache purge.",
     "feedback20261020": "3 pending reports reviewed against actual Scripture, originals and SHA-256: parents hands and toddler extra foot corrected (failed first candidate preserved, final v2 enlarged), 1 Chronicles6 peripheral lily insignia simplified as clarity improvement, 1 Chronicles19 central envoy freshly shaved. Actual final hands/joints/support/identity/background inspected. Private before/after hashes preserved, 3 exact CDN byte/hash/MIME matches. All 333 source data files and all prior art/four languages preserved except 3 approved filenames. Frozen npm run check and offline passed; preflight 3237 files; Git-only fast-forward deployment. Live two-book compiled data/app CORS, all 12 ko/en/ja/zh share pages and 1200px versioned PNG cards passed, production SHA matches, admin401. No global cache flush.",
-    "feedback20261021": "Owner direct-chat re-review of Isaiah11:8-9: v2 sideways toddler ankle and v3 overlapping maternal supporting hand were incorrectly accepted previously. Final v4 has two parallel relaxed legs, distinct maternal side support and two toddler hands on own thighs. Actual selected whole frame and enlarged hands/legs/support/background inspected; prior candidates/history retained privately. Matching before/after hashes and one exact CDN JPEG verified. All 333 Scripture/translation source files retained except one reviewed image substitution. Frozen npm run check and offline passed; preflight verified 3237 tracked files. Git-only fast-forward release; exact live Isaiah compiled data/app CORS, all four language share pages and 1200px versioned PNGs passed; source SHA matches and admin401. Only related image/card versions change."
+    "feedback20261021": "Owner direct-chat re-review of Isaiah11:8-9: v2 sideways toddler ankle and v3 overlapping maternal supporting hand were incorrectly accepted previously. Final v4 has two parallel relaxed legs, distinct maternal side support and two toddler hands on own thighs. Actual selected whole frame and enlarged hands/legs/support/background inspected; prior candidates/history retained privately. Matching before/after hashes and one exact CDN JPEG verified. All 333 Scripture/translation source files retained except one reviewed image substitution. Frozen npm run check and offline passed; preflight verified 3237 tracked files. Git-only fast-forward release; exact live Isaiah compiled data/app CORS, all four language share pages and 1200px versioned PNGs passed; source SHA matches and admin401. Only related image/card versions change.",
+    "feedback20261030": "Exact Git archive: npm run check + check-offline passed; 84 selected finals visually reviewed whole-frame and enlarged; 84 private matching before/after comparisons; 84 CDN exact JPEG hashes/bytes/MIME; live SHA, 28 exact multilingual data files, 105 versioned share pages, 28 PNG cards and seven real-browser readers passed. Only 15 reviewed content/manifest files changed; all Scripture and older assets preserved."
   },
   "newTranslationFiles": 21,
   "translationBooksPerLanguage": 51,
@@ -130,29 +131,31 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "eb942151039e79c7e9dacb72197ec63774a2c5f8",
+  "gitCommit": "24b9bbdf6f9c932cfc171ddae818454d7c04fce0",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v4.jpg",
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
-  "frozenSource": "/private/tmp/vible-release-eb942151039e79c7e9dacb72197ec63774a2c5f8",
-  "sourceCommit": "eb942151039e79c7e9dacb72197ec63774a2c5f8",
+  "frozenSource": "/private/tmp/vible-release-24b9bbdf6f9c932cfc171ddae818454d7c04fce0",
+  "sourceCommit": "24b9bbdf6f9c932cfc171ddae818454d7c04fce0",
   "latestFeedbackRelease": {
-    "date": "2026-10-21",
-    "correctedImages": 1,
-    "newReportsReviewed": 0,
-    "ownerReopened": 1,
-    "qa": "review/feedback-20261021/review-v4.json",
+    "date": "2026-10-30",
+    "correctedImages": 84,
+    "newReportsReviewed": 242,
+    "rejectedWithEvidence": 158,
+    "qa": "review/feedback-20261030/selected.json",
     "generationMode": {
-      "edit": 1,
+      "edit": 84,
       "fresh": 0
     },
     "existingArtRetained": true,
-    "privateBeforeAfterComparisons": true
+    "privateBeforeAfterComparisons": true,
+    "sourceCommit": "24b9bbdf6f9c932cfc171ddae818454d7c04fce0",
+    "deploymentId": "dpl_D35dnuYXFZpRPMqqSmtj7GUH7H1W"
   },
-  "replacementImages": 0,
+  "replacementImages": 84,
   "koreanTextReplacement": {
     "source": "개역개정-한글.zip",
     "books": 66,
