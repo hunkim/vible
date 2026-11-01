@@ -43093,6 +43093,1798 @@
     "ezekiel-c010-v018-022-right-context-v1-feedback-20261019-v2-feedback-20261030-recheck-v2.jpg": {
       "sha256": "12ec6bdd3d6ee4d2b62b784b95710c8514e21aa0e58216ba6aae7f24b21b8d7d",
       "bytes": 561163
+    },
+    "2samuel-012-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "705a04bfe47ab5246a7130cf7d0b4957f02962bedfa3d1d2d663d70e436c0cab",
+      "bytes": 833753
+    },
+    "2samuel-094-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e54dce5e7e363a2aa59c3ebd37c70528e67e9cc90c936ac1e0b11860f0d354cf",
+      "bytes": 631024
+    },
+    "2samuel-120-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "de30e7576aeeb0978cfd44e252910b92eb555e4dbbcb784712f756e1f628e921",
+      "bytes": 793988
+    },
+    "2samuel-178-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7741c4afcfa479468f2f879aae551bdf746d24fe3a6f3e9bd9a86f9f4c9be257",
+      "bytes": 658606
+    },
+    "2samuel-177-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "4bf359fe1f9db6b94858ee42a1cec2b6f60b9d4eee3ba7c32b38942c917c8df3",
+      "bytes": 662438
+    },
+    "2samuel-105-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0a91edbfe4e0e1fe42bb9578e8c9ab2fdf8282d6727dd4dbbd4bcc2d4fd8bf37",
+      "bytes": 694178
+    },
+    "jeremiah-c033-v010-013-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b2e0e3909aeeb31cde7cff1dc15e36b748956cc1ec6c36f52ae9e33429f89fe1",
+      "bytes": 741394
+    },
+    "jeremiah-c039-v004-007-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a98b5a939576c384c964b365559f6c6a51d514676bd663dabdf6aade683b0bb7",
+      "bytes": 604268
+    },
+    "jeremiah-c019-v001-006-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "6b5490fe6e45d66b951eda9bc1971cc971fe5dbff2ca3efbda8ebbb4273ad36b",
+      "bytes": 737859
+    },
+    "jeremiah-c021-v001-007-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "8c625ee56d6bd6ea374a30273276eef056941a6e7ee09b2aada3b3e74dd38ec1",
+      "bytes": 679317
+    },
+    "jeremiah-c052-v008-011-right-context-v1-feedback-20261019-v2-feedback-20261101-v1.jpg": {
+      "sha256": "8cf8f2aae4be9e6594a7609d9ce9e90cc41b76171c9694fa990105bef2ef4988",
+      "bytes": 631122
+    },
+    "jeremiah-c007-v016-020-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "fc4c6afed13a6950a459da6b9509f1dc014960be58c18336d628deeafde5d86e",
+      "bytes": 653153
+    },
+    "acts-136-feedback-20261101-v2.jpg": {
+      "sha256": "c381d8ebcf816dfa5e20764827c00106eb2193b190109496f94035beee6a2196",
+      "bytes": 633402
+    },
+    "acts-187-feedback-20261101-v1.jpg": {
+      "sha256": "e059ef1696e048a9968c5a96d0867237a01f00c0c5680c344872e4806693ce47",
+      "bytes": 593696
+    },
+    "acts-008-feedback-20261101-v1.jpg": {
+      "sha256": "cd606528ad0bd24af5890d6782f788aecd88055e33af6caf4b975ec0a3bc849d",
+      "bytes": 722217
+    },
+    "acts-221-feedback-20261101-v1.jpg": {
+      "sha256": "b44c019d9180114c868e3add19d4ceef6d16cbf38a73ca883894d3fabb9645db",
+      "bytes": 726639
+    },
+    "acts-198-feedback-20261101-v1.jpg": {
+      "sha256": "c19feb0e064d3356e19d7b54841c22afe426383153e8cfe3cc15a5bebf501663",
+      "bytes": 700347
+    },
+    "acts-022-feedback-20261101-v1.jpg": {
+      "sha256": "80b5103699ae304cd42e10d783031f6fa9329d3b596f61949a353a37b83ddd87",
+      "bytes": 645275
+    },
+    "acts-context-022-feedback-20261101-v1.jpg": {
+      "sha256": "ba33e5863aff126073269fad1e8dd16cd42b1dd3851f41895ed00dc631d9091e",
+      "bytes": 779246
+    },
+    "acts-209-feedback-20261101-v1.jpg": {
+      "sha256": "25127f0a5e5b9c3ed64400be295e7c9f6654022646665719cde10fb4ba6ea1c3",
+      "bytes": 741049
+    },
+    "acts-215-feedback-20261019-v2-feedback-20261101-v2.jpg": {
+      "sha256": "afbc6e70e35492e7615370eae35dc930f28f60f92fcbfa8b51766576601b5ed1",
+      "bytes": 687906
+    },
+    "acts-094-feedback-20261101-v1.jpg": {
+      "sha256": "f3b0b7915dd8dce1da73cc7881d0e17040b6ebd28a5b93d336c1a7be4e604cb3",
+      "bytes": 639053
+    },
+    "acts-035-feedback-20261101-v1.jpg": {
+      "sha256": "b69ca11e6d20e366f863cfa8178ba550ad727a630a25511b98aa983d8d472eff",
+      "bytes": 619523
+    },
+    "acts-025-feedback-20261101-v1.jpg": {
+      "sha256": "deea06c967fe0ac51b57caf4e40d3fa671291d813309a7a7f79dca55487041b4",
+      "bytes": 644635
+    },
+    "acts-070-feedback-20261101-v1.jpg": {
+      "sha256": "cff3366cb05e080143678793bdbd02bb90bce1cc10ac4191490b6ebb2091e89f",
+      "bytes": 676855
+    },
+    "acts-109-feedback-20261101-v2.jpg": {
+      "sha256": "d811b2b54bf44ba3b0f3f9050b9105ca778ca2c6bf78518ee28efbd9c7f5fb01",
+      "bytes": 593141
+    },
+    "acts-021-feedback-20261101-v1.jpg": {
+      "sha256": "e8b9c76106e97d3464623c841aa9e652ab76942d242107d701ea0323f83f9a99",
+      "bytes": 684662
+    },
+    "acts-216-feedback-20261101-v2.jpg": {
+      "sha256": "8c7051cbdf177d2af030b574470b0dbfe67a74f97ce26d599314bf1d3f5723b6",
+      "bytes": 719328
+    },
+    "acts-055-feedback-20261101-v1.jpg": {
+      "sha256": "a6784cf05f2078f47dbce1f9787e6e17b7e682c818e6e79b697761adfda033bb",
+      "bytes": 828179
+    },
+    "acts-225-feedback-20261012-v1-feedback-20261101-v1.jpg": {
+      "sha256": "419702bcb64096a25a27c1424bf603ce9e5cdbe5f474fac5ec19930c01ce8f67",
+      "bytes": 621552
+    },
+    "acts-context-001-feedback-20261101-v1.jpg": {
+      "sha256": "0c0e5dde58eb19a81d1be7efe86ac68b6e91133364f5ea5777294b99f9b49d30",
+      "bytes": 876373
+    },
+    "acts-003-feedback-20261101-v1.jpg": {
+      "sha256": "a5c7c571d81aa19312ab384eaeb45ca4aaebdba732c785debfe2e56baa6bd212",
+      "bytes": 808609
+    },
+    "acts-126-feedback-20261019-v2-feedback-20261101-v1.jpg": {
+      "sha256": "435598b359d935f482a8cbd5a9e0c9eeb628d0df63c0cab7f013e20d4663eec7",
+      "bytes": 776647
+    },
+    "acts-001-feedback-20261101-v1.jpg": {
+      "sha256": "215d44e32a3dcc661ff76182635e3417b4358376769eb2fc12ae21e2a94720e8",
+      "bytes": 797155
+    },
+    "acts-185-feedback-20261101-v1.jpg": {
+      "sha256": "70c7f0b8f1d87dd0bdc2a8f17c5b4f5b7ae57a7a134ec7a2779ec17b693d3931",
+      "bytes": 629145
+    },
+    "1samuel-153-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "c4736ab7e2067b14b37ee8fd9605ad1ac70776cb8981697234c943e90970a1f8",
+      "bytes": 781013
+    },
+    "1samuel-104-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e3ec99863dc3035bdfb0e163949ef578d8a28b2df95d2ad98c61bfa46537fbb2",
+      "bytes": 752182
+    },
+    "1samuel-004-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "2475161d6763e5519d6588c72d443a263aa0f71a3ed176bd51e752f62c250fdb",
+      "bytes": 651622
+    },
+    "1samuel-120-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "53380097aa05e060c51271d9d7d061a3733c5c0628da56966ec6a848de73dabb",
+      "bytes": 729328
+    },
+    "1samuel-064-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a510511350b1dc0a260a60752678d4bced403e9ca946c50c2ab5d85152749097",
+      "bytes": 782239
+    },
+    "1samuel-268-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "c5d5ba0665ad7cda0c8e8338f7f8e0a819ecc4b939f54204b5619b06bf564df2",
+      "bytes": 761227
+    },
+    "1samuel-040-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "83f9225dc1b81df82dfe4097e3300934f963214b067a7ac374417367e6e03b69",
+      "bytes": 632585
+    },
+    "1samuel-265-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "64397d29bb78ab065fe97abc362122738df0f070de74febcf0ea24097d93b147",
+      "bytes": 807085
+    },
+    "1samuel-275-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "4d0450fe7b60c1853b819c95abbe00b9ecba22fa09db8acb1cc4efb5ca096c29",
+      "bytes": 920360
+    },
+    "1samuel-027-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b257f81a8cfb8e1287ca14a500d21bfba88df2a8c08f8d3f779506268eb9bdf9",
+      "bytes": 661264
+    },
+    "1samuel-182-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "366af2a5e455b9e9063fbeddbb64297d68a6b4c6a55e82eb7ba5b242a92559a3",
+      "bytes": 695414
+    },
+    "1samuel-248-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "91f805554f37acfe2490ba217c04bf0070dfdf056987f1ff0ae669a8796f114e",
+      "bytes": 751218
+    },
+    "1samuel-238-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "2e7499303e0309d33701b3ad5d559d13672af4cd8c14f8c193612998cb3ff4fb",
+      "bytes": 631844
+    },
+    "1samuel-003-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "199ac64a2c635bc2c76ed03a92a2bf1b6d828869a4fb309e6e60f41db3bdd915",
+      "bytes": 634848
+    },
+    "psalms-c086-v016-017-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "9fc56fcd47c7c8689ceac81a25f8295dcea7a888690bc38c7e15f7b4a90ae2de",
+      "bytes": 633871
+    },
+    "psalms-c009-v019-020-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "ebff3142cf6fe8c88fd6806d2393faf78b7d597acf0e6a6ba2cf671ce638051a",
+      "bytes": 551472
+    },
+    "psalms-c056-v001-002-right-context-v1-feedback-20261030-v1-feedback-20261101-v1.jpg": {
+      "sha256": "76b8a9125f4f5538d729c152e552734b8ee0edf2bfbd1e548289c660bef5ddfa",
+      "bytes": 671118
+    },
+    "psalms-c065-v001-002-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "2af2281590269527164503c2f3bf525da8a46c76a0faeefbb8fee1d959c3eadb",
+      "bytes": 744348
+    },
+    "psalms-c004-v004-004-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b9842e18af4476d098afd4880329aabb1a3042ed0039106217966e392bf09f6c",
+      "bytes": 481713
+    },
+    "psalms-c044-v004-005-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "98a66206bb3085bda2c962b4f7fce6ae9baa6592dd07b0642326fc86218b5941",
+      "bytes": 632847
+    },
+    "psalms-c083-v001-001-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "228fae3a1fedfa40a1afb284e936e37f4125f1c872d010369ecb97b96cb9664f",
+      "bytes": 625861
+    },
+    "psalms-c041-v010-010-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a3fbffdbe6943554b526788dd572b82f000e7cfad497b9bba6e3ce47a0f17641",
+      "bytes": 624993
+    },
+    "psalms-c138-v004-005-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e68224966e4189897eaf9fa35aaa406f365a9e2c4912e9a18b8f5543da570ef7",
+      "bytes": 662441
+    },
+    "psalms-c129-v005-005-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "9a65e1f396eccfdd7d164411c7ff7f838d0c0641d1670efbd40522252db67131",
+      "bytes": 737894
+    },
+    "psalms-c104-v027-028-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "d57ab024897c16d4702bb3f245586ea57e2a890e862bbd0ea2c333576e916ba9",
+      "bytes": 945818
+    },
+    "psalms-c045-v003-005-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "61ed7a043cb8888b50709b9fa8fec8e0c153464ec992a171c7f429634a3a53d9",
+      "bytes": 747010
+    },
+    "psalms-c062-v010-010-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7c5e6674e38d85d6a25ad744f29396f618be18f0b108e1eac6ce4cef4799ca55",
+      "bytes": 701621
+    },
+    "psalms-c045-v009-009-right-context-v1-feedback-20261019-v3-feedback-20261101-v1.jpg": {
+      "sha256": "1899b61aeaa1f2fee21560798d1a0bfc218134815656a58aaaf240a6d94cbe40",
+      "bytes": 729916
+    },
+    "psalms-c029-v009-009-right-context-v1-feedback-20261101-v3.jpg": {
+      "sha256": "a62ba0aa1d1846e2878b20daa50c26d8d5a8b8ece156b0548c07464cb1ef9d0c",
+      "bytes": 1095131
+    },
+    "psalms-c113-v007-008-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "21820c549c82694f7a5fba6e249c67a625836d2fd769d0fc8089bed920b1167e",
+      "bytes": 664954
+    },
+    "psalms-c137-v007-007-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "92853556cb9e43b4e7efb1b360504d4aeb21bd61c6f6f685d85812ac836b5e35",
+      "bytes": 726870
+    },
+    "psalms-c110-v002-002-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "5b33636f5435635bff0d83d9a1da1b051c5988172c153a456693e257c288e6eb",
+      "bytes": 748869
+    },
+    "psalms-c073-v001-001-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b97cacf59609f280a1157c817713f2b45674f0a0aa3aec4a6315e99a2461b8f8",
+      "bytes": 655042
+    },
+    "psalms-c066-v010-010-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "33a94bb184dc1fa7d6e83890732cc0f60de5aebe57ee1321e2b783cd293b2aa9",
+      "bytes": 681682
+    },
+    "psalms-c073-v023-023-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b1db9cafdc3f9b79e01d8f026b257cca4752922c40f2a3e2f65fce10478e2a59",
+      "bytes": 850584
+    },
+    "psalms-c123-v002-002-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "3deabb05793690e6c926b1840cb29084bd975a54d8060c66fb8b21290739ffeb",
+      "bytes": 619287
+    },
+    "psalms-c138-v001-002-right-context-v1-feedback-20261016-v1-feedback-20261101-v1.jpg": {
+      "sha256": "472b0fe313edd19a8581873b8b598c26b6b8e563dec8ae32201eca964c9ca87e",
+      "bytes": 658430
+    },
+    "psalms-c057-v009-009-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "cc5d91545b9c9ea6e7c52223035888fe3f8b91fbc499006e7ff57797f8c79b5b",
+      "bytes": 721643
+    },
+    "psalms-c144-v009-009-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "50610fa62a1da247871bcce00544e57c73fe40adba4d3d271b16908d2cba0133",
+      "bytes": 669834
+    },
+    "psalms-c039-v012-012-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "dccb6e3c7653671eaf44fa03a8ba62aaf9be3c3fb122e6d2d1b3e4bddd5fb9ac",
+      "bytes": 632282
+    },
+    "psalms-c136-v019-019-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e1712e3cf9f392ec2a5652d98f03e3272dab8567c6cf70bf78328e4dab9105b0",
+      "bytes": 842617
+    },
+    "psalms-c024-v009-010-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "23a7b347be8b4bff4c360acde9929ef322037a0861b3e590a4d4259cbd78963d",
+      "bytes": 802196
+    },
+    "psalms-c021-v011-012-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "9a19c6693b6c49674a2565a35e45f2ce3597f3af6ab7efdb78cf66ff44110b5b",
+      "bytes": 642166
+    },
+    "psalms-c038-v003-004-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7864ae9035029073151cc0c01cb44f602ddeef695845f331ba7f8b056bea6abf",
+      "bytes": 688386
+    },
+    "psalms-c039-v006-006-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b2d0b14bfcb3ae449eceb728976e96424fa656ef7abda185691ba349e1221987",
+      "bytes": 877880
+    },
+    "psalms-c021-v005-006-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "26a3dac1ca3192440ecb3b7e6f2bf3396d57b9fbe9e56ea1cb11b7ae16e62898",
+      "bytes": 682883
+    },
+    "psalms-c021-v001-002-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7e9e2c5b7f2c9015a3752243c00f3f955ccd03b7e0a59039b375e0ab3668d877",
+      "bytes": 688877
+    },
+    "psalms-c147-v002-002-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "2357daf21fcb94d6e38ec916410a5e14f540aa71daff7142c7c07cba6d8bb2aa",
+      "bytes": 824318
+    },
+    "psalms-c147-v012-014-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b634f6c6433b0747eb602dc59296455da099549b3ecb09466527fcf29657ca80",
+      "bytes": 824058
+    },
+    "psalms-c018-v049-050-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "12fd3535976cc71cf219ae8c1737bfd91bc97be912335e489d4c187384054aad",
+      "bytes": 618382
+    },
+    "joshua-047-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "0e0b1b29ca249122a418ea01b74b5ed12b4f26c8f8491a10eeb850c7c8082c4a",
+      "bytes": 673912
+    },
+    "joshua-172-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c872eabc4a870f9d03b07bf65e516a2dd6a1ab1b500ad6c0b8fdc0d3312d90ae",
+      "bytes": 797486
+    },
+    "joshua-048-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "eddb4396fbb925558a266af98173cd2090f5bed9316ef5f4cb263f7cd7e230bd",
+      "bytes": 770030
+    },
+    "joshua-123-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "599c6cb6bbf2c693660105abf0a9c4b53a485d41b7a88e5bdb621fbb681ba0f3",
+      "bytes": 800382
+    },
+    "joshua-020-right-v1-feedback-20261101-v4.jpg": {
+      "sha256": "8af2e33d9dc264aa8cdcb2ebad096b298336f740f7f2a3c804b3b11a27b107f8",
+      "bytes": 870724
+    },
+    "joshua-070-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "4e5376528a6fa77df09425c1bf9a33e37ee082018f57fde62b06ae329a8327f1",
+      "bytes": 696643
+    },
+    "joshua-019-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "ae19a09950d3a8f3fd77bcef874e076c4621f19f34baed321c701c11a1335242",
+      "bytes": 744397
+    },
+    "joshua-108-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "aa887aa5581bfc8fa0fd89942432a98f634e34e4eb67bf799d653e99ad3503d6",
+      "bytes": 802472
+    },
+    "joshua-130-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "ba94e9fbbad4723d97a4d8b5b58495ad5aae01cf885bd52a4131709655b917e8",
+      "bytes": 729403
+    },
+    "joshua-035-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "67d8df5ab3754f97cf9476c730249775ea8a5261aa1bf0f4dc52730a43cbae10",
+      "bytes": 885537
+    },
+    "joshua-146-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "0169788fccbd0e5e242bb4a3f9178e113a4fd4b378d870e812d1f7988698c6c4",
+      "bytes": 704795
+    },
+    "joshua-024-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "d5e09835541116fe5e8d52d05ea7fc8370c308674e2015a3f5f3912547e8dea2",
+      "bytes": 862655
+    },
+    "joshua-009-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "f7cca76fc94a05b2619e109904caa4000a5a0f3002bf270500604096b01c44ee",
+      "bytes": 577835
+    },
+    "deuteronomy-035-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "d7b0cab1e13a4c0b258f3e2ac1347e9eef4f9f6308e9c0d9fe348907c03260ae",
+      "bytes": 718268
+    },
+    "deuteronomy-111-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c2e39c592dbd6a5620be07e16c2cefabb4d45bcb2532bf1344af14aac79531c5",
+      "bytes": 777105
+    },
+    "deuteronomy-122-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "d497f411c910689fa5c751046a44d5c416313d8ecd63f8b97aaf265e682ae774",
+      "bytes": 812042
+    },
+    "deuteronomy-211-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "d33a4bbcbc280c579be2e747d7f4fe7708ab929e25c3f77ba1343568267bd04f",
+      "bytes": 747098
+    },
+    "deuteronomy-268-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "6c9c4b96c80781681a5619a4cb24f175ddd3b0c63fcf42ab3cf0fa55232425df",
+      "bytes": 886936
+    },
+    "deuteronomy-301-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b36a44b83d601a6619674db3a21a96947c2b6f75e8ddca04f1d2c99360ac19a6",
+      "bytes": 843425
+    },
+    "deuteronomy-300-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e95d1c52bd13c70762af19f9f3ef27f473a675df9e89383ceadc9e6441d2cbee",
+      "bytes": 650472
+    },
+    "deuteronomy-278-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7884fe73840c7d6ec50a1926aae51c82a03d9af94e0563d6caf9773aa005bf8d",
+      "bytes": 816283
+    },
+    "deuteronomy-117-right-v1-feedback-20261030-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7b409d2c167af46846e36d77ef8771e4a31256cdc689b669afa4352db2a1d5b6",
+      "bytes": 735181
+    },
+    "deuteronomy-212-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "4fdb4262e0d7e6d44af31e2e89536a0f58b04d03c36b814f9c44eeb37a059f96",
+      "bytes": 722107
+    },
+    "deuteronomy-102-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7ec7354727467992ef5b7ccd14dbe9ce57190f14e2f05b95d15c582e5535b566",
+      "bytes": 728530
+    },
+    "deuteronomy-259-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "0dec62a1880616966bb71e4b1833b8ffe11b370ae1c158553a88967e0372b326",
+      "bytes": 702530
+    },
+    "deuteronomy-218-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "565cfcf43ee2ca5e628becdcf168d2d5f95939327ec1f8786c9dc551e6cef40c",
+      "bytes": 714341
+    },
+    "deuteronomy-197-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "db5a1b62e57fff8de53f2cc73efb2d953f547632b676b235860960004373460c",
+      "bytes": 825210
+    },
+    "deuteronomy-148-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "395d437c04fc8085ddc2b52878cce2355a2e994d3210a8656e652abc8b39a154",
+      "bytes": 714546
+    },
+    "haggai-c001-v009-011-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "910af42644ea987567babd7134f970defe679f8e813b8c16619c5fee49d45f14",
+      "bytes": 783298
+    },
+    "haggai-c001-v005-006-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "861038603ee57e551477b6b6a137f8f4a72a49d092813bb5f5dadd517d85b63c",
+      "bytes": 748785
+    },
+    "haggai-c001-v001-002-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "8aad524f383da26d357a4e6ff3e63738eed8cf655a97c6fba9cc183315173f48",
+      "bytes": 748061
+    },
+    "haggai-c001-v003-004-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "1c3023e5a978adf88c2956f0b98a501662467c3bc71182860f4f7010093ebf9e",
+      "bytes": 763178
+    },
+    "daniel-c005-v017-024-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "9a24a7d867749983151b1f266c108e75b2193267c505fbd2a68f56d2a87bd5d3",
+      "bytes": 652115
+    },
+    "daniel-c002-v034-035-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "6a195595a2810c5cad90739ce828e2ffa652e8485bf990a56d3db5cec24b7e83",
+      "bytes": 646008
+    },
+    "daniel-c005-v025-028-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "023e40afb42b613feea7f2934b8d201357f77a01fb6e95b7c8f9f27a5a16f890",
+      "bytes": 704103
+    },
+    "daniel-c007-v007-008-right-context-v3-feedback-20261101-v1.jpg": {
+      "sha256": "67f7812b788a619532cd7b0ee8391dafa762d9b29637a09ef8621c84933cf5fe",
+      "bytes": 690638
+    },
+    "daniel-c005-v005-009-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "6361333ee5eb5cd7aa578a388662c40d265523bf872506ca7e2962a6a2800ab5",
+      "bytes": 672046
+    },
+    "daniel-c005-v010-016-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "65fbb4cfbd284b317d1e125a78793446cf913eddb19d34cc8c08edde4c46af33",
+      "bytes": 697948
+    },
+    "isaiah-c007-v020-020-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "19de7663ee9d7800e389b42632366ef90f82d53392ea87566768846ec3f06f4f",
+      "bytes": 610120
+    },
+    "isaiah-c022-v020-022-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "2734e86beb91336a92471822a62824adc1234a04904f83505602526b12aa0bd3",
+      "bytes": 619612
+    },
+    "isaiah-c049-v009-010-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "822d74e598ce52ddbd57320fbdacbe9256c4523c81114d2c2db63e3c26552c36",
+      "bytes": 920529
+    },
+    "isaiah-c028-v023-026-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b326abf7f51ded9a6ed0e779f86d116d36174cf20f741d0f53f31b95a78d1155",
+      "bytes": 866216
+    },
+    "isaiah-c038-v007-008-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "d2c799a97e5cbeb8173f02c5f3f24c3dfaea94cf67fbf7c4c0b1157859b72837",
+      "bytes": 788095
+    },
+    "isaiah-c008-v005-008-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "cd18ca26661d6cf1d9ace177fc2637749b8aa3350ad34eff29defc37b4188eb0",
+      "bytes": 719829
+    },
+    "isaiah-c023-v001-003-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "08792a4b294a4a3d63e26a5f5a84fe4c1920a93e7d700a88d7405f499c6ca555",
+      "bytes": 749667
+    },
+    "isaiah-c011-v006-007-right-context-v1-feedback-20261019-v2-feedback-20261101-v1.jpg": {
+      "sha256": "d321c019dbffab94e21b9bdc597b50f4331a5417fae95a49977b18249da32f62",
+      "bytes": 859999
+    },
+    "isaiah-c020-v001-001-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c05c5e29b0e689f093faa7882e928de32abcce287de472f6b32759070b0ac33f",
+      "bytes": 707812
+    },
+    "isaiah-c040-v030-031-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "8a9b5d8ff53027336ac8fb45ae9c872e199cc23457b5d6da635f58cdc74fff01",
+      "bytes": 757098
+    },
+    "isaiah-c030-v012-014-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "94d3cfc0e14da43bfb2ebbe0ad9adeea35a93f4eb3dcb5b327e05ee89da0804b",
+      "bytes": 815044
+    },
+    "isaiah-c066-v018-019-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0b2ba8feeaaccdde23a8b6a760e0a4b40f513110d4c550c4b1c8cef224ab724a",
+      "bytes": 832547
+    },
+    "isaiah-c010-v033-034-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0f975d00444c5feae25389375ad14cbfb93c9bfef0ce45feae28a82cef0ccd2c",
+      "bytes": 952493
+    },
+    "colossians-032-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "f1f9ae25a93f2e23fcbbe3e76252aadcc09ccf8b092516bbe311c8e4e70e657e",
+      "bytes": 713210
+    },
+    "colossians-008-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "19e180ed8c237d4b8044c48200aeac54ef94a764803a731da7ac651dc2fc903e",
+      "bytes": 779394
+    },
+    "colossians-020-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "682f55359fcd686660f469db705f5a011667c17de77f9c66117ed2c0b1344503",
+      "bytes": 698872
+    },
+    "ruth-022-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "fc7ab7a17302d18afcf5f6020744f5131c91f1269e8b11115a6a7332fd49c64c",
+      "bytes": 807636
+    },
+    "ruth-021-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "240d7a34b01be5cdb907d5917c6390f9b64aea13bfb1c48d02a6b44c4889c993",
+      "bytes": 721037
+    },
+    "ruth-026-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c43de31afa1be864cb9bbcf0adc5bd8d60f37d3d35626959b8997cf7fb36ed8c",
+      "bytes": 696079
+    },
+    "zechariah-c008-v023-023-right-context-v1-feedback-20261101-v2.jpg": {
+      "sha256": "b1ab8222c9ceaca3bfc2da2656b0bfa4e52f430e81bd1b7bae758bf68649dbbe",
+      "bytes": 725978
+    },
+    "zechariah-c006-v009-011-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "dc2db7224abca8433bb8db5604deb47a3390f4044e0c07d66a4df637af7e0ef8",
+      "bytes": 628482
+    },
+    "zechariah-c013-v009-009-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "79882cecbc929d2e188c61d5c600876e12d6fbb2f1916669298667501205f1fb",
+      "bytes": 666511
+    },
+    "zechariah-c004-v011-014-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a22c565fc913dfffc5672c6630074722ffaa6ac330af2e475e749d83ede599d4",
+      "bytes": 715813
+    },
+    "zechariah-c005-v010-011-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b3a5d1bd5be71179d957f37f002f0e1682dfb97e422bbdfe80957417b4ac55ed",
+      "bytes": 551291
+    },
+    "john-125-feedback-20261101-v1.jpg": {
+      "sha256": "2bbd6c7251382a2fc93605d81eb07fa02c416728b8fd5ee44b6405e8a7c8ea38",
+      "bytes": 648700
+    },
+    "john-142-feedback-20261101-v2.jpg": {
+      "sha256": "3287c62c554404dadd99df1555266696b9bece3f0029da313649c457425bde5b",
+      "bytes": 780842
+    },
+    "john-069-right-v3-feedback-20261101-v1.jpg": {
+      "sha256": "8f11db170f3a8f59e0a07765c2a40bab5a50b597cfaa7466154a1da71f80e2de",
+      "bytes": 688635
+    },
+    "john-082-feedback-20261101-v2.jpg": {
+      "sha256": "2e18587ff739d39a18bb480f681a71f1f0b059d21ede716d8d0d017e8afa7f3b",
+      "bytes": 706720
+    },
+    "john-018-right-v3-feedback-20261101-v1.jpg": {
+      "sha256": "6890bcd5ced41a54bf65bccedc6ae04b61a386eb1413c2e91d1def42200c95a4",
+      "bytes": 632480
+    },
+    "john-028-right-v3-feedback-20261101-v1.jpg": {
+      "sha256": "fe03fec060b6133f65bd59e3f07cdb7acfa74a523cb356cf81fb213536960881",
+      "bytes": 750472
+    },
+    "john-039-right-v3-feedback-20261101-v1.jpg": {
+      "sha256": "7aaea2c89550c5cd9f2f88e1abdafdb5fead426d8a7ce81dd7a5a510176592b4",
+      "bytes": 775839
+    },
+    "john-156-feedback-20261101-v1.jpg": {
+      "sha256": "37cf9844ca4c1b0392283bdcacb9d1a58520fad6070a0d9082d7e9c0c997bbf2",
+      "bytes": 583311
+    },
+    "john-108-feedback-20261101-v1.jpg": {
+      "sha256": "718e0e475066f0c01c3a4e01f9a476c6c74b04d8b28447ec9cfd3f3b745d07a9",
+      "bytes": 782344
+    },
+    "john-110-feedback-20261101-v1.jpg": {
+      "sha256": "d2806aad54d112818ba617a5d0f4f8a078903be58eb0da955faece8a3e548266",
+      "bytes": 537861
+    },
+    "john-166-feedback-20261101-v1.jpg": {
+      "sha256": "bec42525abd36becfe5a7abad941d415eb795f69245658e7fa8cf2a6214bad00",
+      "bytes": 648441
+    },
+    "john-027-right-v3-feedback-20261101-v1.jpg": {
+      "sha256": "177dd74a8b880d77615f9df0493edae3aeccd9a40183073a3fd58ee5e8015e11",
+      "bytes": 978540
+    },
+    "john-191-feedback-20261101-v1.jpg": {
+      "sha256": "da13229e5f1ead1bc7d8a70bb1e607a51ebd2f2134354aead396d4f8f9bde98d",
+      "bytes": 825981
+    },
+    "john-131-feedback-20261101-v1.jpg": {
+      "sha256": "0be33ed3d960e7e9e8a642cf0ee8eb33a832a4e11e59dbdde3d45fb0812b4dca",
+      "bytes": 872558
+    },
+    "john-170-feedback-20261101-v1.jpg": {
+      "sha256": "9c808d6631f4affbc5a6c470ee19fe5e6cd90e46cf632edfd8492a14dcd13d61",
+      "bytes": 604462
+    },
+    "john-141-feedback-20261101-v2.jpg": {
+      "sha256": "fc63623ed65c0a592f67c3a19ea630b0b18f45462e9dde4d18b6483eb249bfd4",
+      "bytes": 782705
+    },
+    "john-068-right-v3-feedback-20261101-v1.jpg": {
+      "sha256": "6ebcddb97e9285ca39de7411883a0e5df0a09413a1b244d523078a11f9cc1178",
+      "bytes": 662329
+    },
+    "john-192-feedback-20261101-v1.jpg": {
+      "sha256": "c6ec7d6f04777aea0ecc998adf1aea0dc0fba1b4c10bcd6076454bae0619fdc2",
+      "bytes": 685127
+    },
+    "john-144-feedback-20261101-v2.jpg": {
+      "sha256": "0c5e18e8b945f782e915781e448106a48da3a5ad1abc976f1499c32ef6aa0197",
+      "bytes": 760052
+    },
+    "john-119-feedback-20261101-v1.jpg": {
+      "sha256": "29a1cc754d4a0f49b167f0b7acae1d4363e6ee8ba8a5d41ccdf802188bb5d857",
+      "bytes": 713304
+    },
+    "john-147-feedback-20261101-v2.jpg": {
+      "sha256": "31bb10434a0e376b909339e95153d8404544bb7f4e3336af3ee14a88fceb340f",
+      "bytes": 803743
+    },
+    "john-038-right-v3-feedback-20261101-v1.jpg": {
+      "sha256": "591820551b81dbc71a5db91ece91aabc1b36145992e8d667c104d05be5e0a7ff",
+      "bytes": 725105
+    },
+    "john-083-feedback-20261101-v1.jpg": {
+      "sha256": "366ce7eecb8904e86bbfdae9db62164415427b4e36a02d39db02c5364ee3457b",
+      "bytes": 568921
+    },
+    "john-149-feedback-20261101-v1.jpg": {
+      "sha256": "683c668d3315a98bd61c27cb308e9d7917bb0cb9618ea2c92e59f35373dcea2c",
+      "bytes": 626591
+    },
+    "john-158-feedback-20261101-v2.jpg": {
+      "sha256": "7fdfc985f4c55e070f654ff9fe8c23df7c33f3b8d03a186f9e6c0583bc3824bf",
+      "bytes": 629012
+    },
+    "john-076-feedback-20261101-v1.jpg": {
+      "sha256": "b2f1f5c0aa2a097f0bb9a24c4e995b9b6afd8aa3e1fc5b8e1bb339c0542fbd8c",
+      "bytes": 614002
+    },
+    "john-155-feedback-20261101-v1.jpg": {
+      "sha256": "516d81f032593c410c3df7db3d2af013389b180b5509f20fa2f2237ea3f7670f",
+      "bytes": 701127
+    },
+    "john-145-feedback-20261101-v1.jpg": {
+      "sha256": "8b1deef3a1ef5d44c99add2dc708b5966dcc8c0eadde5a6fa474008f09badbd9",
+      "bytes": 767462
+    },
+    "john-104-feedback-20261101-v1.jpg": {
+      "sha256": "a1ff0260ecfd8a1130d854a239e6b4179ecce23173bf18c8e4766164bacf0f24",
+      "bytes": 682380
+    },
+    "john-188-feedback-20261019-v2-feedback-20261101-v1.jpg": {
+      "sha256": "0755a471e8f7ba3011a18ded6ec19a93efd0d6b69f8d497aeea3760cd62b7781",
+      "bytes": 693620
+    },
+    "john-132-feedback-20261101-v1.jpg": {
+      "sha256": "7674cc2147835a31ac3176814805bb38f0667f84829e0abf4c5d300a75d3d4df",
+      "bytes": 519320
+    },
+    "luke-067-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "647ffd9c8c43151ffc5e2591c640c05f8681f91ab76c51241fcbc64bd14b6a84",
+      "bytes": 680428
+    },
+    "luke-221-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "25104698bcbc8a964f75dcf33078cca656e9b9f38db908fd38f4dbb52344a8b0",
+      "bytes": 615997
+    },
+    "luke-105-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "93e71b22214300fc0b00b1858e9026f29b4ee58a534157bbc846b65a5f201278",
+      "bytes": 616023
+    },
+    "luke-141-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b13548bbdd5ae82f8773567f232d18a7181034aa0df66a336dc17896c5650150",
+      "bytes": 714932
+    },
+    "luke-246-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "f68d2d87e5c9217e118cb683ca9568ede864051bb428394101356be3ea1d03b6",
+      "bytes": 630803
+    },
+    "luke-218-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b1218932a350a5bfec268760b59b4bb510890ae5de1becea497ec34539804cad",
+      "bytes": 677855
+    },
+    "luke-177-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "40700d1493527ccd2b9652830b10d284441187f888b6c069e41266bc1609dad3",
+      "bytes": 569569
+    },
+    "luke-130-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "3b4c58e3d7ed21cdd1d8b65188ccb3b40869224d08b25a2c654209f120e0605f",
+      "bytes": 709381
+    },
+    "luke-090-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "95fd13a196b650d5907bacf7f54a5a5671cb5b03c7d9e40ac8236ef89a5efdbb",
+      "bytes": 590769
+    },
+    "luke-114-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "c68f7cb5161761cf5988439701d8f336a49fbf41fa7b45966f20cc01c54c6cde",
+      "bytes": 658807
+    },
+    "luke-233-right-feedback-v2-feedback-20261101-v1.jpg": {
+      "sha256": "bd2457d9cedf66e10e7b272e91ee50edf7976e47e484adf68865f939008de246",
+      "bytes": 495903
+    },
+    "luke-211-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7d873cbaf61724f96b6fb1b782175de4b0c60ad8a927ffa3da2e738ca246e304",
+      "bytes": 597018
+    },
+    "luke-247-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "58d4edfb3311e441a290cfbab2ff88b43e429d1a713344bcbcacb2f17179b7b7",
+      "bytes": 611222
+    },
+    "joel-c001-v005-007-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "23d6de3121c94f9f3db8ec5bce48c4b391ed4320e1604c33538f6cc842d43c7d",
+      "bytes": 764044
+    },
+    "joel-c001-v013-014-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "056b934b9be7f7511bf2f1209ad5e9284b3febf33ec74092f5693115c81d809f",
+      "bytes": 690943
+    },
+    "2kings-002-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "598ceafb0109ec8e833b94e991287a4ab962f5c9031a6db151f86c034f233282",
+      "bytes": 778931
+    },
+    "2kings-264-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c875d951c2d4b55e85943642d982d9c972cae1a90b41add3f46957ec1503864e",
+      "bytes": 617341
+    },
+    "2kings-082-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "4ba56d61113400e319c741fd364f2093105ef8a35fc46f0596261efd4519abfb",
+      "bytes": 775559
+    },
+    "2kings-011-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "80ba9fc02a85cdf0e1ac52a8ddca8825741b8a2e391fc1169924bac5584e0d1b",
+      "bytes": 873149
+    },
+    "2kings-067-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c156f39a876702b18ee6d83b07a1854eac0527b4737e7103157cb782bd04c08f",
+      "bytes": 605388
+    },
+    "2kings-161-right-v1-feedback-20261019-v3-feedback-20261101-v1.jpg": {
+      "sha256": "ad73edf1711cfa1e62a19c9d44f20840ca6b28e9d2521ed2f009e001c92b1f1d",
+      "bytes": 644286
+    },
+    "2kings-001-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c858dc92ba4c26b8b0cca5cd9045204e4ac13ef7b6ae8b12d109e2cee5f55456",
+      "bytes": 657713
+    },
+    "2kings-226-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "334f311c4b312ff3bae82b491cc67eb8161321b97ce093c43520c6418be7f7ea",
+      "bytes": 710692
+    },
+    "2kings-076-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "21066a91e5c9343a4bb20e79d557bdd698b555c2b9c28d16cad7ddce56ab7a14",
+      "bytes": 605608
+    },
+    "2kings-224-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "8505119143ee0ee753ab692be012b0c259c4c4f6fcc7a29fb0d967777f797fb2",
+      "bytes": 713631
+    },
+    "2kings-073-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "55e70fb2ed0192a46d5aa495be3c5417356a4fd37d084c038f27aa159053c0e7",
+      "bytes": 621245
+    },
+    "2kings-254-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "70ecc4d2fadd2b4778e633e08f346c932897cef0b93b789e26c8f83735f09bb0",
+      "bytes": 690084
+    },
+    "2kings-138-right-v4-feedback-20261101-v2.jpg": {
+      "sha256": "4a815adecc82c7711dc0c5afb41ee762321d391a1210b4476d6da887dfbd1371",
+      "bytes": 600062
+    },
+    "1chronicles-310-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "113accdce321743c2771a90f92f18874fa7bf16281c3dde52070b08bee12a24b",
+      "bytes": 770023
+    },
+    "1chronicles-316-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7acf04c65bf6bae4877fe5da96689cbc1f6697f2d689a8f46ae9b0c415eef795",
+      "bytes": 675518
+    },
+    "1chronicles-321-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c2bfd3003c64048c84b5f0cfd57f666f40287738358c87cd5b06c4f7d27dabf3",
+      "bytes": 614878
+    },
+    "1chronicles-104-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0223a231161a5d034f44e6302e1a1138a79e519c1e1e692014c9d0194d112f1e",
+      "bytes": 582336
+    },
+    "1chronicles-162-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0911a199196025ac804bea1b11267a10ccd79a685b81df8f80e156795820138a",
+      "bytes": 632778
+    },
+    "1chronicles-334-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "68d18348bbf9a3de4eabdb4241ad029d962803e50bdbfc7b6dbbe8171648aead",
+      "bytes": 759553
+    },
+    "1chronicles-249-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a30c3417af440607fc14a59c13ac37d4f66c1a385c59a1bf90f72e27e9eb124f",
+      "bytes": 701579
+    },
+    "1chronicles-251-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a11645237a46de51a623572f23096ba55a47ed82abc55f01fc74904dd1605a14",
+      "bytes": 701859
+    },
+    "1chronicles-291-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "258486567368812acf8ee70d59e79da15df1895093bbbce1dd3c968401222794",
+      "bytes": 723931
+    },
+    "1chronicles-209-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "dc6db9ab82e3877f77ca38a27a2f6eac9ca9e3ef5b061fc098e151e9bc310fc7",
+      "bytes": 815873
+    },
+    "1chronicles-318-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "68f2dc44397007830bf1e0b9e9b094a3111b670b850c600dee48f324e22a1ce3",
+      "bytes": 709092
+    },
+    "1chronicles-102-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "58e9b95640cad4b3396cf027f6c8b7afa1f90cc7bd17f9208474a5cc7b93211a",
+      "bytes": 768373
+    },
+    "1chronicles-320-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "41930b0f038deb239bb7a42e9fc7d0368c78c73bafd9e98bf4ac979eaed91943",
+      "bytes": 693890
+    },
+    "1chronicles-180-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a2108d07316731c2fff3658bbd95dac0fc99008535c03d5205d3c503a3a4e14a",
+      "bytes": 638399
+    },
+    "1corinthians-058-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a9d82947adcbc99e778cf3a9d68b36bb35dc6abdb20399f955b048a2ac994840",
+      "bytes": 671320
+    },
+    "1corinthians-042-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e54ae686592a766a5c874422067b5f18d22239d2c10104ca2a072a2f3573badd",
+      "bytes": 671323
+    },
+    "1corinthians-029-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b1585129e6ab2e99905baa45eb972143c9839d2d03c55b5ccf863946e6b2ed6c",
+      "bytes": 667554
+    },
+    "1corinthians-050-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b9cf17c8e7f716bcd715a64b37e927fbbfa44fd0735b968de20709ae0746f939",
+      "bytes": 627612
+    },
+    "1corinthians-019-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "5f88f27649d1e62b289196855a6a78ec0c77c34d890b524a11fdbf077a1ecd47",
+      "bytes": 686796
+    },
+    "1corinthians-060-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "33025d7e2f1e684f99acb1c23f9fa4e8c90dd51c197a84cf3a209486ffa70602",
+      "bytes": 665242
+    },
+    "1corinthians-001-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "17920bd0dda87ab43d580f3064b7fff3ca17e70ef8c3430e9bf160afc7643543",
+      "bytes": 649796
+    },
+    "1corinthians-030-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "745ac6e673f8debcf4de6a4b28b90117f58bf164d020a1ed2b9a48374b8f9e12",
+      "bytes": 740923
+    },
+    "1corinthians-035-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0050bcf358a7016d640477bc72a1cf6516b130ec809eaf0675b953f91b63f5c7",
+      "bytes": 798528
+    },
+    "1corinthians-075-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "93f736a326509bf77547689b41605cebdc9aaddadb7631ac3b72939d4898755d",
+      "bytes": 598525
+    },
+    "1corinthians-017-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "5038518b4b8445a344e5f793a0c237e67a3ade7ae2ba6209e4a0eadaca210c26",
+      "bytes": 674027
+    },
+    "1corinthians-036-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "f3a5698e2cbdc5579105f195d751a716ec1e6084da48d3ff45efe8bb478a9bf1",
+      "bytes": 660508
+    },
+    "2chronicles-305-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0ce1eba31d7174d5f72285d5eb39547b814364f2f895f37b046daea86753ce07",
+      "bytes": 512335
+    },
+    "2chronicles-294-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "5cb2f2f7205aaae5bea992e7b6b2fb5bae1cd56e319ee529481aa4d5b647c698",
+      "bytes": 561647
+    },
+    "2chronicles-105-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0d47667f0a1ca8640bd60acbfbae6febfda8f64c9fe7f80cf3bde4045ae067b8",
+      "bytes": 646989
+    },
+    "2chronicles-101-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "11c8dec86ffa83c36867d79e50f17b538b897168099ec0fa56b5968b69768c89",
+      "bytes": 574286
+    },
+    "2chronicles-198-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "46b23ae8f30ad881c45124d159ee62d51aebc459decd3a6073d2e8600f3a032b",
+      "bytes": 660173
+    },
+    "2chronicles-232-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0b1121821c9ca38068a2e0ba9027b2f26fe9b70b72fce013cf805d08d84f4a6c",
+      "bytes": 553125
+    },
+    "2chronicles-279-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "81d5a8f2b280c467149163d3997b5f2bb91a6cf9e6e766d65816a2378e07f59c",
+      "bytes": 710679
+    },
+    "2chronicles-003-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "57b77299b26c818e23c7526c49e82721268cda0804fb94c1a31ce2ba434f091e",
+      "bytes": 673204
+    },
+    "2chronicles-093-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e121e892ac7055e85c6ef096c931a579490baf6697501300c428c0adae32be99",
+      "bytes": 792584
+    },
+    "2chronicles-286-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e61ef26aa34354a1bdf761a6d066dea03a9d67797fa5a9ce4121bfa6249af3b8",
+      "bytes": 608598
+    },
+    "2chronicles-053-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "bf4bcd194da88981fd697b93bdd111a156b609225ca8818e0cbb507b5dedb499",
+      "bytes": 606732
+    },
+    "2chronicles-212-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "55170d090241bd419c4787202d7a6d0f069c3e687257f7e8c563b7e9ae3f0a8a",
+      "bytes": 675614
+    },
+    "2chronicles-108-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "47c0dc8672cfc9467a7d1b0288539cdc58e82f5f7db58882c892641721bbfe2f",
+      "bytes": 597364
+    },
+    "2chronicles-287-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "64497379387d66b7a548ac3d0f7c1ac6a9b67db1e9ee4886c0cf1de9ac337bde",
+      "bytes": 755830
+    },
+    "2chronicles-236-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "ead9aed6a56cfabdad06215a7354e8fcc6d51c4494c89b9417175788ef5d3512",
+      "bytes": 634516
+    },
+    "2chronicles-389-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7d220cc346e2b1a9e468f6b605edf45eb60dfb006760ea2593d27516adbab764",
+      "bytes": 696947
+    },
+    "2chronicles-231-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a3703f547e80f1a2f1d3ea033765dc7975986c65b75a29bc29a76c2b49ea0342",
+      "bytes": 653988
+    },
+    "2chronicles-197-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "382834ceb88b52de4fd9c527f48238b9a96cdd02ab393945ec81b59859a9fc9e",
+      "bytes": 749383
+    },
+    "genesis-091-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "86b2c7430fdbf58dbf6cbfb4e712c02c7def689174d465880284106a647c842a",
+      "bytes": 952717
+    },
+    "genesis-168-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0e6a1a7406f2b50de27be40b289b261ad92a679d7f7191831d0b4c9c7a4b7358",
+      "bytes": 963867
+    },
+    "genesis-213-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "4da127271b5dc15430b92ea452b1b698c25e37b58331f7572def4313fbcf2e8f",
+      "bytes": 690096
+    },
+    "genesis-001-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0de6b3975c9526ddeefb9fa297dc37e4c26477beb15c4def052e556ead28b1d7",
+      "bytes": 452765
+    },
+    "genesis-021-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "7ca6d1fab05b3cf43fb1074603e4e4cb1ea3875fe6259152fb979ce942ce30c7",
+      "bytes": 757454
+    },
+    "genesis-019-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "02d21697960c27b3f3ad9c1c3d5468d5ccdd138b5ace19bf0d18776626952b21",
+      "bytes": 712893
+    },
+    "genesis-238-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "112355e758b5d84c6e1544739f5ff6054f9d88d943d6ac76d04b908981155a0f",
+      "bytes": 762387
+    },
+    "genesis-059-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "bb9e237530639f62393e0ec50a6cca5031f28d8aa484f830ebb03b148754909e",
+      "bytes": 820824
+    },
+    "genesis-101-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0db1e5885df08956cfeda143609b23daa8850baa4cfe004d7dd61ad9af27217e",
+      "bytes": 890259
+    },
+    "genesis-130-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "d454d0de71df756a4fec93ca954007408c313d1f5256bf3b2ebe74917ec6faf5",
+      "bytes": 770377
+    },
+    "genesis-216-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "9e1478f5947bf81d020068599a242553144245d1d5a1c7abc5a7c878bf0e9817",
+      "bytes": 800088
+    },
+    "genesis-230-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c04e25a82960876bf23bce87e976478edd5ee4518152ef4a5872f20cf1bfe65f",
+      "bytes": 781819
+    },
+    "genesis-043-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "2c950b17650d6d80f5c97f7d745cf5fc2337e70d43473e068288bb22851ef679",
+      "bytes": 734626
+    },
+    "esther-064-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "10e134122aa9fdcf28448e2eaab775efc501d6441db23e7f0fe5150a6d7c17e8",
+      "bytes": 691948
+    },
+    "esther-026-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "db13bf394a0a18dcd1d6786d3d315ac9e423d1d99c53226265a3b216c20f1913",
+      "bytes": 590536
+    },
+    "esther-035-right-v1-feedback-20261019-v2-feedback-20261101-v2.jpg": {
+      "sha256": "ca6a500ac697bd438d3667aafc47cf15d8f5990a9a8b6ed784a540c73b6e2dbb",
+      "bytes": 695757
+    },
+    "esther-093-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c5371b81d771f1f3dcade1edd8e70f80bfa4598f5482af06f7636cc99a1272f5",
+      "bytes": 748378
+    },
+    "esther-068-right-v2-feedback-20261101-v2.jpg": {
+      "sha256": "cd2e0a2a8075f1dc4a69392b3bf58727828d2ab0ae3d9c6bf01c5a3e4d874ca4",
+      "bytes": 755853
+    },
+    "esther-045-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "496bdd4f9ffc09fa5e12e9e84ff86264b3986afea54353b4b15b9ca2e959e333",
+      "bytes": 609052
+    },
+    "esther-051-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "ca325a190136b53041a7598586caf85dabca1710bf7029b3dcb7bea9d9c5ad81",
+      "bytes": 572852
+    },
+    "esther-022-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "825498ee652c162ebfe86c5be7bc16e8aa55f9baf461ab71f90416b3cc48aa4d",
+      "bytes": 671155
+    },
+    "esther-043-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "75110f0d3d4026bf59dcfd5026d7c7a56e1b1b39c5e361f4de2e5ef4ba158c5f",
+      "bytes": 619637
+    },
+    "esther-061-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "4c6793fc022e2ae7aba93c9eb46cb3eec73a26d4472367055fd054f719b30229",
+      "bytes": 745651
+    },
+    "mark-007-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "dd116aeddf2bb63f63e6aed83ccf807f666a922b88c4f80eecd0506d9fedc008",
+      "bytes": 622724
+    },
+    "mark-060-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7e64a59e736186e8f59502a30b94fd291a8bb2ec2894a01176ea01b837e041b8",
+      "bytes": 710719
+    },
+    "mark-111-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "ae6fd9a324d0e0b0da2c84808c97e6fce2f3e1323557ffb0f188afd8584094b0",
+      "bytes": 601784
+    },
+    "mark-133-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0171f40836928c3a37ec02844e8f6bbc0212593ef808bc5f81a60068a7e01b62",
+      "bytes": 609071
+    },
+    "mark-026-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "bf8a08d75bf9d4db00a167420180f50389a367ac9ff429250a1ba338dbf98c27",
+      "bytes": 580581
+    },
+    "mark-108-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "d6a2157a37f43df89010e88d4a3f9ec8b7e6d2b7224a843086d3fa953f144553",
+      "bytes": 643132
+    },
+    "mark-119-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "2c3707752f710af4c98648f3592472ce6bfe1d222db45b1b373bd876ddd3fce6",
+      "bytes": 551304
+    },
+    "numbers-166-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "731c9ca284aab6a76ba8efb150e6552f3778c394b92fcf8184bffcb775642b9b",
+      "bytes": 701234
+    },
+    "numbers-058-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e07e95bdb09448770fddafeda80e64cf8b49bd16f88c60fa2da75a24b500dae4",
+      "bytes": 739507
+    },
+    "numbers-129-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b091c89246257b0cbdd724246ebe2dbc55f991906af3e0e640cc987f93bc51f0",
+      "bytes": 741130
+    },
+    "numbers-229-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "f47abcb8427bce3b491e189d5df0a68d1c40fe4d686f8a9958399d65e966b12d",
+      "bytes": 943074
+    },
+    "numbers-163-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "3e28241c46cb2ec0bc865ceeb23404cae1181308f702b73edc3787b0d9b635b4",
+      "bytes": 671619
+    },
+    "numbers-027-right-v2-feedback-20261101-v2.jpg": {
+      "sha256": "f9bf0a46266177183c5078366abe46db95396d8856e14f05f9edf703ff3763b3",
+      "bytes": 720932
+    },
+    "numbers-037-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "eaee9b3b4d9aa4dcd1395ba7b71cffeaca2f93ea80bdeaef88e3b57f066929d2",
+      "bytes": 769477
+    },
+    "numbers-033-right-v3-feedback-20261101-v2.jpg": {
+      "sha256": "d0ed91b592d283f1e3c21a1fd516cc7c7823754d4324a766f446588f545fe459",
+      "bytes": 676424
+    },
+    "numbers-153-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "51f68b115a1e3f473401168e00a71b73d1be81a61d59ab1ce993437b126d3790",
+      "bytes": 772109
+    },
+    "numbers-083-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "b49fc5fef8a69f60ff0879b88fedb97fcecca9f284b59b8a0ec983decf129cb4",
+      "bytes": 761064
+    },
+    "numbers-124-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "31644ed940eb2d994bd447bae97ea2f1a88f811dfedfb0cb8cadf3d31202f3f4",
+      "bytes": 814941
+    },
+    "numbers-160-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "cb3506fc952aa567faf53527f90b59db7a23983c42dd6cf8d395b8486c79ae78",
+      "bytes": 878384
+    },
+    "numbers-335-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "14898a512672af7f1d1b15d46d5afdd6085460d168714d53023d442a8d6983a4",
+      "bytes": 858627
+    },
+    "numbers-004-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "65ac4559c11e26360cec03a682c10776d222c1693897662fe10bdd775c03580e",
+      "bytes": 799252
+    },
+    "numbers-101-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "ab71a7bbd082f92af0938fe326875832997ab94b6214b83ad29fb987661a4af9",
+      "bytes": 833600
+    },
+    "numbers-007-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "cbfa69163185e41a9c47616c410f6a11474cea27fc5c81fdb86570dc2846bd59",
+      "bytes": 832454
+    },
+    "numbers-156-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "ce06331f2c50d9b0ac74579c29c3590b0428d3ebbf840d4fb72fa50ac8c43916",
+      "bytes": 765994
+    },
+    "numbers-002-right-v1-feedback-20261030-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b0306023f8af4ef7e3e1fdd60083a7451b0bb612868f0500c20c013d5cfcf40b",
+      "bytes": 824417
+    },
+    "exodus-215-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a874d7bc0bc8a97fc0e0f84c317149fb86eb4158c310be4edd7b9731db85e34d",
+      "bytes": 668750
+    },
+    "exodus-205-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b129569f872fc9e632ee60676e07889feabe7dbe7d11bf4dbebb46370ebecde3",
+      "bytes": 774801
+    },
+    "exodus-177-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e7481338ea070bcaa0e90cd894e2589eb6575f758cd9704edd7476233839abde",
+      "bytes": 818708
+    },
+    "exodus-049-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "ed46fa220a25778b3d838a0b91c232172ea03f5572108323ab24e266bfc1ad8d",
+      "bytes": 692207
+    },
+    "exodus-024-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "aa708e3482edb57b8de914689308e903b3e751fff2114799934d2593a0bb7faf",
+      "bytes": 731867
+    },
+    "exodus-174-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e1db04e56f5f50e5a322d849d6a8642ad3ee9732574a0364205ea5c6c1abb027",
+      "bytes": 866884
+    },
+    "exodus-276-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "6f184164f7625e122c0e7e3fee6029aa003a87fa40b67a4f2ab66ac448c3b61b",
+      "bytes": 736029
+    },
+    "exodus-275-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "487667f97f46bc778cbecd99309eb071a3bcc0e5722575074f252df48a47e9fe",
+      "bytes": 732318
+    },
+    "exodus-210-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "7cd775c3b6d54d8ae6d4006e345c832a755bd67c591714dccbec974637d43b54",
+      "bytes": 658324
+    },
+    "exodus-301-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "ab4f68c6e035055f63140467f96fe69b0a3158b5c9fd732309c514672682f292",
+      "bytes": 733351
+    },
+    "exodus-175-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "f732d670a3fd8d0fdaba15ff7f2fb4edb08b008ec8a9c1192999e2668717d689",
+      "bytes": 721651
+    },
+    "exodus-164-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "bcb8da15c75c7a1330a8190e54ef8249a5fab8a912e92a0c8f7c206130d47f8d",
+      "bytes": 764444
+    },
+    "exodus-226-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "72356435ecadadc67c4d4229039023cdc765fc3a10af60aed6dd32b97e276ef3",
+      "bytes": 581401
+    },
+    "exodus-266-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "19182f77becd7c12a75ce73c110cdf815d9dc8ab4c2a9b37ea5683fd1b08e8e8",
+      "bytes": 837888
+    },
+    "exodus-214-right-v1-feedback-20261019-v2-feedback-20261101-v1.jpg": {
+      "sha256": "8467828667ba8d95de4827594829a4f17c3ed74659fc3900be79940ad457199c",
+      "bytes": 650894
+    },
+    "exodus-053-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b70477463af2ff9847ef718cf3a8879894ded0226141f0832dfe271e8d2c9b41",
+      "bytes": 739642
+    },
+    "exodus-269-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "d0d23adc84447eb570a61417fc2b6eb1f89d525d7d93674da07edcdb1710c189",
+      "bytes": 766178
+    },
+    "exodus-072-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7780f6f0cff9f6a7c1dcba3c573d03caeef661f9ae724573fadcfd700219c866",
+      "bytes": 389369
+    },
+    "exodus-061-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "59970211b255dcdb950502c5e8937cd98d5af43c71679de0186d5d96980d4526",
+      "bytes": 752094
+    },
+    "exodus-292-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7810c0ca806b7e680a495a12375f4bb9ea847cfe1b5ed74ab178c022296f4fc4",
+      "bytes": 967175
+    },
+    "exodus-125-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "3c4a884f0f4a506d467c10a07f75407da35bb9221fd3b2f0b219906c70020a41",
+      "bytes": 846544
+    },
+    "exodus-109-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a3e294c11488258038a13d68d91bc86d734cd474cf21af4cb765004b9501c765",
+      "bytes": 824438
+    },
+    "exodus-268-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "f286250d6112ba4ef4adb12df4fb98bcc443edeb40ae46979b5a82b2afad62ae",
+      "bytes": 782466
+    },
+    "exodus-234-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "67aafb60f9691bc807b4a2f2112951346d2f1ad194e81fa2bad58218f562b0f4",
+      "bytes": 679264
+    },
+    "exodus-243-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "993907f0372c4ad16cab2e465e0987f28f7b686e43ca5badc45e85229d8ed1f6",
+      "bytes": 754425
+    },
+    "exodus-248-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "54431f6b3a29774c215eb37916137eb381f335b9ead78f2f36c74717ed17a428",
+      "bytes": 782340
+    },
+    "exodus-305-right-v1-feedback-20261019-v2-feedback-20261101-v2.jpg": {
+      "sha256": "ee28c8e4b43d5c29ba138e99ebcfecfa40b709fa0fe7aabdeca09bc1a064d5e0",
+      "bytes": 751410
+    },
+    "leviticus-050-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "267c77ecd8e7d40f1e007e8c572efbdd8ea73ca78b3701b38752c904cdef0a22",
+      "bytes": 657752
+    },
+    "leviticus-029-right-v1-feedback-20261101-v3.jpg": {
+      "sha256": "b80447da052dc203a2ec842a3b02f51f5a1e4c398b09e6b7d5fbcb0453c2445b",
+      "bytes": 728260
+    },
+    "leviticus-177-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "bcf12be1b9b0c7f14333e1eabd213fcc002a40b9848c11aeab62fe691101752a",
+      "bytes": 775847
+    },
+    "leviticus-070-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "16fc1a9c1c6172a0ec5bfc84c865751a8121cc3c81483e99ed41a61b4f0d42ea",
+      "bytes": 644351
+    },
+    "leviticus-005-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "75f25c2a32b074ad198875464862aa97493999ae9d6744ec02986d876db409a4",
+      "bytes": 717946
+    },
+    "leviticus-192-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7d1c20ecfb3ad7cb6b77234951cbc295dbc9a859ad8c70ffa9aebef5835dd1e5",
+      "bytes": 784826
+    },
+    "leviticus-126-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "2bab1449dbd36528f2429e5fba09d4cf1176939a74cb34741c43e42f8e9e3aeb",
+      "bytes": 499480
+    },
+    "leviticus-072-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "299612994179eb7c6d4152b5d6af2b7a2721c2912673fa99a07bbf3bc83c9424",
+      "bytes": 707875
+    },
+    "leviticus-168-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "2239462e8f8896aab7c7a1fe7f9150b1da27dd58c03c5203b38849d9fa9c6616",
+      "bytes": 825122
+    },
+    "leviticus-227-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "eff003f1c5519b571236281791a6c429cc590216da7f6423f8393b14a98933c7",
+      "bytes": 742885
+    },
+    "romans-069-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a0aaf3915319d7bef1a2da520709f45512bf7962e7e2271ec6d51e2611fa82ad",
+      "bytes": 851459
+    },
+    "romans-002-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "d85198e780dd11691366842a727c418a935a2e869cb0e18db2e389dbfb9f8254",
+      "bytes": 693476
+    },
+    "romans-012-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "d944077f00fc5b270789f50ea9dee4eb1b256f79bea96553957d9e5f8d7626fd",
+      "bytes": 672528
+    },
+    "romans-028-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "1eefc9575dcae7d8d4e4eb7061fad193d6a670eef1d2c4ff32bba5102813e2ec",
+      "bytes": 697834
+    },
+    "1kings-151-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "29d96668903b9a26f5d25af8ff656cf3c6f3771d48dc3389161a5f7b26b68f77",
+      "bytes": 608084
+    },
+    "1kings-020-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "f93df55a607181afe32beb6eddc4f83e4b8883f236718ef1f383ffffeda15ee4",
+      "bytes": 739008
+    },
+    "1kings-043-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "9891966c67a2017444f55f48f29cb816a507f4ab2303f3bf04f5c91c41bc4650",
+      "bytes": 714059
+    },
+    "1kings-171-right-v1-feedback-20261019-v3-feedback-20261101-v1.jpg": {
+      "sha256": "2dbb4b6ee9eeeae6aa57bfb135ad5f75a8495cbf270ee7412f8c23a3d9d39119",
+      "bytes": 720148
+    },
+    "1kings-084-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a5a845f544bba92c979f62355c59e3d682e283df3f008cd643695843f5900aea",
+      "bytes": 711515
+    },
+    "1kings-234-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c0d26fd2d88ca0fbfa281f7778c2a99ed83cf7f22c98bf73d998f96c4d24737c",
+      "bytes": 783004
+    },
+    "1kings-056-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "fb33b7b9759dea32eb26d0a16a3ba49f9e200c330a32fb98e11a9367a1780c6d",
+      "bytes": 729139
+    },
+    "1kings-149-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "2996559c5f854fcd0aa28774e41a6eba1c1e338c60580819af664d5c938f23ac",
+      "bytes": 627363
+    },
+    "1kings-142-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "ac8cbf47a56b3e38fc64291a60d404aedb2823cb500e76eb09fe534f61bc7e1f",
+      "bytes": 668895
+    },
+    "1kings-152-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "ac81b3ee7c0f07273934c75d640ec7b01b18a882f61e62ad59fd8aec28f2c277",
+      "bytes": 694239
+    },
+    "1kings-239-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "9265e409f3412a7390080fd7e777001879c200d8fc909ddac7022fe0d508ae03",
+      "bytes": 849644
+    },
+    "1kings-164-right-v1-feedback-20261019-v2-feedback-20261101-v1.jpg": {
+      "sha256": "08ab342b95e0f45bd6ad8e04df9ca53cba63274dcfcf65d0c2d2bd712b0bfc00",
+      "bytes": 637529
+    },
+    "1kings-127-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "2433a0e93d13d9349a1e13b0805a7c89a966619090663c93359110811e26d5e7",
+      "bytes": 605902
+    },
+    "1kings-243-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "4bb68a40e65c2e757eadbee7e227328e43b83eac1e1069ca4fe513eccbb8e140",
+      "bytes": 872016
+    },
+    "galatians-030-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "5d3ca60fe5b74a5e713af4eb0a8497b5324cfc561d03cb717dc734739b4504f1",
+      "bytes": 682335
+    },
+    "galatians-021-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "fe44e574ee78d6fb452424f5e96fc7a3da85351ba8a4fd17938617f3131d7e0b",
+      "bytes": 748100
+    },
+    "ezekiel-c040-v017-027-right-context-v1-feedback-20261101-v3.jpg": {
+      "sha256": "e5035dc71c4abb714236b4d625caf48f9cc73ff12ca964a20e592dc4d76b4f7b",
+      "bytes": 705548
+    },
+    "ezekiel-c044-v001-009-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "1225484d4efe9735ffb3dc14a64b98dce90e92d2138993c672dab1355bd2f0aa",
+      "bytes": 765498
+    },
+    "ezekiel-c046-v013-018-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "7a57356bfb1d75576ce61c4cd04748515d8630e33768e19730c05de4c8acaf48",
+      "bytes": 785326
+    },
+    "ezekiel-c021-v018-027-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "5afcac469a7bd75675df20b1a5580e9644e93e4fdc92bd9514b0203d6f6b01e2",
+      "bytes": 793753
+    },
+    "ezekiel-c042-v001-012-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "1ed08b590b3cc5289c216bd864804df1f12434febf77a511a353521376eb0161",
+      "bytes": 638060
+    },
+    "ezekiel-c030-v020-026-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "8e8884428b58eb850e625303e9c1745557df731564bee6b166f1438473758f6b",
+      "bytes": 650872
+    },
+    "ezekiel-c041-v015-026-right-context-v2-feedback-20261101-v1.jpg": {
+      "sha256": "3b6728ae5cdac828673c09b47eb1ae05454c9958269ba9135d26f50b949da971",
+      "bytes": 867780
+    },
+    "ezekiel-c010-v009-017-right-context-v2-feedback-20261101-v1.jpg": {
+      "sha256": "8d09dd3285960a39d5f395307e21e10560b8f821766ba66cd5250989e412d3a0",
+      "bytes": 852361
+    },
+    "ezekiel-c001-v004-014-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "8235e257b5d0ee198b1b2235f0d7a9b74e4afad6186e81b1a286825cf63758d6",
+      "bytes": 809282
+    },
+    "ezekiel-c041-v001-014-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e6f79e147de5dd031bce4e2968684ff702667625e1be71ca82370c786412bed9",
+      "bytes": 744704
+    },
+    "ezekiel-c040-v001-016-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "8c030ea7e380a898775e2d2a7ea2e7744a8f6aa317840cb3cbce843f2cedc012",
+      "bytes": 780752
+    },
+    "matthew-031-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "3bc948bf202794ad37044197d9b359f76d5b103727bee5b2ad8b046c906a296c",
+      "bytes": 672580
+    },
+    "matthew-150-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "11a89cbdeab922191e852b4d77e0a89a9272bc3005209c7d83de4ae5409d81fb",
+      "bytes": 726390
+    },
+    "matthew-151-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "6bb9327a295f397271cad6f00ce1b90606dcb81057e05b5a3a0083c1d23bde70",
+      "bytes": 724962
+    },
+    "matthew-069-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "00a8bcbb004a3e0a2597303dac40dc458ae67543e7aa90d7cc20ba9382ba9a70",
+      "bytes": 775129
+    },
+    "matthew-200-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "993f9cc0044591dd8a2f53b3c55e14da03f560ff55fd8d1854594441d548ef16",
+      "bytes": 652911
+    },
+    "matthew-067-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "12ce3ad5da21b6f721bf63f47ccb9f74eac90e4f80462a6ec9437e3cfe4c3fc9",
+      "bytes": 695851
+    },
+    "matthew-162-right-v1-feedback-20261019-v2-feedback-20261101-v1.jpg": {
+      "sha256": "82c0fe53f5b75b4704110ef62651d4658d73222cef5edc46ee3d414eb0a65f1a",
+      "bytes": 739460
+    },
+    "james-012-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "9434e1da8fe1908c384bd7d27fd56d7f58dd8b22350989a38348a48d06f9fb7e",
+      "bytes": 730287
+    },
+    "james-020-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "7aa1479687e9d25af6fea6572d8a851ce4991d93f6b384be6cb0830f67b05f0f",
+      "bytes": 848580
+    },
+    "james-034-right-v1-feedback-20261019-v2-feedback-20261101-v2.jpg": {
+      "sha256": "964d5df1431c87122d8cd0e740e1bc9d9bd92a493c736622fcecc5d3553b5a8d",
+      "bytes": 647573
+    },
+    "1timothy-007-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "75b826db3e7d8f73e5a268170c1ef8524919f560043e3e7603514b0174a7f4e7",
+      "bytes": 671502
+    },
+    "revelation-059-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "620b20dcf385c419b850d885e46c689aff166572927cfe4b8c3e19009456ba4b",
+      "bytes": 921840
+    },
+    "revelation-083-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "439a4def32cb0f9c1e73968c437ed78d5ceab2c92bcb321eb44439018b355a5e",
+      "bytes": 701107
+    },
+    "revelation-091-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "37a67e94cf54716483b54d23ecaa52b9e101232165ea9dc01fbef0cdbeed7638",
+      "bytes": 922187
+    },
+    "revelation-048-right-v1-feedback-20261101-v4.jpg": {
+      "sha256": "218ec3d1225d13251e7b9235da6cd4ed0220107d82205a1cb9fc3a6f11d02a23",
+      "bytes": 958189
+    },
+    "revelation-006-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "95b7678f1f037432901a7f32002bec00f997b1314fe0a361c998cac6f0031e33",
+      "bytes": 675021
+    },
+    "revelation-050-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "9c26f72bf6670e682a5abc8d74811568b1d406b85d9b3c0158a718233cc75b5c",
+      "bytes": 831226
+    },
+    "revelation-090-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "604d8dac4e2d2a5179449a03f94c3356d8f4bd9758a4f1442a9f2560d2d7d1d5",
+      "bytes": 822323
+    },
+    "revelation-089-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a69a5e1b4e8ba3602f4ed588ebc80cb310bc1901e29bbd12e16062740442a1df",
+      "bytes": 806943
+    },
+    "revelation-076-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "620f161181a0a8f4430efe5e8258c0a5ea9078347d2a0c8cdeaf4ffb3462eb82",
+      "bytes": 826027
+    },
+    "revelation-078-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "99ca551730dd93d53855e5a96b34fa88c85f82b960133ba4a94d175c6f165e1d",
+      "bytes": 669162
+    },
+    "songofsongs-c002-v004-007-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0d3946410144451c3475a4c3d1f0d461b19ed03f704d6d06d31bb15934843e3e",
+      "bytes": 795152
+    },
+    "songofsongs-c008-v008-009-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "33f370e89a588747236961ae93642de47d5a22dee0e068aa596b458c29d4b0f7",
+      "bytes": 832712
+    },
+    "songofsongs-c005-v004-005-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "611a3c4881f8f6b5e983823de8710de1f71164a5f209c31c29c737ecf75adc03",
+      "bytes": 612793
+    },
+    "songofsongs-c005-v007-007-right-context-v1-feedback-20261019-v2-feedback-20261101-v1.jpg": {
+      "sha256": "91f258833a1200685ab96797401cdf6cd1f6480923935e0d4e6690396cebd73c",
+      "bytes": 816326
+    },
+    "philippians-026-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "fbb8ef35bec755f9c7967b86e08dd5771c576452e37bc386c23377b6b5f91fe2",
+      "bytes": 695144
+    },
+    "1peter-042-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "df12e62beece155511956a9e924663a11e79582763668c9e3427b522801f8ba7",
+      "bytes": 653639
+    },
+    "1peter-029-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b24c8cde157b93af29c80d732e4c004dc78d130fa1b0093e3d3a2bc8fc2769a7",
+      "bytes": 756486
+    },
+    "judges-117-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "bf4e6a13b2798b9e7f76ba1c4c63ca6b24534fbe995ded6300d1c438959b43e6",
+      "bytes": 816558
+    },
+    "judges-187-right-v1-feedback-20261019-v2-feedback-20261101-v1.jpg": {
+      "sha256": "dad3dc36b26135a8baa2e1d5368572fe41d1649e26317e0a0e2ddbed5e93b313",
+      "bytes": 746737
+    },
+    "judges-069-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0bd4e836d8c90c74cc7d1d78efe926915f1efaae9a2a952098df96a476724442",
+      "bytes": 534399
+    },
+    "judges-058-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "ce74b7cadf7f2dfc2388adedf6bd38842e4cc67764b943ce0bb55cc0b14ea28f",
+      "bytes": 868997
+    },
+    "judges-152-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "1de4c035536a089202fcbeca5e5476f15b83bf22b3239d1cfc315c3398931475",
+      "bytes": 575987
+    },
+    "judges-026-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "4cf79170e7fd93da06a43d74183215f1ca59a00f41e61c997565c15f11012ea5",
+      "bytes": 674265
+    },
+    "judges-186-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "ab390ef49a2ba4ee3832c9168fb76d2198eb345430632b437270df9d4c654370",
+      "bytes": 769931
+    },
+    "judges-033-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "23259330b2a35a1a7cd16618e6a70654b875eae171c6a28f759d00a766318f40",
+      "bytes": 786645
+    },
+    "judges-153-right-v1-feedback-20261101-v3.jpg": {
+      "sha256": "a26c7c297c68d277a2a77b9e296ac0a9986fbf4bfa85666bcec70245350b7128",
+      "bytes": 677076
+    },
+    "judges-098-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "8a6afa378324f5c89ddc6820616d5806539fbd211723d575c19a213ec762ca2e",
+      "bytes": 764744
+    },
+    "2corinthians-092-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "42976617b041f7560cb33d67bbc1c4c31f23d56e9a00e960a64b7fdfe682e4c2",
+      "bytes": 612666
+    },
+    "2corinthians-081-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "cf9f26f82c600ac9817127330ded14b885b919af2d0274c0c363c4aed852a912",
+      "bytes": 734372
+    },
+    "2corinthians-014-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "f467b73edf4b422d81c7841619843ac9bddaed59b74264db22f681531710f23a",
+      "bytes": 674984
+    },
+    "2corinthians-091-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "9a769fb9c928ac4e659421cd3e75cd0136959ee99fb5017e2823d0d87a0fb02c",
+      "bytes": 651871
+    },
+    "2corinthians-090-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "163b91cba630f66ef8ee0dcd913c6e03430cbf822814fe64414e31ded9c9323e",
+      "bytes": 624430
+    },
+    "proverbs-c026-v001-001-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "f130c484d646b4a3e2489fe2b16c3925b5a86e23c9b963eb5724b2e46ab2ebe8",
+      "bytes": 823826
+    },
+    "proverbs-c011-v020-020-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "f617af554fbd6940fbf168e91c0f8abd289f6a76cdcc2a8f9c6f1c357be97abc",
+      "bytes": 658697
+    },
+    "proverbs-c029-v023-023-right-context-v1-feedback-20261030-v1-feedback-20261101-v1.jpg": {
+      "sha256": "cb6aa432fb71b7ea48aa0ccd3dded0865cbf7005e5022d8002ba37d32fa62307",
+      "bytes": 671489
+    },
+    "proverbs-c001-v015-016-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "fc764c4cfa2832a52ce3d533e3d36fbd77b08388be81b0ae374cdb6d1d9abac3",
+      "bytes": 693372
+    },
+    "proverbs-c011-v001-001-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "fad9ae1064d71598bd3893ce5db6ff9ed87b77d82e8c7e2c3591cd2378ddd3a2",
+      "bytes": 754751
+    },
+    "proverbs-c017-v008-008-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "c790a7cc8b521679a851ee6788f4787c4b28f37729ce5aa9f8497dec4cd9fef9",
+      "bytes": 646393
+    },
+    "proverbs-c007-v022-023-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "f56cd6170272e498a8357928efa703a190a44e3a345b553e1e526ff89920ea23",
+      "bytes": 672795
+    },
+    "proverbs-c001-v024-025-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "3d8f088f149c4eb65aead2f472bcf3410299568baab91ff66b5d53e73226fee6",
+      "bytes": 708190
+    },
+    "proverbs-c006-v017-017-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "dfc98cf9d4a66556af64cb8305628230e4b36a8945090b793ede8ba3a794ec7f",
+      "bytes": 607691
+    },
+    "proverbs-c011-v002-002-right-context-v1-feedback-20261013-v1-feedback-20261101-v1.jpg": {
+      "sha256": "50794d7976d3dbcbd75ca744170b009d760a00e7f657f8a333766e01e4479def",
+      "bytes": 728216
+    },
+    "proverbs-c022-v016-016-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "9f4c5601d23a74a19b9de5260adc5e839588aa59c00603a0ed0df4c88429f3c1",
+      "bytes": 733776
+    },
+    "proverbs-c020-v008-008-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "caa3fcd75800f29a27a27c893dfb90ec21a00bc24eaac847983f21e2f969c28b",
+      "bytes": 632920
+    },
+    "nehemiah-123-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "5559eb5abf8c2d7c7a02806765b5d5c999ca8f6d83fae2dbbec4bb67e61a3be8",
+      "bytes": 603640
+    },
+    "nehemiah-133-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "65689b5f39546747aa86f752f69f91757bb20fa937e735bb1d1519e20bf49717",
+      "bytes": 659643
+    },
+    "nehemiah-010-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "468b8fd8fcd5709734cf2cf8c5231529faa6541f395cc624f66201fbea96a1bd",
+      "bytes": 724621
+    },
+    "nehemiah-063-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b1802e1e7c1eafc7d352853033130a040a5cf178f4305f23caaebdf23f4bc6f2",
+      "bytes": 636587
+    },
+    "nehemiah-019-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "8a09c4fe1f942fc6dc497a45df4498eb91ee3faf640f233ba4b988a50aec438d",
+      "bytes": 701902
+    },
+    "nehemiah-055-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a7cf911c937fe7b70ffae10d761909b891b5ffd23194db1ed70ed801782135ed",
+      "bytes": 692987
+    },
+    "ephesians-049-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "e1ecc58734b87ab36bccf546494d8a7d633c91a387ea7fa3c795fd1738376adf",
+      "bytes": 648043
+    },
+    "ephesians-001-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b16f7ea50e09927e1e8be9746b386e418c930a8d5683f960439d1b069d63a174",
+      "bytes": 638260
+    },
+    "malachi-c002-v008-009-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "2b41dfd9b56d42ac240830dce4b3ee280e4c55faacdcd123028d4393051aab3d",
+      "bytes": 601214
+    },
+    "ezra-038-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0f1b42b06c59bd9074994a5b6f1836f884652b446e2d4a358d7489f594522d3d",
+      "bytes": 718012
+    },
+    "ezra-039-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "9f3360a477587131fe30bf9df8b01395b424061a7b935b71239ae802010ed54f",
+      "bytes": 662421
+    },
+    "ezra-116-right-v2-feedback-20261101-v1.jpg": {
+      "sha256": "d0522f7145f96ac5165a9fe8719689529106296eeaa906359b2f912b463a6337",
+      "bytes": 644262
+    },
+    "ezra-034-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "aa51e42c59ee343ddec9231e0f539f25232fe1eef0c43bc22b539662bf835246",
+      "bytes": 755071
+    },
+    "ezra-091-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "a1458d7fcdf815689aa42926dce172c9008878b7117d529148f137fef056900c",
+      "bytes": 775981
+    },
+    "ezra-108-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "ea6b1be5832a09154a5c043884572c50ad3bd942b5fd6f80f0c8458afbc014d5",
+      "bytes": 702725
+    },
+    "ezra-118-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "6b7dd8a4a8aff6030f381123d2165ae165849e4068c45925f9f9dad7f020493c",
+      "bytes": 719886
+    },
+    "ezra-106-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b5fd4daaa7edde3c0405e6732b5e392108aae6be6147f300b6786ed472e181bb",
+      "bytes": 692449
+    },
+    "ezra-107-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "f760caaa113b245a8c88e1cb7af977520454b548537f46a1f1e507a0126193e5",
+      "bytes": 694781
+    },
+    "hebrews-043-right-v1-feedback-20261101-v3.jpg": {
+      "sha256": "3da0f04b3f8937c8b47a886c6474dc4946c527f7c7a625498bd35e9ea6e4f37d",
+      "bytes": 720165
+    },
+    "hebrews-108-right-v1-feedback-20261019-v2-feedback-20261101-v1.jpg": {
+      "sha256": "896848fdb86070553ad345e4cbd0a63a831173f2e7bfdcf5fc318a3fc277f336",
+      "bytes": 769034
+    },
+    "hebrews-096-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "0ddac226e3d34498b4dbaed8e54183a0aba431d43d25ed244f0f68027717a7bc",
+      "bytes": 668049
+    },
+    "job-c039-v001-004-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "62f4d8b28dd9893d88321f883c10dade32dc056f366a06209cbfa76d2f42dfef",
+      "bytes": 641367
+    },
+    "job-c039-v019-025-right-context-v1-feedback-20261101-v2.jpg": {
+      "sha256": "d2a701838c4f01c7b75970786715b80b6941c31557406c20f6d0945cac014eaa",
+      "bytes": 763709
+    },
+    "1john-018-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "b16afbb39a2f295fd1e2f40e0ca9a712b61331e958f6def22f629d510cfb4802",
+      "bytes": 633603
+    },
+    "2thessalonians-019-right-v1-feedback-20261101-v2.jpg": {
+      "sha256": "b295a9d92c215c109ead6e2b4d20da22524452fa8f4fb0c9620167754f6dc0ef",
+      "bytes": 657102
+    },
+    "2thessalonians-010-right-v1-feedback-20261101-v1.jpg": {
+      "sha256": "9e0dbfb10ef144d9277b661981a7385fb9ad2b84c55cf9a1402f8ab5dde90d92",
+      "bytes": 676239
+    },
+    "amos-c001-v009-010-right-context-v1-feedback-20261101-v1.jpg": {
+      "sha256": "112c1139ad068fd8187b5d97f5b5cf7de11d4b24a1e09270172b1c9dcb095a7c",
+      "bytes": 717062
     }
   }
 }

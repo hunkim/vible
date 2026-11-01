@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
 import {selection,shareParams} from './share-data.mjs';
 import {cardLayout} from './share-card-layout.mjs';
 import {shareHTML} from './api/share.mjs';
@@ -58,7 +59,8 @@ console.log('Crawler image dimensions, secure URLs and fresh preview identities 
 
 const partial=pick('/share/1corinthians/16/24');
 assert.equal(partial.book,'1corinthians');assert.equal(partial.image,'1corinthians-124-right-v1.jpg');
-assert.equal(pick('/share/1corinthians/1/1').image,'1corinthians-001-right-v1.jpg');
+const firstCorinthiansScene=JSON.parse(readFileSync(new URL('./data/1corinthians.json',import.meta.url),'utf8')).scenes.find(scene=>scene.chapter===1&&scene.verses.some(verse=>verse.verse===1));
+assert.equal(pick('/share/1corinthians/1/1').image,firstCorinthiansScene.image);
 assert(partial.text.trim());assert(shareHTML(partial).includes('og:image'));
 console.log('Complete Corinthians: numeric book links, first and final images, and full-text sharing verified.');
 
@@ -118,7 +120,7 @@ for(const [book,names,first,range,rangeImage] of [['ezekiel',{ko:'에스겔',en:
  if(lang!=='ko')assert(page.includes(shared.attribution.split(' · ')[0].replace(/&/g,'&amp;')),`${lang} ${book} attribution`);
  const [c,v,ec,ev]=range.split('/'),ranged=pick(`/share/${book}/${range}${lang==='ko'?'':`?lang=${lang}`}`);assert.equal(ranged.reference,`${name} ${c}:${v}–${ev}`);assert.equal(ranged.image,rangeImage);assert(shareHTML(ranged).includes(escapeText(ranged.text)));
 }
-const ezkBridge=pick('/share/ezekiel/41/10?lang=zh');assert.equal(ezkBridge.reference,'以西结书 41:9–10');assert.match(ezkBridge.text,/厢房/);assert.equal(ezkBridge.image,'ezekiel-c041-v001-014-right-context-v1.jpg');
+const ezkBridge=pick('/share/ezekiel/41/10?lang=zh');assert.equal(ezkBridge.reference,'以西结书 41:9–10');assert.match(ezkBridge.text,/厢房/);assert.equal(ezkBridge.image,'ezekiel-c041-v001-014-right-context-v1-feedback-20261101-v1.jpg');
 const ezkKorean=pick('/share/ezekiel/24/5');assert.equal(ezkKorean.reference,'에스겔 24:4–5');assert.doesNotMatch(shareHTML(ezkKorean),/4절과 같음/);assert.equal(ezkKorean.image,'ezekiel-c024-v001-014-right-context-v1.jpg');
 const ezkCross=pick('/share/ezekiel/20/49/21/1?lang=ja');assert.equal(ezkCross.reference,'エゼキエル書 20:49–21:1');assert.match(ezkCross.text,/たとえ/);assert.match(ezkCross.text,/主の言葉がわたしに臨んだ/);
 const hosCross=pick('/share/hosea/1/11/2/1?lang=en');assert.equal(hosCross.reference,'Hosea 1:11–2:1');assert.match(hosCross.text,/Jezreel/);assert.match(hosCross.text,/My people/);
@@ -144,7 +146,7 @@ const minorShare={joel:[{ko:'요엘',en:'Joel',ja:'ヨエル書',zh:'约珥书'}
  nahum:[{ko:'나훔',en:'Nahum',ja:'ナホム書',zh:'那鸿书'},'nahum-c001-v001-003-right-context-v1.jpg','1/1/1/3','nahum-c001-v001-003-right-context-v1.jpg'],
  habakkuk:[{ko:'하박국',en:'Habakkuk',ja:'ハバクク書',zh:'哈巴谷书'},'habakkuk-c001-v001-004-right-context-v1.jpg','1/2/1/4','habakkuk-c001-v001-004-right-context-v1.jpg'],
  zephaniah:[{ko:'스바냐',en:'Zephaniah',ja:'ゼファニヤ書',zh:'西番雅书'},'zephaniah-c001-v001-003-right-context-v1.jpg','1/2/1/3','zephaniah-c001-v001-003-right-context-v1.jpg'],
- haggai:[{ko:'학개',en:'Haggai',ja:'ハガイ書',zh:'哈该书'},'haggai-c001-v001-002-right-context-v1.jpg','1/1/1/2','haggai-c001-v001-002-right-context-v1.jpg'],
+ haggai:[{ko:'학개',en:'Haggai',ja:'ハガイ書',zh:'哈该书'},'haggai-c001-v001-002-right-context-v1-feedback-20261101-v1.jpg','1/1/1/2','haggai-c001-v001-002-right-context-v1-feedback-20261101-v1.jpg'],
  zechariah:[{ko:'스가랴',en:'Zechariah',ja:'ゼカリヤ書',zh:'撒迦利亚书'},'zechariah-c001-v001-003-right-context-v1.jpg','4/4/4/6','zechariah-c004-v004-006-right-context-v1.jpg'],
  malachi:[{ko:'말라기',en:'Malachi',ja:'マラキ書',zh:'玛拉基书'},'malachi-c001-v001-002-right-context-v2.jpg','4/5/4/6','malachi-c004-v005-006-right-context-v1.jpg']};
 for(const [book,[names,first,range,rangeImage]] of Object.entries(minorShare))for(const [lang,name] of Object.entries(names)){
