@@ -115,7 +115,7 @@ function updateScene(index){
  $('current-reference').textContent=reference(s);$('current-title').textContent=s.title;
  $('scene-position').textContent=`${pad(index+1)} / ${data.sceneCount}`;
  $('image-pending').hidden=!s.imagePending;
- $('translation-edition').textContent=data.translation;
+ $('translation-edition').textContent=data.translation;$('translation-edition').href=data.copyrightSource||data.source;$('translation-edition').title=data.attribution||data.translation;
  const progress=$('progress');progress.max=data.scenes.length-1;progress.value=index;progress.disabled=data.scenes.length<2;progress.style.setProperty('--scene-progress',`${data.scenes.length>1?index/(data.scenes.length-1)*100:0}%`);progress.setAttribute('aria-valuetext',`${reference(s)} · ${index+1} / ${data.scenes.length}`);progress.setAttribute('aria-label',({ko:'장면 이동',en:'Go to scene',ja:'場面を移動',zh:'切换场景'})[language]);
  $('previous').disabled=index===0;$('next').disabled=index===data.scenes.length-1;
  $('visual').alt=`${reference(s)} · ${s.title}`;
@@ -469,9 +469,9 @@ async function loadBook(id,nextLanguage=language,startAtBeginning=false){
  $('explanation').hidden=true;$('explain').setAttribute('aria-expanded','false');$('error').hidden=true;
  renderBook();notes.refresh();renderStory();renderGallery();
  $('translation-attribution').textContent=data.attribution||'성경전서 개역개정판 © 대한성서공회 1998.';
- $('translation-edition').textContent=data.translation;
+ $('translation-edition').textContent=data.translation;$('translation-edition').href=data.copyrightSource||data.source;$('translation-edition').title=data.attribution||data.translation;
  $('text-data').href=data.textData||data.source||'https://www.bskorea.or.kr/';
- if(nonBaseEdition())$('source-notes').textContent=$('source-notes').textContent.replaceAll('개역개정',data.translation);$('translation-license').href=data.copyrightSource||'https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5';
+ if(data.edition==='ieum')$('source-notes').textContent='이음성경의 전문가 검토 전 AI 번역 초안을 원문 그대로 표시합니다. 장면 제목과 그림은 이해를 돕기 위한 편집 내용입니다. 절 번호는 이음성경을 따릅니다.';else if(nonBaseEdition())$('source-notes').textContent=$('source-notes').textContent.replaceAll('개역개정',data.translation);$('translation-license').href=data.copyrightSource||'https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5';
  if(language!=='ko'){
   $('gallery-title').textContent=`${data.book} · ${ui().gallery}`;$('gallery-description').textContent=ui().scenes(data.sceneCount);
   $('story-title').textContent=`${data.book} · ${ui().story}`;$('story-copy').textContent='';$('book-context').textContent='';$('chapter-map-title').textContent=ui().story;

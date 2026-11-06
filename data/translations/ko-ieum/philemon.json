@@ -1,0 +1,134 @@
+{
+  "language": "ko",
+  "book": "빌레몬서",
+  "translation": "이음성경",
+  "attribution": "이음성경 · 전문가 검토 전 AI 번역 초안 · https://ieumbible.org/",
+  "source": "https://ieumbible.org/",
+  "licenseSource": "https://ieumbible.org/",
+  "downloadSource": "https://github.com/hunkim/open-bible/blob/e310c795cf576d54b4f4dc51888c47c4d5348499/public/data/books/phm.json",
+  "permissions": {
+    "display": true,
+    "shareCards": true
+  },
+  "permissionBasis": "Project owner requested Vible integration and deployment on 2026-11-06; no general public license asserted.",
+  "status": "reviewed-ai-draft; specialist review pending",
+  "verseNumbering": "source",
+  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
+  "sourceSha256": "9cfb2103f202682cff6704beddb1e9b6d03c85bd65eb7d5f3bd700968adea342",
+  "sourceAttributions": {
+    "originalAttribution": "The Greek New Testament: SBL Edition. Michael W. Holmes, ed. © 2010 Society of Biblical Literature and Logos Bible Software.",
+    "originalUrl": "https://www.sblgnt.com/",
+    "originalLicense": "CC BY 4.0",
+    "originalLicenseUrl": "https://www.sblgnt.com/license/"
+  },
+  "chapterSources": {
+    "1": "https://ieumbible.org/?book=phm&chapter=1"
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "그리스도 예수의 죄수인 바울과 형제 디모데가, 우리의 사랑받는 동역자 빌레몬에게"
+        },
+        {
+          "verse": 2,
+          "text": "그리고 우리의 사랑받는 자매 압비아와 우리의 전우 아킵보, 그리고 네 집에 있는 교회에"
+        },
+        {
+          "verse": 3,
+          "text": "우리 아버지 하나님과 주 예수 그리스도로부터 너희에게 은혜와 평화가 있기를 바랍니다."
+        },
+        {
+          "verse": 4,
+          "text": "나는 기도할 때마다 그대를 기억하며 내 하나님께 늘 감사드립니다."
+        },
+        {
+          "verse": 5,
+          "text": "주 예수님을 향한 그대의 믿음과 모든 성도를 향한 사랑에 관해 듣고 있기 때문입니다."
+        },
+        {
+          "verse": 6,
+          "text": "그대가 믿음을 나누는 일이, 그리스도를 위해 우리 안에 있는 모든 선한 것을 깨달음으로 더욱 힘을 얻기를 기도합니다."
+        },
+        {
+          "verse": 7,
+          "text": "형제여, 그대의 사랑으로 나는 큰 기쁨과 위로를 얻었습니다. 그대를 통해 성도들이 마음에 쉼을 얻었기 때문입니다."
+        },
+        {
+          "verse": 8,
+          "text": "그러므로 내가 그리스도 안에서 마땅히 네게 명령할 만한 모든 담력을 가지고 있지만"
+        },
+        {
+          "verse": 9,
+          "text": "나는 사랑으로 그대에게 부탁하는 쪽을 택하겠습니다. 나 바울은 이제 나이 든 사람이며 그리스도 예수님 때문에 갇혀 있는 사람입니다."
+        },
+        {
+          "verse": 10,
+          "text": "내가 갇혀 있는 동안 믿음으로 낳은 자녀 오네시모를 위해 그대에게 부탁합니다."
+        },
+        {
+          "verse": 11,
+          "text": "그는 전에는 그대에게 쓸모없는 사람이었지만, 이제는 그대와 나에게 쓸모있는 사람입니다."
+        },
+        {
+          "verse": 12,
+          "text": "그를 그대에게 돌려보냅니다. 그는 내 마음과도 같은 사람입니다."
+        },
+        {
+          "verse": 13,
+          "text": "나는 그를 내 곁에 두고 싶었습니다. 복음 때문에 갇혀 있는 나를 그가 그대 대신 돌보게 하고 싶었기 때문입니다."
+        },
+        {
+          "verse": 14,
+          "text": "그러나 그대의 동의 없이는 아무것도 하고 싶지 않았습니다. 그대의 선행이 억지가 아니라 자발적인 것이 되기를 바랐기 때문입니다."
+        },
+        {
+          "verse": 15,
+          "text": "그가 잠시 그대와 떨어져 있었던 것은, 어쩌면 그대를 위해 그를 영원히 곁에 두게 하려는 일이었을지도 모릅니다."
+        },
+        {
+          "verse": 16,
+          "text": "이제 그를 단순히 종으로서가 아니라 종 이상의 존재, 곧 사랑하는 형제로 맞아들이게 된 것입니다. 그는 내게 특히 사랑하는 형제입니다. 그렇다면 일상의 삶에서나 주님 안에서나 그대에게는 더욱 그렇지 않겠습니까?"
+        },
+        {
+          "verse": 17,
+          "text": "그러므로 네가 나를 동역자로 여긴다면 그를 마치 나를 맞이하듯이 맞아들이십시오."
+        },
+        {
+          "verse": 18,
+          "text": "그가 그대에게 잘못한 일이나 진 빚이 있으면 내 앞으로 달아두십시오."
+        },
+        {
+          "verse": 19,
+          "text": "나 바울이 직접 손으로 씁니다. 내가 갚겠습니다. 그대 자신도 내게 빚지고 있다는 말은 하지 않겠습니다."
+        },
+        {
+          "verse": 20,
+          "text": "그렇습니다, 형제여. 주님 안에서 그대 덕분에 기쁨을 얻고 싶습니다. 그리스도 안에서 내 마음에 쉼을 주십시오."
+        },
+        {
+          "verse": 21,
+          "text": "나는 네 순종을 확신하여 이 글을 씁니다. 내가 말하는 것 이상으로 네가 행할 것을 알고 있기 때문입니다."
+        },
+        {
+          "verse": 22,
+          "text": "또한 나를 위해 거처를 준비해 주십시오. 나는 너희의 기도를 통해 너희에게 돌아갈 것을 희망합니다."
+        },
+        {
+          "verse": 23,
+          "text": "그리스도 예수 안에서 나와 함께 갇힌 에바브라가 너희에게 문안합니다."
+        },
+        {
+          "verse": 24,
+          "text": "나의 동역자들인 마가, 아리스다고, 데마, 누가가 너희에게 문안합니다."
+        },
+        {
+          "verse": 25,
+          "text": "우리 주 예수 그리스도의 은혜가 여러분의 영과 함께 있기를 바랍니다. 아멘."
+        }
+      ]
+    }
+  ]
+}

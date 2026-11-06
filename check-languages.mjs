@@ -34,34 +34,36 @@ try{
 console.log('Language precedence, exact translated verses, permission checks, unavailable translations, localized sharing and URL propagation verified.');
 
 const actualSelection=(await import('./share-data.mjs')).selection;
+// Historical numbering and wording regressions explicitly exercise the retained base edition.
+const baseEditionSelection=params=>{params=new URLSearchParams(params);if(!params.get('lang')||params.get('lang')==='ko')params.set('ed','nkrv');return actualSelection(params);};
 const actualCatalog=JSON.parse(await fs.readFile(new URL('./data/translations/catalog.json',import.meta.url),'utf8'));
 for(const lang of ['en','ja','zh'])for(const book of actualCatalog[lang].books){
  const base=JSON.parse(await fs.readFile(new URL(`./data/${book}.json`,import.meta.url)));
  const translation=JSON.parse(await fs.readFile(new URL(`./data/translations/${lang}/${book}.json`,import.meta.url)));
  const result=applyTranslation(base,translation,lang);assert.equal(result.scenes.length,base.sceneCount);
- const shared=actualSelection(new URLSearchParams({book,chapter:'1',verse:'1',lang}));
+ const shared=baseEditionSelection(new URLSearchParams({book,chapter:'1',verse:'1',lang}));
  assert.equal(shared.lang,lang);assert(shared.path.includes(`lang=${lang}`));assert(shareHTML(shared).includes(translation.attribution.replaceAll('&','&amp;')));
 }
-const combined=actualSelection(new URLSearchParams({book:'acts',chapter:'1',verse:'22',lang:'zh'}));
+const combined=baseEditionSelection(new URLSearchParams({book:'acts',chapter:'1',verse:'22',lang:'zh'}));
 assert.equal(combined.reference,'使徒行传 1:21–22');assert.equal(combined.verses.length,1);
-assert.throws(()=>actualSelection(new URLSearchParams({book:'john',chapter:'5',verse:'4',lang:'en'})));
+assert.throws(()=>baseEditionSelection(new URLSearchParams({book:'john',chapter:'5',verse:'4',lang:'en'})));
 console.log('All catalogued real translations, translation attribution, combined verse sharing and modern omissions verified.');
 
 for(const lang of ['en','ja','zh']){
  assert.equal(actualCatalog[lang].books.length,66);
- const closing=actualSelection(new URLSearchParams({book:'leviticus',chapter:'27',verse:'34',lang}));assert.equal(closing.lang,lang);assert(closing.text.trim());
- const psalm=actualSelection(new URLSearchParams({book:'psalms',chapter:'50',verse:'15',lang}));assert.equal(psalm.lang,lang);assert(psalm.text.trim());
+ const closing=baseEditionSelection(new URLSearchParams({book:'leviticus',chapter:'27',verse:'34',lang}));assert.equal(closing.lang,lang);assert(closing.text.trim());
+ const psalm=baseEditionSelection(new URLSearchParams({book:'psalms',chapter:'50',verse:'15',lang}));assert.equal(psalm.lang,lang);assert(psalm.text.trim());
 }
-const greeting=actualSelection(new URLSearchParams({book:'3john',chapter:'1',verse:'15',lang:'en'}));assert.equal(greeting.reference,'3 John 1:14–15');assert.match(greeting.text,/Peace to you/);
-const jpRange=actualSelection(new URLSearchParams({book:'numbers',chapter:'15',verse:'5',lang:'ja'}));assert.equal(jpRange.reference,'民数記 15:4–5');assert(jpRange.text.trim());
+const greeting=baseEditionSelection(new URLSearchParams({book:'3john',chapter:'1',verse:'15',lang:'en'}));assert.equal(greeting.reference,'3 John 1:14–15');assert.match(greeting.text,/Peace to you/);
+const jpRange=baseEditionSelection(new URLSearchParams({book:'numbers',chapter:'15',verse:'5',lang:'ja'}));assert.equal(jpRange.reference,'民数記 15:4–5');assert(jpRange.text.trim());
 console.log('All 198 translations, OT final verses, Psalms and edition-specific verse numbering verified.');
 
-for(const lang of ['ko','en','ja','zh']){const p=actualSelection(new URLSearchParams({book:'proverbs',chapter:'31',verse:'31',lang}));assert.equal(p.lang,lang);assert(p.text.trim());}
-const proverbBridge=actualSelection(new URLSearchParams({book:'proverbs',chapter:'26',verse:'19',lang:'zh'}));assert.equal(proverbBridge.reference,'箴言 26:18–19');assert(proverbBridge.text.trim());
+for(const lang of ['ko','en','ja','zh']){const p=baseEditionSelection(new URLSearchParams({book:'proverbs',chapter:'31',verse:'31',lang}));assert.equal(p.lang,lang);assert(p.text.trim());}
+const proverbBridge=baseEditionSelection(new URLSearchParams({book:'proverbs',chapter:'26',verse:'19',lang:'zh'}));assert.equal(proverbBridge.reference,'箴言 26:18–19');assert(proverbBridge.text.trim());
 for(const [lang,name] of [['ko','아가'],['en','Song of Songs'],['ja','雅歌'],['zh','雅歌']]){
- const last=actualSelection(new URLSearchParams({book:'songofsongs',chapter:'8',verse:'14',lang}));assert.equal(last.lang,lang);assert.equal(last.reference,`${name} 8:14`);assert(last.text.trim());
- const range=actualSelection(new URLSearchParams({book:'songofsongs',chapter:'2',verse:'10',endChapter:'2',endVerse:'13',lang}));assert.equal(range.lang,lang);assert(range.text.trim());
- const shulammite=actualSelection(new URLSearchParams({book:'songofsongs',chapter:'6',verse:'14',lang}));assert.equal(shulammite.reference,`${name} 6:13–14`);assert(shulammite.text.trim());
+ const last=baseEditionSelection(new URLSearchParams({book:'songofsongs',chapter:'8',verse:'14',lang}));assert.equal(last.lang,lang);assert.equal(last.reference,`${name} 8:14`);assert(last.text.trim());
+ const range=baseEditionSelection(new URLSearchParams({book:'songofsongs',chapter:'2',verse:'10',endChapter:'2',endVerse:'13',lang}));assert.equal(range.lang,lang);assert(range.text.trim());
+ const shulammite=baseEditionSelection(new URLSearchParams({book:'songofsongs',chapter:'6',verse:'14',lang}));assert.equal(shulammite.reference,`${name} 6:13–14`);assert(shulammite.text.trim());
  if(lang!=='ko')assert(shulammite.attribution);
 }
 console.log('Song of Songs: four-language final verse, shared range, KRV 6:13–14 versification and attribution verified.');
@@ -71,28 +73,28 @@ const otBatch={'1chronicles':['역대상','1 Chronicles','歴代誌上','历代�
 for(const [book,[ko,en,ja,zh,chapter,verse]] of Object.entries(otBatch)){
  for(const [lang,name] of [['ko',ko],['en',en],['ja',ja],['zh',zh]]){
   if(lang!=='ko')assert(actualCatalog[lang].books.includes(book),`${lang} ${book}`);
-  const last=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang}));assert.equal(last.lang,lang);assert.equal(last.reference,`${name} ${chapter}:${verse}`);assert(last.text.trim());
-  const range=actualSelection(new URLSearchParams({book,chapter:'1',verse:'1',endChapter:'1',endVerse:'3',lang}));assert.equal(range.lang,lang);assert(range.text.trim());
+  const last=baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang}));assert.equal(last.lang,lang);assert.equal(last.reference,`${name} ${chapter}:${verse}`);assert(last.text.trim());
+  const range=baseEditionSelection(new URLSearchParams({book,chapter:'1',verse:'1',endChapter:'1',endVerse:'3',lang}));assert.equal(range.lang,lang);assert(range.text.trim());
   if(lang!=='ko')assert(last.attribution&&shareHTML(last).includes(last.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} ${book} attribution`);
  }
 }
 // KRV keeps every verse; the 1955 Colloquial and OpenCCB print some as combined verses, shown as ranges without filling from another text.
 for(const [book,lang,chapter,verse,reference] of [['1chronicles','ja',16,13,'歴代誌上 16:12–13'],['1chronicles','zh',8,7,'历代志上 8:6–7'],['2chronicles','zh',3,12,'历代志下 3:11–13'],['ezra','zh',2,62,'以斯拉记 2:61–62'],['nehemiah','zh',7,64,'尼希米记 7:63–64'],['esther','zh',8,12,'以斯帖记 8:11–12'],['job','zh',38,40,'约伯记 38:39–40'],['ecclesiastes','zh',7,28,'传道书 7:27–28'],['daniel','zh',2,29,'但以理书 2:28–30']]){
- const bridged=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang}));assert.equal(bridged.reference,reference);assert.equal(bridged.verses.length,1);assert(bridged.text.trim());
- const korean=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang:'ko'}));assert.equal(korean.reference,book==='1chronicles'&&chapter===16&&verse===13?'역대상 16:12–13':`${otBatch[book][0]} ${chapter}:${verse}`);
+ const bridged=baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang}));assert.equal(bridged.reference,reference);assert.equal(bridged.verses.length,1);assert(bridged.text.trim());
+ const korean=baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang:'ko'}));assert.equal(korean.reference,book==='1chronicles'&&chapter===16&&verse===13?'역대상 16:12–13':`${otBatch[book][0]} ${chapter}:${verse}`);
 }
 // English versification boundaries match KRV in every edition (e.g. Jonah 1:17 fish, Daniel 4:1 decree, Ecclesiastes 5:1, Nehemiah 4:1, 1 Chronicles 6:1).
-for(const [book,chapter,verse,pattern] of [['jonah',1,17,{en:/great fish/,ja:/魚/,zh:/大鱼/}],['daniel',4,1,{en:/Nebuchadnezzar/,ja:/ネブカデネザル/,zh:/尼布甲尼撒/}],['nehemiah',4,1,{en:/Sanballat/,ja:/サンバラテ/,zh:/参巴拉/}],['1chronicles',6,1,{en:/Levi/,ja:/レビ/,zh:/利未/}],['ecclesiastes',5,1,{en:/house of God/,ja:/神の宮/,zh:/上帝的殿/}]])for(const lang of ['en','ja','zh'])assert.match(actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} ${book} ${chapter}:${verse}`);
+for(const [book,chapter,verse,pattern] of [['jonah',1,17,{en:/great fish/,ja:/魚/,zh:/大鱼/}],['daniel',4,1,{en:/Nebuchadnezzar/,ja:/ネブカデネザル/,zh:/尼布甲尼撒/}],['nehemiah',4,1,{en:/Sanballat/,ja:/サンバラテ/,zh:/参巴拉/}],['1chronicles',6,1,{en:/Levi/,ja:/レビ/,zh:/利未/}],['ecclesiastes',5,1,{en:/house of God/,ja:/神の宮/,zh:/上帝的殿/}]])for(const lang of ['en','ja','zh'])assert.match(baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} ${book} ${chapter}:${verse}`);
 console.log('Chronicles–Esther, Job, Ecclesiastes, Daniel and Jonah: four-language final verses, shared ranges, edition bridges, versification boundaries and attribution verified.');
 
 // Lamentations: five acrostic poems (22/22/66/22/22) with the same verse boundaries in all four editions; no bridges or omissions.
 for(const [lang,name] of [['ko','예레미야애가'],['en','Lamentations'],['ja','哀歌'],['zh','耶利米哀歌']]){
  if(lang!=='ko')assert(actualCatalog[lang].books.includes('lamentations'),`${lang} lamentations`);
  for(const [chapter,count] of [[1,22],[2,22],[3,66],[4,22],[5,22]]){
-  const last=actualSelection(new URLSearchParams({book:'lamentations',chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
-  assert.throws(()=>actualSelection(new URLSearchParams({book:'lamentations',chapter:String(chapter),verse:String(count+1),lang})));
+  const last=baseEditionSelection(new URLSearchParams({book:'lamentations',chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
+  assert.throws(()=>baseEditionSelection(new URLSearchParams({book:'lamentations',chapter:String(chapter),verse:String(count+1),lang})));
  }
- const mercies=actualSelection(new URLSearchParams({book:'lamentations',chapter:'3',verse:'22',endChapter:'3',endVerse:'23',lang}));assert.equal(mercies.lang,lang);assert.equal(mercies.reference,`${name} 3:22–23`);assert.equal(mercies.verses.length,2);
+ const mercies=baseEditionSelection(new URLSearchParams({book:'lamentations',chapter:'3',verse:'22',endChapter:'3',endVerse:'23',lang}));assert.equal(mercies.lang,lang);assert.equal(mercies.reference,`${name} 3:22–23`);assert.equal(mercies.verses.length,2);
  assert.match(mercies.text,{ko:/아침마다 새로우니/,en:/new every morning/,ja:/朝ごとに新しく/,zh:/每天早晨/}[lang]);
  if(lang!=='ko')assert(mercies.attribution&&shareHTML(mercies).includes(mercies.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} lamentations attribution`);
 }
@@ -105,24 +107,24 @@ const jeremiahBridges=[[11,21,22],[17,2,3],[19,1,2],[27,19,20],[29,1,2],[32,9,10
 for(const [lang,name] of [['ko','예레미야'],['en','Jeremiah'],['ja','エレミヤ書'],['zh','耶利米书']]){
  if(lang!=='ko')assert(actualCatalog[lang].books.includes('jeremiah'),`${lang} jeremiah`);
  jeremiahCounts.forEach((count,index)=>{
-  const chapter=index+1,last=actualSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
-  assert.throws(()=>actualSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(count+1),lang})));
+  const chapter=index+1,last=baseEditionSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
+  assert.throws(()=>baseEditionSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(count+1),lang})));
  });
- for(const [chapter,verse,pattern] of [[8,22,{ko:/길르앗에는 유향/,en:/balm in Gilead/,ja:/ギレアデに乳香/,zh:/基列没有药物/}],[9,1,{ko:/머리는 물이 되고/,en:/my head were a spring/,ja:/頭が水となり/,zh:/头是水泉/}],[29,11,{ko:/미래와 희망/,en:/plans I have for you/,ja:/平安を与えよう/,zh:/充满希望/}]])assert.match(actualSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} jeremiah ${chapter}:${verse}`);
- const covenant=actualSelection(new URLSearchParams({book:'jeremiah',chapter:'31',verse:'31',endChapter:'31',endVerse:'34',lang}));assert.equal(covenant.lang,lang);assert.equal(covenant.reference,`${name} 31:31–34`);assert.equal(covenant.verses.length,4);
+ for(const [chapter,verse,pattern] of [[8,22,{ko:/길르앗에는 유향/,en:/balm in Gilead/,ja:/ギレアデに乳香/,zh:/基列没有药物/}],[9,1,{ko:/머리는 물이 되고/,en:/my head were a spring/,ja:/頭が水となり/,zh:/头是水泉/}],[29,11,{ko:/미래와 희망/,en:/plans I have for you/,ja:/平安を与えよう/,zh:/充满希望/}]])assert.match(baseEditionSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} jeremiah ${chapter}:${verse}`);
+ const covenant=baseEditionSelection(new URLSearchParams({book:'jeremiah',chapter:'31',verse:'31',endChapter:'31',endVerse:'34',lang}));assert.equal(covenant.lang,lang);assert.equal(covenant.reference,`${name} 31:31–34`);assert.equal(covenant.verses.length,4);
  assert.match(covenant.text,{ko:/새 언약/,en:/new covenant/,ja:/新しい契約/,zh:/新约/}[lang]);
  if(lang!=='ko')assert(covenant.attribution&&shareHTML(covenant).includes(covenant.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} jeremiah attribution`);
  for(const [chapter,first,end] of jeremiahBridges){
-  const bridged=actualSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(end),lang}));assert(bridged.text.trim());
+  const bridged=baseEditionSelection(new URLSearchParams({book:'jeremiah',chapter:String(chapter),verse:String(end),lang}));assert(bridged.text.trim());
   assert.equal(bridged.reference,lang==='zh'?`${name} ${chapter}:${first}–${end}`:`${name} ${chapter}:${end}`);
  }
 }
-assert.match(actualSelection(new URLSearchParams({book:'jeremiah',chapter:'21',verse:'2',lang:'ko'})).text,/느부갓네살 왕이 우리를 치니/);
-assert.match(actualSelection(new URLSearchParams({book:'jeremiah',chapter:'21',verse:'2',lang:'en'})).text,/Nebuchadnezzar/);
+assert.match(baseEditionSelection(new URLSearchParams({book:'jeremiah',chapter:'21',verse:'2',lang:'ko'})).text,/느부갓네살 왕이 우리를 치니/);
+assert.match(baseEditionSelection(new URLSearchParams({book:'jeremiah',chapter:'21',verse:'2',lang:'en'})).text,/Nebuchadnezzar/);
 console.log('Jeremiah: four-language chapter-final verses for all 52 chapters, 8:22/9:1 boundary, shared range 31:31–34, OpenCCB combined verses and attribution verified.');
 // 개역개정 prints these pairs as one verse; the electronic text's "[n절과 같음]" placeholder is never shown as Scripture.
 for(const [book,chapter,first,name] of [['acts',15,25,'사도행전'],['romans',9,1,'로마서']])for(const verse of [first,first+1]){
- const shared=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse)}));
+ const shared=baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse)}));
  assert.equal(shared.reference,`${name} ${chapter}:${first}–${first+1}`);assert.equal(shared.verses.length,1);assert.doesNotMatch(shared.text,/같음/);
 }
 console.log('Korean combined verses: Acts 15:25–26 and Romans 9:1–2 display and share as one verse without the placeholder.');
@@ -137,21 +139,21 @@ const prophets={ezekiel:{names:{ko:'에스겔',en:'Ezekiel',ja:'エゼキエル�
 for(const [book,{names,counts,boundaries,range}] of Object.entries(prophets))for(const [lang,name] of Object.entries(names)){
  if(lang!=='ko')assert(actualCatalog[lang].books.includes(book),`${lang} ${book}`);
  counts.forEach((count,index)=>{
-  const chapter=index+1,last=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
-  assert.throws(()=>actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count+1),lang})));
+  const chapter=index+1,last=baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
+  assert.throws(()=>baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count+1),lang})));
  });
- for(const [chapter,verse,pattern] of boundaries)assert.match(actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} ${book} ${chapter}:${verse}`);
- const [chapter,verse,endChapter,endVerse,pattern]=range,shared=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),endChapter:String(endChapter),endVerse:String(endVerse),lang}));
+ for(const [chapter,verse,pattern] of boundaries)assert.match(baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} ${book} ${chapter}:${verse}`);
+ const [chapter,verse,endChapter,endVerse,pattern]=range,shared=baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),endChapter:String(endChapter),endVerse:String(endVerse),lang}));
  assert.equal(shared.lang,lang);assert.equal(shared.reference,`${name} ${chapter}:${verse}–${endVerse}`);assert.equal(shared.verses.length,endVerse-verse+1);assert.match(shared.text,pattern[lang]);
  if(lang!=='ko')assert(shared.attribution&&shareHTML(shared).includes(shared.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} ${book} attribution`);
  for(const [chapter,first,end] of book==='ezekiel'?[[16,56,57],[41,9,10]]:[]){
-  const bridged=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(end),lang}));assert(bridged.text.trim());assert.equal(bridged.verses.length,1);
+  const bridged=baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(end),lang}));assert(bridged.text.trim());assert.equal(bridged.verses.length,1);
   assert.equal(bridged.reference,lang==='zh'?`${name} ${chapter}:${first}–${end}`:`${name} ${chapter}:${end}`);
  }
 }
 // 개역개정 prints Ezekiel 24:4–5 as one verse (electronic text: "[4절과 같음]"); the other editions keep verse 5 separate.
-for(const verse of [4,5]){const pot=actualSelection(new URLSearchParams({book:'ezekiel',chapter:'24',verse:String(verse)}));assert.equal(pot.reference,'에스겔 24:4–5');assert.equal(pot.verses.length,1);assert.match(pot.text,/가마 밑에 나무를 쌓아/);assert.doesNotMatch(pot.text,/같음/);}
-for(const [lang,pattern] of [['en',/choicest of the flock/],['ja',/羊の最も良いもの/],['zh',/上好的羊/]]){const pot=actualSelection(new URLSearchParams({book:'ezekiel',chapter:'24',verse:'5',lang}));assert.equal(pot.reference,`${prophets.ezekiel.names[lang]} 24:5`);assert.match(pot.text,pattern);}
+for(const verse of [4,5]){const pot=baseEditionSelection(new URLSearchParams({book:'ezekiel',chapter:'24',verse:String(verse)}));assert.equal(pot.reference,'에스겔 24:4–5');assert.equal(pot.verses.length,1);assert.match(pot.text,/가마 밑에 나무를 쌓아/);assert.doesNotMatch(pot.text,/같음/);}
+for(const [lang,pattern] of [['en',/choicest of the flock/],['ja',/羊の最も良いもの/],['zh',/上好的羊/]]){const pot=baseEditionSelection(new URLSearchParams({book:'ezekiel',chapter:'24',verse:'5',lang}));assert.equal(pot.reference,`${prophets.ezekiel.names[lang]} 24:5`);assert.match(pot.text,pattern);}
 console.log('Ezekiel and Hosea: four-language chapter-final verses for all 48 and 14 chapters, Hebrew/English boundary verses, shared ranges, KRV 24:4–5, OpenCCB combined verses and attribution verified.');
 // Isaiah: KRV, BSB, the 1955 Colloquial and OpenCCB all follow the English chapter boundaries (8:22 before 9:1 "no more gloom", 9:2 "great light",
 // 63:19 before 64:1 "rend the heavens"), so no verse is moved. KRV prints 7:8–9, 30:1–2 and 48:1–2 as one verse; the 1955 Colloquial prints 4:3–4;
@@ -162,20 +164,20 @@ const isaiah={names:{ko:'이사야',en:'Isaiah',ja:'イザヤ書',zh:'以赛亚�
 for(const [lang,name] of Object.entries(isaiah.names)){
  if(lang!=='ko')assert(actualCatalog[lang].books.includes('isaiah'),`${lang} isaiah`);
  isaiah.counts.forEach((count,index)=>{
-  const chapter=index+1,last=actualSelection(new URLSearchParams({book:'isaiah',chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
-  assert.throws(()=>actualSelection(new URLSearchParams({book:'isaiah',chapter:String(chapter),verse:String(count+1),lang})));
+  const chapter=index+1,last=baseEditionSelection(new URLSearchParams({book:'isaiah',chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
+  assert.throws(()=>baseEditionSelection(new URLSearchParams({book:'isaiah',chapter:String(chapter),verse:String(count+1),lang})));
  });
- for(const [chapter,verse,pattern] of isaiah.boundaries)assert.match(actualSelection(new URLSearchParams({book:'isaiah',chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} isaiah ${chapter}:${verse}`);
- const shared=actualSelection(new URLSearchParams({book:'isaiah',chapter:'9',verse:'1',endChapter:'9',endVerse:'2',lang}));
+ for(const [chapter,verse,pattern] of isaiah.boundaries)assert.match(baseEditionSelection(new URLSearchParams({book:'isaiah',chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} isaiah ${chapter}:${verse}`);
+ const shared=baseEditionSelection(new URLSearchParams({book:'isaiah',chapter:'9',verse:'1',endChapter:'9',endVerse:'2',lang}));
  assert.equal(shared.lang,lang);assert.equal(shared.reference,`${name} 9:1–2`);assert.equal(shared.verses.length,2);assert.match(shared.text,isaiah.boundaries[1][2][lang]);assert.match(shared.text,isaiah.boundaries[2][2][lang]);
  if(lang!=='ko')assert(shared.attribution&&shareHTML(shared).includes(shared.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} isaiah attribution`);
  const bridged=new Set(isaiah.bridges[lang].map(([c,f])=>`${c}:${f}`));
  for(const [chapter,first,end] of Object.values(isaiah.bridges).flat())for(const verse of [first,end]){
-  const picked=actualSelection(new URLSearchParams({book:'isaiah',chapter:String(chapter),verse:String(verse),lang}));assert(picked.text.trim());assert.equal(picked.verses.length,1);assert.doesNotMatch(picked.text,/절과 같음/);
+  const picked=baseEditionSelection(new URLSearchParams({book:'isaiah',chapter:String(chapter),verse:String(verse),lang}));assert(picked.text.trim());assert.equal(picked.verses.length,1);assert.doesNotMatch(picked.text,/절과 같음/);
   assert.equal(picked.reference,bridged.has(`${chapter}:${first}`)?`${name} ${chapter}:${first}–${end}`:`${name} ${chapter}:${verse}`,`${lang} isaiah ${chapter}:${verse}`);
  }
 }
-for(const [chapter,verse,pattern] of [[7,9,/만일 너희가 굳게 믿지 아니하면/],[30,2,/애굽으로 내려갔으되/],[48,2,/거룩한 성/]]){const ko=actualSelection(new URLSearchParams({book:'isaiah',chapter:String(chapter),verse:String(verse)}));assert.match(ko.text,pattern);assert.doesNotMatch(ko.text,/같음/);}
+for(const [chapter,verse,pattern] of [[7,9,/만일 너희가 굳게 믿지 아니하면/],[30,2,/애굽으로 내려갔으되/],[48,2,/거룩한 성/]]){const ko=baseEditionSelection(new URLSearchParams({book:'isaiah',chapter:String(chapter),verse:String(verse)}));assert.match(ko.text,pattern);assert.doesNotMatch(ko.text,/같음/);}
 console.log('Isaiah: four-language chapter-final verses for all 66 chapters, Hebrew/English boundary verses (8:22–9:2, 63:19–64:1), shared 9:1–2, KRV 7:8–9, 30:1–2 and 48:1–2, Japanese and OpenCCB combined verses and attribution verified.');
 // Joel–Malachi: KRV, BSB, the 1955 Colloquial and OpenCCB all follow the English chapter and verse boundaries where the Hebrew numbering differs
 // (Joel 2:28–32 = Hebrew 3:1–5 and 3:1–21 = 4:1–21; Micah 5:1 = 4:14; Nahum 1:15 = 2:1; Zechariah 1:18–21 = 2:1–4; Malachi 4:1–6 = 3:19–24),
@@ -204,42 +206,42 @@ const minorProphets={
 for(const [book,{names,counts,boundaries,cross,bridges={}}] of Object.entries(minorProphets))for(const [lang,name] of Object.entries(names)){
  if(lang!=='ko')assert(actualCatalog[lang].books.includes(book),`${lang} ${book}`);
  counts.forEach((count,index)=>{
-  const chapter=index+1,last=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
-  assert.throws(()=>actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count+1),lang})));
+  const chapter=index+1,last=baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count),lang}));assert.equal(last.reference,`${name} ${chapter}:${count}`);assert.equal(last.verses.length,1);assert(last.text.trim());
+  assert.throws(()=>baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(count+1),lang})));
  });
- for(const [chapter,verse,pattern] of boundaries)assert.match(actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} ${book} ${chapter}:${verse}`);
+ for(const [chapter,verse,pattern] of boundaries)assert.match(baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang})).text,pattern[lang],`${lang} ${book} ${chapter}:${verse}`);
  if(cross){
-  const [chapter,verse,endChapter,endVerse]=cross,shared=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),endChapter:String(endChapter),endVerse:String(endVerse),lang}));
+  const [chapter,verse,endChapter,endVerse]=cross,shared=baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),endChapter:String(endChapter),endVerse:String(endVerse),lang}));
   assert.equal(shared.lang,lang);assert.equal(shared.reference,chapter===endChapter?`${name} ${chapter}:${verse}–${endVerse}`:`${name} ${chapter}:${verse}–${endChapter}:${endVerse}`);assert.equal(shared.verses.length,2);assert(shared.text.trim());
   for(const [c,v,p] of boundaries)if((c===chapter&&v===verse)||(c===endChapter&&v===endVerse))assert.match(shared.text,p[lang],`${lang} ${book} shared ${c}:${v}`);
   if(lang!=='ko')assert(shared.attribution&&shareHTML(shared).includes(shared.attribution.split(' · ')[0].replaceAll('&','&amp;')),`${lang} ${book} attribution`);
  }
  const bridged=new Set((bridges[lang]||[]).map(([c,f])=>`${c}:${f}`));
  for(const [chapter,first,end] of Object.values(bridges).flat())for(const verse of [first,end]){
-  const picked=actualSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang}));assert(picked.text.trim());assert.equal(picked.verses.length,1);
+  const picked=baseEditionSelection(new URLSearchParams({book,chapter:String(chapter),verse:String(verse),lang}));assert(picked.text.trim());assert.equal(picked.verses.length,1);
   assert.equal(picked.reference,bridged.has(`${chapter}:${first}`)?`${name} ${chapter}:${first}–${end}`:`${name} ${chapter}:${verse}`,`${lang} ${book} ${chapter}:${verse}`);
  }
 }
-const zepRange=actualSelection(new URLSearchParams({book:'zephaniah',chapter:'2',verse:'1',endChapter:'2',endVerse:'3',lang:'zh'}));assert.equal(zepRange.reference,'西番雅书 2:1–3');assert.equal(zepRange.verses.length,2);assert.match(zepRange.text,/聚集/);assert.match(zepRange.text,/谦卑/);
+const zepRange=baseEditionSelection(new URLSearchParams({book:'zephaniah',chapter:'2',verse:'1',endChapter:'2',endVerse:'3',lang:'zh'}));assert.equal(zepRange.reference,'西番雅书 2:1–3');assert.equal(zepRange.verses.length,2);assert.match(zepRange.text,/聚集/);assert.match(zepRange.text,/谦卑/);
 console.log('Joel–Malachi: four-language chapter-final verses for all 10 books, Hebrew/English boundary verses (Joel 2:28–3:1, Micah 4:13–5:2, Nahum 1:15–2:1, Zechariah 1:18–2:1, Malachi 3:18–4:6), cross-chapter shared ranges, OpenCCB Zephaniah 2:1–2 and 2:8–9 and attribution verified.');
-const zepCross=actualSelection(new URLSearchParams({book:'zephaniah',chapter:'1',verse:'18',endChapter:'2',endVerse:'1',lang:'zh'}));assert.equal(zepCross.reference,'西番雅书 1:18–2:2');assert.equal(zepCross.verses.length,2);
-for(const lang of ['ko','en','ja'])assert.equal(actualSelection(new URLSearchParams({book:'zephaniah',chapter:'1',verse:'18',endChapter:'2',endVerse:'1',lang})).verses.length,2);
-for(const book of Object.keys(minorProphets))for(const lang of ['ko','en','ja','zh'])assert.doesNotMatch(JSON.stringify(actualSelection(new URLSearchParams({book,chapter:'1',verse:'1',lang}))),/절과 같음/);
+const zepCross=baseEditionSelection(new URLSearchParams({book:'zephaniah',chapter:'1',verse:'18',endChapter:'2',endVerse:'1',lang:'zh'}));assert.equal(zepCross.reference,'西番雅书 1:18–2:2');assert.equal(zepCross.verses.length,2);
+for(const lang of ['ko','en','ja'])assert.equal(baseEditionSelection(new URLSearchParams({book:'zephaniah',chapter:'1',verse:'18',endChapter:'2',endVerse:'1',lang})).verses.length,2);
+for(const book of Object.keys(minorProphets))for(const lang of ['ko','en','ja','zh'])assert.doesNotMatch(JSON.stringify(baseEditionSelection(new URLSearchParams({book,chapter:'1',verse:'1',lang}))),/절과 같음/);
 
 const {cardNotice}=await import('./api/share-card.mjs'),{findScripture}=await import('./scripture-search.js');
-// Korean editions. The shipped registry has only 개역개정 (base), so the menu stays hidden and nothing changes.
+// Korean editions. Ieum is the default; the previous base remains an explicit choice.
 {
  const lang=await import('./languages.js');
  const shipped=lang.validateEditions(JSON.parse(await fs.readFile(new URL('./data/translations/editions.json',import.meta.url),'utf8')));
- assert.deepEqual(lang.editionList(shipped,'ko').map(e=>[e.id,!!e.base]),[['nkrv',true]]);assert.equal(shipped.languages.ko.default,'nkrv');
+ assert.deepEqual(lang.editionList(shipped,'ko').map(e=>[e.id,!!e.base]),[['nkrv',true],['ieum',false]]);assert.equal(shipped.languages.ko.default,'ieum');
  for(const l of ['en','ja','zh'])assert.deepEqual(lang.editionList(shipped,l),[],`${l} keeps its single translation`);
- for(const book of actualCatalog.ko.books){assert.equal(lang.editionForBook(shipped,'ko',book,'nkrv').id,'nkrv');assert.equal(lang.editionMenu(shipped,'ko',book,'nkrv').visible,false);}
- assert.equal(lang.searchIndexFile('ko',lang.activeEdition(shipped,'ko',null)),'data/search/ko.json');
- assert.equal(lang.searchIndexFile('ko',lang.activeEdition(shipped,'ko','unknown')),'data/search/ko.json');
+ for(const book of actualCatalog.ko.books){assert.equal(lang.editionForBook(shipped,'ko',book,'nkrv').id,'nkrv');assert.equal(lang.editionMenu(shipped,'ko',book,'nkrv').visible,true);}
+ assert.equal(lang.searchIndexFile('ko',lang.activeEdition(shipped,'ko',null)),'data/search/ko-ieum.json');
+ assert.equal(lang.searchIndexFile('ko',lang.activeEdition(shipped,'ko','unknown')),'data/search/ko-ieum.json');
  assert.equal(await lang.loadEditionText({},{registry:shipped,lang:'ko',book:'john',preferred:'nkrv',fetchImpl:()=>assert.fail('no extra file is read')}),null);
  const plain=actualSelection(new URLSearchParams({book:'john',chapter:'3',verse:'16'}));
- assert.equal(plain.path,'/share/john/3/16');assert.equal(plain.edition,undefined);assert.equal(plain.editionParam,undefined);assert.equal(cardNotice(plain),'개역개정');
- assert.equal(actualSelection(new URLSearchParams({book:'john',chapter:'3',verse:'16',ed:'nkrv'})).path,'/share/john/3/16');
+ assert.equal(plain.path,'/share/john/3/16');assert.equal(plain.edition,'ieum');assert.equal(plain.editionParam,undefined);assert.equal(cardNotice(plain),plain.attribution);assert.equal(plain.translation,'이음성경');
+ assert.equal(actualSelection(new URLSearchParams({book:'john',chapter:'3',verse:'16',ed:'nkrv'})).path,'/share/john/3/16?ed=nkrv');
  assert.deepEqual(actualSelection(new URLSearchParams({book:'john',chapter:'3',verse:'16',ed:'missing'})),plain,'an unknown edition falls back to the usual text');
  assert(!shareHTML(plain).includes('ed='));
  assert.equal(actualSelection(new URLSearchParams({book:'john',chapter:'3',verse:'16',lang:'en',ed:'nkrv'})).path,'/share/john/3/16?lang=en');
@@ -250,7 +252,7 @@ const {cardNotice}=await import('./api/share-card.mjs'),{findScripture}=await im
  const registry=editions=>({version:1,languages:{ko:{default:'nkrv',editions}}});
  lang.validateEditions(registry([base,extra]));
  for(const bad of [registry([base,{...extra,path:'ko'}]),registry([base,{...extra,permissions:{display:true}}]),registry([base,{...base,id:'other'}]),registry([extra]),{version:1,languages:{ko:{default:'none',editions:[base]}}},registry([base,{...extra,names:{ko:'가'}}]),registry([base,{...extra,books:[]}]),{version:1,languages:{xx:{default:'nkrv',editions:[base]}}}])assert.throws(()=>lang.validateEditions(bad));
- console.log('Edition registry: only 개역개정 ships; the menu is hidden, links, share pages, cards and search are unchanged; invalid registries are rejected.');
+ console.log('Ieum default, explicit previous edition, plain share URLs and edition search verified.');
 }
 
 // A synthetic second Korean edition (placeholder text only, temporary copy) turns everything on after a web build alone.
@@ -266,6 +268,7 @@ const {cardNotice}=await import('./api/share-card.mjs'),{findScripture}=await im
   await fs.mkdir(path.join(copy,'data/translations/ko-test'));
   await fs.writeFile(path.join(copy,'data/translations/ko-test/john.json'),JSON.stringify({language:'ko',book:john.book,...meta,permissions:{display:true,shareCards:true},chapters}));
   const registryFile=path.join(copy,'data/translations/editions.json'),registry=JSON.parse(await fs.readFile(registryFile,'utf8'));
+  registry.languages.ko.default='nkrv';registry.languages.ko.editions=registry.languages.ko.editions.filter(e=>e.base);await fs.rm(path.join(copy,'data/translations/ko-ieum'),{recursive:true});
   registry.languages.ko.editions.push({id:'test',names:{ko:'테스트판',en:'Test edition',ja:'テスト版',zh:'测试版'},...meta,path:'ko-test',books:['john'],permissions:{display:true,shareCards:true}});
   await fs.writeFile(registryFile,JSON.stringify(registry));
   execFileSync(process.execPath,['build.mjs'],{cwd:copy,stdio:'ignore',env:{...process.env,VIBLE_SOURCE_COMMIT:''}});

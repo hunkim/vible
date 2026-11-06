@@ -1,0 +1,94 @@
+{
+  "language": "ko",
+  "book": "요한삼서",
+  "translation": "이음성경",
+  "attribution": "이음성경 · 전문가 검토 전 AI 번역 초안 · https://ieumbible.org/",
+  "source": "https://ieumbible.org/",
+  "licenseSource": "https://ieumbible.org/",
+  "downloadSource": "https://github.com/hunkim/open-bible/blob/e310c795cf576d54b4f4dc51888c47c4d5348499/public/data/books/3jn.json",
+  "permissions": {
+    "display": true,
+    "shareCards": true
+  },
+  "permissionBasis": "Project owner requested Vible integration and deployment on 2026-11-06; no general public license asserted.",
+  "status": "reviewed-ai-draft; specialist review pending",
+  "verseNumbering": "source",
+  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
+  "sourceSha256": "014b15c5d7397a4ceda735b6e9bfad64ca4392187c2a262cfac11a5413310d3b",
+  "sourceAttributions": {
+    "originalAttribution": "The Greek New Testament: SBL Edition. Michael W. Holmes, ed. © 2010 Society of Biblical Literature and Logos Bible Software.",
+    "originalUrl": "https://www.sblgnt.com/",
+    "originalLicense": "CC BY 4.0",
+    "originalLicenseUrl": "https://www.sblgnt.com/license/"
+  },
+  "chapterSources": {
+    "1": "https://ieumbible.org/?book=3jn&chapter=1"
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "나이 든 사람이 가이오에게, 내가 진리로 사랑하는 이여, 라고 씁니다."
+        },
+        {
+          "verse": 2,
+          "text": "사랑하는 이여, 나는 모든 일에서 당신이 잘되고 건강하기를 바랍니다. 당신의 영혼이 잘되는 것처럼 말입니다."
+        },
+        {
+          "verse": 3,
+          "text": "형제들이 와서 당신이 진리로 행한다고 증언할 때 나는 크게 기뻐했습니다. 당신이 진리로 행하는 그대로입니다."
+        },
+        {
+          "verse": 4,
+          "text": "내 자녀들이 진리로 행하는 것을 듣는 것보다 더 큰 기쁨은 없습니다."
+        },
+        {
+          "verse": 5,
+          "text": "사랑하는 이여, 당신은 형제들을 위해, 또 나그네인 그들을 위해 하는 모든 일에서 신실한 일을 합니다."
+        },
+        {
+          "verse": 6,
+          "text": "그들이 당신의 사랑을 교회 앞에서 증언했습니다. 당신이 그들을 하나님에 합당하게 앞서 보내어 그들의 길을 잘 준비해 주면 좋을 것입니다."
+        },
+        {
+          "verse": 7,
+          "text": "그들이 그 이름을 위해 나갔기 때문입니다. 그들은 이방 사람들에게서 아무것도 받지 않았습니다."
+        },
+        {
+          "verse": 8,
+          "text": "그러므로 우리는 그런 사람들을 받아들여야 합니다. 그래야 우리가 진리를 위해 함께 일하는 사람이 됩니다."
+        },
+        {
+          "verse": 9,
+          "text": "나는 교회에게 편지를 썼습니다. 그러나 그들 가운데서 으뜸이 되기를 좋아하는 디오트레페스가 우리를 받아들이지 않습니다."
+        },
+        {
+          "verse": 10,
+          "text": "그러므로 내가 가면 그가 하는 일을 지적하겠습니다. 그는 악한 말로 우리를 비방하며 부당하게 비난합니다. 그는 이것으로도 만족하지 않고, 형제들을 직접 받아들이지 않으며, 받아들이려는 사람들까지 막고 교회 밖으로 내쫓습니다."
+        },
+        {
+          "verse": 11,
+          "text": "사랑하는 이여, 악한 것을 본받지 말고 선한 것을 본받으십시오. 선한 일을 하는 사람은 하나님에게서 난 사람입니다. 악한 일을 하는 사람은 하나님을 보지 못했습니다."
+        },
+        {
+          "verse": 12,
+          "text": "데메트리우스는 모든 사람과 진리 자체에게서 증언을 받았습니다. 우리도 증언합니다. 당신은 우리의 증언이 참되다는 것을 압니다."
+        },
+        {
+          "verse": 13,
+          "text": "나는 당신에게 쓸 것이 많지만, 먹과 펜으로 당신에게 쓰고 싶지 않습니다."
+        },
+        {
+          "verse": 14,
+          "text": "나는 속히 당신을 보기를 바랍니다. 그러면 우리가 얼굴과 얼굴을 마주하고 말할 것입니다."
+        },
+        {
+          "verse": 15,
+          "text": "당신에게 평화가 있기를 바랍니다. 친구들이 당신에게 문안합니다. 친구들에게 이름을 하나씩 부르며 문안하십시오."
+        }
+      ]
+    }
+  ]
+}

@@ -484,3 +484,5 @@ html.desktop-app .immersive .reading-workspace{height:100dvh}
  body :is(#chapter-title,#translation-edition,#source-button,#current-reference),.reader-progress #scene-position,#install-label+small{font-size:11px}
  .scene-controls .chapter-jump span{font-size:12px}
 }
+
+.text-heading #translation-edition{color:inherit;text-decoration:underline;text-underline-offset:3px}

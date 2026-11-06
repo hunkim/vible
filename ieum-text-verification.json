@@ -1,0 +1,540 @@
+{
+  "sourceRepository": "hunkim/open-bible",
+  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
+  "sourceWebsite": "https://ieumbible.org/",
+  "defaultKoreanEdition": "ieum",
+  "wording": "verbatim; no machine translation or fallback text",
+  "books": [
+    {
+      "book": "genesis",
+      "sourceBook": "gen",
+      "sourceFile": "public/data/genesis.json",
+      "sourceSha256": "d1ad314446944b337e6b610a11e89f0acd34bb0ba49bfcd6f49e9c7ace77e65b",
+      "chapters": 50,
+      "verses": 1533
+    },
+    {
+      "book": "exodus",
+      "sourceBook": "exo",
+      "sourceFile": "public/data/books/exo.json",
+      "sourceSha256": "48dee5364cfdf2e8fa9f3caf4aed5f65629b6907ebb48314a98184f6c4ada48b",
+      "chapters": 40,
+      "verses": 1213
+    },
+    {
+      "book": "leviticus",
+      "sourceBook": "lev",
+      "sourceFile": "public/data/books/lev.json",
+      "sourceSha256": "dd165f9b40c5cfa680dcc85bcdc1c5a10cd10e1b65bf2ce838eb84f750e750b2",
+      "chapters": 27,
+      "verses": 859
+    },
+    {
+      "book": "numbers",
+      "sourceBook": "num",
+      "sourceFile": "public/data/books/num.json",
+      "sourceSha256": "388427a5a11deb493018e99bec91320f399c91585f2957ea1fc4aafa94efadeb",
+      "chapters": 36,
+      "verses": 1288
+    },
+    {
+      "book": "deuteronomy",
+      "sourceBook": "deu",
+      "sourceFile": "public/data/books/deu.json",
+      "sourceSha256": "275dc87bf7605f80136dd50f88ea651675e545e4fde08b0d5740861ea642e4c4",
+      "chapters": 34,
+      "verses": 959
+    },
+    {
+      "book": "joshua",
+      "sourceBook": "jos",
+      "sourceFile": "public/data/books/jos.json",
+      "sourceSha256": "d81c6ea303b713eb3adfe0a6295fa5ac5751ea6b20fbc4cc35ed987a8e7d4892",
+      "chapters": 24,
+      "verses": 658
+    },
+    {
+      "book": "judges",
+      "sourceBook": "jdg",
+      "sourceFile": "public/data/books/jdg.json",
+      "sourceSha256": "8e1b3c97b8a08ca69232d00669d41ac013b5f29e83d3440719ba7d13aedc4b7c",
+      "chapters": 21,
+      "verses": 618
+    },
+    {
+      "book": "ruth",
+      "sourceBook": "rut",
+      "sourceFile": "public/data/books/rut.json",
+      "sourceSha256": "1b0bbdc3ab770561318b8739e5dbe86e89f5070f037e82d39d911e159e1024dc",
+      "chapters": 4,
+      "verses": 85
+    },
+    {
+      "book": "1samuel",
+      "sourceBook": "1sa",
+      "sourceFile": "public/data/books/1sa.json",
+      "sourceSha256": "9465ef5dde00a42cfa6a00b8960235b63f824d78bde55bef4944979b2b7b0fba",
+      "chapters": 31,
+      "verses": 810
+    },
+    {
+      "book": "2samuel",
+      "sourceBook": "2sa",
+      "sourceFile": "public/data/books/2sa.json",
+      "sourceSha256": "32327e3e2180cf9c0700ded9333d5a971e8e5a6397cd3f44665a4d0de0466803",
+      "chapters": 24,
+      "verses": 695
+    },
+    {
+      "book": "1kings",
+      "sourceBook": "1ki",
+      "sourceFile": "public/data/books/1ki.json",
+      "sourceSha256": "8c1e77ca08fb89427858940121303fd4aa122dbe53578647d355964f67f021e9",
+      "chapters": 22,
+      "verses": 816
+    },
+    {
+      "book": "2kings",
+      "sourceBook": "2ki",
+      "sourceFile": "public/data/books/2ki.json",
+      "sourceSha256": "4556afce56f80afde73601dfe8991952ef4eff492bd38e6a45d401766ce8d05f",
+      "chapters": 25,
+      "verses": 719
+    },
+    {
+      "book": "1chronicles",
+      "sourceBook": "1ch",
+      "sourceFile": "public/data/books/1ch.json",
+      "sourceSha256": "b53407dcc970f9fc9750e7860dbe753da05f596a63ae7856a7af309ae727c7ef",
+      "chapters": 29,
+      "verses": 942
+    },
+    {
+      "book": "2chronicles",
+      "sourceBook": "2ch",
+      "sourceFile": "public/data/books/2ch.json",
+      "sourceSha256": "04a1f0a9191b16146eca00b49df4791709f46a6f6514fd89425b3c5fcb5558ee",
+      "chapters": 36,
+      "verses": 822
+    },
+    {
+      "book": "ezra",
+      "sourceBook": "ezr",
+      "sourceFile": "public/data/books/ezr.json",
+      "sourceSha256": "34dcead2cce3a87d2aa98e835ca504c19e7e86edfdadceec0b6f8d409f3d4412",
+      "chapters": 10,
+      "verses": 280
+    },
+    {
+      "book": "nehemiah",
+      "sourceBook": "neh",
+      "sourceFile": "public/data/books/neh.json",
+      "sourceSha256": "a955b453e4ba6c20cd28daf6c4bba9cad2f4a45b0d80028d5f71f78a73622255",
+      "chapters": 13,
+      "verses": 406
+    },
+    {
+      "book": "esther",
+      "sourceBook": "est",
+      "sourceFile": "public/data/books/est.json",
+      "sourceSha256": "f2d4a48c39dc4671083607f66636168c8d79dd82b1d03949db79ba3912660c81",
+      "chapters": 10,
+      "verses": 167
+    },
+    {
+      "book": "job",
+      "sourceBook": "job",
+      "sourceFile": "public/data/books/job.json",
+      "sourceSha256": "c67f7dde89e67e95ecd1dd552597b97a5493147ab711ae9d58a85e45fbcb15d7",
+      "chapters": 42,
+      "verses": 1070
+    },
+    {
+      "book": "psalms",
+      "sourceBook": "psa",
+      "sourceFile": "public/data/books/psa.json",
+      "sourceSha256": "a4cae8fa4bd14ad4c6b5b185c58aca09d8ab959da46948bb2beaa60bbce00225",
+      "chapters": 150,
+      "verses": 2461
+    },
+    {
+      "book": "proverbs",
+      "sourceBook": "pro",
+      "sourceFile": "public/data/books/pro.json",
+      "sourceSha256": "fd1c97ef95bbf8f4a8cde877fc8c59b245d5b74aea983f8d35c6ad76b31798f8",
+      "chapters": 31,
+      "verses": 915
+    },
+    {
+      "book": "ecclesiastes",
+      "sourceBook": "ecc",
+      "sourceFile": "public/data/books/ecc.json",
+      "sourceSha256": "8c3d4c459f85ba79f9983e9cfa05b81e63b21bebfa4d48c98e986789bd30b340",
+      "chapters": 12,
+      "verses": 222
+    },
+    {
+      "book": "songofsongs",
+      "sourceBook": "sng",
+      "sourceFile": "public/data/books/sng.json",
+      "sourceSha256": "f693e0c8e59743a077a1665a40a21e8d85918c982f00d23b84335f040f40b140",
+      "chapters": 8,
+      "verses": 117
+    },
+    {
+      "book": "isaiah",
+      "sourceBook": "isa",
+      "sourceFile": "public/data/books/isa.json",
+      "sourceSha256": "a5a1ec4606b37fd97ecef85fcc7000e3bd195d3cc5cb0ee12ef8a464d17eec6c",
+      "chapters": 66,
+      "verses": 1292
+    },
+    {
+      "book": "jeremiah",
+      "sourceBook": "jer",
+      "sourceFile": "public/data/books/jer.json",
+      "sourceSha256": "fb9879fa2631fdaaa28bc8572a709f639cea9593a990071bb67d0aa42068e49b",
+      "chapters": 52,
+      "verses": 1364
+    },
+    {
+      "book": "lamentations",
+      "sourceBook": "lam",
+      "sourceFile": "public/data/books/lam.json",
+      "sourceSha256": "187d1fd69277d2fdac2769f7ba5a5d545d1a73511fd81da75813788266e93ea8",
+      "chapters": 5,
+      "verses": 154
+    },
+    {
+      "book": "ezekiel",
+      "sourceBook": "ezk",
+      "sourceFile": "public/data/books/ezk.json",
+      "sourceSha256": "fe8c8560992c23cdfe6c8e90c501fbfb89780b284f7970c1baa418454238bfa8",
+      "chapters": 48,
+      "verses": 1273
+    },
+    {
+      "book": "daniel",
+      "sourceBook": "dan",
+      "sourceFile": "public/data/books/dan.json",
+      "sourceSha256": "50b2d4d2cb4454015dca61a1623a3dba84849641769914c8c3954396aebdb693",
+      "chapters": 12,
+      "verses": 357
+    },
+    {
+      "book": "hosea",
+      "sourceBook": "hos",
+      "sourceFile": "public/data/books/hos.json",
+      "sourceSha256": "0132aa01e32ec135738b4118c41222efb82820df77107dc9962a6e7e3c3d6425",
+      "chapters": 14,
+      "verses": 197
+    },
+    {
+      "book": "joel",
+      "sourceBook": "jol",
+      "sourceFile": "public/data/books/jol.json",
+      "sourceSha256": "d4ebca547bc3c79c02588bd004dbc08c25a1edde3509c8c555a7f465ef3840ad",
+      "chapters": 3,
+      "verses": 73
+    },
+    {
+      "book": "amos",
+      "sourceBook": "amo",
+      "sourceFile": "public/data/books/amo.json",
+      "sourceSha256": "9e458e6e6c1f4e81a7205e8302b71c0d9400e2432c37fc72ac05d8fd575e710d",
+      "chapters": 9,
+      "verses": 146
+    },
+    {
+      "book": "obadiah",
+      "sourceBook": "oba",
+      "sourceFile": "public/data/books/oba.json",
+      "sourceSha256": "c4df62ed66cc1cf101a48ce3f6ff1a76f80c2e638687320047d40bf19f8edce3",
+      "chapters": 1,
+      "verses": 21
+    },
+    {
+      "book": "jonah",
+      "sourceBook": "jnh",
+      "sourceFile": "public/data/books/jnh.json",
+      "sourceSha256": "a4c380035451e1d9f615fb6ee4ebb388ebcd9bf7d84c33d8fb8ec8ca679a846b",
+      "chapters": 4,
+      "verses": 48
+    },
+    {
+      "book": "micah",
+      "sourceBook": "mic",
+      "sourceFile": "public/data/books/mic.json",
+      "sourceSha256": "de215b7ebba753b89eedfe8a532fce1572890a214b57e3996f99dc6cb3b5a4aa",
+      "chapters": 7,
+      "verses": 105
+    },
+    {
+      "book": "nahum",
+      "sourceBook": "nam",
+      "sourceFile": "public/data/books/nam.json",
+      "sourceSha256": "93a90da1e057436d511bf11609d94bb3642581ee5051d7dfb4fce7e2c8732c8b",
+      "chapters": 3,
+      "verses": 47
+    },
+    {
+      "book": "habakkuk",
+      "sourceBook": "hab",
+      "sourceFile": "public/data/books/hab.json",
+      "sourceSha256": "a9e0cb20092b5b279af50532792e68cf3e83e7e85adad21efddf1b8f704825bb",
+      "chapters": 3,
+      "verses": 56
+    },
+    {
+      "book": "zephaniah",
+      "sourceBook": "zep",
+      "sourceFile": "public/data/books/zep.json",
+      "sourceSha256": "2c91ae7f7e52a3a1f6115119a6c2684abec5884b424d6946d9e13f97534f2a2e",
+      "chapters": 3,
+      "verses": 53
+    },
+    {
+      "book": "haggai",
+      "sourceBook": "hag",
+      "sourceFile": "public/data/books/hag.json",
+      "sourceSha256": "d13a2976b695242546749fbd962ce690a63b8624258333717d7693e242b9a01e",
+      "chapters": 2,
+      "verses": 38
+    },
+    {
+      "book": "zechariah",
+      "sourceBook": "zec",
+      "sourceFile": "public/data/books/zec.json",
+      "sourceSha256": "f0facaef4d7e1bc1643fda07e13006a81bf1b99aa46682ad05a038dc8be748f0",
+      "chapters": 14,
+      "verses": 211
+    },
+    {
+      "book": "malachi",
+      "sourceBook": "mal",
+      "sourceFile": "public/data/books/mal.json",
+      "sourceSha256": "43c0c3b8c5194531ce6e276912881f94dbecdde26ca62abc6a51e5f98d98a6e4",
+      "chapters": 4,
+      "verses": 55
+    },
+    {
+      "book": "matthew",
+      "sourceBook": "mat",
+      "sourceFile": "public/data/books/mat.json",
+      "sourceSha256": "c9ed47e5aeaeebc7d12da3c913a93241d740ecbd6865446de8608e7c654c0c7a",
+      "chapters": 28,
+      "verses": 1071
+    },
+    {
+      "book": "mark",
+      "sourceBook": "mrk",
+      "sourceFile": "public/data/books/mrk.json",
+      "sourceSha256": "75db1b197827dfe13554b51fc0e9f82a46a47ed7254d8de5b46249cad889b2a3",
+      "chapters": 16,
+      "verses": 678
+    },
+    {
+      "book": "luke",
+      "sourceBook": "luk",
+      "sourceFile": "public/data/books/luk.json",
+      "sourceSha256": "6233792eed41f78fc3f31129866b826a0421b7afe7129d0a5737347a997ee60a",
+      "chapters": 24,
+      "verses": 1151
+    },
+    {
+      "book": "john",
+      "sourceBook": "jhn",
+      "sourceFile": "public/data/books/jhn.json",
+      "sourceSha256": "0d73be8066985d33967c65b0be06b9b3911bc9ac58b89b5671e8d2944845b6fd",
+      "chapters": 21,
+      "verses": 879
+    },
+    {
+      "book": "acts",
+      "sourceBook": "act",
+      "sourceFile": "public/data/books/act.json",
+      "sourceSha256": "b9d665759c7450b031c190492bd5f60c15d88d167d871d57e00f080f9d96087a",
+      "chapters": 28,
+      "verses": 1007
+    },
+    {
+      "book": "romans",
+      "sourceBook": "rom",
+      "sourceFile": "public/data/books/rom.json",
+      "sourceSha256": "d07a0b4e9f851c358b6b55862306757dc3fe0d4d23504f9441250ed82a81e583",
+      "chapters": 16,
+      "verses": 433
+    },
+    {
+      "book": "1corinthians",
+      "sourceBook": "1co",
+      "sourceFile": "public/data/books/1co.json",
+      "sourceSha256": "e136c0ddcd1c2b10556276112dee6e2acfc795ea15d787a6563c5f776633c7ad",
+      "chapters": 16,
+      "verses": 437
+    },
+    {
+      "book": "2corinthians",
+      "sourceBook": "2co",
+      "sourceFile": "public/data/books/2co.json",
+      "sourceSha256": "daff8f635135e68df22c60ff72f183e792f78e6ec92592a149f0e57c36b72797",
+      "chapters": 13,
+      "verses": 257
+    },
+    {
+      "book": "galatians",
+      "sourceBook": "gal",
+      "sourceFile": "public/data/books/gal.json",
+      "sourceSha256": "1b0ca1701bdf35bbf1438581855e50506e06cee25161ba2a703fd3a7d53b06f5",
+      "chapters": 6,
+      "verses": 149
+    },
+    {
+      "book": "ephesians",
+      "sourceBook": "eph",
+      "sourceFile": "public/data/books/eph.json",
+      "sourceSha256": "9165536bc9c5bbf71718c2ca70cc223b22d47a414ff52c1eb6dd9165b4464662",
+      "chapters": 6,
+      "verses": 155
+    },
+    {
+      "book": "philippians",
+      "sourceBook": "php",
+      "sourceFile": "public/data/books/php.json",
+      "sourceSha256": "5d4ac7b96be2ddb06b727b0aa67d17186100e855baefd08b54c019c47cbafa67",
+      "chapters": 4,
+      "verses": 104
+    },
+    {
+      "book": "colossians",
+      "sourceBook": "col",
+      "sourceFile": "public/data/books/col.json",
+      "sourceSha256": "08bf2f8c32b9a74c52052d382cd6fe42a72df01fbd3076ce436afc75a586f7fe",
+      "chapters": 4,
+      "verses": 95
+    },
+    {
+      "book": "1thessalonians",
+      "sourceBook": "1th",
+      "sourceFile": "public/data/books/1th.json",
+      "sourceSha256": "9fc24e2358cdc98312d77c990fc641cea81c2f41e8b22011467043f39c041c42",
+      "chapters": 5,
+      "verses": 89
+    },
+    {
+      "book": "2thessalonians",
+      "sourceBook": "2th",
+      "sourceFile": "public/data/books/2th.json",
+      "sourceSha256": "018418129c2b1517c0d7a7fb64295da3e0ffcd704b4b0ee0bc60514eedf9371b",
+      "chapters": 3,
+      "verses": 47
+    },
+    {
+      "book": "1timothy",
+      "sourceBook": "1ti",
+      "sourceFile": "public/data/books/1ti.json",
+      "sourceSha256": "cebeb1686e82113c571f352a2244bf9dfb3b78b5e0b3b5ed5b33915bac474d28",
+      "chapters": 6,
+      "verses": 113
+    },
+    {
+      "book": "2timothy",
+      "sourceBook": "2ti",
+      "sourceFile": "public/data/books/2ti.json",
+      "sourceSha256": "52d4d5173b55fc210f872272432f0cbaa66a83cbbeb489c8ef1a609c1fad18c2",
+      "chapters": 4,
+      "verses": 83
+    },
+    {
+      "book": "titus",
+      "sourceBook": "tit",
+      "sourceFile": "public/data/books/tit.json",
+      "sourceSha256": "482a1e8fd5ee797ce444c94945b69036e97a90a730ca7c3683096d032826025a",
+      "chapters": 3,
+      "verses": 46
+    },
+    {
+      "book": "philemon",
+      "sourceBook": "phm",
+      "sourceFile": "public/data/books/phm.json",
+      "sourceSha256": "9cfb2103f202682cff6704beddb1e9b6d03c85bd65eb7d5f3bd700968adea342",
+      "chapters": 1,
+      "verses": 25
+    },
+    {
+      "book": "hebrews",
+      "sourceBook": "heb",
+      "sourceFile": "public/data/books/heb.json",
+      "sourceSha256": "03b5a7e34d304b4111aef142f171be965a0dd0b22303f4c4e2e3807e12b93448",
+      "chapters": 13,
+      "verses": 303
+    },
+    {
+      "book": "james",
+      "sourceBook": "jas",
+      "sourceFile": "public/data/books/jas.json",
+      "sourceSha256": "07564941723bab0fcd43efc7f52d9e12f3a6484c269c9d6b04e070ebf40a5bfb",
+      "chapters": 5,
+      "verses": 108
+    },
+    {
+      "book": "1peter",
+      "sourceBook": "1pe",
+      "sourceFile": "public/data/books/1pe.json",
+      "sourceSha256": "440b25eda1296745ad6fe3d3acbe18295c182d099b55bef1dd3790ef219b6d6e",
+      "chapters": 5,
+      "verses": 105
+    },
+    {
+      "book": "2peter",
+      "sourceBook": "2pe",
+      "sourceFile": "public/data/books/2pe.json",
+      "sourceSha256": "764cce35674c66ae300d0e5971e94e0661ff6056ac2df96893c5cb5c929e1861",
+      "chapters": 3,
+      "verses": 61
+    },
+    {
+      "book": "1john",
+      "sourceBook": "1jn",
+      "sourceFile": "public/data/books/1jn.json",
+      "sourceSha256": "2596db03dad11a2cde3655f21d62cfe4f760a3e0baad48b7c9891a5ff9035a05",
+      "chapters": 5,
+      "verses": 105
+    },
+    {
+      "book": "2john",
+      "sourceBook": "2jn",
+      "sourceFile": "public/data/books/2jn.json",
+      "sourceSha256": "6c70901d58dd8b0d1a655252c73409d39c64224384e2b1e56c966356295b0434",
+      "chapters": 1,
+      "verses": 13
+    },
+    {
+      "book": "3john",
+      "sourceBook": "3jn",
+      "sourceFile": "public/data/books/3jn.json",
+      "sourceSha256": "014b15c5d7397a4ceda735b6e9bfad64ca4392187c2a262cfac11a5413310d3b",
+      "chapters": 1,
+      "verses": 15
+    },
+    {
+      "book": "jude",
+      "sourceBook": "jud",
+      "sourceFile": "public/data/books/jud.json",
+      "sourceSha256": "b035430fc9b462798530a27be2e7fcba2e310dbc46ed20cb43acd81e607cfc8a",
+      "chapters": 1,
+      "verses": 25
+    },
+    {
+      "book": "revelation",
+      "sourceBook": "rev",
+      "sourceFile": "public/data/books/rev.json",
+      "sourceSha256": "fb12ab3c45db55af9cac535182ad7d64d5d2837db9f2914353cad26d819bb935",
+      "chapters": 22,
+      "verses": 405
+    }
+  ],
+  "bookCount": 66,
+  "chapters": 1189,
+  "verses": 31104
+}

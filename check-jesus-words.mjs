@@ -39,7 +39,7 @@ for(const lang of Object.keys(texts)){
  assert.deepEqual(scriptureParts('john',14,6,lang,text+' changed'),[{text:text+' changed',jesus:false}],'Changed translations safely fall back to plain text');
  assert(!scriptureParts('john',1,1,lang,texts[lang].john['1:1']).some(p=>p.jesus));
  assert(!scriptureParts('genesis',1,3,lang,'Let there be light').some(p=>p.jesus));
- const selected=selection(shareParams(new URL(`/share/john/21/15?lang=${lang}`,'https://vible.now')));
+ const selected=selection(shareParams(new URL(`/share/john/21/15?lang=${lang}${lang==='ko'?'&ed=nkrv':''}`,'https://vible.now')));
  const html=shareHTML(selected);assert(html.includes('<strong class="jesus-words">'));
  const paragraphs=html.match(/<blockquote>([\s\S]*?)<\/blockquote>/)[1];
  const decode=s=>s.replace(/<[^>]+>/g,'').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');

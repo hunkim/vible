@@ -1,0 +1,86 @@
+{
+  "language": "ko",
+  "book": "요한이서",
+  "translation": "이음성경",
+  "attribution": "이음성경 · 전문가 검토 전 AI 번역 초안 · https://ieumbible.org/",
+  "source": "https://ieumbible.org/",
+  "licenseSource": "https://ieumbible.org/",
+  "downloadSource": "https://github.com/hunkim/open-bible/blob/e310c795cf576d54b4f4dc51888c47c4d5348499/public/data/books/2jn.json",
+  "permissions": {
+    "display": true,
+    "shareCards": true
+  },
+  "permissionBasis": "Project owner requested Vible integration and deployment on 2026-11-06; no general public license asserted.",
+  "status": "reviewed-ai-draft; specialist review pending",
+  "verseNumbering": "source",
+  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
+  "sourceSha256": "6c70901d58dd8b0d1a655252c73409d39c64224384e2b1e56c966356295b0434",
+  "sourceAttributions": {
+    "originalAttribution": "The Greek New Testament: SBL Edition. Michael W. Holmes, ed. © 2010 Society of Biblical Literature and Logos Bible Software.",
+    "originalUrl": "https://www.sblgnt.com/",
+    "originalLicense": "CC BY 4.0",
+    "originalLicenseUrl": "https://www.sblgnt.com/license/"
+  },
+  "chapterSources": {
+    "1": "https://ieumbible.org/?book=2jn&chapter=1"
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "장로는 선택받은 여인과 그 자녀들에게 씁니다. 나는 진리로 그들을 사랑합니다. 나뿐 아니라 진리를 안 모든 사람도 그들을 사랑합니다."
+        },
+        {
+          "verse": 2,
+          "text": "진리는 우리 안에 머물러 있고, 영원히 우리와 함께 있을 것이기 때문입니다."
+        },
+        {
+          "verse": 3,
+          "text": "하나님 아버지와 아버지의 아들이신 주 예수 그리스도에게서 은혜와 긍휼과 평화가 진리와 사랑 안에서 우리와 함께 있을 것입니다."
+        },
+        {
+          "verse": 4,
+          "text": "나는 크게 기뻤습니다. 당신의 자녀들 가운데 몇이 진리를 따라 살아가는 것을 보았기 때문입니다. 이것은 우리가 아버지에게서 받은 명령대로입니다."
+        },
+        {
+          "verse": 5,
+          "text": "여인, 나는 지금 당신에게 부탁합니다. 내가 새 명령을 쓰는 것이 아니라, 처음부터 우리가 가지고 있던 명령을 씁니다. 서로 사랑하라는 것입니다."
+        },
+        {
+          "verse": 6,
+          "text": "사랑이란 그분의 명령을 따라 살아가는 것입니다. 이 명령이 바로 이것입니다. 당신이 처음부터 들은 대로, 그 명령 안에서 살아가라는 것입니다."
+        },
+        {
+          "verse": 7,
+          "text": "많은 속이는 자들이 세상으로 나갔습니다. 그들은 예수 그리스도께서 육체로 오셨다고 고백하지 않습니다. 이런 사람이 속이는 자요 적그리스도입니다."
+        },
+        {
+          "verse": 8,
+          "text": "스스로를 살피십시오. 우리가 이룬 것을 잃지 않도록 하십시오. 오히려 온전한 상을 받도록 하십시오."
+        },
+        {
+          "verse": 9,
+          "text": "누구든지 그리스도 가르침에서 앞서 나가면서 그 가르침 안에 머물지 않으면, 하나님을 가지지 못합니다. 그 가르침 안에 머무는 사람은 아버지와 아들을 함께 가집니다."
+        },
+        {
+          "verse": 10,
+          "text": "누구든지 당신들에게 오면서 이 가르침을 가져오지 않으면, 그를 집으로 받아들이지 말고 그에게 인사하지도 마십시오."
+        },
+        {
+          "verse": 11,
+          "text": "그에게 인사하는 사람은 그의 악한 일에 함께 참여하는 것입니다."
+        },
+        {
+          "verse": 12,
+          "text": "당신들에게 쓸 것이 많지만, 나는 종이와 먹으로 쓰고 싶지 않습니다. 당신들에게 가서 얼굴과 얼굴을 마주 보고 말하기를 바랍니다. 그렇게 하여 당신들의 기쁨이 가득 차기를 바랍니다."
+        },
+        {
+          "verse": 13,
+          "text": "선택받은 당신의 자매의 자녀들이 당신께 문안합니다."
+        }
+      ]
+    }
+  ]
+}

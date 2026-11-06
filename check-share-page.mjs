@@ -5,7 +5,8 @@ import {cardLayout} from './share-card-layout.mjs';
 import {shareHTML} from './api/share.mjs';
 
 const escapeText=text=>text.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
-const pick=path=>selection(shareParams(new URL(path,'https://vible.now')));
+// Keep existing base-edition wording/bridge regressions; check-ieum covers default links.
+const pick=path=>{const params=shareParams(new URL(path,'https://vible.now'));if(!params.get('lang')||params.get('lang')==='ko')params.set('ed','nkrv');return selection(params);};
 const one=pick('/share/acts/4/32'),html=shareHTML(one);
 assert.equal(one.verses.length,1);
 assert.equal(one.reference,'사도행전 4:32');
