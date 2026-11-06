@@ -101,3 +101,5 @@ CFBundleVersion(iOS `CURRENT_PROJECT_VERSION`, macOS `bundleVersion`)을 올릴 
 1.0.7 후보: iOS 빌드 18, macOS 빌드 14. 운영에 반영된 이음성경 66권과 공식 출처 링크·ⓘ 아이콘, 원본 절 번호 대응을 포함합니다. 기존 한국어 역본과 다른 언어, 공개 그림은 유지합니다. 새 버전의 스토어 승인·공개 전에는 `data/app-version.json`의 출시 버전을 올리지 않습니다. 업로드·심사 상태는 별도 검증 후 기록합니다.
 
 두 플랫폼의 1.0.7 빌드를 완료하고 iOS 아카이브와 Mac universal 아카이브를 보존했습니다. 전체·오프라인 검사, 1280px/390px 헤더 클릭, Mac 실제 실행을 검증했습니다. Apple의 `PLA Update available` 오류로 배포용 서명이 차단되어 업로드·심사 제출은 아직 하지 않았습니다. 계정 소유자가 최신 Program License Agreement에 직접 동의해야 합니다. 자세한 빌드·검증 상태는 `native-release.json`에 기록합니다.
+
+업데이트: Mac Safari 패스키 로그인 후 Apple 계정 제한이 해제되었고 iOS 1.0.7 (18), macOS 1.0.7 (14)의 업로드와 심사 제출을 완료했습니다. 두 플랫폼 모두 **Waiting for Review**, 승인 후 자동 출시 설정입니다. 네 언어의 소개·업데이트 안내 및 심사 메모에 이음성경 출처와 AI 초안 상태를 반영했습니다. Mac은 기존 sandbox entitlements를 명시해 서명한 뒤 App Store 배포 서명으로 내보냈습니다. Mac dSYM 미포함 경고는 업로드를 막지 않았으며 크래시 심볼 해석에는 제한이 있을 수 있습니다. `data/app-version.json`은 승인·실제 공개 전까지 유지합니다.

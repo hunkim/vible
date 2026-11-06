@@ -3,14 +3,17 @@
   "sourceCommit": "1842d3ce2d58e71e184faa0e30202612bb34cd02",
   "frozenSource": "/private/tmp/vible-apps-1.0.7-1842d3ce2d58",
   "date": "2026-11-06",
-  "status": "built; App Store distribution signing blocked by Apple Program License Agreement update",
+  "status": "Both iOS and macOS Waiting for Review",
   "deploymentComplete": false,
   "ios": {
     "build": "18",
     "archive": "/private/tmp/VibleNow-1.0.7-iOS.xcarchive",
     "archiveSucceeded": true,
     "bundledFilesExact": 388,
-    "uploaded": false
+    "uploaded": true,
+    "status": "WAITING_FOR_REVIEW",
+    "submissionId": "9381f403-8c8e-4557-87e0-9483000acf58",
+    "automaticReleaseAfterApproval": true
   },
   "macos": {
     "build": "14",
@@ -21,7 +24,12 @@
     ],
     "buildSucceeded": true,
     "nativeLaunchVerified": true,
-    "uploaded": false
+    "uploaded": true,
+    "status": "WAITING_FOR_REVIEW",
+    "submissionId": "30f12e51-96d0-4870-8787-63925d792472",
+    "automaticReleaseAfterApproval": true,
+    "sandboxEntitlementsVerified": true,
+    "signing": "Apple Development archive with explicit existing sandbox entitlements; Xcode App Store Connect distribution export"
   },
   "checks": {
     "application": "npm run check passed in Git archive",
@@ -30,11 +38,21 @@
     "content": "Ieum default text, attribution, official link and info icon verified",
     "preservation": "existing art, other three languages and previous Korean edition preserved"
   },
-  "blocker": {
-    "provider": "Apple Developer",
-    "code": "PLA Update available",
-    "message": "Agree to latest Program License Agreement in developer account before distribution signing can proceed",
-    "userAction": "Account holder must review and accept latest agreement at https://developer.apple.com/account and finish App Store Connect login"
+  "storeReleaseVersionManifest": "not bumped before store approval",
+  "submissionComplete": true,
+  "submittedAt": "2026-11-06T02:54:19.924472+00:00",
+  "warnings": [
+    "Mac upload succeeded with a nonblocking missing-dSYM warning; crash symbolication may be limited."
+  ],
+  "storeMetadata": {
+    "localizations": [
+      "ko",
+      "en-US",
+      "ja",
+      "zh-Hans"
+    ],
+    "descriptionAndReleaseNotes": "Ieum default, draft status and source link updated in all four locales",
+    "reviewNotes": "updated for Ieum owner authorization, 66 books and unchanged other editions"
   },
-  "storeReleaseVersionManifest": "not bumped before store approval"
+  "authentication": "Mac Safari passkey login succeeded; Apple agreement access restriction cleared before successful exports"
 }
