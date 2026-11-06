@@ -1,8 +1,8 @@
 {
   "date": "2026-11-06",
   "production": "https://vible.now",
-  "deployment": "https://vible-mb432cpvg-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_HGiCWHo956xj8GzS75iBt4H6evue",
+  "deployment": "https://vible-c6xhz5b61-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_BHocwMj2UrdWPRN3u6BrTyNiPQfz",
   "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
@@ -133,15 +133,15 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "0c05bb1f13ce9e700fe5c5ebe78d5298958bac53",
+  "gitCommit": "2b8085d386ae95d85ecef37a282300554f4246ac",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v4.jpg",
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
-  "frozenSource": "/private/tmp/vible-release-0c05bb1f13ce9e700fe5c5ebe78d5298958bac53",
-  "sourceCommit": "0c05bb1f13ce9e700fe5c5ebe78d5298958bac53",
+  "frozenSource": "/private/tmp/vible-release-2b8085d386ae95d85ecef37a282300554f4246ac",
+  "sourceCommit": "2b8085d386ae95d85ecef37a282300554f4246ac",
   "latestFeedbackRelease": {
     "date": "2026-10-30",
     "correctedImages": 9,
@@ -307,10 +307,10 @@
   },
   "previousRelease": {
     "date": "2026-11-06",
-    "deployment": "https://vible-i7p59rdxc-hunkims-projects.vercel.app",
-    "deploymentId": "dpl_DetSsSeL8syy8Mk2KaFpgtZN4MwN",
-    "sourceCommit": "7e5fa71d8538ff891e42ddaa02c4b328f6fc4f57",
-    "gitCommit": "7e5fa71d8538ff891e42ddaa02c4b328f6fc4f57",
+    "deployment": "https://vible-mb432cpvg-hunkims-projects.vercel.app",
+    "deploymentId": "dpl_HGiCWHo956xj8GzS75iBt4H6evue",
+    "sourceCommit": "0c05bb1f13ce9e700fe5c5ebe78d5298958bac53",
+    "gitCommit": "0c05bb1f13ce9e700fe5c5ebe78d5298958bac53",
     "newImageFiles": 0
   },
   "ieumKorean": {
@@ -340,5 +340,13 @@
     "label": "이음성경 ⓘ",
     "link": "https://ieumbible.org/",
     "checks": "npm run check and node check-offline.mjs passed in exact Git archive; production CSS, rendered icon and source URL verified"
+  },
+  "nativeApps107": {
+    "status": "iOS and Mac Waiting for Review; automatically release after approval",
+    "appSourceCommit": "1842d3ce2d58e71e184faa0e30202612bb34cd02",
+    "iosBuild": "18",
+    "macBuild": "14",
+    "record": "native-release.json",
+    "checks": "Full application and offline checks passed in exact Git archive; live Ieum text, registry, icon CSS and PNG share card verified"
   }
 }
