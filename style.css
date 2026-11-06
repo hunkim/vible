@@ -486,3 +486,5 @@ html.desktop-app .immersive .reading-workspace{height:100dvh}
 }
 
 .text-heading #translation-edition{color:inherit;text-decoration:underline;text-underline-offset:3px}
+
+.text-heading #translation-edition[href="https://ieumbible.org/"]::after{content:"ⓘ";display:inline-block;margin-left:.35em;font-size:1.35em;text-decoration:none}
