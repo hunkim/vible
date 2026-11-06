@@ -5,7 +5,7 @@
   "attribution": "이음성경 · 전문가 검토 전 AI 번역 초안 · https://ieumbible.org/",
   "source": "https://ieumbible.org/",
   "licenseSource": "https://ieumbible.org/",
-  "downloadSource": "https://github.com/hunkim/open-bible/blob/e310c795cf576d54b4f4dc51888c47c4d5348499/public/data/books/gal.json",
+  "downloadSource": "https://github.com/hunkim/open-bible/blob/e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59/public/data/books/gal.json",
   "permissions": {
     "display": true,
     "shareCards": true
@@ -13,7 +13,7 @@
   "permissionBasis": "Project owner requested Vible integration and deployment on 2026-11-06; no general public license asserted.",
   "status": "reviewed-ai-draft; specialist review pending",
   "verseNumbering": "source",
-  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
+  "sourceRevision": "e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59",
   "sourceSha256": "1b0ca1701bdf35bbf1438581855e50506e06cee25161ba2a703fd3a7d53b06f5",
   "sourceAttributions": {
     "originalAttribution": "The Greek New Testament: SBL Edition. Michael W. Holmes, ed. © 2010 Society of Biblical Literature and Logos Bible Software.",

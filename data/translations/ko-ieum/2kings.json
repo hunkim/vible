@@ -5,7 +5,7 @@
   "attribution": "이음성경 · 전문가 검토 전 AI 번역 초안 · https://ieumbible.org/",
   "source": "https://ieumbible.org/",
   "licenseSource": "https://ieumbible.org/",
-  "downloadSource": "https://github.com/hunkim/open-bible/blob/e310c795cf576d54b4f4dc51888c47c4d5348499/public/data/books/2ki.json",
+  "downloadSource": "https://github.com/hunkim/open-bible/blob/e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59/public/data/books/2ki.json",
   "permissions": {
     "display": true,
     "shareCards": true
@@ -13,8 +13,8 @@
   "permissionBasis": "Project owner requested Vible integration and deployment on 2026-11-06; no general public license asserted.",
   "status": "reviewed-ai-draft; specialist review pending",
   "verseNumbering": "source",
-  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
-  "sourceSha256": "4556afce56f80afde73601dfe8991952ef4eff492bd38e6a45d401766ce8d05f",
+  "sourceRevision": "e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59",
+  "sourceSha256": "5ca30de30e7a4b085e4b74792e04a140ac796e9694829b1f2914840d6c32631b",
   "sourceAttributions": {
     "originalAttribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
     "originalUrl": "https://github.com/openscriptures/morphhb",
@@ -2409,19 +2409,19 @@
       "verses": [
         {
           "verse": 1,
-          "text": "그 무렵 히스기야가 병이 들어 죽게 되었습니다. 아모츠의 아들 예언자 이사야가 그에게 와서 말했습니다. \"야훼께서 이렇게 말씀하십니다. 네 집을 정리하십시오. 당신이 죽고 살지 못할 것입니다.\""
+          "text": "그 무렵 히스기야가 병이 들어 죽게 되었습니다. 아모츠의 아들 예언자 이사야가 그에게 와서 말했습니다. \"여호와께서 이렇게 말씀하십니다. 네 집을 정리하십시오. 당신이 죽고 살지 못할 것입니다.\""
         },
         {
           "verse": 2,
-          "text": "그가 얼굴을 벽 쪽으로 돌리고 야훼께 기도했습니다."
+          "text": "그가 얼굴을 벽 쪽으로 돌리고 여호와께 기도했습니다."
         },
         {
           "verse": 3,
-          "text": "\"야훼여, 저를 기억해 주십시오. 제가 당신 앞에서 진실하게, 온전한 마음으로 걸어갔고, 당신 보시기에 선한 일을 하였음을 기억해 주십시오.\" 히스기야가 몹시 슬피 울었습니다."
+          "text": "\"여호와여, 저를 기억해 주십시오. 제가 당신 앞에서 진실하게, 온전한 마음으로 걸어갔고, 당신 보시기에 선한 일을 하였음을 기억해 주십시오.\" 히스기야가 몹시 슬피 울었습니다."
         },
         {
           "verse": 4,
-          "text": "이사야가 아직 성 중간쯤까지 나가지 않았을 때 야훼의 말씀이 그에게 임했습니다."
+          "text": "이사야가 아직 성 중간쯤까지 나가지 않았을 때 여호와의 말씀이 그에게 임했습니다."
         },
         {
           "verse": 5,
@@ -2437,11 +2437,11 @@
         },
         {
           "verse": 8,
-          "text": "히스기야가 이사야에게 말했습니다. \"야훼께서 저를 고쳐 주시고 제가 사흘째 되는 날에 야훼의 집으로 올라갈 것이라는 표적이 무엇입니까?\""
+          "text": "히스기야가 이사야에게 말했습니다. \"여호와께서 저를 고쳐 주시고 제가 사흘째 되는 날에 여호와의 집으로 올라갈 것이라는 표적이 무엇입니까?\""
         },
         {
           "verse": 9,
-          "text": "이사야가 말했습니다. \"이것이 야훼께서 말씀하신 일을 이루실 것이라는 표입니다. 그림자가 열 걸음 앞으로 나아갈까요, 아니면 열 걸음 뒤로 물러날까요?\""
+          "text": "이사야가 말했습니다. \"이것이 여호와께서 말씀하신 일을 이루실 것이라는 표입니다. 그림자가 열 걸음 앞으로 나아갈까요, 아니면 열 걸음 뒤로 물러날까요?\""
         },
         {
           "verse": 10,
@@ -2449,7 +2449,7 @@
         },
         {
           "verse": 11,
-          "text": "예언자 이사야가 야훼를 불렀습니다. 야훼가 아하스의 해시계 위로 내려갔던 그림자를 열 걸음 뒤로 물러가게 하셨습니다."
+          "text": "예언자 이사야가 여호와를 불렀습니다. 여호와가 아하스의 해시계 위로 내려갔던 그림자를 열 걸음 뒤로 물러가게 하셨습니다."
         },
         {
           "verse": 12,
@@ -2469,11 +2469,11 @@
         },
         {
           "verse": 16,
-          "text": "이사야가 히스기야에게 말했습니다. \"야훼의 말씀을 들으십시오."
+          "text": "이사야가 히스기야에게 말했습니다. \"여호와의 말씀을 들으십시오."
         },
         {
           "verse": 17,
-          "text": "'보십시오, 때가 오면 당신의 집에 있는 모든 것과 당신의 조상들이 오늘까지 쌓아 둔 모든 것이 바빌론으로 옮겨질 것입니다. 아무것도 남지 않을 것입니다.' 야훼께서 이렇게 말씀하십니다."
+          "text": "'보십시오, 때가 오면 당신의 집에 있는 모든 것과 당신의 조상들이 오늘까지 쌓아 둔 모든 것이 바빌론으로 옮겨질 것입니다. 아무것도 남지 않을 것입니다.' 여호와께서 이렇게 말씀하십니다."
         },
         {
           "verse": 18,
@@ -2481,7 +2481,7 @@
         },
         {
           "verse": 19,
-          "text": "히스기야가 이사야에게 말했습니다. \"당신이 전한 야훼의 말씀이 좋습니다.\" 그가 또 말했습니다. \"내 생애에 평화와 진실이 있다면, 그렇지 않겠습니까?\""
+          "text": "히스기야가 이사야에게 말했습니다. \"당신이 전한 여호와의 말씀이 좋습니다.\" 그가 또 말했습니다. \"내 생애에 평화와 진실이 있다면, 그렇지 않겠습니까?\""
         },
         {
           "verse": 20,

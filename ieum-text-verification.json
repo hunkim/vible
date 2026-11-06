@@ -1,6 +1,6 @@
 {
   "sourceRepository": "hunkim/open-bible",
-  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
+  "sourceRevision": "e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59",
   "sourceWebsite": "https://ieumbible.org/",
   "defaultKoreanEdition": "ieum",
   "wording": "verbatim; no machine translation or fallback text",
@@ -17,7 +17,7 @@
       "book": "exodus",
       "sourceBook": "exo",
       "sourceFile": "public/data/books/exo.json",
-      "sourceSha256": "48dee5364cfdf2e8fa9f3caf4aed5f65629b6907ebb48314a98184f6c4ada48b",
+      "sourceSha256": "d4a0b7c473f337f5f7fb8cde6b5a2a1d215b2b27102edc52ba3dfa27adbf73cb",
       "chapters": 40,
       "verses": 1213
     },
@@ -25,7 +25,7 @@
       "book": "leviticus",
       "sourceBook": "lev",
       "sourceFile": "public/data/books/lev.json",
-      "sourceSha256": "dd165f9b40c5cfa680dcc85bcdc1c5a10cd10e1b65bf2ce838eb84f750e750b2",
+      "sourceSha256": "a865649aa4e1346f86a20abcd6bc165b1420e12b26a63a44c464531365b547e1",
       "chapters": 27,
       "verses": 859
     },
@@ -33,7 +33,7 @@
       "book": "numbers",
       "sourceBook": "num",
       "sourceFile": "public/data/books/num.json",
-      "sourceSha256": "388427a5a11deb493018e99bec91320f399c91585f2957ea1fc4aafa94efadeb",
+      "sourceSha256": "41a7ff1a26206f2e6237a7859d8b78ae5f5851b08732ff53dd1fbd6b9fea7629",
       "chapters": 36,
       "verses": 1288
     },
@@ -49,7 +49,7 @@
       "book": "joshua",
       "sourceBook": "jos",
       "sourceFile": "public/data/books/jos.json",
-      "sourceSha256": "d81c6ea303b713eb3adfe0a6295fa5ac5751ea6b20fbc4cc35ed987a8e7d4892",
+      "sourceSha256": "454055ea7aefd6a82d61681405aaf9c660c1ee5bd9db5961809bda59d4c101c3",
       "chapters": 24,
       "verses": 658
     },
@@ -81,7 +81,7 @@
       "book": "2samuel",
       "sourceBook": "2sa",
       "sourceFile": "public/data/books/2sa.json",
-      "sourceSha256": "32327e3e2180cf9c0700ded9333d5a971e8e5a6397cd3f44665a4d0de0466803",
+      "sourceSha256": "5edf5a2ab13bb99b5c60afd3651ca5bb63298ba2a3a962b356a6eb8ab8b85e16",
       "chapters": 24,
       "verses": 695
     },
@@ -89,7 +89,7 @@
       "book": "1kings",
       "sourceBook": "1ki",
       "sourceFile": "public/data/books/1ki.json",
-      "sourceSha256": "8c1e77ca08fb89427858940121303fd4aa122dbe53578647d355964f67f021e9",
+      "sourceSha256": "4cc743ce30d0d4338eebef867c3365a670a56012a57ab4694a765660e5508e48",
       "chapters": 22,
       "verses": 816
     },
@@ -97,7 +97,7 @@
       "book": "2kings",
       "sourceBook": "2ki",
       "sourceFile": "public/data/books/2ki.json",
-      "sourceSha256": "4556afce56f80afde73601dfe8991952ef4eff492bd38e6a45d401766ce8d05f",
+      "sourceSha256": "5ca30de30e7a4b085e4b74792e04a140ac796e9694829b1f2914840d6c32631b",
       "chapters": 25,
       "verses": 719
     },
@@ -153,7 +153,7 @@
       "book": "psalms",
       "sourceBook": "psa",
       "sourceFile": "public/data/books/psa.json",
-      "sourceSha256": "a4cae8fa4bd14ad4c6b5b185c58aca09d8ab959da46948bb2beaa60bbce00225",
+      "sourceSha256": "14f2d01c71f2d8703080ba3813d18981e16affc30593448ef4f2c7c9bdd0a189",
       "chapters": 150,
       "verses": 2461
     },
@@ -177,7 +177,7 @@
       "book": "songofsongs",
       "sourceBook": "sng",
       "sourceFile": "public/data/books/sng.json",
-      "sourceSha256": "f693e0c8e59743a077a1665a40a21e8d85918c982f00d23b84335f040f40b140",
+      "sourceSha256": "c5337ad1f2d5ed86b088055f9860bb102c8cca59767363effbdcb093b7247780",
       "chapters": 8,
       "verses": 117
     },
@@ -185,7 +185,7 @@
       "book": "isaiah",
       "sourceBook": "isa",
       "sourceFile": "public/data/books/isa.json",
-      "sourceSha256": "a5a1ec4606b37fd97ecef85fcc7000e3bd195d3cc5cb0ee12ef8a464d17eec6c",
+      "sourceSha256": "ab1a70de94d1fe2713ee1ff1b918effb1fb76860f4b6e669db1e455967380123",
       "chapters": 66,
       "verses": 1292
     },
@@ -193,7 +193,7 @@
       "book": "jeremiah",
       "sourceBook": "jer",
       "sourceFile": "public/data/books/jer.json",
-      "sourceSha256": "fb9879fa2631fdaaa28bc8572a709f639cea9593a990071bb67d0aa42068e49b",
+      "sourceSha256": "cefe5718009f37c6bc5e71a1db0915349c231d0005068e5ae1dc319772d7e385",
       "chapters": 52,
       "verses": 1364
     },
@@ -209,7 +209,7 @@
       "book": "ezekiel",
       "sourceBook": "ezk",
       "sourceFile": "public/data/books/ezk.json",
-      "sourceSha256": "fe8c8560992c23cdfe6c8e90c501fbfb89780b284f7970c1baa418454238bfa8",
+      "sourceSha256": "1df66d481309f309cc94d393a102ff69adcd8e4a84d70f313b6e546bb981fc5c",
       "chapters": 48,
       "verses": 1273
     },
@@ -241,7 +241,7 @@
       "book": "amos",
       "sourceBook": "amo",
       "sourceFile": "public/data/books/amo.json",
-      "sourceSha256": "9e458e6e6c1f4e81a7205e8302b71c0d9400e2432c37fc72ac05d8fd575e710d",
+      "sourceSha256": "a3ff868784bb001fecc6ede335c6181a82cb06bcc02bbd29dc4e2a4ffc3c8b6e",
       "chapters": 9,
       "verses": 146
     },
@@ -257,7 +257,7 @@
       "book": "jonah",
       "sourceBook": "jnh",
       "sourceFile": "public/data/books/jnh.json",
-      "sourceSha256": "a4c380035451e1d9f615fb6ee4ebb388ebcd9bf7d84c33d8fb8ec8ca679a846b",
+      "sourceSha256": "f7a3ca962ea61b37cd5ced5aece5b78311437cab618dd957b5ce22e099cbc9af",
       "chapters": 4,
       "verses": 48
     },

@@ -5,7 +5,7 @@
   "attribution": "이음성경 · 전문가 검토 전 AI 번역 초안 · https://ieumbible.org/",
   "source": "https://ieumbible.org/",
   "licenseSource": "https://ieumbible.org/",
-  "downloadSource": "https://github.com/hunkim/open-bible/blob/e310c795cf576d54b4f4dc51888c47c4d5348499/public/data/books/jnh.json",
+  "downloadSource": "https://github.com/hunkim/open-bible/blob/e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59/public/data/books/jnh.json",
   "permissions": {
     "display": true,
     "shareCards": true
@@ -13,8 +13,8 @@
   "permissionBasis": "Project owner requested Vible integration and deployment on 2026-11-06; no general public license asserted.",
   "status": "reviewed-ai-draft; specialist review pending",
   "verseNumbering": "source",
-  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
-  "sourceSha256": "a4c380035451e1d9f615fb6ee4ebb388ebcd9bf7d84c33d8fb8ec8ca679a846b",
+  "sourceRevision": "e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59",
+  "sourceSha256": "f7a3ca962ea61b37cd5ced5aece5b78311437cab618dd957b5ce22e099cbc9af",
   "sourceAttributions": {
     "originalAttribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
     "originalUrl": "https://github.com/openscriptures/morphhb",
@@ -33,7 +33,7 @@
       "verses": [
         {
           "verse": 1,
-          "text": "야훼의 말씀이 아밋대의 아들 요나에게 임하여 말씀하셨습니다."
+          "text": "여호와의 말씀이 아밋대의 아들 요나에게 임하여 말씀하셨습니다."
         },
         {
           "verse": 2,
@@ -41,11 +41,11 @@
         },
         {
           "verse": 3,
-          "text": "그러나 요나는 야훼의 얼굴을 피해 타르시시로 도망하려고 일어났습니다. 그는 야포로 내려가 타르시시로 가는 배를 만나 배 삯을 내고 그 배에 올랐습니다. 그와 함께 타르시시로 가려고, 야훼의 얼굴을 피해 그 배로 내려갔습니다."
+          "text": "그러나 요나는 여호와의 얼굴을 피해 타르시시로 도망하려고 일어났습니다. 그는 야포로 내려가 타르시시로 가는 배를 만나 배 삯을 내고 그 배에 올랐습니다. 그와 함께 타르시시로 가려고, 여호와의 얼굴을 피해 그 배로 내려갔습니다."
         },
         {
           "verse": 4,
-          "text": "야훼께서 큰 바람을 바다에 보내셨습니다. 바다에 큰 폭풍이 일어나 배가 부서질 지경이 되었습니다."
+          "text": "여호와께서 큰 바람을 바다에 보내셨습니다. 바다에 큰 폭풍이 일어나 배가 부서질 지경이 되었습니다."
         },
         {
           "verse": 5,
@@ -65,11 +65,11 @@
         },
         {
           "verse": 9,
-          "text": "그가 그들에게 말했습니다. “나는 히브리 사람입니다. 나는 하늘에 계신 하나님 야훼를 두려워합니다. 그분은 바다와 마른 땅을 만드신 분입니다.”"
+          "text": "그가 그들에게 말했습니다. “나는 히브리 사람입니다. 나는 하늘에 계신 하나님 여호와를 두려워합니다. 그분은 바다와 마른 땅을 만드신 분입니다.”"
         },
         {
           "verse": 10,
-          "text": "그 사람들이 크게 두려워하며 그에게 말했습니다. “당신이 무슨 일을 했소?” 그 사람들이 그가 야훼의 얼굴을 피해 도망하고 있음을 알았기 때문입니다. 그가 그들에게 말했기 때문입니다."
+          "text": "그 사람들이 크게 두려워하며 그에게 말했습니다. “당신이 무슨 일을 했소?” 그 사람들이 그가 여호와의 얼굴을 피해 도망하고 있음을 알았기 때문입니다. 그가 그들에게 말했기 때문입니다."
         },
         {
           "verse": 11,
@@ -85,7 +85,7 @@
         },
         {
           "verse": 14,
-          "text": "그들이 야훼께 부르짖어 말했습니다. “야훼여, 간구합니다. 이 사람의 목숨을 위해 우리가 죽지 않게 해 주십시오. 우리에게 무죄한 피를 돌리지 마십시오. 야훼여, 주께서 기뻐하시는 대로 행하셨습니다.”"
+          "text": "그들이 여호와께 부르짖어 말했습니다. “여호와여, 간구합니다. 이 사람의 목숨을 위해 우리가 죽지 않게 해 주십시오. 우리에게 무죄한 피를 돌리지 마십시오. 여호와여, 주께서 기뻐하시는 대로 행하셨습니다.”"
         },
         {
           "verse": 15,
@@ -93,11 +93,11 @@
         },
         {
           "verse": 16,
-          "text": "그 사람들이 야훼를 크게 두려워하여 야훼께 제사를 드리고 서원을 했습니다."
+          "text": "그 사람들이 여호와를 크게 두려워하여 여호와께 제사를 드리고 서원을 했습니다."
         },
         {
           "verse": 17,
-          "text": "야훼께서 큰 물고기를 예비하여 요나를 삼키게 하셨습니다. 요나는 그 물고기 뱃속에 사흘 밤낮을 있었습니다."
+          "text": "여호와께서 큰 물고기를 예비하여 요나를 삼키게 하셨습니다. 요나는 그 물고기 뱃속에 사흘 밤낮을 있었습니다."
         }
       ]
     },
@@ -151,7 +151,7 @@
       "verses": [
         {
           "verse": 1,
-          "text": "야훼의 말씀이 요나에게 두 번째로 임하여 이르기를,"
+          "text": "여호와의 말씀이 요나에게 두 번째로 임하여 이르기를,"
         },
         {
           "verse": 2,
@@ -159,7 +159,7 @@
         },
         {
           "verse": 3,
-          "text": "요나가 일어나서 야훼의 말씀대로 니느웨로 갔습니다. 니느웨는 하나님 앞에 큰 성이었는데, 사흘 길이나 되는 성이었습니다."
+          "text": "요나가 일어나서 여호와의 말씀대로 니느웨로 갔습니다. 니느웨는 하나님 앞에 큰 성이었는데, 사흘 길이나 되는 성이었습니다."
         },
         {
           "verse": 4,

@@ -5,7 +5,7 @@
   "attribution": "이음성경 · 전문가 검토 전 AI 번역 초안 · https://ieumbible.org/",
   "source": "https://ieumbible.org/",
   "licenseSource": "https://ieumbible.org/",
-  "downloadSource": "https://github.com/hunkim/open-bible/blob/e310c795cf576d54b4f4dc51888c47c4d5348499/public/data/books/ezk.json",
+  "downloadSource": "https://github.com/hunkim/open-bible/blob/e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59/public/data/books/ezk.json",
   "permissions": {
     "display": true,
     "shareCards": true
@@ -13,8 +13,8 @@
   "permissionBasis": "Project owner requested Vible integration and deployment on 2026-11-06; no general public license asserted.",
   "status": "reviewed-ai-draft; specialist review pending",
   "verseNumbering": "source",
-  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
-  "sourceSha256": "fe8c8560992c23cdfe6c8e90c501fbfb89780b284f7970c1baa418454238bfa8",
+  "sourceRevision": "e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59",
+  "sourceSha256": "1df66d481309f309cc94d393a102ff69adcd8e4a84d70f313b6e546bb981fc5c",
   "sourceAttributions": {
     "originalAttribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
     "originalUrl": "https://github.com/openscriptures/morphhb",
@@ -1460,7 +1460,7 @@
         },
         {
           "verse": 30,
-          "text": "“주 야훼가 말합니다. ‘네 마음이 얼마나 약해졌는지 보아라. 네가 이 모든 일, 곧 뻔뻔한 창녀의 일을 저질렀으니,”"
+          "text": "“주 여호와가 말합니다. ‘네 마음이 얼마나 약해졌는지 보아라. 네가 이 모든 일, 곧 뻔뻔한 창녀의 일을 저질렀으니,”"
         },
         {
           "verse": 31,
@@ -1480,11 +1480,11 @@
         },
         {
           "verse": 35,
-          "text": "“그러므로 창녀야, 야훼의 말을 들어라.”"
+          "text": "“그러므로 창녀야, 여호와의 말을 들어라.”"
         },
         {
           "verse": 36,
-          "text": "“주 야훼가 말합니다. ‘네가 연인들을 향한 네 음행으로 네 더러움을 쏟아내고 네 벗은 몸을 드러냈기 때문이며, 네가 그들에게 준 네 자녀들의 피와, 네가 만든 모든 역겨운 우상들, 곧 네 모든 가증한 것 때문이니,”"
+          "text": "“주 여호와가 말합니다. ‘네가 연인들을 향한 네 음행으로 네 더러움을 쏟아내고 네 벗은 몸을 드러냈기 때문이며, 네가 그들에게 준 네 자녀들의 피와, 네가 만든 모든 역겨운 우상들, 곧 네 모든 가증한 것 때문이니,”"
         },
         {
           "verse": 37,
@@ -1512,7 +1512,7 @@
         },
         {
           "verse": 43,
-          "text": "“‘네가 네 젊은 시절의 날들을 기억하지 않고 이 모든 일에서 내게 격분했으므로, 보아라, 나도 네 길을 네 머리에 돌릴 것이다.’ 주 야훼가 말합니다. ‘네가 이 모든 가증한 것들로 이런 방탕을 행하지 못할 것이다.’”"
+          "text": "“‘네가 네 젊은 시절의 날들을 기억하지 않고 이 모든 일에서 내게 격분했으므로, 보아라, 나도 네 길을 네 머리에 돌릴 것이다.’ 주 여호와가 말합니다. ‘네가 이 모든 가증한 것들로 이런 방탕을 행하지 못할 것이다.’”"
         },
         {
           "verse": 44,
@@ -1532,7 +1532,7 @@
         },
         {
           "verse": 48,
-          "text": "“주 야훼가 살아 있음을 두고 맹세한다. ‘네 자매 소돔과 그 딸들도 너와 네 딸들이 한 것처럼 하지는 않았다.’”"
+          "text": "“주 여호와가 살아 있음을 두고 맹세한다. ‘네 자매 소돔과 그 딸들도 너와 네 딸들이 한 것처럼 하지는 않았다.’”"
         },
         {
           "verse": 49,
@@ -4097,7 +4097,7 @@
         },
         {
           "verse": 28,
-          "text": "여러 나라가 내가 야훼인 줄 알 것입니다. 내가 이스라엘을 거룩하게 하는 자임을, 내 성소가 그들 가운데 영원히 있을 때에 알게 될 것입니다."
+          "text": "여러 나라가 내가 여호와인 줄 알 것입니다. 내가 이스라엘을 거룩하게 하는 자임을, 내 성소가 그들 가운데 영원히 있을 때에 알게 될 것입니다."
         }
       ]
     },

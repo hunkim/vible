@@ -5,7 +5,7 @@
   "attribution": "이음성경 · 전문가 검토 전 AI 번역 초안 · https://ieumbible.org/",
   "source": "https://ieumbible.org/",
   "licenseSource": "https://ieumbible.org/",
-  "downloadSource": "https://github.com/hunkim/open-bible/blob/e310c795cf576d54b4f4dc51888c47c4d5348499/public/data/books/jer.json",
+  "downloadSource": "https://github.com/hunkim/open-bible/blob/e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59/public/data/books/jer.json",
   "permissions": {
     "display": true,
     "shareCards": true
@@ -13,8 +13,8 @@
   "permissionBasis": "Project owner requested Vible integration and deployment on 2026-11-06; no general public license asserted.",
   "status": "reviewed-ai-draft; specialist review pending",
   "verseNumbering": "source",
-  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
-  "sourceSha256": "fb9879fa2631fdaaa28bc8572a709f639cea9593a990071bb67d0aa42068e49b",
+  "sourceRevision": "e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59",
+  "sourceSha256": "cefe5718009f37c6bc5e71a1db0915349c231d0005068e5ae1dc319772d7e385",
   "sourceAttributions": {
     "originalAttribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
     "originalUrl": "https://github.com/openscriptures/morphhb",
@@ -4066,11 +4066,11 @@
         },
         {
           "verse": 2,
-          "text": "“야훼께서 이렇게 말씀하신다. ‘이 도시에 머무는 사람은 칼과 굶주림과 전염병으로 죽을 것이다. 그러나 칼데아 사람들에게 나가는 사람은 살 것이다. 그가 목숨을 건지고 살 것이다.’”"
+          "text": "“여호와께서 이렇게 말씀하신다. ‘이 도시에 머무는 사람은 칼과 굶주림과 전염병으로 죽을 것이다. 그러나 칼데아 사람들에게 나가는 사람은 살 것이다. 그가 목숨을 건지고 살 것이다.’”"
         },
         {
           "verse": 3,
-          "text": "“야훼께서 이렇게 말씀하신다. ‘이 도시는 반드시 바빌론 왕의 군대 손에 넘겨져 점령될 것이다.’”"
+          "text": "“여호와께서 이렇게 말씀하신다. ‘이 도시는 반드시 바빌론 왕의 군대 손에 넘겨져 점령될 것이다.’”"
         },
         {
           "verse": 4,
@@ -4114,7 +4114,7 @@
         },
         {
           "verse": 14,
-          "text": "시드기야 왕이 사람을 보내 예언자 예레미야를 불러 야훼의 집에 있는 셋째 문으로 데려왔습니다. 왕이 예레미야에게 말했습니다. “내가 당신에게 묻겠다. 아무것도 숨기지 마라.”"
+          "text": "시드기야 왕이 사람을 보내 예언자 예레미야를 불러 여호와의 집에 있는 셋째 문으로 데려왔습니다. 왕이 예레미야에게 말했습니다. “내가 당신에게 묻겠다. 아무것도 숨기지 마라.”"
         },
         {
           "verse": 15,
@@ -4122,11 +4122,11 @@
         },
         {
           "verse": 16,
-          "text": "시드기야 왕이 예레미야에게 몰래 맹세했습니다. “야훼께서 살아 계시므로, 우리 목숨을 지으신 분이 살아 계시므로, 내가 당신을 죽이지 않겠다. 또 당신을 당신의 목숨을 찾는 이 사람들의 손에 넘기지도 않겠다.”"
+          "text": "시드기야 왕이 예레미야에게 몰래 맹세했습니다. “여호와께서 살아 계시므로, 우리 목숨을 지으신 분이 살아 계시므로, 내가 당신을 죽이지 않겠다. 또 당신을 당신의 목숨을 찾는 이 사람들의 손에 넘기지도 않겠다.”"
         },
         {
           "verse": 17,
-          "text": "예레미야가 시드기야에게 말했습니다. “야훼, 만군의 하나님, 이스라엘의 하나님이 이렇게 말씀하신다. ‘네가 바빌론 왕의 관리들에게 나가면, 네 목숨이 살 것이다. 이 도시가 불에 타지 않을 것이다. 너와 네 집이 살 것이다."
+          "text": "예레미야가 시드기야에게 말했습니다. “여호와, 만군의 하나님, 이스라엘의 하나님이 이렇게 말씀하신다. ‘네가 바빌론 왕의 관리들에게 나가면, 네 목숨이 살 것이다. 이 도시가 불에 타지 않을 것이다. 너와 네 집이 살 것이다."
         },
         {
           "verse": 18,
@@ -4138,11 +4138,11 @@
         },
         {
           "verse": 20,
-          "text": "예레미야가 말했습니다. “그들이 당신을 넘기지 않을 것입니다. 내가 당신에게 말하는 것, 야훼의 목소리를 들으십시오. 그러면 당신에게 좋을 것이고 당신 목숨이 살 것입니다."
+          "text": "예레미야가 말했습니다. “그들이 당신을 넘기지 않을 것입니다. 내가 당신에게 말하는 것, 여호와의 목소리를 들으십시오. 그러면 당신에게 좋을 것이고 당신 목숨이 살 것입니다."
         },
         {
           "verse": 21,
-          "text": "그러나 당신이 나가기를 거부하면, 이것이 야훼께서 나에게 보여 주신 말씀입니다."
+          "text": "그러나 당신이 나가기를 거부하면, 이것이 여호와께서 나에게 보여 주신 말씀입니다."
         },
         {
           "verse": 22,

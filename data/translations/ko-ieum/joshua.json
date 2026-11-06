@@ -5,7 +5,7 @@
   "attribution": "이음성경 · 전문가 검토 전 AI 번역 초안 · https://ieumbible.org/",
   "source": "https://ieumbible.org/",
   "licenseSource": "https://ieumbible.org/",
-  "downloadSource": "https://github.com/hunkim/open-bible/blob/e310c795cf576d54b4f4dc51888c47c4d5348499/public/data/books/jos.json",
+  "downloadSource": "https://github.com/hunkim/open-bible/blob/e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59/public/data/books/jos.json",
   "permissions": {
     "display": true,
     "shareCards": true
@@ -13,8 +13,8 @@
   "permissionBasis": "Project owner requested Vible integration and deployment on 2026-11-06; no general public license asserted.",
   "status": "reviewed-ai-draft; specialist review pending",
   "verseNumbering": "source",
-  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
-  "sourceSha256": "d81c6ea303b713eb3adfe0a6295fa5ac5751ea6b20fbc4cc35ed987a8e7d4892",
+  "sourceRevision": "e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59",
+  "sourceSha256": "454055ea7aefd6a82d61681405aaf9c660c1ee5bd9db5961809bda59d4c101c3",
   "sourceAttributions": {
     "originalAttribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
     "originalUrl": "https://github.com/openscriptures/morphhb",
@@ -570,11 +570,11 @@
         },
         {
           "verse": 26,
-          "text": "그때 여호수아가 그들에게 맹세하며 말했습니다. “야훼 앞에서 저주받을 자는 이 사람입니다. 일어나 이 성 예리코를 다시 건축하는 자는, 맏아들의 죽음으로 그 기초를 놓고, 막내아들의 죽음으로 그 성문을 세울 것입니다.”"
+          "text": "그때 여호수아가 그들에게 맹세하며 말했습니다. “여호와 앞에서 저주받을 자는 이 사람입니다. 일어나 이 성 예리코를 다시 건축하는 자는, 맏아들의 죽음으로 그 기초를 놓고, 막내아들의 죽음으로 그 성문을 세울 것입니다.”"
         },
         {
           "verse": 27,
-          "text": "야훼께서 여호수아와 함께 계셨습니다. 그래서 그의 이름이 온 땅에 알려졌습니다."
+          "text": "여호와께서 여호수아와 함께 계셨습니다. 그래서 그의 이름이 온 땅에 알려졌습니다."
         }
       ]
     },

@@ -5,7 +5,7 @@
   "attribution": "이음성경 · 전문가 검토 전 AI 번역 초안 · https://ieumbible.org/",
   "source": "https://ieumbible.org/",
   "licenseSource": "https://ieumbible.org/",
-  "downloadSource": "https://github.com/hunkim/open-bible/blob/e310c795cf576d54b4f4dc51888c47c4d5348499/public/data/books/isa.json",
+  "downloadSource": "https://github.com/hunkim/open-bible/blob/e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59/public/data/books/isa.json",
   "permissions": {
     "display": true,
     "shareCards": true
@@ -13,8 +13,8 @@
   "permissionBasis": "Project owner requested Vible integration and deployment on 2026-11-06; no general public license asserted.",
   "status": "reviewed-ai-draft; specialist review pending",
   "verseNumbering": "source",
-  "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
-  "sourceSha256": "a5a1ec4606b37fd97ecef85fcc7000e3bd195d3cc5cb0ee12ef8a464d17eec6c",
+  "sourceRevision": "e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59",
+  "sourceSha256": "ab1a70de94d1fe2713ee1ff1b918effb1fb76860f4b6e669db1e455967380123",
   "sourceAttributions": {
     "originalAttribution": "Original work of the Open Scriptures Hebrew Bible available at https://github.com/openscriptures/morphhb",
     "originalUrl": "https://github.com/openscriptures/morphhb",
@@ -1138,7 +1138,7 @@
         },
         {
           "verse": 2,
-          "text": "보십시오. 하나님이 나의 구원이십니다. 내가 의지하고 두려워하지 않을 것입니다. 야, 주님께서 나의 힘이시며 나의 노래이시고, 나에게 구원이 되셨기 때문입니다.”"
+          "text": "보십시오. 하나님이 나의 구원이십니다. 내가 의지하고 두려워하지 않을 것입니다. 여호와, 주님께서 나의 힘이시며 나의 노래이시고, 나에게 구원이 되셨기 때문입니다.”"
         },
         {
           "verse": 3,
@@ -3620,11 +3620,11 @@
         },
         {
           "verse": 5,
-          "text": "하늘을 창조하시고 그것을 펼치신 분, 땅을 펴시고 그 위에서 나는 것을 만드신 분, 그 백성에게 숨을 주시고 그 안에서 걷는 자에게 영을 주신 분, 하나님 야웨께서 말씀하십니다."
+          "text": "하늘을 창조하시고 그것을 펼치신 분, 땅을 펴시고 그 위에서 나는 것을 만드신 분, 그 백성에게 숨을 주시고 그 안에서 걷는 자에게 영을 주신 분, 하나님 여호와께서 말씀하십니다."
         },
         {
           "verse": 6,
-          "text": "나 야웨가 너를 정의로 불렀습니다. 내가 네 손을 붙잡고 너를 지키며 너를 백성의 언약으로, 민족들을 위한 빛으로 삼겠습니다."
+          "text": "나 여호와가 너를 정의로 불렀습니다. 내가 네 손을 붙잡고 너를 지키며 너를 백성의 언약으로, 민족들을 위한 빛으로 삼겠습니다."
         },
         {
           "verse": 7,
@@ -3632,7 +3632,7 @@
         },
         {
           "verse": 8,
-          "text": "나 야웨입니다. 그것이 내 이름입니다. 내가 내 영광을 다른 자에게 주지 않고, 내 찬양을 새긴 우상들에게 주지 않을 것입니다."
+          "text": "나 여호와입니다. 그것이 내 이름입니다. 내가 내 영광을 다른 자에게 주지 않고, 내 찬양을 새긴 우상들에게 주지 않을 것입니다."
         },
         {
           "verse": 9,
@@ -3640,7 +3640,7 @@
         },
         {
           "verse": 10,
-          "text": "야웨께 새 노래를 부르십시오. 그의 찬양을 땅 끝에서 전하십시오. 바다로 내려가는 자들, 그 안에 있는 모든 것, 섬들과 그 주민들도 노래하십시오."
+          "text": "여호와께 새 노래를 부르십시오. 그의 찬양을 땅 끝에서 전하십시오. 바다로 내려가는 자들, 그 안에 있는 모든 것, 섬들과 그 주민들도 노래하십시오."
         },
         {
           "verse": 11,
@@ -3648,11 +3648,11 @@
         },
         {
           "verse": 12,
-          "text": "그들이 야웨께 영광을 돌리고, 섬들에서 그의 찬양을 전하게 하십시오."
+          "text": "그들이 여호와께 영광을 돌리고, 섬들에서 그의 찬양을 전하게 하십시오."
         },
         {
           "verse": 13,
-          "text": "야웨께서 용사처럼 나가십니다. 전사처럼 질투를 일으키시고, 외치시며, 크게 소리치시고, 원수들을 이기실 것입니다."
+          "text": "여호와께서 용사처럼 나가십니다. 전사처럼 질투를 일으키시고, 외치시며, 크게 소리치시고, 원수들을 이기실 것입니다."
         },
         {
           "verse": 14,
@@ -3676,7 +3676,7 @@
         },
         {
           "verse": 19,
-          "text": "누가 눈 멀었습니까? 나의 종이 아니고서야. 누가 내 사자, 내가 보내는 자만큼 귀 먹었습니까? 누가 평안한 자만큼 눈 멀었습니까? 누가 야웨의 종만큼 눈 멀었습니까?"
+          "text": "누가 눈 멀었습니까? 나의 종이 아니고서야. 누가 내 사자, 내가 보내는 자만큼 귀 먹었습니까? 누가 평안한 자만큼 눈 멀었습니까? 누가 여호와의 종만큼 눈 멀었습니까?"
         },
         {
           "verse": 20,
@@ -3684,7 +3684,7 @@
         },
         {
           "verse": 21,
-          "text": "야웨께서 그의 의를 위하여 기뻐하셔서, 율법을 크게 하고 존귀하게 하셨습니다."
+          "text": "여호와께서 그의 의를 위하여 기뻐하셔서, 율법을 크게 하고 존귀하게 하셨습니다."
         },
         {
           "verse": 22,
@@ -3696,7 +3696,7 @@
         },
         {
           "verse": 24,
-          "text": "누가 야곱을 노략물로, 이스라엘을 약탈자들에게 넘겨주었습니까? 우리가 죄를 지은 그분, 야웨가 아니십니까? 그들이 그의 길로 걷지 않았고, 그의 율법을 순종하지 않았기 때문입니다."
+          "text": "누가 야곱을 노략물로, 이스라엘을 약탈자들에게 넘겨주었습니까? 우리가 죄를 지은 그분, 여호와가 아니십니까? 그들이 그의 길로 걷지 않았고, 그의 율법을 순종하지 않았기 때문입니다."
         },
         {
           "verse": 25,
