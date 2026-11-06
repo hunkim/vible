@@ -1,8 +1,8 @@
 {
   "date": "2026-11-06",
   "production": "https://vible.now",
-  "deployment": "https://vible-c6xhz5b61-hunkims-projects.vercel.app",
-  "deploymentId": "dpl_BHocwMj2UrdWPRN3u6BrTyNiPQfz",
+  "deployment": "https://vible-egqu8agvt-hunkims-projects.vercel.app",
+  "deploymentId": "dpl_EtbSNqToGCy2DAHpqDfCoprg84wH",
   "newImageFiles": 0,
   "releasedImages": {
     "leviticus": 236,
@@ -133,15 +133,15 @@
   },
   "testPolicy": "For future image-only releases, targeted changed-book preservation, image URL and reader/share checks; full suite for code/translation changes or failures.",
   "completedTorahImages": 1461,
-  "gitCommit": "2b8085d386ae95d85ecef37a282300554f4246ac",
+  "gitCommit": "2b0b58c1d1d179af86e1896a3ba0b66e959b6911",
   "lastApplicationQA": "review/share-language-fix-live-audit.json",
   "latestImageReplacement": {
     "reference": "Psalm 150:6",
     "image": "psalms-c150-v006-006-right-context-finale-v4.jpg",
     "sha256": "0738acb4b0c5414ebd3a3a164fea69b3fbe72731b40119f41946a2445762e74a"
   },
-  "frozenSource": "/private/tmp/vible-release-2b8085d386ae95d85ecef37a282300554f4246ac",
-  "sourceCommit": "2b8085d386ae95d85ecef37a282300554f4246ac",
+  "frozenSource": "/private/tmp/vible-release-2b0b58c1d1d179af86e1896a3ba0b66e959b6911",
+  "sourceCommit": "2b0b58c1d1d179af86e1896a3ba0b66e959b6911",
   "latestFeedbackRelease": {
     "date": "2026-10-30",
     "correctedImages": 9,
@@ -307,17 +307,17 @@
   },
   "previousRelease": {
     "date": "2026-11-06",
-    "deployment": "https://vible-mb432cpvg-hunkims-projects.vercel.app",
-    "deploymentId": "dpl_HGiCWHo956xj8GzS75iBt4H6evue",
-    "sourceCommit": "0c05bb1f13ce9e700fe5c5ebe78d5298958bac53",
-    "gitCommit": "0c05bb1f13ce9e700fe5c5ebe78d5298958bac53",
+    "deployment": "https://vible-c6xhz5b61-hunkims-projects.vercel.app",
+    "deploymentId": "dpl_BHocwMj2UrdWPRN3u6BrTyNiPQfz",
+    "sourceCommit": "2b8085d386ae95d85ecef37a282300554f4246ac",
+    "gitCommit": "2b8085d386ae95d85ecef37a282300554f4246ac",
     "newImageFiles": 0
   },
   "ieumKorean": {
     "default": "ieum",
     "source": "https://ieumbible.org/",
     "sourceRepository": "hunkim/open-bible",
-    "sourceRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
+    "sourceRevision": "e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59",
     "books": 66,
     "chapters": 1189,
     "verses": 31104,
@@ -334,7 +334,21 @@
       "adminFeedback": "authentication 401 retained",
       "productionSource": "release.json SHA and deployment ID match"
     },
-    "verifiedAt": "2026-11-06T01:42:28.026591+00:00"
+    "verifiedAt": "2026-11-06T14:12:28.185072+00:00",
+    "latestSync": {
+      "previousRevision": "e310c795cf576d54b4f4dc51888c47c4d5348499",
+      "sourceRevision": "e2cc68a59ea5a1d6a1307cac542fbff22c6ebb59",
+      "changedBooks": 13,
+      "changedVerses": 298,
+      "totalVerses": 31104,
+      "imagesAndOtherLanguages": "unchanged",
+      "checks": {
+        "frozen": "npm run check and node check-offline.mjs passed in Git archive",
+        "publicBooks": "66 exact JSON matches; all 298 updated verses verified",
+        "sharing": "Psalms and Exodus updated text, changed card version URLs and 1200x675 PNGs verified",
+        "browser": "Psalms 8:1 new wording and new-wording search results verified"
+      }
+    }
   },
   "ieumSourceIcon": {
     "label": "이음성경 ⓘ",
